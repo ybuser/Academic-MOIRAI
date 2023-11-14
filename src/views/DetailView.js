@@ -6,6 +6,9 @@ import styled from 'styled-components';
 const philosophers = [
   {
     "name": "Immanuel Kant",
+    "country": "Prussia",
+    "birth": "1724-04-22",
+    "death": "1804-02-12",
     "keyIdeas": [
       "Categorical imperative",
       "Universal moral principle",
@@ -14,8 +17,6 @@ const philosophers = [
     "historicalContext": [
       "18th-century Enlightenment"
     ],
-    "birth": "1724-04-22",
-    "death": "1804-02-12",
     "relationships": [
       { "name": "David Hume", "relationshipStrength": 90, "relationshipType": "influenced by" },
       { "name": "Georg Wilhelm Friedrich Hegel", "relationshipStrength": 75, "relationshipType": "influenced" },
@@ -29,6 +30,9 @@ const philosophers = [
   },
   {
     "name": "David Hume",
+    "country": "Scotland",
+    "birth": "1711-05-07",
+    "death": "1776-08-25",
     "keyIdeas": [
       "Empiricism",
       "Skepticism",
@@ -37,8 +41,6 @@ const philosophers = [
     "historicalContext": [
       "Scottish Enlightenment"
     ],
-    "birth": "1711-05-07",
-    "death": "1776-08-25",
     "relationships": [
       { "name": "Immanuel Kant", "relationshipStrength": 85, "relationshipType": "influenced" },
       { "name": "Jean-Jacques Rousseau", "relationshipStrength": 65, "relationshipType": "contemporaries" }
@@ -46,6 +48,9 @@ const philosophers = [
   },
   {
     "name": "Friedrich Nietzsche",
+    "country": "Germany",
+    "birth": "1844-10-15",
+    "death": "1900-08-25",
     "keyIdeas": [
       "Existentialism",
       "Nihilism",
@@ -54,8 +59,6 @@ const philosophers = [
     "historicalContext": [
       "19th-century philosophy"
     ],
-    "birth": "1844-10-15",
-    "death": "1900-08-25",
     "relationships": [
       { "name": "Arthur Schopenhauer", "relationshipStrength": 80, "relationshipType": "influenced by" },
       { "name": "Søren Kierkegaard", "relationshipStrength": 70, "relationshipType": "shared ideas" }
@@ -63,6 +66,9 @@ const philosophers = [
   },
   {
     "name": "Jean-Paul Sartre",
+    "country": "France",
+    "birth": "1905-06-21",
+    "death": "1980-04-15",
     "keyIdeas": [
       "Existentialism",
       "Phenomenology",
@@ -71,8 +77,6 @@ const philosophers = [
     "historicalContext": [
       "20th-century philosophy"
     ],
-    "birth": "1905-06-21",
-    "death": "1980-04-15",
     "relationships": [
       { "name": "Simone de Beauvoir", "relationshipStrength": 90, "relationshipType": "partner" },
       { "name": "Albert Camus", "relationshipStrength": 75, "relationshipType": "contemporaries" }
@@ -80,6 +84,9 @@ const philosophers = [
   },
   {
     "name": "Simone de Beauvoir",
+    "country": "France",
+    "birth": "1908-01-09",
+    "death": "1986-04-15",
     "keyIdeas": [
       "Feminist existentialism",
       "Ethics of ambiguity"
@@ -87,8 +94,6 @@ const philosophers = [
     "historicalContext": [
       "20th-century philosophy"
     ],
-    "birth": "1908-01-09",
-    "death": "1986-04-15",
     "relationships": [
       { "name": "Jean-Paul Sartre", "relationshipStrength": 90, "relationshipType": "partner" },
       { "name": "Friedrich Nietzsche", "relationshipStrength": 65, "relationshipType": "influenced by" }
