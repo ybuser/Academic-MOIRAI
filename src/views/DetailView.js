@@ -48,6 +48,8 @@ const DetailView = ({className}) => {
       }));
 
       const svg = d3.select(d3Container.current)
+        .attr('width', 800)
+        .attr('height', 600);
       svg.selectAll("*").remove(); // Clear SVG to avoid duplication
   
       // Set up the simulation
