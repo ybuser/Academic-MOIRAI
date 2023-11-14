@@ -19,7 +19,7 @@ const Container = styled.div`
   height: 100vh;
 
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr;
   grid-template-areas:
       "main main main"
       "content1 content2 content2";
