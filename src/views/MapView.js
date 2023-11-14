@@ -39,7 +39,6 @@ const MapView = ({className}) => {
         center={defaultCenter}
         zoom={2}
       >
-        {console.log("philosophers is ", philosophers)}
         {philosophers.map((philosopher, idx) => (
           <Marker 
             key={idx} 
