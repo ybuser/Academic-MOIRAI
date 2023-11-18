@@ -44,7 +44,8 @@ const DetailView = ({className}) => {
 
       const links = selectedPhilosopher.relationships.map(r => ({
         source: selectedPhilosopher.name,
-        target: r.name
+        target: r.name,
+        strength: r.relationshipStrength
       }));
 
       const svg = d3.select(d3Container.current)
@@ -56,14 +57,14 @@ const DetailView = ({className}) => {
       const simulation = d3.forceSimulation(nodes)
         .force("link", d3.forceLink(links).id(d => d.name))
         .force("charge", d3.forceManyBody())
-        .force("center", d3.forceCenter(100, 300)); // Adjust center based on SVG size
+        .force("center", d3.forceCenter(100, 300));
   
       // Render links (lines)
       const link = svg.append("g")
         .selectAll("line")
         .data(links)
         .join("line")
-        .attr("stroke-width", 2)
+        .attr("stroke-width", d => d.strength / 10) // Scale the strength value as needed
         .attr("stroke", "#999");
   
       // Render nodes (circles)
