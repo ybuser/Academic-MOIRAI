@@ -44,61 +44,70 @@ const DetailView = ({className}) => {
 
       const links = selectedPhilosopher.relationships.map(r => ({
         source: selectedPhilosopher.name,
-        target: r.name
+        target: r.name,
+        strength: r.relationshipStrength
       }));
 
       const svg = d3.select(d3Container.current)
         .attr('width', 800)
         .attr('height', 600);
       svg.selectAll("*").remove(); // Clear SVG to avoid duplication
-  
-      // Set up the simulation
-      const simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.name))
-        .force("charge", d3.forceManyBody())
-        .force("center", d3.forceCenter(100, 300)); // Adjust center based on SVG size
-  
-      // Render links (lines)
+
+      // Render links (lines) first
       const link = svg.append("g")
         .selectAll("line")
         .data(links)
         .join("line")
-        .attr("stroke-width", 2)
+        .attr("stroke-width", d => d.strength / 10)
         .attr("stroke", "#999");
-  
-      // Render nodes (circles)
-      const node = svg.append("g")
-        .selectAll("circle")
-        .data(nodes)
-        .join("circle")
-        .attr("r", 5) // Radius of the circle
-        .attr("fill", "blue"); // Change as needed
 
-      // Render labels (text)
-      const labels = svg.append("g")
-      .attr("class", "labels")
-      .selectAll("text")
-      .data(nodes)
-      .enter().append("text")
-        .attr("dx", 12)
-        .attr("dy", ".35em")
+      // Add a group for each node which will contain the rectangle and the text
+      const nodeGroup = svg.append("g")
+        .selectAll("g")
+        .data(nodes)
+        .enter().append("g");
+
+      // First add the text so we can compute the bounding box and thus the width of the rectangle
+      const labels = nodeGroup.append("text")
+        .attr("text-anchor", "middle")
+        .attr("alignment-baseline", "central")
+        .style("font-size", "10px")
         .text(d => d.name);
 
-      // Define the tick function for the simulation
-      simulation.on("tick", () => {
-        link
-          .attr("x1", d => d.source.x)
-          .attr("y1", d => d.source.y)
-          .attr("x2", d => d.target.x)
-          .attr("y2", d => d.target.y);
+      // Use a small timeout to allow the browser to render the text and calculate the bounding boxes
+      setTimeout(() => {
+        labels.each(function(d) {
+          const bbox = this.getBBox();
+          d.width = bbox.width + 8; // Add some padding
+          d.height = bbox.height + 4; // Add some padding
+        });
 
-        node
-          .attr("cx", d => d.x)
-          .attr("cy", d => d.y);
+        // Now add the rectangles with the computed width
+        const node = nodeGroup.insert("rect", "text")
+          .attr("fill", "white")
+          .attr("stroke", "black")
+          .attr("width", d => d.width)
+          .attr("height", d => d.height)
+          .attr("x", d => -d.width / 2)
+          .attr("y", d => -d.height / 2);
+        
+        // Set up the simulation
+        const simulation = d3.forceSimulation(nodes)
+          .force("link", d3.forceLink(links).id(d => d.name).distance(100)) // Set a fixed distance between nodes
+          .force("charge", d3.forceManyBody().strength(-200)) // Repel nodes from each other
+          .force("center", d3.forceCenter(200, 300)); 
+        
+        // Define the tick function for the simulation
+        simulation.on("tick", () => {
+          link
+            .attr("x1", d => d.source.x)
+            .attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x)
+            .attr("y2", d => d.target.y);
 
-          labels
-          .attr("x", d => d.x)
-          .attr("y", d => d.y);
+          nodeGroup
+          .attr("transform", d => `translate(${d.x},${d.y})`);
+        });
       });
     }
   }, []); // Dependency array

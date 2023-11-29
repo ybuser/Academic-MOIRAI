@@ -2,6 +2,7 @@ import styled, {ThemeProvider} from 'styled-components'
 import TimelineView from './views/TimelineView'
 import MapView from './views/MapView'
 import DetailView from './views/DetailView'
+import React from 'react'
 
 const baseTheme = {
   background: '#fff',
