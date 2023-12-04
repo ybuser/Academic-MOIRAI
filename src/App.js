@@ -19,7 +19,7 @@ const Container = styled.div`
   display: grid;
   height: 100vh;
 
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1.5fr;
   grid-template-columns: 1.5fr 1fr 1fr;
   grid-template-areas:
       "main main main"
@@ -28,23 +28,30 @@ const Container = styled.div`
   grid-gap: 2rem;
 `
 
-const TimelineWrapper = styled.div`
+const SubTitle = styled.div`
+  text-align: left;
+  font-weight: bold;
+`
+
+const Wrapper = styled.div`
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #b1c8de; 
+  border-radius: 2px;
+  max-height: 100%;
+`
+
+const TimelineContainer = styled.div`
   grid-area: main;
-  padding: 0.25rem;
-  align-items: center;
-  justify-content: center;
+  max-height: 50vh;
 `
-const MapWrapper = styled.div`
+const MapContainer = styled.div`
   grid-area: content1;
-  padding: 0.25rem;
-  align-items: center;
-  justify-content: center;
+  max-height: 50vh;
 `
-const DetailWrapper = styled.div`
+const DetailContainer = styled.div`
   grid-area: content2;
-  padding: 0.25rem;
-  align-items: center;
-  justify-content: center;
+  max-height: 50vh;
 `
 
 function App() {
@@ -52,17 +59,32 @@ function App() {
     <ThemeProvider theme={baseTheme}>
       <Container>
         {/* <H1> Academic MOIRAI </H1> */}
-        <TimelineWrapper>
-          <TimelineView/>
-        </TimelineWrapper>
+        <TimelineContainer>
+          <SubTitle>
+          Timeline View
+          </SubTitle>
+          <Wrapper>
+            <TimelineView/>
+          </Wrapper>
+        </TimelineContainer>
 
-        <MapWrapper>
-          <MapView/>
-        </MapWrapper>
+        <MapContainer>
+          <SubTitle>
+            Map View
+          </SubTitle>
+          {/* <Wrapper> */}
+            <MapView/>
+          {/* </Wrapper> */}
+        </MapContainer>
 
-        <DetailWrapper>
-          <DetailView/>
-        </DetailWrapper>
+        <DetailContainer>
+          <SubTitle>
+            Detail View
+          </SubTitle>
+          <Wrapper>
+            <DetailView/>
+          </Wrapper>
+        </DetailContainer>
       </Container>
     </ThemeProvider>
   );

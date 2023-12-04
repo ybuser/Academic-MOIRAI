@@ -49,7 +49,6 @@ const TimelineView = ({className}) => {
   
   return (
     <div className={className}>
-      <h2>Timeline View</h2>
       <Timeline
         options={options}
         items={itemsData}
