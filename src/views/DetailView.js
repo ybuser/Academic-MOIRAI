@@ -19,15 +19,16 @@ const InfoWrapper = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   padding: 1rem;
+  max-height:100%;
 `;
 
 const GraphWrapper = styled.div`
   flex: 1;
-  max-width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 50%;
+  max-height:100%;
 `;
 
 const DetailView = ({className}) => {
@@ -49,8 +50,9 @@ const DetailView = ({className}) => {
       }));
 
       const svg = d3.select(d3Container.current)
-        .attr('width', 800)
-        .attr('height', 600);
+        .attr('viewBox', '0 0 600 450') // Adjust viewBox to slightly larger dimensions
+        .attr('preserveAspectRatio', 'xMinYMin meet');
+
       svg.selectAll("*").remove(); // Clear SVG to avoid duplication
 
       // Render links (lines) first
@@ -78,8 +80,8 @@ const DetailView = ({className}) => {
       setTimeout(() => {
         labels.each(function(d) {
           const bbox = this.getBBox();
-          d.width = bbox.width + 8; // Add some padding
-          d.height = bbox.height + 4; // Add some padding
+          d.width = bbox.width + 16; // Add some padding
+          d.height = bbox.height + 8; // Add some padding
         });
 
         // Now add the rectangles with the computed width
@@ -93,9 +95,10 @@ const DetailView = ({className}) => {
         
         // Set up the simulation
         const simulation = d3.forceSimulation(nodes)
-          .force("link", d3.forceLink(links).id(d => d.name).distance(100)) // Set a fixed distance between nodes
-          .force("charge", d3.forceManyBody().strength(-200)) // Repel nodes from each other
-          .force("center", d3.forceCenter(200, 300)); 
+          .force("link", d3.forceLink(links).id(d => d.name).distance(100)) // Slightly longer distance between nodes
+          .force("charge", d3.forceManyBody().strength(-150)) // Slightly stronger repel strength
+          .force("center", d3.forceCenter(350, 200)); // Adjust the center point
+
         
         // Define the tick function for the simulation
         simulation.on("tick", () => {

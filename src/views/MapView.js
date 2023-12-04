@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import Loading from '../components/Loading';
 import philosophers from '../data/philosophers.json';
 
-
 const StyledMap = styled.div`
   height: 100%;
   width: 100%;
