@@ -3,6 +3,8 @@ import TimelineView from './views/TimelineView'
 import MapView from './views/MapView'
 import DetailView from './views/DetailView'
 import React from 'react'
+import importedData from './data/sample_data.json';
+import relationships from './data/relationships.json';
 
 const baseTheme = {
   background: '#fff',
@@ -64,7 +66,10 @@ function App() {
           Timeline View
           </SubTitle>
           <Wrapper>
-            <TimelineView/>
+            <TimelineView
+              data={importedData}
+              relationships={relationships}
+            />
           </Wrapper>
         </TimelineContainer>
 
