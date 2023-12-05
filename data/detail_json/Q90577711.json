@@ -1,1 +1,1 @@
-{"id": "Q90577711", "name": "Astruc Cresques", "dateOfBirth": {"0": "+1301-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": "Crown of Aragon"}, "occupation": {"0": "poet", "1": "philosopher"}}
+{"id": "Q90577711", "name": "Astruc Cresques", "dateOfBirth": {"0": "+1301-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": "Crown of Aragon"}, "occupation": {"0": "poet", "1": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q982170", "name": "Shlomo ben Aderet"}}}}

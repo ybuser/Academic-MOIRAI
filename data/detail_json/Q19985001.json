@@ -1,1 +1,1 @@
-{"id": "Q19985001", "name": "Giovanni Nesi", "dateOfBirth": {"0": "+1456-01-14T00:00:00Z"}, "dateOfDeath": {"0": "+1506-12-15T00:00:00Z"}, "occupation": {"0": "philosopher"}}
+{"id": "Q19985001", "name": "Giovanni Nesi", "dateOfBirth": {"0": "+1456-01-14T00:00:00Z"}, "dateOfDeath": {"0": "+1506-12-15T00:00:00Z"}, "occupation": {"0": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q1240697", "name": "Donato Acciaioli"}}}}

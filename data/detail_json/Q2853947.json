@@ -1,1 +1,1 @@
-{"id": "Q2853947", "name": "Antoine Fouquelin", "dateOfDeath": {"0": "+1561-01-01T00:00:00Z"}, "countryOfCitizenship": {"0": "France"}, "occupation": {"0": "Hofmeister", "1": "philosopher", "2": "jurist"}}
+{"id": "Q2853947", "name": "Antoine Fouquelin", "dateOfDeath": {"0": "+1561-01-01T00:00:00Z"}, "countryOfCitizenship": {"0": "France"}, "occupation": {"0": "Hofmeister", "1": "philosopher", "2": "jurist"}, "edges": {"studentOf": {"0": {"id": "Q376124", "name": "Petrus Ramus"}}}}

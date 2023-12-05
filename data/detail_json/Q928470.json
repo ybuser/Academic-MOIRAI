@@ -1,1 +1,1 @@
-{"id": "Q928470", "name": "Simmias of Thebes", "countryOfCitizenship": {"0": "Thebes"}, "occupation": {"0": "philosopher", "1": "mathematician"}, "dateOfBirth": {"0": "-0500-01-01T00:00:00Z"}, "dateOfDeath": {"0": "-0400-01-01T00:00:00Z"}}
+{"id": "Q928470", "name": "Simmias of Thebes", "countryOfCitizenship": {"0": "Thebes"}, "occupation": {"0": "philosopher", "1": "mathematician"}, "dateOfBirth": {"0": "-0500-01-01T00:00:00Z"}, "dateOfDeath": {"0": "-0400-01-01T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q913", "name": "Socrates"}}}}

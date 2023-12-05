@@ -1,1 +1,1 @@
-{"id": "Q5816906", "name": "Echecles of Ephesus", "occupation": {"0": "philosopher"}, "movement": {"0": "cynicism"}}
+{"id": "Q5816906", "name": "Echecles of Ephesus", "occupation": {"0": "philosopher"}, "movement": {"0": "cynicism"}, "edges": {"student": {"0": {"id": "Q925732", "name": "Menedemus the Cynic"}}, "studentOf": {"0": {"id": "Q437332", "name": "Cleomenes the Cynic"}}}}

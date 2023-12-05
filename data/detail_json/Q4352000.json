@@ -1,1 +1,1 @@
-{"id": "Q4352000", "name": "Jason of Nysa", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "-0100-00-00T00:00:00Z"}, "timePeriod": {"0": "Hellenistic period"}, "dateOfDeath": {"0": "-0060-00-00T00:00:00Z"}}
+{"id": "Q4352000", "name": "Jason of Nysa", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "-0100-00-00T00:00:00Z"}, "timePeriod": {"0": "Hellenistic period"}, "dateOfDeath": {"0": "-0060-00-00T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q185770", "name": "Posidonius"}}}}

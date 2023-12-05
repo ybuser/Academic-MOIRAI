@@ -1,1 +1,1 @@
-{"id": "Q3134245", "name": "Hermodamas", "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "Samos"}}
+{"id": "Q3134245", "name": "Hermodamas", "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "Samos"}, "edges": {"student": {"0": {"id": "Q10261", "name": "Pythagoras"}}}}

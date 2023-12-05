@@ -1,1 +1,1 @@
-{"id": "Q18642925", "name": "Pythocles", "occupation": {"0": "philosopher"}, "movement": {"0": "Epicureanism"}}
+{"id": "Q18642925", "name": "Pythocles", "occupation": {"0": "philosopher"}, "movement": {"0": "Epicureanism"}, "edges": {"studentOf": {"0": {"id": "Q43216", "name": "Epicurus"}}}}

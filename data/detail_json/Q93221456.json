@@ -1,1 +1,1 @@
-{"id": "Q93221456", "name": "Blaise Bachofen", "dateOfBirth": {"0": "+1967-00-00T00:00:00Z"}, "occupation": {"0": "philosopher"}}
+{"id": "Q93221456", "name": "Blaise Bachofen", "dateOfBirth": {"0": "+1967-00-00T00:00:00Z"}, "occupation": {"0": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q3312923", "name": "Miguel Abensour"}}}}

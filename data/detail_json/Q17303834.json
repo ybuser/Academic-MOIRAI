@@ -1,1 +1,1 @@
-{"id": "Q17303834", "name": "Ibn al-Khammar", "dateOfBirth": {"0": "+0942-11-01T00:00:00Z", "1": "+0942-01-01T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "physician", "2": "translator", "3": "writer"}}
+{"id": "Q17303834", "name": "Ibn al-Khammar", "dateOfBirth": {"0": "+0942-11-01T00:00:00Z", "1": "+0942-01-01T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "physician", "2": "translator", "3": "writer"}, "edges": {"studentOf": {"0": {"id": "Q3571334", "name": "Yahya ibn Adi"}}}}

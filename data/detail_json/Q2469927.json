@@ -1,1 +1,1 @@
-{"id": "Q2469927", "name": "Jacques Garelli", "dateOfBirth": {"0": "+1931-06-02T00:00:00Z"}, "countryOfCitizenship": {"0": "France"}, "occupation": {"0": "poet", "1": "philosopher"}, "dateOfDeath": {"0": "+2014-12-24T00:00:00Z"}}
+{"id": "Q2469927", "name": "Jacques Garelli", "dateOfBirth": {"0": "+1931-06-02T00:00:00Z"}, "countryOfCitizenship": {"0": "France"}, "occupation": {"0": "poet", "1": "philosopher"}, "dateOfDeath": {"0": "+2014-12-24T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q192066", "name": "Paul Ric\u0153ur"}}}}

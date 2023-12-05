@@ -1,1 +1,1 @@
-{"id": "Q95167679", "name": "Michaela Fi\u0161erov\u00e1", "dateOfBirth": {"0": "+1980-03-26T00:00:00Z"}, "occupation": {"0": "philosopher"}}
+{"id": "Q95167679", "name": "Michaela Fi\u0161erov\u00e1", "dateOfBirth": {"0": "+1980-03-26T00:00:00Z"}, "occupation": {"0": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q3592370", "name": "\u00c9tienne Tassin"}}}}

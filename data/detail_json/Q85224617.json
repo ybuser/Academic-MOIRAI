@@ -1,1 +1,1 @@
-{"id": "Q85224617", "name": "Colas Duflo", "dateOfBirth": {"0": "+1968-01-01T00:00:00Z"}, "doctralStudent": {"0": "Renan Larue"}, "occupation": {"0": "professor", "1": "university teacher"}, "fieldOfWork": {"0": "literature", "1": "philosophy"}}
+{"id": "Q85224617", "name": "Colas Duflo", "dateOfBirth": {"0": "+1968-01-01T00:00:00Z"}, "doctralStudent": {"0": "Renan Larue"}, "occupation": {"0": "professor", "1": "university teacher"}, "fieldOfWork": {"0": "literature", "1": "philosophy"}, "edges": {"student": {"0": {"id": "Q16532165", "name": "Benoit Caudoux"}}}}

@@ -1,1 +1,1 @@
-{"id": "Q107291579", "name": "Lysimachus", "occupation": {"0": "philosopher"}, "movement": {"0": "stoicism"}}
+{"id": "Q107291579", "name": "Lysimachus", "occupation": {"0": "philosopher"}, "movement": {"0": "stoicism"}, "edges": {"student": {"0": {"id": "Q248624", "name": "Amelius"}}}}

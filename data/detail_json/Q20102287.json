@@ -1,1 +1,1 @@
-{"id": "Q20102287", "name": "Zenon of Sidon", "occupation": {"0": "philosopher", "1": "historian"}, "movement": {"0": "stoicism"}}
+{"id": "Q20102287", "name": "Zenon of Sidon", "occupation": {"0": "philosopher", "1": "historian"}, "movement": {"0": "stoicism"}, "edges": {"studentOf": {"0": {"id": "Q715478", "name": "Diodorus Cronus"}, "1": {"id": "Q171303", "name": "Zeno of Citium"}}}}

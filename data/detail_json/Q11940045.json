@@ -1,1 +1,1 @@
-{"id": "Q11940045", "name": "Panaretos", "occupation": {"0": "philosopher"}, "timePeriod": {"0": "Hellenistic Greece"}}
+{"id": "Q11940045", "name": "Panaretos", "occupation": {"0": "philosopher"}, "timePeriod": {"0": "Hellenistic Greece"}, "edges": {"studentOf": {"0": {"id": "Q73527", "name": "Arcesilaus"}}}}

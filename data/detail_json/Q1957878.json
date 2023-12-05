@@ -1,1 +1,1 @@
-{"id": "Q1957878", "name": "Ephrem Mtsire", "occupation": {"0": "linguist", "1": "philosopher"}, "dateOfDeath": {"0": "+1101-01-18T00:00:00Z"}, "fieldOfWork": {"0": "philosophy"}, "dateOfBirth": {"0": "+1001-00-00T00:00:00Z"}}
+{"id": "Q1957878", "name": "Ephrem Mtsire", "occupation": {"0": "linguist", "1": "philosopher"}, "dateOfDeath": {"0": "+1101-01-18T00:00:00Z"}, "fieldOfWork": {"0": "philosophy"}, "dateOfBirth": {"0": "+1001-00-00T00:00:00Z"}, "edges": {"student": {"0": {"id": "Q4026982", "name": "Arsen Iqaltoeli"}}}}

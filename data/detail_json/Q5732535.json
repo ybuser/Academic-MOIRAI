@@ -1,1 +1,1 @@
-{"id": "Q5732535", "name": "Heraclides of Aenus", "timePeriod": {"0": "Hellenistic period"}, "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "-0350-00-00T00:00:00Z"}, "dateOfDeath": {"0": "-0400-00-00T00:00:00Z"}}
+{"id": "Q5732535", "name": "Heraclides of Aenus", "timePeriod": {"0": "Hellenistic period"}, "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "-0350-00-00T00:00:00Z"}, "dateOfDeath": {"0": "-0400-00-00T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q859", "name": "Plato"}}}}

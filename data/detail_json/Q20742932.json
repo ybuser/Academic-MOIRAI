@@ -1,1 +1,1 @@
-{"id": "Q20742932", "name": "Lutolph of Novara", "occupation": {"0": "philosopher"}}
+{"id": "Q20742932", "name": "Lutolph of Novara", "occupation": {"0": "philosopher"}, "edges": {"student": {"0": {"id": "Q315347", "name": "Peter Lombard"}}, "studentOf": {"0": {"id": "Q569607", "name": "Anselm of Laon"}}}}

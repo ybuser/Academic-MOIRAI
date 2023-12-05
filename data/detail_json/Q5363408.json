@@ -1,1 +1,1 @@
-{"id": "Q5363408", "name": "Nangong Kuo", "occupation": {"0": "philosopher"}, "image": {"0": "\u81f3\u8056\u5148\u8ce2\u534a\u8eab\u50cf \u518a-021-\u5357\u5bae\u9002.jpg"}}
+{"id": "Q5363408", "name": "Nangong Kuo", "occupation": {"0": "philosopher"}, "image": {"0": "\u81f3\u8056\u5148\u8ce2\u534a\u8eab\u50cf \u518a-021-\u5357\u5bae\u9002.jpg"}, "edges": {"studentOf": {"0": {"id": "Q4604", "name": "Confucius"}}}}

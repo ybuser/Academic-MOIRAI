@@ -1,1 +1,1 @@
-{"id": "Q12901192", "name": "Nessas of Chios", "occupation": {"0": "philosopher"}}
+{"id": "Q12901192", "name": "Nessas of Chios", "occupation": {"0": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q41980", "name": "Democritus"}}}}

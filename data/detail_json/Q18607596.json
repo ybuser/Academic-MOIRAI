@@ -1,1 +1,1 @@
-{"id": "Q18607596", "name": "Zeuxippus", "movement": {"0": "skepticism"}, "occupation": {"0": "philosopher"}}
+{"id": "Q18607596", "name": "Zeuxippus", "movement": {"0": "skepticism"}, "occupation": {"0": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q314467", "name": "Aenesidemus"}}, "student": {"0": {"id": "Q18607625", "name": "Zeuxis"}}}}

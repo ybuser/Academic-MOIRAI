@@ -1,1 +1,1 @@
-{"id": "Q47089033", "name": "Yvon Quiniou", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "+1950-00-00T00:00:00Z"}}
+{"id": "Q47089033", "name": "Yvon Quiniou", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "+1950-00-00T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q764300", "name": "Dominique Lecourt"}}}}

@@ -1,1 +1,1 @@
-{"id": "Q18642924", "name": "Menoeceus", "occupation": {"0": "philosopher"}, "movement": {"0": "Epicureanism"}, "timePeriod": {"0": "Hellenistic period"}}
+{"id": "Q18642924", "name": "Menoeceus", "occupation": {"0": "philosopher"}, "movement": {"0": "Epicureanism"}, "timePeriod": {"0": "Hellenistic period"}, "edges": {"studentOf": {"0": {"id": "Q43216", "name": "Epicurus"}}}}

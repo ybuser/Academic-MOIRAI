@@ -1,1 +1,1 @@
-{"id": "Q22907093", "name": "Muhammad Sadiq Ardestani", "dateOfDeath": {"0": "+1721-00-00T00:00:00Z"}, "dateOfBirth": {"0": "+1644-00-00T00:00:00Z"}, "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "Safavid dynasty"}}
+{"id": "Q22907093", "name": "Muhammad Sadiq Ardestani", "dateOfDeath": {"0": "+1721-00-00T00:00:00Z"}, "dateOfBirth": {"0": "+1644-00-00T00:00:00Z"}, "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "Safavid dynasty"}, "edges": {"student": {"0": {"id": "Q22907097", "name": "Mulla Hamzah Gilani"}}}}

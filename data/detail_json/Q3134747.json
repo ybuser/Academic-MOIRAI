@@ -1,1 +1,1 @@
-{"id": "Q3134747", "name": "Hestiaeus of Perinthus", "occupation": {"0": "philosopher"}, "timePeriod": {"0": "Hellenistic period"}}
+{"id": "Q3134747", "name": "Hestiaeus of Perinthus", "occupation": {"0": "philosopher"}, "timePeriod": {"0": "Hellenistic period"}, "edges": {"studentOf": {"0": {"id": "Q859", "name": "Plato"}}}}

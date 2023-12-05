@@ -1,1 +1,1 @@
-{"id": "Q715478", "name": "Diodorus Cronus", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "-0400-01-01T00:00:00Z"}, "dateOfDeath": {"0": "-0300-01-01T00:00:00Z"}}
+{"id": "Q715478", "name": "Diodorus Cronus", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "-0400-01-01T00:00:00Z"}, "dateOfDeath": {"0": "-0300-01-01T00:00:00Z"}, "edges": {"student": {"0": {"id": "Q1366567", "name": "Philo the Dialectician"}, "1": {"id": "Q20102287", "name": "Zenon of Sidon"}}, "studentOf": {"0": {"id": "Q1759046", "name": "Apollonius Cronus"}}}}

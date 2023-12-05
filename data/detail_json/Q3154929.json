@@ -1,1 +1,1 @@
-{"id": "Q3154929", "name": "Isabelle Garo", "dateOfBirth": {"0": "+1963-00-00T00:00:00Z", "1": "+1963-09-05T00:00:00Z"}, "countryOfCitizenship": {"0": "France"}, "image": {"0": "Isabelle Garo.jpg"}, "occupation": {"0": "philosopher"}}
+{"id": "Q3154929", "name": "Isabelle Garo", "dateOfBirth": {"0": "+1963-00-00T00:00:00Z", "1": "+1963-09-05T00:00:00Z"}, "countryOfCitizenship": {"0": "France"}, "image": {"0": "Isabelle Garo.jpg"}, "occupation": {"0": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q3350831", "name": "Olivier Bloch"}}}}

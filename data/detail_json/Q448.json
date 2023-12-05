@@ -1,1 +1,84 @@
-{"id": "Q448", "name": "Denis Diderot", "countryOfCitizenship": {"0": "Kingdom of France"}, "image": {"0": "Denis Diderot - Alix - Vanloo.png", "1": "Denis Diderot by Louis-Michel van Loo.jpg"}, "occupation": {"0": "philosopher", "1": "novelist", "2": "essayist", "3": "encyclop\u00e9distes", "4": "art critic", "5": "playwright", "6": "literary critic", "7": "correspondent", "8": "translator", "9": "historian", "10": "political scientist", "11": "lexicographer", "12": "writer", "13": "art theorist", "14": "literary theorist"}, "dateOfBirth": {"0": "+1713-10-05T00:00:00Z", "1": "+1713-00-00T00:00:00Z", "2": "+1713-10-00T00:00:00Z"}, "dateOfDeath": {"0": "+1784-07-31T00:00:00Z", "1": "+1784-00-00T00:00:00Z", "2": "+1784-07-30T00:00:00Z"}, "educatedAt": {"0": {"name": "Lyc\u00e9e Louis-le-Grand", "coordinates": {"latitude": 48.848056, "longitude": 2.344528, "altitude": null, "precision": 2.7777777777778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Lyc\u00e9e Saint-Louis", "coordinates": {"latitude": 48.84916667, "longitude": 2.34166667, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "University of Paris", "coordinates": {"latitude": 48.8486, "longitude": 2.34333, "altitude": null, "precision": 0.013651149849302, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "Jacques the Fatalist", "1": "Encyclop\u00e9die"}, "movement": {"0": "encyclop\u00e9distes", "1": "materialism"}, "fieldOfWork": {"0": "performing arts"}, "student": {"0": "Paul Bo\u00ebsnier de l'Orme"}}
+{
+  "id": "Q448",
+  "name": "Denis Diderot",
+  "countryOfCitizenship": { "0": "Kingdom of France" },
+  "image": {
+    "0": "Denis Diderot - Alix - Vanloo.png",
+    "1": "Denis Diderot by Louis-Michel van Loo.jpg"
+  },
+  "occupation": {
+    "0": "philosopher",
+    "1": "novelist",
+    "2": "essayist",
+    "3": "encyclop\u00e9distes",
+    "4": "art critic",
+    "5": "playwright",
+    "6": "literary critic",
+    "7": "correspondent",
+    "8": "translator",
+    "9": "historian",
+    "10": "political scientist",
+    "11": "lexicographer",
+    "12": "writer",
+    "13": "art theorist",
+    "14": "literary theorist"
+  },
+  "dateOfBirth": {
+    "0": "+1713-10-05T00:00:00Z",
+    "1": "+1713-00-00T00:00:00Z",
+    "2": "+1713-10-00T00:00:00Z"
+  },
+  "dateOfDeath": {
+    "0": "+1784-07-31T00:00:00Z",
+    "1": "+1784-00-00T00:00:00Z",
+    "2": "+1784-07-30T00:00:00Z"
+  },
+  "educatedAt": {
+    "0": {
+      "name": "Lyc\u00e9e Louis-le-Grand",
+      "coordinates": {
+        "latitude": 48.848056,
+        "longitude": 2.344528,
+        "altitude": null,
+        "precision": 2.7777777777778e-5,
+        "globe": "http://www.wikidata.org/entity/Q2"
+      }
+    },
+    "1": {
+      "name": "Lyc\u00e9e Saint-Louis",
+      "coordinates": {
+        "latitude": 48.84916667,
+        "longitude": 2.34166667,
+        "altitude": null,
+        "precision": 0.00027777777777778,
+        "globe": "http://www.wikidata.org/entity/Q2"
+      }
+    },
+    "2": {
+      "name": "University of Paris",
+      "coordinates": {
+        "latitude": 48.8486,
+        "longitude": 2.34333,
+        "altitude": null,
+        "precision": 0.013651149849302,
+        "globe": "http://www.wikidata.org/entity/Q2"
+      }
+    }
+  },
+  "notableWork": { "0": "Jacques the Fatalist", "1": "Encyclop\u00e9die" },
+  "movement": { "0": "encyclop\u00e9distes", "1": "materialism" },
+  "fieldOfWork": { "0": "performing arts" },
+  "student": { "0": "Paul Bo\u00ebsnier de l'Orme" },
+  "edges": {
+    "influenced": {
+      "0": { "id": "Q3592370", "name": "\u00c9tienne Tassin" },
+      "1": { "id": "Q274309", "name": "\u00c9lisabeth Badinter" },
+      "2": { "id": "Q223723", "name": "Cesare Beccaria" }
+    },
+    "influencedBy": {
+      "0": { "id": "Q868", "name": "Aristotle" },
+      "1": { "id": "Q35802", "name": "Benedictus de Spinoza" },
+      "2": { "id": "Q9068", "name": "Voltaire" }
+    }
+  }
+}

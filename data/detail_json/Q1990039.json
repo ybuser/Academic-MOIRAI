@@ -1,1 +1,1 @@
-{"id": "Q1990039", "name": "Nicanor", "dateOfDeath": {"0": "-0300-01-01T00:00:00Z"}, "occupation": {"0": "philosopher"}, "movement": {"0": "Epicureanism"}, "dateOfBirth": {"0": "-0300-00-00T00:00:00Z"}}
+{"id": "Q1990039", "name": "Nicanor", "dateOfDeath": {"0": "-0300-01-01T00:00:00Z"}, "occupation": {"0": "philosopher"}, "movement": {"0": "Epicureanism"}, "dateOfBirth": {"0": "-0300-00-00T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q43216", "name": "Epicurus"}}}}

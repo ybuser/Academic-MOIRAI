@@ -1,1 +1,1 @@
-{"id": "Q43328893", "name": "Georgios Lekkas", "image": {"0": "G.Lekkas.jpg"}, "dateOfBirth": {"0": "+1966-01-00T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "jurist", "2": "Eastern Orthodox priest"}, "countryOfCitizenship": {"0": "Greece"}}
+{"id": "Q43328893", "name": "Georgios Lekkas", "image": {"0": "G.Lekkas.jpg"}, "dateOfBirth": {"0": "+1966-01-00T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "jurist", "2": "Eastern Orthodox priest"}, "countryOfCitizenship": {"0": "Greece"}, "edges": {"studentOf": {"0": {"id": "Q474107", "name": "Pierre Aubenque"}}}}

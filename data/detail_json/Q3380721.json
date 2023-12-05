@@ -1,1 +1,1 @@
-{"id": "Q3380721", "name": "Philippe Sers", "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1940-09-01T00:00:00Z"}, "image": {"0": "Portrait Philippe Sers.tiff"}, "occupation": {"0": "philosopher"}}
+{"id": "Q3380721", "name": "Philippe Sers", "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1940-09-01T00:00:00Z"}, "image": {"0": "Portrait Philippe Sers.tiff"}, "occupation": {"0": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q3573851", "name": "Yves Michaud"}}}}

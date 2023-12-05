@@ -1,1 +1,1 @@
-{"id": "Q5868789", "name": "Fran\u00e7ois Raffoul", "occupation": {"0": "phenomenologist", "1": "university teacher", "2": "translator"}, "dateOfBirth": {"0": "+1960-01-01T00:00:00Z", "1": "+1960-02-15T00:00:00Z"}}
+{"id": "Q5868789", "name": "Fran\u00e7ois Raffoul", "occupation": {"0": "phenomenologist", "1": "university teacher", "2": "translator"}, "dateOfBirth": {"0": "+1960-01-01T00:00:00Z", "1": "+1960-02-15T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q130631", "name": "Jacques Derrida"}}}}

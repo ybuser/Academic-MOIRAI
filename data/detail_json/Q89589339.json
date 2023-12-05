@@ -1,1 +1,1 @@
-{"id": "Q89589339", "name": "Emre \u015ean", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "+1982-00-00T00:00:00Z"}}
+{"id": "Q89589339", "name": "Emre \u015ean", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "+1982-00-00T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q681183", "name": "Renaud Barbaras"}}}}

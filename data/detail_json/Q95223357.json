@@ -1,1 +1,1 @@
-{"id": "Q95223357", "name": "Mogens L\u00e6rke", "dateOfBirth": {"0": "+1971-00-00T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "professor"}}
+{"id": "Q95223357", "name": "Mogens L\u00e6rke", "dateOfBirth": {"0": "+1971-00-00T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "professor"}, "edges": {"studentOf": {"0": {"id": "Q3383049", "name": "Pierre-Fran\u00e7ois Moreau"}}}}

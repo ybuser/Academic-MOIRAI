@@ -1,1 +1,1 @@
-{"id": "Q1229893", "name": "Paraebates", "occupation": {"0": "philosopher"}}
+{"id": "Q1229893", "name": "Paraebates", "occupation": {"0": "philosopher"}, "edges": {"student": {"0": {"id": "Q437876", "name": "Hegesias of Cyrene"}, "1": {"id": "Q556865", "name": "Anniceris"}}}}

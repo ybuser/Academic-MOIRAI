@@ -1,1 +1,1 @@
-{"id": "Q23926326", "name": "Gilles Hanus", "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1966-06-27T00:00:00Z"}, "occupation": {"0": "philosopher"}}
+{"id": "Q23926326", "name": "Gilles Hanus", "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1966-06-27T00:00:00Z"}, "occupation": {"0": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q631466", "name": "Benny L\u00e9vy"}}}}

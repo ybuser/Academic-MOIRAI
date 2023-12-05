@@ -1,1 +1,1 @@
-{"id": "Q11566026", "name": "Tantai Mieming", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "-0512-01-01T00:00:00Z"}, "image": {"0": "\u81f3\u8056\u5148\u8ce2\u534a\u8eab\u50cf \u518a-017-\u6fb9\u81fa\u6ec5\u660e.jpg"}}
+{"id": "Q11566026", "name": "Tantai Mieming", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "-0512-01-01T00:00:00Z"}, "image": {"0": "\u81f3\u8056\u5148\u8ce2\u534a\u8eab\u50cf \u518a-017-\u6fb9\u81fa\u6ec5\u660e.jpg"}, "edges": {"studentOf": {"0": {"id": "Q4604", "name": "Confucius"}}}}

@@ -1,1 +1,1 @@
-{"id": "Q3805962", "name": "Jacopo da Forl\u00ec", "dateOfBirth": {"0": "+1364-01-01T00:00:00Z", "1": "+1360-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+1414-01-01T00:00:00Z"}, "occupation": {"0": "physician", "1": "philosopher"}}
+{"id": "Q3805962", "name": "Jacopo da Forl\u00ec", "dateOfBirth": {"0": "+1364-01-01T00:00:00Z", "1": "+1360-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+1414-01-01T00:00:00Z"}, "occupation": {"0": "physician", "1": "philosopher"}, "edges": {"student": {"0": {"id": "Q725843", "name": "Vittorino da Feltre"}}}}

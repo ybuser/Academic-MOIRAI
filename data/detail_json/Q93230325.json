@@ -1,1 +1,1 @@
-{"id": "Q93230325", "name": "Ysabel de Andia", "dateOfBirth": {"0": "+1937-07-17T00:00:00Z"}, "occupation": {"0": "university teacher", "1": "philosopher"}, "countryOfCitizenship": {"0": "France"}}
+{"id": "Q93230325", "name": "Ysabel de Andia", "dateOfBirth": {"0": "+1937-07-17T00:00:00Z"}, "occupation": {"0": "university teacher", "1": "philosopher"}, "countryOfCitizenship": {"0": "France"}, "edges": {"studentOf": {"0": {"id": "Q474107", "name": "Pierre Aubenque"}}}}

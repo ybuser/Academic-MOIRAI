@@ -1,1 +1,1 @@
-{"id": "Q5638786", "name": "Hagnon of Tarsus", "occupation": {"0": "philosopher", "1": "rhetorician"}, "timePeriod": {"0": "Hellenistic period"}}
+{"id": "Q5638786", "name": "Hagnon of Tarsus", "occupation": {"0": "philosopher", "1": "rhetorician"}, "timePeriod": {"0": "Hellenistic period"}, "edges": {"studentOf": {"0": {"id": "Q284994", "name": "Carneades"}}}}

@@ -1,1 +1,1 @@
-{"id": "Q112514956", "name": "\u00c9ric Pommier", "occupation": {"0": "philosopher", "1": "university teacher"}, "dateOfBirth": {"0": "+1974-00-00T00:00:00Z"}, "fieldOfWork": {"0": "philosophy"}}
+{"id": "Q112514956", "name": "\u00c9ric Pommier", "occupation": {"0": "philosopher", "1": "university teacher"}, "dateOfBirth": {"0": "+1974-00-00T00:00:00Z"}, "fieldOfWork": {"0": "philosophy"}, "edges": {"studentOf": {"0": {"id": "Q681183", "name": "Renaud Barbaras"}}}}

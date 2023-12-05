@@ -1,1 +1,1 @@
-{"id": "Q3325415", "name": "Mouchir Aoun", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "+1966-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": "Lebanon"}}
+{"id": "Q3325415", "name": "Mouchir Aoun", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "+1966-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": "Lebanon"}, "edges": {"studentOf": {"0": {"id": "Q3484569", "name": "Simone Goyard-Fabre"}}}}

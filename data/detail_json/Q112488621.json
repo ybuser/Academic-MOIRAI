@@ -1,1 +1,1 @@
-{"id": "Q112488621", "name": "Marion Chottin", "occupation": {"0": "philosopher", "1": "university teacher"}, "dateOfBirth": {"0": "+1978-00-00T00:00:00Z"}, "fieldOfWork": {"0": "philosophy", "1": "history of philosophy"}}
+{"id": "Q112488621", "name": "Marion Chottin", "occupation": {"0": "philosopher", "1": "university teacher"}, "dateOfBirth": {"0": "+1978-00-00T00:00:00Z"}, "fieldOfWork": {"0": "philosophy", "1": "history of philosophy"}, "edges": {"studentOf": {"0": {"id": "Q2956290", "name": "Chantal Jaquet"}}}}

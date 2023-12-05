@@ -1,1 +1,1 @@
-{"id": "Q93231414", "name": "Kristell Trego", "dateOfBirth": {"0": "+1977-00-00T00:00:00Z"}, "fieldOfWork": {"0": "medieval philosophy"}, "occupation": {"0": "philosopher"}}
+{"id": "Q93231414", "name": "Kristell Trego", "dateOfBirth": {"0": "+1977-00-00T00:00:00Z"}, "fieldOfWork": {"0": "medieval philosophy"}, "occupation": {"0": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q664619", "name": "R\u00e9mi Brague"}}}}

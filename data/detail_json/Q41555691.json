@@ -1,1 +1,1 @@
-{"id": "Q41555691", "name": "Marjolaine Pierre", "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1950-00-00T00:00:00Z"}}
+{"id": "Q41555691", "name": "Marjolaine Pierre", "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1950-00-00T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q1333153", "name": "Philippe Lacoue-Labarthe"}}}}

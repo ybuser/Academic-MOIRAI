@@ -1,1 +1,1 @@
-{"id": "Q3060320", "name": "Eulamius", "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "Byzantine Empire", "1": "Sasanian Empire"}, "movement": {"0": "Neoplatonism"}}
+{"id": "Q3060320", "name": "Eulamius", "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "Byzantine Empire", "1": "Sasanian Empire"}, "movement": {"0": "Neoplatonism"}, "edges": {"studentOf": {"0": {"id": "Q315360", "name": "Damascius"}}}}

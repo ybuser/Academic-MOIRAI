@@ -1,1 +1,1 @@
-{"id": "Q11091584", "name": "Zeng Dian", "dateOfBirth": {"0": "-0546-00-00T00:00:00Z"}, "occupation": {"0": "philosopher"}, "image": {"0": "\u81f3\u8056\u5148\u8ce2\u534a\u8eab\u50cf \u518a-023-\u66fe\u9ede.jpg"}}
+{"id": "Q11091584", "name": "Zeng Dian", "dateOfBirth": {"0": "-0546-00-00T00:00:00Z"}, "occupation": {"0": "philosopher"}, "image": {"0": "\u81f3\u8056\u5148\u8ce2\u534a\u8eab\u50cf \u518a-023-\u66fe\u9ede.jpg"}, "edges": {"studentOf": {"0": {"id": "Q4604", "name": "Confucius"}}}}

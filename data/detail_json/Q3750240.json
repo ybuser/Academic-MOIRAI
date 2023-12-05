@@ -1,1 +1,1 @@
-{"id": "Q3750240", "name": "Francesco Maria Spinelli", "occupation": {"0": "philosopher"}, "dateOfDeath": {"0": "+1752-04-04T00:00:00Z"}, "dateOfBirth": {"0": "+1686-01-30T00:00:00Z"}}
+{"id": "Q3750240", "name": "Francesco Maria Spinelli", "occupation": {"0": "philosopher"}, "dateOfDeath": {"0": "+1752-04-04T00:00:00Z"}, "dateOfBirth": {"0": "+1686-01-30T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q3776494", "name": "Gregorio Caloprese"}}}}

@@ -1,1 +1,1 @@
-{"id": "Q3022964", "name": "Denis Vernant", "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1948-04-00T00:00:00Z"}, "image": {"0": "Denis Vernant.JPG"}, "occupation": {"0": "philosopher"}}
+{"id": "Q3022964", "name": "Denis Vernant", "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1948-04-00T00:00:00Z"}, "image": {"0": "Denis Vernant.JPG"}, "occupation": {"0": "philosopher"}, "edges": {"student": {"0": {"id": "Q33091884", "name": "Anna Zielinska"}}, "studentOf": {"0": {"id": "Q1441567", "name": "Francis Jacques"}}}}

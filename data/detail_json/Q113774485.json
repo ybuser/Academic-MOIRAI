@@ -1,1 +1,1 @@
-{"id": "Q113774485", "name": "Arnaud Mac\u00e9", "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "France"}}
+{"id": "Q113774485", "name": "Arnaud Mac\u00e9", "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "France"}, "edges": {"studentOf": {"0": {"id": "Q13077994", "name": "Luc Brisson"}}}}

@@ -1,1 +1,1 @@
-{"id": "Q89589347", "name": "Philippe Grosos", "dateOfBirth": {"0": "+1963-01-01T00:00:00Z"}, "occupation": {"0": "philosopher"}}
+{"id": "Q89589347", "name": "Philippe Grosos", "dateOfBirth": {"0": "+1963-01-01T00:00:00Z"}, "occupation": {"0": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q3165548", "name": "Jean-Fran\u00e7ois Courtine"}}}}

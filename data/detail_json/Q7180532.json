@@ -1,1 +1,1 @@
-{"id": "Q7180532", "name": "Phanto of Phlius", "occupation": {"0": "philosopher"}, "movement": {"0": "Pythagoreanism"}}
+{"id": "Q7180532", "name": "Phanto of Phlius", "occupation": {"0": "philosopher"}, "movement": {"0": "Pythagoreanism"}, "edges": {"studentOf": {"0": {"id": "Q212338", "name": "Philolaus"}}}}

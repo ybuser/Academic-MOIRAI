@@ -1,1 +1,1 @@
-{"id": "Q108817893", "name": "Fabio Gibiino", "dateOfBirth": {"0": "+1978-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": "Italy"}, "occupation": {"0": "Latin Catholic priest", "1": "philosopher"}}
+{"id": "Q108817893", "name": "Fabio Gibiino", "dateOfBirth": {"0": "+1978-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": "Italy"}, "occupation": {"0": "Latin Catholic priest", "1": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q3452733", "name": "Ruedi Imbach"}}}}

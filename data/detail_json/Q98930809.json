@@ -1,1 +1,1 @@
-{"id": "Q98930809", "name": "David K\u00f6nig", "dateOfBirth": {"0": "+1974-11-03T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "publisher", "2": "translator"}, "countryOfCitizenship": {"0": "France"}}
+{"id": "Q98930809", "name": "David K\u00f6nig", "dateOfBirth": {"0": "+1974-11-03T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "publisher", "2": "translator"}, "countryOfCitizenship": {"0": "France"}, "edges": {"studentOf": {"0": {"id": "Q3165548", "name": "Jean-Fran\u00e7ois Courtine"}}}}

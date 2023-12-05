@@ -1,1 +1,1 @@
-{"id": "Q47008102", "name": "Patrice Guillamaud", "occupation": {"0": "philosopher", "1": "university teacher"}, "dateOfBirth": {"0": "+1989-01-01T00:00:00Z"}, "fieldOfWork": {"0": "philosophy"}}
+{"id": "Q47008102", "name": "Patrice Guillamaud", "occupation": {"0": "philosopher", "1": "university teacher"}, "dateOfBirth": {"0": "+1989-01-01T00:00:00Z"}, "fieldOfWork": {"0": "philosophy"}, "edges": {"studentOf": {"0": {"id": "Q17350668", "name": "Jacques Colette"}}}}

@@ -1,1 +1,1 @@
-{"id": "Q18697193", "name": "Hegesidamus", "occupation": {"0": "philosopher", "1": "teacher"}}
+{"id": "Q18697193", "name": "Hegesidamus", "occupation": {"0": "philosopher", "1": "teacher"}, "edges": {"student": {"0": {"id": "Q210573", "name": "Hippias"}}}}

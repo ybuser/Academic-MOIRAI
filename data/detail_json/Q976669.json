@@ -1,1 +1,1 @@
-{"id": "Q976669", "name": "Apollophanes of Antioch", "occupation": {"0": "philosopher"}, "timePeriod": {"0": "Hellenistic period"}, "movement": {"0": "stoicism"}}
+{"id": "Q976669", "name": "Apollophanes of Antioch", "occupation": {"0": "philosopher"}, "timePeriod": {"0": "Hellenistic period"}, "movement": {"0": "stoicism"}, "edges": {"studentOf": {"0": {"id": "Q646951", "name": "Ariston of Chios"}}}}

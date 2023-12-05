@@ -1,1 +1,1 @@
-{"id": "Q47711811", "name": "Fatima from Cordoba", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "+1101-00-00T00:00:00Z"}}
+{"id": "Q47711811", "name": "Fatima from Cordoba", "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "+1101-00-00T00:00:00Z"}, "edges": {"student": {"0": {"id": "Q46420", "name": "Ibn Arabi"}}}}

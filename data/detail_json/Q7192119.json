@@ -1,1 +1,1 @@
-{"id": "Q7192119", "name": "Pierre Cally", "countryOfCitizenship": {"0": "France"}, "occupation": {"0": "philosopher", "1": "theologian"}, "dateOfBirth": {"0": "+1630-09-25T00:00:00Z"}, "dateOfDeath": {"0": "+1709-12-31T00:00:00Z"}}
+{"id": "Q7192119", "name": "Pierre Cally", "countryOfCitizenship": {"0": "France"}, "occupation": {"0": "philosopher", "1": "theologian"}, "dateOfBirth": {"0": "+1630-09-25T00:00:00Z"}, "dateOfDeath": {"0": "+1709-12-31T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q568497", "name": "Pierre Daniel Huet"}}}}

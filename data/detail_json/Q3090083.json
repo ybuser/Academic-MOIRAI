@@ -1,1 +1,1 @@
-{"id": "Q3090083", "name": "Fr\u00e9deric Neyrat", "dateOfBirth": {"0": "+1968-06-07T00:00:00Z"}, "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "France"}, "image": {"0": "Photo Frederic Neyrat.jpg"}}
+{"id": "Q3090083", "name": "Fr\u00e9deric Neyrat", "dateOfBirth": {"0": "+1968-06-07T00:00:00Z"}, "occupation": {"0": "philosopher"}, "countryOfCitizenship": {"0": "France"}, "image": {"0": "Photo Frederic Neyrat.jpg"}, "edges": {"studentOf": {"0": {"id": "Q503017", "name": "Jean-Luc Nancy"}}}}

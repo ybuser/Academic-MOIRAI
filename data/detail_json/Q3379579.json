@@ -1,1 +1,1 @@
-{"id": "Q3379579", "name": "Philippe Chevallier", "dateOfBirth": {"0": "+1974-09-13T00:00:00Z"}, "countryOfCitizenship": {"0": "France"}, "occupation": {"0": "philosopher"}, "image": {"0": "Colinhughes philippechevalier.JPG"}}
+{"id": "Q3379579", "name": "Philippe Chevallier", "dateOfBirth": {"0": "+1974-09-13T00:00:00Z"}, "countryOfCitizenship": {"0": "France"}, "occupation": {"0": "philosopher"}, "image": {"0": "Colinhughes philippechevalier.JPG"}, "edges": {"studentOf": {"0": {"id": "Q3089854", "name": "Fr\u00e9d\u00e9ric Gros"}}}}

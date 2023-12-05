@@ -1,1 +1,1 @@
-{"id": "Q97685187", "name": "Jean-Michel Muglioni", "dateOfBirth": {"0": "+1946-00-00T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "teacher"}}
+{"id": "Q97685187", "name": "Jean-Michel Muglioni", "dateOfBirth": {"0": "+1946-00-00T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "teacher"}, "edges": {"studentOf": {"0": {"id": "Q534526", "name": "Bernard Bourgeois"}}}}

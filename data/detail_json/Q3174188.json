@@ -1,1 +1,1 @@
-{"id": "Q3174188", "name": "Jean Quillien", "dateOfBirth": {"0": "+1936-08-19T00:00:00Z"}, "countryOfCitizenship": {"0": "France"}, "occupation": {"0": "philosopher"}}
+{"id": "Q3174188", "name": "Jean Quillien", "dateOfBirth": {"0": "+1936-08-19T00:00:00Z"}, "countryOfCitizenship": {"0": "France"}, "occupation": {"0": "philosopher"}, "edges": {"studentOf": {"0": {"id": "Q85509996", "name": "\u00c9milienne Naert"}}, "student": {"0": {"id": "Q113777850", "name": "Ghislain Waterlot"}}}}

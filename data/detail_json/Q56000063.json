@@ -1,1 +1,1 @@
-{"id": "Q56000063", "name": "Ren\u00e9 Lefebvre", "dateOfBirth": {"0": "+1954-01-01T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "docent"}}
+{"id": "Q56000063", "name": "Ren\u00e9 Lefebvre", "dateOfBirth": {"0": "+1954-01-01T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "docent"}, "edges": {"studentOf": {"0": {"id": "Q474107", "name": "Pierre Aubenque"}}}}
