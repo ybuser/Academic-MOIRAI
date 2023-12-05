@@ -1,58 +1,248 @@
-import React, { useState, useEffect } from 'react'
-import styled from 'styled-components'
-import Arrow from '../components/arrow'
-import Timeline from "react-visjs-timeline";
-import philosophers from '../data/philosophers.json';
+import React, { useState, useEffect, useRef } from 'react'
+import * as d3 from "d3";
 
+function computeBarYPosition(data, direction = "center") {
+  function xOverlaps(a, b) {
+    return a.birth < b.death + 1 && a.death + 1 > b.birth;
+  }
 
-const TimelineView = ({className}) => {
-  const [itemsData, setItemsData] = useState([]);
+  const yPos = [];
+  const lastBars = {};
+
+  let minRow = 0;
+  let maxRow = 0;
+
+  data.sort((a, b) => a.birth - b.birth);
+
+  data.forEach((d, i) => {
+    if (i === 0) {
+      yPos[i] = 0;
+      lastBars[0] = d;
+      return;
+    }
+
+    let optimalRow;
+    let minDeathYear = Infinity;
+
+    for (const row of Object.keys(lastBars).map(Number)) {
+      if (!xOverlaps(lastBars[row], d) && lastBars[row]?.death < minDeathYear) {
+        optimalRow = row;
+        minDeathYear = lastBars[row]?.death;
+      }
+    }
+
+    if (optimalRow === undefined) {
+      if (direction === "top") {
+        optimalRow = maxRow + 1;
+      } else if (direction === "bottom") {
+        optimalRow = minRow - 1;
+      } else {
+        optimalRow = Math.abs(minRow - 1) < maxRow + 1 ? minRow - 1 : maxRow + 1;
+      }
+    }
+
+    yPos[i] = optimalRow;
+    lastBars[optimalRow] = d;
+
+    if (optimalRow < minRow) {
+      minRow = optimalRow;
+    }
+    if (optimalRow > maxRow) {
+      maxRow = optimalRow;
+    }
+  });
+
+  return yPos;
+}
+
+const TimelineView = (props) => {
+  const splotSvg = useRef(null);
+  let data = props.data; 
+  let relationships = props.relationships;
+
+  const margin = ({ top: 10, right: 20, bottom: 50, left: 20 }); // Increase bottom margin
+  const width = 1800;
+  const barHeight = 20;
+  const maxYear = Math.max(...data.map(d => d.death)) + 20;
+  const minYear = Math.min(...data.map(d => d.birth)) - 20;
+
+  const yPos = computeBarYPosition(data);
+
+  const yPosMax = Math.max(...yPos);
+  const yPosMin = Math.min(...yPos);
+  const chartHeight = (yPosMax - yPosMin) * barHeight * 2;
+  const height = chartHeight + margin.top + margin.bottom;
+
+  const xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
+  const yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
 
   useEffect(() => {
-    const timelineItems = philosophers.map(philosopher => {
-      return {
-        start: new Date(philosopher.birth),
-        end: new Date(philosopher.death),
-        content: philosopher.name
-      };
+    const svg = d3.select(splotSvg.current)
+      .attr("width", width)
+      .attr("height", height);
+
+    svg.append("defs").append("marker")
+      .attr("id", "arrowhead")
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 5)
+      .attr("refY", 0)
+      .attr("orient", "auto")
+      .attr("markerWidth", 6)
+      .attr("markerHeight", 6)
+      .attr("xoverflow", "visible")
+      .append("svg:path")
+        .attr("d", "M 0,-5 L 10 ,0 L 0,5")
+        .attr("fill", "black");
+
+    const centuryStart = Math.ceil(minYear / 100) * 100;
+    const centuries = d3.range(centuryStart, maxYear, 100);
+  
+    // Draw vertical gridlines at every century mark
+    const linesLayer = svg.append("g").attr("class", "lines-layer");
+  
+    linesLayer.append("g")
+      .selectAll("line")
+      .data(centuries)
+      .join("line")
+        .attr("x1", d => xScale(d))
+        .attr("x2", d => xScale(d))
+        .attr("y1", margin.bottom)
+        .attr("y2", chartHeight)
+        .style("stroke", "rgba(0,0,0,0.2)")
+        .style("stroke-dasharray", "2,2");
+
+    // Draw x-axis with labels every 20 years, starting from 1700
+    svg.append("g")
+      .attr("transform", `translate(0,${chartHeight})`)
+      .call(d3.axisBottom(xScale)
+        .tickValues(d3.range(Math.floor(minYear / 20) * 20, maxYear, 20))
+        .tickFormat(d3.format(".0f")) // Add this line to change the tick format
+        .tickSizeOuter(0));
+
+    const arrowLayer = svg.append("g").attr("class", "arrow-layer");
+
+    relationships.forEach(rel => {
+      const sourceNode = data.find(d => d.name === rel.source);
+      const targetNode = data.find(d => d.name === rel.target);
+    
+      if (sourceNode && targetNode) {
+        const sourceIndex = data.indexOf(sourceNode);
+        const targetIndex = data.indexOf(targetNode);
+    
+        arrowLayer.append("line")
+          .attr("x1", xScale(sourceNode.death))
+          .attr("y1", yScale(yPos[sourceIndex]) + barHeight / 2)
+          .attr("x2", xScale(targetNode.birth))
+          .attr("y2", yScale(yPos[targetIndex]) + barHeight / 2)
+          .attr("stroke", "black")
+          .attr("marker-end", "url(#arrowhead)");
+      }
     });
-    setItemsData(timelineItems);
-    // console.log("timlineItems is ", timelineItems);
+
+    // Create bars and labels
+    const bars = svg.append("g")
+      .selectAll("g")
+      .data(data)
+      .join("g");
+
+    // Create bars
+    bars.append("rect")
+      .attr("x", d => xScale(d.birth))
+      .attr("width", d => xScale(d.death) - xScale(d.birth))
+      .attr("y", (d, i) => yScale(yPos[i]))
+      .attr("height", barHeight)
+      .attr("fill", "steelblue");
+
+    // Create labels displaying only name
+    bars.append("text")
+      .text(d => d.name)
+      .attr("x", d => xScale(d.birth) + 4)
+      .attr("y", (d, i) => yScale(yPos[i]) + barHeight / 2)
+      .attr("alignment-baseline", "central")
+      .attr("font-size", 12)
+      .attr("fill", "white")
+      .attr("white-space", "nowrap")
+      // .attr("overflow", "hidden")
+      .attr("text-overflow", "ellipsis");
+
+    // Mouseover and mouseout events for scrolling labels and showing dates on the timeline
+    bars.on("mouseover", function (event, d) {
+      const bar = d3.select(this);
+
+      // Show vertical lines and dates along the timeline
+      const lineGroup = svg.append("g")
+        .attr("class", "timeline-hover")
+        .lower(); // Lower the group so that it is positioned behind the bars
+
+      lineGroup.append("line")
+        .attr("x1", xScale(d.birth))
+        .attr("x2", xScale(d.birth))
+        .attr("y1", yScale(yPos[data.indexOf(d)]) + barHeight) // Start from the bottom of the bar
+        .attr("y2", chartHeight)
+        .style("stroke", "rgba(225,0,0,0.3)");
+
+      lineGroup.append("line")
+        .attr("x1", xScale(d.death))
+        .attr("x2", xScale(d.death))
+        .attr("y1", yScale(yPos[data.indexOf(d)]) + barHeight) // Start from the bottom of the bar
+        .attr("y2", chartHeight)
+        .style("stroke", "rgba(225,0,0,0.3)");
+
+      lineGroup.append("text")
+        .text(d.birth)
+        .attr("x", xScale(d.birth))
+        .attr("y", chartHeight + 30)
+        .attr("text-anchor", "middle")
+        .attr("fill", "red"); // Display birth date in red
+
+      lineGroup.append("text")
+        .text(d.death)
+        .attr("x", xScale(d.death))
+        .attr("y", chartHeight + 30)
+        .attr("text-anchor", "middle")
+        .attr("fill", "red"); // Display death date in red
+
+      // Scroll label if necessary
+      const label = bar.select("text");
+      const labelWidth = label.node().getComputedTextLength();
+      const barWidth = xScale(d.death) - xScale(d.birth);
+      
+      if (labelWidth > barWidth - 8) {
+        const scrollAmount = labelWidth - barWidth + 12; // Leave some padding for visual clarity
+        label.interrupt() // Stop any active transition
+          .transition()
+          .duration(2000)
+          .ease(d3.easeQuadInOut)
+          .attr("x", d => xScale(d.birth) + 4 - scrollAmount)
+          .attr("clip-path", 'polygon(0,0,${barWidth},0,${barWidth},${barHeight},0,${barHeight})');
+      }
+
+    })
+    .on("mouseout", function (event, d) {
+        // Hide vertical lines and dates along the timeline
+        svg.selectAll(".timeline-hover").remove();
+    
+        // Reset the label position to original
+        const label = d3.select(this).select("text");
+        const currentXPosition = parseFloat(label.attr("x"));
+        const originalXPosition = xScale(d.birth) + 4;
+    
+        if (currentXPosition !== originalXPosition) {
+          label.interrupt() // Stop any active transition
+            .transition()
+            .duration(2000)
+            .ease(d3.easeQuadInOut)
+            .attr("x", originalXPosition);
+        }
+    });
+
+
   }, []);
 
-    //  type: "background" 로 배경에 시대 넣기 가능
-    //   {
-    //     start: new Date("October 13, 2018 9:55:00"),
-    //     end: new Date("October 14, 2018 10:59:59"), // end is optional
-    //     content: "3차 산업혁명",
-    //     type: "background"
-    //   },
-  
-  const [options, setOptions] = useState({
-    width: "100%",
-    height: "30vh",
-    stack: true,
-    editable: false,
-    showMajorLabels: true,
-    showCurrentTime: false,
-    zoomMin: 1000 * 60 * 60 * 24 * 30, // Minimum zoom level is a month
-    zoomMax: 1000 * 60 * 60 * 24 * 365 * 100, // Maximum zoom level is 100 years
-    zoomable: true,
-    horizontalScroll: true,
-    zoomKey: "ctrlKey",
-    orientation: { axis: "top" },
-    timeAxis: { scale: "year", step: 10 },
-    start: new Date('1600-01-01'), // Adjust these dates based on your data range
-    end: new Date('2000-01-01'),
-    selectable: true
-  });
-  
+
   return (
-    <div className={className}>
-      <Timeline
-        options={options}
-        items={itemsData}
-      />
+    <div>
+      <svg ref={splotSvg} width={width} height={height}></svg>
     </div>
   )
 }
