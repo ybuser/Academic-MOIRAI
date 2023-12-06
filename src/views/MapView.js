@@ -9,7 +9,7 @@ const StyledMap = styled.div`
   width: 100%;
 `;
 
-const MapView = ({className}) => {
+const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAP_API_KEY, // Ensure you have the API key in your environment
   });
@@ -38,12 +38,17 @@ const MapView = ({className}) => {
         center={defaultCenter}
         zoom={2}
       >
+        
         {philosophers.map((philosopher, idx) => (
-          <Marker 
-            key={idx} 
-            position={philosopher.latLng} 
-            label={philosopher.name}
-          />
+          <>
+            {/* {console.log("philosopher.latLng : ", philosopher.latLng)} */}
+            <Marker 
+              key={idx} 
+              position={philosopher.latLng} 
+              label={philosopher.name}
+            />
+          </>
+          
         ))}
         {philosophers.map((philosopher, idx) => (
           philosopher.relationships.map((relationship, relIdx) => {

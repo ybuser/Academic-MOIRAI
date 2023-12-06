@@ -1,7 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import styled from 'styled-components';
-import philosophers from '../data/philosophers.json';
 
 const DetailContainer = styled.div`
   display: flex;
@@ -31,73 +30,104 @@ const GraphWrapper = styled.div`
   max-height:100%;
 `;
 
-const DetailView = ({className}) => {
+const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) => {
+  const[philosopherDetails, setPhilosopherDetails] = useState(null);
   const d3Container = useRef(null);
 
-  useEffect(() => {
-    if (d3Container.current && philosophers.length > 0) {
-      const selectedPhilosopher = philosophers[0];
-      
-      // Preparing the nodes and links for the D3 graph
-      const nodes = [selectedPhilosopher].concat(
-        selectedPhilosopher.relationships.map(r => ({ name: r.name }))
-      );
+  console.log("selected2 Philosopher is ", selectedPhilosopher);
 
-      const links = selectedPhilosopher.relationships.map(r => ({
-        source: selectedPhilosopher.name,
-        target: r.name,
-        strength: r.relationshipStrength
-      }));
+  useEffect(() => {
+    const loadPhilosopherDetails = async () => {
+      console.log("hihi");
+      const response = await fetch(`../../data/detail_json/Q${selectedPhilosopher.id}.json`);
+      console.log("what");
+      const data = await response.json();
+      setPhilosopherDetails(data);
+      console.log("data is ", data);
+    };
+
+    if (selectedPhilosopher) {
+      loadPhilosopherDetails();
+    }
+  }, [selectedPhilosopher]);
+
+  useEffect(() => {
+    if (d3Container.current && philosopherDetails && philosopherDetails.edges) {
+      console.log("selected2 Philosopher is ", selectedPhilosopher);
 
       const svg = d3.select(d3Container.current)
-        .attr('viewBox', '0 0 600 450') // Adjust viewBox to slightly larger dimensions
+        .attr('viewBox', '0 0 600 450')
         .attr('preserveAspectRatio', 'xMinYMin meet');
-
       svg.selectAll("*").remove(); // Clear SVG to avoid duplication
+      
+      
+      const nodes = [{
+        id: philosopherDetails.id,
+        name: philosopherDetails.name
+      }]
+
+      const edges = [];
+
+      ['influenced', 'influencedBy'].forEach(edgeType => {
+        if (philosopherDetails.edges[edgeType]) {
+          Object.values(philosopherDetails.edges[edgeType]).forEach(edge => {
+            nodes.push({
+              id: edge.id,
+              name: edge.name
+            });
+            edges.push({
+              source: edgeType === 'influenced' ? philosopherDetails.id : edge.id,
+              target: edgeType === 'influenced' ? edge.id : philosopherDetails.id,
+            });
+          });
+        }
+      });
+
+      // Remove duplicate nodes
+      const uniqueNodes = Array.from(new Map(nodes.map(node => [node.id, node])).values());
+
 
       // Render links (lines) first
       const link = svg.append("g")
         .selectAll("line")
-        .data(links)
+        .data(edges)
         .join("line")
-        .attr("stroke-width", d => d.strength / 10)
+        .attr("stroke-width", 2)
         .attr("stroke", "#999");
 
-      // Add a group for each node which will contain the rectangle and the text
+      // Add a group for each node which will contain the circle and the text
       const nodeGroup = svg.append("g")
         .selectAll("g")
-        .data(nodes)
+        .data(uniqueNodes)
         .enter().append("g");
 
-      // First add the text so we can compute the bounding box and thus the width of the rectangle
+      // First add the text
       const labels = nodeGroup.append("text")
         .attr("text-anchor", "middle")
         .attr("alignment-baseline", "central")
         .style("font-size", "10px")
         .text(d => d.name);
 
+
       // Use a small timeout to allow the browser to render the text and calculate the bounding boxes
       setTimeout(() => {
         labels.each(function(d) {
           const bbox = this.getBBox();
-          d.width = bbox.width + 16; // Add some padding
-          d.height = bbox.height + 8; // Add some padding
+          d.width = bbox.width + 10; // Add some padding
+          d.height = bbox.height + 6; // Add some padding
         });
 
-        // Now add the rectangles with the computed width
-        const node = nodeGroup.insert("rect", "text")
+        // Now add the circles
+        const node = nodeGroup.insert("circle", "text")
+          .attr("r", d => Math.sqrt(d.width * d.height) / 2) // Calculate radius based on text size
           .attr("fill", "white")
-          .attr("stroke", "black")
-          .attr("width", d => d.width)
-          .attr("height", d => d.height)
-          .attr("x", d => -d.width / 2)
-          .attr("y", d => -d.height / 2);
+          .attr("stroke", "black");
         
         // Set up the simulation
-        const simulation = d3.forceSimulation(nodes)
-          .force("link", d3.forceLink(links).id(d => d.name).distance(100)) // Slightly longer distance between nodes
-          .force("charge", d3.forceManyBody().strength(-150)) // Slightly stronger repel strength
-          .force("center", d3.forceCenter(350, 200)); // Adjust the center point
+        const simulation = d3.forceSimulation(uniqueNodes)
+          .force("link", d3.forceLink(edges).id(d => d.id).distance(100))
+          .force("charge", d3.forceManyBody().strength(-100))
+          .force("center", d3.forceCenter(300, 225));
 
         
         // Define the tick function for the simulation
@@ -109,23 +139,36 @@ const DetailView = ({className}) => {
             .attr("y2", d => d.target.y);
 
           nodeGroup
-          .attr("transform", d => `translate(${d.x},${d.y})`);
+            .attr("transform", d => `translate(${d.x},${d.y})`);
         });
       });
     }
-  }, []); // Dependency array
+  }, [philosopherDetails]); // Dependency array
 
+  const handleSetPhilosopher = () => {
+    // Assuming you have a way to get philosopher data by ID
+    setSelectedPhilosopher(448);
+  };
+
+  if (!philosopherDetails) {
+    return <div>
+      Loading philosopherDetails...
+      <button onClick={handleSetPhilosopher}>Set Philosopher to 448</button>
+      hi
+    </div>;
+  }
 
   return (
     <DetailContainer className={className}>
         <InfoWrapper>
-            <h2>{philosophers[0].name}</h2>
+            <h2>{philosopherDetails.name}</h2>
             <h3>Key Ideas</h3>
-            <ul>
+            {/* <ul>
               {philosophers[0].keyIdeas.map(idea => <li key={idea}>{idea}</li>)}
             </ul>
             <h3>Historical Context</h3>
-            <p>{philosophers[0].historicalContext.join(', ')}</p>
+            <p>{philosophers[0].historicalContext.join(', ')}</p> */}
+            
         </InfoWrapper>
         <GraphWrapper>
             <svg ref={d3Container} />
