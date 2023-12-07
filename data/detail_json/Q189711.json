@@ -1,0 +1,1 @@
+{"id": "Q189711", "name": "Zenodotus", "dateOfBirth": {"0": "+0500-01-01T00:00:00Z"}, "occupation": {"0": "philosopher"}, "fieldOfWork": {"0": "Neoplatonism"}, "countryOfCitizenship": {"0": "Classical Athens"}, "edges": {"student": {"0": {"id": "Q315360", "name": "Damascius"}}, "studentOf": {"0": {"id": "Q271809", "name": "Proclus"}}}}

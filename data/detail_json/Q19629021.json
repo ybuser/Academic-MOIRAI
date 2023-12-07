@@ -1,0 +1,1 @@
+{"id": "Q19629021", "name": "Pasicles of Thebes", "occupation": {"0": "philosopher"}, "movement": {"0": "Megarian school"}, "edges": {"studentOf": {"0": {"id": "Q112163711", "name": "Diocleides of Athens"}, "1": {"id": "Q312682", "name": "Euclid of Megara"}, "2": {"id": "Q317947", "name": "Crates of Thebes"}}, "student": {"0": {"id": "Q381048", "name": "Stilpo"}}}}

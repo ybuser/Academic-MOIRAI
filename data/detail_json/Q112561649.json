@@ -1,0 +1,1 @@
+{"id": "Q112561649", "name": "Alain Beaulieu", "occupation": {"0": "philosopher", "1": "university teacher"}, "dateOfBirth": {"0": "+1970-00-00T00:00:00Z"}, "fieldOfWork": {"0": "modern philosophy", "1": "cosmology", "2": "metaphysics", "3": "phenomenology"}, "edges": {"studentOf": {"0": {"id": "Q311005", "name": "Alain Badiou"}}}}
