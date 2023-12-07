@@ -41,7 +41,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       console.log("hihi");
 
       try {
-        const response = await fetch(`../../data/detail_json/Q${selectedPhilosopher}.json`);
+        const response = await fetch(`data/detail_json/Q${selectedPhilosopher}.json`);
         if (!response.ok) {
           console.log(await response.text());
           throw new Error(`HTTP error! Status: ${response.status}`);

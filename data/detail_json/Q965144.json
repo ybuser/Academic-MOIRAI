@@ -1,1 +1,0 @@
-{"id": "Q965144", "name": "Cebes", "occupation": {"0": "philosopher", "1": "mathematician"}, "dateOfBirth": {"0": "-0500-01-01T00:00:00Z"}, "dateOfDeath": {"0": "-0400-01-01T00:00:00Z"}, "fieldOfWork": {"0": "philosophy"}, "edges": {"studentOf": {"0": {"id": "Q212338", "name": "Philolaus"}, "1": {"id": "Q913", "name": "Socrates"}}}}
