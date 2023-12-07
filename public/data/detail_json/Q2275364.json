@@ -1,0 +1,1 @@
+{"id": "Q2275364", "name": "Severus Sebokht", "occupation": {"0": "priest", "1": "astronomer", "2": "philosopher"}, "dateOfBirth": {"0": "+0575-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+0667-01-01T00:00:00Z"}, "countryOfCitizenship": {"0": "Syria"}, "edges": {"student": {"0": {"id": "Q929541", "name": "Jacob of Edessa"}, "1": {"id": "Q2696619", "name": "Athanasius of Balad"}}}}

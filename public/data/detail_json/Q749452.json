@@ -1,0 +1,1 @@
+{"id": "Q749452", "name": "Clinomachus", "occupation": {"0": "philosopher"}, "movement": {"0": "Megarian school"}, "dateOfBirth": {"0": "-0400-01-01T00:00:00Z"}, "dateOfDeath": {"0": "-0400-00-00T00:00:00Z"}, "edges": {"student": {"0": {"id": "Q2927235", "name": "Bryson of Achaea"}}, "studentOf": {"0": {"id": "Q312682", "name": "Euclid of Megara"}}}}

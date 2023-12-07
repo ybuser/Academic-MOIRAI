@@ -1,0 +1,1 @@
+{"id": "Q931271", "name": "Tisias", "dateOfDeath": {"0": "-0500-01-01T00:00:00Z"}, "occupation": {"0": "philosopher"}, "fieldOfWork": {"0": "philosophy"}, "dateOfBirth": {"0": "-0500-01-01T00:00:00Z"}, "edges": {"student": {"0": {"id": "Q221182", "name": "Isocrates"}}, "studentOf": {"0": {"id": "Q382785", "name": "Corax of Syracuse"}}}}

@@ -1,0 +1,1 @@
+{"id": "Q93241866", "name": "Jean-Claude Bourdin", "dateOfBirth": {"0": "+1945-02-14T00:00:00Z", "1": "+1945-00-00T00:00:00Z"}, "occupation": {"0": "professor", "1": "philosopher", "2": "university teacher", "3": "writer"}, "fieldOfWork": {"0": "educational system", "1": "philosophy"}, "edges": {"studentOf": {"0": {"id": "Q3158616", "name": "Jacques D'Hondt"}}}}
