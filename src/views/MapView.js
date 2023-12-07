@@ -9,7 +9,7 @@ const StyledMap = styled.div`
   width: 100%;
 `;
 
-const MapView = ({className}) => {
+const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAP_API_KEY, // Ensure you have the API key in your environment
   });

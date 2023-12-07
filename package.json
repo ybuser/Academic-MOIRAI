@@ -13,7 +13,6 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
-    "react-visjs-timeline": "^1.6.0",
     "styled-components": "^6.1.1",
     "timeline-arrows": "^4.1.0",
     "vis": "^4.21.0-EOL",
