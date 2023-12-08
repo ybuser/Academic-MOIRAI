@@ -1,6 +1,8 @@
 {
     "id": "Q307",
     "name": "Galileo Galilei",
+    "desc": "Italian polymath",
+    "wiki_link": "https://en.wikipedia.org/wiki/Galileo_Galilei",
     "countryOfCitizenship": {
         "0": "Duchy of Florence",
         "1": "Grand Duchy of Tuscany"
@@ -99,8 +101,9 @@
     },
     "doctralStudent": {
         "0": "Giuseppe Biancani",
-        "1": "Mario Guiducci",
-        "2": "Vincenzo Viviani"
+        "1": "Benedetto Castelli",
+        "2": "Mario Guiducci",
+        "3": "Vincenzo Viviani"
     },
     "student": {
         "0": "Niccol\u00f2 Arrighetti",
@@ -113,19 +116,5 @@
     "image": {
         "0": "Galileo.arp.300pix.jpg",
         "1": "Galileo by leoni.jpg"
-    },
-    "edges": {
-        "student": {
-            "0": {
-                "id": "Q560872",
-                "name": "Benedetto Castelli"
-            }
-        },
-        "influenced": {
-            "0": {
-                "id": "Q43393",
-                "name": "Robert Boyle"
-            }
-        }
     }
 }

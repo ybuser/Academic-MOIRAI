@@ -1,1 +1,1 @@
-{"id": "Q11919453", "name": "Epiphanius of Petra", "occupation": {"0": "philosopher", "1": "rhetorician"}, "edges": {"studentOf": {"0": {"id": "Q18691556", "name": "Julian of Cappadocia"}}}}
+{"id": "Q11919453", "name": "Epiphanius of Petra", "desc": "ancient Greek rhetorician", "wiki_link": "https://en.wikipedia.org/wiki/Epiphanius_of_Petra", "occupation": {"0": "philosopher", "1": "rhetorician"}, "studentOf": {"0": "Julian of Cappadocia"}}

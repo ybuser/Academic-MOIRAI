@@ -1,1 +1,124 @@
-{"id": "Q1290", "name": "Blaise Pascal", "fieldOfWork": {"0": "probability theory"}, "dateOfBirth": {"0": "+1623-06-19T00:00:00Z"}, "dateOfDeath": {"0": "+1662-08-19T00:00:00Z"}, "countryOfCitizenship": {"0": "Kingdom of France"}, "notableWork": {"0": "Pens\u00e9es", "1": "Lettres provinciales"}, "image": {"0": "FR-631136102 GRA 6025 Portrait de Blaise Pascal par Edelinck (cropped).jpg"}, "occupation": {"0": "mathematician", "1": "philosopher", "2": "theologian", "3": "physicist", "4": "writer", "5": "French moralist", "6": "statistician"}, "residence": {"0": {"name": "Clermont-Ferrand", "coordinates": {"latitude": 45.779722222222, "longitude": 3.0869444444444, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Paris", "coordinates": {"latitude": 48.85666666666667, "longitude": 2.352222222222222, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Rouen", "coordinates": {"latitude": 49.443055555556, "longitude": 1.1025, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "Paris", "coordinates": {"latitude": 48.85666666666667, "longitude": 2.352222222222222, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "edges": {"influenced": {"0": {"id": "Q125249", "name": "William James"}, "1": {"id": "Q140694", "name": "Alexis de Tocqueville"}, "2": {"id": "Q247016", "name": "Andr\u00e9 Comte-Sponville"}, "3": {"id": "Q314189", "name": "Lev Shestov"}, "4": {"id": "Q9068", "name": "Voltaire"}, "5": {"id": "Q9047", "name": "Gottfried Wilhelm Leibniz"}, "6": {"id": "Q434346", "name": "Victor Cousin"}, "7": {"id": "Q9358", "name": "Friedrich Nietzsche"}, "8": {"id": "Q30143889", "name": "Pierre Raymond"}, "9": {"id": "Q951066", "name": "L\u00e9on Brunschvicg"}, "10": {"id": "Q42156", "name": "Henri Bergson"}, "11": {"id": "Q185085", "name": "Miguel de Unamuno"}, "12": {"id": "Q10320719", "name": "Luiz Felipe Pond\u00e9"}}, "influencedBy": {"0": {"id": "Q8018", "name": "Augustine of Hippo"}, "1": {"id": "Q41568", "name": "Michel de Montaigne"}, "2": {"id": "Q9191", "name": "Ren\u00e9 Descartes"}, "3": {"id": "Q318943", "name": "Cornelius Jansen"}, "4": {"id": "Q183144", "name": "Epictetus"}}, "studentOf": {"0": {"id": "Q188663", "name": "Marin Mersenne"}}}}
+{
+    "id": "Q1290",
+    "name": "Blaise Pascal",
+    "desc": "French mathematician, physicist, inventor, writer, and Christian philosopher (1623\u20131662)",
+    "wiki_link": "https://en.wikipedia.org/wiki/Blaise_Pascal",
+    "fieldOfWork": {
+        "0": "probability theory"
+    },
+    "dateOfBirth": {
+        "0": "+1623-06-19T00:00:00Z"
+    },
+    "dateOfDeath": {
+        "0": "+1662-08-19T00:00:00Z"
+    },
+    "influencedBy": {
+        "0": "Augustine of Hippo",
+        "1": "Michel de Montaigne",
+        "2": "Ren\u00e9 Descartes",
+        "3": "Cornelius Jansen",
+        "4": "Epictetus"
+    },
+    "countryOfCitizenship": {
+        "0": "Kingdom of France"
+    },
+    "notableWork": {
+        "0": "Pens\u00e9es",
+        "1": "Lettres provinciales"
+    },
+    "studentOf": {
+        "0": "Marin Mersenne"
+    },
+    "image": {
+        "0": "FR-631136102 GRA 6025 Portrait de Blaise Pascal par Edelinck (cropped).jpg"
+    },
+    "occupation": {
+        "0": "mathematician",
+        "1": "philosopher",
+        "2": "theologian",
+        "3": "physicist",
+        "4": "writer",
+        "5": "French moralist",
+        "6": "statistician"
+    },
+    "residence": {
+        "0": {
+            "name": "Clermont-Ferrand",
+            "coordinates": {
+                "latitude": 45.779722222222,
+                "longitude": 3.0869444444444,
+                "altitude": null,
+                "precision": 0.00027777777777778,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        },
+        "1": {
+            "name": "Paris",
+            "coordinates": {
+                "latitude": 48.85666666666667,
+                "longitude": 2.352222222222222,
+                "altitude": null,
+                "precision": 0.0002777777777777778,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        },
+        "2": {
+            "name": "Rouen",
+            "coordinates": {
+                "latitude": 49.443055555556,
+                "longitude": 1.1025,
+                "altitude": null,
+                "precision": 0.00027777777777778,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        },
+        "3": {
+            "name": "Paris",
+            "coordinates": {
+                "latitude": 48.85666666666667,
+                "longitude": 2.352222222222222,
+                "altitude": null,
+                "precision": 0.0002777777777777778,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        }
+    },
+    "edges": {
+        "influenced": {
+            "0": {
+                "id": "Q314189",
+                "name": "Lev Shestov"
+            },
+            "1": {
+                "id": "Q140694",
+                "name": "Alexis de Tocqueville"
+            },
+            "2": {
+                "id": "Q9358",
+                "name": "Friedrich Nietzsche"
+            },
+            "3": {
+                "id": "Q9068",
+                "name": "Voltaire"
+            },
+            "4": {
+                "id": "Q9047",
+                "name": "Gottfried Wilhelm Leibniz"
+            },
+            "5": {
+                "id": "Q125249",
+                "name": "William James"
+            }
+        },
+        "influencedBy": {
+            "0": {
+                "id": "Q8018",
+                "name": "Augustine of Hippo"
+            },
+            "1": {
+                "id": "Q41568",
+                "name": "Michel de Montaigne"
+            }
+        }
+    }
+}
