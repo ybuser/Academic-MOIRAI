@@ -1,8 +1,8 @@
-import React, { useState, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { GoogleMap, Marker, Polyline, useLoadScript } from "@react-google-maps/api";
 import styled from 'styled-components';
 import Loading from '../components/Loading';
-import philosophers from '../data/philosophers.json';
+// import philosophers from '../data/philosophers.json';
 
 const StyledMap = styled.div`
   height: 100%;
@@ -10,9 +10,21 @@ const StyledMap = styled.div`
 `;
 
 const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
+  const [philosophersData, setPhilosophersData] = useState([]);
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAP_API_KEY, // Ensure you have the API key in your environment
   });
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch('data/philosophers.json');
+      const data = await response.json();
+      setPhilosophersData(data);
+      console.log("123philosoher data is ", data);
+    };
+
+    fetchData();
+  }, []);
   
   const mapRef = useRef(null);
   const onMapLoad = map => mapRef.current = map;
@@ -20,7 +32,7 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
 
   if (!isLoaded) return <div>...loading</div>;
 
-  console.log("Philosophers data: ", philosophers);
+  console.log("Philosophers data: ", philosophersData);
 
   return (
     <StyledMap className={className}>
@@ -30,7 +42,7 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
         center={defaultCenter} 
         zoom={2}
       >
-        {philosophers.map((philosopher, idx) => {
+        {philosophersData.map((philosopher, idx) => {
           // Ensure the latLng values are numbers
           const position = {
             lat: Number(philosopher.latLng.lat),
@@ -48,9 +60,9 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
           );
         })}
         {/* {console.log("philosophers in map view ", philosophers)} */}
-        {philosophers.flatMap((philosopher, idx) => (
+        {philosophersData.flatMap((philosopher, idx) => (
           philosopher.relationships.map((relationship, relIdx) => {
-            const targetPhilosopher = philosophers.find(p => p.name === relationship.name);
+            const targetPhilosopher = philosophersData.find(p => p.name === relationship.name);
             if (targetPhilosopher) {
               const strokeWeight = relationship.relationshipStrength / 10;
               return (
