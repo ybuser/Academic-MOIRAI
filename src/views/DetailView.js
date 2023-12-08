@@ -27,7 +27,8 @@ const GraphWrapper = styled.div`
   justify-content: center;
   align-items: center;
   max-width: 50%;
-  max-height:100%;
+  // max-height:100%;
+  height:100%;
 `;
 
 const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) => {
@@ -63,10 +64,11 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       console.log("selected2 Philosopher is ", selectedPhilosopher);
 
       const svg = d3.select(d3Container.current)
-        .attr('viewBox', '0 0 600 450')
-        .attr('preserveAspectRatio', 'xMinYMin meet');
+        .attr('width', '100%')
+        .attr('height', '100%')
+        .attr('viewBox', '0 0 920 690')
+        .attr('preserveAspectRatio', 'xMidYMid meet');
       svg.selectAll("*").remove(); // Clear SVG to avoid duplication
-      
       
       const nodes = [{
         id: philosopherDetails.id,
@@ -89,17 +91,19 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
           });
         }
       });
+      console.log("edges are ", edges);
 
       // Remove duplicate nodes
       const uniqueNodes = Array.from(new Map(nodes.map(node => [node.id, node])).values());
 
+      const fontSize = uniqueNodes.length < 5 ? '1.5rem' : '1rem';
 
       // Render links (lines) first
       const link = svg.append("g")
         .selectAll("line")
         .data(edges)
         .join("line")
-        .attr("stroke-width", 2)
+        .attr("stroke-width", 6)
         .attr("stroke", "#999");
 
       // Add a group for each node which will contain the circle and the text
@@ -112,29 +116,36 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       const labels = nodeGroup.append("text")
         .attr("text-anchor", "middle")
         .attr("alignment-baseline", "central")
-        .style("font-size", "10px")
+        .style("font-size", fontSize)
         .text(d => d.name);
+
+      
+      const handleNodeClick = (philosopherNode) => {
+        const newSelectedPhilosopher = philosopherNode.srcElement.__data__.id.replace('Q', '') ; // Remove 'Q' if present
+        setSelectedPhilosopher(newSelectedPhilosopher);
+      };  
 
 
       // Use a small timeout to allow the browser to render the text and calculate the bounding boxes
       setTimeout(() => {
         labels.each(function(d) {
           const bbox = this.getBBox();
-          d.width = bbox.width + 10; // Add some padding
-          d.height = bbox.height + 6; // Add some padding
+          d.width = bbox.width + 20; // Add some padding
+          d.height = bbox.height + 12; // Add some padding
         });
 
         // Now add the circles
         const node = nodeGroup.insert("circle", "text")
-          .attr("r", d => Math.sqrt(d.width * d.height) / 2) // Calculate radius based on text size
+          .attr("r", d => Math.sqrt(d.width * d.height)/1.5) // Calculate radius based on text size
           .attr("fill", "white")
-          .attr("stroke", "black");
+          .attr("stroke", "black")
+          .on("click", d => handleNodeClick(d)); 
         
         // Set up the simulation
         const simulation = d3.forceSimulation(uniqueNodes)
-          .force("link", d3.forceLink(edges).id(d => d.id).distance(100))
+          .force("link", d3.forceLink(edges).id(d => d.id).distance(300))
           .force("charge", d3.forceManyBody().strength(-100))
-          .force("center", d3.forceCenter(300, 225));
+          .force("center", d3.forceCenter(400, 320));
 
         
         // Define the tick function for the simulation
@@ -150,7 +161,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
         });
       });
     }
-  }, [philosopherDetails]); // Dependency array
+  }, [philosopherDetails, setSelectedPhilosopher]); // Dependency array
 
   const handleSetPhilosopher = () => {
     // Assuming you have a way to get philosopher data by ID
