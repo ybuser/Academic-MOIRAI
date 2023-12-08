@@ -20,6 +20,7 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
 
   if (!isLoaded) return <div>...loading</div>;
 
+  console.log("Philosophers data: ", philosophers);
 
   return (
     <StyledMap className={className}>
@@ -35,6 +36,9 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
             lat: Number(philosopher.latLng.lat),
             lng: Number(philosopher.latLng.lng)
           };
+
+          console.log("Marker position: ", position);
+
           return (
             <Marker 
               key={idx} 
@@ -43,7 +47,7 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
             />
           );
         })}
-        {console.log("philosophers in map view ", philosophers)}
+        {/* {console.log("philosophers in map view ", philosophers)} */}
         {philosophers.flatMap((philosopher, idx) => (
           philosopher.relationships.map((relationship, relIdx) => {
             const targetPhilosopher = philosophers.find(p => p.name === relationship.name);

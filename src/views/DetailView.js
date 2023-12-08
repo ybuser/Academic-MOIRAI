@@ -35,12 +35,8 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
   const[philosopherDetails, setPhilosopherDetails] = useState(null);
   const d3Container = useRef(null);
 
-  console.log("selected2 Philosopher is ", selectedPhilosopher);
-
   useEffect(() => {
     const loadPhilosopherDetails = async () => {
-      console.log("hihi");
-
       try {
         const response = await fetch(`data/detail_json/Q${selectedPhilosopher}.json`);
         if (!response.ok) {
@@ -61,8 +57,6 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
 
   useEffect(() => {
     if (d3Container.current && philosopherDetails && philosopherDetails.edges) {
-      console.log("selected2 Philosopher is ", selectedPhilosopher);
-
       const svg = d3.select(d3Container.current)
         .attr('width', '100%')
         .attr('height', '100%')
