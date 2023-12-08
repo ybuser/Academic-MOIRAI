@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import styled, {ThemeProvider} from 'styled-components';
-
-import TimelineView from './views/TimelineView';
-import MapView from './views/MapView';
-import DetailView from './views/DetailView';
-import importedData from './data/sample_data.json';
+import styled, {ThemeProvider} from 'styled-components'
+import TimelineView from './views/TimelineView'
+import MapView from './views/MapView'
+import DetailView from './views/DetailView'
+import importedData from './data/data.json';
 import relationships from './data/relationships.json';
 import philosophers from './data/philosophers.json';
 
@@ -30,6 +29,9 @@ const Container = styled.div`
       "content1 content2 content2";
   text-align: center;
   grid-gap: 2rem;
+  @media screen and (max-width: 768px) {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 `
 
 const SubTitle = styled.div`
@@ -47,15 +49,15 @@ const Wrapper = styled.div`
 
 const TimelineContainer = styled.div`
   grid-area: main;
-  max-height: 50vh;
+  overflow: auto;
 `
 const MapContainer = styled.div`
   grid-area: content1;
-  max-height: 50vh;
+  overflow: auto;
 `
 const DetailContainer = styled.div`
   grid-area: content2;
-  max-height: 50vh;
+  overflow: auto;
 `
 
 function App() {
@@ -68,14 +70,14 @@ function App() {
           <SubTitle>
           Timeline View
           </SubTitle>
-          <Wrapper>
+          {/* <Wrapper> */}
             <TimelineView
               data={importedData}
               relationships={relationships}
               setSelectedPhilosopher={setSelectedPhilosopher}
               selectedPhilosopher={selectedPhilosopher}
             />
-          </Wrapper>
+          {/* </Wrapper> */}
         </TimelineContainer>
 
         <MapContainer>

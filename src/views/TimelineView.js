@@ -56,6 +56,7 @@ function computeBarYPosition(data, direction = "center") {
 }
 
 const TimelineView = (props) => {
+  const svgContainerRef = useRef(null); // Ref for the SVG container
   const splotSvg = useRef(null);
   let data = props.data; 
   let relationships = props.relationships;
@@ -241,7 +242,7 @@ const TimelineView = (props) => {
 
 
   return (
-    <div>
+    <div ref={svgContainerRef} style={{ width: '100%', overflowX: 'auto' }}>
       <svg ref={splotSvg} width={width} height={height}></svg>
     </div>
   )

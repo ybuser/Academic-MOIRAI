@@ -1,1 +1,131 @@
-{"id": "Q307", "name": "Galileo Galilei", "countryOfCitizenship": {"0": "Duchy of Florence", "1": "Grand Duchy of Tuscany"}, "occupation": {"0": "astronomer", "1": "philosopher", "2": "mathematician", "3": "physicist", "4": "inventor", "5": "astrologer", "6": "polymath", "7": "university teacher", "8": "scientist", "9": "engineer", "10": "philosopher"}, "dateOfBirth": {"0": "+1564-02-15T00:00:00Z"}, "dateOfDeath": {"0": "+1642-01-08T00:00:00Z"}, "residence": {"0": {"name": "Pisa", "coordinates": {"latitude": 43.716666666667, "longitude": 10.4, "altitude": null, "precision": 0.016666666666667, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Padua", "coordinates": {"latitude": 45.406388888889, "longitude": 11.877777777778, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Florence", "coordinates": {"latitude": 43.771388888889, "longitude": 11.254166666667, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "educatedAt": {"0": {"name": "University of Pisa", "coordinates": {"latitude": 43.716508333333, "longitude": 10.398458333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "University of Padua", "coordinates": {"latitude": 45.42, "longitude": 11.87, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of Pisa", "coordinates": {"latitude": 43.716508333333, "longitude": 10.398458333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "astronomy", "1": "physics", "2": "mechanics", "3": "philosophy", "4": "mathematics"}, "doctralStudent": {"0": "Giuseppe Biancani", "1": "Mario Guiducci", "2": "Vincenzo Viviani"}, "student": {"0": "Niccol\u00f2 Arrighetti", "1": "Giuseppe Biancani"}, "notableWork": {"0": "Galilean transformation", "1": "equations for a falling body"}, "image": {"0": "Galileo.arp.300pix.jpg", "1": "Galileo by leoni.jpg"}, "edges": {"student": {"0": {"id": "Q560872", "name": "Benedetto Castelli"}}, "influenced": {"0": {"id": "Q43393", "name": "Robert Boyle"}}}}
+{
+    "id": "Q307",
+    "name": "Galileo Galilei",
+    "countryOfCitizenship": {
+        "0": "Duchy of Florence",
+        "1": "Grand Duchy of Tuscany"
+    },
+    "occupation": {
+        "0": "astronomer",
+        "1": "philosopher",
+        "2": "mathematician",
+        "3": "physicist",
+        "4": "inventor",
+        "5": "astrologer",
+        "6": "polymath",
+        "7": "university teacher",
+        "8": "scientist",
+        "9": "engineer",
+        "10": "philosopher"
+    },
+    "dateOfBirth": {
+        "0": "+1564-02-15T00:00:00Z"
+    },
+    "dateOfDeath": {
+        "0": "+1642-01-08T00:00:00Z"
+    },
+    "residence": {
+        "0": {
+            "name": "Pisa",
+            "coordinates": {
+                "latitude": 43.716666666667,
+                "longitude": 10.4,
+                "altitude": null,
+                "precision": 0.016666666666667,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        },
+        "1": {
+            "name": "Padua",
+            "coordinates": {
+                "latitude": 45.406388888889,
+                "longitude": 11.877777777778,
+                "altitude": null,
+                "precision": 0.00027777777777778,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        },
+        "2": {
+            "name": "Florence",
+            "coordinates": {
+                "latitude": 43.771388888889,
+                "longitude": 11.254166666667,
+                "altitude": null,
+                "precision": 0.00027777777777778,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        }
+    },
+    "educatedAt": {
+        "0": {
+            "name": "University of Pisa",
+            "coordinates": {
+                "latitude": 43.716508333333,
+                "longitude": 10.398458333333,
+                "altitude": null,
+                "precision": null,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        }
+    },
+    "employer": {
+        "0": {
+            "name": "University of Padua",
+            "coordinates": {
+                "latitude": 45.42,
+                "longitude": 11.87,
+                "altitude": null,
+                "precision": 0.0002777777777777778,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        },
+        "1": {
+            "name": "University of Pisa",
+            "coordinates": {
+                "latitude": 43.716508333333,
+                "longitude": 10.398458333333,
+                "altitude": null,
+                "precision": null,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        }
+    },
+    "fieldOfWork": {
+        "0": "astronomy",
+        "1": "physics",
+        "2": "mechanics",
+        "3": "philosophy",
+        "4": "mathematics"
+    },
+    "doctralStudent": {
+        "0": "Giuseppe Biancani",
+        "1": "Mario Guiducci",
+        "2": "Vincenzo Viviani"
+    },
+    "student": {
+        "0": "Niccol\u00f2 Arrighetti",
+        "1": "Giuseppe Biancani"
+    },
+    "notableWork": {
+        "0": "Galilean transformation",
+        "1": "equations for a falling body"
+    },
+    "image": {
+        "0": "Galileo.arp.300pix.jpg",
+        "1": "Galileo by leoni.jpg"
+    },
+    "edges": {
+        "student": {
+            "0": {
+                "id": "Q560872",
+                "name": "Benedetto Castelli"
+            }
+        },
+        "influenced": {
+            "0": {
+                "id": "Q43393",
+                "name": "Robert Boyle"
+            }
+        }
+    }
+}
