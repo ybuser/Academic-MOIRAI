@@ -9,7 +9,7 @@ const StyledMap = styled.div`
   width: 100%;
 `;
 
-const MapView = ({className}) => {
+const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAP_API_KEY, // Ensure you have the API key in your environment
   });
@@ -17,15 +17,6 @@ const MapView = ({className}) => {
   const mapRef = useRef(null);
   const onMapLoad = map => mapRef.current = map;
   const defaultCenter = useMemo(() => ({ lat: 48.8566, lng: 2.3522 }), []);
-
-  // Function to get LatLngBounds for fitting the map to markers
-  const getBounds = (philosophers) => {
-    const bounds = new window.google.maps.LatLngBounds();
-    philosophers.forEach(({ latLng }) => {
-      bounds.extend(new window.google.maps.LatLng(latLng));
-    });
-    return bounds;
-  };
 
   if (!isLoaded) return <div>...loading</div>;
 
@@ -35,25 +26,37 @@ const MapView = ({className}) => {
       <GoogleMap
         mapContainerStyle={{ width: '100%', height: '100%' }}
         onLoad={onMapLoad}
-        center={defaultCenter}
+        center={defaultCenter} 
         zoom={2}
       >
-        {philosophers.map((philosopher, idx) => (
-          <Marker 
-            key={idx} 
-            position={philosopher.latLng} 
-            label={philosopher.name}
-          />
-        ))}
-        {philosophers.map((philosopher, idx) => (
+        {philosophers.map((philosopher, idx) => {
+          // Ensure the latLng values are numbers
+          const position = {
+            lat: Number(philosopher.latLng.lat),
+            lng: Number(philosopher.latLng.lng)
+          };
+          return (
+            <Marker 
+              key={idx} 
+              position={position} 
+              label={philosopher.name}
+            />
+          );
+        })}
+        {console.log("philosophers in map view ", philosophers)}
+        {philosophers.flatMap((philosopher, idx) => (
           philosopher.relationships.map((relationship, relIdx) => {
             const targetPhilosopher = philosophers.find(p => p.name === relationship.name);
             if (targetPhilosopher) {
+              const strokeWeight = relationship.relationshipStrength / 10;
               return (
                 <Polyline 
                   key={`${idx}-${relIdx}`} 
                   path={[philosopher.latLng, targetPhilosopher.latLng]} 
-                  options={{ strokeColor: "#FF0000" }} 
+                  options={{ 
+                    strokeColor: "#FF0000",
+                    strokeWeight: Math.max(1, strokeWeight), // Ensure that the stroke weight is at least 1
+                  }} 
                 />
               );
             }

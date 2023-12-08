@@ -1,11 +1,11 @@
+import React, { useState } from 'react';
 import styled, {ThemeProvider} from 'styled-components'
 import TimelineView from './views/TimelineView'
 import MapView from './views/MapView'
 import DetailView from './views/DetailView'
-import React from 'react'
 import importedData from './data/data.json';
 import relationships from './data/relationships.json';
-
+import philosophers from './data/philosophers.json';
 
 const baseTheme = {
   background: '#fff',
@@ -61,6 +61,7 @@ const DetailContainer = styled.div`
 `
 
 function App() {
+  const [selectedPhilosopher, setSelectedPhilosopher] = useState(307);
   return (
     <ThemeProvider theme={baseTheme}>
       <Container>
@@ -73,6 +74,8 @@ function App() {
             <TimelineView
               data={importedData}
               relationships={relationships}
+              setSelectedPhilosopher={setSelectedPhilosopher}
+              selectedPhilosopher={selectedPhilosopher}
             />
           {/* </Wrapper> */}
         </TimelineContainer>
@@ -82,7 +85,10 @@ function App() {
             Map View
           </SubTitle>
           {/* <Wrapper> */}
-            <MapView/>
+            <MapView
+              setSelectedPhilosopher={setSelectedPhilosopher}
+              selectedPhilosopher={selectedPhilosopher}
+            />
           {/* </Wrapper> */}
         </MapContainer>
 
@@ -91,7 +97,10 @@ function App() {
             Detail View
           </SubTitle>
           <Wrapper>
-            <DetailView/>
+            <DetailView
+              setSelectedPhilosopher={setSelectedPhilosopher}
+              selectedPhilosopher={selectedPhilosopher}
+            />
           </Wrapper>
         </DetailContainer>
       </Container>
