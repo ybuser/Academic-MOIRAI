@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import * as d3 from "d3";
 
-function computeBarYPosition(data, direction = "center") {
+function computeBarYPosition(data, direction = "top") {
   function xOverlaps(a, b) {
     return a.birth < b.death + 1 && a.death + 1 > b.birth;
   }
@@ -62,10 +62,14 @@ const TimelineView = (props) => {
   let relationships = props.relationships;
 
   const margin = ({ top: 10, right: 20, bottom: 50, left: 20 }); // Increase bottom margin
-  const width = 1800;
+  // const width = 1800;
   const barHeight = 20;
   const maxYear = Math.max(...data.map(d => d.death)) + 20;
   const minYear = Math.min(...data.map(d => d.birth)) - 20;
+  const timelineLength = maxYear - minYear;
+  const widthPerYear = 10;
+  const width = widthPerYear * timelineLength + margin.left + margin.right;
+
 
   const yPos = computeBarYPosition(data);
 
@@ -74,13 +78,18 @@ const TimelineView = (props) => {
   const chartHeight = (yPosMax - yPosMin) * barHeight * 2;
   const height = chartHeight + margin.top + margin.bottom;
 
+  const extraHeightForXAxis = 30; // x축을 위한 추가 높이
+  const svgHeight = chartHeight + margin.top + margin.bottom;
+  const containerHeight = svgHeight + extraHeightForXAxis; // 컨테이너 높이를 SVG 높이 + x축 높이로 설정
+
+
   const xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
   const yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
 
   useEffect(() => {
     const svg = d3.select(splotSvg.current)
       .attr("width", width)
-      .attr("height", height);
+      .attr("height", svgHeight);
 
     svg.append("defs").append("marker")
       .attr("id", "arrowhead")
@@ -117,14 +126,14 @@ const TimelineView = (props) => {
       .attr("transform", `translate(0,${chartHeight})`)
       .call(d3.axisBottom(xScale)
         .tickValues(d3.range(Math.floor(minYear / 20) * 20, maxYear, 20))
-        .tickFormat(d3.format(".0f")) // Add this line to change the tick format
+        .tickFormat(d3.format(".0f"))
         .tickSizeOuter(0));
 
     const arrowLayer = svg.append("g").attr("class", "arrow-layer");
 
     relationships.forEach(rel => {
-      const sourceNode = data.find(d => d.name === rel.source);
-      const targetNode = data.find(d => d.name === rel.target);
+      const sourceNode = data.find(d => d.id === rel.source);
+      const targetNode = data.find(d => d.id === rel.target);
     
       if (sourceNode && targetNode) {
         const sourceIndex = data.indexOf(sourceNode);
@@ -242,8 +251,8 @@ const TimelineView = (props) => {
 
 
   return (
-    <div ref={svgContainerRef} style={{ width: '100%', overflowX: 'auto' }}>
-      <svg ref={splotSvg} width={width} height={height}></svg>
+    <div ref={svgContainerRef} style={{ width: '100%', overflowX: 'auto', height: `${containerHeight}px` }}>
+      <svg ref={splotSvg} width={width} height={svgHeight}></svg>
     </div>
   )
 }
