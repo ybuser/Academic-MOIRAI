@@ -1,8 +1,8 @@
-import React, { useState, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { GoogleMap, Marker, Polyline, useLoadScript } from "@react-google-maps/api";
 import styled from 'styled-components';
 import Loading from '../components/Loading';
-import philosophers from '../data/philosophers.json';
+// import philosophers from '../data/philosophers.json';
 
 const StyledMap = styled.div`
   height: 100%;
@@ -10,9 +10,58 @@ const StyledMap = styled.div`
 `;
 
 const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
+  const [markersData, setMarkersData] = useState([]);
+  const [philosophersData, setPhilosophersData] = useState([]);
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAP_API_KEY, // Ensure you have the API key in your environment
   });
+
+  useEffect(() => {
+    console.log("1 in useeffect");
+    const fetchPhilosopherDetails = async (id) => {
+      console.log("2. getting detailes in ", id);
+      const response = await fetch(`data/detail_json/Q${id}.json`);
+      console.log("3. response is ", response);
+      return await response.json();
+    };
+
+    console.log("4. in useeffect selected", selectedPhilosopher);
+
+    const extractLocationData = (philosopher) => {
+      const location = philosopher.residence || philosopher.educatedAt || philosopher.employer;
+      if (location && location[0] && location[0].coordinates) {
+        return {
+          lat: location[0].coordinates.latitude,
+          lng: location[0].coordinates.longitude,
+          label: philosopher.name
+        };
+      }
+    };
+
+    const loadPhilosophers = async () => {
+      let markers = [];
+      console.log("5. now before fetch");
+      const mainPhilosopher = await fetchPhilosopherDetails(selectedPhilosopher);
+      markers.push(extractLocationData(mainPhilosopher));
+      console.log("6. fetched");
+
+      for (let edgeType in mainPhilosopher.edges) {
+        for (let edge of Object.values(mainPhilosopher.edges[edgeType])) {
+          const philosopherDetails = await fetchPhilosopherDetails(edge.id.replace('Q', ''));
+          markers.push(extractLocationData(philosopherDetails));
+        }
+      }
+
+      console.log("7. in useeffect");
+
+      setMarkersData(markers.filter(marker => marker)); // Filter out undefined markers
+
+
+      console.log("8. loadphilosophers, selected ", selectedPhilosopher);
+    };
+
+    loadPhilosophers();
+  }, [selectedPhilosopher]);
   
   const mapRef = useRef(null);
   const onMapLoad = map => mapRef.current = map;
@@ -20,6 +69,7 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
 
   if (!isLoaded) return <div>...loading</div>;
 
+  console.log("9. Philosophers data: ", philosophersData);
 
   return (
     <StyledMap className={className}>
@@ -29,39 +79,12 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
         center={defaultCenter} 
         zoom={2}
       >
-        {philosophers.map((philosopher, idx) => {
-          // Ensure the latLng values are numbers
-          const position = {
-            lat: Number(philosopher.latLng.lat),
-            lng: Number(philosopher.latLng.lng)
-          };
-          return (
-            <Marker 
-              key={idx} 
-              position={position} 
-              label={philosopher.name}
-            />
-          );
-        })}
-        {console.log("philosophers in map view ", philosophers)}
-        {philosophers.flatMap((philosopher, idx) => (
-          philosopher.relationships.map((relationship, relIdx) => {
-            const targetPhilosopher = philosophers.find(p => p.name === relationship.name);
-            if (targetPhilosopher) {
-              const strokeWeight = relationship.relationshipStrength / 10;
-              return (
-                <Polyline 
-                  key={`${idx}-${relIdx}`} 
-                  path={[philosopher.latLng, targetPhilosopher.latLng]} 
-                  options={{ 
-                    strokeColor: "#FF0000",
-                    strokeWeight: Math.max(1, strokeWeight), // Ensure that the stroke weight is at least 1
-                  }} 
-                />
-              );
-            }
-            return null;
-          })
+        {markersData.map((marker, idx) => (
+          <Marker
+            key={idx}
+            position={{lat: marker.lat, lng: marker.lng}}
+            label={marker.label}
+          />
         ))}
       </GoogleMap>
     </StyledMap>

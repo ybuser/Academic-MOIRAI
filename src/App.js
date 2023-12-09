@@ -5,7 +5,6 @@ import MapView from './views/MapView'
 import DetailView from './views/DetailView'
 import importedData from './data/data.json';
 import relationships from './data/relationships.json';
-import philosophers from './data/philosophers.json';
 
 const baseTheme = {
   background: '#fff',
