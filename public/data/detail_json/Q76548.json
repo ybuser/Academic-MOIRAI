@@ -1,1 +1,96 @@
-{"id": "Q76548", "name": "Meister Eckhart", "desc": "German philosopher and theologian", "wiki_link": "https://en.wikipedia.org/wiki/Meister_Eckhart", "countryOfCitizenship": {"0": {"id": "Q183", "name": "Germany"}}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q1234713", "name": "theologian"}, "2": {"id": "Q1622272", "name": "university teacher"}}, "dateOfBirth": {"0": "+1260-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+1328-01-01T00:00:00Z"}, "fieldOfWork": {"0": {"id": "Q34178", "name": "theology"}}, "educatedAt": {"0": {"id": "Q209842", "name": "University of Paris", "coordinates": {"latitude": 48.8486, "longitude": 2.34333, "altitude": null, "precision": 0.013651149849302, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"id": "Q209842", "name": "University of Paris", "coordinates": {"latitude": 48.8486, "longitude": 2.34333, "altitude": null, "precision": 0.013651149849302, "globe": "http://www.wikidata.org/entity/Q2"}}}, "student": {"0": {"id": "Q60281", "name": "Johannes Tauler"}}, "residence": {"0": {"id": "Q1729", "name": "Erfurt", "coordinates": {"latitude": 50.978055555556, "longitude": 11.029166666667, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "image": {"0": "Meister Eckhart base copie.jpg", "1": "Eckharts wirtschaft.jpg"}, "edges": {"influenced": {"0": {"id": "Q123382", "name": "Frithjof Schuon"}}}}
+{
+	"id": "Q76548",
+	"name": "Meister Eckhart",
+	"desc": "German philosopher and theologian",
+	"wiki_link": "https://en.wikipedia.org/wiki/Meister_Eckhart",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q183",
+			"name": "Germany"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q1234713",
+			"name": "theologian"
+		},
+		"2": {
+			"id": "Q1622272",
+			"name": "university teacher"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1260-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1328-01-01T00:00:00Z"
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q34178",
+			"name": "theology"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q209842",
+			"name": "University of Paris",
+			"coordinates": {
+				"latitude": 48.8486,
+				"longitude": 2.34333,
+				"altitude": null,
+				"precision": 0.013651149849302,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q209842",
+			"name": "University of Paris",
+			"coordinates": {
+				"latitude": 48.8486,
+				"longitude": 2.34333,
+				"altitude": null,
+				"precision": 0.013651149849302,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q60281",
+			"name": "Johannes Tauler"
+		}
+	},
+	"residence": {
+		"0": {
+			"id": "Q1729",
+			"name": "Erfurt",
+			"coordinates": {
+				"latitude": 50.978055555556,
+				"longitude": 11.029166666667,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"image": {
+		"0": "Meister Eckhart base copie.jpg",
+		"1": "Eckharts wirtschaft.jpg"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q123382",
+				"name": "Frithjof Schuon",
+				"similarity": 0.2749207615852356
+			}
+		}
+	}
+}

@@ -1,1 +1,59 @@
-{"id": "Q925732", "name": "Menedemus the Cynic", "desc": "3rd century BC Greek Cynic philosopher", "wiki_link": "https://en.wikipedia.org/wiki/Menedemus_the_Cynic", "movement": {"0": {"id": "Q485459", "name": "cynicism"}}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q201788", "name": "historian"}}, "studentOf": {"0": {"id": "Q1234536", "name": "Colotes"}, "1": {"id": "Q5816906", "name": "Echecles of Ephesus"}}, "dateOfBirth": {"0": "-0400-01-01T00:00:00Z"}, "dateOfDeath": {"0": "-0300-01-01T00:00:00Z"}, "timePeriod": {"0": {"id": "Q428995", "name": "Hellenistic period"}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}}, "edges": {"learnedFrom": {"0": {"id": "Q1234536", "name": "Colotes"}}}}
+{
+	"id": "Q925732",
+	"name": "Menedemus the Cynic",
+	"desc": "3rd century BC Greek Cynic philosopher",
+	"wiki_link": "https://en.wikipedia.org/wiki/Menedemus_the_Cynic",
+	"movement": {
+		"0": {
+			"id": "Q485459",
+			"name": "cynicism"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q201788",
+			"name": "historian"
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q1234536",
+			"name": "Colotes"
+		},
+		"1": {
+			"id": "Q5816906",
+			"name": "Echecles of Ephesus"
+		}
+	},
+	"dateOfBirth": {
+		"0": "-0400-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0300-01-01T00:00:00Z"
+	},
+	"timePeriod": {
+		"0": {
+			"id": "Q428995",
+			"name": "Hellenistic period"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"edges": {
+		"learnedFrom": {
+			"0": {
+				"id": "Q1234536",
+				"name": "Colotes",
+				"similarity": 0.48038697242736816
+			}
+		}
+	}
+}

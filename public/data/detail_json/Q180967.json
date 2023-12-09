@@ -1,1 +1,43 @@
-{"id": "Q180967", "name": "Adi Shankara", "desc": "8th-century Hindu philosopher and theologian", "wiki_link": "https://en.wikipedia.org/wiki/Adi_Shankara", "image": {"0": "Raja Ravi Varma - Sankaracharya.jpg", "1": "AdiShankara1.jpg"}, "dateOfBirth": {"0": "+0788-00-00T00:00:00Z"}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}}, "studentOf": {"0": {"id": "Q777499", "name": "Govinda Bhagavatpada"}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}}, "dateOfDeath": {"0": "+0820-00-00T00:00:00Z"}, "edges": {"influenced": {"0": {"id": "Q123382", "name": "Frithjof Schuon"}}}}
+{
+	"id": "Q180967",
+	"name": "Adi Shankara",
+	"desc": "8th-century Hindu philosopher and theologian",
+	"wiki_link": "https://en.wikipedia.org/wiki/Adi_Shankara",
+	"image": {
+		"0": "Raja Ravi Varma - Sankaracharya.jpg",
+		"1": "AdiShankara1.jpg"
+	},
+	"dateOfBirth": {
+		"0": "+0788-00-00T00:00:00Z"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q777499",
+			"name": "Govinda Bhagavatpada"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"dateOfDeath": {
+		"0": "+0820-00-00T00:00:00Z"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q123382",
+				"name": "Frithjof Schuon",
+				"similarity": 0.17668363451957703
+			}
+		}
+	}
+}

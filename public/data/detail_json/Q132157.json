@@ -1,1 +1,71 @@
-{"id": "Q132157", "name": "Zeno of Elea", "desc": "Greek philosopher (c. 495 \u2013 c. 430 BC)", "wiki_link": "https://en.wikipedia.org/wiki/Zeno_of_Elea", "studentOf": {"0": {"id": "Q125551", "name": "Parmenides"}}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q170790", "name": "mathematician"}, "2": {"id": "Q36180", "name": "writer"}}, "dateOfBirth": {"0": "-0490-00-00T00:00:00Z"}, "dateOfDeath": {"0": "-0425-00-00T00:00:00Z"}, "influencedBy": {"0": {"id": "Q125551", "name": "Parmenides"}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}}, "image": {"0": "Portretbuste van Zeno van Elea Paradigmata graphices variorum artificum (serietitel), RP-P-1907-4495.jpg", "1": "Zeno of Elea Tibaldi or Carducci Escorial.jpg"}, "edges": {"influenced": {"0": {"id": "Q868", "name": "Aristotle"}}, "influencedBy": {"0": {"id": "Q125551", "name": "Parmenides"}}, "learnedFrom": {"0": {"id": "Q125551", "name": "Parmenides"}}}}
+{
+	"id": "Q132157",
+	"name": "Zeno of Elea",
+	"desc": "Greek philosopher (c. 495 \u2013 c. 430 BC)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Zeno_of_Elea",
+	"studentOf": {
+		"0": {
+			"id": "Q125551",
+			"name": "Parmenides"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q170790",
+			"name": "mathematician"
+		},
+		"2": {
+			"id": "Q36180",
+			"name": "writer"
+		}
+	},
+	"dateOfBirth": {
+		"0": "-0490-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0425-00-00T00:00:00Z"
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q125551",
+			"name": "Parmenides"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"image": {
+		"0": "Portretbuste van Zeno van Elea Paradigmata graphices variorum artificum (serietitel), RP-P-1907-4495.jpg",
+		"1": "Zeno of Elea Tibaldi or Carducci Escorial.jpg"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.4412662088871002
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q125551",
+				"name": "Parmenides",
+				"similarity": 0.5274655818939209
+			}
+		},
+		"learnedFrom": {
+			"0": {
+				"id": "Q125551",
+				"name": "Parmenides",
+				"similarity": 0.5274655818939209
+			}
+		}
+	}
+}

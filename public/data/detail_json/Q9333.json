@@ -1,1 +1,82 @@
-{"id": "Q9333", "name": "Laozi", "desc": "6th-century BC semi-legendary Chinese philosopher, founder of Taoism", "wiki_link": "https://en.wikipedia.org/wiki/Laozi", "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q635734", "name": "archivist"}, "2": {"id": "Q36180", "name": "writer"}, "3": {"id": "Q116865146", "name": "taoist"}}, "dateOfBirth": {"0": "-0604-01-01T00:00:00Z", "1": "-0579-00-00T00:00:00Z", "2": "-0571-00-00T00:00:00Z"}, "image": {"0": "Zhang Lu-Laozi Riding an Ox (cropped).jpg", "1": "Laozi.jpg", "2": "Stone statue of Lao Tzu at Qingyuanshan (20200930154018).jpg"}, "dateOfDeath": {"0": "-0600-01-01T00:00:00Z", "1": "-0499-00-00T00:00:00Z", "2": "-0471-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": {"id": "Q35216", "name": "Zhou dynasty"}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}}, "notableWork": {"0": {"id": "Q134425", "name": "Tao Te Ching"}}, "movement": {"0": {"id": "Q9598", "name": "Taoism"}, "1": {"id": "Q307043", "name": "Eastern philosophy"}}, "timePeriod": {"0": {"id": "Q41493", "name": "ancient history"}}, "edges": {"influenced": {"0": {"id": "Q334147", "name": "Julius Evola"}}}}
+{
+	"id": "Q9333",
+	"name": "Laozi",
+	"desc": "6th-century BC semi-legendary Chinese philosopher, founder of Taoism",
+	"wiki_link": "https://en.wikipedia.org/wiki/Laozi",
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q635734",
+			"name": "archivist"
+		},
+		"2": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"3": {
+			"id": "Q116865146",
+			"name": "taoist"
+		}
+	},
+	"dateOfBirth": {
+		"0": "-0604-01-01T00:00:00Z",
+		"1": "-0579-00-00T00:00:00Z",
+		"2": "-0571-00-00T00:00:00Z"
+	},
+	"image": {
+		"0": "Zhang Lu-Laozi Riding an Ox (cropped).jpg",
+		"1": "Laozi.jpg",
+		"2": "Stone statue of Lao Tzu at Qingyuanshan (20200930154018).jpg"
+	},
+	"dateOfDeath": {
+		"0": "-0600-01-01T00:00:00Z",
+		"1": "-0499-00-00T00:00:00Z",
+		"2": "-0471-00-00T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q35216",
+			"name": "Zhou dynasty"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q134425",
+			"name": "Tao Te Ching"
+		}
+	},
+	"movement": {
+		"0": {
+			"id": "Q9598",
+			"name": "Taoism"
+		},
+		"1": {
+			"id": "Q307043",
+			"name": "Eastern philosophy"
+		}
+	},
+	"timePeriod": {
+		"0": {
+			"id": "Q41493",
+			"name": "ancient history"
+		}
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q334147",
+				"name": "Julius Evola",
+				"similarity": 0.20392635464668274
+			}
+		}
+	}
+}

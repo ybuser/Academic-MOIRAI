@@ -1,1 +1,47 @@
-{"id": "Q4115511", "name": "Abu al-Hassan al-Amiri", "desc": "Persian theologian and philosopher (died 992)", "wiki_link": "https://en.wikipedia.org/wiki/Abu_al-Hassan_al-Amiri", "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}}, "dateOfDeath": {"0": "+0992-01-06T00:00:00Z", "1": "+0996-00-00T00:00:00Z"}, "dateOfBirth": {"0": "+0913-01-01T00:00:00Z", "1": "+0912-00-00T00:00:00Z"}, "studentOf": {"0": {"id": "Q335516", "name": "Abu Zayd al-Balkhi"}}, "student": {"0": {"id": "Q17004559", "name": "Ibn Hindu"}}, "influencedBy": {"0": {"id": "Q160460", "name": "Al-Farabi"}}, "edges": {"influencedBy": {"0": {"id": "Q160460", "name": "Al-Farabi"}}}}
+{
+	"id": "Q4115511",
+	"name": "Abu al-Hassan al-Amiri",
+	"desc": "Persian theologian and philosopher (died 992)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Abu_al-Hassan_al-Amiri",
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		}
+	},
+	"dateOfDeath": {
+		"0": "+0992-01-06T00:00:00Z",
+		"1": "+0996-00-00T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+0913-01-01T00:00:00Z",
+		"1": "+0912-00-00T00:00:00Z"
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q335516",
+			"name": "Abu Zayd al-Balkhi"
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q17004559",
+			"name": "Ibn Hindu"
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q160460",
+			"name": "Al-Farabi"
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q160460",
+				"name": "Al-Farabi",
+				"similarity": 0.5265299677848816
+			}
+		}
+	}
+}

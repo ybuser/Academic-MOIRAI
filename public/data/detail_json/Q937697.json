@@ -1,1 +1,236 @@
-{"id": "Q937697", "name": "Stefan Molyneux", "desc": "far-right white nationalist and white supremacist podcaster, blogger, author and political commentator", "wiki_link": "https://en.wikipedia.org/wiki/Stefan_Molyneux", "notableWork": {"0": {"id": "Q17255264", "name": "Revolutions"}, "1": {"id": "Q23775151", "name": "Universally Preferable Behaviour: A Rational Proof of Secular Ethics"}, "2": {"id": "Q61999572", "name": "The Art of the Argument"}, "3": {"id": "Q62000429", "name": "Real-Time Relationships"}}, "educatedAt": {"0": {"id": "Q180865", "name": "University of Toronto", "coordinates": {"latitude": 43.662917, "longitude": -79.395746, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q201492", "name": "McGill University", "coordinates": {"latitude": 45.50416944444444, "longitude": -73.57471944444444, "altitude": null, "precision": 2.777777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q849751", "name": "York University", "coordinates": {"latitude": 43.773055555556, "longitude": -79.503611111111, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"id": "Q5939790", "name": "Humber College", "coordinates": {"latitude": 43.729444444444, "longitude": -79.609166666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "4": {"id": "Q3578133", "name": "National Theatre School of Canada", "coordinates": {"latitude": 45.5091, "longitude": -73.5625, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}, "5": {"id": "Q967165", "name": "University of York", "coordinates": {"latitude": 53.94659, "longitude": -1.0525, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "6": {"id": "Q2493808", "name": "Glendon College", "coordinates": {"latitude": 43.7275, "longitude": -79.3785, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}}, "dateOfBirth": {"0": "+1966-09-24T00:00:00Z"}, "countryOfCitizenship": {"0": {"id": "Q16", "name": "Canada"}}, "occupation": {"0": {"id": "Q36180", "name": "writer"}, "1": {"id": "Q6625963", "name": "novelist"}, "2": {"id": "Q15077007", "name": "podcaster"}, "3": {"id": "Q8246794", "name": "blogger"}, "4": {"id": "Q17125263", "name": "YouTuber"}, "5": {"id": "Q2526255", "name": "film director"}, "6": {"id": "Q131524", "name": "entrepreneur"}, "7": {"id": "Q33999", "name": "actor"}, "8": {"id": "Q1642960", "name": "pundit"}}, "image": {"0": "Stefan Molyneux 2014-02-10.jpg"}, "influencedBy": {"0": {"id": "Q132524", "name": "Ayn Rand"}, "1": {"id": "Q868", "name": "Aristotle"}, "2": {"id": "Q913", "name": "Socrates"}, "3": {"id": "Q741456", "name": "Nathaniel Branden"}, "4": {"id": "Q3736354", "name": "Harry Browne"}}, "residence": {"0": {"id": "Q50816", "name": "Mississauga", "coordinates": {"latitude": 43.6, "longitude": -79.65, "altitude": null, "precision": 0.016666666666667, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q84", "name": "London", "coordinates": {"latitude": 51.507222222222, "longitude": -0.1275, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": {"id": "Q7397", "name": "software"}, "1": {"id": "Q5891", "name": "philosophy"}, "2": {"id": "Q9465", "name": "ethics"}, "3": {"id": "Q880371", "name": "software industry"}}, "edges": {"influencedBy": {"0": {"id": "Q913", "name": "Socrates"}, "1": {"id": "Q132524", "name": "Ayn Rand"}, "2": {"id": "Q868", "name": "Aristotle"}}}}
+{
+	"id": "Q937697",
+	"name": "Stefan Molyneux",
+	"desc": "far-right white nationalist and white supremacist podcaster, blogger, author and political commentator",
+	"wiki_link": "https://en.wikipedia.org/wiki/Stefan_Molyneux",
+	"notableWork": {
+		"0": {
+			"id": "Q17255264",
+			"name": "Revolutions"
+		},
+		"1": {
+			"id": "Q23775151",
+			"name": "Universally Preferable Behaviour: A Rational Proof of Secular Ethics"
+		},
+		"2": {
+			"id": "Q61999572",
+			"name": "The Art of the Argument"
+		},
+		"3": {
+			"id": "Q62000429",
+			"name": "Real-Time Relationships"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q180865",
+			"name": "University of Toronto",
+			"coordinates": {
+				"latitude": 43.662917,
+				"longitude": -79.395746,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q201492",
+			"name": "McGill University",
+			"coordinates": {
+				"latitude": 45.50416944444444,
+				"longitude": -73.57471944444444,
+				"altitude": null,
+				"precision": 2.777777777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q849751",
+			"name": "York University",
+			"coordinates": {
+				"latitude": 43.773055555556,
+				"longitude": -79.503611111111,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"id": "Q5939790",
+			"name": "Humber College",
+			"coordinates": {
+				"latitude": 43.729444444444,
+				"longitude": -79.609166666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"id": "Q3578133",
+			"name": "National Theatre School of Canada",
+			"coordinates": {
+				"latitude": 45.5091,
+				"longitude": -73.5625,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"5": {
+			"id": "Q967165",
+			"name": "University of York",
+			"coordinates": {
+				"latitude": 53.94659,
+				"longitude": -1.0525,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"6": {
+			"id": "Q2493808",
+			"name": "Glendon College",
+			"coordinates": {
+				"latitude": 43.7275,
+				"longitude": -79.3785,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1966-09-24T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q16",
+			"name": "Canada"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"1": {
+			"id": "Q6625963",
+			"name": "novelist"
+		},
+		"2": {
+			"id": "Q15077007",
+			"name": "podcaster"
+		},
+		"3": {
+			"id": "Q8246794",
+			"name": "blogger"
+		},
+		"4": {
+			"id": "Q17125263",
+			"name": "YouTuber"
+		},
+		"5": {
+			"id": "Q2526255",
+			"name": "film director"
+		},
+		"6": {
+			"id": "Q131524",
+			"name": "entrepreneur"
+		},
+		"7": {
+			"id": "Q33999",
+			"name": "actor"
+		},
+		"8": {
+			"id": "Q1642960",
+			"name": "pundit"
+		}
+	},
+	"image": {
+		"0": "Stefan Molyneux 2014-02-10.jpg"
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q132524",
+			"name": "Ayn Rand"
+		},
+		"1": {
+			"id": "Q868",
+			"name": "Aristotle"
+		},
+		"2": {
+			"id": "Q913",
+			"name": "Socrates"
+		},
+		"3": {
+			"id": "Q741456",
+			"name": "Nathaniel Branden"
+		},
+		"4": {
+			"id": "Q3736354",
+			"name": "Harry Browne"
+		}
+	},
+	"residence": {
+		"0": {
+			"id": "Q50816",
+			"name": "Mississauga",
+			"coordinates": {
+				"latitude": 43.6,
+				"longitude": -79.65,
+				"altitude": null,
+				"precision": 0.016666666666667,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q84",
+			"name": "London",
+			"coordinates": {
+				"latitude": 51.507222222222,
+				"longitude": -0.1275,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q7397",
+			"name": "software"
+		},
+		"1": {
+			"id": "Q5891",
+			"name": "philosophy"
+		},
+		"2": {
+			"id": "Q9465",
+			"name": "ethics"
+		},
+		"3": {
+			"id": "Q880371",
+			"name": "software industry"
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q913",
+				"name": "Socrates",
+				"similarity": 0.12619923055171967
+			},
+			"1": {
+				"id": "Q132524",
+				"name": "Ayn Rand",
+				"similarity": 0.31551599502563477
+			},
+			"2": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.03058430179953575
+			}
+		}
+	}
+}

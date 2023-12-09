@@ -1,1 +1,135 @@
-{"id": "Q11362", "name": "Avempace", "desc": "Arab Andalusian polymath (c.\u20091085 \u2013 1138)", "wiki_link": "https://en.wikipedia.org/wiki/Avempace", "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q170790", "name": "mathematician"}, "2": {"id": "Q11063", "name": "astronomer"}, "3": {"id": "Q36180", "name": "writer"}, "4": {"id": "Q39631", "name": "physician"}, "5": {"id": "Q2374149", "name": "botanist"}, "6": {"id": "Q49757", "name": "poet"}, "7": {"id": "Q169470", "name": "physicist"}, "8": {"id": "Q639669", "name": "musician"}, "9": {"id": "Q82955", "name": "politician"}}, "dateOfDeath": {"0": "+1139-00-00T00:00:00Z", "1": "+1139-00-00T00:00:00Z"}, "dateOfBirth": {"0": "+1080-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": {"id": "Q33061", "name": "Taifa of Sarakusta"}}, "studentOf": {"0": {"id": "Q4670236", "name": "Abu Jafar ibn Harun al-Turjali"}}, "image": {"0": "Ibn B\u0101jja, Sayr mulhimah min al-Sharq wa-al-Gharb.png"}, "influencedBy": {"0": {"id": "Q160460", "name": "Al-Farabi"}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}, "1": {"id": "Q105103616", "name": "Arab philosophy"}, "2": {"id": "Q333", "name": "astronomy"}, "3": {"id": "Q413", "name": "physics"}, "4": {"id": "Q11190", "name": "medicine"}, "5": {"id": "Q441", "name": "botany"}, "6": {"id": "Q482", "name": "poetry"}, "7": {"id": "Q638", "name": "music"}, "8": {"id": "Q7163", "name": "politics"}}, "edges": {"influenced": {"0": {"id": "Q39837", "name": "Averroes"}, "1": {"id": "Q127398", "name": "Moshe ben Maimon"}}, "influencedBy": {"0": {"id": "Q160460", "name": "Al-Farabi"}}}}
+{
+	"id": "Q11362",
+	"name": "Avempace",
+	"desc": "Arab Andalusian polymath (c.\u20091085 \u2013 1138)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Avempace",
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q170790",
+			"name": "mathematician"
+		},
+		"2": {
+			"id": "Q11063",
+			"name": "astronomer"
+		},
+		"3": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"4": {
+			"id": "Q39631",
+			"name": "physician"
+		},
+		"5": {
+			"id": "Q2374149",
+			"name": "botanist"
+		},
+		"6": {
+			"id": "Q49757",
+			"name": "poet"
+		},
+		"7": {
+			"id": "Q169470",
+			"name": "physicist"
+		},
+		"8": {
+			"id": "Q639669",
+			"name": "musician"
+		},
+		"9": {
+			"id": "Q82955",
+			"name": "politician"
+		}
+	},
+	"dateOfDeath": {
+		"0": "+1139-00-00T00:00:00Z",
+		"1": "+1139-00-00T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+1080-00-00T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q33061",
+			"name": "Taifa of Sarakusta"
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q4670236",
+			"name": "Abu Jafar ibn Harun al-Turjali"
+		}
+	},
+	"image": {
+		"0": "Ibn B\u0101jja, Sayr mulhimah min al-Sharq wa-al-Gharb.png"
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q160460",
+			"name": "Al-Farabi"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		},
+		"1": {
+			"id": "Q105103616",
+			"name": "Arab philosophy"
+		},
+		"2": {
+			"id": "Q333",
+			"name": "astronomy"
+		},
+		"3": {
+			"id": "Q413",
+			"name": "physics"
+		},
+		"4": {
+			"id": "Q11190",
+			"name": "medicine"
+		},
+		"5": {
+			"id": "Q441",
+			"name": "botany"
+		},
+		"6": {
+			"id": "Q482",
+			"name": "poetry"
+		},
+		"7": {
+			"id": "Q638",
+			"name": "music"
+		},
+		"8": {
+			"id": "Q7163",
+			"name": "politics"
+		}
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q39837",
+				"name": "Averroes",
+				"similarity": 0.4469431936740875
+			},
+			"1": {
+				"id": "Q127398",
+				"name": "Moshe ben Maimon",
+				"similarity": 0.2835859954357147
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q160460",
+				"name": "Al-Farabi",
+				"similarity": 0.5363703966140747
+			}
+		}
+	}
+}

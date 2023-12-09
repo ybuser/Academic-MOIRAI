@@ -1,1 +1,186 @@
-{"id": "Q215022", "name": "Arthur Eddington", "desc": "British astrophysicist (1882-1944)", "wiki_link": "https://en.wikipedia.org/wiki/Arthur_Eddington", "countryOfCitizenship": {"0": {"id": "Q145", "name": "United Kingdom"}}, "dateOfBirth": {"0": "+1882-12-28T00:00:00Z"}, "dateOfDeath": {"0": "+1944-11-22T00:00:00Z"}, "image": {"0": "Arthur Stanley Eddington.jpg"}, "occupation": {"0": {"id": "Q11063", "name": "astronomer"}, "1": {"id": "Q752129", "name": "astrophysicist"}, "2": {"id": "Q4964182", "name": "philosopher"}, "3": {"id": "Q169470", "name": "physicist"}}, "educatedAt": {"0": {"id": "Q332342", "name": "Trinity College", "coordinates": {"latitude": 52.206944444444, "longitude": 0.11694444444444, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q867530", "name": "Victoria University of Manchester", "coordinates": {"latitude": 53.4675, "longitude": -2.2325, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q35794", "name": "University of Cambridge", "coordinates": {"latitude": 52.205355979757925, "longitude": 0.11315726963968827, "altitude": null, "precision": 1e-08, "globe": "http://www.wikidata.org/entity/Q2"}}}, "doctralStudent": {"0": {"id": "Q148109", "name": "Subrahmanyan Chandrasekhar"}, "1": {"id": "Q234909", "name": "Cecilia Payne Gaposchkin"}, "2": {"id": "Q380235", "name": "Hermann Bondi"}, "3": {"id": "Q328362", "name": "Leslie Comrie"}, "4": {"id": "Q6794949", "name": "Max Krook"}, "5": {"id": "Q16509177", "name": "George Cunliffe McVittie"}, "6": {"id": "Q4392208", "name": "Roderick Oliver Redman"}, "7": {"id": "Q95885713", "name": "Gerald Merton"}, "8": {"id": "Q102169586", "name": "G. L. Clark"}, "9": {"id": "Q12884842", "name": "Stavros Plakidis"}}, "employer": {"0": {"id": "Q35794", "name": "University of Cambridge", "coordinates": {"latitude": 52.205355979757925, "longitude": 0.11315726963968827, "altitude": null, "precision": 1e-08, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q1965699", "name": "Cambridge Observatory", "coordinates": {"latitude": 52.2135, "longitude": 0.0944, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q192988", "name": "Royal Observatory", "coordinates": {"latitude": 51.477833333333336, "longitude": -0.0013888888888888887, "altitude": null, "precision": 2.777777777777778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": {"id": "Q37547", "name": "astrophysics"}}, "influencedBy": {"0": {"id": "Q1627897", "name": "Horace Lamb"}}, "notableWork": {"0": {"id": "Q11452", "name": "general relativity"}, "1": {"id": "Q853005", "name": "Eddington luminosity"}, "2": {"id": "Q24434", "name": "Eddington number"}}, "edges": {"learnedFrom": {"0": {"id": "Q183372", "name": "Alfred North Whitehead"}}}}
+{
+	"id": "Q215022",
+	"name": "Arthur Eddington",
+	"desc": "British astrophysicist (1882-1944)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Arthur_Eddington",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q145",
+			"name": "United Kingdom"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1882-12-28T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1944-11-22T00:00:00Z"
+	},
+	"image": {
+		"0": "Arthur Stanley Eddington.jpg"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q11063",
+			"name": "astronomer"
+		},
+		"1": {
+			"id": "Q752129",
+			"name": "astrophysicist"
+		},
+		"2": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"3": {
+			"id": "Q169470",
+			"name": "physicist"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q332342",
+			"name": "Trinity College",
+			"coordinates": {
+				"latitude": 52.206944444444,
+				"longitude": 0.11694444444444,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q867530",
+			"name": "Victoria University of Manchester",
+			"coordinates": {
+				"latitude": 53.4675,
+				"longitude": -2.2325,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q35794",
+			"name": "University of Cambridge",
+			"coordinates": {
+				"latitude": 52.205355979757925,
+				"longitude": 0.11315726963968827,
+				"altitude": null,
+				"precision": 1e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"doctralStudent": {
+		"0": {
+			"id": "Q148109",
+			"name": "Subrahmanyan Chandrasekhar"
+		},
+		"1": {
+			"id": "Q234909",
+			"name": "Cecilia Payne Gaposchkin"
+		},
+		"2": {
+			"id": "Q380235",
+			"name": "Hermann Bondi"
+		},
+		"3": {
+			"id": "Q328362",
+			"name": "Leslie Comrie"
+		},
+		"4": {
+			"id": "Q6794949",
+			"name": "Max Krook"
+		},
+		"5": {
+			"id": "Q16509177",
+			"name": "George Cunliffe McVittie"
+		},
+		"6": {
+			"id": "Q4392208",
+			"name": "Roderick Oliver Redman"
+		},
+		"7": {
+			"id": "Q95885713",
+			"name": "Gerald Merton"
+		},
+		"8": {
+			"id": "Q102169586",
+			"name": "G. L. Clark"
+		},
+		"9": {
+			"id": "Q12884842",
+			"name": "Stavros Plakidis"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q35794",
+			"name": "University of Cambridge",
+			"coordinates": {
+				"latitude": 52.205355979757925,
+				"longitude": 0.11315726963968827,
+				"altitude": null,
+				"precision": 1e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q1965699",
+			"name": "Cambridge Observatory",
+			"coordinates": {
+				"latitude": 52.2135,
+				"longitude": 0.0944,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q192988",
+			"name": "Royal Observatory",
+			"coordinates": {
+				"latitude": 51.477833333333336,
+				"longitude": -0.0013888888888888887,
+				"altitude": null,
+				"precision": 2.777777777777778e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q37547",
+			"name": "astrophysics"
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q1627897",
+			"name": "Horace Lamb"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q11452",
+			"name": "general relativity"
+		},
+		"1": {
+			"id": "Q853005",
+			"name": "Eddington luminosity"
+		},
+		"2": {
+			"id": "Q24434",
+			"name": "Eddington number"
+		}
+	},
+	"edges": {
+		"learnedFrom": {
+			"0": {
+				"id": "Q183372",
+				"name": "Alfred North Whitehead",
+				"similarity": 0.20944151282310486
+			}
+		}
+	}
+}

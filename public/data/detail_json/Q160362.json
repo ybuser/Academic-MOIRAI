@@ -1,1 +1,161 @@
-{"id": "Q160362", "name": "Theophrastus", "desc": "Greek philosopher (c.371-c.287 BC)", "wiki_link": "https://en.wikipedia.org/wiki/Theophrastus", "dateOfBirth": {"0": "-0371-00-00T00:00:00Z"}, "dateOfDeath": {"0": "-0287-00-00T00:00:00Z"}, "image": {"0": "Teofrasto Orto botanico detail.jpg", "1": "Teofrasto Orto botanico head.jpg"}, "occupation": {"0": {"id": "Q2374149", "name": "botanist"}, "1": {"id": "Q169470", "name": "physicist"}, "2": {"id": "Q4964182", "name": "philosopher"}, "3": {"id": "Q36180", "name": "writer"}}, "studentOf": {"0": {"id": "Q868", "name": "Aristotle"}, "1": {"id": "Q859", "name": "Plato"}}, "student": {"0": {"id": "Q316353", "name": "Strato of Lampsacus"}, "1": {"id": "Q359231", "name": "Bion of Borysthenes"}, "2": {"id": "Q2955937", "name": "Chamaeleon"}, "3": {"id": "Q3347025", "name": "Neleus of Scepsis"}, "4": {"id": "Q3991387", "name": "Timagoras of Gela"}, "5": {"id": "Q1159316", "name": "Praxiphanes"}, "6": {"id": "Q118992", "name": "Menander"}, "7": {"id": "Q313286", "name": "Demetrius of Phalerum"}, "8": {"id": "Q1287486", "name": "Metrocles"}}, "countryOfCitizenship": {"0": {"id": "Q844930", "name": "Classical Athens"}}, "notableWork": {"0": {"id": "Q17156420", "name": "Historia Plantarum"}, "1": {"id": "Q16536650", "name": "De causis plantarum"}, "2": {"id": "Q3231273", "name": "Characters"}, "3": {"id": "Q63183551", "name": "De sensu"}, "4": {"id": "Q3333485", "name": "Metafisica"}}, "educatedAt": {"0": {"id": "Q194414", "name": "peripatetic school", "coordinates": ""}}, "timePeriod": {"0": {"id": "Q428995", "name": "Hellenistic period"}}, "fieldOfWork": {"0": {"id": "Q441", "name": "botany"}}, "movement": {"0": {"id": "Q194414", "name": "peripatetic school"}}, "edges": {"learnedFrom": {"0": {"id": "Q859", "name": "Plato"}, "1": {"id": "Q868", "name": "Aristotle"}}, "taught": {"0": {"id": "Q313286", "name": "Demetrius of Phalerum"}, "1": {"id": "Q2955937", "name": "Chamaeleon"}}}}
+{
+	"id": "Q160362",
+	"name": "Theophrastus",
+	"desc": "Greek philosopher (c.371-c.287 BC)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Theophrastus",
+	"dateOfBirth": {
+		"0": "-0371-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0287-00-00T00:00:00Z"
+	},
+	"image": {
+		"0": "Teofrasto Orto botanico detail.jpg",
+		"1": "Teofrasto Orto botanico head.jpg"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q2374149",
+			"name": "botanist"
+		},
+		"1": {
+			"id": "Q169470",
+			"name": "physicist"
+		},
+		"2": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"3": {
+			"id": "Q36180",
+			"name": "writer"
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q868",
+			"name": "Aristotle"
+		},
+		"1": {
+			"id": "Q859",
+			"name": "Plato"
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q316353",
+			"name": "Strato of Lampsacus"
+		},
+		"1": {
+			"id": "Q359231",
+			"name": "Bion of Borysthenes"
+		},
+		"2": {
+			"id": "Q2955937",
+			"name": "Chamaeleon"
+		},
+		"3": {
+			"id": "Q3347025",
+			"name": "Neleus of Scepsis"
+		},
+		"4": {
+			"id": "Q3991387",
+			"name": "Timagoras of Gela"
+		},
+		"5": {
+			"id": "Q1159316",
+			"name": "Praxiphanes"
+		},
+		"6": {
+			"id": "Q118992",
+			"name": "Menander"
+		},
+		"7": {
+			"id": "Q313286",
+			"name": "Demetrius of Phalerum"
+		},
+		"8": {
+			"id": "Q1287486",
+			"name": "Metrocles"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q844930",
+			"name": "Classical Athens"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q17156420",
+			"name": "Historia Plantarum"
+		},
+		"1": {
+			"id": "Q16536650",
+			"name": "De causis plantarum"
+		},
+		"2": {
+			"id": "Q3231273",
+			"name": "Characters"
+		},
+		"3": {
+			"id": "Q63183551",
+			"name": "De sensu"
+		},
+		"4": {
+			"id": "Q3333485",
+			"name": "Metafisica"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q194414",
+			"name": "peripatetic school",
+			"coordinates": ""
+		}
+	},
+	"timePeriod": {
+		"0": {
+			"id": "Q428995",
+			"name": "Hellenistic period"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q441",
+			"name": "botany"
+		}
+	},
+	"movement": {
+		"0": {
+			"id": "Q194414",
+			"name": "peripatetic school"
+		}
+	},
+	"edges": {
+		"learnedFrom": {
+			"0": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.3670492470264435
+			},
+			"1": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.4995962381362915
+			}
+		},
+		"taught": {
+			"0": {
+				"id": "Q313286",
+				"name": "Demetrius of Phalerum",
+				"similarity": 0.4914464056491852
+			},
+			"1": {
+				"id": "Q2955937",
+				"name": "Chamaeleon",
+				"similarity": 0.4626823961734772
+			}
+		}
+	}
+}

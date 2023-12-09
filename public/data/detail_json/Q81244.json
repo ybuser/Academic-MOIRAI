@@ -1,1 +1,367 @@
-{"id": "Q81244", "name": "Karl Popper", "desc": "Austrian-British philosopher of science and social and political philosopher noted for falsificationism and for criticism of Plato, Hegel and Marx as totalitarian opponents of open society (1902-1994)", "wiki_link": "https://en.wikipedia.org/wiki/Karl_Popper", "student": {"0": {"id": "Q2580994", "name": "W. W. Bartley III"}, "1": {"id": "Q296249", "name": "Imre Lakatos"}, "2": {"id": "Q184980", "name": "Thomas Kuhn"}, "3": {"id": "Q78497", "name": "Paul Feyerabend"}, "4": {"id": "Q1483576", "name": "Hubert Kiesewetter"}, "5": {"id": "Q404779", "name": "David Miller"}, "6": {"id": "Q1702073", "name": "John W. N. Watkins"}, "7": {"id": "Q1376025", "name": "Joseph Agassi"}, "8": {"id": "Q2636792", "name": "Alan Musgrave"}}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q16389557", "name": "philosopher of science"}, "2": {"id": "Q36180", "name": "writer"}, "3": {"id": "Q1622272", "name": "university teacher"}, "4": {"id": "Q2306091", "name": "sociologist"}}, "countryOfCitizenship": {"0": {"id": "Q28513", "name": "Austria-Hungary"}, "1": {"id": "Q518101", "name": "First Republic of Austria"}, "2": {"id": "Q176495", "name": "Federal State of Austria"}, "3": {"id": "Q145", "name": "United Kingdom"}, "4": {"id": "Q174193", "name": "United Kingdom of Great Britain and Ireland"}}, "image": {"0": "Karl Popper.jpg"}, "dateOfBirth": {"0": "+1902-07-28T00:00:00Z"}, "dateOfDeath": {"0": "+1994-09-17T00:00:00Z"}, "employer": {"0": {"id": "Q432475", "name": "University of Canterbury", "coordinates": {"latitude": -43.52333333333333, "longitude": 172.58194444444445, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q174570", "name": "London School of Economics and Political Science", "coordinates": {"latitude": 51.513888888889, "longitude": -0.11666666666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q245247", "name": "King's College London", "coordinates": {"latitude": 51.511944444444, "longitude": -0.11611111111111, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"id": "Q170027", "name": "University of London", "coordinates": {"latitude": 51.521111111111, "longitude": -0.12888888888889, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "educatedAt": {"0": {"id": "Q165980", "name": "University of Vienna", "coordinates": {"latitude": 48.213055555556, "longitude": 16.359722222222, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q35794", "name": "University of Cambridge", "coordinates": {"latitude": 52.205355979757925, "longitude": 0.11315726963968827, "altitude": null, "precision": 1e-08, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q165980", "name": "University of Vienna", "coordinates": {"latitude": 48.213055555556, "longitude": 16.359722222222, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "residence": {"0": {"id": "Q1741", "name": "Vienna", "coordinates": {"latitude": 48.208333333333336, "longitude": 16.3725, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}, "1": {"id": "Q9471", "name": "epistemology"}, "2": {"id": "Q938185", "name": "rationality"}, "3": {"id": "Q59115", "name": "philosophy of science"}, "4": {"id": "Q8078", "name": "logic"}, "5": {"id": "Q179805", "name": "political philosophy"}, "6": {"id": "Q180592", "name": "social philosophy"}, "7": {"id": "Q231218", "name": "abiogenesis"}, "8": {"id": "Q944", "name": "quantum mechanics"}}, "doctralStudent": {"0": {"id": "Q307891", "name": "A. I. Sabra"}, "1": {"id": "Q102429552", "name": "Charles Leonard Hamblin"}}, "movement": {"0": {"id": "Q6216", "name": "liberalism"}}, "influencedBy": {"0": {"id": "Q913", "name": "Socrates"}, "1": {"id": "Q432737", "name": "Lycophron"}, "2": {"id": "Q868", "name": "Aristotle"}, "3": {"id": "Q9191", "name": "Ren\u00e9 Descartes"}, "4": {"id": "Q38193", "name": "Arthur Schopenhauer"}, "5": {"id": "Q77436", "name": "Jakob Friedrich Fries"}, "6": {"id": "Q9235", "name": "Georg Wilhelm Friedrich Hegel"}, "7": {"id": "Q6512", "name": "S\u00f8ren Kierkegaard"}, "8": {"id": "Q937", "name": "Albert Einstein"}, "9": {"id": "Q208238", "name": "Vienna Circle"}, "10": {"id": "Q76518", "name": "Hans Vaihinger"}}, "notableWork": {"0": {"id": "Q1868040", "name": "The Logic of Scientific Discovery"}, "1": {"id": "Q1066598", "name": "The Open Society and Its Enemies"}, "2": {"id": "Q3283744", "name": "The Poverty of Historicism"}, "3": {"id": "Q2909277", "name": "Conjectures and Refutations"}, "4": {"id": "Q107335607", "name": "Objective Knowledge"}, "5": {"id": "Q19570133", "name": "Unended Quest"}, "6": {"id": "Q31080353", "name": "The Self and Its Brain"}}, "edges": {"influencedBy": {"0": {"id": "Q38193", "name": "Arthur Schopenhauer"}, "1": {"id": "Q868", "name": "Aristotle"}, "2": {"id": "Q9235", "name": "Georg Wilhelm Friedrich Hegel"}, "3": {"id": "Q937", "name": "Albert Einstein"}, "4": {"id": "Q913", "name": "Socrates"}}, "taught": {"0": {"id": "Q404779", "name": "David Miller"}, "1": {"id": "Q184980", "name": "Thomas Kuhn"}, "2": {"id": "Q78497", "name": "Paul Feyerabend"}}}}
+{
+	"id": "Q81244",
+	"name": "Karl Popper",
+	"desc": "Austrian-British philosopher of science and social and political philosopher noted for falsificationism and for criticism of Plato, Hegel and Marx as totalitarian opponents of open society (1902-1994)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Karl_Popper",
+	"student": {
+		"0": {
+			"id": "Q2580994",
+			"name": "W. W. Bartley III"
+		},
+		"1": {
+			"id": "Q296249",
+			"name": "Imre Lakatos"
+		},
+		"2": {
+			"id": "Q184980",
+			"name": "Thomas Kuhn"
+		},
+		"3": {
+			"id": "Q78497",
+			"name": "Paul Feyerabend"
+		},
+		"4": {
+			"id": "Q1483576",
+			"name": "Hubert Kiesewetter"
+		},
+		"5": {
+			"id": "Q404779",
+			"name": "David Miller"
+		},
+		"6": {
+			"id": "Q1702073",
+			"name": "John W. N. Watkins"
+		},
+		"7": {
+			"id": "Q1376025",
+			"name": "Joseph Agassi"
+		},
+		"8": {
+			"id": "Q2636792",
+			"name": "Alan Musgrave"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q16389557",
+			"name": "philosopher of science"
+		},
+		"2": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"3": {
+			"id": "Q1622272",
+			"name": "university teacher"
+		},
+		"4": {
+			"id": "Q2306091",
+			"name": "sociologist"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q28513",
+			"name": "Austria-Hungary"
+		},
+		"1": {
+			"id": "Q518101",
+			"name": "First Republic of Austria"
+		},
+		"2": {
+			"id": "Q176495",
+			"name": "Federal State of Austria"
+		},
+		"3": {
+			"id": "Q145",
+			"name": "United Kingdom"
+		},
+		"4": {
+			"id": "Q174193",
+			"name": "United Kingdom of Great Britain and Ireland"
+		}
+	},
+	"image": {
+		"0": "Karl Popper.jpg"
+	},
+	"dateOfBirth": {
+		"0": "+1902-07-28T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1994-09-17T00:00:00Z"
+	},
+	"employer": {
+		"0": {
+			"id": "Q432475",
+			"name": "University of Canterbury",
+			"coordinates": {
+				"latitude": -43.52333333333333,
+				"longitude": 172.58194444444445,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q174570",
+			"name": "London School of Economics and Political Science",
+			"coordinates": {
+				"latitude": 51.513888888889,
+				"longitude": -0.11666666666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q245247",
+			"name": "King's College London",
+			"coordinates": {
+				"latitude": 51.511944444444,
+				"longitude": -0.11611111111111,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"id": "Q170027",
+			"name": "University of London",
+			"coordinates": {
+				"latitude": 51.521111111111,
+				"longitude": -0.12888888888889,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q165980",
+			"name": "University of Vienna",
+			"coordinates": {
+				"latitude": 48.213055555556,
+				"longitude": 16.359722222222,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q35794",
+			"name": "University of Cambridge",
+			"coordinates": {
+				"latitude": 52.205355979757925,
+				"longitude": 0.11315726963968827,
+				"altitude": null,
+				"precision": 1e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q165980",
+			"name": "University of Vienna",
+			"coordinates": {
+				"latitude": 48.213055555556,
+				"longitude": 16.359722222222,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"residence": {
+		"0": {
+			"id": "Q1741",
+			"name": "Vienna",
+			"coordinates": {
+				"latitude": 48.208333333333336,
+				"longitude": 16.3725,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		},
+		"1": {
+			"id": "Q9471",
+			"name": "epistemology"
+		},
+		"2": {
+			"id": "Q938185",
+			"name": "rationality"
+		},
+		"3": {
+			"id": "Q59115",
+			"name": "philosophy of science"
+		},
+		"4": {
+			"id": "Q8078",
+			"name": "logic"
+		},
+		"5": {
+			"id": "Q179805",
+			"name": "political philosophy"
+		},
+		"6": {
+			"id": "Q180592",
+			"name": "social philosophy"
+		},
+		"7": {
+			"id": "Q231218",
+			"name": "abiogenesis"
+		},
+		"8": {
+			"id": "Q944",
+			"name": "quantum mechanics"
+		}
+	},
+	"doctralStudent": {
+		"0": {
+			"id": "Q307891",
+			"name": "A. I. Sabra"
+		},
+		"1": {
+			"id": "Q102429552",
+			"name": "Charles Leonard Hamblin"
+		}
+	},
+	"movement": {
+		"0": {
+			"id": "Q6216",
+			"name": "liberalism"
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q913",
+			"name": "Socrates"
+		},
+		"1": {
+			"id": "Q432737",
+			"name": "Lycophron"
+		},
+		"2": {
+			"id": "Q868",
+			"name": "Aristotle"
+		},
+		"3": {
+			"id": "Q9191",
+			"name": "Ren\u00e9 Descartes"
+		},
+		"4": {
+			"id": "Q38193",
+			"name": "Arthur Schopenhauer"
+		},
+		"5": {
+			"id": "Q77436",
+			"name": "Jakob Friedrich Fries"
+		},
+		"6": {
+			"id": "Q9235",
+			"name": "Georg Wilhelm Friedrich Hegel"
+		},
+		"7": {
+			"id": "Q6512",
+			"name": "S\u00f8ren Kierkegaard"
+		},
+		"8": {
+			"id": "Q937",
+			"name": "Albert Einstein"
+		},
+		"9": {
+			"id": "Q208238",
+			"name": "Vienna Circle"
+		},
+		"10": {
+			"id": "Q76518",
+			"name": "Hans Vaihinger"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q1868040",
+			"name": "The Logic of Scientific Discovery"
+		},
+		"1": {
+			"id": "Q1066598",
+			"name": "The Open Society and Its Enemies"
+		},
+		"2": {
+			"id": "Q3283744",
+			"name": "The Poverty of Historicism"
+		},
+		"3": {
+			"id": "Q2909277",
+			"name": "Conjectures and Refutations"
+		},
+		"4": {
+			"id": "Q107335607",
+			"name": "Objective Knowledge"
+		},
+		"5": {
+			"id": "Q19570133",
+			"name": "Unended Quest"
+		},
+		"6": {
+			"id": "Q31080353",
+			"name": "The Self and Its Brain"
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q38193",
+				"name": "Arthur Schopenhauer",
+				"similarity": 0.3280220031738281
+			},
+			"1": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.09938156604766846
+			},
+			"2": {
+				"id": "Q9235",
+				"name": "Georg Wilhelm Friedrich Hegel",
+				"similarity": 0.1903684437274933
+			},
+			"3": {
+				"id": "Q937",
+				"name": "Albert Einstein",
+				"similarity": 0.14918851852416992
+			},
+			"4": {
+				"id": "Q913",
+				"name": "Socrates",
+				"similarity": 0.26959604024887085
+			}
+		},
+		"taught": {
+			"0": {
+				"id": "Q404779",
+				"name": "David Miller",
+				"similarity": 0.41520950198173523
+			},
+			"1": {
+				"id": "Q184980",
+				"name": "Thomas Kuhn",
+				"similarity": 0.27400320768356323
+			},
+			"2": {
+				"id": "Q78497",
+				"name": "Paul Feyerabend",
+				"similarity": 0.22553303837776184
+			}
+		}
+	}
+}

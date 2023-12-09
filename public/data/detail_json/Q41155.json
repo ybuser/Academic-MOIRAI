@@ -1,1 +1,139 @@
-{"id": "Q41155", "name": "Heraclitus", "desc": "Greek philosopher (late 6th/early 5th-century BC)", "wiki_link": "https://en.wikipedia.org/wiki/Heraclitus", "dateOfBirth": {"0": "-0535-00-00T00:00:00Z"}, "image": {"0": "Ca' Rezzonico - Eraclito 1705 - Giuseppe Torretti.jpg", "1": "Abraham Janssens - Heraclitus.jpg"}, "dateOfDeath": {"0": "-0470-00-00T00:00:00Z"}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q36180", "name": "writer"}, "2": {"id": "Q169470", "name": "physicist"}}, "movement": {"0": {"id": "Q178540", "name": "Pre-Socratic philosophy"}, "1": {"id": "Q204100", "name": "ancient philosophy"}, "2": {"id": "Q842333", "name": "Western philosophy"}, "3": {"id": "Q1294550", "name": "Ionian School"}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}}, "residence": {"0": {"id": "Q47611", "name": "Ephesus", "coordinates": {"latitude": 37.939722, "longitude": 27.348611, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "student": {"0": {"id": "Q83375", "name": "Empedocles"}}, "influencedBy": {"0": {"id": "Q298860", "name": "Hippasus"}, "1": {"id": "Q131671", "name": "Xenophanes"}}, "countryOfCitizenship": {"0": {"id": "Q47611", "name": "Ephesus"}, "1": {"id": "Q389688", "name": "Achaemenid Empire"}}, "edges": {"influenced": {"0": {"id": "Q125551", "name": "Parmenides"}, "1": {"id": "Q34787", "name": "Friedrich Engels"}, "2": {"id": "Q859", "name": "Plato"}, "3": {"id": "Q9235", "name": "Georg Wilhelm Friedrich Hegel"}, "4": {"id": "Q48301", "name": "Martin Heidegger"}, "5": {"id": "Q9358", "name": "Friedrich Nietzsche"}, "6": {"id": "Q868", "name": "Aristotle"}}, "influencedBy": {"0": {"id": "Q131671", "name": "Xenophanes"}}}}
+{
+	"id": "Q41155",
+	"name": "Heraclitus",
+	"desc": "Greek philosopher (late 6th/early 5th-century BC)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Heraclitus",
+	"dateOfBirth": {
+		"0": "-0535-00-00T00:00:00Z"
+	},
+	"image": {
+		"0": "Ca' Rezzonico - Eraclito 1705 - Giuseppe Torretti.jpg",
+		"1": "Abraham Janssens - Heraclitus.jpg"
+	},
+	"dateOfDeath": {
+		"0": "-0470-00-00T00:00:00Z"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"2": {
+			"id": "Q169470",
+			"name": "physicist"
+		}
+	},
+	"movement": {
+		"0": {
+			"id": "Q178540",
+			"name": "Pre-Socratic philosophy"
+		},
+		"1": {
+			"id": "Q204100",
+			"name": "ancient philosophy"
+		},
+		"2": {
+			"id": "Q842333",
+			"name": "Western philosophy"
+		},
+		"3": {
+			"id": "Q1294550",
+			"name": "Ionian School"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"residence": {
+		"0": {
+			"id": "Q47611",
+			"name": "Ephesus",
+			"coordinates": {
+				"latitude": 37.939722,
+				"longitude": 27.348611,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q83375",
+			"name": "Empedocles"
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q298860",
+			"name": "Hippasus"
+		},
+		"1": {
+			"id": "Q131671",
+			"name": "Xenophanes"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q47611",
+			"name": "Ephesus"
+		},
+		"1": {
+			"id": "Q389688",
+			"name": "Achaemenid Empire"
+		}
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q125551",
+				"name": "Parmenides",
+				"similarity": 0.49365124106407166
+			},
+			"1": {
+				"id": "Q34787",
+				"name": "Friedrich Engels",
+				"similarity": 0.05786741524934769
+			},
+			"2": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.4612862765789032
+			},
+			"3": {
+				"id": "Q9235",
+				"name": "Georg Wilhelm Friedrich Hegel",
+				"similarity": 0.3076150417327881
+			},
+			"4": {
+				"id": "Q48301",
+				"name": "Martin Heidegger",
+				"similarity": 0.27286818623542786
+			},
+			"5": {
+				"id": "Q9358",
+				"name": "Friedrich Nietzsche",
+				"similarity": 0.23551255464553833
+			},
+			"6": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.25321826338768005
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q131671",
+				"name": "Xenophanes",
+				"similarity": 0.3752503991127014
+			}
+		}
+	}
+}

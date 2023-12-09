@@ -1,1 +1,253 @@
-{"id": "Q259507", "name": "bell hooks", "desc": "American author, feminist, and social activist", "wiki_link": "https://en.wikipedia.org/wiki/Bell_hooks", "countryOfCitizenship": {"0": {"id": "Q30", "name": "United States of America"}}, "dateOfBirth": {"0": "+1952-09-25T00:00:00Z"}, "image": {"0": "Bellhooks.jpg"}, "notableWork": {"0": {"id": "Q4697221", "name": "Ain't I a Woman?"}, "1": {"id": "Q4728504", "name": "All About Love: New Visions"}, "2": {"id": "Q7977716", "name": "We Real Cool: Black Men and Masculinity"}, "3": {"id": "Q5442867", "name": "Feminist Theory: From Margin to Center"}, "4": {"id": "Q4941491", "name": "Bone Black: Memories of Girlhood"}}, "educatedAt": {"0": {"id": "Q41506", "name": "Stanford University", "coordinates": {"latitude": 37.4275, "longitude": -122.17, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q5900759", "name": "Hopkinsville High School", "coordinates": {"latitude": 36.843, "longitude": -87.5075, "altitude": null, "precision": 0.001, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q1047293", "name": "University of California, Santa Cruz", "coordinates": {"latitude": 36.9914, "longitude": -122.0609, "altitude": null, "precision": -1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"id": "Q4614", "name": "University of Southern California", "coordinates": {"latitude": 34.021667, "longitude": -118.285278, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q49112", "name": "Yale University", "coordinates": {"latitude": 41.311111111111, "longitude": -72.926666666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q616591", "name": "Oberlin College", "coordinates": {"latitude": 41.293055555555554, "longitude": -82.22166666666666, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"id": "Q846859", "name": "Berea College", "coordinates": {"latitude": 37.57244, "longitude": -84.29188, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "4": {"id": "Q762266", "name": "City University of New York", "coordinates": {"latitude": 40.75095435534939, "longitude": -73.9735038, "altitude": null, "precision": 1e-08, "globe": "http://www.wikidata.org/entity/Q2"}}, "5": {"id": "Q1256981", "name": "San Francisco State University", "coordinates": {"latitude": 37.723333333333, "longitude": -122.47972222222, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "influencedBy": {"0": {"id": "Q105180", "name": "Sojourner Truth"}, "1": {"id": "Q164797", "name": "Paulo Freire"}, "2": {"id": "Q335384", "name": "Gustavo Guti\u00e9rrez"}, "3": {"id": "Q57085", "name": "Erich Fromm"}, "4": {"id": "Q461758", "name": "Lorraine Hansberry"}, "5": {"id": "Q310913", "name": "Th\u00edch Nh\u1ea5t H\u1ea1nh"}, "6": {"id": "Q273210", "name": "James Baldwin"}, "7": {"id": "Q43303", "name": "Malcolm X"}, "8": {"id": "Q8027", "name": "Martin Luther King Jr."}, "9": {"id": "Q72334", "name": "Toni Morrison"}}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q1622272", "name": "university teacher"}, "2": {"id": "Q36180", "name": "writer"}}, "fieldOfWork": {"0": {"id": "Q1662673", "name": "gender studies"}, "1": {"id": "Q5186753", "name": "critical race theory"}, "2": {"id": "Q115160290", "name": "literary activity"}, "3": {"id": "Q964475", "name": "cultural criticism"}, "4": {"id": "Q3007315", "name": "media culture"}, "5": {"id": "Q5404323", "name": "ethnicity"}, "6": {"id": "Q48277", "name": "gender"}, "7": {"id": "Q7252", "name": "feminism"}, "8": {"id": "Q203764", "name": "activism"}, "9": {"id": "Q1516555", "name": "intersectionality"}}, "dateOfDeath": {"0": "+2021-12-15T00:00:00Z"}, "edges": {"influencedBy": {"0": {"id": "Q8027", "name": "Martin Luther King Jr."}}}}
+{
+	"id": "Q259507",
+	"name": "bell hooks",
+	"desc": "American author, feminist, and social activist",
+	"wiki_link": "https://en.wikipedia.org/wiki/Bell_hooks",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q30",
+			"name": "United States of America"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1952-09-25T00:00:00Z"
+	},
+	"image": {
+		"0": "Bellhooks.jpg"
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q4697221",
+			"name": "Ain't I a Woman?"
+		},
+		"1": {
+			"id": "Q4728504",
+			"name": "All About Love: New Visions"
+		},
+		"2": {
+			"id": "Q7977716",
+			"name": "We Real Cool: Black Men and Masculinity"
+		},
+		"3": {
+			"id": "Q5442867",
+			"name": "Feminist Theory: From Margin to Center"
+		},
+		"4": {
+			"id": "Q4941491",
+			"name": "Bone Black: Memories of Girlhood"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q41506",
+			"name": "Stanford University",
+			"coordinates": {
+				"latitude": 37.4275,
+				"longitude": -122.17,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q5900759",
+			"name": "Hopkinsville High School",
+			"coordinates": {
+				"latitude": 36.843,
+				"longitude": -87.5075,
+				"altitude": null,
+				"precision": 0.001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q1047293",
+			"name": "University of California, Santa Cruz",
+			"coordinates": {
+				"latitude": 36.9914,
+				"longitude": -122.0609,
+				"altitude": null,
+				"precision": -1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q4614",
+			"name": "University of Southern California",
+			"coordinates": {
+				"latitude": 34.021667,
+				"longitude": -118.285278,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q49112",
+			"name": "Yale University",
+			"coordinates": {
+				"latitude": 41.311111111111,
+				"longitude": -72.926666666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q616591",
+			"name": "Oberlin College",
+			"coordinates": {
+				"latitude": 41.293055555555554,
+				"longitude": -82.22166666666666,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"id": "Q846859",
+			"name": "Berea College",
+			"coordinates": {
+				"latitude": 37.57244,
+				"longitude": -84.29188,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"id": "Q762266",
+			"name": "City University of New York",
+			"coordinates": {
+				"latitude": 40.75095435534939,
+				"longitude": -73.9735038,
+				"altitude": null,
+				"precision": 1e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"5": {
+			"id": "Q1256981",
+			"name": "San Francisco State University",
+			"coordinates": {
+				"latitude": 37.723333333333,
+				"longitude": -122.47972222222,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q105180",
+			"name": "Sojourner Truth"
+		},
+		"1": {
+			"id": "Q164797",
+			"name": "Paulo Freire"
+		},
+		"2": {
+			"id": "Q335384",
+			"name": "Gustavo Guti\u00e9rrez"
+		},
+		"3": {
+			"id": "Q57085",
+			"name": "Erich Fromm"
+		},
+		"4": {
+			"id": "Q461758",
+			"name": "Lorraine Hansberry"
+		},
+		"5": {
+			"id": "Q310913",
+			"name": "Th\u00edch Nh\u1ea5t H\u1ea1nh"
+		},
+		"6": {
+			"id": "Q273210",
+			"name": "James Baldwin"
+		},
+		"7": {
+			"id": "Q43303",
+			"name": "Malcolm X"
+		},
+		"8": {
+			"id": "Q8027",
+			"name": "Martin Luther King Jr."
+		},
+		"9": {
+			"id": "Q72334",
+			"name": "Toni Morrison"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q1622272",
+			"name": "university teacher"
+		},
+		"2": {
+			"id": "Q36180",
+			"name": "writer"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q1662673",
+			"name": "gender studies"
+		},
+		"1": {
+			"id": "Q5186753",
+			"name": "critical race theory"
+		},
+		"2": {
+			"id": "Q115160290",
+			"name": "literary activity"
+		},
+		"3": {
+			"id": "Q964475",
+			"name": "cultural criticism"
+		},
+		"4": {
+			"id": "Q3007315",
+			"name": "media culture"
+		},
+		"5": {
+			"id": "Q5404323",
+			"name": "ethnicity"
+		},
+		"6": {
+			"id": "Q48277",
+			"name": "gender"
+		},
+		"7": {
+			"id": "Q7252",
+			"name": "feminism"
+		},
+		"8": {
+			"id": "Q203764",
+			"name": "activism"
+		},
+		"9": {
+			"id": "Q1516555",
+			"name": "intersectionality"
+		}
+	},
+	"dateOfDeath": {
+		"0": "+2021-12-15T00:00:00Z"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q8027",
+				"name": "Martin Luther King Jr.",
+				"similarity": 0.16612884402275085
+			}
+		}
+	}
+}

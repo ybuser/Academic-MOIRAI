@@ -1,1 +1,204 @@
-{"id": "Q84233", "name": "Ludwig von Mises", "desc": "Austrian-American economist", "wiki_link": "https://en.wikipedia.org/wiki/Ludwig_von_Mises", "countryOfCitizenship": {"0": {"id": "Q30", "name": "United States of America"}, "1": {"id": "Q40", "name": "Austria"}}, "occupation": {"0": {"id": "Q188094", "name": "economist"}, "1": {"id": "Q4964182", "name": "philosopher"}, "2": {"id": "Q1622272", "name": "university teacher"}, "3": {"id": "Q36180", "name": "writer"}}, "dateOfBirth": {"0": "+1881-09-29T00:00:00Z"}, "dateOfDeath": {"0": "+1973-10-10T00:00:00Z"}, "image": {"0": "Ludwig von Mises.jpg"}, "employer": {"0": {"id": "Q165980", "name": "University of Vienna", "coordinates": {"latitude": 48.213055555556, "longitude": 16.359722222222, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q49210", "name": "New York University", "coordinates": {"latitude": 40.73, "longitude": -73.995, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q1502191", "name": "Graduate Institute of International Studies", "coordinates": ""}}, "educatedAt": {"0": {"id": "Q165980", "name": "University of Vienna", "coordinates": {"latitude": 48.213055555556, "longitude": 16.359722222222, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q414936", "name": "Akademisches Gymnasium", "coordinates": {"latitude": 48.201416666667, "longitude": 16.3765, "altitude": null, "precision": 2.7777777777778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": {"id": "Q8134", "name": "economics"}, "1": {"id": "Q5891", "name": "philosophy"}}, "student": {"0": {"id": "Q1325", "name": "Friedrich Hayek"}, "1": {"id": "Q89408", "name": "Gottfried Haberler"}, "2": {"id": "Q78604", "name": "Fritz Machlup"}, "3": {"id": "Q297079", "name": "Murray Rothbard"}, "4": {"id": "Q19295878", "name": "Martha Steffy Browne"}}, "doctralStudent": {"0": {"id": "Q89408", "name": "Gottfried Haberler"}, "1": {"id": "Q78604", "name": "Fritz Machlup"}, "2": {"id": "Q94028", "name": "Oskar Morgenstern"}, "3": {"id": "Q19600052", "name": "Gerhard Tintner"}, "4": {"id": "Q349109", "name": "Israel Kirzner"}, "5": {"id": "Q1325", "name": "Friedrich Hayek"}, "6": {"id": "Q297079", "name": "Murray Rothbard"}, "7": {"id": "Q103008108", "name": "Louis Michael Spadaro"}}, "notableWork": {"0": {"id": "Q662732", "name": "Human Action"}}, "edges": {"taught": {"0": {"id": "Q297079", "name": "Murray Rothbard"}, "1": {"id": "Q1325", "name": "Friedrich Hayek"}}, "influenced": {"0": {"id": "Q788572", "name": "Max Eastman"}, "1": {"id": "Q21062238", "name": "Curtis Yarvin"}, "2": {"id": "Q132524", "name": "Ayn Rand"}, "3": {"id": "Q76688", "name": "Hans-Hermann Hoppe"}}}}
+{
+	"id": "Q84233",
+	"name": "Ludwig von Mises",
+	"desc": "Austrian-American economist",
+	"wiki_link": "https://en.wikipedia.org/wiki/Ludwig_von_Mises",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q30",
+			"name": "United States of America"
+		},
+		"1": {
+			"id": "Q40",
+			"name": "Austria"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q188094",
+			"name": "economist"
+		},
+		"1": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"2": {
+			"id": "Q1622272",
+			"name": "university teacher"
+		},
+		"3": {
+			"id": "Q36180",
+			"name": "writer"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1881-09-29T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1973-10-10T00:00:00Z"
+	},
+	"image": {
+		"0": "Ludwig von Mises.jpg"
+	},
+	"employer": {
+		"0": {
+			"id": "Q165980",
+			"name": "University of Vienna",
+			"coordinates": {
+				"latitude": 48.213055555556,
+				"longitude": 16.359722222222,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q49210",
+			"name": "New York University",
+			"coordinates": {
+				"latitude": 40.73,
+				"longitude": -73.995,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q1502191",
+			"name": "Graduate Institute of International Studies",
+			"coordinates": ""
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q165980",
+			"name": "University of Vienna",
+			"coordinates": {
+				"latitude": 48.213055555556,
+				"longitude": 16.359722222222,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q414936",
+			"name": "Akademisches Gymnasium",
+			"coordinates": {
+				"latitude": 48.201416666667,
+				"longitude": 16.3765,
+				"altitude": null,
+				"precision": 2.7777777777778e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q8134",
+			"name": "economics"
+		},
+		"1": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q1325",
+			"name": "Friedrich Hayek"
+		},
+		"1": {
+			"id": "Q89408",
+			"name": "Gottfried Haberler"
+		},
+		"2": {
+			"id": "Q78604",
+			"name": "Fritz Machlup"
+		},
+		"3": {
+			"id": "Q297079",
+			"name": "Murray Rothbard"
+		},
+		"4": {
+			"id": "Q19295878",
+			"name": "Martha Steffy Browne"
+		}
+	},
+	"doctralStudent": {
+		"0": {
+			"id": "Q89408",
+			"name": "Gottfried Haberler"
+		},
+		"1": {
+			"id": "Q78604",
+			"name": "Fritz Machlup"
+		},
+		"2": {
+			"id": "Q94028",
+			"name": "Oskar Morgenstern"
+		},
+		"3": {
+			"id": "Q19600052",
+			"name": "Gerhard Tintner"
+		},
+		"4": {
+			"id": "Q349109",
+			"name": "Israel Kirzner"
+		},
+		"5": {
+			"id": "Q1325",
+			"name": "Friedrich Hayek"
+		},
+		"6": {
+			"id": "Q297079",
+			"name": "Murray Rothbard"
+		},
+		"7": {
+			"id": "Q103008108",
+			"name": "Louis Michael Spadaro"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q662732",
+			"name": "Human Action"
+		}
+	},
+	"edges": {
+		"taught": {
+			"0": {
+				"id": "Q297079",
+				"name": "Murray Rothbard",
+				"similarity": 0.42016124725341797
+			},
+			"1": {
+				"id": "Q1325",
+				"name": "Friedrich Hayek",
+				"similarity": 0.6010972261428833
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q788572",
+				"name": "Max Eastman",
+				"similarity": 0.300668865442276
+			},
+			"1": {
+				"id": "Q21062238",
+				"name": "Curtis Yarvin",
+				"similarity": 0.2688120901584625
+			},
+			"2": {
+				"id": "Q132524",
+				"name": "Ayn Rand",
+				"similarity": 0.2022182047367096
+			},
+			"3": {
+				"id": "Q76688",
+				"name": "Hans-Hermann Hoppe",
+				"similarity": 0.4790017008781433
+			}
+		}
+	}
+}

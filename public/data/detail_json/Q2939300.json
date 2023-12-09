@@ -1,1 +1,142 @@
-{"id": "Q2939300", "name": "Carlos Astrada", "desc": "Argentine philosopher (1894-1970)", "wiki_link": "https://en.wikipedia.org/wiki/Carlos_Astrada", "image": {"0": "Carlos astrada.jpg"}, "educatedAt": {"0": {"id": "Q1570489", "name": "National University of C\u00f3rdoba", "coordinates": {"latitude": -31.4375, "longitude": -64.18777778, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "countryOfCitizenship": {"0": {"id": "Q414", "name": "Argentina"}}, "dateOfDeath": {"0": "+1970-12-23T00:00:00Z"}, "employer": {"0": {"id": "Q194223", "name": "University of Buenos Aires", "coordinates": {"latitude": -34.599722222222, "longitude": -58.373055555556, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q784171", "name": "National University of La Plata", "coordinates": {"latitude": -34.91296944, "longitude": -57.95135556, "altitude": null, "precision": 2.77777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}}, "dateOfBirth": {"0": "+1894-02-26T00:00:00Z"}, "movement": {"0": {"id": "Q38066", "name": "existentialism"}}, "fieldOfWork": {"0": {"id": "Q48301", "name": "Martin Heidegger"}, "1": {"id": "Q7264", "name": "Marxism"}, "2": {"id": "Q9465", "name": "ethics"}, "3": {"id": "Q9471", "name": "epistemology"}, "4": {"id": "Q35277", "name": "metaphysics"}}, "influencedBy": {"0": {"id": "Q48301", "name": "Martin Heidegger"}, "1": {"id": "Q9061", "name": "Karl Marx"}}, "studentOf": {"0": {"id": "Q76521", "name": "Max Scheler"}, "1": {"id": "Q58586", "name": "Edmund Husserl"}, "2": {"id": "Q48301", "name": "Martin Heidegger"}}, "edges": {"influencedBy": {"0": {"id": "Q48301", "name": "Martin Heidegger"}, "1": {"id": "Q9061", "name": "Karl Marx"}}, "learnedFrom": {"0": {"id": "Q48301", "name": "Martin Heidegger"}, "1": {"id": "Q58586", "name": "Edmund Husserl"}}}}
+{
+	"id": "Q2939300",
+	"name": "Carlos Astrada",
+	"desc": "Argentine philosopher (1894-1970)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Carlos_Astrada",
+	"image": {
+		"0": "Carlos astrada.jpg"
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q1570489",
+			"name": "National University of C\u00f3rdoba",
+			"coordinates": {
+				"latitude": -31.4375,
+				"longitude": -64.18777778,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q414",
+			"name": "Argentina"
+		}
+	},
+	"dateOfDeath": {
+		"0": "+1970-12-23T00:00:00Z"
+	},
+	"employer": {
+		"0": {
+			"id": "Q194223",
+			"name": "University of Buenos Aires",
+			"coordinates": {
+				"latitude": -34.599722222222,
+				"longitude": -58.373055555556,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q784171",
+			"name": "National University of La Plata",
+			"coordinates": {
+				"latitude": -34.91296944,
+				"longitude": -57.95135556,
+				"altitude": null,
+				"precision": 2.77777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1894-02-26T00:00:00Z"
+	},
+	"movement": {
+		"0": {
+			"id": "Q38066",
+			"name": "existentialism"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q48301",
+			"name": "Martin Heidegger"
+		},
+		"1": {
+			"id": "Q7264",
+			"name": "Marxism"
+		},
+		"2": {
+			"id": "Q9465",
+			"name": "ethics"
+		},
+		"3": {
+			"id": "Q9471",
+			"name": "epistemology"
+		},
+		"4": {
+			"id": "Q35277",
+			"name": "metaphysics"
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q48301",
+			"name": "Martin Heidegger"
+		},
+		"1": {
+			"id": "Q9061",
+			"name": "Karl Marx"
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q76521",
+			"name": "Max Scheler"
+		},
+		"1": {
+			"id": "Q58586",
+			"name": "Edmund Husserl"
+		},
+		"2": {
+			"id": "Q48301",
+			"name": "Martin Heidegger"
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q48301",
+				"name": "Martin Heidegger",
+				"similarity": 0.26228925585746765
+			},
+			"1": {
+				"id": "Q9061",
+				"name": "Karl Marx",
+				"similarity": 0.24338798224925995
+			}
+		},
+		"learnedFrom": {
+			"0": {
+				"id": "Q48301",
+				"name": "Martin Heidegger",
+				"similarity": 0.26228925585746765
+			},
+			"1": {
+				"id": "Q58586",
+				"name": "Edmund Husserl",
+				"similarity": 0.43577662110328674
+			}
+		}
+	}
+}

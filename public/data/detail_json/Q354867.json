@@ -1,1 +1,173 @@
-{"id": "Q354867", "name": "Alan Watts", "desc": "English writer and lecturer (1915\u20131973)", "wiki_link": "https://en.wikipedia.org/wiki/Alan_Watts", "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q1234713", "name": "theologian"}, "2": {"id": "Q36180", "name": "writer"}, "3": {"id": "Q3409375", "name": "Anglican priest"}, "4": {"id": "Q487596", "name": "dramaturge"}, "5": {"id": "Q639669", "name": "musician"}, "6": {"id": "Q3766177", "name": "videographer"}}, "dateOfBirth": {"0": "+1915-01-06T00:00:00Z"}, "dateOfDeath": {"0": "+1973-11-16T00:00:00Z"}, "countryOfCitizenship": {"0": {"id": "Q145", "name": "United Kingdom"}, "1": {"id": "Q30", "name": "United States of America"}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}, "1": {"id": "Q7953", "name": "Zen"}, "2": {"id": "Q9598", "name": "Taoism"}, "3": {"id": "Q9089", "name": "Hinduism"}, "4": {"id": "Q748", "name": "Buddhism"}}, "educatedAt": {"0": {"id": "Q3360332", "name": "The King's School Canterbury", "coordinates": {"latitude": 51.2817, "longitude": 1.08271, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q7593389", "name": "St Hugh's School", "coordinates": {"latitude": 51.6772, "longitude": -1.52972, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}}, "movement": {"0": {"id": "Q307043", "name": "Eastern philosophy"}, "1": {"id": "Q1284814", "name": "comparative philosophy"}}, "timePeriod": {"0": {"id": "Q943303", "name": "contemporary philosophy"}}, "influencedBy": {"0": {"id": "Q44847", "name": "D. T. Suzuki"}, "1": {"id": "Q211731", "name": "Timothy Leary"}, "2": {"id": "Q193871", "name": "Marshall McLuhan"}, "3": {"id": "Q41532", "name": "Carl Jung"}, "4": {"id": "Q179266", "name": "Jiddu Krishnamurti"}, "5": {"id": "Q9391", "name": "Ludwig Wittgenstein"}}, "image": {"0": "Alan Watts painted on mural.jpg"}, "notableWork": {"0": {"id": "Q3824900", "name": "The Way of Zen"}}, "edges": {"influencedBy": {"0": {"id": "Q9391", "name": "Ludwig Wittgenstein"}, "1": {"id": "Q41532", "name": "Carl Jung"}, "2": {"id": "Q179266", "name": "Jiddu Krishnamurti"}, "3": {"id": "Q193871", "name": "Marshall McLuhan"}}}}
+{
+	"id": "Q354867",
+	"name": "Alan Watts",
+	"desc": "English writer and lecturer (1915\u20131973)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Alan_Watts",
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q1234713",
+			"name": "theologian"
+		},
+		"2": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"3": {
+			"id": "Q3409375",
+			"name": "Anglican priest"
+		},
+		"4": {
+			"id": "Q487596",
+			"name": "dramaturge"
+		},
+		"5": {
+			"id": "Q639669",
+			"name": "musician"
+		},
+		"6": {
+			"id": "Q3766177",
+			"name": "videographer"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1915-01-06T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1973-11-16T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q145",
+			"name": "United Kingdom"
+		},
+		"1": {
+			"id": "Q30",
+			"name": "United States of America"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		},
+		"1": {
+			"id": "Q7953",
+			"name": "Zen"
+		},
+		"2": {
+			"id": "Q9598",
+			"name": "Taoism"
+		},
+		"3": {
+			"id": "Q9089",
+			"name": "Hinduism"
+		},
+		"4": {
+			"id": "Q748",
+			"name": "Buddhism"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q3360332",
+			"name": "The King's School Canterbury",
+			"coordinates": {
+				"latitude": 51.2817,
+				"longitude": 1.08271,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q7593389",
+			"name": "St Hugh's School",
+			"coordinates": {
+				"latitude": 51.6772,
+				"longitude": -1.52972,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"movement": {
+		"0": {
+			"id": "Q307043",
+			"name": "Eastern philosophy"
+		},
+		"1": {
+			"id": "Q1284814",
+			"name": "comparative philosophy"
+		}
+	},
+	"timePeriod": {
+		"0": {
+			"id": "Q943303",
+			"name": "contemporary philosophy"
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q44847",
+			"name": "D. T. Suzuki"
+		},
+		"1": {
+			"id": "Q211731",
+			"name": "Timothy Leary"
+		},
+		"2": {
+			"id": "Q193871",
+			"name": "Marshall McLuhan"
+		},
+		"3": {
+			"id": "Q41532",
+			"name": "Carl Jung"
+		},
+		"4": {
+			"id": "Q179266",
+			"name": "Jiddu Krishnamurti"
+		},
+		"5": {
+			"id": "Q9391",
+			"name": "Ludwig Wittgenstein"
+		}
+	},
+	"image": {
+		"0": "Alan Watts painted on mural.jpg"
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q3824900",
+			"name": "The Way of Zen"
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q9391",
+				"name": "Ludwig Wittgenstein",
+				"similarity": 0.3354061245918274
+			},
+			"1": {
+				"id": "Q41532",
+				"name": "Carl Jung",
+				"similarity": 0.1300753951072693
+			},
+			"2": {
+				"id": "Q179266",
+				"name": "Jiddu Krishnamurti",
+				"similarity": 0.362595796585083
+			},
+			"3": {
+				"id": "Q193871",
+				"name": "Marshall McLuhan",
+				"similarity": 0.2866583466529846
+			}
+		}
+	}
+}

@@ -1,1 +1,298 @@
-{"id": "Q1394", "name": "Vladimir Lenin", "desc": "Russian politician, communist theorist and the founder of the Soviet Union", "wiki_link": "https://en.wikipedia.org/wiki/Vladimir_Lenin", "countryOfCitizenship": {"0": {"id": "Q34266", "name": "Russian Empire"}, "1": {"id": "Q15180", "name": "Soviet Union"}, "2": {"id": "Q2305208", "name": "Russian Socialist Federative Soviet Republic"}}, "dateOfBirth": {"0": "+1870-04-10T00:00:00Z", "1": "+1870-04-22T00:00:00Z"}, "dateOfDeath": {"0": "+1924-01-21T00:00:00Z"}, "occupation": {"0": {"id": "Q82955", "name": "politician"}, "1": {"id": "Q36180", "name": "writer"}, "2": {"id": "Q188094", "name": "economist"}, "3": {"id": "Q40348", "name": "lawyer"}, "4": {"id": "Q3242115", "name": "revolutionary"}, "5": {"id": "Q1930187", "name": "journalist"}, "6": {"id": "Q4964182", "name": "philosopher"}, "7": {"id": "Q15994177", "name": "political theorist"}, "8": {"id": "Q115682547", "name": "Leader of the world proletariat"}}, "educatedAt": {"0": {"id": "Q4534839", "name": "Faculty of Law, Saint Petersburg State University", "coordinates": {"latitude": 59.93416667, "longitude": 30.26222222, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q28482293", "name": "Kazan Imperial University", "coordinates": {"latitude": 55.7908, "longitude": 49.1215, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q4419529", "name": "Simbirsk classical gymnasium", "coordinates": {"latitude": 54.316, "longitude": 48.403, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "residence": {"0": {"id": "Q19520", "name": "Podolsk", "coordinates": {"latitude": 55.431111111111115, "longitude": 37.54555555555555, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q656", "name": "Saint Petersburg", "coordinates": {"latitude": 59.95, "longitude": 30.316666666667, "altitude": null, "precision": 0.016666666666667, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q649", "name": "Moscow", "coordinates": {"latitude": 55.755833333333, "longitude": 37.617777777778, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"id": "Q2143176", "name": "Shushenskoye", "coordinates": {"latitude": 53.325833333333, "longitude": 91.939444444444, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "4": {"id": "Q252119", "name": "Schwabing", "coordinates": {"latitude": 48.1672, "longitude": 11.5861, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}, "5": {"id": "Q84", "name": "London", "coordinates": {"latitude": 51.507222222222, "longitude": -0.1275, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "influencedBy": {"0": {"id": "Q9061", "name": "Karl Marx"}, "1": {"id": "Q34787", "name": "Friedrich Engels"}, "2": {"id": "Q182905", "name": "Georgi Plekhanov"}, "3": {"id": "Q201221", "name": "Alexander Ivanovich Herzen"}, "4": {"id": "Q9235", "name": "Georg Wilhelm Friedrich Hegel"}, "5": {"id": "Q76586", "name": "Karl Kautsky"}, "6": {"id": "Q60972", "name": "Joseph Dietzgen"}, "7": {"id": "Q962155", "name": "John Atkinson Hobson"}}, "image": {"0": "LeninEnSuizaMarzo1916--barbaroussovietr00mcbr.png", "1": "Vladimir-Ilich-Lenin-1918.jpg", "2": "Vladimir Lenin.jpg"}, "movement": {"0": {"id": "Q1144178", "name": "anti-imperialism"}, "1": {"id": "Q389647", "name": "anti-capitalism"}, "2": {"id": "Q7264", "name": "Marxism"}, "3": {"id": "Q1744607", "name": "class struggle"}}, "notableWork": {"0": {"id": "Q1194558", "name": "Imperialism, the Highest Stage of Capitalism"}}, "employer": {"0": {"id": "Q27621", "name": "Saint Petersburg State University", "coordinates": ""}}, "fieldOfWork": {"0": {"id": "Q155059", "name": "Leninism"}, "1": {"id": "Q7163", "name": "politics"}, "2": {"id": "Q6186", "name": "communism"}}, "edges": {"influencedBy": {"0": {"id": "Q9061", "name": "Karl Marx"}, "1": {"id": "Q34787", "name": "Friedrich Engels"}, "2": {"id": "Q76586", "name": "Karl Kautsky"}, "3": {"id": "Q182905", "name": "Georgi Plekhanov"}, "4": {"id": "Q9235", "name": "Georg Wilhelm Friedrich Hegel"}}, "influenced": {"0": {"id": "Q83003", "name": "Antonio Gramsci"}, "1": {"id": "Q184169", "name": "Louis Althusser"}, "2": {"id": "Q438839", "name": "Aleksandr Dugin"}}}}
+{
+	"id": "Q1394",
+	"name": "Vladimir Lenin",
+	"desc": "Russian politician, communist theorist and the founder of the Soviet Union",
+	"wiki_link": "https://en.wikipedia.org/wiki/Vladimir_Lenin",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q34266",
+			"name": "Russian Empire"
+		},
+		"1": {
+			"id": "Q15180",
+			"name": "Soviet Union"
+		},
+		"2": {
+			"id": "Q2305208",
+			"name": "Russian Socialist Federative Soviet Republic"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1870-04-10T00:00:00Z",
+		"1": "+1870-04-22T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1924-01-21T00:00:00Z"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q82955",
+			"name": "politician"
+		},
+		"1": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"2": {
+			"id": "Q188094",
+			"name": "economist"
+		},
+		"3": {
+			"id": "Q40348",
+			"name": "lawyer"
+		},
+		"4": {
+			"id": "Q3242115",
+			"name": "revolutionary"
+		},
+		"5": {
+			"id": "Q1930187",
+			"name": "journalist"
+		},
+		"6": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"7": {
+			"id": "Q15994177",
+			"name": "political theorist"
+		},
+		"8": {
+			"id": "Q115682547",
+			"name": "Leader of the world proletariat"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q4534839",
+			"name": "Faculty of Law, Saint Petersburg State University",
+			"coordinates": {
+				"latitude": 59.93416667,
+				"longitude": 30.26222222,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q28482293",
+			"name": "Kazan Imperial University",
+			"coordinates": {
+				"latitude": 55.7908,
+				"longitude": 49.1215,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q4419529",
+			"name": "Simbirsk classical gymnasium",
+			"coordinates": {
+				"latitude": 54.316,
+				"longitude": 48.403,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"residence": {
+		"0": {
+			"id": "Q19520",
+			"name": "Podolsk",
+			"coordinates": {
+				"latitude": 55.431111111111115,
+				"longitude": 37.54555555555555,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q656",
+			"name": "Saint Petersburg",
+			"coordinates": {
+				"latitude": 59.95,
+				"longitude": 30.316666666667,
+				"altitude": null,
+				"precision": 0.016666666666667,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q649",
+			"name": "Moscow",
+			"coordinates": {
+				"latitude": 55.755833333333,
+				"longitude": 37.617777777778,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"id": "Q2143176",
+			"name": "Shushenskoye",
+			"coordinates": {
+				"latitude": 53.325833333333,
+				"longitude": 91.939444444444,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"id": "Q252119",
+			"name": "Schwabing",
+			"coordinates": {
+				"latitude": 48.1672,
+				"longitude": 11.5861,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"5": {
+			"id": "Q84",
+			"name": "London",
+			"coordinates": {
+				"latitude": 51.507222222222,
+				"longitude": -0.1275,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q9061",
+			"name": "Karl Marx"
+		},
+		"1": {
+			"id": "Q34787",
+			"name": "Friedrich Engels"
+		},
+		"2": {
+			"id": "Q182905",
+			"name": "Georgi Plekhanov"
+		},
+		"3": {
+			"id": "Q201221",
+			"name": "Alexander Ivanovich Herzen"
+		},
+		"4": {
+			"id": "Q9235",
+			"name": "Georg Wilhelm Friedrich Hegel"
+		},
+		"5": {
+			"id": "Q76586",
+			"name": "Karl Kautsky"
+		},
+		"6": {
+			"id": "Q60972",
+			"name": "Joseph Dietzgen"
+		},
+		"7": {
+			"id": "Q962155",
+			"name": "John Atkinson Hobson"
+		}
+	},
+	"image": {
+		"0": "LeninEnSuizaMarzo1916--barbaroussovietr00mcbr.png",
+		"1": "Vladimir-Ilich-Lenin-1918.jpg",
+		"2": "Vladimir Lenin.jpg"
+	},
+	"movement": {
+		"0": {
+			"id": "Q1144178",
+			"name": "anti-imperialism"
+		},
+		"1": {
+			"id": "Q389647",
+			"name": "anti-capitalism"
+		},
+		"2": {
+			"id": "Q7264",
+			"name": "Marxism"
+		},
+		"3": {
+			"id": "Q1744607",
+			"name": "class struggle"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q1194558",
+			"name": "Imperialism, the Highest Stage of Capitalism"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q27621",
+			"name": "Saint Petersburg State University",
+			"coordinates": ""
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q155059",
+			"name": "Leninism"
+		},
+		"1": {
+			"id": "Q7163",
+			"name": "politics"
+		},
+		"2": {
+			"id": "Q6186",
+			"name": "communism"
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q9061",
+				"name": "Karl Marx",
+				"similarity": 0.5228280425071716
+			},
+			"1": {
+				"id": "Q34787",
+				"name": "Friedrich Engels",
+				"similarity": 0.37282976508140564
+			},
+			"2": {
+				"id": "Q76586",
+				"name": "Karl Kautsky",
+				"similarity": 0.5449342131614685
+			},
+			"3": {
+				"id": "Q182905",
+				"name": "Georgi Plekhanov",
+				"similarity": 0.6461150050163269
+			},
+			"4": {
+				"id": "Q9235",
+				"name": "Georg Wilhelm Friedrich Hegel",
+				"similarity": 0.05716830864548683
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q83003",
+				"name": "Antonio Gramsci",
+				"similarity": 0.47591260075569153
+			},
+			"1": {
+				"id": "Q184169",
+				"name": "Louis Althusser",
+				"similarity": 0.44644850492477417
+			},
+			"2": {
+				"id": "Q438839",
+				"name": "Aleksandr Dugin",
+				"similarity": 0.5135519504547119
+			}
+		}
+	}
+}

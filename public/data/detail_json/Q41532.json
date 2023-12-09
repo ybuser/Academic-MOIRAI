@@ -1,1 +1,228 @@
-{"id": "Q41532", "name": "Carl Jung", "desc": "Swiss psychiatrist and psychotherapist (1875\u20131961)", "wiki_link": "https://en.wikipedia.org/wiki/Carl_Jung", "countryOfCitizenship": {"0": {"id": "Q39", "name": "Switzerland"}}, "dateOfBirth": {"0": "+1875-07-26T00:00:00Z"}, "dateOfDeath": {"0": "+1961-06-06T00:00:00Z"}, "image": {"0": "ETH-BIB-Jung, Carl Gustav (1875-1961)-Portrait-Portr 14163 (cropped).tif"}, "educatedAt": {"0": {"id": "Q1558284", "name": "Gymnasium am M\u00fcnsterplatz", "coordinates": {"latitude": 47.556183333333, "longitude": 7.5912416666667, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q372608", "name": "University of Basel", "coordinates": {"latitude": 47.55852, "longitude": 7.58346, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q2576235", "name": "Wilhelmsgymnasium", "coordinates": {"latitude": 48.1381, "longitude": 11.5886, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}}, "occupation": {"0": {"id": "Q1900167", "name": "psychotherapist"}, "1": {"id": "Q212980", "name": "psychologist"}, "2": {"id": "Q211346", "name": "psychiatrist"}, "3": {"id": "Q11774202", "name": "essayist"}}, "fieldOfWork": {"0": {"id": "Q7867", "name": "psychiatry"}, "1": {"id": "Q9418", "name": "psychology"}, "2": {"id": "Q245179", "name": "analytical psychology"}, "3": {"id": "Q183257", "name": "psychotherapy"}, "4": {"id": "Q640280", "name": "comparative mythology"}, "5": {"id": "Q23404", "name": "anthropology"}, "6": {"id": "Q39689", "name": "alchemy"}, "7": {"id": "Q867634", "name": "dream interpretation"}, "8": {"id": "Q735", "name": "art"}, "9": {"id": "Q1075827", "name": "comparative religion"}, "10": {"id": "Q5891", "name": "philosophy"}}, "employer": {"0": {"id": "Q372608", "name": "University of Basel", "coordinates": {"latitude": 47.55852, "longitude": 7.58346, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q206702", "name": "University of Zurich", "coordinates": {"latitude": 47.374722222222, "longitude": 8.5483333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q11942", "name": "ETH Zurich", "coordinates": {"latitude": 47.37645, "longitude": 8.54785, "altitude": null, "precision": 2.777777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "studentOf": {"0": {"id": "Q328758", "name": "Pierre Janet"}}, "residence": {"0": {"id": "Q39", "name": "Switzerland", "coordinates": {"latitude": 46.798562, "longitude": 8.231973, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": {"id": "Q3333474", "name": "Symbols of Transformation"}, "1": {"id": "Q4349243", "name": "Psychological Types"}, "2": {"id": "Q15693988", "name": "Synchronicity: An Acausal Connecting Principle"}, "3": {"id": "Q16385061", "name": "Archetypes and the Collective Unconscious"}, "4": {"id": "Q6155586", "name": "Ein moderner Mythus. Von Dingen die am Himmel gesehen werden"}, "5": {"id": "Q7256407", "name": "Psychology and Alchemy"}, "6": {"id": "Q16387223", "name": "Mysterium Coniunctionis"}, "7": {"id": "Q3181843", "name": "Man and His Symbols"}, "8": {"id": "Q1613338", "name": "Memories, Dreams, Reflections"}}, "edges": {"learnedFrom": {"0": {"id": "Q9215", "name": "Sigmund Freud"}}, "influenced": {"0": {"id": "Q354867", "name": "Alan Watts"}}}}
+{
+	"id": "Q41532",
+	"name": "Carl Jung",
+	"desc": "Swiss psychiatrist and psychotherapist (1875\u20131961)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Carl_Jung",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q39",
+			"name": "Switzerland"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1875-07-26T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1961-06-06T00:00:00Z"
+	},
+	"image": {
+		"0": "ETH-BIB-Jung, Carl Gustav (1875-1961)-Portrait-Portr 14163 (cropped).tif"
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q1558284",
+			"name": "Gymnasium am M\u00fcnsterplatz",
+			"coordinates": {
+				"latitude": 47.556183333333,
+				"longitude": 7.5912416666667,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q372608",
+			"name": "University of Basel",
+			"coordinates": {
+				"latitude": 47.55852,
+				"longitude": 7.58346,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q2576235",
+			"name": "Wilhelmsgymnasium",
+			"coordinates": {
+				"latitude": 48.1381,
+				"longitude": 11.5886,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q1900167",
+			"name": "psychotherapist"
+		},
+		"1": {
+			"id": "Q212980",
+			"name": "psychologist"
+		},
+		"2": {
+			"id": "Q211346",
+			"name": "psychiatrist"
+		},
+		"3": {
+			"id": "Q11774202",
+			"name": "essayist"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q7867",
+			"name": "psychiatry"
+		},
+		"1": {
+			"id": "Q9418",
+			"name": "psychology"
+		},
+		"2": {
+			"id": "Q245179",
+			"name": "analytical psychology"
+		},
+		"3": {
+			"id": "Q183257",
+			"name": "psychotherapy"
+		},
+		"4": {
+			"id": "Q640280",
+			"name": "comparative mythology"
+		},
+		"5": {
+			"id": "Q23404",
+			"name": "anthropology"
+		},
+		"6": {
+			"id": "Q39689",
+			"name": "alchemy"
+		},
+		"7": {
+			"id": "Q867634",
+			"name": "dream interpretation"
+		},
+		"8": {
+			"id": "Q735",
+			"name": "art"
+		},
+		"9": {
+			"id": "Q1075827",
+			"name": "comparative religion"
+		},
+		"10": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q372608",
+			"name": "University of Basel",
+			"coordinates": {
+				"latitude": 47.55852,
+				"longitude": 7.58346,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q206702",
+			"name": "University of Zurich",
+			"coordinates": {
+				"latitude": 47.374722222222,
+				"longitude": 8.5483333333333,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q11942",
+			"name": "ETH Zurich",
+			"coordinates": {
+				"latitude": 47.37645,
+				"longitude": 8.54785,
+				"altitude": null,
+				"precision": 2.777777777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q328758",
+			"name": "Pierre Janet"
+		}
+	},
+	"residence": {
+		"0": {
+			"id": "Q39",
+			"name": "Switzerland",
+			"coordinates": {
+				"latitude": 46.798562,
+				"longitude": 8.231973,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q3333474",
+			"name": "Symbols of Transformation"
+		},
+		"1": {
+			"id": "Q4349243",
+			"name": "Psychological Types"
+		},
+		"2": {
+			"id": "Q15693988",
+			"name": "Synchronicity: An Acausal Connecting Principle"
+		},
+		"3": {
+			"id": "Q16385061",
+			"name": "Archetypes and the Collective Unconscious"
+		},
+		"4": {
+			"id": "Q6155586",
+			"name": "Ein moderner Mythus. Von Dingen die am Himmel gesehen werden"
+		},
+		"5": {
+			"id": "Q7256407",
+			"name": "Psychology and Alchemy"
+		},
+		"6": {
+			"id": "Q16387223",
+			"name": "Mysterium Coniunctionis"
+		},
+		"7": {
+			"id": "Q3181843",
+			"name": "Man and His Symbols"
+		},
+		"8": {
+			"id": "Q1613338",
+			"name": "Memories, Dreams, Reflections"
+		}
+	},
+	"edges": {
+		"learnedFrom": {
+			"0": {
+				"id": "Q9215",
+				"name": "Sigmund Freud",
+				"similarity": 0.4806939661502838
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q354867",
+				"name": "Alan Watts",
+				"similarity": 0.1300753951072693
+			}
+		}
+	}
+}

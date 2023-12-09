@@ -1,1 +1,217 @@
-{"id": "Q57497", "name": "Carl Stumpf", "desc": "German philosopher", "wiki_link": "https://en.wikipedia.org/wiki/Carl_Stumpf", "countryOfCitizenship": {"0": {"id": "Q183", "name": "Germany"}}, "dateOfBirth": {"0": "+1848-04-21T00:00:00Z"}, "dateOfDeath": {"0": "+1936-12-25T00:00:00Z"}, "image": {"0": "Carlstumpf.jpg"}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q212980", "name": "psychologist"}, "2": {"id": "Q14915627", "name": "musicologist"}, "3": {"id": "Q16031530", "name": "music theorist"}, "4": {"id": "Q17484288", "name": "ethnomusicologist"}, "5": {"id": "Q1622272", "name": "university teacher"}}, "employer": {"0": {"id": "Q55044", "name": "Ludwig Maximilian University of Munich", "coordinates": {"latitude": 48.150833333333, "longitude": 11.580277777778, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q161976", "name": "University of W\u00fcrzburg", "coordinates": {"latitude": 49.788055555556, "longitude": 9.9352777777778, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q152838", "name": "University of G\u00f6ttingen", "coordinates": {"latitude": 51.533979833333, "longitude": 9.93792, "altitude": null, "precision": 2.7777777777778e-08, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"id": "Q32120", "name": "University of Halle-Wittenberg", "coordinates": {"latitude": 51.48638889, "longitude": 11.96888889, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "4": {"id": "Q31519", "name": "Charles University", "coordinates": {"latitude": 50.0884, "longitude": 14.4037, "altitude": null, "precision": 0.014001065638779498, "globe": "http://www.wikidata.org/entity/Q2"}}, "5": {"id": "Q152087", "name": "Humboldt University of Berlin", "coordinates": {"latitude": 52.518055555556, "longitude": 13.393333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "educatedAt": {"0": {"id": "Q152838", "name": "University of G\u00f6ttingen", "coordinates": {"latitude": 51.533979833333, "longitude": 9.93792, "altitude": null, "precision": 2.7777777777778e-08, "globe": "http://www.wikidata.org/entity/Q2"}}}, "influencedBy": {"0": {"id": "Q184735", "name": "Bernard Bolzano"}}, "studentOf": {"0": {"id": "Q57196", "name": "Franz Brentano"}, "1": {"id": "Q57684", "name": "Hermann Lotze"}}, "doctralStudent": {"0": {"id": "Q58586", "name": "Edmund Husserl"}, "1": {"id": "Q213672", "name": "Wolfgang K\u00f6hler"}, "2": {"id": "Q77106", "name": "Kurt Zadek Lewin"}, "3": {"id": "Q77106", "name": "Kurt Zadek Lewin"}, "4": {"id": "Q18631891", "name": "Herbert Langfeld"}, "5": {"id": "Q61151", "name": "Eduard Spranger"}, "6": {"id": "Q97710", "name": "Erich Schumann"}, "7": {"id": "Q102228583", "name": "Gerhard Gotthardt"}, "8": {"id": "Q102253445", "name": "Paul Gohlke"}}, "student": {"0": {"id": "Q76515", "name": "Erich Rothacker"}, "1": {"id": "Q77518", "name": "Hans Cornelius"}, "2": {"id": "Q58586", "name": "Edmund Husserl"}}, "edges": {"taught": {"0": {"id": "Q61151", "name": "Eduard Spranger"}, "1": {"id": "Q58586", "name": "Edmund Husserl"}}, "influenced": {"0": {"id": "Q58586", "name": "Edmund Husserl"}}}}
+{
+	"id": "Q57497",
+	"name": "Carl Stumpf",
+	"desc": "German philosopher",
+	"wiki_link": "https://en.wikipedia.org/wiki/Carl_Stumpf",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q183",
+			"name": "Germany"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1848-04-21T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1936-12-25T00:00:00Z"
+	},
+	"image": {
+		"0": "Carlstumpf.jpg"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q212980",
+			"name": "psychologist"
+		},
+		"2": {
+			"id": "Q14915627",
+			"name": "musicologist"
+		},
+		"3": {
+			"id": "Q16031530",
+			"name": "music theorist"
+		},
+		"4": {
+			"id": "Q17484288",
+			"name": "ethnomusicologist"
+		},
+		"5": {
+			"id": "Q1622272",
+			"name": "university teacher"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q55044",
+			"name": "Ludwig Maximilian University of Munich",
+			"coordinates": {
+				"latitude": 48.150833333333,
+				"longitude": 11.580277777778,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q161976",
+			"name": "University of W\u00fcrzburg",
+			"coordinates": {
+				"latitude": 49.788055555556,
+				"longitude": 9.9352777777778,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q152838",
+			"name": "University of G\u00f6ttingen",
+			"coordinates": {
+				"latitude": 51.533979833333,
+				"longitude": 9.93792,
+				"altitude": null,
+				"precision": 2.7777777777778e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"id": "Q32120",
+			"name": "University of Halle-Wittenberg",
+			"coordinates": {
+				"latitude": 51.48638889,
+				"longitude": 11.96888889,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"id": "Q31519",
+			"name": "Charles University",
+			"coordinates": {
+				"latitude": 50.0884,
+				"longitude": 14.4037,
+				"altitude": null,
+				"precision": 0.014001065638779498,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"5": {
+			"id": "Q152087",
+			"name": "Humboldt University of Berlin",
+			"coordinates": {
+				"latitude": 52.518055555556,
+				"longitude": 13.393333333333,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q152838",
+			"name": "University of G\u00f6ttingen",
+			"coordinates": {
+				"latitude": 51.533979833333,
+				"longitude": 9.93792,
+				"altitude": null,
+				"precision": 2.7777777777778e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q184735",
+			"name": "Bernard Bolzano"
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q57196",
+			"name": "Franz Brentano"
+		},
+		"1": {
+			"id": "Q57684",
+			"name": "Hermann Lotze"
+		}
+	},
+	"doctralStudent": {
+		"0": {
+			"id": "Q58586",
+			"name": "Edmund Husserl"
+		},
+		"1": {
+			"id": "Q213672",
+			"name": "Wolfgang K\u00f6hler"
+		},
+		"2": {
+			"id": "Q77106",
+			"name": "Kurt Zadek Lewin"
+		},
+		"3": {
+			"id": "Q77106",
+			"name": "Kurt Zadek Lewin"
+		},
+		"4": {
+			"id": "Q18631891",
+			"name": "Herbert Langfeld"
+		},
+		"5": {
+			"id": "Q61151",
+			"name": "Eduard Spranger"
+		},
+		"6": {
+			"id": "Q97710",
+			"name": "Erich Schumann"
+		},
+		"7": {
+			"id": "Q102228583",
+			"name": "Gerhard Gotthardt"
+		},
+		"8": {
+			"id": "Q102253445",
+			"name": "Paul Gohlke"
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q76515",
+			"name": "Erich Rothacker"
+		},
+		"1": {
+			"id": "Q77518",
+			"name": "Hans Cornelius"
+		},
+		"2": {
+			"id": "Q58586",
+			"name": "Edmund Husserl"
+		}
+	},
+	"edges": {
+		"taught": {
+			"0": {
+				"id": "Q61151",
+				"name": "Eduard Spranger",
+				"similarity": 0.32983681559562683
+			},
+			"1": {
+				"id": "Q58586",
+				"name": "Edmund Husserl",
+				"similarity": 0.4705912172794342
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q58586",
+				"name": "Edmund Husserl",
+				"similarity": 0.4705912172794342
+			}
+		}
+	}
+}

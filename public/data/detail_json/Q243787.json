@@ -1,1 +1,61 @@
-{"id": "Q243787", "name": "Gregory Palamas", "desc": "14th century Byzantine Greek cleric and theologian", "wiki_link": "https://en.wikipedia.org/wiki/Gregory_Palamas", "dateOfDeath": {"0": "+1359-11-14T00:00:00Z"}, "dateOfBirth": {"0": "+1296-01-01T00:00:00Z"}, "image": {"0": "Gregor Palamas by North Greece anonym (15th c., Pushkin museum).jpg", "1": "Gregor Palamas.jpg"}, "occupation": {"0": {"id": "Q42603", "name": "priest"}, "1": {"id": "Q4964182", "name": "philosopher"}, "2": {"id": "Q36180", "name": "writer"}}, "countryOfCitizenship": {"0": {"id": "Q12544", "name": "Byzantine Empire"}}, "studentOf": {"0": {"id": "Q221657", "name": "Theodoros Metochites"}}, "student": {"0": {"id": "Q152221", "name": "Philotheus I of Constantinople"}, "1": {"id": "Q3041512", "name": "Nilus Cabasilas"}}, "edges": {"influenced": {"0": {"id": "Q123382", "name": "Frithjof Schuon"}}}}
+{
+	"id": "Q243787",
+	"name": "Gregory Palamas",
+	"desc": "14th century Byzantine Greek cleric and theologian",
+	"wiki_link": "https://en.wikipedia.org/wiki/Gregory_Palamas",
+	"dateOfDeath": {
+		"0": "+1359-11-14T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+1296-01-01T00:00:00Z"
+	},
+	"image": {
+		"0": "Gregor Palamas by North Greece anonym (15th c., Pushkin museum).jpg",
+		"1": "Gregor Palamas.jpg"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q42603",
+			"name": "priest"
+		},
+		"1": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"2": {
+			"id": "Q36180",
+			"name": "writer"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q12544",
+			"name": "Byzantine Empire"
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q221657",
+			"name": "Theodoros Metochites"
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q152221",
+			"name": "Philotheus I of Constantinople"
+		},
+		"1": {
+			"id": "Q3041512",
+			"name": "Nilus Cabasilas"
+		}
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q123382",
+				"name": "Frithjof Schuon",
+				"similarity": 0.2953318953514099
+			}
+		}
+	}
+}

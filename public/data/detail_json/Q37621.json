@@ -1,1 +1,207 @@
-{"id": "Q37621", "name": "Thomas Hobbes", "desc": "English philosopher (1588\u20131679)", "wiki_link": "https://en.wikipedia.org/wiki/Thomas_Hobbes", "occupation": {"0": {"id": "Q1238570", "name": "political scientist"}, "1": {"id": "Q170790", "name": "mathematician"}, "2": {"id": "Q4964182", "name": "philosopher"}, "3": {"id": "Q188094", "name": "economist"}, "4": {"id": "Q82955", "name": "politician"}, "5": {"id": "Q201788", "name": "historian"}, "6": {"id": "Q333634", "name": "translator"}, "7": {"id": "Q36180", "name": "writer"}, "8": {"id": "Q656823", "name": "in-home tutor"}, "9": {"id": "Q23760244", "name": "philosopher of law"}}, "dateOfBirth": {"0": "+1588-04-05T00:00:00Z", "1": "+1588-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+1679-12-04T00:00:00Z", "1": "+1679-01-01T00:00:00Z"}, "image": {"0": "Thomas Hobbes (portrait).jpg", "1": "Thomas Hobbes. Line engraving by W. Faithorne, 1668. Wellcome V0002798.jpg"}, "countryOfCitizenship": {"0": {"id": "Q179876", "name": "Kingdom of England"}}, "educatedAt": {"0": {"id": "Q81162", "name": "Magdalen College", "coordinates": {"latitude": 51.751938888889, "longitude": -1.2463888888889, "altitude": null, "precision": 2.7777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q34433", "name": "University of Oxford", "coordinates": {"latitude": 51.755, "longitude": -1.255, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}, "1": {"id": "Q1331392", "name": "legal theory"}, "2": {"id": "Q309", "name": "history"}, "3": {"id": "Q9465", "name": "ethics"}, "4": {"id": "Q8087", "name": "geometry"}}, "notableWork": {"0": {"id": "Q193034", "name": "Leviathan"}, "1": {"id": "Q1149540", "name": "De Cive"}}, "influencedBy": {"0": {"id": "Q859", "name": "Plato"}, "1": {"id": "Q868", "name": "Aristotle"}, "2": {"id": "Q154959", "name": "Hugo Grotius"}, "3": {"id": "Q37388", "name": "Francis Bacon"}}, "movement": {"0": {"id": "Q179805", "name": "political philosophy"}, "1": {"id": "Q36442", "name": "political science"}, "2": {"id": "Q1331392", "name": "legal theory"}}, "timePeriod": {"0": {"id": "Q550113", "name": "17th-century philosophy"}}, "student": {"0": {"id": "Q2756020", "name": "William Cavendish, 2nd Earl of Devonshire"}}, "edges": {"influenced": {"0": {"id": "Q9047", "name": "Gottfried Wilhelm Leibniz"}, "1": {"id": "Q9353", "name": "John Locke"}, "2": {"id": "Q35802", "name": "Benedictus de Spinoza"}}, "influencedBy": {"0": {"id": "Q859", "name": "Plato"}, "1": {"id": "Q37388", "name": "Francis Bacon"}, "2": {"id": "Q868", "name": "Aristotle"}, "3": {"id": "Q154959", "name": "Hugo Grotius"}}}}
+{
+	"id": "Q37621",
+	"name": "Thomas Hobbes",
+	"desc": "English philosopher (1588\u20131679)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Thomas_Hobbes",
+	"occupation": {
+		"0": {
+			"id": "Q1238570",
+			"name": "political scientist"
+		},
+		"1": {
+			"id": "Q170790",
+			"name": "mathematician"
+		},
+		"2": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"3": {
+			"id": "Q188094",
+			"name": "economist"
+		},
+		"4": {
+			"id": "Q82955",
+			"name": "politician"
+		},
+		"5": {
+			"id": "Q201788",
+			"name": "historian"
+		},
+		"6": {
+			"id": "Q333634",
+			"name": "translator"
+		},
+		"7": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"8": {
+			"id": "Q656823",
+			"name": "in-home tutor"
+		},
+		"9": {
+			"id": "Q23760244",
+			"name": "philosopher of law"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1588-04-05T00:00:00Z",
+		"1": "+1588-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1679-12-04T00:00:00Z",
+		"1": "+1679-01-01T00:00:00Z"
+	},
+	"image": {
+		"0": "Thomas Hobbes (portrait).jpg",
+		"1": "Thomas Hobbes. Line engraving by W. Faithorne, 1668. Wellcome V0002798.jpg"
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q179876",
+			"name": "Kingdom of England"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q81162",
+			"name": "Magdalen College",
+			"coordinates": {
+				"latitude": 51.751938888889,
+				"longitude": -1.2463888888889,
+				"altitude": null,
+				"precision": 2.7777777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q34433",
+			"name": "University of Oxford",
+			"coordinates": {
+				"latitude": 51.755,
+				"longitude": -1.255,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		},
+		"1": {
+			"id": "Q1331392",
+			"name": "legal theory"
+		},
+		"2": {
+			"id": "Q309",
+			"name": "history"
+		},
+		"3": {
+			"id": "Q9465",
+			"name": "ethics"
+		},
+		"4": {
+			"id": "Q8087",
+			"name": "geometry"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q193034",
+			"name": "Leviathan"
+		},
+		"1": {
+			"id": "Q1149540",
+			"name": "De Cive"
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q859",
+			"name": "Plato"
+		},
+		"1": {
+			"id": "Q868",
+			"name": "Aristotle"
+		},
+		"2": {
+			"id": "Q154959",
+			"name": "Hugo Grotius"
+		},
+		"3": {
+			"id": "Q37388",
+			"name": "Francis Bacon"
+		}
+	},
+	"movement": {
+		"0": {
+			"id": "Q179805",
+			"name": "political philosophy"
+		},
+		"1": {
+			"id": "Q36442",
+			"name": "political science"
+		},
+		"2": {
+			"id": "Q1331392",
+			"name": "legal theory"
+		}
+	},
+	"timePeriod": {
+		"0": {
+			"id": "Q550113",
+			"name": "17th-century philosophy"
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q2756020",
+			"name": "William Cavendish, 2nd Earl of Devonshire"
+		}
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q9047",
+				"name": "Gottfried Wilhelm Leibniz",
+				"similarity": 0.18131333589553833
+			},
+			"1": {
+				"id": "Q9353",
+				"name": "John Locke",
+				"similarity": 0.35302236676216125
+			},
+			"2": {
+				"id": "Q35802",
+				"name": "Benedictus de Spinoza",
+				"similarity": 0.334951251745224
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.2798987329006195
+			},
+			"1": {
+				"id": "Q37388",
+				"name": "Francis Bacon",
+				"similarity": 0.17135249078273773
+			},
+			"2": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.1807951182126999
+			},
+			"3": {
+				"id": "Q154959",
+				"name": "Hugo Grotius",
+				"similarity": 0.27764350175857544
+			}
+		}
+	}
+}

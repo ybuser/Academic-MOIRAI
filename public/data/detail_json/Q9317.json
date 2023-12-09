@@ -1,1 +1,181 @@
-{"id": "Q9317", "name": "John Maynard Keynes", "desc": "English economist (1883\u20131946)", "wiki_link": "https://en.wikipedia.org/wiki/John_Maynard_Keynes", "occupation": {"0": {"id": "Q188094", "name": "economist"}, "1": {"id": "Q170790", "name": "mathematician"}, "2": {"id": "Q82955", "name": "politician"}, "3": {"id": "Q4964182", "name": "philosopher"}, "4": {"id": "Q121594", "name": "professor"}, "5": {"id": "Q193391", "name": "diplomat"}, "6": {"id": "Q15980158", "name": "non-fiction writer"}, "7": {"id": "Q43845", "name": "businessperson"}}, "countryOfCitizenship": {"0": {"id": "Q145", "name": "United Kingdom"}, "1": {"id": "Q174193", "name": "United Kingdom of Great Britain and Ireland"}}, "dateOfBirth": {"0": "+1883-06-05T00:00:00Z"}, "dateOfDeath": {"0": "+1946-04-21T00:00:00Z"}, "movement": {"0": {"id": "Q603529", "name": "Bloomsbury Group"}}, "educatedAt": {"0": {"id": "Q192088", "name": "Eton College", "coordinates": {"latitude": 51.491667, "longitude": -0.609444, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q924289", "name": "King's College", "coordinates": {"latitude": 52.204166666667, "longitude": 0.11666666666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q35794", "name": "University of Cambridge", "coordinates": {"latitude": 52.205355979757925, "longitude": 0.11315726963968827, "altitude": null, "precision": 1e-08, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"id": "Q7593056", "name": "St Faith's School", "coordinates": {"latitude": 52.1883, "longitude": 0.123, "altitude": null, "precision": 0.0014652774371056, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": {"id": "Q1047156", "name": "The General Theory of Employment, Interest and Money"}, "1": {"id": "Q19068025", "name": "Indian Currency and Finance"}, "2": {"id": "Q2299605", "name": "The Economic Consequences of the Peace"}, "3": {"id": "Q17022390", "name": "A Treatise on Probability"}, "4": {"id": "Q3997938", "name": "A Treatise on Money"}}, "employer": {"0": {"id": "Q35794", "name": "University of Cambridge", "coordinates": {"latitude": 52.205355979757925, "longitude": 0.11315726963968827, "altitude": null, "precision": 1e-08, "globe": "http://www.wikidata.org/entity/Q2"}}}, "doctralStudent": {"0": {"id": "Q3011054", "name": "D. G. Champernowne"}, "1": {"id": "Q234793", "name": "Joan Robinson"}}, "studentOf": {"0": {"id": "Q13529", "name": "Alfred Marshall"}, "1": {"id": "Q2578676", "name": "William Ernest Johnson"}}, "image": {"0": "Keynes 1933.jpg"}, "fieldOfWork": {"0": {"id": "Q39072", "name": "microeconomics"}}, "edges": {"learnedFrom": {"0": {"id": "Q183372", "name": "Alfred North Whitehead"}}}}
+{
+	"id": "Q9317",
+	"name": "John Maynard Keynes",
+	"desc": "English economist (1883\u20131946)",
+	"wiki_link": "https://en.wikipedia.org/wiki/John_Maynard_Keynes",
+	"occupation": {
+		"0": {
+			"id": "Q188094",
+			"name": "economist"
+		},
+		"1": {
+			"id": "Q170790",
+			"name": "mathematician"
+		},
+		"2": {
+			"id": "Q82955",
+			"name": "politician"
+		},
+		"3": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"4": {
+			"id": "Q121594",
+			"name": "professor"
+		},
+		"5": {
+			"id": "Q193391",
+			"name": "diplomat"
+		},
+		"6": {
+			"id": "Q15980158",
+			"name": "non-fiction writer"
+		},
+		"7": {
+			"id": "Q43845",
+			"name": "businessperson"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q145",
+			"name": "United Kingdom"
+		},
+		"1": {
+			"id": "Q174193",
+			"name": "United Kingdom of Great Britain and Ireland"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1883-06-05T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1946-04-21T00:00:00Z"
+	},
+	"movement": {
+		"0": {
+			"id": "Q603529",
+			"name": "Bloomsbury Group"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q192088",
+			"name": "Eton College",
+			"coordinates": {
+				"latitude": 51.491667,
+				"longitude": -0.609444,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q924289",
+			"name": "King's College",
+			"coordinates": {
+				"latitude": 52.204166666667,
+				"longitude": 0.11666666666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q35794",
+			"name": "University of Cambridge",
+			"coordinates": {
+				"latitude": 52.205355979757925,
+				"longitude": 0.11315726963968827,
+				"altitude": null,
+				"precision": 1e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"id": "Q7593056",
+			"name": "St Faith's School",
+			"coordinates": {
+				"latitude": 52.1883,
+				"longitude": 0.123,
+				"altitude": null,
+				"precision": 0.0014652774371056,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q1047156",
+			"name": "The General Theory of Employment, Interest and Money"
+		},
+		"1": {
+			"id": "Q19068025",
+			"name": "Indian Currency and Finance"
+		},
+		"2": {
+			"id": "Q2299605",
+			"name": "The Economic Consequences of the Peace"
+		},
+		"3": {
+			"id": "Q17022390",
+			"name": "A Treatise on Probability"
+		},
+		"4": {
+			"id": "Q3997938",
+			"name": "A Treatise on Money"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q35794",
+			"name": "University of Cambridge",
+			"coordinates": {
+				"latitude": 52.205355979757925,
+				"longitude": 0.11315726963968827,
+				"altitude": null,
+				"precision": 1e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"doctralStudent": {
+		"0": {
+			"id": "Q3011054",
+			"name": "D. G. Champernowne"
+		},
+		"1": {
+			"id": "Q234793",
+			"name": "Joan Robinson"
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q13529",
+			"name": "Alfred Marshall"
+		},
+		"1": {
+			"id": "Q2578676",
+			"name": "William Ernest Johnson"
+		}
+	},
+	"image": {
+		"0": "Keynes 1933.jpg"
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q39072",
+			"name": "microeconomics"
+		}
+	},
+	"edges": {
+		"learnedFrom": {
+			"0": {
+				"id": "Q183372",
+				"name": "Alfred North Whitehead",
+				"similarity": 0.1838684380054474
+			}
+		}
+	}
+}

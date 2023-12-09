@@ -1,1 +1,103 @@
-{"id": "Q368519", "name": "George MacDonald", "desc": "Scottish author, poet and Christian minister", "wiki_link": "https://en.wikipedia.org/wiki/George_MacDonald", "countryOfCitizenship": {"0": {"id": "Q174193", "name": "United Kingdom of Great Britain and Ireland"}}, "dateOfBirth": {"0": "+1824-12-10T00:00:00Z"}, "dateOfDeath": {"0": "+1905-09-18T00:00:00Z"}, "educatedAt": {"0": {"id": "Q270532", "name": "University of Aberdeen", "coordinates": {"latitude": 57.165, "longitude": -2.1, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "image": {"0": "Portrait of George MacDonald.jpg"}, "occupation": {"0": {"id": "Q36180", "name": "writer"}, "1": {"id": "Q1423891", "name": "Christian minister"}, "2": {"id": "Q49757", "name": "poet"}, "3": {"id": "Q6625963", "name": "novelist"}, "4": {"id": "Q2259532", "name": "cleric"}, "5": {"id": "Q1930187", "name": "journalist"}, "6": {"id": "Q1234713", "name": "theologian"}, "7": {"id": "Q4964182", "name": "philosopher"}}, "notableWork": {"0": {"id": "Q3832392", "name": "Lilith"}, "1": {"id": "Q1616808", "name": "Phantastes"}, "2": {"id": "Q5233331", "name": "David Elginbrod"}, "3": {"id": "Q466505", "name": "The Princess and the Goblin"}, "4": {"id": "Q1619593", "name": "At the Back of the North Wind"}, "5": {"id": "Q8773912", "name": "The Gray Wolf"}}, "edges": {"influenced": {"0": {"id": "Q9204", "name": "C. S. Lewis"}}}}
+{
+	"id": "Q368519",
+	"name": "George MacDonald",
+	"desc": "Scottish author, poet and Christian minister",
+	"wiki_link": "https://en.wikipedia.org/wiki/George_MacDonald",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q174193",
+			"name": "United Kingdom of Great Britain and Ireland"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1824-12-10T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1905-09-18T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q270532",
+			"name": "University of Aberdeen",
+			"coordinates": {
+				"latitude": 57.165,
+				"longitude": -2.1,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"image": {
+		"0": "Portrait of George MacDonald.jpg"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"1": {
+			"id": "Q1423891",
+			"name": "Christian minister"
+		},
+		"2": {
+			"id": "Q49757",
+			"name": "poet"
+		},
+		"3": {
+			"id": "Q6625963",
+			"name": "novelist"
+		},
+		"4": {
+			"id": "Q2259532",
+			"name": "cleric"
+		},
+		"5": {
+			"id": "Q1930187",
+			"name": "journalist"
+		},
+		"6": {
+			"id": "Q1234713",
+			"name": "theologian"
+		},
+		"7": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q3832392",
+			"name": "Lilith"
+		},
+		"1": {
+			"id": "Q1616808",
+			"name": "Phantastes"
+		},
+		"2": {
+			"id": "Q5233331",
+			"name": "David Elginbrod"
+		},
+		"3": {
+			"id": "Q466505",
+			"name": "The Princess and the Goblin"
+		},
+		"4": {
+			"id": "Q1619593",
+			"name": "At the Back of the North Wind"
+		},
+		"5": {
+			"id": "Q8773912",
+			"name": "The Gray Wolf"
+		}
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q9204",
+				"name": "C. S. Lewis",
+				"similarity": 0.4230310320854187
+			}
+		}
+	}
+}

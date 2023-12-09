@@ -1,1 +1,86 @@
-{"id": "Q3348646", "name": "Abul Hasan Ali Hasani Nadwi", "desc": "Indian Islamic scholar, thinker, author, orator and critic of Arab Nationalist", "wiki_link": "https://en.wikipedia.org/wiki/Abul_Hasan_Ali_Hasani_Nadwi", "dateOfDeath": {"0": "+1999-12-31T00:00:00Z"}, "dateOfBirth": {"0": "+1913-12-05T00:00:00Z", "1": "+1913-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": {"id": "Q668", "name": "India"}, "1": {"id": "Q129286", "name": "British Raj"}, "2": {"id": "Q1775277", "name": "Dominion of India"}}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q3400985", "name": "academic"}}, "residence": {"0": {"id": "Q1000485", "name": "Raebareli", "coordinates": {"latitude": 26.233838888889, "longitude": 81.233597222222, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q47916", "name": "Lucknow", "coordinates": {"latitude": 26.847, "longitude": 80.947, "altitude": null, "precision": 0.10068364894153, "globe": "http://www.wikidata.org/entity/Q2"}}}, "influencedBy": {"0": {"id": "Q484141", "name": "Muhammad Iqbal"}, "1": {"id": "Q659028", "name": "Muhammad Ilyas Kandhlawi"}}, "studentOf": {"0": {"id": "Q114022150", "name": "Moulana Haider Hassan Khan"}}, "edges": {"influencedBy": {"0": {"id": "Q484141", "name": "Muhammad Iqbal"}}}}
+{
+	"id": "Q3348646",
+	"name": "Abul Hasan Ali Hasani Nadwi",
+	"desc": "Indian Islamic scholar, thinker, author, orator and critic of Arab Nationalist",
+	"wiki_link": "https://en.wikipedia.org/wiki/Abul_Hasan_Ali_Hasani_Nadwi",
+	"dateOfDeath": {
+		"0": "+1999-12-31T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+1913-12-05T00:00:00Z",
+		"1": "+1913-00-00T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q668",
+			"name": "India"
+		},
+		"1": {
+			"id": "Q129286",
+			"name": "British Raj"
+		},
+		"2": {
+			"id": "Q1775277",
+			"name": "Dominion of India"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q3400985",
+			"name": "academic"
+		}
+	},
+	"residence": {
+		"0": {
+			"id": "Q1000485",
+			"name": "Raebareli",
+			"coordinates": {
+				"latitude": 26.233838888889,
+				"longitude": 81.233597222222,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q47916",
+			"name": "Lucknow",
+			"coordinates": {
+				"latitude": 26.847,
+				"longitude": 80.947,
+				"altitude": null,
+				"precision": 0.10068364894153,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q484141",
+			"name": "Muhammad Iqbal"
+		},
+		"1": {
+			"id": "Q659028",
+			"name": "Muhammad Ilyas Kandhlawi"
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q114022150",
+			"name": "Moulana Haider Hassan Khan"
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q484141",
+				"name": "Muhammad Iqbal",
+				"similarity": 0.3879126012325287
+			}
+		}
+	}
+}

@@ -1,1 +1,294 @@
-{"id": "Q34670", "name": "Albert Camus", "desc": "French philosopher, author, and journalist", "wiki_link": "https://en.wikipedia.org/wiki/Albert_Camus", "countryOfCitizenship": {"0": {"id": "Q142", "name": "France"}}, "occupation": {"0": {"id": "Q36180", "name": "writer"}, "1": {"id": "Q4964182", "name": "philosopher"}, "2": {"id": "Q6625963", "name": "novelist"}, "3": {"id": "Q1930187", "name": "journalist"}, "4": {"id": "Q11774202", "name": "essayist"}, "5": {"id": "Q214917", "name": "playwright"}, "6": {"id": "Q28389", "name": "screenwriter"}, "7": {"id": "Q23833535", "name": "French Resistance fighter"}, "8": {"id": "Q49757", "name": "poet"}, "9": {"id": "Q937857", "name": "association football player"}, "10": {"id": "Q6051619", "name": "opinion journalist"}}, "image": {"0": "Albert Camus, gagnant de prix Nobel, portrait en buste, pos\u00e9 au bureau, faisant face \u00e0 gauche, cigarette de tabagisme.jpg"}, "dateOfBirth": {"0": "+1913-11-07T00:00:00Z"}, "dateOfDeath": {"0": "+1960-01-04T00:00:00Z"}, "notableWork": {"0": {"id": "Q1195789", "name": "L'homme r\u00e9volt\u00e9"}, "1": {"id": "Q1198739", "name": "A Happy Death"}, "2": {"id": "Q690362", "name": "The Fall"}, "3": {"id": "Q1125903", "name": "The Myth of Sisyphus"}, "4": {"id": "Q163297", "name": "The Stranger"}, "5": {"id": "Q320372", "name": "The Plague"}, "6": {"id": "Q47632985", "name": "Albert Camus, Mar\u00eda Casares. Correspondence (1944-1959)"}, "7": {"id": "Q2632077", "name": "Caligula"}, "8": {"id": "Q1610030", "name": "Neither Victims Nor Executioners"}}, "employer": {"0": {"id": "Q770596", "name": "L'Express", "coordinates": ""}, "1": {"id": "Q2835699", "name": "Alger r\u00e9publicain", "coordinates": ""}}, "educatedAt": {"0": {"id": "Q1190852", "name": "Algiers 1 University", "coordinates": {"latitude": 36.7708, "longitude": 3.05542, "altitude": null, "precision": 0.01, "globe": "http://www.wikidata.org/entity/Q2"}}}, "residence": {"0": {"id": "Q142", "name": "France", "coordinates": {"latitude": 47, "longitude": 2, "altitude": null, "precision": 1, "globe": "http://www.wikidata.org/entity/Q2"}}}, "influencedBy": {"0": {"id": "Q6512", "name": "S\u00f8ren Kierkegaard"}, "1": {"id": "Q151164", "name": "Andr\u00e9 Malraux"}, "2": {"id": "Q134189", "name": "Plotinus"}, "3": {"id": "Q9358", "name": "Friedrich Nietzsche"}, "4": {"id": "Q905", "name": "Franz Kafka"}, "5": {"id": "Q713743", "name": "Jean Grenier"}, "6": {"id": "Q47484", "name": "Andr\u00e9 Gide"}, "7": {"id": "Q991", "name": "Fyodor Dostoyevsky"}, "8": {"id": "Q314189", "name": "Lev Shestov"}, "9": {"id": "Q48301", "name": "Martin Heidegger"}, "10": {"id": "Q76509", "name": "Karl Jaspers"}, "11": {"id": "Q7197", "name": "Simone de Beauvoir"}, "12": {"id": "Q9364", "name": "Jean-Paul Sartre"}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}, "1": {"id": "Q8242", "name": "literature"}, "2": {"id": "Q11030", "name": "journalism"}, "3": {"id": "Q9465", "name": "ethics"}, "4": {"id": "Q468777", "name": "existence"}, "5": {"id": "Q179805", "name": "political philosophy"}, "6": {"id": "Q156035", "name": "opinion journalism"}, "7": {"id": "Q11635", "name": "theatre"}, "8": {"id": "Q115160290", "name": "literary activity"}, "9": {"id": "Q35760", "name": "essay"}, "10": {"id": "Q25372", "name": "drama"}}, "movement": {"0": {"id": "Q59104", "name": "continental philosophy"}}, "timePeriod": {"0": {"id": "Q943303", "name": "contemporary philosophy"}}, "edges": {"influencedBy": {"0": {"id": "Q134189", "name": "Plotinus"}, "1": {"id": "Q7197", "name": "Simone de Beauvoir"}, "2": {"id": "Q9364", "name": "Jean-Paul Sartre"}, "3": {"id": "Q48301", "name": "Martin Heidegger"}, "4": {"id": "Q314189", "name": "Lev Shestov"}, "5": {"id": "Q9358", "name": "Friedrich Nietzsche"}, "6": {"id": "Q991", "name": "Fyodor Dostoyevsky"}}}}
+{
+	"id": "Q34670",
+	"name": "Albert Camus",
+	"desc": "French philosopher, author, and journalist",
+	"wiki_link": "https://en.wikipedia.org/wiki/Albert_Camus",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q142",
+			"name": "France"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"1": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"2": {
+			"id": "Q6625963",
+			"name": "novelist"
+		},
+		"3": {
+			"id": "Q1930187",
+			"name": "journalist"
+		},
+		"4": {
+			"id": "Q11774202",
+			"name": "essayist"
+		},
+		"5": {
+			"id": "Q214917",
+			"name": "playwright"
+		},
+		"6": {
+			"id": "Q28389",
+			"name": "screenwriter"
+		},
+		"7": {
+			"id": "Q23833535",
+			"name": "French Resistance fighter"
+		},
+		"8": {
+			"id": "Q49757",
+			"name": "poet"
+		},
+		"9": {
+			"id": "Q937857",
+			"name": "association football player"
+		},
+		"10": {
+			"id": "Q6051619",
+			"name": "opinion journalist"
+		}
+	},
+	"image": {
+		"0": "Albert Camus, gagnant de prix Nobel, portrait en buste, pos\u00e9 au bureau, faisant face \u00e0 gauche, cigarette de tabagisme.jpg"
+	},
+	"dateOfBirth": {
+		"0": "+1913-11-07T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1960-01-04T00:00:00Z"
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q1195789",
+			"name": "L'homme r\u00e9volt\u00e9"
+		},
+		"1": {
+			"id": "Q1198739",
+			"name": "A Happy Death"
+		},
+		"2": {
+			"id": "Q690362",
+			"name": "The Fall"
+		},
+		"3": {
+			"id": "Q1125903",
+			"name": "The Myth of Sisyphus"
+		},
+		"4": {
+			"id": "Q163297",
+			"name": "The Stranger"
+		},
+		"5": {
+			"id": "Q320372",
+			"name": "The Plague"
+		},
+		"6": {
+			"id": "Q47632985",
+			"name": "Albert Camus, Mar\u00eda Casares. Correspondence (1944-1959)"
+		},
+		"7": {
+			"id": "Q2632077",
+			"name": "Caligula"
+		},
+		"8": {
+			"id": "Q1610030",
+			"name": "Neither Victims Nor Executioners"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q770596",
+			"name": "L'Express",
+			"coordinates": ""
+		},
+		"1": {
+			"id": "Q2835699",
+			"name": "Alger r\u00e9publicain",
+			"coordinates": ""
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q1190852",
+			"name": "Algiers 1 University",
+			"coordinates": {
+				"latitude": 36.7708,
+				"longitude": 3.05542,
+				"altitude": null,
+				"precision": 0.01,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"residence": {
+		"0": {
+			"id": "Q142",
+			"name": "France",
+			"coordinates": {
+				"latitude": 47,
+				"longitude": 2,
+				"altitude": null,
+				"precision": 1,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q6512",
+			"name": "S\u00f8ren Kierkegaard"
+		},
+		"1": {
+			"id": "Q151164",
+			"name": "Andr\u00e9 Malraux"
+		},
+		"2": {
+			"id": "Q134189",
+			"name": "Plotinus"
+		},
+		"3": {
+			"id": "Q9358",
+			"name": "Friedrich Nietzsche"
+		},
+		"4": {
+			"id": "Q905",
+			"name": "Franz Kafka"
+		},
+		"5": {
+			"id": "Q713743",
+			"name": "Jean Grenier"
+		},
+		"6": {
+			"id": "Q47484",
+			"name": "Andr\u00e9 Gide"
+		},
+		"7": {
+			"id": "Q991",
+			"name": "Fyodor Dostoyevsky"
+		},
+		"8": {
+			"id": "Q314189",
+			"name": "Lev Shestov"
+		},
+		"9": {
+			"id": "Q48301",
+			"name": "Martin Heidegger"
+		},
+		"10": {
+			"id": "Q76509",
+			"name": "Karl Jaspers"
+		},
+		"11": {
+			"id": "Q7197",
+			"name": "Simone de Beauvoir"
+		},
+		"12": {
+			"id": "Q9364",
+			"name": "Jean-Paul Sartre"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		},
+		"1": {
+			"id": "Q8242",
+			"name": "literature"
+		},
+		"2": {
+			"id": "Q11030",
+			"name": "journalism"
+		},
+		"3": {
+			"id": "Q9465",
+			"name": "ethics"
+		},
+		"4": {
+			"id": "Q468777",
+			"name": "existence"
+		},
+		"5": {
+			"id": "Q179805",
+			"name": "political philosophy"
+		},
+		"6": {
+			"id": "Q156035",
+			"name": "opinion journalism"
+		},
+		"7": {
+			"id": "Q11635",
+			"name": "theatre"
+		},
+		"8": {
+			"id": "Q115160290",
+			"name": "literary activity"
+		},
+		"9": {
+			"id": "Q35760",
+			"name": "essay"
+		},
+		"10": {
+			"id": "Q25372",
+			"name": "drama"
+		}
+	},
+	"movement": {
+		"0": {
+			"id": "Q59104",
+			"name": "continental philosophy"
+		}
+	},
+	"timePeriod": {
+		"0": {
+			"id": "Q943303",
+			"name": "contemporary philosophy"
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q134189",
+				"name": "Plotinus",
+				"similarity": 0.1137123852968216
+			},
+			"1": {
+				"id": "Q7197",
+				"name": "Simone de Beauvoir",
+				"similarity": 0.3850480616092682
+			},
+			"2": {
+				"id": "Q9364",
+				"name": "Jean-Paul Sartre",
+				"similarity": 0.4763886332511902
+			},
+			"3": {
+				"id": "Q48301",
+				"name": "Martin Heidegger",
+				"similarity": 0.1868363916873932
+			},
+			"4": {
+				"id": "Q314189",
+				"name": "Lev Shestov",
+				"similarity": 0.2258550524711609
+			},
+			"5": {
+				"id": "Q9358",
+				"name": "Friedrich Nietzsche",
+				"similarity": 0.1578325480222702
+			},
+			"6": {
+				"id": "Q991",
+				"name": "Fyodor Dostoyevsky",
+				"similarity": 0.31212615966796875
+			}
+		}
+	}
+}

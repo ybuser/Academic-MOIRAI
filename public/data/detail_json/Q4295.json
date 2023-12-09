@@ -1,1 +1,142 @@
-{"id": "Q4295", "name": "Peter Abelard", "desc": "French scholastic philosopher, theologian and preeminent logician (c.1079-1142)", "wiki_link": "https://en.wikipedia.org/wiki/Peter_Abelard", "studentOf": {"0": {"id": "Q297435", "name": "Roscellinus"}, "1": {"id": "Q267825", "name": "William of Champeaux"}}, "occupation": {"0": {"id": "Q1234713", "name": "theologian"}, "1": {"id": "Q4964182", "name": "philosopher"}, "2": {"id": "Q36834", "name": "composer"}, "3": {"id": "Q14467526", "name": "linguist"}, "4": {"id": "Q49757", "name": "poet"}, "5": {"id": "Q18814623", "name": "autobiographer"}, "6": {"id": "Q14565331", "name": "logician"}, "7": {"id": "Q36180", "name": "writer"}, "8": {"id": "Q4504549", "name": "religious servant"}}, "countryOfCitizenship": {"0": {"id": "Q70972", "name": "Kingdom of France"}, "1": {"id": "Q142", "name": "France"}}, "dateOfBirth": {"0": "+1079-01-01T00:00:00Z"}, "educatedAt": {"0": {"id": "Q3577729", "name": "\u00c9cole cath\u00e9drale de Paris", "coordinates": ""}}, "dateOfDeath": {"0": "+1142-04-21T00:00:00Z", "1": "+1142-00-00T00:00:00Z"}, "movement": {"0": {"id": "Q17723", "name": "Classical period"}, "1": {"id": "Q41679", "name": "scholasticism"}, "2": {"id": "Q202253", "name": "nominalism"}}, "student": {"0": {"id": "Q264028", "name": "John of Salisbury"}, "1": {"id": "Q381951", "name": "Hilarius"}, "2": {"id": "Q3436698", "name": "Robert of Melun"}, "3": {"id": "Q819023", "name": "Berengar of Poitiers"}}, "image": {"0": "Abelard.jpg"}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}, "1": {"id": "Q41679", "name": "scholasticism"}}, "notableWork": {"0": {"id": "Q1227813", "name": "Sic et Non"}, "1": {"id": "Q3706551", "name": "Dialectica"}}, "edges": {"taught": {"0": {"id": "Q4313", "name": "Alain de Lille"}}}}
+{
+	"id": "Q4295",
+	"name": "Peter Abelard",
+	"desc": "French scholastic philosopher, theologian and preeminent logician (c.1079-1142)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Peter_Abelard",
+	"studentOf": {
+		"0": {
+			"id": "Q297435",
+			"name": "Roscellinus"
+		},
+		"1": {
+			"id": "Q267825",
+			"name": "William of Champeaux"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q1234713",
+			"name": "theologian"
+		},
+		"1": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"2": {
+			"id": "Q36834",
+			"name": "composer"
+		},
+		"3": {
+			"id": "Q14467526",
+			"name": "linguist"
+		},
+		"4": {
+			"id": "Q49757",
+			"name": "poet"
+		},
+		"5": {
+			"id": "Q18814623",
+			"name": "autobiographer"
+		},
+		"6": {
+			"id": "Q14565331",
+			"name": "logician"
+		},
+		"7": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"8": {
+			"id": "Q4504549",
+			"name": "religious servant"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q70972",
+			"name": "Kingdom of France"
+		},
+		"1": {
+			"id": "Q142",
+			"name": "France"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1079-01-01T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q3577729",
+			"name": "\u00c9cole cath\u00e9drale de Paris",
+			"coordinates": ""
+		}
+	},
+	"dateOfDeath": {
+		"0": "+1142-04-21T00:00:00Z",
+		"1": "+1142-00-00T00:00:00Z"
+	},
+	"movement": {
+		"0": {
+			"id": "Q17723",
+			"name": "Classical period"
+		},
+		"1": {
+			"id": "Q41679",
+			"name": "scholasticism"
+		},
+		"2": {
+			"id": "Q202253",
+			"name": "nominalism"
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q264028",
+			"name": "John of Salisbury"
+		},
+		"1": {
+			"id": "Q381951",
+			"name": "Hilarius"
+		},
+		"2": {
+			"id": "Q3436698",
+			"name": "Robert of Melun"
+		},
+		"3": {
+			"id": "Q819023",
+			"name": "Berengar of Poitiers"
+		}
+	},
+	"image": {
+		"0": "Abelard.jpg"
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		},
+		"1": {
+			"id": "Q41679",
+			"name": "scholasticism"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q1227813",
+			"name": "Sic et Non"
+		},
+		"1": {
+			"id": "Q3706551",
+			"name": "Dialectica"
+		}
+	},
+	"edges": {
+		"taught": {
+			"0": {
+				"id": "Q4313",
+				"name": "Alain de Lille",
+				"similarity": 0.2647789716720581
+			}
+		}
+	}
+}

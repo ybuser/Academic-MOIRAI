@@ -1,1 +1,65 @@
-{"id": "Q43689", "name": "Ambrose", "desc": "Roman theologian and Bishop of Milan (c. 340\u2013397)", "wiki_link": "https://en.wikipedia.org/wiki/Ambrose", "dateOfDeath": {"0": "+0397-04-04T00:00:00Z", "1": "+0397-01-01T00:00:00Z"}, "occupation": {"0": {"id": "Q36180", "name": "writer"}, "1": {"id": "Q4964182", "name": "philosopher"}, "2": {"id": "Q1234713", "name": "theologian"}, "3": {"id": "Q250867", "name": "Catholic priest"}, "4": {"id": "Q82955", "name": "politician"}, "5": {"id": "Q611644", "name": "Catholic bishop"}}, "image": {"0": "AmbroseOfMilan.jpg"}, "countryOfCitizenship": {"0": {"id": "Q1747689", "name": "Ancient Rome"}}, "dateOfBirth": {"0": "+0339-00-00T00:00:00Z", "1": "+0350-00-00T00:00:00Z", "2": "+0340-00-00T00:00:00Z"}, "timePeriod": {"0": {"id": "Q2277", "name": "Roman Empire"}}, "edges": {"influenced": {"0": {"id": "Q8018", "name": "Augustine of Hippo"}}}}
+{
+	"id": "Q43689",
+	"name": "Ambrose",
+	"desc": "Roman theologian and Bishop of Milan (c. 340\u2013397)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Ambrose",
+	"dateOfDeath": {
+		"0": "+0397-04-04T00:00:00Z",
+		"1": "+0397-01-01T00:00:00Z"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"1": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"2": {
+			"id": "Q1234713",
+			"name": "theologian"
+		},
+		"3": {
+			"id": "Q250867",
+			"name": "Catholic priest"
+		},
+		"4": {
+			"id": "Q82955",
+			"name": "politician"
+		},
+		"5": {
+			"id": "Q611644",
+			"name": "Catholic bishop"
+		}
+	},
+	"image": {
+		"0": "AmbroseOfMilan.jpg"
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q1747689",
+			"name": "Ancient Rome"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+0339-00-00T00:00:00Z",
+		"1": "+0350-00-00T00:00:00Z",
+		"2": "+0340-00-00T00:00:00Z"
+	},
+	"timePeriod": {
+		"0": {
+			"id": "Q2277",
+			"name": "Roman Empire"
+		}
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q8018",
+				"name": "Augustine of Hippo",
+				"similarity": 0.42240193486213684
+			}
+		}
+	}
+}

@@ -1,1 +1,211 @@
-{"id": "Q132524", "name": "Ayn Rand", "desc": "Russian-born American writer and philosopher (1905\u20131982)", "wiki_link": "https://en.wikipedia.org/wiki/Ayn_Rand", "notableWork": {"0": {"id": "Q374098", "name": "Atlas Shrugged"}, "1": {"id": "Q612688", "name": "The Fountainhead"}, "2": {"id": "Q2565443", "name": "We the Living"}, "3": {"id": "Q2743935", "name": "Anthem"}, "4": {"id": "Q2658238", "name": "The Virtue of Selfishness"}}, "educatedAt": {"0": {"id": "Q27621", "name": "Saint Petersburg State University", "coordinates": ""}}, "occupation": {"0": {"id": "Q214917", "name": "playwright"}, "1": {"id": "Q4964182", "name": "philosopher"}, "2": {"id": "Q6625963", "name": "novelist"}, "3": {"id": "Q28389", "name": "screenwriter"}, "4": {"id": "Q4263842", "name": "literary critic"}, "5": {"id": "Q11774202", "name": "essayist"}, "6": {"id": "Q1930187", "name": "journalist"}, "7": {"id": "Q18844224", "name": "science fiction writer"}, "8": {"id": "Q36180", "name": "writer"}}, "countryOfCitizenship": {"0": {"id": "Q34266", "name": "Russian Empire"}, "1": {"id": "Q15180", "name": "Soviet Union"}, "2": {"id": "Q30", "name": "United States of America"}, "3": {"id": "Q139319", "name": "Russian Republic"}, "4": {"id": "Q2184", "name": "Russian Soviet Federative Socialist Republic"}}, "fieldOfWork": {"0": {"id": "Q74950", "name": "objectivism"}, "1": {"id": "Q37260", "name": "writing"}, "2": {"id": "Q35760", "name": "essay"}}, "dateOfBirth": {"0": "+1905-02-02T00:00:00Z"}, "dateOfDeath": {"0": "+1982-03-06T00:00:00Z"}, "influencedBy": {"0": {"id": "Q868", "name": "Aristotle"}, "1": {"id": "Q84233", "name": "Ludwig von Mises"}, "2": {"id": "Q84177", "name": "Carl Menger"}, "3": {"id": "Q460075", "name": "Isabel Paterson"}, "4": {"id": "Q9438", "name": "Thomas Aquinas"}, "5": {"id": "Q2634091", "name": "Albert Jay Nock"}, "6": {"id": "Q991", "name": "Fyodor Dostoyevsky"}, "7": {"id": "Q535", "name": "Victor Hugo"}, "8": {"id": "Q202749", "name": "Edmond Rostand"}, "9": {"id": "Q22670", "name": "Friedrich Schiller"}, "10": {"id": "Q1879488", "name": "Russian symbolism"}, "11": {"id": "Q438558", "name": "Rose Wilder Lane"}}, "employer": {"0": {"id": "Q27621", "name": "Saint Petersburg State University", "coordinates": ""}}, "image": {"0": "Ayn Rand (1943 Talbot portrait).jpg"}, "edges": {"influencedBy": {"0": {"id": "Q868", "name": "Aristotle"}, "1": {"id": "Q84233", "name": "Ludwig von Mises"}, "2": {"id": "Q22670", "name": "Friedrich Schiller"}, "3": {"id": "Q9438", "name": "Thomas Aquinas"}, "4": {"id": "Q991", "name": "Fyodor Dostoyevsky"}}, "influenced": {"0": {"id": "Q937697", "name": "Stefan Molyneux"}}}}
+{
+	"id": "Q132524",
+	"name": "Ayn Rand",
+	"desc": "Russian-born American writer and philosopher (1905\u20131982)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Ayn_Rand",
+	"notableWork": {
+		"0": {
+			"id": "Q374098",
+			"name": "Atlas Shrugged"
+		},
+		"1": {
+			"id": "Q612688",
+			"name": "The Fountainhead"
+		},
+		"2": {
+			"id": "Q2565443",
+			"name": "We the Living"
+		},
+		"3": {
+			"id": "Q2743935",
+			"name": "Anthem"
+		},
+		"4": {
+			"id": "Q2658238",
+			"name": "The Virtue of Selfishness"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q27621",
+			"name": "Saint Petersburg State University",
+			"coordinates": ""
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q214917",
+			"name": "playwright"
+		},
+		"1": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"2": {
+			"id": "Q6625963",
+			"name": "novelist"
+		},
+		"3": {
+			"id": "Q28389",
+			"name": "screenwriter"
+		},
+		"4": {
+			"id": "Q4263842",
+			"name": "literary critic"
+		},
+		"5": {
+			"id": "Q11774202",
+			"name": "essayist"
+		},
+		"6": {
+			"id": "Q1930187",
+			"name": "journalist"
+		},
+		"7": {
+			"id": "Q18844224",
+			"name": "science fiction writer"
+		},
+		"8": {
+			"id": "Q36180",
+			"name": "writer"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q34266",
+			"name": "Russian Empire"
+		},
+		"1": {
+			"id": "Q15180",
+			"name": "Soviet Union"
+		},
+		"2": {
+			"id": "Q30",
+			"name": "United States of America"
+		},
+		"3": {
+			"id": "Q139319",
+			"name": "Russian Republic"
+		},
+		"4": {
+			"id": "Q2184",
+			"name": "Russian Soviet Federative Socialist Republic"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q74950",
+			"name": "objectivism"
+		},
+		"1": {
+			"id": "Q37260",
+			"name": "writing"
+		},
+		"2": {
+			"id": "Q35760",
+			"name": "essay"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1905-02-02T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1982-03-06T00:00:00Z"
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q868",
+			"name": "Aristotle"
+		},
+		"1": {
+			"id": "Q84233",
+			"name": "Ludwig von Mises"
+		},
+		"2": {
+			"id": "Q84177",
+			"name": "Carl Menger"
+		},
+		"3": {
+			"id": "Q460075",
+			"name": "Isabel Paterson"
+		},
+		"4": {
+			"id": "Q9438",
+			"name": "Thomas Aquinas"
+		},
+		"5": {
+			"id": "Q2634091",
+			"name": "Albert Jay Nock"
+		},
+		"6": {
+			"id": "Q991",
+			"name": "Fyodor Dostoyevsky"
+		},
+		"7": {
+			"id": "Q535",
+			"name": "Victor Hugo"
+		},
+		"8": {
+			"id": "Q202749",
+			"name": "Edmond Rostand"
+		},
+		"9": {
+			"id": "Q22670",
+			"name": "Friedrich Schiller"
+		},
+		"10": {
+			"id": "Q1879488",
+			"name": "Russian symbolism"
+		},
+		"11": {
+			"id": "Q438558",
+			"name": "Rose Wilder Lane"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q27621",
+			"name": "Saint Petersburg State University",
+			"coordinates": ""
+		}
+	},
+	"image": {
+		"0": "Ayn Rand (1943 Talbot portrait).jpg"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.037163130939006805
+			},
+			"1": {
+				"id": "Q84233",
+				"name": "Ludwig von Mises",
+				"similarity": 0.2022182047367096
+			},
+			"2": {
+				"id": "Q22670",
+				"name": "Friedrich Schiller",
+				"similarity": 0.16409270465373993
+			},
+			"3": {
+				"id": "Q9438",
+				"name": "Thomas Aquinas",
+				"similarity": 0.10920997709035873
+			},
+			"4": {
+				"id": "Q991",
+				"name": "Fyodor Dostoyevsky",
+				"similarity": 0.26518601179122925
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q937697",
+				"name": "Stefan Molyneux",
+				"similarity": 0.31551599502563477
+			}
+		}
+	}
+}

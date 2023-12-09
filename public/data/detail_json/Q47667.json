@@ -1,1 +1,172 @@
-{"id": "Q47667", "name": "Hu Shih", "desc": "Chinese philosopher, essayist and diplomate", "wiki_link": "https://en.wikipedia.org/wiki/Hu_Shih", "countryOfCitizenship": {"0": {"id": "Q865", "name": "Taiwan"}, "1": {"id": "Q13426199", "name": "Republic of China"}, "2": {"id": "Q8733", "name": "Qing dynasty"}}, "educatedAt": {"0": {"id": "Q4194049", "name": "National University", "coordinates": ""}, "1": {"id": "Q49115", "name": "Cornell University", "coordinates": {"latitude": 42.447222222222, "longitude": -76.483055555556, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q49088", "name": "Columbia University", "coordinates": {"latitude": 40.8075, "longitude": -73.961944444444, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"id": "Q7691246", "name": "Teachers College", "coordinates": {"latitude": 40.81027, "longitude": -73.96033, "altitude": null, "precision": -1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "dateOfBirth": {"0": "+1891-12-17T00:00:00Z"}, "dateOfDeath": {"0": "+1962-02-24T00:00:00Z"}, "image": {"0": "Hu Shih.jpg", "1": "Hu Shih 1960 color.jpg"}, "occupation": {"0": {"id": "Q193391", "name": "diplomat"}, "1": {"id": "Q1930187", "name": "journalist"}, "2": {"id": "Q1622272", "name": "university teacher"}, "3": {"id": "Q82955", "name": "politician"}, "4": {"id": "Q36180", "name": "writer"}, "5": {"id": "Q4964182", "name": "philosopher"}}, "movement": {"0": {"id": "Q852377", "name": "New Culture Movement"}, "1": {"id": "Q10264717", "name": "\u5617\u8a66\u6d3e"}}, "employer": {"0": {"id": "Q16952", "name": "Peking University", "coordinates": {"latitude": 39.989722222222, "longitude": 116.30527777778, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q685664", "name": "Fu Jen Catholic University", "coordinates": {"latitude": 25.035805555556, "longitude": 121.43316666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}}, "influencedBy": {"0": {"id": "Q131805", "name": "John Dewey"}}, "notableWork": {"0": {"id": "Q9384311", "name": "An Outline History of Chinese Philosophy"}, "1": {"id": "Q11079688", "name": "\u6587\u5b66\u6539\u826f\u82bb\u8b70"}, "2": {"id": "Q15926089", "name": "History of Vernacular Literature"}}, "edges": {"influencedBy": {"0": {"id": "Q131805", "name": "John Dewey"}}, "learnedFrom": {"0": {"id": "Q131805", "name": "John Dewey"}}}}
+{
+	"id": "Q47667",
+	"name": "Hu Shih",
+	"desc": "Chinese philosopher, essayist and diplomate",
+	"wiki_link": "https://en.wikipedia.org/wiki/Hu_Shih",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q865",
+			"name": "Taiwan"
+		},
+		"1": {
+			"id": "Q13426199",
+			"name": "Republic of China"
+		},
+		"2": {
+			"id": "Q8733",
+			"name": "Qing dynasty"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q4194049",
+			"name": "National University",
+			"coordinates": ""
+		},
+		"1": {
+			"id": "Q49115",
+			"name": "Cornell University",
+			"coordinates": {
+				"latitude": 42.447222222222,
+				"longitude": -76.483055555556,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q49088",
+			"name": "Columbia University",
+			"coordinates": {
+				"latitude": 40.8075,
+				"longitude": -73.961944444444,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"id": "Q7691246",
+			"name": "Teachers College",
+			"coordinates": {
+				"latitude": 40.81027,
+				"longitude": -73.96033,
+				"altitude": null,
+				"precision": -1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1891-12-17T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1962-02-24T00:00:00Z"
+	},
+	"image": {
+		"0": "Hu Shih.jpg",
+		"1": "Hu Shih 1960 color.jpg"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q193391",
+			"name": "diplomat"
+		},
+		"1": {
+			"id": "Q1930187",
+			"name": "journalist"
+		},
+		"2": {
+			"id": "Q1622272",
+			"name": "university teacher"
+		},
+		"3": {
+			"id": "Q82955",
+			"name": "politician"
+		},
+		"4": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"5": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		}
+	},
+	"movement": {
+		"0": {
+			"id": "Q852377",
+			"name": "New Culture Movement"
+		},
+		"1": {
+			"id": "Q10264717",
+			"name": "\u5617\u8a66\u6d3e"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q16952",
+			"name": "Peking University",
+			"coordinates": {
+				"latitude": 39.989722222222,
+				"longitude": 116.30527777778,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q685664",
+			"name": "Fu Jen Catholic University",
+			"coordinates": {
+				"latitude": 25.035805555556,
+				"longitude": 121.43316666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q131805",
+			"name": "John Dewey"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q9384311",
+			"name": "An Outline History of Chinese Philosophy"
+		},
+		"1": {
+			"id": "Q11079688",
+			"name": "\u6587\u5b66\u6539\u826f\u82bb\u8b70"
+		},
+		"2": {
+			"id": "Q15926089",
+			"name": "History of Vernacular Literature"
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q131805",
+				"name": "John Dewey",
+				"similarity": 0.13008248805999756
+			}
+		},
+		"learnedFrom": {
+			"0": {
+				"id": "Q131805",
+				"name": "John Dewey",
+				"similarity": 0.13008248805999756
+			}
+		}
+	}
+}

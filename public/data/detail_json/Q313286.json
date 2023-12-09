@@ -1,1 +1,57 @@
-{"id": "Q313286", "name": "Demetrius of Phalerum", "desc": "ancient Athenian statesman and philosopher", "wiki_link": "https://en.wikipedia.org/wiki/Demetrius_of_Phalerum", "countryOfCitizenship": {"0": {"id": "Q844930", "name": "Classical Athens"}}, "occupation": {"0": {"id": "Q82955", "name": "politician"}, "1": {"id": "Q4964182", "name": "philosopher"}, "2": {"id": "Q182436", "name": "librarian"}}, "dateOfBirth": {"0": "-0350-01-01T00:00:00Z", "1": "-0360-00-00T00:00:00Z"}, "image": {"0": "Bust of Demetrius Phalereus at Kunsthistorisches Museum.jpg"}, "dateOfDeath": {"0": "-0283-00-00T00:00:00Z"}, "timePeriod": {"0": {"id": "Q428995", "name": "Hellenistic period"}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}}, "edges": {"learnedFrom": {"0": {"id": "Q160362", "name": "Theophrastus"}}}}
+{
+	"id": "Q313286",
+	"name": "Demetrius of Phalerum",
+	"desc": "ancient Athenian statesman and philosopher",
+	"wiki_link": "https://en.wikipedia.org/wiki/Demetrius_of_Phalerum",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q844930",
+			"name": "Classical Athens"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q82955",
+			"name": "politician"
+		},
+		"1": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"2": {
+			"id": "Q182436",
+			"name": "librarian"
+		}
+	},
+	"dateOfBirth": {
+		"0": "-0350-01-01T00:00:00Z",
+		"1": "-0360-00-00T00:00:00Z"
+	},
+	"image": {
+		"0": "Bust of Demetrius Phalereus at Kunsthistorisches Museum.jpg"
+	},
+	"dateOfDeath": {
+		"0": "-0283-00-00T00:00:00Z"
+	},
+	"timePeriod": {
+		"0": {
+			"id": "Q428995",
+			"name": "Hellenistic period"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"edges": {
+		"learnedFrom": {
+			"0": {
+				"id": "Q160362",
+				"name": "Theophrastus",
+				"similarity": 0.4914464056491852
+			}
+		}
+	}
+}

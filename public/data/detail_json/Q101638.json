@@ -1,1 +1,231 @@
-{"id": "Q101638", "name": "Mary Wollstonecraft", "desc": "English writer and intellectual (1759\u20131797)", "wiki_link": "https://en.wikipedia.org/wiki/Mary_Wollstonecraft", "countryOfCitizenship": {"0": {"id": "Q161885", "name": "Kingdom of Great Britain"}}, "occupation": {"0": {"id": "Q36180", "name": "writer"}, "1": {"id": "Q333634", "name": "translator"}, "2": {"id": "Q4964182", "name": "philosopher"}, "3": {"id": "Q201788", "name": "historian"}, "4": {"id": "Q6625963", "name": "novelist"}, "5": {"id": "Q11774202", "name": "essayist"}, "6": {"id": "Q1540278", "name": "governess"}, "7": {"id": "Q43845", "name": "businessperson"}, "8": {"id": "Q3579035", "name": "travel writer"}, "9": {"id": "Q4853732", "name": "children's writer"}}, "dateOfBirth": {"0": "+1759-04-27T00:00:00Z"}, "dateOfDeath": {"0": "+1797-09-10T00:00:00Z"}, "influencedBy": {"0": {"id": "Q126462", "name": "Thomas Paine"}, "1": {"id": "Q561101", "name": "Richard Price"}, "2": {"id": "Q3047162", "name": "Joseph Johnson"}}, "fieldOfWork": {"0": {"id": "Q35760", "name": "essay"}, "1": {"id": "Q1662673", "name": "gender studies"}, "2": {"id": "Q223569", "name": "women's rights"}, "3": {"id": "Q12142141", "name": "political activity"}, "4": {"id": "Q113209507", "name": "creative and professional writing"}}, "notableWork": {"0": {"id": "Q300646", "name": "A Vindication of the Rights of Woman"}, "1": {"id": "Q1754997", "name": "Letters Written During a Short Residence in Sweden, Norway, and Denmark"}}, "residence": {"0": {"id": "Q377720", "name": "Barking", "coordinates": {"latitude": 51.54, "longitude": 0.08, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q1347643", "name": "Epping Forest", "coordinates": {"latitude": 51.66, "longitude": 0.05, "altitude": null, "precision": 0.01, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q25", "name": "Wales", "coordinates": {"latitude": 52.35, "longitude": -3.6333333333333, "altitude": null, "precision": 0.016666666666667, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"id": "Q122897", "name": "Newington Green", "coordinates": {"latitude": 51.5514, "longitude": -0.0851, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}, "4": {"id": "Q22890", "name": "Ireland", "coordinates": {"latitude": 53.351, "longitude": -7.921, "altitude": null, "precision": 0.001, "globe": "http://www.wikidata.org/entity/Q2"}}, "5": {"id": "Q5273898", "name": "Southwark", "coordinates": {"latitude": 51.4988, "longitude": -0.0901, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "6": {"id": "Q150120", "name": "Bloomsbury", "coordinates": {"latitude": 51.5201, "longitude": -0.12879972222222222, "altitude": null, "precision": 2.7777777777777776e-07, "globe": "http://www.wikidata.org/entity/Q2"}}, "7": {"id": "Q851718", "name": "Beverley", "coordinates": {"latitude": 53.845, "longitude": -0.427, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "8": {"id": "Q90", "name": "Paris", "coordinates": {"latitude": 48.85666666666667, "longitude": 2.352222222222222, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "image": {"0": "Mary Wollstonecraft by John Opie (c. 1797).jpg"}, "edges": {"influenced": {"0": {"id": "Q41513", "name": "William Blake"}, "1": {"id": "Q79969", "name": "Emma Goldman"}}, "influencedBy": {"0": {"id": "Q126462", "name": "Thomas Paine"}}}}
+{
+	"id": "Q101638",
+	"name": "Mary Wollstonecraft",
+	"desc": "English writer and intellectual (1759\u20131797)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Mary_Wollstonecraft",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q161885",
+			"name": "Kingdom of Great Britain"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"1": {
+			"id": "Q333634",
+			"name": "translator"
+		},
+		"2": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"3": {
+			"id": "Q201788",
+			"name": "historian"
+		},
+		"4": {
+			"id": "Q6625963",
+			"name": "novelist"
+		},
+		"5": {
+			"id": "Q11774202",
+			"name": "essayist"
+		},
+		"6": {
+			"id": "Q1540278",
+			"name": "governess"
+		},
+		"7": {
+			"id": "Q43845",
+			"name": "businessperson"
+		},
+		"8": {
+			"id": "Q3579035",
+			"name": "travel writer"
+		},
+		"9": {
+			"id": "Q4853732",
+			"name": "children's writer"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1759-04-27T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1797-09-10T00:00:00Z"
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q126462",
+			"name": "Thomas Paine"
+		},
+		"1": {
+			"id": "Q561101",
+			"name": "Richard Price"
+		},
+		"2": {
+			"id": "Q3047162",
+			"name": "Joseph Johnson"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q35760",
+			"name": "essay"
+		},
+		"1": {
+			"id": "Q1662673",
+			"name": "gender studies"
+		},
+		"2": {
+			"id": "Q223569",
+			"name": "women's rights"
+		},
+		"3": {
+			"id": "Q12142141",
+			"name": "political activity"
+		},
+		"4": {
+			"id": "Q113209507",
+			"name": "creative and professional writing"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q300646",
+			"name": "A Vindication of the Rights of Woman"
+		},
+		"1": {
+			"id": "Q1754997",
+			"name": "Letters Written During a Short Residence in Sweden, Norway, and Denmark"
+		}
+	},
+	"residence": {
+		"0": {
+			"id": "Q377720",
+			"name": "Barking",
+			"coordinates": {
+				"latitude": 51.54,
+				"longitude": 0.08,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q1347643",
+			"name": "Epping Forest",
+			"coordinates": {
+				"latitude": 51.66,
+				"longitude": 0.05,
+				"altitude": null,
+				"precision": 0.01,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q25",
+			"name": "Wales",
+			"coordinates": {
+				"latitude": 52.35,
+				"longitude": -3.6333333333333,
+				"altitude": null,
+				"precision": 0.016666666666667,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"id": "Q122897",
+			"name": "Newington Green",
+			"coordinates": {
+				"latitude": 51.5514,
+				"longitude": -0.0851,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"id": "Q22890",
+			"name": "Ireland",
+			"coordinates": {
+				"latitude": 53.351,
+				"longitude": -7.921,
+				"altitude": null,
+				"precision": 0.001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"5": {
+			"id": "Q5273898",
+			"name": "Southwark",
+			"coordinates": {
+				"latitude": 51.4988,
+				"longitude": -0.0901,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"6": {
+			"id": "Q150120",
+			"name": "Bloomsbury",
+			"coordinates": {
+				"latitude": 51.5201,
+				"longitude": -0.12879972222222222,
+				"altitude": null,
+				"precision": 2.7777777777777776e-07,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"7": {
+			"id": "Q851718",
+			"name": "Beverley",
+			"coordinates": {
+				"latitude": 53.845,
+				"longitude": -0.427,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"8": {
+			"id": "Q90",
+			"name": "Paris",
+			"coordinates": {
+				"latitude": 48.85666666666667,
+				"longitude": 2.352222222222222,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"image": {
+		"0": "Mary Wollstonecraft by John Opie (c. 1797).jpg"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q41513",
+				"name": "William Blake",
+				"similarity": 0.1548279970884323
+			},
+			"1": {
+				"id": "Q79969",
+				"name": "Emma Goldman",
+				"similarity": 0.5307348370552063
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q126462",
+				"name": "Thomas Paine",
+				"similarity": 0.23056958615779877
+			}
+		}
+	}
+}

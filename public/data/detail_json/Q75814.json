@@ -1,1 +1,432 @@
-{"id": "Q75814", "name": "Wilhelm Wundt", "desc": "German physician, physiologist, philosopher and professor (1832-1920)", "wiki_link": "https://en.wikipedia.org/wiki/Wilhelm_Wundt", "countryOfCitizenship": {"0": {"id": "Q183", "name": "Germany"}}, "dateOfBirth": {"0": "+1832-08-16T00:00:00Z"}, "dateOfDeath": {"0": "+1920-08-31T00:00:00Z"}, "educatedAt": {"0": {"id": "Q153978", "name": "University of T\u00fcbingen", "coordinates": {"latitude": 48.525, "longitude": 9.059, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q151510", "name": "Heidelberg University", "coordinates": {"latitude": 49.410277777778, "longitude": 8.7063888888889, "altitude": null, "precision": 0.000277778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q152087", "name": "Humboldt University of Berlin", "coordinates": {"latitude": 52.518055555556, "longitude": 13.393333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "image": {"0": "Wilhelm Wundt.jpg"}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q1622272", "name": "university teacher"}, "2": {"id": "Q212980", "name": "psychologist"}, "3": {"id": "Q2055046", "name": "physiologist"}, "4": {"id": "Q36180", "name": "writer"}}, "studentOf": {"0": {"id": "Q57992", "name": "Johannes Peter M\u00fcller"}, "1": {"id": "Q76126", "name": "Karl Ewald Hasse"}}, "fieldOfWork": {"0": {"id": "Q521", "name": "physiology"}, "1": {"id": "Q1754430", "name": "volkerpsychologie"}, "2": {"id": "Q475042", "name": "experimental psychology"}}, "employer": {"0": {"id": "Q151510", "name": "Heidelberg University", "coordinates": {"latitude": 49.410277777778, "longitude": 8.7063888888889, "altitude": null, "precision": 0.000277778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q206702", "name": "University of Zurich", "coordinates": {"latitude": 47.374722222222, "longitude": 8.5483333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q154804", "name": "Leipzig University", "coordinates": {"latitude": 51.3387, "longitude": 12.378727777777778, "altitude": null, "precision": 2.777777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "student": {"0": {"id": "Q4417285", "name": "Vitaly Serebrenikov"}, "1": {"id": "Q21163", "name": "Ferdinand T\u00f6nnies"}, "2": {"id": "Q221723", "name": "Vladimir Bekhterev"}, "3": {"id": "Q76857", "name": "Franz Boas"}, "4": {"id": "Q15948", "name": "\u00c9mile Durkheim"}, "5": {"id": "Q58586", "name": "Edmund Husserl"}, "6": {"id": "Q68924", "name": "Ludwig Lange"}, "7": {"id": "Q3813052", "name": "Karl Julius Lohnert"}, "8": {"id": "Q184992", "name": "Bronis\u0142aw Malinowski"}, "9": {"id": "Q295978", "name": "George Herbert Mead"}, "10": {"id": "Q550792", "name": "Constantin R\u0103dulescu-Motru"}, "11": {"id": "Q191095", "name": "Edward Sapir"}, "12": {"id": "Q1323100", "name": "William Isaac Thomas"}, "13": {"id": "Q77947", "name": "Ernst Meumann"}, "14": {"id": "Q8041259", "name": "W\u0142adys\u0142aw Witwicki"}, "15": {"id": "Q9310253", "name": "Richard Arwed Pfeifer"}}, "doctralStudent": {"0": {"id": "Q57946", "name": "Hugo M\u00fcnsterberg"}, "1": {"id": "Q61190", "name": "Oswald K\u00fclpe"}, "2": {"id": "Q76828", "name": "Emil Kraepelin"}, "3": {"id": "Q221723", "name": "Vladimir Bekhterev"}, "4": {"id": "Q380456", "name": "Edward B. Titchener"}, "5": {"id": "Q545047", "name": "James McKeen Cattell"}, "6": {"id": "Q1377656", "name": "Georgi Iwanowitsch Tschelpanow"}, "7": {"id": "Q5553537", "name": "Siegfried Askinasy"}, "8": {"id": "Q9251283", "name": "Edward W. Scripture"}, "9": {"id": "Q37732597", "name": "Ernst Fiedler"}, "10": {"id": "Q68924", "name": "Ludwig Lange"}, "11": {"id": "Q1539924", "name": "Gottlob Friedrich Lipps"}, "12": {"id": "Q102225582", "name": "Waldemar Olshausen"}, "13": {"id": "Q102229681", "name": "Johannes Pitschel"}, "14": {"id": "Q102233090", "name": "Walter Brix"}, "15": {"id": "Q102235200", "name": "Paul Haller"}, "16": {"id": "Q102235489", "name": "Wilhelm Paul Schumann"}, "17": {"id": "Q1461849", "name": "Friedrich Sander"}, "18": {"id": "Q102239492", "name": "Reinhold Schultz"}, "19": {"id": "Q102239493", "name": "Albrecht Steglich"}, "20": {"id": "Q102239494", "name": "Rudolf Schumann"}, "21": {"id": "Q102239517", "name": "Kuno Mittenzwey"}, "22": {"id": "Q102239519", "name": "Swetomir Ristic"}, "23": {"id": "Q102245084", "name": "Woldemar Voigt"}, "24": {"id": "Q102245136", "name": "Karl Lohnert"}, "25": {"id": "Q102246551", "name": "Otto Klemm"}, "26": {"id": "Q102246677", "name": "Fritz Giese"}, "27": {"id": "Q102253015", "name": "Paul Roth"}, "28": {"id": "Q102253354", "name": "Karl August F\u00fcrchtegott Knabe"}, "29": {"id": "Q102253523", "name": "Hermann Damm"}, "30": {"id": "Q102403759", "name": "Joseph Epstein"}, "31": {"id": "Q102404071", "name": "Hans Keller"}, "32": {"id": "Q102404771", "name": "Zwetan Radoslawow"}, "33": {"id": "Q102404772", "name": "Erich Mosch"}, "34": {"id": "Q102404773", "name": "Friedrich Bruno K\u00e4mpfe"}, "35": {"id": "Q102407278", "name": "Hermann Richard Zeitschel"}, "36": {"id": "Q102357592", "name": "Rudolf Franz Pfaff"}, "37": {"id": "Q102669436", "name": "Gustav Berger"}, "38": {"id": "Q102944729", "name": "Robert Bergemann"}, "39": {"id": "Q102946883", "name": "Bernhard Frenzel"}, "40": {"id": "Q18548416", "name": "Florian \u0218tef\u0103nescu-Goang\u0103"}, "41": {"id": "Q12725495", "name": "Constantin Dimitrescu-Ia\u0219i"}, "42": {"id": "Q220269", "name": "Dimitrie Gusti"}, "43": {"id": "Q677843", "name": "Armand Thi\u00e9ry"}, "44": {"id": "Q5079207", "name": "Charles Hubbard Judd"}, "45": {"id": "Q356611", "name": "Charles Spearman"}, "46": {"id": "Q72814", "name": "Gustav Kafka"}}, "influencedBy": {"0": {"id": "Q9047", "name": "Gottfried Wilhelm Leibniz"}}, "edges": {"taught": {"0": {"id": "Q76857", "name": "Franz Boas"}, "1": {"id": "Q58586", "name": "Edmund Husserl"}, "2": {"id": "Q191095", "name": "Edward Sapir"}}, "influencedBy": {"0": {"id": "Q9047", "name": "Gottfried Wilhelm Leibniz"}}, "learnedFrom": {"0": {"id": "Q60024", "name": "Hermann von Helmholtz"}}}}
+{
+	"id": "Q75814",
+	"name": "Wilhelm Wundt",
+	"desc": "German physician, physiologist, philosopher and professor (1832-1920)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Wilhelm_Wundt",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q183",
+			"name": "Germany"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1832-08-16T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1920-08-31T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q153978",
+			"name": "University of T\u00fcbingen",
+			"coordinates": {
+				"latitude": 48.525,
+				"longitude": 9.059,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q151510",
+			"name": "Heidelberg University",
+			"coordinates": {
+				"latitude": 49.410277777778,
+				"longitude": 8.7063888888889,
+				"altitude": null,
+				"precision": 0.000277778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q152087",
+			"name": "Humboldt University of Berlin",
+			"coordinates": {
+				"latitude": 52.518055555556,
+				"longitude": 13.393333333333,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"image": {
+		"0": "Wilhelm Wundt.jpg"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q1622272",
+			"name": "university teacher"
+		},
+		"2": {
+			"id": "Q212980",
+			"name": "psychologist"
+		},
+		"3": {
+			"id": "Q2055046",
+			"name": "physiologist"
+		},
+		"4": {
+			"id": "Q36180",
+			"name": "writer"
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q57992",
+			"name": "Johannes Peter M\u00fcller"
+		},
+		"1": {
+			"id": "Q76126",
+			"name": "Karl Ewald Hasse"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q521",
+			"name": "physiology"
+		},
+		"1": {
+			"id": "Q1754430",
+			"name": "volkerpsychologie"
+		},
+		"2": {
+			"id": "Q475042",
+			"name": "experimental psychology"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q151510",
+			"name": "Heidelberg University",
+			"coordinates": {
+				"latitude": 49.410277777778,
+				"longitude": 8.7063888888889,
+				"altitude": null,
+				"precision": 0.000277778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q206702",
+			"name": "University of Zurich",
+			"coordinates": {
+				"latitude": 47.374722222222,
+				"longitude": 8.5483333333333,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q154804",
+			"name": "Leipzig University",
+			"coordinates": {
+				"latitude": 51.3387,
+				"longitude": 12.378727777777778,
+				"altitude": null,
+				"precision": 2.777777777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q4417285",
+			"name": "Vitaly Serebrenikov"
+		},
+		"1": {
+			"id": "Q21163",
+			"name": "Ferdinand T\u00f6nnies"
+		},
+		"2": {
+			"id": "Q221723",
+			"name": "Vladimir Bekhterev"
+		},
+		"3": {
+			"id": "Q76857",
+			"name": "Franz Boas"
+		},
+		"4": {
+			"id": "Q15948",
+			"name": "\u00c9mile Durkheim"
+		},
+		"5": {
+			"id": "Q58586",
+			"name": "Edmund Husserl"
+		},
+		"6": {
+			"id": "Q68924",
+			"name": "Ludwig Lange"
+		},
+		"7": {
+			"id": "Q3813052",
+			"name": "Karl Julius Lohnert"
+		},
+		"8": {
+			"id": "Q184992",
+			"name": "Bronis\u0142aw Malinowski"
+		},
+		"9": {
+			"id": "Q295978",
+			"name": "George Herbert Mead"
+		},
+		"10": {
+			"id": "Q550792",
+			"name": "Constantin R\u0103dulescu-Motru"
+		},
+		"11": {
+			"id": "Q191095",
+			"name": "Edward Sapir"
+		},
+		"12": {
+			"id": "Q1323100",
+			"name": "William Isaac Thomas"
+		},
+		"13": {
+			"id": "Q77947",
+			"name": "Ernst Meumann"
+		},
+		"14": {
+			"id": "Q8041259",
+			"name": "W\u0142adys\u0142aw Witwicki"
+		},
+		"15": {
+			"id": "Q9310253",
+			"name": "Richard Arwed Pfeifer"
+		}
+	},
+	"doctralStudent": {
+		"0": {
+			"id": "Q57946",
+			"name": "Hugo M\u00fcnsterberg"
+		},
+		"1": {
+			"id": "Q61190",
+			"name": "Oswald K\u00fclpe"
+		},
+		"2": {
+			"id": "Q76828",
+			"name": "Emil Kraepelin"
+		},
+		"3": {
+			"id": "Q221723",
+			"name": "Vladimir Bekhterev"
+		},
+		"4": {
+			"id": "Q380456",
+			"name": "Edward B. Titchener"
+		},
+		"5": {
+			"id": "Q545047",
+			"name": "James McKeen Cattell"
+		},
+		"6": {
+			"id": "Q1377656",
+			"name": "Georgi Iwanowitsch Tschelpanow"
+		},
+		"7": {
+			"id": "Q5553537",
+			"name": "Siegfried Askinasy"
+		},
+		"8": {
+			"id": "Q9251283",
+			"name": "Edward W. Scripture"
+		},
+		"9": {
+			"id": "Q37732597",
+			"name": "Ernst Fiedler"
+		},
+		"10": {
+			"id": "Q68924",
+			"name": "Ludwig Lange"
+		},
+		"11": {
+			"id": "Q1539924",
+			"name": "Gottlob Friedrich Lipps"
+		},
+		"12": {
+			"id": "Q102225582",
+			"name": "Waldemar Olshausen"
+		},
+		"13": {
+			"id": "Q102229681",
+			"name": "Johannes Pitschel"
+		},
+		"14": {
+			"id": "Q102233090",
+			"name": "Walter Brix"
+		},
+		"15": {
+			"id": "Q102235200",
+			"name": "Paul Haller"
+		},
+		"16": {
+			"id": "Q102235489",
+			"name": "Wilhelm Paul Schumann"
+		},
+		"17": {
+			"id": "Q1461849",
+			"name": "Friedrich Sander"
+		},
+		"18": {
+			"id": "Q102239492",
+			"name": "Reinhold Schultz"
+		},
+		"19": {
+			"id": "Q102239493",
+			"name": "Albrecht Steglich"
+		},
+		"20": {
+			"id": "Q102239494",
+			"name": "Rudolf Schumann"
+		},
+		"21": {
+			"id": "Q102239517",
+			"name": "Kuno Mittenzwey"
+		},
+		"22": {
+			"id": "Q102239519",
+			"name": "Swetomir Ristic"
+		},
+		"23": {
+			"id": "Q102245084",
+			"name": "Woldemar Voigt"
+		},
+		"24": {
+			"id": "Q102245136",
+			"name": "Karl Lohnert"
+		},
+		"25": {
+			"id": "Q102246551",
+			"name": "Otto Klemm"
+		},
+		"26": {
+			"id": "Q102246677",
+			"name": "Fritz Giese"
+		},
+		"27": {
+			"id": "Q102253015",
+			"name": "Paul Roth"
+		},
+		"28": {
+			"id": "Q102253354",
+			"name": "Karl August F\u00fcrchtegott Knabe"
+		},
+		"29": {
+			"id": "Q102253523",
+			"name": "Hermann Damm"
+		},
+		"30": {
+			"id": "Q102403759",
+			"name": "Joseph Epstein"
+		},
+		"31": {
+			"id": "Q102404071",
+			"name": "Hans Keller"
+		},
+		"32": {
+			"id": "Q102404771",
+			"name": "Zwetan Radoslawow"
+		},
+		"33": {
+			"id": "Q102404772",
+			"name": "Erich Mosch"
+		},
+		"34": {
+			"id": "Q102404773",
+			"name": "Friedrich Bruno K\u00e4mpfe"
+		},
+		"35": {
+			"id": "Q102407278",
+			"name": "Hermann Richard Zeitschel"
+		},
+		"36": {
+			"id": "Q102357592",
+			"name": "Rudolf Franz Pfaff"
+		},
+		"37": {
+			"id": "Q102669436",
+			"name": "Gustav Berger"
+		},
+		"38": {
+			"id": "Q102944729",
+			"name": "Robert Bergemann"
+		},
+		"39": {
+			"id": "Q102946883",
+			"name": "Bernhard Frenzel"
+		},
+		"40": {
+			"id": "Q18548416",
+			"name": "Florian \u0218tef\u0103nescu-Goang\u0103"
+		},
+		"41": {
+			"id": "Q12725495",
+			"name": "Constantin Dimitrescu-Ia\u0219i"
+		},
+		"42": {
+			"id": "Q220269",
+			"name": "Dimitrie Gusti"
+		},
+		"43": {
+			"id": "Q677843",
+			"name": "Armand Thi\u00e9ry"
+		},
+		"44": {
+			"id": "Q5079207",
+			"name": "Charles Hubbard Judd"
+		},
+		"45": {
+			"id": "Q356611",
+			"name": "Charles Spearman"
+		},
+		"46": {
+			"id": "Q72814",
+			"name": "Gustav Kafka"
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q9047",
+			"name": "Gottfried Wilhelm Leibniz"
+		}
+	},
+	"edges": {
+		"taught": {
+			"0": {
+				"id": "Q76857",
+				"name": "Franz Boas",
+				"similarity": 0.3548162877559662
+			},
+			"1": {
+				"id": "Q58586",
+				"name": "Edmund Husserl",
+				"similarity": 0.3993507921695709
+			},
+			"2": {
+				"id": "Q191095",
+				"name": "Edward Sapir",
+				"similarity": 0.348495215177536
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q9047",
+				"name": "Gottfried Wilhelm Leibniz",
+				"similarity": 0.3032485246658325
+			}
+		},
+		"learnedFrom": {
+			"0": {
+				"id": "Q60024",
+				"name": "Hermann von Helmholtz",
+				"similarity": 0.43676266074180603
+			}
+		}
+	}
+}

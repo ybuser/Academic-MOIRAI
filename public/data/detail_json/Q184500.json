@@ -1,1 +1,79 @@
-{"id": "Q184500", "name": "Johannes Scotus Eriugena", "desc": "Irish Catholic philosopher and theologian (c. 800 \u2013 c. 877)", "wiki_link": "https://en.wikipedia.org/wiki/John_Scotus_Eriugena", "dateOfBirth": {"0": "+0810-00-00T00:00:00Z", "1": "+0800-00-00T00:00:00Z"}, "dateOfDeath": {"0": "+0877-01-01T00:00:00Z"}, "image": {"0": "Johannes Scottus Eriugena.jpg"}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q333634", "name": "translator"}, "2": {"id": "Q36180", "name": "writer"}}, "influencedBy": {"0": {"id": "Q8018", "name": "Augustine of Hippo"}, "1": {"id": "Q191734", "name": "Gregory of Nyssa"}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}}, "timePeriod": {"0": {"id": "Q65682641", "name": "9th-century generation"}}, "countryOfCitizenship": {"0": {"id": "Q27", "name": "Republic of Ireland"}}, "edges": {"influencedBy": {"0": {"id": "Q191734", "name": "Gregory of Nyssa"}, "1": {"id": "Q8018", "name": "Augustine of Hippo"}}, "influenced": {"0": {"id": "Q9438", "name": "Thomas Aquinas"}}}}
+{
+	"id": "Q184500",
+	"name": "Johannes Scotus Eriugena",
+	"desc": "Irish Catholic philosopher and theologian (c. 800 \u2013 c. 877)",
+	"wiki_link": "https://en.wikipedia.org/wiki/John_Scotus_Eriugena",
+	"dateOfBirth": {
+		"0": "+0810-00-00T00:00:00Z",
+		"1": "+0800-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+0877-01-01T00:00:00Z"
+	},
+	"image": {
+		"0": "Johannes Scottus Eriugena.jpg"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q333634",
+			"name": "translator"
+		},
+		"2": {
+			"id": "Q36180",
+			"name": "writer"
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q8018",
+			"name": "Augustine of Hippo"
+		},
+		"1": {
+			"id": "Q191734",
+			"name": "Gregory of Nyssa"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"timePeriod": {
+		"0": {
+			"id": "Q65682641",
+			"name": "9th-century generation"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q27",
+			"name": "Republic of Ireland"
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q191734",
+				"name": "Gregory of Nyssa",
+				"similarity": 0.3879764974117279
+			},
+			"1": {
+				"id": "Q8018",
+				"name": "Augustine of Hippo",
+				"similarity": 0.2081124484539032
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q9438",
+				"name": "Thomas Aquinas",
+				"similarity": 0.42123469710350037
+			}
+		}
+	}
+}

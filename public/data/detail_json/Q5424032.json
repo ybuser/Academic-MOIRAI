@@ -1,1 +1,92 @@
-{"id": "Q5424032", "name": "F. S. C. Northrop", "desc": "American philosopher (1893-1992)", "wiki_link": "https://en.wikipedia.org/wiki/F._S._C._Northrop", "dateOfDeath": {"0": "+1992-07-21T00:00:00Z", "1": "+1992-07-22T00:00:00Z"}, "dateOfBirth": {"0": "+1893-11-27T00:00:00Z"}, "educatedAt": {"0": {"id": "Q13371", "name": "Harvard University", "coordinates": {"latitude": 42.374443888889, "longitude": -71.116943888889, "altitude": null, "precision": 2.77778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q49112", "name": "Yale University", "coordinates": {"latitude": 41.311111111111, "longitude": -72.926666666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q2904557", "name": "Beloit College", "coordinates": {"latitude": 42.504805, "longitude": -89.03038, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"id": "Q49112", "name": "Yale University", "coordinates": {"latitude": 41.311111111111, "longitude": -72.926666666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "countryOfCitizenship": {"0": {"id": "Q30", "name": "United States of America"}}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q1622272", "name": "university teacher"}}, "doctralStudent": {"0": {"id": "Q1452702", "name": "Frederic Brenton Fitch"}}, "edges": {"learnedFrom": {"0": {"id": "Q779523", "name": "William Ernest Hocking"}}}}
+{
+	"id": "Q5424032",
+	"name": "F. S. C. Northrop",
+	"desc": "American philosopher (1893-1992)",
+	"wiki_link": "https://en.wikipedia.org/wiki/F._S._C._Northrop",
+	"dateOfDeath": {
+		"0": "+1992-07-21T00:00:00Z",
+		"1": "+1992-07-22T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+1893-11-27T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q13371",
+			"name": "Harvard University",
+			"coordinates": {
+				"latitude": 42.374443888889,
+				"longitude": -71.116943888889,
+				"altitude": null,
+				"precision": 2.77778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q49112",
+			"name": "Yale University",
+			"coordinates": {
+				"latitude": 41.311111111111,
+				"longitude": -72.926666666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q2904557",
+			"name": "Beloit College",
+			"coordinates": {
+				"latitude": 42.504805,
+				"longitude": -89.03038,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q49112",
+			"name": "Yale University",
+			"coordinates": {
+				"latitude": 41.311111111111,
+				"longitude": -72.926666666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q30",
+			"name": "United States of America"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q1622272",
+			"name": "university teacher"
+		}
+	},
+	"doctralStudent": {
+		"0": {
+			"id": "Q1452702",
+			"name": "Frederic Brenton Fitch"
+		}
+	},
+	"edges": {
+		"learnedFrom": {
+			"0": {
+				"id": "Q779523",
+				"name": "William Ernest Hocking",
+				"similarity": 0.37184059619903564
+			}
+		}
+	}
+}

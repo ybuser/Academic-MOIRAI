@@ -1,1 +1,86 @@
-{"id": "Q220313", "name": "Gemistus Pletho", "desc": "Greek philosopher", "wiki_link": "https://en.wikipedia.org/wiki/Gemistos_Plethon", "dateOfDeath": {"0": "+1452-06-26T00:00:00Z"}, "image": {"0": "Benozzo Gozzoli, Pletone, Cappella dei Magi.jpg"}, "dateOfBirth": {"0": "+1355-01-01T00:00:00Z"}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}}, "countryOfCitizenship": {"0": {"id": "Q12544", "name": "Byzantine Empire"}}, "student": {"0": {"id": "Q26648", "name": "John Argyropoulos"}, "1": {"id": "Q48544", "name": "Cosimo de' Medici"}, "2": {"id": "Q192374", "name": "Marsilio Ficino"}, "3": {"id": "Q299446", "name": "Basilios Bessarion"}, "4": {"id": "Q381211", "name": "Gennadius Scholarius"}, "5": {"id": "Q738727", "name": "Mark of Ephesus"}, "6": {"id": "Q704973", "name": "Theodoros II Palaiologos"}, "7": {"id": "Q324534", "name": "Laonikos Chalkokondyles"}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}}, "studentOf": {"0": {"id": "Q983688", "name": "Demetrios Kydones"}, "1": {"id": "Q102076351", "name": "Elissaeus Judaeus"}}, "edges": {"taught": {"0": {"id": "Q381211", "name": "Gennadius Scholarius"}}}}
+{
+	"id": "Q220313",
+	"name": "Gemistus Pletho",
+	"desc": "Greek philosopher",
+	"wiki_link": "https://en.wikipedia.org/wiki/Gemistos_Plethon",
+	"dateOfDeath": {
+		"0": "+1452-06-26T00:00:00Z"
+	},
+	"image": {
+		"0": "Benozzo Gozzoli, Pletone, Cappella dei Magi.jpg"
+	},
+	"dateOfBirth": {
+		"0": "+1355-01-01T00:00:00Z"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q12544",
+			"name": "Byzantine Empire"
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q26648",
+			"name": "John Argyropoulos"
+		},
+		"1": {
+			"id": "Q48544",
+			"name": "Cosimo de' Medici"
+		},
+		"2": {
+			"id": "Q192374",
+			"name": "Marsilio Ficino"
+		},
+		"3": {
+			"id": "Q299446",
+			"name": "Basilios Bessarion"
+		},
+		"4": {
+			"id": "Q381211",
+			"name": "Gennadius Scholarius"
+		},
+		"5": {
+			"id": "Q738727",
+			"name": "Mark of Ephesus"
+		},
+		"6": {
+			"id": "Q704973",
+			"name": "Theodoros II Palaiologos"
+		},
+		"7": {
+			"id": "Q324534",
+			"name": "Laonikos Chalkokondyles"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q983688",
+			"name": "Demetrios Kydones"
+		},
+		"1": {
+			"id": "Q102076351",
+			"name": "Elissaeus Judaeus"
+		}
+	},
+	"edges": {
+		"taught": {
+			"0": {
+				"id": "Q381211",
+				"name": "Gennadius Scholarius",
+				"similarity": 0.36959022283554077
+			}
+		}
+	}
+}

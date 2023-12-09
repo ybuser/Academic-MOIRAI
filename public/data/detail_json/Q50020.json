@@ -1,1 +1,136 @@
-{"id": "Q50020", "name": "John Stuart Mill", "desc": "British philosopher and political economist (1806\u20131873)", "wiki_link": "https://en.wikipedia.org/wiki/John_Stuart_Mill", "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q188094", "name": "economist"}, "2": {"id": "Q82955", "name": "politician"}, "3": {"id": "Q18814623", "name": "autobiographer"}, "4": {"id": "Q36180", "name": "writer"}, "5": {"id": "Q188958", "name": "egalitarianism"}, "6": {"id": "Q738142", "name": "clerk"}, "7": {"id": "Q27532437", "name": "suffragist"}}, "countryOfCitizenship": {"0": {"id": "Q174193", "name": "United Kingdom of Great Britain and Ireland"}}, "image": {"0": "John Stuart Mill by London Stereoscopic Company, c1870.jpg"}, "dateOfBirth": {"0": "+1806-05-20T00:00:00Z", "1": "+1806-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+1873-05-08T00:00:00Z", "1": "+1873-01-01T00:00:00Z"}, "movement": {"0": {"id": "Q7066", "name": "atheism"}, "1": {"id": "Q188958", "name": "egalitarianism"}, "2": {"id": "Q160590", "name": "utilitarianism"}, "3": {"id": "Q6216", "name": "liberalism"}}, "notableWork": {"0": {"id": "Q1055881", "name": "On Liberty"}, "1": {"id": "Q19053628", "name": "Autobiography"}, "2": {"id": "Q5163201", "name": "Considerations on Representative Government"}}, "employer": {"0": {"id": "Q83164", "name": "East India Company", "coordinates": ""}}, "studentOf": {"0": {"id": "Q60887", "name": "Tu marido"}}, "educatedAt": {"0": {"id": "Q193196", "name": "University College London", "coordinates": {"latitude": 51.52472222222222, "longitude": -0.13361111111111112, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "edges": {"learnedFrom": {"0": {"id": "Q60887", "name": "Jeremy Bentham"}}, "influenced": {"0": {"id": "Q33760", "name": "Bertrand Russell"}, "1": {"id": "Q235470", "name": "Martha Nussbaum"}}}}
+{
+	"id": "Q50020",
+	"name": "John Stuart Mill",
+	"desc": "British philosopher and political economist (1806\u20131873)",
+	"wiki_link": "https://en.wikipedia.org/wiki/John_Stuart_Mill",
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q188094",
+			"name": "economist"
+		},
+		"2": {
+			"id": "Q82955",
+			"name": "politician"
+		},
+		"3": {
+			"id": "Q18814623",
+			"name": "autobiographer"
+		},
+		"4": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"5": {
+			"id": "Q188958",
+			"name": "egalitarianism"
+		},
+		"6": {
+			"id": "Q738142",
+			"name": "clerk"
+		},
+		"7": {
+			"id": "Q27532437",
+			"name": "suffragist"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q174193",
+			"name": "United Kingdom of Great Britain and Ireland"
+		}
+	},
+	"image": {
+		"0": "John Stuart Mill by London Stereoscopic Company, c1870.jpg"
+	},
+	"dateOfBirth": {
+		"0": "+1806-05-20T00:00:00Z",
+		"1": "+1806-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1873-05-08T00:00:00Z",
+		"1": "+1873-01-01T00:00:00Z"
+	},
+	"movement": {
+		"0": {
+			"id": "Q7066",
+			"name": "atheism"
+		},
+		"1": {
+			"id": "Q188958",
+			"name": "egalitarianism"
+		},
+		"2": {
+			"id": "Q160590",
+			"name": "utilitarianism"
+		},
+		"3": {
+			"id": "Q6216",
+			"name": "liberalism"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q1055881",
+			"name": "On Liberty"
+		},
+		"1": {
+			"id": "Q19053628",
+			"name": "Autobiography"
+		},
+		"2": {
+			"id": "Q5163201",
+			"name": "Considerations on Representative Government"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q83164",
+			"name": "East India Company",
+			"coordinates": ""
+		}
+	},
+	"studentOf": {
+		"0": {
+			"id": "Q60887",
+			"name": "Tu marido"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q193196",
+			"name": "University College London",
+			"coordinates": {
+				"latitude": 51.52472222222222,
+				"longitude": -0.13361111111111112,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"edges": {
+		"learnedFrom": {
+			"0": {
+				"id": "Q60887",
+				"name": "Jeremy Bentham",
+				"similarity": 0.34884223341941833
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q33760",
+				"name": "Bertrand Russell",
+				"similarity": 0.2870755195617676
+			},
+			"1": {
+				"id": "Q235470",
+				"name": "Martha Nussbaum",
+				"similarity": 0.26665619015693665
+			}
+		}
+	}
+}

@@ -1,1 +1,69 @@
-{"id": "Q355245", "name": "Henry George", "desc": "American political economist and journalist (1839\u20131897)", "wiki_link": "https://en.wikipedia.org/wiki/Henry_George", "occupation": {"0": {"id": "Q188094", "name": "economist"}, "1": {"id": "Q4964182", "name": "philosopher"}, "2": {"id": "Q1930187", "name": "journalist"}, "3": {"id": "Q1607826", "name": "editor"}, "4": {"id": "Q82955", "name": "politician"}, "5": {"id": "Q36180", "name": "writer"}}, "countryOfCitizenship": {"0": {"id": "Q30", "name": "United States of America"}}, "dateOfBirth": {"0": "+1839-09-02T00:00:00Z", "1": "+1839-00-00T00:00:00Z"}, "image": {"0": "Henry George c1885 retouched.jpg"}, "fieldOfWork": {"0": {"id": "Q4099561", "name": "Burjua siyasi iqtisadiyyat\u0131"}}, "dateOfDeath": {"0": "+1897-10-29T00:00:00Z", "1": "+1897-00-00T00:00:00Z"}, "edges": {"influenced": {"0": {"id": "Q7243", "name": "Leo Tolstoy"}, "1": {"id": "Q937", "name": "Albert Einstein"}}}}
+{
+	"id": "Q355245",
+	"name": "Henry George",
+	"desc": "American political economist and journalist (1839\u20131897)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Henry_George",
+	"occupation": {
+		"0": {
+			"id": "Q188094",
+			"name": "economist"
+		},
+		"1": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"2": {
+			"id": "Q1930187",
+			"name": "journalist"
+		},
+		"3": {
+			"id": "Q1607826",
+			"name": "editor"
+		},
+		"4": {
+			"id": "Q82955",
+			"name": "politician"
+		},
+		"5": {
+			"id": "Q36180",
+			"name": "writer"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q30",
+			"name": "United States of America"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1839-09-02T00:00:00Z",
+		"1": "+1839-00-00T00:00:00Z"
+	},
+	"image": {
+		"0": "Henry George c1885 retouched.jpg"
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q4099561",
+			"name": "Burjua siyasi iqtisadiyyat\u0131"
+		}
+	},
+	"dateOfDeath": {
+		"0": "+1897-10-29T00:00:00Z",
+		"1": "+1897-00-00T00:00:00Z"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q7243",
+				"name": "Leo Tolstoy",
+				"similarity": 0.37861499190330505
+			},
+			"1": {
+				"id": "Q937",
+				"name": "Albert Einstein",
+				"similarity": 0.14669261872768402
+			}
+		}
+	}
+}

@@ -1,1 +1,52 @@
-{"id": "Q312551", "name": "Kabir", "desc": "15th-century Indian mystic poet and saint", "wiki_link": "https://en.wikipedia.org/wiki/Kabir", "image": {"0": "Kabir.jpg"}, "occupation": {"0": {"id": "Q437512", "name": "weaver"}, "1": {"id": "Q49757", "name": "poet"}, "2": {"id": "Q4964182", "name": "philosopher"}, "3": {"id": "Q36180", "name": "writer"}}, "dateOfBirth": {"0": "+1398-00-00T00:00:00Z"}, "dateOfDeath": {"0": "+1518-01-01T00:00:00Z"}, "movement": {"0": {"id": "Q507417", "name": "Bhakti"}, "1": {"id": "Q1939951", "name": "Sant Mat"}}, "edges": {"influenced": {"0": {"id": "Q231690", "name": "Bhimrao Ramji Ambedkar"}}}}
+{
+	"id": "Q312551",
+	"name": "Kabir",
+	"desc": "15th-century Indian mystic poet and saint",
+	"wiki_link": "https://en.wikipedia.org/wiki/Kabir",
+	"image": {
+		"0": "Kabir.jpg"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q437512",
+			"name": "weaver"
+		},
+		"1": {
+			"id": "Q49757",
+			"name": "poet"
+		},
+		"2": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"3": {
+			"id": "Q36180",
+			"name": "writer"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1398-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1518-01-01T00:00:00Z"
+	},
+	"movement": {
+		"0": {
+			"id": "Q507417",
+			"name": "Bhakti"
+		},
+		"1": {
+			"id": "Q1939951",
+			"name": "Sant Mat"
+		}
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q231690",
+				"name": "Bhimrao Ramji Ambedkar",
+				"similarity": 0.36150723695755005
+			}
+		}
+	}
+}

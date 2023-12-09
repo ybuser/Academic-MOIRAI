@@ -1,1 +1,39 @@
-{"id": "Q311485", "name": "Pherecydes of Syros", "desc": "6th-century BCE Greek mythographer and proto-philosopher", "wiki_link": "https://en.wikipedia.org/wiki/Pherecydes_of_Syros", "dateOfBirth": {"0": "-0580-00-00T00:00:00Z"}, "dateOfDeath": {"0": "-0520-00-00T00:00:00Z"}, "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q36180", "name": "writer"}, "2": {"id": "Q24387326", "name": "mythographer"}}, "image": {"0": "Pherecydes.jpg", "1": "Pherecydes of Syros recent bust Syro208.jpg"}, "edges": {"influenced": {"0": {"id": "Q10261", "name": "Pythagoras"}}}}
+{
+	"id": "Q311485",
+	"name": "Pherecydes of Syros",
+	"desc": "6th-century BCE Greek mythographer and proto-philosopher",
+	"wiki_link": "https://en.wikipedia.org/wiki/Pherecydes_of_Syros",
+	"dateOfBirth": {
+		"0": "-0580-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0520-00-00T00:00:00Z"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"2": {
+			"id": "Q24387326",
+			"name": "mythographer"
+		}
+	},
+	"image": {
+		"0": "Pherecydes.jpg",
+		"1": "Pherecydes of Syros recent bust Syro208.jpg"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q10261",
+				"name": "Pythagoras",
+				"similarity": 0.48366057872772217
+			}
+		}
+	}
+}

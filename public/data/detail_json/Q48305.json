@@ -1,1 +1,157 @@
-{"id": "Q48305", "name": "Euripides", "desc": "Classical Athenian playwright", "wiki_link": "https://en.wikipedia.org/wiki/Euripides", "occupation": {"0": {"id": "Q22073916", "name": "tragedy writer"}, "1": {"id": "Q214917", "name": "playwright"}, "2": {"id": "Q36180", "name": "writer"}, "3": {"id": "Q49757", "name": "poet"}, "4": {"id": "Q4964182", "name": "philosopher"}}, "image": {"0": "Euripides Pio-Clementino Inv302.jpg"}, "countryOfCitizenship": {"0": {"id": "Q844930", "name": "Classical Athens"}}, "notableWork": {"0": {"id": "Q1246408", "name": "Alcestis"}, "1": {"id": "Q512802", "name": "Andromache"}, "2": {"id": "Q934597", "name": "The Bacchae"}, "3": {"id": "Q1115611", "name": "Hecuba"}, "4": {"id": "Q1248812", "name": "Helen"}, "5": {"id": "Q540161", "name": "Electra"}, "6": {"id": "Q1233203", "name": "Herakles' Children"}, "7": {"id": "Q1233835", "name": "Herakles"}, "8": {"id": "Q672319", "name": "The Suppliants"}, "9": {"id": "Q375786", "name": "Hippolytus"}, "10": {"id": "Q1233770", "name": "Iphigenia in Aulis"}, "11": {"id": "Q523227", "name": "Iphigenia in Tauris"}, "12": {"id": "Q614607", "name": "Ion"}, "13": {"id": "Q1206121", "name": "Cyclops"}, "14": {"id": "Q286381", "name": "Medea"}, "15": {"id": "Q663886", "name": "Orestes"}, "16": {"id": "Q667750", "name": "Rhesus"}, "17": {"id": "Q1216943", "name": "The Trojan Women"}, "18": {"id": "Q1233660", "name": "The Phoenician Women"}}, "fieldOfWork": {"0": {"id": "Q25372", "name": "drama"}, "1": {"id": "Q482", "name": "poetry"}, "2": {"id": "Q5891", "name": "philosophy"}}, "dateOfBirth": {"0": "-0480-00-00T00:00:00Z", "1": "-0485-00-00T00:00:00Z", "2": "-0484-00-00T00:00:00Z", "3": "-0484-00-00T00:00:00Z", "4": "-0481-00-00T00:00:00Z", "5": "-0480-00-00T00:00:00Z", "6": "-0480-00-00T00:00:00Z", "7": "-0480-09-20T00:00:00Z"}, "dateOfDeath": {"0": "-0406-00-00T00:00:00Z", "1": "-0407-00-00T00:00:00Z", "2": "-0405-00-00T00:00:00Z", "3": "-0406-00-00T00:00:00Z", "4": "-0406-00-00T00:00:00Z", "5": "-0406-00-00T00:00:00Z", "6": "-0405-00-00T00:00:00Z"}, "edges": {"influenced": {"0": {"id": "Q2054", "name": "Seneca"}}}}
+{
+	"id": "Q48305",
+	"name": "Euripides",
+	"desc": "Classical Athenian playwright",
+	"wiki_link": "https://en.wikipedia.org/wiki/Euripides",
+	"occupation": {
+		"0": {
+			"id": "Q22073916",
+			"name": "tragedy writer"
+		},
+		"1": {
+			"id": "Q214917",
+			"name": "playwright"
+		},
+		"2": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"3": {
+			"id": "Q49757",
+			"name": "poet"
+		},
+		"4": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		}
+	},
+	"image": {
+		"0": "Euripides Pio-Clementino Inv302.jpg"
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q844930",
+			"name": "Classical Athens"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q1246408",
+			"name": "Alcestis"
+		},
+		"1": {
+			"id": "Q512802",
+			"name": "Andromache"
+		},
+		"2": {
+			"id": "Q934597",
+			"name": "The Bacchae"
+		},
+		"3": {
+			"id": "Q1115611",
+			"name": "Hecuba"
+		},
+		"4": {
+			"id": "Q1248812",
+			"name": "Helen"
+		},
+		"5": {
+			"id": "Q540161",
+			"name": "Electra"
+		},
+		"6": {
+			"id": "Q1233203",
+			"name": "Herakles' Children"
+		},
+		"7": {
+			"id": "Q1233835",
+			"name": "Herakles"
+		},
+		"8": {
+			"id": "Q672319",
+			"name": "The Suppliants"
+		},
+		"9": {
+			"id": "Q375786",
+			"name": "Hippolytus"
+		},
+		"10": {
+			"id": "Q1233770",
+			"name": "Iphigenia in Aulis"
+		},
+		"11": {
+			"id": "Q523227",
+			"name": "Iphigenia in Tauris"
+		},
+		"12": {
+			"id": "Q614607",
+			"name": "Ion"
+		},
+		"13": {
+			"id": "Q1206121",
+			"name": "Cyclops"
+		},
+		"14": {
+			"id": "Q286381",
+			"name": "Medea"
+		},
+		"15": {
+			"id": "Q663886",
+			"name": "Orestes"
+		},
+		"16": {
+			"id": "Q667750",
+			"name": "Rhesus"
+		},
+		"17": {
+			"id": "Q1216943",
+			"name": "The Trojan Women"
+		},
+		"18": {
+			"id": "Q1233660",
+			"name": "The Phoenician Women"
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q25372",
+			"name": "drama"
+		},
+		"1": {
+			"id": "Q482",
+			"name": "poetry"
+		},
+		"2": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"dateOfBirth": {
+		"0": "-0480-00-00T00:00:00Z",
+		"1": "-0485-00-00T00:00:00Z",
+		"2": "-0484-00-00T00:00:00Z",
+		"3": "-0484-00-00T00:00:00Z",
+		"4": "-0481-00-00T00:00:00Z",
+		"5": "-0480-00-00T00:00:00Z",
+		"6": "-0480-00-00T00:00:00Z",
+		"7": "-0480-09-20T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0406-00-00T00:00:00Z",
+		"1": "-0407-00-00T00:00:00Z",
+		"2": "-0405-00-00T00:00:00Z",
+		"3": "-0406-00-00T00:00:00Z",
+		"4": "-0406-00-00T00:00:00Z",
+		"5": "-0406-00-00T00:00:00Z",
+		"6": "-0405-00-00T00:00:00Z"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q2054",
+				"name": "Seneca",
+				"similarity": 0.3647017478942871
+			}
+		}
+	}
+}

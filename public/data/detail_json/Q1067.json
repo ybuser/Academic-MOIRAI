@@ -1,1 +1,247 @@
-{"id": "Q1067", "name": "Dante Alighieri", "desc": "Italian poet, writer, and philosopher (c.\u20091265\u20131321)", "wiki_link": "https://en.wikipedia.org/wiki/Dante_Alighieri", "studentOf": {"0": {"id": "Q1636083", "name": "Remigio dei Girolami"}, "1": {"id": "Q366328", "name": "Brunetto Latini"}, "2": {"id": "Q728592", "name": "Cecco d'Ascoli"}}, "image": {"0": "Portrait de Dante.jpg"}, "countryOfCitizenship": {"0": {"id": "Q148540", "name": "Republic of Florence"}}, "residence": {"0": {"id": "Q2044", "name": "Florence", "coordinates": {"latitude": 43.771388888889, "longitude": 11.254166666667, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q220", "name": "Rome", "coordinates": {"latitude": 41.893055555556, "longitude": 12.482777777778, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q13364", "name": "Ravenna", "coordinates": {"latitude": 44.416111111111114, "longitude": 12.201666666666666, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"id": "Q1891", "name": "Bologna", "coordinates": {"latitude": 44.493888888889, "longitude": 11.342777777778, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "4": {"id": "Q2028", "name": "Verona", "coordinates": {"latitude": 45.43861111111111, "longitude": 10.992777777777778, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "influencedBy": {"0": {"id": "Q868", "name": "Aristotle"}, "1": {"id": "Q1398", "name": "Virgil"}, "2": {"id": "Q7198", "name": "Ovid"}, "3": {"id": "Q102851", "name": "Boethius"}, "4": {"id": "Q34943", "name": "Ptolemy"}, "5": {"id": "Q6691", "name": "Homer"}, "6": {"id": "Q9438", "name": "Thomas Aquinas"}}, "notableWork": {"0": {"id": "Q40185", "name": "The Divine Comedy"}, "1": {"id": "Q666014", "name": "Convivio"}, "2": {"id": "Q134221", "name": "De Monarchia"}, "3": {"id": "Q18081", "name": "De vulgari eloquentia"}, "4": {"id": "Q18084", "name": "Vita Nuova"}, "5": {"id": "Q122600816", "name": "Questio de situ et formae aque et terre"}}, "movement": {"0": {"id": "Q542036", "name": "Dolce Stil Novo"}}, "dateOfDeath": {"0": "+1321-09-13T00:00:00Z", "1": "+1321-09-14T00:00:00Z", "2": "+1321-09-22T00:00:00Z", "3": "+1321-00-00T00:00:00Z"}, "dateOfBirth": {"0": "+1265-05-30T00:00:00Z", "1": "+1265-00-00T00:00:00Z", "2": "+1265-00-00T00:00:00Z"}, "fieldOfWork": {"0": {"id": "Q482", "name": "poetry"}, "1": {"id": "Q8242", "name": "literature"}, "2": {"id": "Q8162", "name": "linguistics"}, "3": {"id": "Q179805", "name": "political philosophy"}}, "occupation": {"0": {"id": "Q49757", "name": "poet"}, "1": {"id": "Q36180", "name": "writer"}, "2": {"id": "Q12144794", "name": "prose writer"}, "3": {"id": "Q82955", "name": "politician"}, "4": {"id": "Q4964182", "name": "philosopher"}, "5": {"id": "Q15994177", "name": "political theorist"}, "6": {"id": "Q58968", "name": "intellectual"}, "7": {"id": "Q14467526", "name": "linguist"}}, "edges": {"influencedBy": {"0": {"id": "Q102851", "name": "Boethius"}, "1": {"id": "Q34943", "name": "Ptolemy"}, "2": {"id": "Q868", "name": "Aristotle"}, "3": {"id": "Q9438", "name": "Thomas Aquinas"}}, "influenced": {"0": {"id": "Q41513", "name": "William Blake"}, "1": {"id": "Q9204", "name": "C. S. Lewis"}}}}
+{
+	"id": "Q1067",
+	"name": "Dante Alighieri",
+	"desc": "Italian poet, writer, and philosopher (c.\u20091265\u20131321)",
+	"wiki_link": "https://en.wikipedia.org/wiki/Dante_Alighieri",
+	"studentOf": {
+		"0": {
+			"id": "Q1636083",
+			"name": "Remigio dei Girolami"
+		},
+		"1": {
+			"id": "Q366328",
+			"name": "Brunetto Latini"
+		},
+		"2": {
+			"id": "Q728592",
+			"name": "Cecco d'Ascoli"
+		}
+	},
+	"image": {
+		"0": "Portrait de Dante.jpg"
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q148540",
+			"name": "Republic of Florence"
+		}
+	},
+	"residence": {
+		"0": {
+			"id": "Q2044",
+			"name": "Florence",
+			"coordinates": {
+				"latitude": 43.771388888889,
+				"longitude": 11.254166666667,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q220",
+			"name": "Rome",
+			"coordinates": {
+				"latitude": 41.893055555556,
+				"longitude": 12.482777777778,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q13364",
+			"name": "Ravenna",
+			"coordinates": {
+				"latitude": 44.416111111111114,
+				"longitude": 12.201666666666666,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"id": "Q1891",
+			"name": "Bologna",
+			"coordinates": {
+				"latitude": 44.493888888889,
+				"longitude": 11.342777777778,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"id": "Q2028",
+			"name": "Verona",
+			"coordinates": {
+				"latitude": 45.43861111111111,
+				"longitude": 10.992777777777778,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q868",
+			"name": "Aristotle"
+		},
+		"1": {
+			"id": "Q1398",
+			"name": "Virgil"
+		},
+		"2": {
+			"id": "Q7198",
+			"name": "Ovid"
+		},
+		"3": {
+			"id": "Q102851",
+			"name": "Boethius"
+		},
+		"4": {
+			"id": "Q34943",
+			"name": "Ptolemy"
+		},
+		"5": {
+			"id": "Q6691",
+			"name": "Homer"
+		},
+		"6": {
+			"id": "Q9438",
+			"name": "Thomas Aquinas"
+		}
+	},
+	"notableWork": {
+		"0": {
+			"id": "Q40185",
+			"name": "The Divine Comedy"
+		},
+		"1": {
+			"id": "Q666014",
+			"name": "Convivio"
+		},
+		"2": {
+			"id": "Q134221",
+			"name": "De Monarchia"
+		},
+		"3": {
+			"id": "Q18081",
+			"name": "De vulgari eloquentia"
+		},
+		"4": {
+			"id": "Q18084",
+			"name": "Vita Nuova"
+		},
+		"5": {
+			"id": "Q122600816",
+			"name": "Questio de situ et formae aque et terre"
+		}
+	},
+	"movement": {
+		"0": {
+			"id": "Q542036",
+			"name": "Dolce Stil Novo"
+		}
+	},
+	"dateOfDeath": {
+		"0": "+1321-09-13T00:00:00Z",
+		"1": "+1321-09-14T00:00:00Z",
+		"2": "+1321-09-22T00:00:00Z",
+		"3": "+1321-00-00T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+1265-05-30T00:00:00Z",
+		"1": "+1265-00-00T00:00:00Z",
+		"2": "+1265-00-00T00:00:00Z"
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q482",
+			"name": "poetry"
+		},
+		"1": {
+			"id": "Q8242",
+			"name": "literature"
+		},
+		"2": {
+			"id": "Q8162",
+			"name": "linguistics"
+		},
+		"3": {
+			"id": "Q179805",
+			"name": "political philosophy"
+		}
+	},
+	"occupation": {
+		"0": {
+			"id": "Q49757",
+			"name": "poet"
+		},
+		"1": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"2": {
+			"id": "Q12144794",
+			"name": "prose writer"
+		},
+		"3": {
+			"id": "Q82955",
+			"name": "politician"
+		},
+		"4": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"5": {
+			"id": "Q15994177",
+			"name": "political theorist"
+		},
+		"6": {
+			"id": "Q58968",
+			"name": "intellectual"
+		},
+		"7": {
+			"id": "Q14467526",
+			"name": "linguist"
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q102851",
+				"name": "Boethius",
+				"similarity": 0.19599704444408417
+			},
+			"1": {
+				"id": "Q34943",
+				"name": "Ptolemy",
+				"similarity": 0.341840535402298
+			},
+			"2": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.23353174328804016
+			},
+			"3": {
+				"id": "Q9438",
+				"name": "Thomas Aquinas",
+				"similarity": 0.37202954292297363
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q41513",
+				"name": "William Blake",
+				"similarity": 0.397775799036026
+			},
+			"1": {
+				"id": "Q9204",
+				"name": "C. S. Lewis",
+				"similarity": 0.20634354650974274
+			}
+		}
+	}
+}

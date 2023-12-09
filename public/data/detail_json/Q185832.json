@@ -1,1 +1,101 @@
-{"id": "Q185832", "name": "Emmanuel Swedenborg", "desc": "Swedish 18th century scientist and theologian", "wiki_link": "https://en.wikipedia.org/wiki/Emanuel_Swedenborg", "countryOfCitizenship": {"0": {"id": "Q34", "name": "Sweden"}}, "dateOfBirth": {"0": "+1688-01-29T00:00:00Z"}, "dateOfDeath": {"0": "+1772-03-29T00:00:00Z"}, "image": {"0": "Emanuel Swedenborg, 1688-1772, \u00e4mbetsman (Per Krafft d.\u00e4.) - Nationalmuseum - 15710.tif"}, "occupation": {"0": {"id": "Q169470", "name": "physicist"}, "1": {"id": "Q4964182", "name": "philosopher"}, "2": {"id": "Q1234713", "name": "theologian"}, "3": {"id": "Q170790", "name": "mathematician"}, "4": {"id": "Q12328016", "name": "mystic"}, "5": {"id": "Q36180", "name": "writer"}, "6": {"id": "Q901", "name": "scientist"}, "7": {"id": "Q205375", "name": "inventor"}}, "educatedAt": {"0": {"id": "Q185246", "name": "Uppsala University", "coordinates": {"latitude": 59.8575, "longitude": 17.628888888889, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": {"id": "Q178671", "name": "Blavatskian theosophy"}}, "employer": {"0": {"id": "Q185246", "name": "Uppsala University", "coordinates": {"latitude": 59.8575, "longitude": 17.628888888889, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "edges": {"influenced": {"0": {"id": "Q41513", "name": "William Blake"}, "1": {"id": "Q48226", "name": "Ralph Waldo Emerson"}}}}
+{
+	"id": "Q185832",
+	"name": "Emmanuel Swedenborg",
+	"desc": "Swedish 18th century scientist and theologian",
+	"wiki_link": "https://en.wikipedia.org/wiki/Emanuel_Swedenborg",
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q34",
+			"name": "Sweden"
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1688-01-29T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1772-03-29T00:00:00Z"
+	},
+	"image": {
+		"0": "Emanuel Swedenborg, 1688-1772, \u00e4mbetsman (Per Krafft d.\u00e4.) - Nationalmuseum - 15710.tif"
+	},
+	"occupation": {
+		"0": {
+			"id": "Q169470",
+			"name": "physicist"
+		},
+		"1": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"2": {
+			"id": "Q1234713",
+			"name": "theologian"
+		},
+		"3": {
+			"id": "Q170790",
+			"name": "mathematician"
+		},
+		"4": {
+			"id": "Q12328016",
+			"name": "mystic"
+		},
+		"5": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"6": {
+			"id": "Q901",
+			"name": "scientist"
+		},
+		"7": {
+			"id": "Q205375",
+			"name": "inventor"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q185246",
+			"name": "Uppsala University",
+			"coordinates": {
+				"latitude": 59.8575,
+				"longitude": 17.628888888889,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q178671",
+			"name": "Blavatskian theosophy"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q185246",
+			"name": "Uppsala University",
+			"coordinates": {
+				"latitude": 59.8575,
+				"longitude": 17.628888888889,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q41513",
+				"name": "William Blake",
+				"similarity": 0.4240718185901642
+			},
+			"1": {
+				"id": "Q48226",
+				"name": "Ralph Waldo Emerson",
+				"similarity": 0.3173365294933319
+			}
+		}
+	}
+}

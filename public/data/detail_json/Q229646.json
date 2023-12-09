@@ -1,1 +1,164 @@
-{"id": "Q229646", "name": "G. E. M. Anscombe", "desc": "British analytic philosopher", "wiki_link": "https://en.wikipedia.org/wiki/G._E._M._Anscombe", "occupation": {"0": {"id": "Q4964182", "name": "philosopher"}, "1": {"id": "Q1234713", "name": "theologian"}, "2": {"id": "Q333634", "name": "translator"}, "3": {"id": "Q36180", "name": "writer"}, "4": {"id": "Q1622272", "name": "university teacher"}, "5": {"id": "Q18930236", "name": "philosopher of language"}}, "countryOfCitizenship": {"0": {"id": "Q145", "name": "United Kingdom"}}, "educatedAt": {"0": {"id": "Q128497", "name": "St Hugh's College", "coordinates": {"latitude": 51.765556, "longitude": -1.263333, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"id": "Q7659773", "name": "Sydenham High School", "coordinates": {"latitude": 51.4273, "longitude": -0.0629, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"id": "Q1247589", "name": "Newnham College", "coordinates": {"latitude": 52.20022, "longitude": 0.10727, "altitude": null, "precision": 2.77777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "dateOfBirth": {"0": "+1919-03-18T00:00:00Z"}, "dateOfDeath": {"0": "+2001-01-05T00:00:00Z"}, "influencedBy": {"0": {"id": "Q868", "name": "Aristotle"}, "1": {"id": "Q9438", "name": "Thomas Aquinas"}, "2": {"id": "Q9391", "name": "Ludwig Wittgenstein"}}, "employer": {"0": {"id": "Q34433", "name": "University of Oxford", "coordinates": {"latitude": 51.755, "longitude": -1.255, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": {"id": "Q5891", "name": "philosophy"}}, "doctralStudent": {"0": {"id": "Q381044", "name": "Michael Sandel"}, "1": {"id": "Q445939", "name": "Roger Scruton"}}, "student": {"0": {"id": "Q342646", "name": "Michael Dummett"}}, "image": {"0": "Elisabeth Anscombe.jpg"}, "edges": {"influencedBy": {"0": {"id": "Q9391", "name": "Ludwig Wittgenstein"}, "1": {"id": "Q868", "name": "Aristotle"}, "2": {"id": "Q9438", "name": "Thomas Aquinas"}}, "learnedFrom": {"0": {"id": "Q9391", "name": "Ludwig Wittgenstein"}}, "taught": {"0": {"id": "Q445939", "name": "Roger Scruton"}}}}
+{
+	"id": "Q229646",
+	"name": "G. E. M. Anscombe",
+	"desc": "British analytic philosopher",
+	"wiki_link": "https://en.wikipedia.org/wiki/G._E._M._Anscombe",
+	"occupation": {
+		"0": {
+			"id": "Q4964182",
+			"name": "philosopher"
+		},
+		"1": {
+			"id": "Q1234713",
+			"name": "theologian"
+		},
+		"2": {
+			"id": "Q333634",
+			"name": "translator"
+		},
+		"3": {
+			"id": "Q36180",
+			"name": "writer"
+		},
+		"4": {
+			"id": "Q1622272",
+			"name": "university teacher"
+		},
+		"5": {
+			"id": "Q18930236",
+			"name": "philosopher of language"
+		}
+	},
+	"countryOfCitizenship": {
+		"0": {
+			"id": "Q145",
+			"name": "United Kingdom"
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"id": "Q128497",
+			"name": "St Hugh's College",
+			"coordinates": {
+				"latitude": 51.765556,
+				"longitude": -1.263333,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"id": "Q7659773",
+			"name": "Sydenham High School",
+			"coordinates": {
+				"latitude": 51.4273,
+				"longitude": -0.0629,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"id": "Q1247589",
+			"name": "Newnham College",
+			"coordinates": {
+				"latitude": 52.20022,
+				"longitude": 0.10727,
+				"altitude": null,
+				"precision": 2.77777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1919-03-18T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+2001-01-05T00:00:00Z"
+	},
+	"influencedBy": {
+		"0": {
+			"id": "Q868",
+			"name": "Aristotle"
+		},
+		"1": {
+			"id": "Q9438",
+			"name": "Thomas Aquinas"
+		},
+		"2": {
+			"id": "Q9391",
+			"name": "Ludwig Wittgenstein"
+		}
+	},
+	"employer": {
+		"0": {
+			"id": "Q34433",
+			"name": "University of Oxford",
+			"coordinates": {
+				"latitude": 51.755,
+				"longitude": -1.255,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": {
+			"id": "Q5891",
+			"name": "philosophy"
+		}
+	},
+	"doctralStudent": {
+		"0": {
+			"id": "Q381044",
+			"name": "Michael Sandel"
+		},
+		"1": {
+			"id": "Q445939",
+			"name": "Roger Scruton"
+		}
+	},
+	"student": {
+		"0": {
+			"id": "Q342646",
+			"name": "Michael Dummett"
+		}
+	},
+	"image": {
+		"0": "Elisabeth Anscombe.jpg"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q9391",
+				"name": "Ludwig Wittgenstein",
+				"similarity": 0.3229612410068512
+			},
+			"1": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.25474050641059875
+			},
+			"2": {
+				"id": "Q9438",
+				"name": "Thomas Aquinas",
+				"similarity": 0.23118995130062103
+			}
+		},
+		"learnedFrom": {
+			"0": {
+				"id": "Q9391",
+				"name": "Ludwig Wittgenstein",
+				"similarity": 0.3229612410068512
+			}
+		},
+		"taught": {
+			"0": {
+				"id": "Q445939",
+				"name": "Roger Scruton",
+				"similarity": 0.26622140407562256
+			}
+		}
+	}
+}
