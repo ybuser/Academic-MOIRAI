@@ -68,7 +68,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       const svg = d3.select(d3Container.current)
         .attr('width', '100%')
         .attr('height', '100%')
-        .attr('viewBox', '0 0 920 690')
+        .attr('viewBox', '0 0 920 720')
         .attr('preserveAspectRatio', 'xMidYMid meet');
       svg.selectAll("*").remove(); // Clear SVG to avoid duplication
       
@@ -98,14 +98,14 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       // Remove duplicate nodes
       const uniqueNodes = Array.from(new Map(nodes.map(node => [node.id, node])).values());
 
-      const fontSize = uniqueNodes.length < 5 ? '1.5rem' : '1rem';
+      const fontSize = uniqueNodes.length < 5 ? '1.8rem' : '1.3rem';
 
       // Render links (lines) first
       const link = svg.append("g")
         .selectAll("line")
         .data(edges)
         .join("line")
-        .attr("stroke-width", 6)
+        .attr("stroke-width", 8)
         .attr("stroke", "#999");
 
       // Add a group for each node which will contain the circle and the text
@@ -140,16 +140,25 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
 
         // Now add the circles
         const node = nodeGroup.insert("circle", "text")
-          .attr("r", d => Math.sqrt(d.width * d.height)/1.5) // Calculate radius based on text size
+          .attr("r", d => Math.sqrt(d.width * d.height)/1.2) // Calculate radius based on text size
           .attr("fill", "white")
           .attr("stroke", "black")
           .on("click", d => handleNodeClick(d)); 
+
+        const centralNode = nodes.find(node => node.id === philosopherDetails.id);
+        const otherNodes = nodes.filter(node => node.id !== philosopherDetails.id);
+        const radialForce = d3.forceRadial(150, 400, 320).strength(0.8);
         
         // Set up the simulation
-        const simulation = d3.forceSimulation(uniqueNodes)
+        const simulation = d3.forceSimulation(nodes)
           .force("link", d3.forceLink(edges).id(d => d.id).distance(300))
-          .force("charge", d3.forceManyBody().strength(-100))
-          .force("center", d3.forceCenter(400, 320));
+          .force("charge", d3.forceManyBody().strength(-500))
+          .force("center", d3.forceCenter(400, 320))
+          .force("radial", d3.forceRadial(300, 400, 320).strength(0.8));
+
+
+        // Apply the radial force only to the non-central nodes
+        simulation.force("radial").initialize(otherNodes);
 
         
         // Define the tick function for the simulation
