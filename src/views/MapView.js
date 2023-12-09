@@ -10,6 +10,7 @@ const StyledMap = styled.div`
 
 const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
   const [markersData, setMarkersData] = useState([]);
+  const [linesData, setLinesData] = useState([]);
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAP_API_KEY,
   });
@@ -48,33 +49,39 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
 
     const loadPhilosophers = async () => {
       let markers = [];
+      const lines = [];
       const mainPhilosopher = await fetchPhilosopherDetails(selectedPhilosopher);
       let mainMarker = extractLocationData(mainPhilosopher);
+    
       if (mainMarker) {
         adjustCoordinates(markers, mainMarker);
         markers.push(mainMarker);
-      }
+    
+        const edgePromises = [];
+        for (let edgeType in mainPhilosopher.edges) {
+          Object.values(mainPhilosopher.edges[edgeType]).forEach(edge => {
+            edgePromises.push(fetchPhilosopherDetails(edge.id.replace('Q', '')));
+          });
+        }
 
-      const edgePromises = [];
-      for (let edgeType in mainPhilosopher.edges) {
-        Object.values(mainPhilosopher.edges[edgeType]).forEach(edge => {
-          edgePromises.push(fetchPhilosopherDetails(edge.id.replace('Q', '')));
+        const edgeDetails = await Promise.all(edgePromises);
+        edgeDetails.forEach(details => {
+          let marker = extractLocationData(details);
+          if (marker) {
+            adjustCoordinates(markers, marker);
+            markers.push(marker);
+            lines.push({
+              from: { lat: mainMarker.lat, lng: mainMarker.lng },
+              to: { lat: marker.lat, lng: marker.lng }
+            });
+          }
         });
       }
-
-      const edgeDetails = await Promise.all(edgePromises);
-      edgeDetails.forEach(details => {
-        let marker = extractLocationData(details);
-        if (marker) {
-          adjustCoordinates(markers, marker);
-          markers.push(marker);
-        }
-      });
 
       // console.log("7. in useeffect");
 
       setMarkersData(markers.filter(marker => marker)); // Filter out undefined markers
-
+      setLinesData(lines);
 
       // console.log("8. loadphilosophers, selected ", selectedPhilosopher);
     };
@@ -108,6 +115,13 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
         center={defaultCenter} 
         zoom={2}
       >
+        {linesData.map((line, index) => (
+          <Polyline
+            key={index}
+            path={[line.from, line.to]}
+            options={{ strokeColor: "#FF0000", strokeWeight: 2 }}
+          />
+        ))}
       </GoogleMap>
     </StyledMap>
   )
