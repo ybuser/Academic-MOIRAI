@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import styled from 'styled-components';
+import DetailFacts from '../components/DetailFacts';
 
 const DetailContainer = styled.div`
   display: flex;
@@ -8,17 +9,6 @@ const DetailContainer = styled.div`
   align-items: flex-start;
   height: 100%;
   max-width: 100%;
-`;
-
-const InfoWrapper = styled.div`
-  flex: 1; 
-  max-width: 50%; 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 1rem;
-  max-height:100%;
 `;
 
 const GraphWrapper = styled.div`
@@ -159,7 +149,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
 
   const handleSetPhilosopher = () => {
     // Assuming you have a way to get philosopher data by ID
-    setSelectedPhilosopher(448);
+    setSelectedPhilosopher(859);
   };
 
   if (!philosopherDetails) {
@@ -172,16 +162,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
 
   return (
     <DetailContainer className={className}>
-        <InfoWrapper>
-            <h2>{philosopherDetails.name}</h2>
-            <h3>Key Ideas</h3>
-            {/* <ul>
-              {philosophers[0].keyIdeas.map(idea => <li key={idea}>{idea}</li>)}
-            </ul>
-            <h3>Historical Context</h3>
-            <p>{philosophers[0].historicalContext.join(', ')}</p> */}
-            
-        </InfoWrapper>
+        <DetailFacts philosopherDetails={philosopherDetails} />
         <GraphWrapper>
             <svg ref={d3Container} />
         </GraphWrapper>
