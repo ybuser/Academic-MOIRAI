@@ -27,6 +27,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
 
   useEffect(() => {
     const loadPhilosopherDetails = async () => {
+
       try {
         const response = await fetch(`data/detail_json/Q${selectedPhilosopher}.json`);
         if (!response.ok) {
