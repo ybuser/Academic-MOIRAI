@@ -85,7 +85,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
           });
         }
       });
-      console.log("edges are ", edges);
+      // console.log("edges are ", edges);
 
       // Remove duplicate nodes
       const uniqueNodes = Array.from(new Map(nodes.map(node => [node.id, node])).values());

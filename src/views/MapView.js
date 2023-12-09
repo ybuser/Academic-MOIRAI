@@ -17,15 +17,33 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
   });
 
   useEffect(() => {
+    console.log("1 in useeffect");
     const fetchPhilosopherDetails = async (id) => {
+      console.log("2. getting detailes in ", id);
       const response = await fetch(`data/detail_json/Q${id}.json`);
+      console.log("3. response is ", response);
       return await response.json();
+    };
+
+    console.log("4. in useeffect selected", selectedPhilosopher);
+
+    const extractLocationData = (philosopher) => {
+      const location = philosopher.residence || philosopher.educatedAt || philosopher.employer;
+      if (location && location[0] && location[0].coordinates) {
+        return {
+          lat: location[0].coordinates.latitude,
+          lng: location[0].coordinates.longitude,
+          label: philosopher.name
+        };
+      }
     };
 
     const loadPhilosophers = async () => {
       let markers = [];
+      console.log("5. now before fetch");
       const mainPhilosopher = await fetchPhilosopherDetails(selectedPhilosopher);
       markers.push(extractLocationData(mainPhilosopher));
+      console.log("6. fetched");
 
       for (let edgeType in mainPhilosopher.edges) {
         for (let edge of Object.values(mainPhilosopher.edges[edgeType])) {
@@ -34,21 +52,15 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
         }
       }
 
+      console.log("7. in useeffect");
+
       setMarkersData(markers.filter(marker => marker)); // Filter out undefined markers
 
-      const extractLocationData = (philosopher) => {
-        const location = philosopher.residence || philosopher.educatedAt || philosopher.employer;
-        if (location && location[0] && location[0].coordinates) {
-          return {
-            lat: location[0].coordinates.latitude,
-            lng: location[0].coordinates.longitude,
-            label: philosopher.name
-          };
-        }
-      };
-  
-      loadPhilosophers();
+
+      console.log("8. loadphilosophers, selected ", selectedPhilosopher);
     };
+
+    loadPhilosophers();
   }, [selectedPhilosopher]);
   
   const mapRef = useRef(null);
@@ -57,7 +69,7 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
 
   if (!isLoaded) return <div>...loading</div>;
 
-  console.log("Philosophers data: ", philosophersData);
+  console.log("9. Philosophers data: ", philosophersData);
 
   return (
     <StyledMap className={className}>
