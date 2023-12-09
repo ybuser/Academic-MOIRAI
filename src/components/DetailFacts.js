@@ -59,23 +59,30 @@ const DetailFacts = ({ philosopherDetails }) => {
             <p style={{ margin: '4px' , textAlign: 'left' }}>{philosopherDetails.desc}</p>
 
             <p style={{ fontWeight: 'normal' }}>
-                {Object.values(philosopherDetails.occupation).join(', ')}
+                    {Object.values(philosopherDetails.occupation).map(value => value['name']).join(', ')}
             </p>
 
             <FactP>
                 <h4>Movements</h4>
                 <p style={{ fontWeight: 'normal' }}>
-                    {Object.values(philosopherDetails.movement).join(', ')}
+                    {Object.values(philosopherDetails.movement).map(value => value['name']).join(', ')}
                 </p>
             </FactP>
 
             <FactP>
                 <h4>Notable Works</h4>
-                {Object.entries(philosopherDetails.notableWork).map(([key, value]) => (
-                    <div key={key}>
-                        <p style={{ fontWeight: 'normal' }}>{value}</p>
-                    </div>
-                ))}
+                    {Object.entries(philosopherDetails.notableWork)
+                        .sort(([, valueA], [, valueB]) => {
+                            const idA = parseInt(valueA['id'].substring(1));
+                            const idB = parseInt(valueB['id'].substring(1));
+                            return idA - idB;
+                        })
+                        .slice(0, 5)
+                        .map(([key, value]) => (
+                            <div key={key}>
+                                <p style={{ fontWeight: 'normal' }}>{value['name']}</p>
+                            </div>
+                    ))}
             </FactP>
         </InfoWrapper>
     );
