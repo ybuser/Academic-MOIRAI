@@ -1,1 +1,113 @@
-{"id": "Q83331", "name": "Louis de Broglie", "occupation": {"0": "physicist", "1": "mathematician", "2": "university teacher", "3": "historian", "4": "theoretical physicist", "5": "philosopher"}, "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1892-08-15T00:00:00Z"}, "dateOfDeath": {"0": "+1987-03-19T00:00:00Z"}, "educatedAt": {"0": {"name": "Science Faculty of Paris", "coordinates": ""}, "1": {"name": "Lyc\u00e9e Janson-de-Sailly", "coordinates": {"latitude": 48.86535556, "longitude": 2.27988889, "altitude": null, "precision": 2.77777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "doctralStudent": {"0": "Alexandru Proca", "1": "Nicol\u00e1s Cabrera", "2": "Jules G\u00e9h\u00e9niau", "3": "Olivier Costa de Beauregard", "4": "C\u00e9cile DeWitt-Morette", "5": "Mioara Mugur-Sch\u00e4chter", "6": "Mioara Mugur-Schachter", "7": "Jos\u00e9 Ant\u00f3nio Vieira Vassalo Pereira", "8": "Jo\u00e3o Luis Andrade e Silva"}, "employer": {"0": {"name": "Science Faculty of Paris", "coordinates": ""}, "1": {"name": "Sorbonne", "coordinates": {"latitude": 48.84864, "longitude": 2.34356, "altitude": null, "precision": 2.7777777777778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Institut Henri Poincar\u00e9", "coordinates": {"latitude": 48.84472222, "longitude": 2.34388889, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "theoretical physics"}, "image": {"0": "Broglie Big.jpg"}, "studentOf": {"0": "Maurice de Broglie"}, "student": {"0": "Jean-Pierre Vigier"}, "residence": {"0": {"name": "Neuilly-sur-Seine", "coordinates": {"latitude": 48.887222222222, "longitude": 2.2675, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "matter wave"}, "edges": {"student": {"0": {"id": "Q822820", "name": "Bernard d'Espagnat"}, "1": {"id": "Q3166739", "name": "Jean-Louis Destouches"}}}}
+{
+	"id": "Q83331",
+	"name": "Louis de Broglie",
+	"occupation": {
+		"0": "physicist",
+		"1": "mathematician",
+		"2": "university teacher",
+		"3": "historian",
+		"4": "theoretical physicist",
+		"5": "philosopher"
+	},
+	"countryOfCitizenship": {
+		"0": "France"
+	},
+	"dateOfBirth": {
+		"0": "+1892-08-15T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1987-03-19T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Science Faculty of Paris",
+			"coordinates": ""
+		},
+		"1": {
+			"name": "Lyc\u00e9e Janson-de-Sailly",
+			"coordinates": {
+				"latitude": 48.86535556,
+				"longitude": 2.27988889,
+				"altitude": null,
+				"precision": 2.77777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"doctralStudent": {
+		"0": "Alexandru Proca",
+		"1": "Nicol\u00e1s Cabrera",
+		"2": "Jules G\u00e9h\u00e9niau",
+		"3": "Olivier Costa de Beauregard",
+		"4": "C\u00e9cile DeWitt-Morette",
+		"5": "Mioara Mugur-Sch\u00e4chter",
+		"6": "Mioara Mugur-Schachter",
+		"7": "Jos\u00e9 Ant\u00f3nio Vieira Vassalo Pereira",
+		"8": "Jo\u00e3o Luis Andrade e Silva"
+	},
+	"employer": {
+		"0": {
+			"name": "Science Faculty of Paris",
+			"coordinates": ""
+		},
+		"1": {
+			"name": "Sorbonne",
+			"coordinates": {
+				"latitude": 48.84864,
+				"longitude": 2.34356,
+				"altitude": null,
+				"precision": 2.7777777777778e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "Institut Henri Poincar\u00e9",
+			"coordinates": {
+				"latitude": 48.84472222,
+				"longitude": 2.34388889,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "theoretical physics"
+	},
+	"image": {
+		"0": "Broglie Big.jpg"
+	},
+	"studentOf": {
+		"0": "Maurice de Broglie"
+	},
+	"student": {
+		"0": "Jean-Pierre Vigier"
+	},
+	"residence": {
+		"0": {
+			"name": "Neuilly-sur-Seine",
+			"coordinates": {
+				"latitude": 48.887222222222,
+				"longitude": 2.2675,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "matter wave"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q822820",
+				"name": "Bernard d'Espagnat"
+			},
+			"1": {
+				"id": "Q3166739",
+				"name": "Jean-Louis Destouches"
+			}
+		}
+	}
+}

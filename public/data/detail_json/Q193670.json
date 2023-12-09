@@ -1,1 +1,65 @@
-{"id": "Q193670", "name": "Frantz Fanon", "countryOfCitizenship": {"0": "France", "1": "Algeria"}, "dateOfDeath": {"0": "+1961-12-06T00:00:00Z"}, "dateOfBirth": {"0": "+1925-07-20T00:00:00Z"}, "occupation": {"0": "writer", "1": "philosopher", "2": "psychiatrist", "3": "essayist", "4": "sociologist", "5": "politician"}, "notableWork": {"0": "The Wretched of the Earth", "1": "A Dying Colonialism", "2": "Black Skin, White Masks"}, "influencedBy": {"0": "Aim\u00e9 C\u00e9saire"}, "educatedAt": {"0": {"name": "University of Lyon", "coordinates": ""}, "1": {"name": "Jean Moulin University - Lyon 3", "coordinates": ""}}, "fieldOfWork": {"0": "philosophy", "1": "psychiatry"}, "movement": {"0": "decoloniality"}, "image": {"0": "02 Frantz-Fanon-lors-dune-conf\u00e9rence-de-presse-du-Congr\u00e8s-des-\u00e9crivains-\u00e0-Tunis-1959.jpg"}, "edges": {"influencedBy": {"0": {"id": "Q9364", "name": "Jean-Paul Sartre"}}, "influenced": {"0": {"id": "Q340234", "name": "Achille Mbembe"}}}}
+{
+	"id": "Q193670",
+	"name": "Frantz Fanon",
+	"countryOfCitizenship": {
+		"0": "France",
+		"1": "Algeria"
+	},
+	"dateOfDeath": {
+		"0": "+1961-12-06T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+1925-07-20T00:00:00Z"
+	},
+	"occupation": {
+		"0": "writer",
+		"1": "philosopher",
+		"2": "psychiatrist",
+		"3": "essayist",
+		"4": "sociologist",
+		"5": "politician"
+	},
+	"notableWork": {
+		"0": "The Wretched of the Earth",
+		"1": "A Dying Colonialism",
+		"2": "Black Skin, White Masks"
+	},
+	"influencedBy": {
+		"0": "Aim\u00e9 C\u00e9saire"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Lyon",
+			"coordinates": ""
+		},
+		"1": {
+			"name": "Jean Moulin University - Lyon 3",
+			"coordinates": ""
+		}
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "psychiatry"
+	},
+	"movement": {
+		"0": "decoloniality"
+	},
+	"image": {
+		"0": "02 Frantz-Fanon-lors-dune-conf\u00e9rence-de-presse-du-Congr\u00e8s-des-\u00e9crivains-\u00e0-Tunis-1959.jpg"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q9364",
+				"name": "Jean-Paul Sartre",
+				"similarity": 0.3986634612083435
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q340234",
+				"name": "Achille Mbembe"
+			}
+		}
+	}
+}

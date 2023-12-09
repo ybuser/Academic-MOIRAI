@@ -1,1 +1,77 @@
-{"id": "Q178709", "name": "Giambattista Vico", "occupation": {"0": "philosopher", "1": "sociologist", "2": "historian", "3": "collector of fairy tales", "4": "jurist"}, "dateOfDeath": {"0": "+1744-01-23T00:00:00Z", "1": "+1774-01-23T00:00:00Z"}, "image": {"0": "Giovan Battista Vico.jpg"}, "notableWork": {"0": "The New Science", "1": "De nostri temporis studiorum ratione", "2": "De antiquissima Italorum sapientia", "3": "De rebus gestis Antonii Caraphaei"}, "dateOfBirth": {"0": "+1668-06-23T00:00:00Z"}, "educatedAt": {"0": {"name": "University of Naples Federico II", "coordinates": {"latitude": 40.8472, "longitude": 14.2569, "altitude": null, "precision": 0.011875306346696, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "University of Naples Federico II", "coordinates": {"latitude": 40.8472, "longitude": 14.2569, "altitude": null, "precision": 0.011875306346696, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "philosophy"}, "countryOfCitizenship": {"0": "Kingdom of Naples"}, "studentOf": {"0": "Francesco Verde"}, "edges": {"influenced": {"0": {"id": "Q192348", "name": "Benedetto Croce"}, "1": {"id": "Q69773659", "name": "Jos\u00e9 Rafael Herrera"}, "2": {"id": "Q334147", "name": "Julius Evola"}}}}
+{
+	"id": "Q178709",
+	"name": "Giambattista Vico",
+	"occupation": {
+		"0": "philosopher",
+		"1": "sociologist",
+		"2": "historian",
+		"3": "collector of fairy tales",
+		"4": "jurist"
+	},
+	"dateOfDeath": {
+		"0": "+1744-01-23T00:00:00Z",
+		"1": "+1774-01-23T00:00:00Z"
+	},
+	"image": {
+		"0": "Giovan Battista Vico.jpg"
+	},
+	"notableWork": {
+		"0": "The New Science",
+		"1": "De nostri temporis studiorum ratione",
+		"2": "De antiquissima Italorum sapientia",
+		"3": "De rebus gestis Antonii Caraphaei"
+	},
+	"dateOfBirth": {
+		"0": "+1668-06-23T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Naples Federico II",
+			"coordinates": {
+				"latitude": 40.8472,
+				"longitude": 14.2569,
+				"altitude": null,
+				"precision": 0.011875306346696,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"name": "University of Naples Federico II",
+			"coordinates": {
+				"latitude": 40.8472,
+				"longitude": 14.2569,
+				"altitude": null,
+				"precision": 0.011875306346696,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"countryOfCitizenship": {
+		"0": "Kingdom of Naples"
+	},
+	"studentOf": {
+		"0": "Francesco Verde"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q192348",
+				"name": "Benedetto Croce"
+			},
+			"1": {
+				"id": "Q69773659",
+				"name": "Jos\u00e9 Rafael Herrera"
+			},
+			"2": {
+				"id": "Q334147",
+				"name": "Julius Evola",
+				"similarity": 0.21575792133808136
+			}
+		}
+	}
+}

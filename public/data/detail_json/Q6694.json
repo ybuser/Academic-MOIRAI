@@ -1,1 +1,167 @@
-{"id": "Q6694", "name": "Alexander von Humboldt", "countryOfCitizenship": {"0": "Kingdom of Prussia"}, "image": {"0": "Stieler, Joseph Karl - Alexander von Humboldt - 1843.jpg"}, "occupation": {"0": "geologist", "1": "explorer", "2": "botanist", "3": "geographer", "4": "chamberlain", "5": "oceanographer", "6": "demographer", "7": "volcanologist", "8": "travel writer", "9": "science writer", "10": "meteorologist", "11": "polymath", "12": "patron of the arts", "13": "zoologist", "14": "naturalist", "15": "mineralogist", "16": "astronomer", "17": "climatologist", "18": "ethnologist", "19": "scientist", "20": "botanical collector", "21": "ornithologist", "22": "world traveler", "23": "economist", "24": "politician", "25": "writer"}, "dateOfDeath": {"0": "+1859-05-06T00:00:00Z", "1": "+1859-01-01T00:00:00Z"}, "dateOfBirth": {"0": "+1769-09-14T00:00:00Z", "1": "+1769-01-01T00:00:00Z"}, "fieldOfWork": {"0": "geobotany", "1": "economic geography", "2": "geography", "3": "meteorology", "4": "botany", "5": "zoology", "6": "physics"}, "educatedAt": {"0": {"name": "Alma Mater Viadrina", "coordinates": {"latitude": 52.349, "longitude": 14.54886111, "altitude": null, "precision": 2.777777777778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Freiberg University of Mining and Technology", "coordinates": ""}, "2": {"name": "University of G\u00f6ttingen", "coordinates": {"latitude": 51.533979833333, "longitude": 9.93792, "altitude": null, "precision": 2.7777777777778e-08, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "University of Jena", "coordinates": {"latitude": 50.928333333333, "longitude": 11.582222222222, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "doctralStudent": {"0": "Johann Wilhelm Ritter", "1": "Otto Wilhelm Hermann von Abich"}, "studentOf": {"0": "Justus Christian Loder", "1": "Johann Simon von Kerner"}, "residence": {"0": {"name": "rue Jacob", "coordinates": {"latitude": 48.8555, "longitude": 2.33405, "altitude": null, "precision": 0.01, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "New Chambers", "coordinates": {"latitude": 52.4036, "longitude": 13.0356, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "Aspects of nature", "1": "Cosmos"}, "employer": {"0": {"name": "University of Jena", "coordinates": {"latitude": 50.928333333333, "longitude": 11.582222222222, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "student": {"0": "Johann Wilhelm Ritter"}, "edges": {"influenced": {"0": {"id": "Q1035", "name": "Charles Darwin"}, "1": {"id": "Q131149", "name": "Henry David Thoreau"}}, "studentOf": {"0": {"id": "Q57554", "name": "Georg Christoph Lichtenberg"}}, "influencedBy": {"0": {"id": "Q60070", "name": "Friedrich Wilhelm Joseph Schelling"}}}}
+{
+	"id": "Q6694",
+	"name": "Alexander von Humboldt",
+	"countryOfCitizenship": {
+		"0": "Kingdom of Prussia"
+	},
+	"image": {
+		"0": "Stieler, Joseph Karl - Alexander von Humboldt - 1843.jpg"
+	},
+	"occupation": {
+		"0": "geologist",
+		"1": "explorer",
+		"2": "botanist",
+		"3": "geographer",
+		"4": "chamberlain",
+		"5": "oceanographer",
+		"6": "demographer",
+		"7": "volcanologist",
+		"8": "travel writer",
+		"9": "science writer",
+		"10": "meteorologist",
+		"11": "polymath",
+		"12": "patron of the arts",
+		"13": "zoologist",
+		"14": "naturalist",
+		"15": "mineralogist",
+		"16": "astronomer",
+		"17": "climatologist",
+		"18": "ethnologist",
+		"19": "scientist",
+		"20": "botanical collector",
+		"21": "ornithologist",
+		"22": "world traveler",
+		"23": "economist",
+		"24": "politician",
+		"25": "writer"
+	},
+	"dateOfDeath": {
+		"0": "+1859-05-06T00:00:00Z",
+		"1": "+1859-01-01T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+1769-09-14T00:00:00Z",
+		"1": "+1769-01-01T00:00:00Z"
+	},
+	"fieldOfWork": {
+		"0": "geobotany",
+		"1": "economic geography",
+		"2": "geography",
+		"3": "meteorology",
+		"4": "botany",
+		"5": "zoology",
+		"6": "physics"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Alma Mater Viadrina",
+			"coordinates": {
+				"latitude": 52.349,
+				"longitude": 14.54886111,
+				"altitude": null,
+				"precision": 2.777777777778e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Freiberg University of Mining and Technology",
+			"coordinates": ""
+		},
+		"2": {
+			"name": "University of G\u00f6ttingen",
+			"coordinates": {
+				"latitude": 51.533979833333,
+				"longitude": 9.93792,
+				"altitude": null,
+				"precision": 2.7777777777778e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "University of Jena",
+			"coordinates": {
+				"latitude": 50.928333333333,
+				"longitude": 11.582222222222,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"doctralStudent": {
+		"0": "Johann Wilhelm Ritter",
+		"1": "Otto Wilhelm Hermann von Abich"
+	},
+	"studentOf": {
+		"0": "Justus Christian Loder",
+		"1": "Johann Simon von Kerner"
+	},
+	"residence": {
+		"0": {
+			"name": "rue Jacob",
+			"coordinates": {
+				"latitude": 48.8555,
+				"longitude": 2.33405,
+				"altitude": null,
+				"precision": 0.01,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "New Chambers",
+			"coordinates": {
+				"latitude": 52.4036,
+				"longitude": 13.0356,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "Aspects of nature",
+		"1": "Cosmos"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Jena",
+			"coordinates": {
+				"latitude": 50.928333333333,
+				"longitude": 11.582222222222,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"student": {
+		"0": "Johann Wilhelm Ritter"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q1035",
+				"name": "Charles Darwin",
+				"similarity": 0.24868443608283997
+			},
+			"1": {
+				"id": "Q131149",
+				"name": "Henry David Thoreau",
+				"similarity": 0.16463911533355713
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q57554",
+				"name": "Georg Christoph Lichtenberg"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q60070",
+				"name": "Friedrich Wilhelm Joseph Schelling",
+				"similarity": 0.2793177664279938
+			}
+		}
+	}
+}

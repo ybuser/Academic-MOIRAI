@@ -1,1 +1,163 @@
-{"id": "Q298521", "name": "Saul Kripke", "dateOfBirth": {"0": "+1940-11-13T00:00:00Z"}, "countryOfCitizenship": {"0": "United States of America"}, "image": {"0": "Kripke.JPG"}, "educatedAt": {"0": {"name": "Harvard University", "coordinates": {"latitude": 42.374443888889, "longitude": -71.116943888889, "altitude": null, "precision": 2.77778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Omaha Central High School", "coordinates": {"latitude": 41.2606, "longitude": -95.9436, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}}, "occupation": {"0": "philosopher", "1": "university teacher", "2": "writer", "3": "mathematician"}, "employer": {"0": {"name": "Princeton University", "coordinates": {"latitude": 40.345277777778, "longitude": -74.656111111111, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "City University of New York", "coordinates": {"latitude": 40.75095435534939, "longitude": -73.9735038, "altitude": null, "precision": 1e-08, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "The Rockefeller University", "coordinates": {"latitude": 40.7625, "longitude": -73.955555555556, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "contemporary philosophy", "1": "Western philosophy", "2": "analytic philosophy", "3": "philosophy of language", "4": "logic", "5": "metaphysics", "6": "set theory", "7": "epistemology", "8": "philosophy of mind", "9": "philosophy"}, "doctralStudent": {"0": "Scott Weinstein"}, "dateOfDeath": {"0": "+2022-09-15T00:00:00Z"}, "notableWork": {"0": "Naming and Necessity"}, "edges": {"influenced": {"0": {"id": "Q311772", "name": "Donald Davidson"}}, "influencedBy": {"0": {"id": "Q9391", "name": "Ludwig Wittgenstein"}, "1": {"id": "Q214969", "name": "Willard Van Orman Quine"}, "2": {"id": "Q207534", "name": "Alfred Tarski"}, "3": {"id": "Q221697", "name": "Hilary Putnam"}, "4": {"id": "Q342646", "name": "Michael Dummett"}, "5": {"id": "Q37160", "name": "David Hume"}, "6": {"id": "Q60028", "name": "Gottlob Frege"}, "7": {"id": "Q7251", "name": "Alan Turing"}, "8": {"id": "Q92611", "name": "Haskell Curry"}, "9": {"id": "Q725642", "name": "Clarence Irving Lewis"}}, "student": {"0": {"id": "Q20645836", "name": "Mark Johnston"}}, "studentOf": {"0": {"id": "Q214969", "name": "Willard Van Orman Quine"}}}}
+{
+	"id": "Q298521",
+	"name": "Saul Kripke",
+	"dateOfBirth": {
+		"0": "+1940-11-13T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": "United States of America"
+	},
+	"image": {
+		"0": "Kripke.JPG"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Harvard University",
+			"coordinates": {
+				"latitude": 42.374443888889,
+				"longitude": -71.116943888889,
+				"altitude": null,
+				"precision": 2.77778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Omaha Central High School",
+			"coordinates": {
+				"latitude": 41.2606,
+				"longitude": -95.9436,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "university teacher",
+		"2": "writer",
+		"3": "mathematician"
+	},
+	"employer": {
+		"0": {
+			"name": "Princeton University",
+			"coordinates": {
+				"latitude": 40.345277777778,
+				"longitude": -74.656111111111,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "City University of New York",
+			"coordinates": {
+				"latitude": 40.75095435534939,
+				"longitude": -73.9735038,
+				"altitude": null,
+				"precision": 1e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "The Rockefeller University",
+			"coordinates": {
+				"latitude": 40.7625,
+				"longitude": -73.955555555556,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "contemporary philosophy",
+		"1": "Western philosophy",
+		"2": "analytic philosophy",
+		"3": "philosophy of language",
+		"4": "logic",
+		"5": "metaphysics",
+		"6": "set theory",
+		"7": "epistemology",
+		"8": "philosophy of mind",
+		"9": "philosophy"
+	},
+	"doctralStudent": {
+		"0": "Scott Weinstein"
+	},
+	"dateOfDeath": {
+		"0": "+2022-09-15T00:00:00Z"
+	},
+	"notableWork": {
+		"0": "Naming and Necessity"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q311772",
+				"name": "Donald Davidson"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q9391",
+				"name": "Ludwig Wittgenstein",
+				"similarity": 0.29793137311935425
+			},
+			"1": {
+				"id": "Q214969",
+				"name": "Willard Van Orman Quine",
+				"similarity": 0.4697372615337372
+			},
+			"2": {
+				"id": "Q207534",
+				"name": "Alfred Tarski"
+			},
+			"3": {
+				"id": "Q221697",
+				"name": "Hilary Putnam",
+				"similarity": 0.4499245285987854
+			},
+			"4": {
+				"id": "Q342646",
+				"name": "Michael Dummett"
+			},
+			"5": {
+				"id": "Q37160",
+				"name": "David Hume",
+				"similarity": 0.3692399859428406
+			},
+			"6": {
+				"id": "Q60028",
+				"name": "Gottlob Frege",
+				"similarity": 0.4747072458267212
+			},
+			"7": {
+				"id": "Q7251",
+				"name": "Alan Turing",
+				"similarity": 0.2745102047920227
+			},
+			"8": {
+				"id": "Q92611",
+				"name": "Haskell Curry"
+			},
+			"9": {
+				"id": "Q725642",
+				"name": "Clarence Irving Lewis"
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q20645836",
+				"name": "Mark Johnston"
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q214969",
+				"name": "Willard Van Orman Quine",
+				"similarity": 0.4697372615337372
+			}
+		}
+	}
+}

@@ -1,1 +1,95 @@
-{"id": "Q345641", "name": "Bernard Williams", "occupation": {"0": "philosopher", "1": "university teacher"}, "dateOfBirth": {"0": "+1929-09-21T00:00:00Z"}, "dateOfDeath": {"0": "+2003-06-10T00:00:00Z", "1": "+2003-06-11T00:00:00Z"}, "countryOfCitizenship": {"0": "United Kingdom"}, "educatedAt": {"0": {"name": "Balliol College", "coordinates": {"latitude": 51.7547, "longitude": -1.2578, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Chigwell School", "coordinates": {"latitude": 51.625, "longitude": 0.081, "altitude": null, "precision": 2.777777777778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "University College London", "coordinates": {"latitude": 51.52472222222222, "longitude": -0.13361111111111112, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of California, Berkeley", "coordinates": {"latitude": 37.87, "longitude": -122.259, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "movement": {"0": "Western philosophy"}, "fieldOfWork": {"0": "ethics", "1": "identity"}, "timePeriod": {"0": "contemporary philosophy"}, "edges": {"influencedBy": {"0": {"id": "Q9358", "name": "Friedrich Nietzsche"}, "1": {"id": "Q297493", "name": "Philippa Foot"}}, "student": {"0": {"id": "Q63118217", "name": "Alan Thomas"}, "1": {"id": "Q4153311", "name": "Lydia Goehr"}}}}
+{
+	"id": "Q345641",
+	"name": "Bernard Williams",
+	"occupation": {
+		"0": "philosopher",
+		"1": "university teacher"
+	},
+	"dateOfBirth": {
+		"0": "+1929-09-21T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+2003-06-10T00:00:00Z",
+		"1": "+2003-06-11T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": "United Kingdom"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Balliol College",
+			"coordinates": {
+				"latitude": 51.7547,
+				"longitude": -1.2578,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Chigwell School",
+			"coordinates": {
+				"latitude": 51.625,
+				"longitude": 0.081,
+				"altitude": null,
+				"precision": 2.777777777778e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"name": "University College London",
+			"coordinates": {
+				"latitude": 51.52472222222222,
+				"longitude": -0.13361111111111112,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "University of California, Berkeley",
+			"coordinates": {
+				"latitude": 37.87,
+				"longitude": -122.259,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"movement": {
+		"0": "Western philosophy"
+	},
+	"fieldOfWork": {
+		"0": "ethics",
+		"1": "identity"
+	},
+	"timePeriod": {
+		"0": "contemporary philosophy"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q9358",
+				"name": "Friedrich Nietzsche",
+				"similarity": 0.15270914137363434
+			},
+			"1": {
+				"id": "Q297493",
+				"name": "Philippa Foot"
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q63118217",
+				"name": "Alan Thomas"
+			},
+			"1": {
+				"id": "Q4153311",
+				"name": "Lydia Goehr"
+			}
+		}
+	}
+}

@@ -1,1 +1,115 @@
-{"id": "Q9317", "name": "John Maynard Keynes", "occupation": {"0": "economist", "1": "mathematician", "2": "politician", "3": "philosopher", "4": "professor", "5": "diplomat", "6": "non-fiction writer", "7": "businessperson"}, "countryOfCitizenship": {"0": "United Kingdom", "1": "United Kingdom of Great Britain and Ireland"}, "dateOfBirth": {"0": "+1883-06-05T00:00:00Z"}, "dateOfDeath": {"0": "+1946-04-21T00:00:00Z"}, "movement": {"0": "Bloomsbury Group"}, "educatedAt": {"0": {"name": "Eton College", "coordinates": {"latitude": 51.491667, "longitude": -0.609444, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "King's College", "coordinates": {"latitude": 52.204166666667, "longitude": 0.11666666666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "University of Cambridge", "coordinates": {"latitude": 52.205355979757925, "longitude": 0.11315726963968827, "altitude": null, "precision": 1e-08, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "St Faith's School", "coordinates": {"latitude": 52.1883, "longitude": 0.123, "altitude": null, "precision": 0.0014652774371056, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "The General Theory of Employment, Interest and Money", "1": "Indian Currency and Finance", "2": "The Economic Consequences of the Peace", "3": "A Treatise on Probability", "4": "A Treatise on Money"}, "employer": {"0": {"name": "University of Cambridge", "coordinates": {"latitude": 52.205355979757925, "longitude": 0.11315726963968827, "altitude": null, "precision": 1e-08, "globe": "http://www.wikidata.org/entity/Q2"}}}, "doctralStudent": {"0": "D. G. Champernowne", "1": "Joan Robinson"}, "image": {"0": "Keynes 1933.jpg"}, "fieldOfWork": {"0": "microeconomics"}, "edges": {"studentOf": {"0": {"id": "Q183372", "name": "Alfred North Whitehead"}, "1": {"id": "Q13529", "name": "Alfred Marshall"}, "2": {"id": "Q2578676", "name": "William Ernest Johnson"}}}}
+{
+	"id": "Q9317",
+	"name": "John Maynard Keynes",
+	"occupation": {
+		"0": "economist",
+		"1": "mathematician",
+		"2": "politician",
+		"3": "philosopher",
+		"4": "professor",
+		"5": "diplomat",
+		"6": "non-fiction writer",
+		"7": "businessperson"
+	},
+	"countryOfCitizenship": {
+		"0": "United Kingdom",
+		"1": "United Kingdom of Great Britain and Ireland"
+	},
+	"dateOfBirth": {
+		"0": "+1883-06-05T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1946-04-21T00:00:00Z"
+	},
+	"movement": {
+		"0": "Bloomsbury Group"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Eton College",
+			"coordinates": {
+				"latitude": 51.491667,
+				"longitude": -0.609444,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "King's College",
+			"coordinates": {
+				"latitude": 52.204166666667,
+				"longitude": 0.11666666666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "University of Cambridge",
+			"coordinates": {
+				"latitude": 52.205355979757925,
+				"longitude": 0.11315726963968827,
+				"altitude": null,
+				"precision": 1e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "St Faith's School",
+			"coordinates": {
+				"latitude": 52.1883,
+				"longitude": 0.123,
+				"altitude": null,
+				"precision": 0.0014652774371056,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "The General Theory of Employment, Interest and Money",
+		"1": "Indian Currency and Finance",
+		"2": "The Economic Consequences of the Peace",
+		"3": "A Treatise on Probability",
+		"4": "A Treatise on Money"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Cambridge",
+			"coordinates": {
+				"latitude": 52.205355979757925,
+				"longitude": 0.11315726963968827,
+				"altitude": null,
+				"precision": 1e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"doctralStudent": {
+		"0": "D. G. Champernowne",
+		"1": "Joan Robinson"
+	},
+	"image": {
+		"0": "Keynes 1933.jpg"
+	},
+	"fieldOfWork": {
+		"0": "microeconomics"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q183372",
+				"name": "Alfred North Whitehead",
+				"similarity": 0.15422487258911133
+			},
+			"1": {
+				"id": "Q13529",
+				"name": "Alfred Marshall"
+			},
+			"2": {
+				"id": "Q2578676",
+				"name": "William Ernest Johnson"
+			}
+		}
+	}
+}

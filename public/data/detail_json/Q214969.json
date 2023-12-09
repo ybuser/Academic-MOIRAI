@@ -1,1 +1,197 @@
-{"id": "Q214969", "name": "Willard Van Orman Quine", "countryOfCitizenship": {"0": "United States of America"}, "occupation": {"0": "mathematician", "1": "analytic philosopher", "2": "philosopher of language", "3": "epistemologist", "4": "philosopher of science", "5": "university teacher", "6": "philosopher", "7": "logician", "8": "linguist"}, "fieldOfWork": {"0": "model theory", "1": "set theory", "2": "ontology"}, "dateOfBirth": {"0": "+1908-06-25T00:00:00Z"}, "dateOfDeath": {"0": "+2000-12-25T00:00:00Z"}, "educatedAt": {"0": {"name": "Harvard University", "coordinates": {"latitude": 42.374443888889, "longitude": -71.116943888889, "altitude": null, "precision": 2.77778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Oberlin College", "coordinates": {"latitude": 41.293055555555554, "longitude": -82.22166666666666, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "Harvard University", "coordinates": {"latitude": 42.374443888889, "longitude": -71.116943888889, "altitude": null, "precision": 2.77778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Wesleyan University", "coordinates": {"latitude": 41.55562, "longitude": -72.655844, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "United States Navy", "coordinates": ""}}, "doctralStudent": {"0": "John Myhill", "1": "Robert McNaughton", "2": "Lisl Gaal", "3": "Frank Wilson Thompson", "4": "Leigh Davis Steinhardt", "5": "George David Wheaton Berry", "6": "Bradford Dunham", "7": "Robert Lauren Stanley", "8": "George Myro"}, "notableWork": {"0": "Word and Object", "1": "The Roots of Reference", "2": "Two Dogmas of Empiricism", "3": "Quine\u2013McCluskey algorithm", "4": "Duhem\u2013Quine thesis", "5": "Quine's paradox", "6": "Quine\u2013Putnam indispensability argument"}, "image": {"0": "Willard Van Orman Quine on Bluenose II in Halifax NS harbor 1980.jpg"}, "edges": {"influenced": {"0": {"id": "Q215263", "name": "Daniel Dennett"}, "1": {"id": "Q311772", "name": "Donald Davidson"}, "2": {"id": "Q298521", "name": "Saul Kripke"}, "3": {"id": "Q242616", "name": "Patricia Churchland"}}, "studentOf": {"0": {"id": "Q183372", "name": "Alfred North Whitehead"}}, "student": {"0": {"id": "Q707977", "name": "Hao Wang"}, "1": {"id": "Q1157217", "name": "Dagfinn F\u00f8llesdal"}, "2": {"id": "Q4200625", "name": "Daniel H. H. Ingalls, Sr."}, "3": {"id": "Q8007226", "name": "William Craig"}, "4": {"id": "Q5000848", "name": "Burton Dreben"}, "5": {"id": "Q311772", "name": "Donald Davidson"}, "6": {"id": "Q962148", "name": "Gilbert Harman"}, "7": {"id": "Q5081510", "name": "Charles Parsons"}, "8": {"id": "Q17376678", "name": "Gail Stine"}, "9": {"id": "Q12951981", "name": "Hugues Leblanc"}, "10": {"id": "Q102164988", "name": "Joseph Silbert Ullian"}, "11": {"id": "Q9288205", "name": "Henry Hi\u017c"}, "12": {"id": "Q384522", "name": "David Lewis"}, "13": {"id": "Q7052137", "name": "Norman Daniels"}, "14": {"id": "Q15462718", "name": "Michael Devitt"}, "15": {"id": "Q298521", "name": "Saul Kripke"}}}}
+{
+	"id": "Q214969",
+	"name": "Willard Van Orman Quine",
+	"countryOfCitizenship": {
+		"0": "United States of America"
+	},
+	"occupation": {
+		"0": "mathematician",
+		"1": "analytic philosopher",
+		"2": "philosopher of language",
+		"3": "epistemologist",
+		"4": "philosopher of science",
+		"5": "university teacher",
+		"6": "philosopher",
+		"7": "logician",
+		"8": "linguist"
+	},
+	"fieldOfWork": {
+		"0": "model theory",
+		"1": "set theory",
+		"2": "ontology"
+	},
+	"dateOfBirth": {
+		"0": "+1908-06-25T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+2000-12-25T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Harvard University",
+			"coordinates": {
+				"latitude": 42.374443888889,
+				"longitude": -71.116943888889,
+				"altitude": null,
+				"precision": 2.77778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Oberlin College",
+			"coordinates": {
+				"latitude": 41.293055555555554,
+				"longitude": -82.22166666666666,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"name": "Harvard University",
+			"coordinates": {
+				"latitude": 42.374443888889,
+				"longitude": -71.116943888889,
+				"altitude": null,
+				"precision": 2.77778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Wesleyan University",
+			"coordinates": {
+				"latitude": 41.55562,
+				"longitude": -72.655844,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "United States Navy",
+			"coordinates": ""
+		}
+	},
+	"doctralStudent": {
+		"0": "John Myhill",
+		"1": "Robert McNaughton",
+		"2": "Lisl Gaal",
+		"3": "Frank Wilson Thompson",
+		"4": "Leigh Davis Steinhardt",
+		"5": "George David Wheaton Berry",
+		"6": "Bradford Dunham",
+		"7": "Robert Lauren Stanley",
+		"8": "George Myro"
+	},
+	"notableWork": {
+		"0": "Word and Object",
+		"1": "The Roots of Reference",
+		"2": "Two Dogmas of Empiricism",
+		"3": "Quine\u2013McCluskey algorithm",
+		"4": "Duhem\u2013Quine thesis",
+		"5": "Quine's paradox",
+		"6": "Quine\u2013Putnam indispensability argument"
+	},
+	"image": {
+		"0": "Willard Van Orman Quine on Bluenose II in Halifax NS harbor 1980.jpg"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q215263",
+				"name": "Daniel Dennett"
+			},
+			"1": {
+				"id": "Q311772",
+				"name": "Donald Davidson"
+			},
+			"2": {
+				"id": "Q298521",
+				"name": "Saul Kripke",
+				"similarity": 0.4697372615337372
+			},
+			"3": {
+				"id": "Q242616",
+				"name": "Patricia Churchland",
+				"similarity": 0.1527785360813141
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q183372",
+				"name": "Alfred North Whitehead",
+				"similarity": 0.4404315948486328
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q707977",
+				"name": "Hao Wang"
+			},
+			"1": {
+				"id": "Q1157217",
+				"name": "Dagfinn F\u00f8llesdal"
+			},
+			"2": {
+				"id": "Q4200625",
+				"name": "Daniel H. H. Ingalls, Sr."
+			},
+			"3": {
+				"id": "Q8007226",
+				"name": "William Craig"
+			},
+			"4": {
+				"id": "Q5000848",
+				"name": "Burton Dreben"
+			},
+			"5": {
+				"id": "Q311772",
+				"name": "Donald Davidson"
+			},
+			"6": {
+				"id": "Q962148",
+				"name": "Gilbert Harman"
+			},
+			"7": {
+				"id": "Q5081510",
+				"name": "Charles Parsons"
+			},
+			"8": {
+				"id": "Q17376678",
+				"name": "Gail Stine"
+			},
+			"9": {
+				"id": "Q12951981",
+				"name": "Hugues Leblanc"
+			},
+			"10": {
+				"id": "Q102164988",
+				"name": "Joseph Silbert Ullian"
+			},
+			"11": {
+				"id": "Q9288205",
+				"name": "Henry Hi\u017c"
+			},
+			"12": {
+				"id": "Q384522",
+				"name": "David Lewis",
+				"similarity": 0.30425238609313965
+			},
+			"13": {
+				"id": "Q7052137",
+				"name": "Norman Daniels"
+			},
+			"14": {
+				"id": "Q15462718",
+				"name": "Michael Devitt"
+			},
+			"15": {
+				"id": "Q298521",
+				"name": "Saul Kripke",
+				"similarity": 0.4697372615337372
+			}
+		}
+	}
+}

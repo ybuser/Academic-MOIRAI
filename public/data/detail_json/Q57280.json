@@ -1,1 +1,76 @@
-{"id": "Q57280", "name": "Johann Joachim Winckelmann", "notableWork": {"0": "Thoughts on the Imitation of Greek Works in Painting and the Art of Sculpture", "1": "Geschichte der Kunst des Alterthums"}, "countryOfCitizenship": {"0": "Kingdom of Prussia"}, "dateOfBirth": {"0": "+1717-12-09T00:00:00Z"}, "dateOfDeath": {"0": "+1768-06-08T00:00:00Z"}, "occupation": {"0": "art historian", "1": "librarian", "2": "archaeologist", "3": "historian", "4": "writer", "5": "in-home tutor"}, "image": {"0": "Johann Joachim Winckelmann (Raphael Mengs after 1755).jpg", "1": "WinckelmannJJ.jpg"}, "educatedAt": {"0": {"name": "University of Halle-Wittenberg", "coordinates": {"latitude": 51.48638889, "longitude": 11.96888889, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "K\u00f6llnisches Gymnasium", "coordinates": {"latitude": 52.5128, "longitude": 13.4122, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "University of Jena", "coordinates": {"latitude": 50.928333333333, "longitude": 11.582222222222, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "history of art", "1": "aesthetics", "2": "art history", "3": "archaeology"}, "edges": {"influenced": {"0": {"id": "Q9358", "name": "Friedrich Nietzsche"}}}}
+{
+	"id": "Q57280",
+	"name": "Johann Joachim Winckelmann",
+	"notableWork": {
+		"0": "Thoughts on the Imitation of Greek Works in Painting and the Art of Sculpture",
+		"1": "Geschichte der Kunst des Alterthums"
+	},
+	"countryOfCitizenship": {
+		"0": "Kingdom of Prussia"
+	},
+	"dateOfBirth": {
+		"0": "+1717-12-09T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1768-06-08T00:00:00Z"
+	},
+	"occupation": {
+		"0": "art historian",
+		"1": "librarian",
+		"2": "archaeologist",
+		"3": "historian",
+		"4": "writer",
+		"5": "in-home tutor"
+	},
+	"image": {
+		"0": "Johann Joachim Winckelmann (Raphael Mengs after 1755).jpg",
+		"1": "WinckelmannJJ.jpg"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Halle-Wittenberg",
+			"coordinates": {
+				"latitude": 51.48638889,
+				"longitude": 11.96888889,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "K\u00f6llnisches Gymnasium",
+			"coordinates": {
+				"latitude": 52.5128,
+				"longitude": 13.4122,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "University of Jena",
+			"coordinates": {
+				"latitude": 50.928333333333,
+				"longitude": 11.582222222222,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "history of art",
+		"1": "aesthetics",
+		"2": "art history",
+		"3": "archaeology"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q9358",
+				"name": "Friedrich Nietzsche",
+				"similarity": 0.2165861576795578
+			}
+		}
+	}
+}

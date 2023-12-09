@@ -1,1 +1,74 @@
-{"id": "Q154959", "name": "Hugo Grotius", "occupation": {"0": "poet", "1": "playwright", "2": "international law scholar", "3": "politician", "4": "diplomat", "5": "historian", "6": "philosopher", "7": "theologian", "8": "lawyer", "9": "university teacher", "10": "writer", "11": "philosopher of law", "12": "legal scholar", "13": "jurist"}, "countryOfCitizenship": {"0": "Netherlands", "1": "Dutch Republic"}, "dateOfBirth": {"0": "+1583-04-10T00:00:00Z", "1": "+1583-00-00T00:00:00Z"}, "dateOfDeath": {"0": "+1645-08-28T00:00:00Z", "1": "+1645-00-00T00:00:00Z"}, "educatedAt": {"0": {"name": "Leiden University", "coordinates": {"latitude": 52.15694444444444, "longitude": 4.485277777777778, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "image": {"0": "Portret van Hugo de Groot (1583-1645) Rijksmuseum SK-A-581.jpeg"}, "fieldOfWork": {"0": "international law", "1": "political philosophy", "2": "Christian theology"}, "studentOf": {"0": "Jacob Lasson"}, "edges": {"influenced": {"0": {"id": "Q5749", "name": "Pierre-Joseph Proudhon"}, "1": {"id": "Q37621", "name": "Thomas Hobbes"}, "2": {"id": "Q9353", "name": "John Locke"}}}}
+{
+	"id": "Q154959",
+	"name": "Hugo Grotius",
+	"occupation": {
+		"0": "poet",
+		"1": "playwright",
+		"2": "international law scholar",
+		"3": "politician",
+		"4": "diplomat",
+		"5": "historian",
+		"6": "philosopher",
+		"7": "theologian",
+		"8": "lawyer",
+		"9": "university teacher",
+		"10": "writer",
+		"11": "philosopher of law",
+		"12": "legal scholar",
+		"13": "jurist"
+	},
+	"countryOfCitizenship": {
+		"0": "Netherlands",
+		"1": "Dutch Republic"
+	},
+	"dateOfBirth": {
+		"0": "+1583-04-10T00:00:00Z",
+		"1": "+1583-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1645-08-28T00:00:00Z",
+		"1": "+1645-00-00T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Leiden University",
+			"coordinates": {
+				"latitude": 52.15694444444444,
+				"longitude": 4.485277777777778,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"image": {
+		"0": "Portret van Hugo de Groot (1583-1645) Rijksmuseum SK-A-581.jpeg"
+	},
+	"fieldOfWork": {
+		"0": "international law",
+		"1": "political philosophy",
+		"2": "Christian theology"
+	},
+	"studentOf": {
+		"0": "Jacob Lasson"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q5749",
+				"name": "Pierre-Joseph Proudhon",
+				"similarity": 0.306947261095047
+			},
+			"1": {
+				"id": "Q37621",
+				"name": "Thomas Hobbes",
+				"similarity": 0.22859305143356323
+			},
+			"2": {
+				"id": "Q9353",
+				"name": "John Locke",
+				"similarity": 0.2326332926750183
+			}
+		}
+	}
+}

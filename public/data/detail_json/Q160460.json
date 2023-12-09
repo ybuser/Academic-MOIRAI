@@ -1,1 +1,109 @@
-{"id": "Q160460", "name": "Al-Farabi", "occupation": {"0": "philosopher", "1": "physicist", "2": "music theorist"}, "dateOfBirth": {"0": "+0872-01-10T00:00:00Z", "1": "+0870-00-00T00:00:00Z", "2": "+0872-00-00T00:00:00Z"}, "dateOfDeath": {"0": "+0951-01-17T00:00:00Z", "1": "+0950-00-00T00:00:00Z", "2": "+0951-01-00T00:00:00Z"}, "fieldOfWork": {"0": "natural history", "1": "metaphysics", "2": "mathematics", "3": "logic", "4": "astronomy", "5": "medicine", "6": "ethics"}, "studentOf": {"0": "Muhammad ibn al-Sari ibn al-Sarraj"}, "notableWork": {"0": "Ara Ahl al Madina al Fadila", "1": "message in the mind", "2": "Alfarabi's Philosophy of Plato and Aristotle", "3": "Kitab al-Musiqa al-Kabir"}, "countryOfCitizenship": {"0": "Abbasid Caliphate"}, "image": {"0": "Farabi.jpg"}, "edges": {"student": {"0": {"id": "Q3571334", "name": "Yahya ibn Adi"}}, "influenced": {"0": {"id": "Q39837", "name": "Averroes"}, "1": {"id": "Q127398", "name": "Moshe ben Maimon"}, "2": {"id": "Q11362", "name": "Avempace"}, "3": {"id": "Q8011", "name": "Avicenna"}, "4": {"id": "Q282883", "name": "Shihab al-Din Suhrawardi"}, "5": {"id": "Q4115511", "name": "Abu al-Hassan al-Amiri"}}, "studentOf": {"0": {"id": "Q2822077", "name": "Abu Bishr Matta ibn Yunus"}, "1": {"id": "Q5674405", "name": "Yuhanna ibn Haylan"}}, "influencedBy": {"0": {"id": "Q868", "name": "Aristotle"}, "1": {"id": "Q859", "name": "Plato"}, "2": {"id": "Q134189", "name": "Plotinus"}}}}
+{
+	"id": "Q160460",
+	"name": "Al-Farabi",
+	"occupation": {
+		"0": "philosopher",
+		"1": "physicist",
+		"2": "music theorist"
+	},
+	"dateOfBirth": {
+		"0": "+0872-01-10T00:00:00Z",
+		"1": "+0870-00-00T00:00:00Z",
+		"2": "+0872-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+0951-01-17T00:00:00Z",
+		"1": "+0950-00-00T00:00:00Z",
+		"2": "+0951-01-00T00:00:00Z"
+	},
+	"fieldOfWork": {
+		"0": "natural history",
+		"1": "metaphysics",
+		"2": "mathematics",
+		"3": "logic",
+		"4": "astronomy",
+		"5": "medicine",
+		"6": "ethics"
+	},
+	"studentOf": {
+		"0": "Muhammad ibn al-Sari ibn al-Sarraj"
+	},
+	"notableWork": {
+		"0": "Ara Ahl al Madina al Fadila",
+		"1": "message in the mind",
+		"2": "Alfarabi's Philosophy of Plato and Aristotle",
+		"3": "Kitab al-Musiqa al-Kabir"
+	},
+	"countryOfCitizenship": {
+		"0": "Abbasid Caliphate"
+	},
+	"image": {
+		"0": "Farabi.jpg"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q3571334",
+				"name": "Yahya ibn Adi"
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q39837",
+				"name": "Averroes",
+				"similarity": 0.46020346879959106
+			},
+			"1": {
+				"id": "Q127398",
+				"name": "Moshe ben Maimon",
+				"similarity": 0.27760645747184753
+			},
+			"2": {
+				"id": "Q11362",
+				"name": "Avempace",
+				"similarity": 0.5325446724891663
+			},
+			"3": {
+				"id": "Q8011",
+				"name": "Avicenna",
+				"similarity": 0.5386602878570557
+			},
+			"4": {
+				"id": "Q282883",
+				"name": "Shihab al-Din Suhrawardi"
+			},
+			"5": {
+				"id": "Q4115511",
+				"name": "Abu al-Hassan al-Amiri",
+				"similarity": 0.5130806565284729
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q2822077",
+				"name": "Abu Bishr Matta ibn Yunus"
+			},
+			"1": {
+				"id": "Q5674405",
+				"name": "Yuhanna ibn Haylan"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.3272911608219147
+			},
+			"1": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.3459383547306061
+			},
+			"2": {
+				"id": "Q134189",
+				"name": "Plotinus",
+				"similarity": 0.37320008873939514
+			}
+		}
+	}
+}

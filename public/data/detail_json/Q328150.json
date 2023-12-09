@@ -1,1 +1,59 @@
-{"id": "Q328150", "name": "John of Ravenna", "occupation": {"0": "writer", "1": "historian", "2": "philosopher"}, "dateOfBirth": {"0": "+1343-00-00T00:00:00Z"}, "dateOfDeath": {"0": "+1408-00-00T00:00:00Z", "1": "+1408-09-27T00:00:00Z", "2": "+1408-00-00T00:00:00Z"}, "studentOf": {"0": "Donato Albanzani"}, "employer": {"0": {"name": "University of Padua", "coordinates": {"latitude": 45.42, "longitude": 11.87, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "image": {"0": "Laurentius de Voltolina 001.jpg"}, "edges": {"student": {"0": {"id": "Q2857327", "name": "Antonio Loschi"}, "1": {"id": "Q712032", "name": "Francesco Barbaro"}, "2": {"id": "Q725843", "name": "Vittorino da Feltre"}, "3": {"id": "Q737756", "name": "Pier Paolo Vergerio the Elder"}, "4": {"id": "Q539577", "name": "Guarino da Verona"}}}}
+{
+	"id": "Q328150",
+	"name": "John of Ravenna",
+	"occupation": {
+		"0": "writer",
+		"1": "historian",
+		"2": "philosopher"
+	},
+	"dateOfBirth": {
+		"0": "+1343-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1408-00-00T00:00:00Z",
+		"1": "+1408-09-27T00:00:00Z",
+		"2": "+1408-00-00T00:00:00Z"
+	},
+	"studentOf": {
+		"0": "Donato Albanzani"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Padua",
+			"coordinates": {
+				"latitude": 45.42,
+				"longitude": 11.87,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"image": {
+		"0": "Laurentius de Voltolina 001.jpg"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q2857327",
+				"name": "Antonio Loschi"
+			},
+			"1": {
+				"id": "Q712032",
+				"name": "Francesco Barbaro"
+			},
+			"2": {
+				"id": "Q725843",
+				"name": "Vittorino da Feltre"
+			},
+			"3": {
+				"id": "Q737756",
+				"name": "Pier Paolo Vergerio the Elder"
+			},
+			"4": {
+				"id": "Q539577",
+				"name": "Guarino da Verona"
+			}
+		}
+	}
+}

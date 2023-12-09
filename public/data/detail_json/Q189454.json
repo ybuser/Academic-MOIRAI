@@ -1,1 +1,42 @@
-{"id": "Q189454", "name": "Helena Blavatsky", "countryOfCitizenship": {"0": "Russian Empire", "1": "United States of America"}, "dateOfBirth": {"0": "+1831-08-12T00:00:00Z", "1": "+1831-01-01T00:00:00Z", "2": "+1831-07-31T00:00:00Z"}, "dateOfDeath": {"0": "+1891-04-26T00:00:00Z", "1": "+1891-05-08T00:00:00Z", "2": "+1891-01-01T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "writer", "2": "journalist", "3": "occultist", "4": "editor", "5": "theosophist"}, "image": {"0": "Helena Petrovna Blavatsky.jpg", "1": "Povedano - Helena P. Blavatsky.png"}, "notableWork": {"0": "The Secret Doctrine"}, "edges": {"influenced": {"0": {"id": "Q78484", "name": "Rudolf Steiner"}}}}
+{
+	"id": "Q189454",
+	"name": "Helena Blavatsky",
+	"countryOfCitizenship": {
+		"0": "Russian Empire",
+		"1": "United States of America"
+	},
+	"dateOfBirth": {
+		"0": "+1831-08-12T00:00:00Z",
+		"1": "+1831-01-01T00:00:00Z",
+		"2": "+1831-07-31T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1891-04-26T00:00:00Z",
+		"1": "+1891-05-08T00:00:00Z",
+		"2": "+1891-01-01T00:00:00Z"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "writer",
+		"2": "journalist",
+		"3": "occultist",
+		"4": "editor",
+		"5": "theosophist"
+	},
+	"image": {
+		"0": "Helena Petrovna Blavatsky.jpg",
+		"1": "Povedano - Helena P. Blavatsky.png"
+	},
+	"notableWork": {
+		"0": "The Secret Doctrine"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q78484",
+				"name": "Rudolf Steiner",
+				"similarity": 0.36687275767326355
+			}
+		}
+	}
+}

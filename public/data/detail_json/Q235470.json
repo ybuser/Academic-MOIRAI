@@ -1,1 +1,102 @@
-{"id": "Q235470", "name": "Martha Nussbaum", "countryOfCitizenship": {"0": "United States of America"}, "dateOfBirth": {"0": "+1947-05-06T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "writer", "2": "classical scholar", "3": "university teacher"}, "educatedAt": {"0": {"name": "Harvard University", "coordinates": {"latitude": 42.374443888889, "longitude": -71.116943888889, "altitude": null, "precision": 2.77778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "New York University", "coordinates": {"latitude": 40.73, "longitude": -73.995, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "image": {"0": "Martha Nussbaum wikipedia 10-10.jpg"}, "employer": {"0": {"name": "Brown University", "coordinates": {"latitude": 41.82611111111111, "longitude": -71.40305555555555, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Harvard University", "coordinates": {"latitude": 42.374443888889, "longitude": -71.116943888889, "altitude": null, "precision": 2.77778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "University of Chicago", "coordinates": {"latitude": 41.789722222222, "longitude": -87.599722222222, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "influencedBy": {"0": "Diario AS", "1": "Catharine MacKinnon"}, "edges": {"influencedBy": {"0": {"id": "Q868", "name": "Aristotle"}, "1": {"id": "Q50020", "name": "John Stuart Mill"}, "2": {"id": "Q132489", "name": "Amartya Sen"}}, "student": {"0": {"id": "Q115786240", "name": "Martha Claeys"}}}}
+{
+	"id": "Q235470",
+	"name": "Martha Nussbaum",
+	"countryOfCitizenship": {
+		"0": "United States of America"
+	},
+	"dateOfBirth": {
+		"0": "+1947-05-06T00:00:00Z"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "writer",
+		"2": "classical scholar",
+		"3": "university teacher"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Harvard University",
+			"coordinates": {
+				"latitude": 42.374443888889,
+				"longitude": -71.116943888889,
+				"altitude": null,
+				"precision": 2.77778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "New York University",
+			"coordinates": {
+				"latitude": 40.73,
+				"longitude": -73.995,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"image": {
+		"0": "Martha Nussbaum wikipedia 10-10.jpg"
+	},
+	"employer": {
+		"0": {
+			"name": "Brown University",
+			"coordinates": {
+				"latitude": 41.82611111111111,
+				"longitude": -71.40305555555555,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Harvard University",
+			"coordinates": {
+				"latitude": 42.374443888889,
+				"longitude": -71.116943888889,
+				"altitude": null,
+				"precision": 2.77778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "University of Chicago",
+			"coordinates": {
+				"latitude": 41.789722222222,
+				"longitude": -87.599722222222,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"influencedBy": {
+		"0": "Diario AS",
+		"1": "Catharine MacKinnon"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.14754165709018707
+			},
+			"1": {
+				"id": "Q50020",
+				"name": "John Stuart Mill",
+				"similarity": 0.31768152117729187
+			},
+			"2": {
+				"id": "Q132489",
+				"name": "Amartya Sen",
+				"similarity": 0.5035954713821411
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q115786240",
+				"name": "Martha Claeys"
+			}
+		}
+	}
+}

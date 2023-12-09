@@ -1,1 +1,33 @@
-{"id": "Q7039031", "name": "Nino Cocchiarella", "dateOfBirth": {"0": "+1933-01-01T00:00:00Z"}, "occupation": {"0": "philosopher of language"}, "employer": {"0": {"name": "Indiana University Bloomington", "coordinates": {"latitude": 39.167222, "longitude": -86.521389, "altitude": null, "precision": 2.77778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "countryOfCitizenship": {"0": "United States of America"}, "edges": {"studentOf": {"0": {"id": "Q536528", "name": "Richard Montague"}}}}
+{
+	"id": "Q7039031",
+	"name": "Nino Cocchiarella",
+	"dateOfBirth": {
+		"0": "+1933-01-01T00:00:00Z"
+	},
+	"occupation": {
+		"0": "philosopher of language"
+	},
+	"employer": {
+		"0": {
+			"name": "Indiana University Bloomington",
+			"coordinates": {
+				"latitude": 39.167222,
+				"longitude": -86.521389,
+				"altitude": null,
+				"precision": 2.77778e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"countryOfCitizenship": {
+		"0": "United States of America"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q536528",
+				"name": "Richard Montague"
+			}
+		}
+	}
+}

@@ -1,1 +1,110 @@
-{"id": "Q467015", "name": "Henry Corbin", "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1903-04-14T00:00:00Z"}, "dateOfDeath": {"0": "+1978-10-07T00:00:00Z"}, "occupation": {"0": "translator", "1": "historian", "2": "philosopher", "3": "writer", "4": "orientalist", "5": "professor", "6": "theologian", "7": "iranologist", "8": "university teacher"}, "fieldOfWork": {"0": "philosophy", "1": "Islamic philosophy", "2": "theology", "3": "oriental studies", "4": "Iranian studies", "5": "mysticism", "6": "Islam", "7": "educational system"}, "employer": {"0": {"name": "Faculty of Arts of Paris", "coordinates": ""}, "1": {"name": "Paris-Sorbonne University - Paris IV", "coordinates": {"latitude": 48.848333333333, "longitude": 2.3427777777778, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "\u00c9cole pratique des hautes \u00e9tudes", "coordinates": {"latitude": 48.8311, "longitude": 2.34, "altitude": null, "precision": 1e-07, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "\u0418\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0432\u044b\u0441\u0448\u0438\u0445 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0439 \u0432 \u0422\u0438\u0447\u0438\u043d\u043e", "coordinates": ""}}, "educatedAt": {"0": {"name": "Faculty of Arts of Paris", "coordinates": ""}, "1": {"name": "Catholic University of Paris", "coordinates": {"latitude": 48.84801513010181, "longitude": 2.3299361601076343, "altitude": null, "precision": 2.777777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "edges": {"influencedBy": {"0": {"id": "Q282883", "name": "Shihab al-Din Suhrawardi"}}, "student": {"0": {"id": "Q1277332", "name": "Dariush Shayegan"}}, "studentOf": {"0": {"id": "Q289739", "name": "\u00c9tienne Gilson"}, "1": {"id": "Q3170621", "name": "Jean Baruzi"}}, "influenced": {"0": {"id": "Q109350513", "name": "Insha-Allah Rahmati"}}}}
+{
+	"id": "Q467015",
+	"name": "Henry Corbin",
+	"countryOfCitizenship": {
+		"0": "France"
+	},
+	"dateOfBirth": {
+		"0": "+1903-04-14T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1978-10-07T00:00:00Z"
+	},
+	"occupation": {
+		"0": "translator",
+		"1": "historian",
+		"2": "philosopher",
+		"3": "writer",
+		"4": "orientalist",
+		"5": "professor",
+		"6": "theologian",
+		"7": "iranologist",
+		"8": "university teacher"
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "Islamic philosophy",
+		"2": "theology",
+		"3": "oriental studies",
+		"4": "Iranian studies",
+		"5": "mysticism",
+		"6": "Islam",
+		"7": "educational system"
+	},
+	"employer": {
+		"0": {
+			"name": "Faculty of Arts of Paris",
+			"coordinates": ""
+		},
+		"1": {
+			"name": "Paris-Sorbonne University - Paris IV",
+			"coordinates": {
+				"latitude": 48.848333333333,
+				"longitude": 2.3427777777778,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "\u00c9cole pratique des hautes \u00e9tudes",
+			"coordinates": {
+				"latitude": 48.8311,
+				"longitude": 2.34,
+				"altitude": null,
+				"precision": 1e-07,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "\u0418\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0432\u044b\u0441\u0448\u0438\u0445 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0439 \u0432 \u0422\u0438\u0447\u0438\u043d\u043e",
+			"coordinates": ""
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Faculty of Arts of Paris",
+			"coordinates": ""
+		},
+		"1": {
+			"name": "Catholic University of Paris",
+			"coordinates": {
+				"latitude": 48.84801513010181,
+				"longitude": 2.3299361601076343,
+				"altitude": null,
+				"precision": 2.777777777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q282883",
+				"name": "Shihab al-Din Suhrawardi"
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q1277332",
+				"name": "Dariush Shayegan"
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q289739",
+				"name": "\u00c9tienne Gilson"
+			},
+			"1": {
+				"id": "Q3170621",
+				"name": "Jean Baruzi"
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q109350513",
+				"name": "Insha-Allah Rahmati"
+			}
+		}
+	}
+}

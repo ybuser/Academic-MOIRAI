@@ -1,1 +1,56 @@
-{"id": "Q7231", "name": "Rosa Luxemburg", "countryOfCitizenship": {"0": "Germany", "1": "Russian Empire"}, "dateOfDeath": {"0": "+1919-01-15T00:00:00Z"}, "dateOfBirth": {"0": "+1871-03-05T00:00:00Z", "1": "+1870-12-25T00:00:00Z", "2": "+1871-03-05T00:00:00Z"}, "occupation": {"0": "politician", "1": "philosopher", "2": "revolutionary", "3": "economist", "4": "journalist", "5": "editor", "6": "political theorist", "7": "botanical collector"}, "educatedAt": {"0": {"name": "University of Zurich", "coordinates": {"latitude": 47.374722222222, "longitude": 8.5483333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "The Accumulation of Capital", "1": "Social Reform or Revolution"}, "image": {"0": "Rosa Luxemburg.jpg"}, "studentOf": {"0": "Julius Wolf"}, "edges": {"influenced": {"0": {"id": "Q505296", "name": "Nikos Poulantzas"}}}}
+{
+	"id": "Q7231",
+	"name": "Rosa Luxemburg",
+	"countryOfCitizenship": {
+		"0": "Germany",
+		"1": "Russian Empire"
+	},
+	"dateOfDeath": {
+		"0": "+1919-01-15T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+1871-03-05T00:00:00Z",
+		"1": "+1870-12-25T00:00:00Z",
+		"2": "+1871-03-05T00:00:00Z"
+	},
+	"occupation": {
+		"0": "politician",
+		"1": "philosopher",
+		"2": "revolutionary",
+		"3": "economist",
+		"4": "journalist",
+		"5": "editor",
+		"6": "political theorist",
+		"7": "botanical collector"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Zurich",
+			"coordinates": {
+				"latitude": 47.374722222222,
+				"longitude": 8.5483333333333,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "The Accumulation of Capital",
+		"1": "Social Reform or Revolution"
+	},
+	"image": {
+		"0": "Rosa Luxemburg.jpg"
+	},
+	"studentOf": {
+		"0": "Julius Wolf"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q505296",
+				"name": "Nikos Poulantzas"
+			}
+		}
+	}
+}

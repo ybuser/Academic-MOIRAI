@@ -1,1 +1,264 @@
-{"id": "Q9438", "name": "Thomas Aquinas", "occupation": {"0": "theologian", "1": "professor", "2": "Latin Catholic priest", "3": "philosopher", "4": "writer", "5": "Catholic theologian", "6": "Catholic friar"}, "image": {"0": "St-thomas-aquinas.jpg"}, "dateOfBirth": {"0": "+1225-01-25T00:00:00Z", "1": "+1225-02-01T00:00:00Z", "2": "+1225-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+1274-03-07T00:00:00Z", "1": "+1274-03-14T00:00:00Z", "2": "+1274-01-01T00:00:00Z"}, "educatedAt": {"0": {"name": "University of Paris", "coordinates": {"latitude": 48.848611, "longitude": 2.343333, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of Naples Federico II", "coordinates": {"latitude": 40.8472, "longitude": 14.2569, "altitude": null, "precision": 0.011875306346696, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "Summa Theologica", "1": "Summa contra Gentiles", "2": "De regimine principum"}, "student": {"0": "Remigio dei Girolami"}, "influencedBy": {"0": "Paul the Apostle", "1": "Gregory I"}, "movement": {"0": "Thomism", "1": "just war theory", "2": "scholasticism"}, "employer": {"0": {"name": "University of Paris", "coordinates": {"latitude": 48.8486, "longitude": 2.34333, "altitude": null, "precision": 0.013651149849302, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "philosophy", "1": "theology"}, "residence": {"0": {"name": "Aquino", "coordinates": {"latitude": 41.49388, "longitude": 13.7052, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "edges": {"student": {"0": {"id": "Q676267", "name": "Henry Bate of Malines"}}, "influenced": {"0": {"id": "Q297493", "name": "Philippa Foot"}, "1": {"id": "Q3170848", "name": "Jean Borella"}, "2": {"id": "Q2439397", "name": "Jaime Balmes"}, "3": {"id": "Q156268", "name": "Pierre Bourdieu"}, "4": {"id": "Q176909", "name": "Walker Percy"}, "5": {"id": "Q313929", "name": "Mortimer Jerome Adler"}, "6": {"id": "Q4887305", "name": "Benedict Pereira"}, "7": {"id": "Q132524", "name": "Ayn Rand"}, "8": {"id": "Q9047", "name": "Gottfried Wilhelm Leibniz"}, "9": {"id": "Q78484", "name": "Rudolf Steiner"}, "10": {"id": "Q229646", "name": "G. E. M. Anscombe"}, "11": {"id": "Q48301", "name": "Martin Heidegger"}, "12": {"id": "Q43936", "name": "William of Ockham"}, "13": {"id": "Q2239003", "name": "Peter Crockaert"}, "14": {"id": "Q1067", "name": "Dante Alighieri"}, "15": {"id": "Q9191", "name": "Ren\u00e9 Descartes"}, "16": {"id": "Q12049595", "name": "Rodrigo de Arriaga"}, "17": {"id": "Q3709773", "name": "Wolfgang Smith"}, "18": {"id": "Q3170173", "name": "Jean-Yves Leloup"}, "19": {"id": "Q183167", "name": "G. K. Chesterton"}}, "studentOf": {"0": {"id": "Q60059", "name": "Albertus Magnus"}}, "influencedBy": {"0": {"id": "Q102851", "name": "Boethius"}, "1": {"id": "Q127398", "name": "Moshe ben Maimon"}, "2": {"id": "Q1541", "name": "Cicero"}, "3": {"id": "Q179759", "name": "Al-Kindi"}, "4": {"id": "Q184500", "name": "Johannes Scotus Eriugena"}, "5": {"id": "Q39837", "name": "Averroes"}, "6": {"id": "Q43939", "name": "Anselm of Canterbury"}, "7": {"id": "Q60059", "name": "Albertus Magnus"}, "8": {"id": "Q8011", "name": "Avicenna"}, "9": {"id": "Q8018", "name": "Augustine of Hippo"}, "10": {"id": "Q859", "name": "Plato"}, "11": {"id": "Q868", "name": "Aristotle"}, "12": {"id": "Q9546", "name": "Al-Ghazali"}}}}
+{
+	"id": "Q9438",
+	"name": "Thomas Aquinas",
+	"occupation": {
+		"0": "theologian",
+		"1": "professor",
+		"2": "Latin Catholic priest",
+		"3": "philosopher",
+		"4": "writer",
+		"5": "Catholic theologian",
+		"6": "Catholic friar"
+	},
+	"image": {
+		"0": "St-thomas-aquinas.jpg"
+	},
+	"dateOfBirth": {
+		"0": "+1225-01-25T00:00:00Z",
+		"1": "+1225-02-01T00:00:00Z",
+		"2": "+1225-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1274-03-07T00:00:00Z",
+		"1": "+1274-03-14T00:00:00Z",
+		"2": "+1274-01-01T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Paris",
+			"coordinates": {
+				"latitude": 48.848611,
+				"longitude": 2.343333,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "University of Naples Federico II",
+			"coordinates": {
+				"latitude": 40.8472,
+				"longitude": 14.2569,
+				"altitude": null,
+				"precision": 0.011875306346696,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "Summa Theologica",
+		"1": "Summa contra Gentiles",
+		"2": "De regimine principum"
+	},
+	"student": {
+		"0": "Remigio dei Girolami"
+	},
+	"influencedBy": {
+		"0": "Paul the Apostle",
+		"1": "Gregory I"
+	},
+	"movement": {
+		"0": "Thomism",
+		"1": "just war theory",
+		"2": "scholasticism"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Paris",
+			"coordinates": {
+				"latitude": 48.8486,
+				"longitude": 2.34333,
+				"altitude": null,
+				"precision": 0.013651149849302,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "theology"
+	},
+	"residence": {
+		"0": {
+			"name": "Aquino",
+			"coordinates": {
+				"latitude": 41.49388,
+				"longitude": 13.7052,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q676267",
+				"name": "Henry Bate of Malines",
+				"similarity": 0.23159976303577423
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q297493",
+				"name": "Philippa Foot"
+			},
+			"1": {
+				"id": "Q3170848",
+				"name": "Jean Borella"
+			},
+			"2": {
+				"id": "Q2439397",
+				"name": "Jaime Balmes"
+			},
+			"3": {
+				"id": "Q156268",
+				"name": "Pierre Bourdieu",
+				"similarity": 0.12449439615011215
+			},
+			"4": {
+				"id": "Q176909",
+				"name": "Walker Percy"
+			},
+			"5": {
+				"id": "Q313929",
+				"name": "Mortimer Jerome Adler"
+			},
+			"6": {
+				"id": "Q4887305",
+				"name": "Benedict Pereira"
+			},
+			"7": {
+				"id": "Q132524",
+				"name": "Ayn Rand",
+				"similarity": 0.1018260195851326
+			},
+			"8": {
+				"id": "Q9047",
+				"name": "Gottfried Wilhelm Leibniz",
+				"similarity": 0.26168227195739746
+			},
+			"9": {
+				"id": "Q78484",
+				"name": "Rudolf Steiner",
+				"similarity": 0.05674445256590843
+			},
+			"10": {
+				"id": "Q229646",
+				"name": "G. E. M. Anscombe",
+				"similarity": 0.3307698965072632
+			},
+			"11": {
+				"id": "Q48301",
+				"name": "Martin Heidegger",
+				"similarity": 0.08436170965433121
+			},
+			"12": {
+				"id": "Q43936",
+				"name": "William of Ockham"
+			},
+			"13": {
+				"id": "Q2239003",
+				"name": "Peter Crockaert"
+			},
+			"14": {
+				"id": "Q1067",
+				"name": "Dante Alighieri",
+				"similarity": 0.34378305077552795
+			},
+			"15": {
+				"id": "Q9191",
+				"name": "Ren\u00e9 Descartes"
+			},
+			"16": {
+				"id": "Q12049595",
+				"name": "Rodrigo de Arriaga"
+			},
+			"17": {
+				"id": "Q3709773",
+				"name": "Wolfgang Smith"
+			},
+			"18": {
+				"id": "Q3170173",
+				"name": "Jean-Yves Leloup"
+			},
+			"19": {
+				"id": "Q183167",
+				"name": "G. K. Chesterton",
+				"similarity": 0.3207390010356903
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q60059",
+				"name": "Albertus Magnus"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q102851",
+				"name": "Boethius",
+				"similarity": 0.3010469377040863
+			},
+			"1": {
+				"id": "Q127398",
+				"name": "Moshe ben Maimon",
+				"similarity": 0.3587060272693634
+			},
+			"2": {
+				"id": "Q1541",
+				"name": "Cicero",
+				"similarity": 0.2606709599494934
+			},
+			"3": {
+				"id": "Q179759",
+				"name": "Al-Kindi",
+				"similarity": 0.3519054353237152
+			},
+			"4": {
+				"id": "Q184500",
+				"name": "Johannes Scotus Eriugena",
+				"similarity": 0.3680790364742279
+			},
+			"5": {
+				"id": "Q39837",
+				"name": "Averroes",
+				"similarity": 0.4082771837711334
+			},
+			"6": {
+				"id": "Q43939",
+				"name": "Anselm of Canterbury",
+				"similarity": 0.2855173349380493
+			},
+			"7": {
+				"id": "Q60059",
+				"name": "Albertus Magnus"
+			},
+			"8": {
+				"id": "Q8011",
+				"name": "Avicenna",
+				"similarity": 0.4232991635799408
+			},
+			"9": {
+				"id": "Q8018",
+				"name": "Augustine of Hippo",
+				"similarity": 0.4498751759529114
+			},
+			"10": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.4566711187362671
+			},
+			"11": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.36963319778442383
+			},
+			"12": {
+				"id": "Q9546",
+				"name": "Al-Ghazali",
+				"similarity": 0.24760515987873077
+			}
+		}
+	}
+}

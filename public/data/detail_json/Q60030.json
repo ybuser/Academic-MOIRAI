@@ -1,1 +1,170 @@
-{"id": "Q60030", "name": "Herbert Marcuse", "movement": {"0": "Frankfurt School"}, "occupation": {"0": "philosopher", "1": "sociologist", "2": "political theorist", "3": "university teacher"}, "countryOfCitizenship": {"0": "German Empire", "1": "Weimar Republic", "2": "United States of America", "3": "West Germany", "4": "Germany"}, "dateOfBirth": {"0": "+1898-07-19T00:00:00Z"}, "dateOfDeath": {"0": "+1979-07-29T00:00:00Z"}, "image": {"0": "Herbert Marcuse in Newton, Massachusetts 1955.jpeg"}, "educatedAt": {"0": {"name": "Harvard University", "coordinates": {"latitude": 42.374443888889, "longitude": -71.116943888889, "altitude": null, "precision": 2.77778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Columbia University", "coordinates": {"latitude": 40.8075, "longitude": -73.961944444444, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Humboldt University of Berlin", "coordinates": {"latitude": 52.518055555556, "longitude": 13.393333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "University of Freiburg", "coordinates": {"latitude": 47.994166666667, "longitude": 7.8469444444444, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "Free University Berlin", "coordinates": {"latitude": 52.453055555556, "longitude": 13.290555555556, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Brandeis University", "coordinates": {"latitude": 42.36566, "longitude": -71.25974, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "University of California, San Diego", "coordinates": {"latitude": 32.88111111111111, "longitude": -117.23805555555556, "altitude": null, "precision": 0.000277778, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "Office of Strategic Services", "coordinates": ""}, "4": {"name": "Goethe University Frankfurt", "coordinates": {"latitude": 50.12791, "longitude": 8.66944, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "Eros and Civilization", "1": "One-Dimensional Man", "2": "Existentialistische Marx-Interpretation", "3": "Counterrevolution and Revolt"}, "fieldOfWork": {"0": "philosophy", "1": "social theory", "2": "Freudo-Marxism"}, "timePeriod": {"0": "contemporary philosophy"}, "edges": {"influenced": {"0": {"id": "Q69773659", "name": "Jos\u00e9 Rafael Herrera"}, "1": {"id": "Q84352", "name": "Andr\u00e9 Gorz"}, "2": {"id": "Q306514", "name": "Abbie Hoffman"}}, "studentOf": {"0": {"id": "Q48301", "name": "Martin Heidegger"}}, "student": {"0": {"id": "Q5765758", "name": "Paul Gottfried"}, "1": {"id": "Q2846598", "name": "Andrew Feenberg"}, "2": {"id": "Q160456", "name": "Angela Davis"}}}}
+{
+	"id": "Q60030",
+	"name": "Herbert Marcuse",
+	"movement": {
+		"0": "Frankfurt School"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "sociologist",
+		"2": "political theorist",
+		"3": "university teacher"
+	},
+	"countryOfCitizenship": {
+		"0": "German Empire",
+		"1": "Weimar Republic",
+		"2": "United States of America",
+		"3": "West Germany",
+		"4": "Germany"
+	},
+	"dateOfBirth": {
+		"0": "+1898-07-19T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1979-07-29T00:00:00Z"
+	},
+	"image": {
+		"0": "Herbert Marcuse in Newton, Massachusetts 1955.jpeg"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Harvard University",
+			"coordinates": {
+				"latitude": 42.374443888889,
+				"longitude": -71.116943888889,
+				"altitude": null,
+				"precision": 2.77778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Columbia University",
+			"coordinates": {
+				"latitude": 40.8075,
+				"longitude": -73.961944444444,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "Humboldt University of Berlin",
+			"coordinates": {
+				"latitude": 52.518055555556,
+				"longitude": 13.393333333333,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "University of Freiburg",
+			"coordinates": {
+				"latitude": 47.994166666667,
+				"longitude": 7.8469444444444,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"name": "Free University Berlin",
+			"coordinates": {
+				"latitude": 52.453055555556,
+				"longitude": 13.290555555556,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Brandeis University",
+			"coordinates": {
+				"latitude": 42.36566,
+				"longitude": -71.25974,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "University of California, San Diego",
+			"coordinates": {
+				"latitude": 32.88111111111111,
+				"longitude": -117.23805555555556,
+				"altitude": null,
+				"precision": 0.000277778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "Office of Strategic Services",
+			"coordinates": ""
+		},
+		"4": {
+			"name": "Goethe University Frankfurt",
+			"coordinates": {
+				"latitude": 50.12791,
+				"longitude": 8.66944,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "Eros and Civilization",
+		"1": "One-Dimensional Man",
+		"2": "Existentialistische Marx-Interpretation",
+		"3": "Counterrevolution and Revolt"
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "social theory",
+		"2": "Freudo-Marxism"
+	},
+	"timePeriod": {
+		"0": "contemporary philosophy"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q69773659",
+				"name": "Jos\u00e9 Rafael Herrera"
+			},
+			"1": {
+				"id": "Q84352",
+				"name": "Andr\u00e9 Gorz"
+			},
+			"2": {
+				"id": "Q306514",
+				"name": "Abbie Hoffman",
+				"similarity": 0.19177041947841644
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q48301",
+				"name": "Martin Heidegger",
+				"similarity": 0.33688828349113464
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q5765758",
+				"name": "Paul Gottfried"
+			},
+			"1": {
+				"id": "Q2846598",
+				"name": "Andrew Feenberg"
+			},
+			"2": {
+				"id": "Q160456",
+				"name": "Angela Davis",
+				"similarity": 0.4448718726634979
+			}
+		}
+	}
+}

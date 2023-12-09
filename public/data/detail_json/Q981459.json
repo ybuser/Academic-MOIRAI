@@ -1,1 +1,47 @@
-{"id": "Q981459", "name": "Pierre Laffitte", "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1823-02-21T00:00:00Z"}, "dateOfDeath": {"0": "+1903-01-04T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "professor"}, "image": {"0": "Laffitte2.jpg"}, "employer": {"0": {"name": "Coll\u00e8ge de France", "coordinates": {"latitude": 48.84917, "longitude": 2.34556, "altitude": null, "precision": 2.7777777777778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "movement": {"0": "positivism"}, "student": {"0": "Miguel Lemos"}, "edges": {"studentOf": {"0": {"id": "Q12718", "name": "Auguste Comte"}}}}
+{
+	"id": "Q981459",
+	"name": "Pierre Laffitte",
+	"countryOfCitizenship": {
+		"0": "France"
+	},
+	"dateOfBirth": {
+		"0": "+1823-02-21T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1903-01-04T00:00:00Z"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "professor"
+	},
+	"image": {
+		"0": "Laffitte2.jpg"
+	},
+	"employer": {
+		"0": {
+			"name": "Coll\u00e8ge de France",
+			"coordinates": {
+				"latitude": 48.84917,
+				"longitude": 2.34556,
+				"altitude": null,
+				"precision": 2.7777777777778e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"movement": {
+		"0": "positivism"
+	},
+	"student": {
+		"0": "Miguel Lemos"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q12718",
+				"name": "Auguste Comte",
+				"similarity": 0.4139290153980255
+			}
+		}
+	}
+}

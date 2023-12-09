@@ -1,1 +1,19 @@
-{"id": "Q11917236", "name": "Diophantus", "occupation": {"0": "philosopher", "1": "rhetorician"}, "student": {"0": "Libanius"}, "edges": {"studentOf": {"0": {"id": "Q18691556", "name": "Julian of Cappadocia"}}}}
+{
+	"id": "Q11917236",
+	"name": "Diophantus",
+	"occupation": {
+		"0": "philosopher",
+		"1": "rhetorician"
+	},
+	"student": {
+		"0": "Libanius"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q18691556",
+				"name": "Julian of Cappadocia"
+			}
+		}
+	}
+}

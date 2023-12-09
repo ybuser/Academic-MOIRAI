@@ -1,1 +1,55 @@
-{"id": "Q817484", "name": "Benjamin Fondane", "countryOfCitizenship": {"0": "France", "1": "Romania"}, "dateOfBirth": {"0": "+1898-11-14T00:00:00Z"}, "dateOfDeath": {"0": "+1944-10-02T00:00:00Z", "1": "+1944-10-03T00:00:00Z"}, "occupation": {"0": "linguist", "1": "poet", "2": "librarian", "3": "film director", "4": "translator", "5": "philosopher", "6": "essayist", "7": "playwright", "8": "screenwriter", "9": "writer", "10": "literary historian", "11": "literary critic", "12": "biographer", "13": "film critic", "14": "literary theorist"}, "educatedAt": {"0": {"name": "Alexandru Ioan Cuza University", "coordinates": {"latitude": 47.174230555556, "longitude": 27.571691666667, "altitude": null, "precision": 2.7777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "image": {"0": "Fondane in his youth.jpg"}, "edges": {"influenced": {"0": {"id": "Q193405", "name": "Emil Cioran"}}}}
+{
+	"id": "Q817484",
+	"name": "Benjamin Fondane",
+	"countryOfCitizenship": {
+		"0": "France",
+		"1": "Romania"
+	},
+	"dateOfBirth": {
+		"0": "+1898-11-14T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1944-10-02T00:00:00Z",
+		"1": "+1944-10-03T00:00:00Z"
+	},
+	"occupation": {
+		"0": "linguist",
+		"1": "poet",
+		"2": "librarian",
+		"3": "film director",
+		"4": "translator",
+		"5": "philosopher",
+		"6": "essayist",
+		"7": "playwright",
+		"8": "screenwriter",
+		"9": "writer",
+		"10": "literary historian",
+		"11": "literary critic",
+		"12": "biographer",
+		"13": "film critic",
+		"14": "literary theorist"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Alexandru Ioan Cuza University",
+			"coordinates": {
+				"latitude": 47.174230555556,
+				"longitude": 27.571691666667,
+				"altitude": null,
+				"precision": 2.7777777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"image": {
+		"0": "Fondane in his youth.jpg"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q193405",
+				"name": "Emil Cioran"
+			}
+		}
+	}
+}

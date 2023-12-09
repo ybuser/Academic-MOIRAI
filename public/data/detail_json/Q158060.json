@@ -1,1 +1,209 @@
-{"id": "Q158060", "name": "W. E. B. Du Bois", "countryOfCitizenship": {"0": "United States of America", "1": "Ghana"}, "dateOfBirth": {"0": "+1868-02-23T00:00:00Z", "1": "+1868-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+1963-08-27T00:00:00Z"}, "image": {"0": "W.E.B. Du Bois by James E. Purdy, 1907 (cropped).jpg"}, "educatedAt": {"0": {"name": "Fisk University", "coordinates": {"latitude": 36.1688, "longitude": -86.8047, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Harvard University", "coordinates": {"latitude": 42.374443888889, "longitude": -71.116943888889, "altitude": null, "precision": 2.77778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Humboldt University of Berlin", "coordinates": {"latitude": 52.518055555556, "longitude": 13.393333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "Heidelberg University", "coordinates": {"latitude": 49.410277777778, "longitude": 8.7063888888889, "altitude": null, "precision": 0.000277778, "globe": "http://www.wikidata.org/entity/Q2"}}, "4": {"name": "Harvard College", "coordinates": {"latitude": 42.374, "longitude": -71.117, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "5": {"name": "Searles High School", "coordinates": {"latitude": 42.19305556, "longitude": -73.35972222, "altitude": null, "precision": 0.012124878554839, "globe": "http://www.wikidata.org/entity/Q2"}}}, "occupation": {"0": "historian", "1": "novelist", "2": "philosopher", "3": "writer", "4": "sociologist", "5": "social worker", "6": "human rights activist", "7": "photographer", "8": "poet", "9": "autobiographer", "10": "opinion journalist", "11": "teacher", "12": "journalist", "13": "art historian", "14": "economist"}, "employer": {"0": {"name": "New School", "coordinates": {"latitude": 40.73534, "longitude": -73.99704, "altitude": null, "precision": 2.77777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Wilberforce University", "coordinates": {"latitude": 39.7175, "longitude": -83.881944, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "University of Georgia", "coordinates": {"latitude": 33.9558, "longitude": -83.3745, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "University of Pennsylvania", "coordinates": {"latitude": 39.95388888888889, "longitude": -75.19305555555556, "altitude": null, "precision": 0.000277778, "globe": "http://www.wikidata.org/entity/Q2"}}, "4": {"name": "Clark Atlanta University", "coordinates": {"latitude": 33.750833333333, "longitude": -84.410277777778, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "civil and political rights"}, "notableWork": {"0": "The Souls of Black Folk", "1": "John Brown", "2": "Black Reconstruction", "3": "Dusk of Dawn", "4": "The Philadelphia Negro"}, "influencedBy": {"0": "Alexander Crummell"}, "residence": {"0": {"name": "Atlanta", "coordinates": {"latitude": 33.756944444444, "longitude": -84.390277777778, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Ghana", "coordinates": {"latitude": 8.03, "longitude": -1.08, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Berlin", "coordinates": {"latitude": 52.516666666667, "longitude": 13.383333333333, "altitude": null, "precision": 0.016666666666667, "globe": "http://www.wikidata.org/entity/Q2"}}}, "edges": {"influencedBy": {"0": {"id": "Q125249", "name": "William James"}}, "influenced": {"0": {"id": "Q572741", "name": "Kwame Anthony Appiah"}}}}
+{
+	"id": "Q158060",
+	"name": "W. E. B. Du Bois",
+	"countryOfCitizenship": {
+		"0": "United States of America",
+		"1": "Ghana"
+	},
+	"dateOfBirth": {
+		"0": "+1868-02-23T00:00:00Z",
+		"1": "+1868-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1963-08-27T00:00:00Z"
+	},
+	"image": {
+		"0": "W.E.B. Du Bois by James E. Purdy, 1907 (cropped).jpg"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Fisk University",
+			"coordinates": {
+				"latitude": 36.1688,
+				"longitude": -86.8047,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Harvard University",
+			"coordinates": {
+				"latitude": 42.374443888889,
+				"longitude": -71.116943888889,
+				"altitude": null,
+				"precision": 2.77778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "Humboldt University of Berlin",
+			"coordinates": {
+				"latitude": 52.518055555556,
+				"longitude": 13.393333333333,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "Heidelberg University",
+			"coordinates": {
+				"latitude": 49.410277777778,
+				"longitude": 8.7063888888889,
+				"altitude": null,
+				"precision": 0.000277778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"name": "Harvard College",
+			"coordinates": {
+				"latitude": 42.374,
+				"longitude": -71.117,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"5": {
+			"name": "Searles High School",
+			"coordinates": {
+				"latitude": 42.19305556,
+				"longitude": -73.35972222,
+				"altitude": null,
+				"precision": 0.012124878554839,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"occupation": {
+		"0": "historian",
+		"1": "novelist",
+		"2": "philosopher",
+		"3": "writer",
+		"4": "sociologist",
+		"5": "social worker",
+		"6": "human rights activist",
+		"7": "photographer",
+		"8": "poet",
+		"9": "autobiographer",
+		"10": "opinion journalist",
+		"11": "teacher",
+		"12": "journalist",
+		"13": "art historian",
+		"14": "economist"
+	},
+	"employer": {
+		"0": {
+			"name": "New School",
+			"coordinates": {
+				"latitude": 40.73534,
+				"longitude": -73.99704,
+				"altitude": null,
+				"precision": 2.77777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Wilberforce University",
+			"coordinates": {
+				"latitude": 39.7175,
+				"longitude": -83.881944,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "University of Georgia",
+			"coordinates": {
+				"latitude": 33.9558,
+				"longitude": -83.3745,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "University of Pennsylvania",
+			"coordinates": {
+				"latitude": 39.95388888888889,
+				"longitude": -75.19305555555556,
+				"altitude": null,
+				"precision": 0.000277778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"name": "Clark Atlanta University",
+			"coordinates": {
+				"latitude": 33.750833333333,
+				"longitude": -84.410277777778,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "civil and political rights"
+	},
+	"notableWork": {
+		"0": "The Souls of Black Folk",
+		"1": "John Brown",
+		"2": "Black Reconstruction",
+		"3": "Dusk of Dawn",
+		"4": "The Philadelphia Negro"
+	},
+	"influencedBy": {
+		"0": "Alexander Crummell"
+	},
+	"residence": {
+		"0": {
+			"name": "Atlanta",
+			"coordinates": {
+				"latitude": 33.756944444444,
+				"longitude": -84.390277777778,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Ghana",
+			"coordinates": {
+				"latitude": 8.03,
+				"longitude": -1.08,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "Berlin",
+			"coordinates": {
+				"latitude": 52.516666666667,
+				"longitude": 13.383333333333,
+				"altitude": null,
+				"precision": 0.016666666666667,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q125249",
+				"name": "William James",
+				"similarity": 0.377123087644577
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q572741",
+				"name": "Kwame Anthony Appiah"
+			}
+		}
+	}
+}

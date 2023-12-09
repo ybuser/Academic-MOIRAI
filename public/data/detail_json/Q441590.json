@@ -1,1 +1,36 @@
-{"id": "Q441590", "name": "Eustathius of Cappadocia", "occupation": {"0": "diplomat", "1": "philosopher"}, "dateOfBirth": {"0": "+0300-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": "Ancient Rome"}, "timePeriod": {"0": "Roman Empire"}, "fieldOfWork": {"0": "philosophy"}, "dateOfDeath": {"0": "+0362-00-00T00:00:00Z"}, "edges": {"studentOf": {"0": {"id": "Q404023", "name": "Aedesius"}, "1": {"id": "Q310916", "name": "Iamblichus"}}}}
+{
+	"id": "Q441590",
+	"name": "Eustathius of Cappadocia",
+	"occupation": {
+		"0": "diplomat",
+		"1": "philosopher"
+	},
+	"dateOfBirth": {
+		"0": "+0300-00-00T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": "Ancient Rome"
+	},
+	"timePeriod": {
+		"0": "Roman Empire"
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"dateOfDeath": {
+		"0": "+0362-00-00T00:00:00Z"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q404023",
+				"name": "Aedesius",
+				"similarity": 0.5145490765571594
+			},
+			"1": {
+				"id": "Q310916",
+				"name": "Iamblichus"
+			}
+		}
+	}
+}

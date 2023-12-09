@@ -1,1 +1,175 @@
-{"id": "Q7251", "name": "Alan Turing", "occupation": {"0": "computer scientist", "1": "mathematician", "2": "university teacher", "3": "cryptographer", "4": "logician", "5": "statistician", "6": "marathon runner", "7": "artificial intelligence researcher"}, "educatedAt": {"0": {"name": "King's College", "coordinates": {"latitude": 52.204166666667, "longitude": 0.11666666666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Princeton University", "coordinates": {"latitude": 40.345277777778, "longitude": -74.656111111111, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Sherborne School", "coordinates": {"latitude": 50.947, "longitude": -2.518, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "Hazlehurst Community Primary School", "coordinates": {"latitude": 53.6390574, "longitude": -2.3285509, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "cryptanalysis", "1": "computer science", "2": "mathematics", "3": "logic", "4": "cryptography"}, "doctralStudent": {"0": "Beatrice Helen Worsley"}, "dateOfDeath": {"0": "+1954-06-07T00:00:00Z"}, "dateOfBirth": {"0": "+1912-06-23T00:00:00Z"}, "countryOfCitizenship": {"0": "United Kingdom"}, "employer": {"0": {"name": "Victoria University of Manchester", "coordinates": {"latitude": 53.4675, "longitude": -2.2325, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Government Communications Headquarters", "coordinates": ""}, "2": {"name": "University of Cambridge", "coordinates": {"latitude": 52.205355979757925, "longitude": 0.11315726963968827, "altitude": null, "precision": 1e-08, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "National Physical Laboratory", "coordinates": {"latitude": 51.426388888889, "longitude": -0.34361111111111, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "On Computable Numbers, with an Application to the Entscheidungsproblem", "1": "Intelligent Machinery", "2": "halting problem", "3": "Turing machine", "4": "Turing test", "5": "Turing completeness", "6": "Church-Turing thesis", "7": "universal Turing machine", "8": "Symmetric Turing machine", "9": "non-deterministic Turing machine", "10": "Bombe", "11": "probabilistic Turing machine", "12": "Turing degree"}, "residence": {"0": {"name": "Maida Vale", "coordinates": {"latitude": 51.5274, "longitude": -0.1899, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Guildford", "coordinates": {"latitude": 51.2354, "longitude": -0.5746, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}}, "influencedBy": {"0": "Max Newman"}, "image": {"0": "Alan Turing (1912-1954) in 1936 at Princeton University.jpg"}, "edges": {"student": {"0": {"id": "Q249984", "name": "Robin Gandy"}}, "studentOf": {"0": {"id": "Q92741", "name": "Alonzo Church"}}, "influenced": {"0": {"id": "Q298521", "name": "Saul Kripke"}}}}
+{
+	"id": "Q7251",
+	"name": "Alan Turing",
+	"occupation": {
+		"0": "computer scientist",
+		"1": "mathematician",
+		"2": "university teacher",
+		"3": "cryptographer",
+		"4": "logician",
+		"5": "statistician",
+		"6": "marathon runner",
+		"7": "artificial intelligence researcher"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "King's College",
+			"coordinates": {
+				"latitude": 52.204166666667,
+				"longitude": 0.11666666666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Princeton University",
+			"coordinates": {
+				"latitude": 40.345277777778,
+				"longitude": -74.656111111111,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "Sherborne School",
+			"coordinates": {
+				"latitude": 50.947,
+				"longitude": -2.518,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "Hazlehurst Community Primary School",
+			"coordinates": {
+				"latitude": 53.6390574,
+				"longitude": -2.3285509,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "cryptanalysis",
+		"1": "computer science",
+		"2": "mathematics",
+		"3": "logic",
+		"4": "cryptography"
+	},
+	"doctralStudent": {
+		"0": "Beatrice Helen Worsley"
+	},
+	"dateOfDeath": {
+		"0": "+1954-06-07T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+1912-06-23T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": "United Kingdom"
+	},
+	"employer": {
+		"0": {
+			"name": "Victoria University of Manchester",
+			"coordinates": {
+				"latitude": 53.4675,
+				"longitude": -2.2325,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Government Communications Headquarters",
+			"coordinates": ""
+		},
+		"2": {
+			"name": "University of Cambridge",
+			"coordinates": {
+				"latitude": 52.205355979757925,
+				"longitude": 0.11315726963968827,
+				"altitude": null,
+				"precision": 1e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "National Physical Laboratory",
+			"coordinates": {
+				"latitude": 51.426388888889,
+				"longitude": -0.34361111111111,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+		"1": "Intelligent Machinery",
+		"2": "halting problem",
+		"3": "Turing machine",
+		"4": "Turing test",
+		"5": "Turing completeness",
+		"6": "Church-Turing thesis",
+		"7": "universal Turing machine",
+		"8": "Symmetric Turing machine",
+		"9": "non-deterministic Turing machine",
+		"10": "Bombe",
+		"11": "probabilistic Turing machine",
+		"12": "Turing degree"
+	},
+	"residence": {
+		"0": {
+			"name": "Maida Vale",
+			"coordinates": {
+				"latitude": 51.5274,
+				"longitude": -0.1899,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Guildford",
+			"coordinates": {
+				"latitude": 51.2354,
+				"longitude": -0.5746,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"influencedBy": {
+		"0": "Max Newman"
+	},
+	"image": {
+		"0": "Alan Turing (1912-1954) in 1936 at Princeton University.jpg"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q249984",
+				"name": "Robin Gandy"
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q92741",
+				"name": "Alonzo Church"
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q298521",
+				"name": "Saul Kripke",
+				"similarity": 0.2745102047920227
+			}
+		}
+	}
+}

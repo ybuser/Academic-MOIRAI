@@ -1,1 +1,49 @@
-{"id": "Q184500", "name": "Johannes Scotus Eriugena", "dateOfBirth": {"0": "+0810-00-00T00:00:00Z", "1": "+0800-00-00T00:00:00Z"}, "dateOfDeath": {"0": "+0877-01-01T00:00:00Z"}, "image": {"0": "Johannes Scottus Eriugena.jpg"}, "occupation": {"0": "philosopher", "1": "translator", "2": "writer"}, "fieldOfWork": {"0": "philosophy"}, "timePeriod": {"0": "9th-century generation"}, "countryOfCitizenship": {"0": "Republic of Ireland"}, "edges": {"influencedBy": {"0": {"id": "Q8018", "name": "Augustine of Hippo"}, "1": {"id": "Q191734", "name": "Gregory of Nyssa"}}, "influenced": {"0": {"id": "Q9438", "name": "Thomas Aquinas"}}}}
+{
+	"id": "Q184500",
+	"name": "Johannes Scotus Eriugena",
+	"dateOfBirth": {
+		"0": "+0810-00-00T00:00:00Z",
+		"1": "+0800-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+0877-01-01T00:00:00Z"
+	},
+	"image": {
+		"0": "Johannes Scottus Eriugena.jpg"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "translator",
+		"2": "writer"
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"timePeriod": {
+		"0": "9th-century generation"
+	},
+	"countryOfCitizenship": {
+		"0": "Republic of Ireland"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q8018",
+				"name": "Augustine of Hippo",
+				"similarity": 0.29074418544769287
+			},
+			"1": {
+				"id": "Q191734",
+				"name": "Gregory of Nyssa",
+				"similarity": 0.3516245484352112
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q9438",
+				"name": "Thomas Aquinas",
+				"similarity": 0.3680790364742279
+			}
+		}
+	}
+}

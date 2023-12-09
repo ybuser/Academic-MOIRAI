@@ -1,1 +1,75 @@
-{"id": "Q524048", "name": "Gentile da Foligno", "dateOfDeath": {"0": "+1348-06-18T00:00:00Z"}, "occupation": {"0": "physician", "1": "university teacher", "2": "philosopher"}, "studentOf": {"0": "Taddeo Alderotti"}, "educatedAt": {"0": {"name": "University of Bologna", "coordinates": {"latitude": 44.493888888889, "longitude": 11.342777777778, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of Padua", "coordinates": {"latitude": 45.42, "longitude": 11.87, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "dateOfBirth": {"0": "+1280-00-00T00:00:00Z", "1": "+1290-00-00T00:00:00Z", "2": "+1201-01-01T00:00:00Z"}, "employer": {"0": {"name": "University of Siena", "coordinates": {"latitude": 43.319166666667, "longitude": 11.3325, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of Perugia", "coordinates": {"latitude": 43.1158, "longitude": 12.3858, "altitude": null, "precision": 2.77777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "medicine"}, "edges": {"studentOf": {"0": {"id": "Q313174", "name": "Pietro d'Abano"}}}}
+{
+	"id": "Q524048",
+	"name": "Gentile da Foligno",
+	"dateOfDeath": {
+		"0": "+1348-06-18T00:00:00Z"
+	},
+	"occupation": {
+		"0": "physician",
+		"1": "university teacher",
+		"2": "philosopher"
+	},
+	"studentOf": {
+		"0": "Taddeo Alderotti"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Bologna",
+			"coordinates": {
+				"latitude": 44.493888888889,
+				"longitude": 11.342777777778,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "University of Padua",
+			"coordinates": {
+				"latitude": 45.42,
+				"longitude": 11.87,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"dateOfBirth": {
+		"0": "+1280-00-00T00:00:00Z",
+		"1": "+1290-00-00T00:00:00Z",
+		"2": "+1201-01-01T00:00:00Z"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Siena",
+			"coordinates": {
+				"latitude": 43.319166666667,
+				"longitude": 11.3325,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "University of Perugia",
+			"coordinates": {
+				"latitude": 43.1158,
+				"longitude": 12.3858,
+				"altitude": null,
+				"precision": 2.77777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "medicine"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q313174",
+				"name": "Pietro d'Abano"
+			}
+		}
+	}
+}

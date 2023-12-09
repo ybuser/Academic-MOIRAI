@@ -1,1 +1,38 @@
-{"id": "Q381211", "name": "Gennadius Scholarius", "image": {"0": "Gennadios II Sholarios.jpg"}, "occupation": {"0": "priest", "1": "philosopher", "2": "writer"}, "dateOfBirth": {"0": "+1400-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+1473-01-01T00:00:00Z"}, "studentOf": {"0": "John Chortasmenos"}, "countryOfCitizenship": {"0": "Byzantine Empire", "1": "Ottoman Empire"}, "edges": {"studentOf": {"0": {"id": "Q220313", "name": "Gemistus Pletho"}, "1": {"id": "Q738727", "name": "Mark of Ephesus"}}}}
+{
+	"id": "Q381211",
+	"name": "Gennadius Scholarius",
+	"image": {
+		"0": "Gennadios II Sholarios.jpg"
+	},
+	"occupation": {
+		"0": "priest",
+		"1": "philosopher",
+		"2": "writer"
+	},
+	"dateOfBirth": {
+		"0": "+1400-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1473-01-01T00:00:00Z"
+	},
+	"studentOf": {
+		"0": "John Chortasmenos"
+	},
+	"countryOfCitizenship": {
+		"0": "Byzantine Empire",
+		"1": "Ottoman Empire"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q220313",
+				"name": "Gemistus Pletho",
+				"similarity": 0.37889721989631653
+			},
+			"1": {
+				"id": "Q738727",
+				"name": "Mark of Ephesus"
+			}
+		}
+	}
+}

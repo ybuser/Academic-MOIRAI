@@ -1,1 +1,34 @@
-{"id": "Q1283657", "name": "Aimoin", "occupation": {"0": "monk", "1": "writer", "2": "historian", "3": "chronicler", "4": "poet", "5": "theologian"}, "dateOfBirth": {"0": "+0960-00-00T00:00:00Z"}, "dateOfDeath": {"0": "+1010-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": "France"}, "fieldOfWork": {"0": "historiography", "1": "poetry", "2": "theology"}, "edges": {"studentOf": {"0": {"id": "Q306658", "name": "Abbo of Fleury"}}}}
+{
+	"id": "Q1283657",
+	"name": "Aimoin",
+	"occupation": {
+		"0": "monk",
+		"1": "writer",
+		"2": "historian",
+		"3": "chronicler",
+		"4": "poet",
+		"5": "theologian"
+	},
+	"dateOfBirth": {
+		"0": "+0960-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1010-00-00T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": "France"
+	},
+	"fieldOfWork": {
+		"0": "historiography",
+		"1": "poetry",
+		"2": "theology"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q306658",
+				"name": "Abbo of Fleury"
+			}
+		}
+	}
+}

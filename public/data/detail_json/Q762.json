@@ -1,142 +1,161 @@
 {
-  "id": "Q762",
-  "name": "Leonardo da Vinci",
-  "countryOfCitizenship": { "0": "Republic of Florence" },
-  "dateOfBirth": { "0": "+1452-04-15T00:00:00Z" },
-  "notableWork": {
-    "0": "Adoration of the Magi",
-    "1": "Virgin of the Rocks",
-    "2": "Mona Lisa",
-    "3": "The Last Supper",
-    "4": "Lady with an Ermine",
-    "5": "Vitruvian Man",
-    "6": "Annunciation",
-    "7": "Saint Jerome in the Wilderness",
-    "8": "The Virgin and Child with Saint Anne",
-    "9": "Saint John the Baptist",
-    "10": "Leonardo's aerial screw",
-    "11": "Portrait of Isabella d'Este",
-    "12": "Head of a Woman",
-    "13": "Salvator Mundi"
-  },
-  "studentOf": {
-    "0": "Andrea del Verrocchio",
-    "1": "Paolo dal Pozzo Toscanelli"
-  },
-  "occupation": {
-    "0": "painter",
-    "1": "engineer",
-    "2": "astronomer",
-    "3": "philosopher",
-    "4": "anatomist",
-    "5": "mathematician",
-    "6": "sculptor",
-    "7": "polymath",
-    "8": "architect",
-    "9": "civil engineer",
-    "10": "diplomat",
-    "11": "inventor",
-    "12": "composer",
-    "13": "physicist",
-    "14": "physiologist",
-    "15": "botanist",
-    "16": "chemist",
-    "17": "zoologist",
-    "18": "caricaturist",
-    "19": "scientist",
-    "20": "architectural draftsperson",
-    "21": "designer",
-    "22": "writer"
-  },
-  "fieldOfWork": {
-    "0": "Renaissance architecture",
-    "1": "scenography",
-    "2": "engineering",
-    "3": "physiology",
-    "4": "art of painting"
-  },
-  "dateOfDeath": { "0": "+1519-05-02T00:00:00Z" },
-  "student": {
-    "0": "Pontormo",
-    "1": "Francesco Melzi",
-    "2": "Andrea Solari",
-    "3": "Cesare da Sesto",
-    "4": "Sala\u00ec"
-  },
-  "movement": { "0": "High Renaissance" },
-  "employer": {
-    "0": { "name": "Ludovico Sforza", "coordinates": "" },
-    "1": { "name": "Cesare Borgia", "coordinates": "" }
-  },
-  "image": {
-    "0": "Francesco Melzi - Portrait of Leonardo.png",
-    "1": "Possible Self-Portrait of Leonardo da Vinci.jpg"
-  },
-  "residence": {
-    "0": {
-      "name": "Venice",
-      "coordinates": {
-        "latitude": 45.439722222222,
-        "longitude": 12.331944444444,
-        "altitude": null,
-        "precision": 0.00027777777777778,
-        "globe": "http://www.wikidata.org/entity/Q2"
-      }
-    },
-    "1": {
-      "name": "Florence",
-      "coordinates": {
-        "latitude": 43.771388888889,
-        "longitude": 11.254166666667,
-        "altitude": null,
-        "precision": 0.00027777777777778,
-        "globe": "http://www.wikidata.org/entity/Q2"
-      }
-    },
-    "2": {
-      "name": "Rome",
-      "coordinates": {
-        "latitude": 41.893055555556,
-        "longitude": 12.482777777778,
-        "altitude": null,
-        "precision": 0.00027777777777778,
-        "globe": "http://www.wikidata.org/entity/Q2"
-      }
-    },
-    "3": {
-      "name": "Florence",
-      "coordinates": {
-        "latitude": 43.771388888889,
-        "longitude": 11.254166666667,
-        "altitude": null,
-        "precision": 0.00027777777777778,
-        "globe": "http://www.wikidata.org/entity/Q2"
-      }
-    },
-    "4": {
-      "name": "Milan",
-      "coordinates": {
-        "latitude": 45.466944444444,
-        "longitude": 9.19,
-        "altitude": null,
-        "precision": 0.00027777777777778,
-        "globe": "http://www.wikidata.org/entity/Q2"
-      }
-    }
-  },
-  "educatedAt": {
-    "0": {
-      "name": "University of Florence",
-      "coordinates": {
-        "latitude": 43.77777,
-        "longitude": 11.25951,
-        "altitude": null,
-        "precision": 1e-5,
-        "globe": "http://www.wikidata.org/entity/Q2"
-      }
-    }
-  },
-  "edges": {
-    "studentOf": { "0": { "id": "Q26648", "name": "John Argyropoulos" } }
-  }
+	"id": "Q762",
+	"name": "Leonardo da Vinci",
+	"countryOfCitizenship": {
+		"0": "Republic of Florence"
+	},
+	"dateOfBirth": {
+		"0": "+1452-04-15T00:00:00Z"
+	},
+	"notableWork": {
+		"0": "Adoration of the Magi",
+		"1": "Virgin of the Rocks",
+		"2": "Mona Lisa",
+		"3": "The Last Supper",
+		"4": "Lady with an Ermine",
+		"5": "Vitruvian Man",
+		"6": "Annunciation",
+		"7": "Saint Jerome in the Wilderness",
+		"8": "The Virgin and Child with Saint Anne",
+		"9": "Saint John the Baptist",
+		"10": "Leonardo's aerial screw",
+		"11": "Portrait of Isabella d'Este",
+		"12": "Head of a Woman",
+		"13": "Salvator Mundi"
+	},
+	"studentOf": {
+		"0": "Andrea del Verrocchio",
+		"1": "Paolo dal Pozzo Toscanelli"
+	},
+	"occupation": {
+		"0": "painter",
+		"1": "engineer",
+		"2": "astronomer",
+		"3": "philosopher",
+		"4": "anatomist",
+		"5": "mathematician",
+		"6": "sculptor",
+		"7": "polymath",
+		"8": "architect",
+		"9": "civil engineer",
+		"10": "diplomat",
+		"11": "inventor",
+		"12": "composer",
+		"13": "physicist",
+		"14": "physiologist",
+		"15": "botanist",
+		"16": "chemist",
+		"17": "zoologist",
+		"18": "caricaturist",
+		"19": "scientist",
+		"20": "architectural draftsperson",
+		"21": "designer",
+		"22": "writer"
+	},
+	"fieldOfWork": {
+		"0": "Renaissance architecture",
+		"1": "scenography",
+		"2": "engineering",
+		"3": "physiology",
+		"4": "art of painting"
+	},
+	"dateOfDeath": {
+		"0": "+1519-05-02T00:00:00Z"
+	},
+	"student": {
+		"0": "Pontormo",
+		"1": "Francesco Melzi",
+		"2": "Andrea Solari",
+		"3": "Cesare da Sesto",
+		"4": "Sala\u00ec"
+	},
+	"movement": {
+		"0": "High Renaissance"
+	},
+	"employer": {
+		"0": {
+			"name": "Ludovico Sforza",
+			"coordinates": ""
+		},
+		"1": {
+			"name": "Cesare Borgia",
+			"coordinates": ""
+		}
+	},
+	"image": {
+		"0": "Francesco Melzi - Portrait of Leonardo.png",
+		"1": "Possible Self-Portrait of Leonardo da Vinci.jpg"
+	},
+	"residence": {
+		"0": {
+			"name": "Venice",
+			"coordinates": {
+				"latitude": 45.439722222222,
+				"longitude": 12.331944444444,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Florence",
+			"coordinates": {
+				"latitude": 43.771388888889,
+				"longitude": 11.254166666667,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "Rome",
+			"coordinates": {
+				"latitude": 41.893055555556,
+				"longitude": 12.482777777778,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "Florence",
+			"coordinates": {
+				"latitude": 43.771388888889,
+				"longitude": 11.254166666667,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"name": "Milan",
+			"coordinates": {
+				"latitude": 45.466944444444,
+				"longitude": 9.19,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Florence",
+			"coordinates": {
+				"latitude": 43.77777,
+				"longitude": 11.25951,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q26648",
+				"name": "John Argyropoulos"
+			}
+		}
+	}
 }

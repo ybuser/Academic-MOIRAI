@@ -1,1 +1,132 @@
-{"id": "Q46830", "name": "Robert Hooke", "dateOfBirth": {"0": "+1635-07-18T00:00:00Z", "1": "+1635-07-28T00:00:00Z", "2": "+1635-00-00T00:00:00Z"}, "dateOfDeath": {"0": "+1703-03-03T00:00:00Z", "1": "+1703-03-14T00:00:00Z"}, "educatedAt": {"0": {"name": "Christ Church", "coordinates": {"latitude": 51.7502, "longitude": -1.25585, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Westminster School", "coordinates": {"latitude": 51.4984, "longitude": -0.1284, "altitude": null, "precision": 2.7777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Wadham College", "coordinates": {"latitude": 51.755871, "longitude": -1.254593, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "University of Oxford", "coordinates": {"latitude": 51.755, "longitude": -1.255, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "occupation": {"0": "architect", "1": "astronomer", "2": "physicist", "3": "diarist", "4": "university teacher", "5": "philosopher", "6": "inventor", "7": "biologist", "8": "naturalist"}, "employer": {"0": {"name": "Royal Society", "coordinates": {"latitude": 51.50611111111111, "longitude": -0.1322222222222222, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Gresham College", "coordinates": {"latitude": 51.5177, "longitude": -0.1098, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "City of London Corporation", "coordinates": ""}}, "countryOfCitizenship": {"0": "Kingdom of England"}, "fieldOfWork": {"0": "mechanics", "1": "physics", "2": "chemistry", "3": "biology", "4": "architecture", "5": "astronomy", "6": "surveying", "7": "mathematics", "8": "materials science"}, "image": {"0": "13 Portrait of Robert Hooke.JPG"}, "studentOf": {"0": "Christopher Wren", "1": "Richard Busby"}, "notableWork": {"0": "Micrographia", "1": "Hooke's law"}, "edges": {"student": {"0": {"id": "Q47434", "name": "Edmond Halley"}}, "studentOf": {"0": {"id": "Q43393", "name": "Robert Boyle"}}}}
+{
+	"id": "Q46830",
+	"name": "Robert Hooke",
+	"dateOfBirth": {
+		"0": "+1635-07-18T00:00:00Z",
+		"1": "+1635-07-28T00:00:00Z",
+		"2": "+1635-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1703-03-03T00:00:00Z",
+		"1": "+1703-03-14T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Christ Church",
+			"coordinates": {
+				"latitude": 51.7502,
+				"longitude": -1.25585,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Westminster School",
+			"coordinates": {
+				"latitude": 51.4984,
+				"longitude": -0.1284,
+				"altitude": null,
+				"precision": 2.7777777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "Wadham College",
+			"coordinates": {
+				"latitude": 51.755871,
+				"longitude": -1.254593,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "University of Oxford",
+			"coordinates": {
+				"latitude": 51.755,
+				"longitude": -1.255,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"occupation": {
+		"0": "architect",
+		"1": "astronomer",
+		"2": "physicist",
+		"3": "diarist",
+		"4": "university teacher",
+		"5": "philosopher",
+		"6": "inventor",
+		"7": "biologist",
+		"8": "naturalist"
+	},
+	"employer": {
+		"0": {
+			"name": "Royal Society",
+			"coordinates": {
+				"latitude": 51.50611111111111,
+				"longitude": -0.1322222222222222,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Gresham College",
+			"coordinates": {
+				"latitude": 51.5177,
+				"longitude": -0.1098,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "City of London Corporation",
+			"coordinates": ""
+		}
+	},
+	"countryOfCitizenship": {
+		"0": "Kingdom of England"
+	},
+	"fieldOfWork": {
+		"0": "mechanics",
+		"1": "physics",
+		"2": "chemistry",
+		"3": "biology",
+		"4": "architecture",
+		"5": "astronomy",
+		"6": "surveying",
+		"7": "mathematics",
+		"8": "materials science"
+	},
+	"image": {
+		"0": "13 Portrait of Robert Hooke.JPG"
+	},
+	"studentOf": {
+		"0": "Christopher Wren",
+		"1": "Richard Busby"
+	},
+	"notableWork": {
+		"0": "Micrographia",
+		"1": "Hooke's law"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q47434",
+				"name": "Edmond Halley",
+				"similarity": 0.585505485534668
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q43393",
+				"name": "Robert Boyle"
+			}
+		}
+	}
+}

@@ -1,1 +1,62 @@
-{"id": "Q12735", "name": "John Amos Comenius", "image": {"0": "Jan Amos Comenius (Komensky) (1592-1670). Tsjechisch humanist en pedagoog. Als voorganger van de Moravische of Boheemse Broedergemeente verdreven en sedert 1656 gevestigd te Amsterdam Rijksmuseum SK-A-2161.jpeg"}, "dateOfBirth": {"0": "+1592-03-28T00:00:00Z", "1": "+1592-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+1670-11-15T00:00:00Z", "1": "+1670-01-01T00:00:00Z"}, "countryOfCitizenship": {"0": "Habsburg monarchy"}, "educatedAt": {"0": {"name": "Heidelberg University", "coordinates": {"latitude": 49.410277777778, "longitude": 8.7063888888889, "altitude": null, "precision": 0.000277778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "occupation": {"0": "teacher", "1": "pedagogue", "2": "philosopher", "3": "scientist", "4": "theologian", "5": "linguist", "6": "presbyter", "7": "writer"}, "fieldOfWork": {"0": "pedagogy", "1": "theology", "2": "philosophy", "3": "natural philosophy", "4": "science", "5": "literature", "6": "religious emigration"}, "edges": {"influenced": {"0": {"id": "Q648051", "name": "Andrzej Maksymilian Fredro"}, "1": {"id": "Q9047", "name": "Gottfried Wilhelm Leibniz"}}}}
+{
+	"id": "Q12735",
+	"name": "John Amos Comenius",
+	"image": {
+		"0": "Jan Amos Comenius (Komensky) (1592-1670). Tsjechisch humanist en pedagoog. Als voorganger van de Moravische of Boheemse Broedergemeente verdreven en sedert 1656 gevestigd te Amsterdam Rijksmuseum SK-A-2161.jpeg"
+	},
+	"dateOfBirth": {
+		"0": "+1592-03-28T00:00:00Z",
+		"1": "+1592-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1670-11-15T00:00:00Z",
+		"1": "+1670-01-01T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": "Habsburg monarchy"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Heidelberg University",
+			"coordinates": {
+				"latitude": 49.410277777778,
+				"longitude": 8.7063888888889,
+				"altitude": null,
+				"precision": 0.000277778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"occupation": {
+		"0": "teacher",
+		"1": "pedagogue",
+		"2": "philosopher",
+		"3": "scientist",
+		"4": "theologian",
+		"5": "linguist",
+		"6": "presbyter",
+		"7": "writer"
+	},
+	"fieldOfWork": {
+		"0": "pedagogy",
+		"1": "theology",
+		"2": "philosophy",
+		"3": "natural philosophy",
+		"4": "science",
+		"5": "literature",
+		"6": "religious emigration"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q648051",
+				"name": "Andrzej Maksymilian Fredro"
+			},
+			"1": {
+				"id": "Q9047",
+				"name": "Gottfried Wilhelm Leibniz",
+				"similarity": 0.2511499226093292
+			}
+		}
+	}
+}

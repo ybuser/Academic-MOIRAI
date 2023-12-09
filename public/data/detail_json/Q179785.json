@@ -1,1 +1,48 @@
-{"id": "Q179785", "name": "Gorgias", "dateOfBirth": {"0": "-0483-00-00T00:00:00Z", "1": "-0485-01-01T00:00:00Z"}, "dateOfDeath": {"0": "-0375-00-00T00:00:00Z"}, "occupation": {"0": "sophist"}, "fieldOfWork": {"0": "philosophy"}, "movement": {"0": "sophism", "1": "Pre-Socratic philosophy", "2": "sophist"}, "image": {"0": "Gorgia di Leontini.png"}, "edges": {"student": {"0": {"id": "Q221182", "name": "Isocrates"}, "1": {"id": "Q5264", "name": "Hippocrates"}, "2": {"id": "Q372798", "name": "Polus"}}, "studentOf": {"0": {"id": "Q83375", "name": "Empedocles"}}}}
+{
+	"id": "Q179785",
+	"name": "Gorgias",
+	"dateOfBirth": {
+		"0": "-0483-00-00T00:00:00Z",
+		"1": "-0485-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0375-00-00T00:00:00Z"
+	},
+	"occupation": {
+		"0": "sophist"
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"movement": {
+		"0": "sophism",
+		"1": "Pre-Socratic philosophy",
+		"2": "sophist"
+	},
+	"image": {
+		"0": "Gorgia di Leontini.png"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q221182",
+				"name": "Isocrates"
+			},
+			"1": {
+				"id": "Q5264",
+				"name": "Hippocrates",
+				"similarity": 0.38933441042900085
+			},
+			"2": {
+				"id": "Q372798",
+				"name": "Polus"
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q83375",
+				"name": "Empedocles"
+			}
+		}
+	}
+}

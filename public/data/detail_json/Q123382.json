@@ -1,1 +1,125 @@
-{"id": "Q123382", "name": "Frithjof Schuon", "countryOfCitizenship": {"0": "Switzerland"}, "dateOfBirth": {"0": "+1907-06-18T00:00:00Z"}, "dateOfDeath": {"0": "+1998-05-05T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "poet", "2": "painter"}, "influencedBy": {"0": "Ahmad al-Alawi"}, "movement": {"0": "Traditionalist School", "1": "perennial philosophy"}, "student": {"0": "Leo Schaya"}, "image": {"0": "Frithjof-Schuon-circa-1980.jpg"}, "notableWork": {"0": "The Transcendent Unity of Religions", "1": "Logic and Transcendence", "2": "Understanding Islam", "3": "Form and Substance in Religions", "4": "The Transfiguration of Man"}, "fieldOfWork": {"0": "spirituality"}, "edges": {"influenced": {"0": {"id": "Q957553", "name": "Martin Lings"}, "1": {"id": "Q110733987", "name": "Kamal Eleanz"}, "2": {"id": "Q5950051", "name": "Huston Smith"}, "3": {"id": "Q3170848", "name": "Jean Borella"}, "4": {"id": "Q471041", "name": "Seyyed Hossein Nasr"}, "5": {"id": "Q84186", "name": "Ivan Illich"}, "6": {"id": "Q729048", "name": "Olavo de Carvalho"}, "7": {"id": "Q123413", "name": "Titus Burckhardt"}}, "student": {"0": {"id": "Q957553", "name": "Martin Lings"}, "1": {"id": "Q123413", "name": "Titus Burckhardt"}, "2": {"id": "Q471041", "name": "Seyyed Hossein Nasr"}}, "influencedBy": {"0": {"id": "Q496850", "name": "Ren\u00e9 Gu\u00e9non"}, "1": {"id": "Q180967", "name": "Adi Shankara"}, "2": {"id": "Q859", "name": "Plato"}, "3": {"id": "Q46420", "name": "Ibn Arabi"}, "4": {"id": "Q76548", "name": "Meister Eckhart"}, "5": {"id": "Q243787", "name": "Gregory Palamas"}}}}
+{
+	"id": "Q123382",
+	"name": "Frithjof Schuon",
+	"countryOfCitizenship": {
+		"0": "Switzerland"
+	},
+	"dateOfBirth": {
+		"0": "+1907-06-18T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1998-05-05T00:00:00Z"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "poet",
+		"2": "painter"
+	},
+	"influencedBy": {
+		"0": "Ahmad al-Alawi"
+	},
+	"movement": {
+		"0": "Traditionalist School",
+		"1": "perennial philosophy"
+	},
+	"student": {
+		"0": "Leo Schaya"
+	},
+	"image": {
+		"0": "Frithjof-Schuon-circa-1980.jpg"
+	},
+	"notableWork": {
+		"0": "The Transcendent Unity of Religions",
+		"1": "Logic and Transcendence",
+		"2": "Understanding Islam",
+		"3": "Form and Substance in Religions",
+		"4": "The Transfiguration of Man"
+	},
+	"fieldOfWork": {
+		"0": "spirituality"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q957553",
+				"name": "Martin Lings"
+			},
+			"1": {
+				"id": "Q110733987",
+				"name": "Kamal Eleanz"
+			},
+			"2": {
+				"id": "Q5950051",
+				"name": "Huston Smith"
+			},
+			"3": {
+				"id": "Q3170848",
+				"name": "Jean Borella"
+			},
+			"4": {
+				"id": "Q471041",
+				"name": "Seyyed Hossein Nasr",
+				"similarity": 0.31877171993255615
+			},
+			"5": {
+				"id": "Q84186",
+				"name": "Ivan Illich"
+			},
+			"6": {
+				"id": "Q729048",
+				"name": "Olavo de Carvalho",
+				"similarity": 0.1447014957666397
+			},
+			"7": {
+				"id": "Q123413",
+				"name": "Titus Burckhardt"
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q957553",
+				"name": "Martin Lings"
+			},
+			"1": {
+				"id": "Q123413",
+				"name": "Titus Burckhardt"
+			},
+			"2": {
+				"id": "Q471041",
+				"name": "Seyyed Hossein Nasr",
+				"similarity": 0.31877171993255615
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q496850",
+				"name": "Ren\u00e9 Gu\u00e9non"
+			},
+			"1": {
+				"id": "Q180967",
+				"name": "Adi Shankara",
+				"similarity": 0.2370084971189499
+			},
+			"2": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.27015501260757446
+			},
+			"3": {
+				"id": "Q46420",
+				"name": "Ibn Arabi",
+				"similarity": 0.20462487637996674
+			},
+			"4": {
+				"id": "Q76548",
+				"name": "Meister Eckhart",
+				"similarity": 0.1984037458896637
+			},
+			"5": {
+				"id": "Q243787",
+				"name": "Gregory Palamas",
+				"similarity": 0.23296691477298737
+			}
+		}
+	}
+}

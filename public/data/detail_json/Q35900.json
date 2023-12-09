@@ -1,1 +1,73 @@
-{"id": "Q35900", "name": "Omar Khayy\u00e1m", "dateOfBirth": {"0": "+1048-05-18T00:00:00Z", "1": "+1048-05-15T00:00:00Z"}, "dateOfDeath": {"0": "+1131-12-04T00:00:00Z"}, "occupation": {"0": "mathematician", "1": "astronomer", "2": "poet", "3": "lyricist", "4": "philosopher", "5": "musician", "6": "astrologer", "7": "writer", "8": "physicist"}, "countryOfCitizenship": {"0": "Seljuk Empire"}, "fieldOfWork": {"0": "poetry", "1": "mathematics", "2": "astronomy"}, "student": {"0": "Al-Isfizari"}, "movement": {"0": "Persian literature", "1": "Iranian philosophy", "2": "Islamic Golden Age"}, "timePeriod": {"0": "Middle Ages"}, "image": {"0": "Omar Khayyam2.JPG", "1": "Hakim Omar Khayam - panoramio.jpg"}, "notableWork": {"0": "Rub\u00e1iy\u00e1t of Omar Khayy\u00e1m", "1": "Solar Hijri calendar"}, "edges": {"student": {"0": {"id": "Q2991836", "name": "Al-Khazini"}, "1": {"id": "Q1152795", "name": "Nizami Aruzi"}}, "influencedBy": {"0": {"id": "Q8011", "name": "Avicenna"}, "1": {"id": "Q11826", "name": "Al-Biruni"}}}}
+{
+	"id": "Q35900",
+	"name": "Omar Khayy\u00e1m",
+	"dateOfBirth": {
+		"0": "+1048-05-18T00:00:00Z",
+		"1": "+1048-05-15T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1131-12-04T00:00:00Z"
+	},
+	"occupation": {
+		"0": "mathematician",
+		"1": "astronomer",
+		"2": "poet",
+		"3": "lyricist",
+		"4": "philosopher",
+		"5": "musician",
+		"6": "astrologer",
+		"7": "writer",
+		"8": "physicist"
+	},
+	"countryOfCitizenship": {
+		"0": "Seljuk Empire"
+	},
+	"fieldOfWork": {
+		"0": "poetry",
+		"1": "mathematics",
+		"2": "astronomy"
+	},
+	"student": {
+		"0": "Al-Isfizari"
+	},
+	"movement": {
+		"0": "Persian literature",
+		"1": "Iranian philosophy",
+		"2": "Islamic Golden Age"
+	},
+	"timePeriod": {
+		"0": "Middle Ages"
+	},
+	"image": {
+		"0": "Omar Khayyam2.JPG",
+		"1": "Hakim Omar Khayam - panoramio.jpg"
+	},
+	"notableWork": {
+		"0": "Rub\u00e1iy\u00e1t of Omar Khayy\u00e1m",
+		"1": "Solar Hijri calendar"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q2991836",
+				"name": "Al-Khazini"
+			},
+			"1": {
+				"id": "Q1152795",
+				"name": "Nizami Aruzi"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q8011",
+				"name": "Avicenna",
+				"similarity": 0.4680110216140747
+			},
+			"1": {
+				"id": "Q11826",
+				"name": "Al-Biruni",
+				"similarity": 0.33294689655303955
+			}
+		}
+	}
+}

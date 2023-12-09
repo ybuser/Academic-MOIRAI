@@ -1,1 +1,130 @@
-{"id": "Q7197", "name": "Simone de Beauvoir", "occupation": {"0": "political philosopher", "1": "journalist", "2": "novelist", "3": "autobiographer", "4": "essayist", "5": "political activist", "6": "diarist", "7": "women letter writer", "8": "philosopher", "9": "literary critic", "10": "writer", "11": "author", "12": "feminist", "13": "philosophy teacher"}, "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1908-01-09T00:00:00Z"}, "dateOfDeath": {"0": "+1986-04-14T00:00:00Z"}, "educatedAt": {"0": {"name": "University of Paris", "coordinates": {"latitude": 48.8486, "longitude": 2.34333, "altitude": null, "precision": 0.013651149849302, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Lyc\u00e9e F\u00e9nelon, Paris", "coordinates": {"latitude": 48.85315278, "longitude": 2.34038333, "altitude": null, "precision": 2.77777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "movement": {"0": "atheism", "1": "feminism", "2": "existentialism"}, "notableWork": {"0": "The Mandarins", "1": "When Things of the Spirit Come First", "2": "Pyrrhus and Cineas", "3": "Le Deuxi\u00e8me Sexe", "4": "She Came to Stay", "5": "Force of Circumstance"}, "influencedBy": {"0": "Alfred Adler"}, "fieldOfWork": {"0": "philosophy", "1": "essay", "2": "autobiography", "3": "novel", "4": "feminism", "5": "existentialism"}, "image": {"0": "Simone de Beauvoir2.png"}, "residence": {"0": {"name": "Paris", "coordinates": {"latitude": 48.85666666666667, "longitude": 2.352222222222222, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Marseille", "coordinates": {"latitude": 43.296666666667, "longitude": 5.3763888888889, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Rouen", "coordinates": {"latitude": 49.443055555556, "longitude": 1.1025, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "edges": {"influencedBy": {"0": {"id": "Q9364", "name": "Jean-Paul Sartre"}}, "influenced": {"0": {"id": "Q34670", "name": "Albert Camus"}, "1": {"id": "Q274309", "name": "\u00c9lisabeth Badinter"}}}}
+{
+	"id": "Q7197",
+	"name": "Simone de Beauvoir",
+	"occupation": {
+		"0": "political philosopher",
+		"1": "journalist",
+		"2": "novelist",
+		"3": "autobiographer",
+		"4": "essayist",
+		"5": "political activist",
+		"6": "diarist",
+		"7": "women letter writer",
+		"8": "philosopher",
+		"9": "literary critic",
+		"10": "writer",
+		"11": "author",
+		"12": "feminist",
+		"13": "philosophy teacher"
+	},
+	"countryOfCitizenship": {
+		"0": "France"
+	},
+	"dateOfBirth": {
+		"0": "+1908-01-09T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1986-04-14T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Paris",
+			"coordinates": {
+				"latitude": 48.8486,
+				"longitude": 2.34333,
+				"altitude": null,
+				"precision": 0.013651149849302,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Lyc\u00e9e F\u00e9nelon, Paris",
+			"coordinates": {
+				"latitude": 48.85315278,
+				"longitude": 2.34038333,
+				"altitude": null,
+				"precision": 2.77777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"movement": {
+		"0": "atheism",
+		"1": "feminism",
+		"2": "existentialism"
+	},
+	"notableWork": {
+		"0": "The Mandarins",
+		"1": "When Things of the Spirit Come First",
+		"2": "Pyrrhus and Cineas",
+		"3": "Le Deuxi\u00e8me Sexe",
+		"4": "She Came to Stay",
+		"5": "Force of Circumstance"
+	},
+	"influencedBy": {
+		"0": "Alfred Adler"
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "essay",
+		"2": "autobiography",
+		"3": "novel",
+		"4": "feminism",
+		"5": "existentialism"
+	},
+	"image": {
+		"0": "Simone de Beauvoir2.png"
+	},
+	"residence": {
+		"0": {
+			"name": "Paris",
+			"coordinates": {
+				"latitude": 48.85666666666667,
+				"longitude": 2.352222222222222,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Marseille",
+			"coordinates": {
+				"latitude": 43.296666666667,
+				"longitude": 5.3763888888889,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "Rouen",
+			"coordinates": {
+				"latitude": 49.443055555556,
+				"longitude": 1.1025,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q9364",
+				"name": "Jean-Paul Sartre",
+				"similarity": 0.47824400663375854
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q34670",
+				"name": "Albert Camus",
+				"similarity": 0.36086177825927734
+			},
+			"1": {
+				"id": "Q274309",
+				"name": "\u00c9lisabeth Badinter"
+			}
+		}
+	}
+}

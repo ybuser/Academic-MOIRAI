@@ -1,1 +1,127 @@
-{"id": "Q127398", "name": "Moshe ben Maimon", "occupation": {"0": "philosopher", "1": "physician writer", "2": "rabbi", "3": "astronomer", "4": "dayan", "5": "writer", "6": "physician"}, "image": {"0": "Maimonides-2.jpg", "1": "Maim\u00f2nides.jpg"}, "dateOfDeath": {"0": "+1204-12-13T00:00:00Z"}, "dateOfBirth": {"0": "+1138-03-30T00:00:00Z", "1": "+1135-03-30T00:00:00Z"}, "notableWork": {"0": "Mishneh Torah", "1": "The Guide for the Perplexed", "2": "Pirush Hamishnayot", "3": "Epistle to Yemen", "4": "Sefer Hamitzvot", "5": "Hakdamot HaRambam", "6": "Treatise in Eight Chapters", "7": "Treatise on logic"}, "fieldOfWork": {"0": "philosophy", "1": "medicine", "2": "Torah", "3": "Halakha", "4": "Jewish philosophy", "5": "Judaism"}, "studentOf": {"0": "Maimon ben Yossef HaDayan", "1": "Yehuda Ha-Cohen Ibn Susan"}, "educatedAt": {"0": {"name": "University of al-Qarawiyyin", "coordinates": {"latitude": 34.064444444444, "longitude": -4.9733333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "countryOfCitizenship": {"0": "al-Andalus"}, "edges": {"influenced": {"0": {"id": "Q35802", "name": "Benedictus de Spinoza"}, "1": {"id": "Q559622", "name": "Joseph Albo"}, "2": {"id": "Q6992366", "name": "Shem-Tov Gefen"}, "3": {"id": "Q215927", "name": "Yeshayahu Leibowitz"}, "4": {"id": "Q528415", "name": "Hasdai Crescas"}, "5": {"id": "Q9438", "name": "Thomas Aquinas"}, "6": {"id": "Q9047", "name": "Gottfried Wilhelm Leibniz"}, "7": {"id": "Q465763", "name": "Salomon Maimon"}}, "influencedBy": {"0": {"id": "Q8011", "name": "Avicenna"}, "1": {"id": "Q160460", "name": "Al-Farabi"}, "2": {"id": "Q11362", "name": "Avempace"}, "3": {"id": "Q868", "name": "Aristotle"}, "4": {"id": "Q39837", "name": "Averroes"}}}}
+{
+	"id": "Q127398",
+	"name": "Moshe ben Maimon",
+	"occupation": {
+		"0": "philosopher",
+		"1": "physician writer",
+		"2": "rabbi",
+		"3": "astronomer",
+		"4": "dayan",
+		"5": "writer",
+		"6": "physician"
+	},
+	"image": {
+		"0": "Maimonides-2.jpg",
+		"1": "Maim\u00f2nides.jpg"
+	},
+	"dateOfDeath": {
+		"0": "+1204-12-13T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+1138-03-30T00:00:00Z",
+		"1": "+1135-03-30T00:00:00Z"
+	},
+	"notableWork": {
+		"0": "Mishneh Torah",
+		"1": "The Guide for the Perplexed",
+		"2": "Pirush Hamishnayot",
+		"3": "Epistle to Yemen",
+		"4": "Sefer Hamitzvot",
+		"5": "Hakdamot HaRambam",
+		"6": "Treatise in Eight Chapters",
+		"7": "Treatise on logic"
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "medicine",
+		"2": "Torah",
+		"3": "Halakha",
+		"4": "Jewish philosophy",
+		"5": "Judaism"
+	},
+	"studentOf": {
+		"0": "Maimon ben Yossef HaDayan",
+		"1": "Yehuda Ha-Cohen Ibn Susan"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of al-Qarawiyyin",
+			"coordinates": {
+				"latitude": 34.064444444444,
+				"longitude": -4.9733333333333,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"countryOfCitizenship": {
+		"0": "al-Andalus"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q35802",
+				"name": "Benedictus de Spinoza",
+				"similarity": 0.2736874222755432
+			},
+			"1": {
+				"id": "Q559622",
+				"name": "Joseph Albo"
+			},
+			"2": {
+				"id": "Q6992366",
+				"name": "Shem-Tov Gefen"
+			},
+			"3": {
+				"id": "Q215927",
+				"name": "Yeshayahu Leibowitz"
+			},
+			"4": {
+				"id": "Q528415",
+				"name": "Hasdai Crescas"
+			},
+			"5": {
+				"id": "Q9438",
+				"name": "Thomas Aquinas",
+				"similarity": 0.3587060272693634
+			},
+			"6": {
+				"id": "Q9047",
+				"name": "Gottfried Wilhelm Leibniz",
+				"similarity": 0.23376955091953278
+			},
+			"7": {
+				"id": "Q465763",
+				"name": "Salomon Maimon"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q8011",
+				"name": "Avicenna",
+				"similarity": 0.4208851754665375
+			},
+			"1": {
+				"id": "Q160460",
+				"name": "Al-Farabi",
+				"similarity": 0.27760645747184753
+			},
+			"2": {
+				"id": "Q11362",
+				"name": "Avempace",
+				"similarity": 0.3270816206932068
+			},
+			"3": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.2477293461561203
+			},
+			"4": {
+				"id": "Q39837",
+				"name": "Averroes",
+				"similarity": 0.36019250750541687
+			}
+		}
+	}
+}

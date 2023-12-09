@@ -1,1 +1,100 @@
-{"id": "Q2066255", "name": "Fazlur Rahman Malik", "dateOfBirth": {"0": "+1919-09-21T00:00:00Z"}, "dateOfDeath": {"0": "+1988-07-26T00:00:00Z"}, "occupation": {"0": "theologian", "1": "writer", "2": "university teacher", "3": "philosopher", "4": "arabist"}, "countryOfCitizenship": {"0": "India", "1": "British Raj", "2": "Dominion of India"}, "employer": {"0": {"name": "University of Chicago", "coordinates": {"latitude": 41.789722222222, "longitude": -87.599722222222, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Durham University", "coordinates": {"latitude": 54.775, "longitude": -1.575, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "McGill University", "coordinates": {"latitude": 45.50416944444444, "longitude": -73.57471944444444, "altitude": null, "precision": 2.777777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "Central Institute of Islamic Research (Pakistan)", "coordinates": ""}}, "educatedAt": {"0": {"name": "University of the Punjab", "coordinates": {"latitude": 31.292780555555556, "longitude": 74.17471944444445, "altitude": null, "precision": 2.777777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of Oxford", "coordinates": {"latitude": 51.755, "longitude": -1.255, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "Islam"}, "fieldOfWork": {"0": "Islamic philosophy", "1": "sharia"}, "edges": {"influencedBy": {"0": {"id": "Q484141", "name": "Muhammad Iqbal"}, "1": {"id": "Q392835", "name": "Shah Waliullah Dehlawi"}}}}
+{
+	"id": "Q2066255",
+	"name": "Fazlur Rahman Malik",
+	"dateOfBirth": {
+		"0": "+1919-09-21T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1988-07-26T00:00:00Z"
+	},
+	"occupation": {
+		"0": "theologian",
+		"1": "writer",
+		"2": "university teacher",
+		"3": "philosopher",
+		"4": "arabist"
+	},
+	"countryOfCitizenship": {
+		"0": "India",
+		"1": "British Raj",
+		"2": "Dominion of India"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Chicago",
+			"coordinates": {
+				"latitude": 41.789722222222,
+				"longitude": -87.599722222222,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Durham University",
+			"coordinates": {
+				"latitude": 54.775,
+				"longitude": -1.575,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "McGill University",
+			"coordinates": {
+				"latitude": 45.50416944444444,
+				"longitude": -73.57471944444444,
+				"altitude": null,
+				"precision": 2.777777777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "Central Institute of Islamic Research (Pakistan)",
+			"coordinates": ""
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of the Punjab",
+			"coordinates": {
+				"latitude": 31.292780555555556,
+				"longitude": 74.17471944444445,
+				"altitude": null,
+				"precision": 2.777777777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "University of Oxford",
+			"coordinates": {
+				"latitude": 51.755,
+				"longitude": -1.255,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "Islam"
+	},
+	"fieldOfWork": {
+		"0": "Islamic philosophy",
+		"1": "sharia"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q484141",
+				"name": "Muhammad Iqbal",
+				"similarity": 0.4317108690738678
+			},
+			"1": {
+				"id": "Q392835",
+				"name": "Shah Waliullah Dehlawi"
+			}
+		}
+	}
+}

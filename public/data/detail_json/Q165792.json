@@ -1,1 +1,117 @@
-{"id": "Q165792", "name": "Edmund Burke", "countryOfCitizenship": {"0": "Kingdom of Ireland"}, "dateOfBirth": {"0": "+1729-01-12T00:00:00Z", "1": "+1729-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+1797-07-09T00:00:00Z", "1": "+1797-01-01T00:00:00Z"}, "image": {"0": "Sir Joshua Reynolds - Edmund Burke, 1729 - 1797. Statesman, orator and author - PG 2362 - National Galleries of Scotland.jpg"}, "occupation": {"0": "politician", "1": "philosopher", "2": "writer", "3": "political scientist"}, "educatedAt": {"0": {"name": "Trinity College Dublin", "coordinates": {"latitude": 53.3444, "longitude": -6.2577, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "Reflections on the Revolution in France", "1": "A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful", "2": "Reflections on the Revolution in France"}, "influencedBy": {"0": "Church Fathers", "1": "Richard Hooker", "2": "William Blackstone"}, "movement": {"0": "liberal conservatism", "1": "counter-revolutionary"}, "employer": {"0": {"name": "University of Glasgow", "coordinates": {"latitude": 55.871944444444, "longitude": -4.2875, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "political science", "1": "political ideology", "2": "conservatism", "3": "philosophy"}, "edges": {"influenced": {"0": {"id": "Q445939", "name": "Roger Scruton"}, "1": {"id": "Q60025", "name": "Hannah Arendt"}, "2": {"id": "Q10320719", "name": "Luiz Felipe Pond\u00e9"}, "3": {"id": "Q183167", "name": "G. K. Chesterton"}}, "influencedBy": {"0": {"id": "Q868", "name": "Aristotle"}, "1": {"id": "Q1541", "name": "Cicero"}, "2": {"id": "Q15975", "name": "Montesquieu"}, "3": {"id": "Q9353", "name": "John Locke"}, "4": {"id": "Q37160", "name": "David Hume"}}}}
+{
+	"id": "Q165792",
+	"name": "Edmund Burke",
+	"countryOfCitizenship": {
+		"0": "Kingdom of Ireland"
+	},
+	"dateOfBirth": {
+		"0": "+1729-01-12T00:00:00Z",
+		"1": "+1729-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1797-07-09T00:00:00Z",
+		"1": "+1797-01-01T00:00:00Z"
+	},
+	"image": {
+		"0": "Sir Joshua Reynolds - Edmund Burke, 1729 - 1797. Statesman, orator and author - PG 2362 - National Galleries of Scotland.jpg"
+	},
+	"occupation": {
+		"0": "politician",
+		"1": "philosopher",
+		"2": "writer",
+		"3": "political scientist"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Trinity College Dublin",
+			"coordinates": {
+				"latitude": 53.3444,
+				"longitude": -6.2577,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "Reflections on the Revolution in France",
+		"1": "A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful",
+		"2": "Reflections on the Revolution in France"
+	},
+	"influencedBy": {
+		"0": "Church Fathers",
+		"1": "Richard Hooker",
+		"2": "William Blackstone"
+	},
+	"movement": {
+		"0": "liberal conservatism",
+		"1": "counter-revolutionary"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Glasgow",
+			"coordinates": {
+				"latitude": 55.871944444444,
+				"longitude": -4.2875,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "political science",
+		"1": "political ideology",
+		"2": "conservatism",
+		"3": "philosophy"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q445939",
+				"name": "Roger Scruton",
+				"similarity": 0.28530624508857727
+			},
+			"1": {
+				"id": "Q60025",
+				"name": "Hannah Arendt",
+				"similarity": 0.12580718100070953
+			},
+			"2": {
+				"id": "Q10320719",
+				"name": "Luiz Felipe Pond\u00e9"
+			},
+			"3": {
+				"id": "Q183167",
+				"name": "G. K. Chesterton",
+				"similarity": 0.16388840973377228
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.06230351701378822
+			},
+			"1": {
+				"id": "Q1541",
+				"name": "Cicero",
+				"similarity": 0.2854149639606476
+			},
+			"2": {
+				"id": "Q15975",
+				"name": "Montesquieu"
+			},
+			"3": {
+				"id": "Q9353",
+				"name": "John Locke",
+				"similarity": 0.22946889698505402
+			},
+			"4": {
+				"id": "Q37160",
+				"name": "David Hume",
+				"similarity": 0.20290151238441467
+			}
+		}
+	}
+}

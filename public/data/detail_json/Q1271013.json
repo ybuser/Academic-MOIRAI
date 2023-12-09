@@ -1,1 +1,40 @@
-{"id": "Q1271013", "name": "Adrianus of Tyre", "dateOfBirth": {"0": "+0113-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+0193-01-01T00:00:00Z"}, "occupation": {"0": "sophist", "1": "rhetorician", "2": "philosopher"}, "timePeriod": {"0": "High Roman Empire"}, "countryOfCitizenship": {"0": "Ancient Rome"}, "student": {"0": "Damianus of Ephesus"}, "edges": {"student": {"0": {"id": "Q3625041", "name": "Aelius Antipater"}}, "studentOf": {"0": {"id": "Q311879", "name": "Herodes Atticus"}}}}
+{
+	"id": "Q1271013",
+	"name": "Adrianus of Tyre",
+	"dateOfBirth": {
+		"0": "+0113-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+0193-01-01T00:00:00Z"
+	},
+	"occupation": {
+		"0": "sophist",
+		"1": "rhetorician",
+		"2": "philosopher"
+	},
+	"timePeriod": {
+		"0": "High Roman Empire"
+	},
+	"countryOfCitizenship": {
+		"0": "Ancient Rome"
+	},
+	"student": {
+		"0": "Damianus of Ephesus"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q3625041",
+				"name": "Aelius Antipater",
+				"similarity": 0.5444638729095459
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q311879",
+				"name": "Herodes Atticus",
+				"similarity": 0.4864610433578491
+			}
+		}
+	}
+}

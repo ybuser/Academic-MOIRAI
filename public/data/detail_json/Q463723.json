@@ -1,1 +1,37 @@
-{"id": "Q463723", "name": "Nikolai Fyodorovich Fyodorov", "occupation": {"0": "philosopher", "1": "librarian", "2": "writer"}, "dateOfBirth": {"0": "+1829-05-26T00:00:00Z"}, "dateOfDeath": {"0": "+1903-12-15T00:00:00Z"}, "image": {"0": "Pasternak fedorov.jpg"}, "countryOfCitizenship": {"0": "Russian Empire"}, "fieldOfWork": {"0": "philosophy"}, "edges": {"influenced": {"0": {"id": "Q4245051", "name": "Pobisk Kuznetsov"}, "1": {"id": "Q184656", "name": "Nikolai Berdyaev"}}}}
+{
+	"id": "Q463723",
+	"name": "Nikolai Fyodorovich Fyodorov",
+	"occupation": {
+		"0": "philosopher",
+		"1": "librarian",
+		"2": "writer"
+	},
+	"dateOfBirth": {
+		"0": "+1829-05-26T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1903-12-15T00:00:00Z"
+	},
+	"image": {
+		"0": "Pasternak fedorov.jpg"
+	},
+	"countryOfCitizenship": {
+		"0": "Russian Empire"
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q4245051",
+				"name": "Pobisk Kuznetsov",
+				"similarity": 0.3075217008590698
+			},
+			"1": {
+				"id": "Q184656",
+				"name": "Nikolai Berdyaev"
+			}
+		}
+	}
+}

@@ -1,1 +1,30 @@
-{"id": "Q2528551", "name": "Aristo of Ceos", "occupation": {"0": "philosopher"}, "movement": {"0": "peripatetic school"}, "timePeriod": {"0": "Hellenistic period"}, "fieldOfWork": {"0": "philosophy"}, "edges": {"studentOf": {"0": {"id": "Q934510", "name": "Lyco of Troas"}}, "student": {"0": {"id": "Q1073837", "name": "Critolaus"}}}}
+{
+	"id": "Q2528551",
+	"name": "Aristo of Ceos",
+	"occupation": {
+		"0": "philosopher"
+	},
+	"movement": {
+		"0": "peripatetic school"
+	},
+	"timePeriod": {
+		"0": "Hellenistic period"
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q934510",
+				"name": "Lyco of Troas"
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q1073837",
+				"name": "Critolaus"
+			}
+		}
+	}
+}

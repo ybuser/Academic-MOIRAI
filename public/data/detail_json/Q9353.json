@@ -1,1 +1,184 @@
-{"id": "Q9353", "name": "John Locke", "influencedBy": {"0": "Thomas Sydenham", "1": "Anthony Ashley Cooper, 1st Earl of Shaftesbury"}, "movement": {"0": "empiricism"}, "occupation": {"0": "philosopher", "1": "politician", "2": "physician", "3": "writer", "4": "scientist", "5": "philosopher of law"}, "dateOfBirth": {"0": "+1632-08-29T00:00:00Z"}, "dateOfDeath": {"0": "+1704-10-28T00:00:00Z"}, "educatedAt": {"0": {"name": "Christ Church", "coordinates": {"latitude": 51.7502, "longitude": -1.25585, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Westminster School", "coordinates": {"latitude": 51.4984, "longitude": -0.1284, "altitude": null, "precision": 2.7777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "countryOfCitizenship": {"0": "Kingdom of England"}, "notableWork": {"0": "An Essay Concerning Human Understanding", "1": "Two Treatises of Government", "2": "A Letter Concerning Toleration", "3": "Some Thoughts Concerning Education", "4": "Of the Conduct of the Understanding", "5": "The prince and the cobbler"}, "image": {"0": "JohnLocke.png"}, "employer": {"0": {"name": "University of Oxford", "coordinates": {"latitude": 51.755, "longitude": -1.255, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Anthony Ashley Cooper, 1st Earl of Shaftesbury", "coordinates": ""}, "2": {"name": "Caleb Banks", "coordinates": ""}}, "fieldOfWork": {"0": "philosophy", "1": "epistemology", "2": "political philosophy", "3": "medicine"}, "edges": {"influenced": {"0": {"id": "Q335112", "name": "Anthony Ashley-Cooper, 3rd Earl of Shaftesbury"}, "1": {"id": "Q722738", "name": "Juan Bautista Alberdi"}, "2": {"id": "Q76997", "name": "Moses Mendelssohn"}, "3": {"id": "Q310791", "name": "Jules Michelet"}, "4": {"id": "Q313929", "name": "Mortimer Jerome Adler"}, "5": {"id": "Q37160", "name": "David Hume"}, "6": {"id": "Q9068", "name": "Voltaire"}, "7": {"id": "Q434346", "name": "Victor Cousin"}, "8": {"id": "Q172544", "name": "John Rawls"}, "9": {"id": "Q38193", "name": "Arthur Schopenhauer"}, "10": {"id": "Q82049", "name": "J.A.S.C."}, "11": {"id": "Q165792", "name": "Edmund Burke"}, "12": {"id": "Q364975", "name": "Richard Cantillon"}, "13": {"id": "Q9312", "name": "Immanuel Kant"}}, "influencedBy": {"0": {"id": "Q37621", "name": "Thomas Hobbes"}, "1": {"id": "Q9191", "name": "Ren\u00e9 Descartes"}, "2": {"id": "Q154959", "name": "Hugo Grotius"}, "3": {"id": "Q707787", "name": "Robert Filmer"}, "4": {"id": "Q57186", "name": "Samuel von Pufendorf"}, "5": {"id": "Q2332520", "name": "Damaris Cudworth Masham"}}}}
+{
+	"id": "Q9353",
+	"name": "John Locke",
+	"influencedBy": {
+		"0": "Thomas Sydenham",
+		"1": "Anthony Ashley Cooper, 1st Earl of Shaftesbury"
+	},
+	"movement": {
+		"0": "empiricism"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "politician",
+		"2": "physician",
+		"3": "writer",
+		"4": "scientist",
+		"5": "philosopher of law"
+	},
+	"dateOfBirth": {
+		"0": "+1632-08-29T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1704-10-28T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Christ Church",
+			"coordinates": {
+				"latitude": 51.7502,
+				"longitude": -1.25585,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Westminster School",
+			"coordinates": {
+				"latitude": 51.4984,
+				"longitude": -0.1284,
+				"altitude": null,
+				"precision": 2.7777777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"countryOfCitizenship": {
+		"0": "Kingdom of England"
+	},
+	"notableWork": {
+		"0": "An Essay Concerning Human Understanding",
+		"1": "Two Treatises of Government",
+		"2": "A Letter Concerning Toleration",
+		"3": "Some Thoughts Concerning Education",
+		"4": "Of the Conduct of the Understanding",
+		"5": "The prince and the cobbler"
+	},
+	"image": {
+		"0": "JohnLocke.png"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Oxford",
+			"coordinates": {
+				"latitude": 51.755,
+				"longitude": -1.255,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Anthony Ashley Cooper, 1st Earl of Shaftesbury",
+			"coordinates": ""
+		},
+		"2": {
+			"name": "Caleb Banks",
+			"coordinates": ""
+		}
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "epistemology",
+		"2": "political philosophy",
+		"3": "medicine"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q335112",
+				"name": "Anthony Ashley-Cooper, 3rd Earl of Shaftesbury"
+			},
+			"1": {
+				"id": "Q722738",
+				"name": "Juan Bautista Alberdi"
+			},
+			"2": {
+				"id": "Q76997",
+				"name": "Moses Mendelssohn"
+			},
+			"3": {
+				"id": "Q310791",
+				"name": "Jules Michelet",
+				"similarity": 0.1727236658334732
+			},
+			"4": {
+				"id": "Q313929",
+				"name": "Mortimer Jerome Adler"
+			},
+			"5": {
+				"id": "Q37160",
+				"name": "David Hume",
+				"similarity": 0.5225116014480591
+			},
+			"6": {
+				"id": "Q9068",
+				"name": "Voltaire",
+				"similarity": 0.26992401480674744
+			},
+			"7": {
+				"id": "Q434346",
+				"name": "Victor Cousin"
+			},
+			"8": {
+				"id": "Q172544",
+				"name": "John Rawls",
+				"similarity": 0.34795868396759033
+			},
+			"9": {
+				"id": "Q38193",
+				"name": "Arthur Schopenhauer",
+				"similarity": 0.3567984998226166
+			},
+			"10": {
+				"id": "Q82049",
+				"name": "J.A.S.C.",
+				"similarity": 0.34755295515060425
+			},
+			"11": {
+				"id": "Q165792",
+				"name": "Edmund Burke",
+				"similarity": 0.22946889698505402
+			},
+			"12": {
+				"id": "Q364975",
+				"name": "Richard Cantillon",
+				"similarity": 0.29124507308006287
+			},
+			"13": {
+				"id": "Q9312",
+				"name": "Immanuel Kant",
+				"similarity": 0.38115230202674866
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q37621",
+				"name": "Thomas Hobbes",
+				"similarity": 0.3568200170993805
+			},
+			"1": {
+				"id": "Q9191",
+				"name": "Ren\u00e9 Descartes"
+			},
+			"2": {
+				"id": "Q154959",
+				"name": "Hugo Grotius",
+				"similarity": 0.2326332926750183
+			},
+			"3": {
+				"id": "Q707787",
+				"name": "Robert Filmer"
+			},
+			"4": {
+				"id": "Q57186",
+				"name": "Samuel von Pufendorf"
+			},
+			"5": {
+				"id": "Q2332520",
+				"name": "Damaris Cudworth Masham"
+			}
+		}
+	}
+}

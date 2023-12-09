@@ -1,1 +1,95 @@
-{"id": "Q7060", "name": "Michel Onfray", "occupation": {"0": "philosopher", "1": "essayist", "2": "pundit"}, "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1959-01-01T00:00:00Z"}, "image": {"0": "Michel Onfray no Fronteiras do Pensamento Santa Catarina 2012 (8212742449).jpg", "1": "Michel Onfray - Theatre rond point - 2010-05-20.jpg"}, "movement": {"0": "atheism", "1": "hedonism", "2": "materialism", "3": "continental philosophy"}, "educatedAt": {"0": {"name": "University of Caen Normandy", "coordinates": {"latitude": 49.190555555556, "longitude": -0.36444444444444, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "La Sculpture de soi", "1": "Antimanuel de philosophie", "2": "Atheist Manifesto: The Case Against Christianity, Judaism, and Islam", "3": "La Puissance d'exister", "4": "The Twilight of an Idol: The Freudian Confabulation", "5": "Faut-Il Br\u00fbler L'Art Contemporain ?", "6": "Contre-histoire de la philosophie"}, "fieldOfWork": {"0": "political philosophy", "1": "philosophy of religion", "2": "ancient philosophy", "3": "ethics", "4": "aesthetics", "5": "ontology"}, "timePeriod": {"0": "contemporary philosophy"}, "edges": {"studentOf": {"0": {"id": "Q3484569", "name": "Simone Goyard-Fabre"}}, "influencedBy": {"0": {"id": "Q43216", "name": "Epicurus"}, "1": {"id": "Q35802", "name": "Benedictus de Spinoza"}, "2": {"id": "Q9358", "name": "Friedrich Nietzsche"}, "3": {"id": "Q3265565", "name": "Lucien Jerphagnon"}, "4": {"id": "Q157309", "name": "Simone Weil"}, "5": {"id": "Q537924", "name": "Raoul Vaneigem"}}}}
+{
+	"id": "Q7060",
+	"name": "Michel Onfray",
+	"occupation": {
+		"0": "philosopher",
+		"1": "essayist",
+		"2": "pundit"
+	},
+	"countryOfCitizenship": {
+		"0": "France"
+	},
+	"dateOfBirth": {
+		"0": "+1959-01-01T00:00:00Z"
+	},
+	"image": {
+		"0": "Michel Onfray no Fronteiras do Pensamento Santa Catarina 2012 (8212742449).jpg",
+		"1": "Michel Onfray - Theatre rond point - 2010-05-20.jpg"
+	},
+	"movement": {
+		"0": "atheism",
+		"1": "hedonism",
+		"2": "materialism",
+		"3": "continental philosophy"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Caen Normandy",
+			"coordinates": {
+				"latitude": 49.190555555556,
+				"longitude": -0.36444444444444,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "La Sculpture de soi",
+		"1": "Antimanuel de philosophie",
+		"2": "Atheist Manifesto: The Case Against Christianity, Judaism, and Islam",
+		"3": "La Puissance d'exister",
+		"4": "The Twilight of an Idol: The Freudian Confabulation",
+		"5": "Faut-Il Br\u00fbler L'Art Contemporain ?",
+		"6": "Contre-histoire de la philosophie"
+	},
+	"fieldOfWork": {
+		"0": "political philosophy",
+		"1": "philosophy of religion",
+		"2": "ancient philosophy",
+		"3": "ethics",
+		"4": "aesthetics",
+		"5": "ontology"
+	},
+	"timePeriod": {
+		"0": "contemporary philosophy"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q3484569",
+				"name": "Simone Goyard-Fabre"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q43216",
+				"name": "Epicurus",
+				"similarity": 0.2042553573846817
+			},
+			"1": {
+				"id": "Q35802",
+				"name": "Benedictus de Spinoza",
+				"similarity": 0.18303059041500092
+			},
+			"2": {
+				"id": "Q9358",
+				"name": "Friedrich Nietzsche",
+				"similarity": 0.0860457718372345
+			},
+			"3": {
+				"id": "Q3265565",
+				"name": "Lucien Jerphagnon"
+			},
+			"4": {
+				"id": "Q157309",
+				"name": "Simone Weil",
+				"similarity": 0.31934669613838196
+			},
+			"5": {
+				"id": "Q537924",
+				"name": "Raoul Vaneigem"
+			}
+		}
+	}
+}

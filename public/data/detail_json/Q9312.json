@@ -1,1 +1,457 @@
-{"id": "Q9312", "name": "Immanuel Kant", "occupation": {"0": "philosopher", "1": "anthropologist", "2": "physicist", "3": "librarian", "4": "writer", "5": "pedagogue", "6": "university teacher", "7": "mathematician", "8": "philosopher of law"}, "countryOfCitizenship": {"0": "Kingdom of Prussia", "1": "Kingdom of Prussia", "2": "Russian Empire"}, "dateOfBirth": {"0": "+1724-04-22T00:00:00Z"}, "dateOfDeath": {"0": "+1804-02-12T00:00:00Z"}, "notableWork": {"0": "Critique of Pure Reason", "1": "Critique of Practical Reason", "2": "Critique of Judgment", "3": "Prolegomena to Any Future Metaphysics", "4": "Answering the Question: What Is Enlightenment?", "5": "The Metaphysics of Morals", "6": "Religion within the Bounds of Bare Reason", "7": "Groundwork of the Metaphysic of Morals"}, "educatedAt": {"0": {"name": "University of K\u00f6nigsberg", "coordinates": {"latitude": 54.713888888889, "longitude": 20.51, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Collegium Fridericianum", "coordinates": {"latitude": 54.71346944, "longitude": 20.52609167, "altitude": null, "precision": 2.77777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "residence": {"0": {"name": "K\u00f6nigsberg", "coordinates": {"latitude": 54.71147222222222, "longitude": 20.509305555555557, "altitude": null, "precision": 2.777777777777778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "permanentDuplicatedItem": {"0": "Immanuel Kant"}, "employer": {"0": {"name": "University of K\u00f6nigsberg", "coordinates": {"latitude": 54.713888888889, "longitude": 20.51, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "movement": {"0": "German idealism", "1": "Age of Enlightenment"}, "fieldOfWork": {"0": "epistemology", "1": "metaphysics", "2": "ethics"}, "doctralStudent": {"0": "Anton Friedrich Justus Thibaut"}, "image": {"0": "Kant foto.jpg"}, "timePeriod": {"0": "18th-century philosophy"}, "edges": {"influenced": {"0": {"id": "Q76685", "name": "Johann Friedrich Herbart"}, "1": {"id": "Q6512", "name": "S\u00f8ren Kierkegaard"}, "2": {"id": "Q168004", "name": "Friedrich Heinrich Jacobi"}, "3": {"id": "Q9235", "name": "Georg Wilhelm Friedrich Hegel"}, "4": {"id": "Q22670", "name": "Friedrich Schiller"}, "5": {"id": "Q71029", "name": "Hermann Weyl"}, "6": {"id": "Q76518", "name": "Hans Vaihinger"}, "7": {"id": "Q28092109", "name": "Pierre-Jean Labarri\u00e8re"}, "8": {"id": "Q445939", "name": "Roger Scruton"}, "9": {"id": "Q731904", "name": "Valentin Ferdinandovich Asmus"}, "10": {"id": "Q311772", "name": "Donald Davidson"}, "11": {"id": "Q184750", "name": "Slavoj \u017di\u017eek"}, "12": {"id": "Q84423", "name": "Martin Buber"}, "13": {"id": "Q102585", "name": "Johann Gottlieb Fichte"}, "14": {"id": "Q991", "name": "Fyodor Dostoyevsky"}, "15": {"id": "Q76688", "name": "Hans-Hermann Hoppe"}, "16": {"id": "Q60025", "name": "Hannah Arendt"}, "17": {"id": "Q76519", "name": "Rudolf Carnap"}, "18": {"id": "Q65987", "name": "Dieter Henrich"}, "19": {"id": "Q12390662", "name": "Indalecio Armesto"}, "20": {"id": "Q28152056", "name": "Metrofan Aksyonov"}, "21": {"id": "Q123190", "name": "Jean Piaget"}, "22": {"id": "Q72151", "name": "Markus Herz"}, "23": {"id": "Q6004524", "name": "Reza Negarestani"}, "24": {"id": "Q76709", "name": "Hermann Cohen"}, "25": {"id": "Q71146", "name": "\u00c9ric Weil"}, "26": {"id": "Q2716613", "name": "Ferdinand Alqui\u00e9"}, "27": {"id": "Q4326996", "name": "Oleg Nogovitsyn"}, "28": {"id": "Q6992366", "name": "Shem-Tov Gefen"}, "29": {"id": "Q155547", "name": "Johann Gottfried Herder"}, "30": {"id": "Q60080", "name": "Wilhelm Dilthey"}, "31": {"id": "Q324932", "name": "Lucien L\u00e9vy-Bruhl"}, "32": {"id": "Q1386165", "name": "Felix Adler"}, "33": {"id": "Q44272", "name": "Michel Foucault"}, "34": {"id": "Q1382977", "name": "Evald Ilyenkov"}, "35": {"id": "Q58586", "name": "Edmund Husserl"}, "36": {"id": "Q215927", "name": "Yeshayahu Leibowitz"}, "37": {"id": "Q78891", "name": "Hugo Bergmann"}, "38": {"id": "Q275003", "name": "Alain"}, "39": {"id": "Q41585", "name": "David Hilbert"}, "40": {"id": "Q172544", "name": "John Rawls"}, "41": {"id": "Q3513783", "name": "Francis Ellingwood Abbot"}, "42": {"id": "Q48301", "name": "Martin Heidegger"}, "43": {"id": "Q9358", "name": "Friedrich Nietzsche"}, "44": {"id": "Q983724", "name": "Nikolai Stankevich"}, "45": {"id": "Q38193", "name": "Arthur Schopenhauer"}, "46": {"id": "Q470453", "name": "Merab Mamardashvili"}, "47": {"id": "Q76881", "name": "Gustav Fechner"}, "48": {"id": "Q76356", "name": "Hans-Georg Gadamer"}, "49": {"id": "Q465763", "name": "Salomon Maimon"}, "50": {"id": "Q1248105", "name": "Aleksei Losev"}, "51": {"id": "Q184226", "name": "Gilles Deleuze"}, "52": {"id": "Q184656", "name": "Nikolai Berdyaev"}, "53": {"id": "Q160640", "name": "Raymond Aron"}, "54": {"id": "Q60070", "name": "Friedrich Wilhelm Joseph Schelling"}, "55": {"id": "Q42156", "name": "Henri Bergson"}, "56": {"id": "Q157318", "name": "Leszek Ko\u0142akowski"}, "57": {"id": "Q185375", "name": "Mikhail Bakhtin"}}, "student": {"0": {"id": "Q102585", "name": "Johann Gottlieb Fichte"}, "1": {"id": "Q72151", "name": "Markus Herz"}, "2": {"id": "Q77881", "name": "Christian Jakob Kraus"}, "3": {"id": "Q70666", "name": "Jakob Sigismund Beck"}, "4": {"id": "Q112258", "name": "Karl Leonhard Reinhold"}}, "studentOf": {"0": {"id": "Q70793", "name": "Martin Knutzen"}, "1": {"id": "Q1694154", "name": "Johann Gottfried Teske"}}, "influencedBy": {"0": {"id": "Q37160", "name": "David Hume"}, "1": {"id": "Q82049", "name": "J.A.S.C."}, "2": {"id": "Q76510", "name": "Christian Wolff"}, "3": {"id": "Q6527", "name": "Jean-Jacques Rousseau"}, "4": {"id": "Q316367", "name": "Francis Hutcheson"}, "5": {"id": "Q935", "name": "Isaac Newton"}, "6": {"id": "Q859", "name": "Plato"}, "7": {"id": "Q63081", "name": "Johannes Nikolaus Tetens"}, "8": {"id": "Q41568", "name": "Michel de Montaigne"}, "9": {"id": "Q9191", "name": "Ren\u00e9 Descartes"}, "10": {"id": "Q9047", "name": "Gottfried Wilhelm Leibniz"}, "11": {"id": "Q9353", "name": "John Locke"}, "12": {"id": "Q309818", "name": "Nicolas Malebranche"}, "13": {"id": "Q35802", "name": "Benedictus de Spinoza"}}}}
+{
+	"id": "Q9312",
+	"name": "Immanuel Kant",
+	"occupation": {
+		"0": "philosopher",
+		"1": "anthropologist",
+		"2": "physicist",
+		"3": "librarian",
+		"4": "writer",
+		"5": "pedagogue",
+		"6": "university teacher",
+		"7": "mathematician",
+		"8": "philosopher of law"
+	},
+	"countryOfCitizenship": {
+		"0": "Kingdom of Prussia",
+		"1": "Kingdom of Prussia",
+		"2": "Russian Empire"
+	},
+	"dateOfBirth": {
+		"0": "+1724-04-22T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1804-02-12T00:00:00Z"
+	},
+	"notableWork": {
+		"0": "Critique of Pure Reason",
+		"1": "Critique of Practical Reason",
+		"2": "Critique of Judgment",
+		"3": "Prolegomena to Any Future Metaphysics",
+		"4": "Answering the Question: What Is Enlightenment?",
+		"5": "The Metaphysics of Morals",
+		"6": "Religion within the Bounds of Bare Reason",
+		"7": "Groundwork of the Metaphysic of Morals"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of K\u00f6nigsberg",
+			"coordinates": {
+				"latitude": 54.713888888889,
+				"longitude": 20.51,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Collegium Fridericianum",
+			"coordinates": {
+				"latitude": 54.71346944,
+				"longitude": 20.52609167,
+				"altitude": null,
+				"precision": 2.77777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"residence": {
+		"0": {
+			"name": "K\u00f6nigsberg",
+			"coordinates": {
+				"latitude": 54.71147222222222,
+				"longitude": 20.509305555555557,
+				"altitude": null,
+				"precision": 2.777777777777778e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"permanentDuplicatedItem": {
+		"0": "Immanuel Kant"
+	},
+	"employer": {
+		"0": {
+			"name": "University of K\u00f6nigsberg",
+			"coordinates": {
+				"latitude": 54.713888888889,
+				"longitude": 20.51,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"movement": {
+		"0": "German idealism",
+		"1": "Age of Enlightenment"
+	},
+	"fieldOfWork": {
+		"0": "epistemology",
+		"1": "metaphysics",
+		"2": "ethics"
+	},
+	"doctralStudent": {
+		"0": "Anton Friedrich Justus Thibaut"
+	},
+	"image": {
+		"0": "Kant foto.jpg"
+	},
+	"timePeriod": {
+		"0": "18th-century philosophy"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q76685",
+				"name": "Johann Friedrich Herbart"
+			},
+			"1": {
+				"id": "Q6512",
+				"name": "S\u00f8ren Kierkegaard"
+			},
+			"2": {
+				"id": "Q168004",
+				"name": "Friedrich Heinrich Jacobi",
+				"similarity": 0.4062718152999878
+			},
+			"3": {
+				"id": "Q9235",
+				"name": "Georg Wilhelm Friedrich Hegel",
+				"similarity": 0.3852379024028778
+			},
+			"4": {
+				"id": "Q22670",
+				"name": "Friedrich Schiller",
+				"similarity": 0.324003130197525
+			},
+			"5": {
+				"id": "Q71029",
+				"name": "Hermann Weyl",
+				"similarity": 0.3194582760334015
+			},
+			"6": {
+				"id": "Q76518",
+				"name": "Hans Vaihinger"
+			},
+			"7": {
+				"id": "Q28092109",
+				"name": "Pierre-Jean Labarri\u00e8re"
+			},
+			"8": {
+				"id": "Q445939",
+				"name": "Roger Scruton",
+				"similarity": 0.07484186440706253
+			},
+			"9": {
+				"id": "Q731904",
+				"name": "Valentin Ferdinandovich Asmus",
+				"similarity": 0.12043207883834839
+			},
+			"10": {
+				"id": "Q311772",
+				"name": "Donald Davidson"
+			},
+			"11": {
+				"id": "Q184750",
+				"name": "Slavoj \u017di\u017eek"
+			},
+			"12": {
+				"id": "Q84423",
+				"name": "Martin Buber"
+			},
+			"13": {
+				"id": "Q102585",
+				"name": "Johann Gottlieb Fichte"
+			},
+			"14": {
+				"id": "Q991",
+				"name": "Fyodor Dostoyevsky",
+				"similarity": 0.21255382895469666
+			},
+			"15": {
+				"id": "Q76688",
+				"name": "Hans-Hermann Hoppe",
+				"similarity": 0.2720012366771698
+			},
+			"16": {
+				"id": "Q60025",
+				"name": "Hannah Arendt",
+				"similarity": 0.08546996116638184
+			},
+			"17": {
+				"id": "Q76519",
+				"name": "Rudolf Carnap"
+			},
+			"18": {
+				"id": "Q65987",
+				"name": "Dieter Henrich"
+			},
+			"19": {
+				"id": "Q12390662",
+				"name": "Indalecio Armesto"
+			},
+			"20": {
+				"id": "Q28152056",
+				"name": "Metrofan Aksyonov"
+			},
+			"21": {
+				"id": "Q123190",
+				"name": "Jean Piaget",
+				"similarity": 0.2773455083370209
+			},
+			"22": {
+				"id": "Q72151",
+				"name": "Markus Herz"
+			},
+			"23": {
+				"id": "Q6004524",
+				"name": "Reza Negarestani"
+			},
+			"24": {
+				"id": "Q76709",
+				"name": "Hermann Cohen"
+			},
+			"25": {
+				"id": "Q71146",
+				"name": "\u00c9ric Weil"
+			},
+			"26": {
+				"id": "Q2716613",
+				"name": "Ferdinand Alqui\u00e9"
+			},
+			"27": {
+				"id": "Q4326996",
+				"name": "Oleg Nogovitsyn"
+			},
+			"28": {
+				"id": "Q6992366",
+				"name": "Shem-Tov Gefen"
+			},
+			"29": {
+				"id": "Q155547",
+				"name": "Johann Gottfried Herder"
+			},
+			"30": {
+				"id": "Q60080",
+				"name": "Wilhelm Dilthey"
+			},
+			"31": {
+				"id": "Q324932",
+				"name": "Lucien L\u00e9vy-Bruhl"
+			},
+			"32": {
+				"id": "Q1386165",
+				"name": "Felix Adler"
+			},
+			"33": {
+				"id": "Q44272",
+				"name": "Michel Foucault",
+				"similarity": 0.23263198137283325
+			},
+			"34": {
+				"id": "Q1382977",
+				"name": "Evald Ilyenkov"
+			},
+			"35": {
+				"id": "Q58586",
+				"name": "Edmund Husserl",
+				"similarity": 0.45513176918029785
+			},
+			"36": {
+				"id": "Q215927",
+				"name": "Yeshayahu Leibowitz"
+			},
+			"37": {
+				"id": "Q78891",
+				"name": "Hugo Bergmann"
+			},
+			"38": {
+				"id": "Q275003",
+				"name": "Alain"
+			},
+			"39": {
+				"id": "Q41585",
+				"name": "David Hilbert"
+			},
+			"40": {
+				"id": "Q172544",
+				"name": "John Rawls",
+				"similarity": 0.32547563314437866
+			},
+			"41": {
+				"id": "Q3513783",
+				"name": "Francis Ellingwood Abbot"
+			},
+			"42": {
+				"id": "Q48301",
+				"name": "Martin Heidegger",
+				"similarity": 0.3405075669288635
+			},
+			"43": {
+				"id": "Q9358",
+				"name": "Friedrich Nietzsche",
+				"similarity": 0.2921121120452881
+			},
+			"44": {
+				"id": "Q983724",
+				"name": "Nikolai Stankevich"
+			},
+			"45": {
+				"id": "Q38193",
+				"name": "Arthur Schopenhauer",
+				"similarity": 0.4538465440273285
+			},
+			"46": {
+				"id": "Q470453",
+				"name": "Merab Mamardashvili"
+			},
+			"47": {
+				"id": "Q76881",
+				"name": "Gustav Fechner"
+			},
+			"48": {
+				"id": "Q76356",
+				"name": "Hans-Georg Gadamer"
+			},
+			"49": {
+				"id": "Q465763",
+				"name": "Salomon Maimon"
+			},
+			"50": {
+				"id": "Q1248105",
+				"name": "Aleksei Losev"
+			},
+			"51": {
+				"id": "Q184226",
+				"name": "Gilles Deleuze",
+				"similarity": 0.33849388360977173
+			},
+			"52": {
+				"id": "Q184656",
+				"name": "Nikolai Berdyaev"
+			},
+			"53": {
+				"id": "Q160640",
+				"name": "Raymond Aron",
+				"similarity": 0.13517309725284576
+			},
+			"54": {
+				"id": "Q60070",
+				"name": "Friedrich Wilhelm Joseph Schelling",
+				"similarity": 0.3095635771751404
+			},
+			"55": {
+				"id": "Q42156",
+				"name": "Henri Bergson"
+			},
+			"56": {
+				"id": "Q157318",
+				"name": "Leszek Ko\u0142akowski"
+			},
+			"57": {
+				"id": "Q185375",
+				"name": "Mikhail Bakhtin"
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q102585",
+				"name": "Johann Gottlieb Fichte"
+			},
+			"1": {
+				"id": "Q72151",
+				"name": "Markus Herz"
+			},
+			"2": {
+				"id": "Q77881",
+				"name": "Christian Jakob Kraus"
+			},
+			"3": {
+				"id": "Q70666",
+				"name": "Jakob Sigismund Beck"
+			},
+			"4": {
+				"id": "Q112258",
+				"name": "Karl Leonhard Reinhold"
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q70793",
+				"name": "Martin Knutzen"
+			},
+			"1": {
+				"id": "Q1694154",
+				"name": "Johann Gottfried Teske"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q37160",
+				"name": "David Hume",
+				"similarity": 0.5311614871025085
+			},
+			"1": {
+				"id": "Q82049",
+				"name": "J.A.S.C.",
+				"similarity": 0.3179912865161896
+			},
+			"2": {
+				"id": "Q76510",
+				"name": "Christian Wolff"
+			},
+			"3": {
+				"id": "Q6527",
+				"name": "Jean-Jacques Rousseau",
+				"similarity": 0.26608943939208984
+			},
+			"4": {
+				"id": "Q316367",
+				"name": "Francis Hutcheson"
+			},
+			"5": {
+				"id": "Q935",
+				"name": "Isaac Newton",
+				"similarity": 0.21837736666202545
+			},
+			"6": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.17188115417957306
+			},
+			"7": {
+				"id": "Q63081",
+				"name": "Johannes Nikolaus Tetens"
+			},
+			"8": {
+				"id": "Q41568",
+				"name": "Michel de Montaigne",
+				"similarity": 0.22897395491600037
+			},
+			"9": {
+				"id": "Q9191",
+				"name": "Ren\u00e9 Descartes"
+			},
+			"10": {
+				"id": "Q9047",
+				"name": "Gottfried Wilhelm Leibniz",
+				"similarity": 0.2891364097595215
+			},
+			"11": {
+				"id": "Q9353",
+				"name": "John Locke",
+				"similarity": 0.38115230202674866
+			},
+			"12": {
+				"id": "Q309818",
+				"name": "Nicolas Malebranche"
+			},
+			"13": {
+				"id": "Q35802",
+				"name": "Benedictus de Spinoza",
+				"similarity": 0.2792506217956543
+			}
+		}
+	}
+}

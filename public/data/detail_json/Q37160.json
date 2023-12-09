@@ -1,1 +1,190 @@
-{"id": "Q37160", "name": "David Hume", "occupation": {"0": "philosopher", "1": "economist", "2": "librarian", "3": "historian", "4": "essayist", "5": "writer"}, "countryOfCitizenship": {"0": "Kingdom of Great Britain"}, "dateOfBirth": {"0": "+1711-04-26T00:00:00Z", "1": "+1711-05-07T00:00:00Z", "2": "+1711-04-26T00:00:00Z", "3": "+1711-01-01T00:00:00Z"}, "dateOfDeath": {"0": "+1776-08-25T00:00:00Z", "1": "+1776-01-01T00:00:00Z"}, "image": {"0": "David Hume Ramsay.jpg"}, "educatedAt": {"0": {"name": "University of Edinburgh", "coordinates": {"latitude": 55.94738888888889, "longitude": -3.1871944444444447, "altitude": null, "precision": 2.777777777777778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "movement": {"0": "empiricism", "1": "naturalism", "2": "philosophical skepticism", "3": "Age of Enlightenment"}, "notableWork": {"0": "Philosophical Essays Concerning Human Understanding", "1": "An Enquiry Concerning the Principles of Morals", "2": "The History of England", "3": "A Treatise of Human Nature"}, "fieldOfWork": {"0": "philosophy", "1": "metaphysics", "2": "epistemology", "3": "philosophy of mind", "4": "ethics", "5": "politics", "6": "aesthetics", "7": "philosophy of religion", "8": "history", "9": "essay", "10": "economics"}, "employer": {"0": {"name": "Advocates Library", "coordinates": {"latitude": 55.9489, "longitude": -3.19158, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Embassy of the United Kingdom, Paris", "coordinates": {"latitude": 48.8692, "longitude": 2.31884, "altitude": null, "precision": 0.013656769131294, "globe": "http://www.wikidata.org/entity/Q2"}}}, "edges": {"influenced": {"0": {"id": "Q316347", "name": "Thomas Reid"}, "1": {"id": "Q168004", "name": "Friedrich Heinrich Jacobi"}, "2": {"id": "Q1035", "name": "Charles Darwin"}, "3": {"id": "Q310791", "name": "Jules Michelet"}, "4": {"id": "Q119114589", "name": "David Reynolds"}, "5": {"id": "Q298521", "name": "Saul Kripke"}, "6": {"id": "Q1730299", "name": "R. B. Braithwaite"}, "7": {"id": "Q38193", "name": "Arthur Schopenhauer"}, "8": {"id": "Q937", "name": "Albert Einstein"}, "9": {"id": "Q465763", "name": "Salomon Maimon"}, "10": {"id": "Q184226", "name": "Gilles Deleuze"}, "11": {"id": "Q223723", "name": "Cesare Beccaria"}, "12": {"id": "Q165792", "name": "Edmund Burke"}, "13": {"id": "Q42156", "name": "Henri Bergson"}, "14": {"id": "Q9312", "name": "Immanuel Kant"}, "15": {"id": "Q33760", "name": "Bertrand Russell"}, "16": {"id": "Q10320719", "name": "Luiz Felipe Pond\u00e9"}}, "influencedBy": {"0": {"id": "Q82049", "name": "J.A.S.C."}, "1": {"id": "Q9353", "name": "John Locke"}, "2": {"id": "Q316367", "name": "Francis Hutcheson"}, "3": {"id": "Q935", "name": "Isaac Newton"}}}}
+{
+	"id": "Q37160",
+	"name": "David Hume",
+	"occupation": {
+		"0": "philosopher",
+		"1": "economist",
+		"2": "librarian",
+		"3": "historian",
+		"4": "essayist",
+		"5": "writer"
+	},
+	"countryOfCitizenship": {
+		"0": "Kingdom of Great Britain"
+	},
+	"dateOfBirth": {
+		"0": "+1711-04-26T00:00:00Z",
+		"1": "+1711-05-07T00:00:00Z",
+		"2": "+1711-04-26T00:00:00Z",
+		"3": "+1711-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1776-08-25T00:00:00Z",
+		"1": "+1776-01-01T00:00:00Z"
+	},
+	"image": {
+		"0": "David Hume Ramsay.jpg"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Edinburgh",
+			"coordinates": {
+				"latitude": 55.94738888888889,
+				"longitude": -3.1871944444444447,
+				"altitude": null,
+				"precision": 2.777777777777778e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"movement": {
+		"0": "empiricism",
+		"1": "naturalism",
+		"2": "philosophical skepticism",
+		"3": "Age of Enlightenment"
+	},
+	"notableWork": {
+		"0": "Philosophical Essays Concerning Human Understanding",
+		"1": "An Enquiry Concerning the Principles of Morals",
+		"2": "The History of England",
+		"3": "A Treatise of Human Nature"
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "metaphysics",
+		"2": "epistemology",
+		"3": "philosophy of mind",
+		"4": "ethics",
+		"5": "politics",
+		"6": "aesthetics",
+		"7": "philosophy of religion",
+		"8": "history",
+		"9": "essay",
+		"10": "economics"
+	},
+	"employer": {
+		"0": {
+			"name": "Advocates Library",
+			"coordinates": {
+				"latitude": 55.9489,
+				"longitude": -3.19158,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Embassy of the United Kingdom, Paris",
+			"coordinates": {
+				"latitude": 48.8692,
+				"longitude": 2.31884,
+				"altitude": null,
+				"precision": 0.013656769131294,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q316347",
+				"name": "Thomas Reid"
+			},
+			"1": {
+				"id": "Q168004",
+				"name": "Friedrich Heinrich Jacobi",
+				"similarity": 0.3660699427127838
+			},
+			"2": {
+				"id": "Q1035",
+				"name": "Charles Darwin",
+				"similarity": 0.39644742012023926
+			},
+			"3": {
+				"id": "Q310791",
+				"name": "Jules Michelet",
+				"similarity": 0.19949115812778473
+			},
+			"4": {
+				"id": "Q119114589",
+				"name": "David Reynolds"
+			},
+			"5": {
+				"id": "Q298521",
+				"name": "Saul Kripke",
+				"similarity": 0.3692399859428406
+			},
+			"6": {
+				"id": "Q1730299",
+				"name": "R. B. Braithwaite"
+			},
+			"7": {
+				"id": "Q38193",
+				"name": "Arthur Schopenhauer",
+				"similarity": 0.38544178009033203
+			},
+			"8": {
+				"id": "Q937",
+				"name": "Albert Einstein",
+				"similarity": 0.16881422698497772
+			},
+			"9": {
+				"id": "Q465763",
+				"name": "Salomon Maimon"
+			},
+			"10": {
+				"id": "Q184226",
+				"name": "Gilles Deleuze",
+				"similarity": 0.2764507532119751
+			},
+			"11": {
+				"id": "Q223723",
+				"name": "Cesare Beccaria"
+			},
+			"12": {
+				"id": "Q165792",
+				"name": "Edmund Burke",
+				"similarity": 0.20290151238441467
+			},
+			"13": {
+				"id": "Q42156",
+				"name": "Henri Bergson"
+			},
+			"14": {
+				"id": "Q9312",
+				"name": "Immanuel Kant",
+				"similarity": 0.5311614871025085
+			},
+			"15": {
+				"id": "Q33760",
+				"name": "Bertrand Russell",
+				"similarity": 0.2293291538953781
+			},
+			"16": {
+				"id": "Q10320719",
+				"name": "Luiz Felipe Pond\u00e9"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q82049",
+				"name": "J.A.S.C.",
+				"similarity": 0.2611604630947113
+			},
+			"1": {
+				"id": "Q9353",
+				"name": "John Locke",
+				"similarity": 0.5225116014480591
+			},
+			"2": {
+				"id": "Q316367",
+				"name": "Francis Hutcheson"
+			},
+			"3": {
+				"id": "Q935",
+				"name": "Isaac Newton",
+				"similarity": 0.232585608959198
+			}
+		}
+	}
+}

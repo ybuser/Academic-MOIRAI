@@ -1,1 +1,84 @@
-{"id": "Q37327", "name": "Samuel Beckett", "occupation": {"0": "writer", "1": "linguist", "2": "film director", "3": "screenwriter", "4": "cricketer", "5": "poet", "6": "novelist", "7": "playwright", "8": "translator", "9": "teacher", "10": "intellectual", "11": "French Resistance fighter", "12": "video artist"}, "countryOfCitizenship": {"0": "Republic of Ireland", "1": "France"}, "dateOfBirth": {"0": "+1906-04-13T00:00:00Z"}, "dateOfDeath": {"0": "+1989-12-22T00:00:00Z"}, "notableWork": {"0": "Murphy", "1": "Molloy", "2": "Malone Dies", "3": "The Unnamable", "4": "Waiting for Godot", "5": "Watt", "6": "Endgame", "7": "Krapp's Last Tape", "8": "How It Is"}, "movement": {"0": "Nouveau Roman"}, "residence": {"0": {"name": "County Dublin", "coordinates": {"latitude": 53.416666666667, "longitude": -6.25, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "educatedAt": {"0": {"name": "Trinity College Dublin", "coordinates": {"latitude": 53.3444, "longitude": -6.2577, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "studentOf": {"0": "James Joyce"}, "image": {"0": "Samuel Beckett, Pic, 1 (cropped).jpg"}, "fieldOfWork": {"0": "drama"}, "edges": {"influenced": {"0": {"id": "Q311005", "name": "Alain Badiou"}}}}
+{
+	"id": "Q37327",
+	"name": "Samuel Beckett",
+	"occupation": {
+		"0": "writer",
+		"1": "linguist",
+		"2": "film director",
+		"3": "screenwriter",
+		"4": "cricketer",
+		"5": "poet",
+		"6": "novelist",
+		"7": "playwright",
+		"8": "translator",
+		"9": "teacher",
+		"10": "intellectual",
+		"11": "French Resistance fighter",
+		"12": "video artist"
+	},
+	"countryOfCitizenship": {
+		"0": "Republic of Ireland",
+		"1": "France"
+	},
+	"dateOfBirth": {
+		"0": "+1906-04-13T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1989-12-22T00:00:00Z"
+	},
+	"notableWork": {
+		"0": "Murphy",
+		"1": "Molloy",
+		"2": "Malone Dies",
+		"3": "The Unnamable",
+		"4": "Waiting for Godot",
+		"5": "Watt",
+		"6": "Endgame",
+		"7": "Krapp's Last Tape",
+		"8": "How It Is"
+	},
+	"movement": {
+		"0": "Nouveau Roman"
+	},
+	"residence": {
+		"0": {
+			"name": "County Dublin",
+			"coordinates": {
+				"latitude": 53.416666666667,
+				"longitude": -6.25,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Trinity College Dublin",
+			"coordinates": {
+				"latitude": 53.3444,
+				"longitude": -6.2577,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"studentOf": {
+		"0": "James Joyce"
+	},
+	"image": {
+		"0": "Samuel Beckett, Pic, 1 (cropped).jpg"
+	},
+	"fieldOfWork": {
+		"0": "drama"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q311005",
+				"name": "Alain Badiou"
+			}
+		}
+	}
+}

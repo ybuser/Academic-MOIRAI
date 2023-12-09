@@ -1,1 +1,128 @@
-{"id": "Q180819", "name": "Lev Vygotsky", "occupation": {"0": "philosopher", "1": "psychologist", "2": "pedagogue", "3": "non-fiction writer", "4": "university teacher", "5": "anthropologist"}, "dateOfBirth": {"0": "+1896-11-17T00:00:00Z"}, "dateOfDeath": {"0": "+1934-06-10T00:00:00Z"}, "educatedAt": {"0": {"name": "Moscow State University", "coordinates": {"latitude": 55.7025, "longitude": 37.530555555556, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Moscow City People\u2019s University", "coordinates": {"latitude": 55.77728681, "longitude": 37.59546482, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "countryOfCitizenship": {"0": "Russian Empire", "1": "Soviet Union"}, "fieldOfWork": {"0": "psychology", "1": "defectology", "2": "pedagogy", "3": "literary studies"}, "employer": {"0": {"name": "Psychological Institute of the Russian Academy of Education", "coordinates": {"latitude": 55.75361111, "longitude": 37.61011111, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Institute of Correctional Pedagogy", "coordinates": ""}, "2": {"name": "\u0410\u043a\u0430\u0434\u044d\u043c\u0456\u044f \u043a\u0430\u043c\u0443\u043d\u0456\u0441\u0442\u044b\u0447\u043d\u0430\u0433\u0430 \u0432\u044b\u0445\u0430\u0432\u0430\u043d\u043d\u044f \u0456\u043c\u044f \u041d. \u041a. \u041a\u0440\u0443\u043f\u0441\u043a\u0430\u0439", "coordinates": ""}, "3": {"name": "Second Moscow State University", "coordinates": {"latitude": 55.7324, "longitude": 37.5763, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}, "4": {"name": "Moscow State University", "coordinates": {"latitude": 55.7025, "longitude": 37.530555555556, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "student": {"0": "Alexander Luria", "1": "Alexander Zaporozhets", "2": "Lidiya Bozhovich", "3": "N. A. Menchinskai\ufe20a\ufe21"}, "doctralStudent": {"0": "Lidiya Bozhovich", "1": "Leonid Zankov", "2": "Natalia Grigorevna Morozova", "3": "Mariya Pevzner", "4": "Ivan Solovyov", "5": "Alexander Zaporozhets"}, "image": {"0": "Lev-Semyonovich-Vygotsky-1896-1934.jpg"}, "edges": {"influenced": {"0": {"id": "Q1382977", "name": "Evald Ilyenkov"}}, "student": {"0": {"id": "Q362127", "name": "Aleksei N. Leontiev"}}, "influencedBy": {"0": {"id": "Q35802", "name": "Benedictus de Spinoza"}}}}
+{
+	"id": "Q180819",
+	"name": "Lev Vygotsky",
+	"occupation": {
+		"0": "philosopher",
+		"1": "psychologist",
+		"2": "pedagogue",
+		"3": "non-fiction writer",
+		"4": "university teacher",
+		"5": "anthropologist"
+	},
+	"dateOfBirth": {
+		"0": "+1896-11-17T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1934-06-10T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Moscow State University",
+			"coordinates": {
+				"latitude": 55.7025,
+				"longitude": 37.530555555556,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Moscow City People\u2019s University",
+			"coordinates": {
+				"latitude": 55.77728681,
+				"longitude": 37.59546482,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"countryOfCitizenship": {
+		"0": "Russian Empire",
+		"1": "Soviet Union"
+	},
+	"fieldOfWork": {
+		"0": "psychology",
+		"1": "defectology",
+		"2": "pedagogy",
+		"3": "literary studies"
+	},
+	"employer": {
+		"0": {
+			"name": "Psychological Institute of the Russian Academy of Education",
+			"coordinates": {
+				"latitude": 55.75361111,
+				"longitude": 37.61011111,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Institute of Correctional Pedagogy",
+			"coordinates": ""
+		},
+		"2": {
+			"name": "\u0410\u043a\u0430\u0434\u044d\u043c\u0456\u044f \u043a\u0430\u043c\u0443\u043d\u0456\u0441\u0442\u044b\u0447\u043d\u0430\u0433\u0430 \u0432\u044b\u0445\u0430\u0432\u0430\u043d\u043d\u044f \u0456\u043c\u044f \u041d. \u041a. \u041a\u0440\u0443\u043f\u0441\u043a\u0430\u0439",
+			"coordinates": ""
+		},
+		"3": {
+			"name": "Second Moscow State University",
+			"coordinates": {
+				"latitude": 55.7324,
+				"longitude": 37.5763,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"name": "Moscow State University",
+			"coordinates": {
+				"latitude": 55.7025,
+				"longitude": 37.530555555556,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"student": {
+		"0": "Alexander Luria",
+		"1": "Alexander Zaporozhets",
+		"2": "Lidiya Bozhovich",
+		"3": "N. A. Menchinskai\ufe20a\ufe21"
+	},
+	"doctralStudent": {
+		"0": "Lidiya Bozhovich",
+		"1": "Leonid Zankov",
+		"2": "Natalia Grigorevna Morozova",
+		"3": "Mariya Pevzner",
+		"4": "Ivan Solovyov",
+		"5": "Alexander Zaporozhets"
+	},
+	"image": {
+		"0": "Lev-Semyonovich-Vygotsky-1896-1934.jpg"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q1382977",
+				"name": "Evald Ilyenkov"
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q362127",
+				"name": "Aleksei N. Leontiev"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q35802",
+				"name": "Benedictus de Spinoza",
+				"similarity": 0.050639644265174866
+			}
+		}
+	}
+}

@@ -1,1 +1,198 @@
-{"id": "Q76688", "name": "Hans-Hermann Hoppe", "educatedAt": {"0": {"name": "Saarland University", "coordinates": {"latitude": 49.25555556, "longitude": 7.04166667, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Goethe University Frankfurt", "coordinates": {"latitude": 50.12791, "longitude": 8.66944, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "University of Michigan", "coordinates": {"latitude": 42.276944444444446, "longitude": -83.73805555555556, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "occupation": {"0": "economist", "1": "philosopher", "2": "academic", "3": "university teacher", "4": "writer"}, "dateOfBirth": {"0": "+1949-09-02T00:00:00Z"}, "countryOfCitizenship": {"0": "Germany"}, "employer": {"0": {"name": "University of Nevada, Las Vegas", "coordinates": {"latitude": 36.10779, "longitude": -115.14376, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Property and Freedom Society", "coordinates": ""}, "2": {"name": "Johns Hopkins University", "coordinates": {"latitude": 39.32888888888889, "longitude": -76.62055555555555, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "The Johns Hopkins University SAIS Bologna Center", "coordinates": {"latitude": 44.4948, "longitude": 11.3557, "altitude": null, "precision": 0.012593545201211, "globe": "http://www.wikidata.org/entity/Q2"}}, "4": {"name": "Journal of Libertarian Studies", "coordinates": ""}}, "image": {"0": "Hans-Hermann Hoppe by Gage Skidmore.jpg"}, "residence": {"0": {"name": "Turkey", "coordinates": {"latitude": 39, "longitude": 36, "altitude": null, "precision": 1, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "Democracy: The God That Failed", "1": "A Theory of Socialism and Capitalism", "2": "The Economics and Ethics of Private Property", "3": "The Myth of National Defense"}, "movement": {"0": "anarcho-capitalism", "1": "paleolibertarianism", "2": "Austrian School"}, "fieldOfWork": {"0": "philosophy", "1": "economics", "2": "sociology"}, "edges": {"influenced": {"0": {"id": "Q1083378", "name": "Carlo Lottieri"}, "1": {"id": "Q21062238", "name": "Curtis Yarvin"}, "2": {"id": "Q35830789", "name": "Miguel Anxo Bastos"}}, "influencedBy": {"0": {"id": "Q84233", "name": "Ludwig von Mises"}, "1": {"id": "Q76357", "name": "J\u00fcrgen Habermas"}, "2": {"id": "Q9312", "name": "Immanuel Kant"}, "3": {"id": "Q125462", "name": "Karl Ludwig von Haller"}, "4": {"id": "Q468473", "name": "Gustave de Molinari"}, "5": {"id": "Q828641", "name": "Bertrand de Jouvenel"}, "6": {"id": "Q113951", "name": "Erik von Kuehnelt-Leddihn"}, "7": {"id": "Q1333105", "name": "Robert Nisbet"}, "8": {"id": "Q72998", "name": "Paul Lorenzen"}, "9": {"id": "Q58853", "name": "Karl-Otto Apel"}, "10": {"id": "Q297079", "name": "Murray Rothbard"}}, "studentOf": {"0": {"id": "Q297079", "name": "Murray Rothbard"}, "1": {"id": "Q76357", "name": "J\u00fcrgen Habermas"}}}}
+{
+	"id": "Q76688",
+	"name": "Hans-Hermann Hoppe",
+	"educatedAt": {
+		"0": {
+			"name": "Saarland University",
+			"coordinates": {
+				"latitude": 49.25555556,
+				"longitude": 7.04166667,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Goethe University Frankfurt",
+			"coordinates": {
+				"latitude": 50.12791,
+				"longitude": 8.66944,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "University of Michigan",
+			"coordinates": {
+				"latitude": 42.276944444444446,
+				"longitude": -83.73805555555556,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"occupation": {
+		"0": "economist",
+		"1": "philosopher",
+		"2": "academic",
+		"3": "university teacher",
+		"4": "writer"
+	},
+	"dateOfBirth": {
+		"0": "+1949-09-02T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": "Germany"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Nevada, Las Vegas",
+			"coordinates": {
+				"latitude": 36.10779,
+				"longitude": -115.14376,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Property and Freedom Society",
+			"coordinates": ""
+		},
+		"2": {
+			"name": "Johns Hopkins University",
+			"coordinates": {
+				"latitude": 39.32888888888889,
+				"longitude": -76.62055555555555,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "The Johns Hopkins University SAIS Bologna Center",
+			"coordinates": {
+				"latitude": 44.4948,
+				"longitude": 11.3557,
+				"altitude": null,
+				"precision": 0.012593545201211,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"name": "Journal of Libertarian Studies",
+			"coordinates": ""
+		}
+	},
+	"image": {
+		"0": "Hans-Hermann Hoppe by Gage Skidmore.jpg"
+	},
+	"residence": {
+		"0": {
+			"name": "Turkey",
+			"coordinates": {
+				"latitude": 39,
+				"longitude": 36,
+				"altitude": null,
+				"precision": 1,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "Democracy: The God That Failed",
+		"1": "A Theory of Socialism and Capitalism",
+		"2": "The Economics and Ethics of Private Property",
+		"3": "The Myth of National Defense"
+	},
+	"movement": {
+		"0": "anarcho-capitalism",
+		"1": "paleolibertarianism",
+		"2": "Austrian School"
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "economics",
+		"2": "sociology"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q1083378",
+				"name": "Carlo Lottieri"
+			},
+			"1": {
+				"id": "Q21062238",
+				"name": "Curtis Yarvin",
+				"similarity": 0.5250357389450073
+			},
+			"2": {
+				"id": "Q35830789",
+				"name": "Miguel Anxo Bastos"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q84233",
+				"name": "Ludwig von Mises",
+				"similarity": 0.5146161317825317
+			},
+			"1": {
+				"id": "Q76357",
+				"name": "J\u00fcrgen Habermas"
+			},
+			"2": {
+				"id": "Q9312",
+				"name": "Immanuel Kant",
+				"similarity": 0.2720012366771698
+			},
+			"3": {
+				"id": "Q125462",
+				"name": "Karl Ludwig von Haller"
+			},
+			"4": {
+				"id": "Q468473",
+				"name": "Gustave de Molinari"
+			},
+			"5": {
+				"id": "Q828641",
+				"name": "Bertrand de Jouvenel"
+			},
+			"6": {
+				"id": "Q113951",
+				"name": "Erik von Kuehnelt-Leddihn",
+				"similarity": 0.1885567009449005
+			},
+			"7": {
+				"id": "Q1333105",
+				"name": "Robert Nisbet"
+			},
+			"8": {
+				"id": "Q72998",
+				"name": "Paul Lorenzen"
+			},
+			"9": {
+				"id": "Q58853",
+				"name": "Karl-Otto Apel"
+			},
+			"10": {
+				"id": "Q297079",
+				"name": "Murray Rothbard",
+				"similarity": 0.4768146276473999
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q297079",
+				"name": "Murray Rothbard",
+				"similarity": 0.4768146276473999
+			},
+			"1": {
+				"id": "Q76357",
+				"name": "J\u00fcrgen Habermas"
+			}
+		}
+	}
+}

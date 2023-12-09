@@ -1,1 +1,40 @@
-{"id": "Q667385", "name": "Aristos of Ascalon", "occupation": {"0": "philosopher"}, "movement": {"0": "Platonism"}, "dateOfBirth": {"0": "-0050-00-00T00:00:00Z"}, "dateOfDeath": {"0": "-0050-00-00T00:00:00Z"}, "edges": {"student": {"0": {"id": "Q6197", "name": "Horace"}, "1": {"id": "Q2569389", "name": "Aristo of Alexandria"}, "2": {"id": "Q950303", "name": "Cratippus of Pergamon"}}, "studentOf": {"0": {"id": "Q320042", "name": "Antiochus of Ascalon"}}}}
+{
+	"id": "Q667385",
+	"name": "Aristos of Ascalon",
+	"occupation": {
+		"0": "philosopher"
+	},
+	"movement": {
+		"0": "Platonism"
+	},
+	"dateOfBirth": {
+		"0": "-0050-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0050-00-00T00:00:00Z"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q6197",
+				"name": "Horace",
+				"similarity": 0.3331650197505951
+			},
+			"1": {
+				"id": "Q2569389",
+				"name": "Aristo of Alexandria"
+			},
+			"2": {
+				"id": "Q950303",
+				"name": "Cratippus of Pergamon"
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q320042",
+				"name": "Antiochus of Ascalon",
+				"similarity": 0.43523868918418884
+			}
+		}
+	}
+}

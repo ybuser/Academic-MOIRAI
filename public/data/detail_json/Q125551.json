@@ -1,1 +1,98 @@
-{"id": "Q125551", "name": "Parmenides", "image": {"0": "Parmenides.jpg"}, "dateOfBirth": {"0": "-0515-00-00T00:00:00Z"}, "dateOfDeath": {"0": "-0470-00-00T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "writer", "2": "poet", "3": "legislator"}, "movement": {"0": "Pre-Socratic philosophy", "1": "Eleatics"}, "fieldOfWork": {"0": "philosophy", "1": "ancient Greek philosophy"}, "edges": {"influenced": {"0": {"id": "Q76685", "name": "Johann Friedrich Herbart"}, "1": {"id": "Q35802", "name": "Benedictus de Spinoza"}, "2": {"id": "Q105725041", "name": "Francisco Jos\u00e9 Ramos"}, "3": {"id": "Q132157", "name": "Zeno of Elea"}, "4": {"id": "Q48301", "name": "Martin Heidegger"}, "5": {"id": "Q9358", "name": "Friedrich Nietzsche"}, "6": {"id": "Q868", "name": "Aristotle"}, "7": {"id": "Q859", "name": "Plato"}}, "studentOf": {"0": {"id": "Q131671", "name": "Xenophanes"}}, "influencedBy": {"0": {"id": "Q41155", "name": "Heraclitus"}}, "student": {"0": {"id": "Q132157", "name": "Zeno of Elea"}, "1": {"id": "Q312682", "name": "Euclid of Megara"}, "2": {"id": "Q83375", "name": "Empedocles"}}}}
+{
+	"id": "Q125551",
+	"name": "Parmenides",
+	"image": {
+		"0": "Parmenides.jpg"
+	},
+	"dateOfBirth": {
+		"0": "-0515-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0470-00-00T00:00:00Z"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "writer",
+		"2": "poet",
+		"3": "legislator"
+	},
+	"movement": {
+		"0": "Pre-Socratic philosophy",
+		"1": "Eleatics"
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "ancient Greek philosophy"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q76685",
+				"name": "Johann Friedrich Herbart"
+			},
+			"1": {
+				"id": "Q35802",
+				"name": "Benedictus de Spinoza",
+				"similarity": 0.15357549488544464
+			},
+			"2": {
+				"id": "Q105725041",
+				"name": "Francisco Jos\u00e9 Ramos"
+			},
+			"3": {
+				"id": "Q132157",
+				"name": "Zeno of Elea",
+				"similarity": 0.5714649558067322
+			},
+			"4": {
+				"id": "Q48301",
+				"name": "Martin Heidegger",
+				"similarity": 0.278037428855896
+			},
+			"5": {
+				"id": "Q9358",
+				"name": "Friedrich Nietzsche",
+				"similarity": 0.31200045347213745
+			},
+			"6": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.3782869875431061
+			},
+			"7": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.4990781545639038
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q131671",
+				"name": "Xenophanes",
+				"similarity": 0.31227418780326843
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q41155",
+				"name": "Heraclitus",
+				"similarity": 0.4950464069843292
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q132157",
+				"name": "Zeno of Elea",
+				"similarity": 0.5714649558067322
+			},
+			"1": {
+				"id": "Q312682",
+				"name": "Euclid of Megara"
+			},
+			"2": {
+				"id": "Q83375",
+				"name": "Empedocles"
+			}
+		}
+	}
+}

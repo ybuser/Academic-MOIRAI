@@ -1,1 +1,55 @@
-{"id": "Q185770", "name": "Posidonius", "movement": {"0": "stoicism"}, "occupation": {"0": "mathematician", "1": "astronomer", "2": "historian", "3": "philosopher", "4": "writer", "5": "physicist", "6": "geographer"}, "image": {"0": "Posidonio, replica augustea (23 ac.-14 dc ca) da originale del 100-50 ac. ca. 6142.JPG"}, "dateOfDeath": {"0": "-0051-01-01T00:00:00Z"}, "dateOfBirth": {"0": "-0135-01-01T00:00:00Z"}, "timePeriod": {"0": "Hellenistic period"}, "fieldOfWork": {"0": "philosophy"}, "edges": {"studentOf": {"0": {"id": "Q297420", "name": "Panaetius"}}, "student": {"0": {"id": "Q280432", "name": "Athenodoros Cananites"}, "1": {"id": "Q4352000", "name": "Jason of Nysa"}}, "influencedBy": {"0": {"id": "Q297420", "name": "Panaetius"}}}}
+{
+	"id": "Q185770",
+	"name": "Posidonius",
+	"movement": {
+		"0": "stoicism"
+	},
+	"occupation": {
+		"0": "mathematician",
+		"1": "astronomer",
+		"2": "historian",
+		"3": "philosopher",
+		"4": "writer",
+		"5": "physicist",
+		"6": "geographer"
+	},
+	"image": {
+		"0": "Posidonio, replica augustea (23 ac.-14 dc ca) da originale del 100-50 ac. ca. 6142.JPG"
+	},
+	"dateOfDeath": {
+		"0": "-0051-01-01T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "-0135-01-01T00:00:00Z"
+	},
+	"timePeriod": {
+		"0": "Hellenistic period"
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q297420",
+				"name": "Panaetius"
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q280432",
+				"name": "Athenodoros Cananites"
+			},
+			"1": {
+				"id": "Q4352000",
+				"name": "Jason of Nysa"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q297420",
+				"name": "Panaetius"
+			}
+		}
+	}
+}

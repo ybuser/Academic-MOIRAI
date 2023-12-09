@@ -1,1 +1,35 @@
-{"id": "Q925732", "name": "Menedemus the Cynic", "movement": {"0": "cynicism"}, "occupation": {"0": "philosopher", "1": "historian"}, "dateOfBirth": {"0": "-0400-01-01T00:00:00Z"}, "dateOfDeath": {"0": "-0300-01-01T00:00:00Z"}, "timePeriod": {"0": "Hellenistic period"}, "fieldOfWork": {"0": "philosophy"}, "edges": {"studentOf": {"0": {"id": "Q1234536", "name": "Colotes"}, "1": {"id": "Q5816906", "name": "Echecles of Ephesus"}}}}
+{
+	"id": "Q925732",
+	"name": "Menedemus the Cynic",
+	"movement": {
+		"0": "cynicism"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "historian"
+	},
+	"dateOfBirth": {
+		"0": "-0400-01-01T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0300-01-01T00:00:00Z"
+	},
+	"timePeriod": {
+		"0": "Hellenistic period"
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q1234536",
+				"name": "Colotes"
+			},
+			"1": {
+				"id": "Q5816906",
+				"name": "Echecles of Ephesus"
+			}
+		}
+	}
+}

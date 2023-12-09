@@ -1,1 +1,85 @@
-{"id": "Q8005287", "name": "William Bechtel", "educatedAt": {"0": {"name": "University of Chicago", "coordinates": {"latitude": 41.789722222222, "longitude": -87.599722222222, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Kenyon College", "coordinates": {"latitude": 40.374722, "longitude": -82.397222, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "University of California, San Diego", "coordinates": {"latitude": 32.88111111111111, "longitude": -117.23805555555556, "altitude": null, "precision": 0.000277778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Washington University in St.\u00a0Louis", "coordinates": {"latitude": 38.648, "longitude": -90.305, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Georgia State University", "coordinates": {"latitude": 33.7528, "longitude": -84.3861, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}}, "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "+1951-00-00T00:00:00Z"}, "doctralStudent": {"0": "Adam White"}, "edges": {"studentOf": {"0": {"id": "Q104150553", "name": "Manley H. Thompson"}, "1": {"id": "Q66490637", "name": "Daniel Garber"}}, "student": {"0": {"id": "Q104150412", "name": "Chris Eliasmith"}}}}
+{
+	"id": "Q8005287",
+	"name": "William Bechtel",
+	"educatedAt": {
+		"0": {
+			"name": "University of Chicago",
+			"coordinates": {
+				"latitude": 41.789722222222,
+				"longitude": -87.599722222222,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Kenyon College",
+			"coordinates": {
+				"latitude": 40.374722,
+				"longitude": -82.397222,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"name": "University of California, San Diego",
+			"coordinates": {
+				"latitude": 32.88111111111111,
+				"longitude": -117.23805555555556,
+				"altitude": null,
+				"precision": 0.000277778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Washington University in St.\u00a0Louis",
+			"coordinates": {
+				"latitude": 38.648,
+				"longitude": -90.305,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "Georgia State University",
+			"coordinates": {
+				"latitude": 33.7528,
+				"longitude": -84.3861,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"occupation": {
+		"0": "philosopher"
+	},
+	"dateOfBirth": {
+		"0": "+1951-00-00T00:00:00Z"
+	},
+	"doctralStudent": {
+		"0": "Adam White"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q104150553",
+				"name": "Manley H. Thompson"
+			},
+			"1": {
+				"id": "Q66490637",
+				"name": "Daniel Garber"
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q104150412",
+				"name": "Chris Eliasmith"
+			}
+		}
+	}
+}

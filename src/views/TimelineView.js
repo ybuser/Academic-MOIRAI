@@ -153,10 +153,10 @@ const TimelineView = (props) => {
         }        
         arrowLayer.append("line")
           .data([rel])
-          .attr("x1", xScale(sourceNode.death))
-          .attr("y1", yScale(yPos[sourceIndex]) + barHeight / 2)
-          .attr("x2", xScale(targetNode.birth))
-          .attr("y2", yScale(yPos[targetIndex]) + barHeight / 2)
+          .attr("x1", xScale((sourceNode.death+sourceNode.birth)/2))
+          .attr("y1", yPos[sourceIndex] < yPos[targetIndex] ? yScale(yPos[sourceIndex]) : yScale(yPos[sourceIndex]) + barHeight)
+          .attr("x2", xScale((targetNode.birth+targetNode.death)/2))
+          .attr("y2", yPos[sourceIndex] > yPos[targetIndex] ? yScale(yPos[targetIndex]) : yScale(yPos[targetIndex]) + barHeight)
           .attr("stroke", arrowColor)
           .attr("opacity", activeNode[0] == sourceNode.id || activeNode[0] == targetNode.id ? 1 : 0)
           .attr("marker-end", "url(#arrowhead)");
@@ -272,18 +272,12 @@ const TimelineView = (props) => {
 
       svg.selectAll(".arrow-layer").remove();
 
-      // arrowLayer.selectAll("line").attr("opacity", 0);
-      // arrowLayer.selectAll("line")
-      // .filter(line => newActiveNodes.includes(line.source) || newActiveNodes.includes(line.target))
-      // .attr("opacity", 1);
-
       event.stopPropagation(); 
     });
 
     svg.on("click", () => {
       setActiveNode([]);
       svg.selectAll(".arrow-layer").remove();
-      // arrowLayer.selectAll("line").attr("opacity", 0);
     });
 
     console.log(activeNode);

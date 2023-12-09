@@ -1,1 +1,63 @@
-{"id": "Q2476671", "name": "Ulrich Schrade", "countryOfCitizenship": {"0": "Poland", "1": "Germany"}, "image": {"0": "Ulrich Schrade.jpg"}, "dateOfBirth": {"0": "+1943-07-21T00:00:00Z"}, "dateOfDeath": {"0": "+2009-11-15T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "university teacher"}, "educatedAt": {"0": {"name": "Warsaw University of Technology", "coordinates": {"latitude": 52.220278055556, "longitude": 21.010556111111, "altitude": null, "precision": 2.7777777777778e-07, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "6 Mickiewicza Street in Olsztyn", "coordinates": {"latitude": 53.7792, "longitude": 20.4856, "altitude": null, "precision": 0.15202529116627, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "Warsaw University of Technology", "coordinates": {"latitude": 52.220278055556, "longitude": 21.010556111111, "altitude": null, "precision": 2.7777777777778e-07, "globe": "http://www.wikidata.org/entity/Q2"}}}, "edges": {"studentOf": {"0": {"id": "Q9175965", "name": "Bogus\u0142aw Wolniewicz"}}}}
+{
+	"id": "Q2476671",
+	"name": "Ulrich Schrade",
+	"countryOfCitizenship": {
+		"0": "Poland",
+		"1": "Germany"
+	},
+	"image": {
+		"0": "Ulrich Schrade.jpg"
+	},
+	"dateOfBirth": {
+		"0": "+1943-07-21T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+2009-11-15T00:00:00Z"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "university teacher"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Warsaw University of Technology",
+			"coordinates": {
+				"latitude": 52.220278055556,
+				"longitude": 21.010556111111,
+				"altitude": null,
+				"precision": 2.7777777777778e-07,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "6 Mickiewicza Street in Olsztyn",
+			"coordinates": {
+				"latitude": 53.7792,
+				"longitude": 20.4856,
+				"altitude": null,
+				"precision": 0.15202529116627,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"name": "Warsaw University of Technology",
+			"coordinates": {
+				"latitude": 52.220278055556,
+				"longitude": 21.010556111111,
+				"altitude": null,
+				"precision": 2.7777777777778e-07,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q9175965",
+				"name": "Bogus\u0142aw Wolniewicz"
+			}
+		}
+	}
+}

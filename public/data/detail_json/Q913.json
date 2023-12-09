@@ -1,1 +1,165 @@
-{"id": "Q913", "name": "Socrates", "occupation": {"0": "philosopher", "1": "teacher", "2": "writer"}, "countryOfCitizenship": {"0": "Classical Athens"}, "dateOfBirth": {"0": "-0470-00-00T00:00:00Z", "1": "-0469-00-00T00:00:00Z"}, "dateOfDeath": {"0": "-0399-02-15T00:00:00Z"}, "residence": {"0": {"name": "Classical Athens", "coordinates": {"latitude": 37.96666667, "longitude": 23.71666667, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}}, "student": {"0": "Apollodorus", "1": "Alcibiades"}, "fieldOfWork": {"0": "philosophy", "1": "epistemology", "2": "ethics"}, "influencedBy": {"0": "Pre-Socratic philosophy", "1": "sophist"}, "image": {"0": "Socrate du Louvre.jpg"}, "edges": {"student": {"0": {"id": "Q221182", "name": "Isocrates"}, "1": {"id": "Q129772", "name": "Xenophon"}, "2": {"id": "Q1920435", "name": "Menexenus"}, "3": {"id": "Q409647", "name": "Aeschines of Sphettus"}, "4": {"id": "Q859", "name": "Plato"}, "5": {"id": "Q179149", "name": "Antisthenes"}, "6": {"id": "Q189506", "name": "Aristippus"}, "7": {"id": "Q312682", "name": "Euclid of Megara"}, "8": {"id": "Q380190", "name": "Phaedo of Elis"}, "9": {"id": "Q744125", "name": "Chaerephon"}, "10": {"id": "Q928470", "name": "Simmias of Thebes"}, "11": {"id": "Q965144", "name": "Cebes"}}, "influencedBy": {"0": {"id": "Q83041", "name": "Anaxagoras"}}, "influenced": {"0": {"id": "Q60025", "name": "Hannah Arendt"}, "1": {"id": "Q312682", "name": "Euclid of Megara"}, "2": {"id": "Q9358", "name": "Friedrich Nietzsche"}, "3": {"id": "Q937697", "name": "Stefan Molyneux"}, "4": {"id": "Q470453", "name": "Merab Mamardashvili"}, "5": {"id": "Q868", "name": "Aristotle"}, "6": {"id": "Q179149", "name": "Antisthenes"}, "7": {"id": "Q859", "name": "Plato"}, "8": {"id": "Q189506", "name": "Aristippus"}, "9": {"id": "Q171303", "name": "Zeno of Citium"}, "10": {"id": "Q81244", "name": "Karl Popper"}, "11": {"id": "Q380190", "name": "Phaedo of Elis"}}}}
+{
+	"id": "Q913",
+	"name": "Socrates",
+	"occupation": {
+		"0": "philosopher",
+		"1": "teacher",
+		"2": "writer"
+	},
+	"countryOfCitizenship": {
+		"0": "Classical Athens"
+	},
+	"dateOfBirth": {
+		"0": "-0470-00-00T00:00:00Z",
+		"1": "-0469-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0399-02-15T00:00:00Z"
+	},
+	"residence": {
+		"0": {
+			"name": "Classical Athens",
+			"coordinates": {
+				"latitude": 37.96666667,
+				"longitude": 23.71666667,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"student": {
+		"0": "Apollodorus",
+		"1": "Alcibiades"
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "epistemology",
+		"2": "ethics"
+	},
+	"influencedBy": {
+		"0": "Pre-Socratic philosophy",
+		"1": "sophist"
+	},
+	"image": {
+		"0": "Socrate du Louvre.jpg"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q221182",
+				"name": "Isocrates"
+			},
+			"1": {
+				"id": "Q129772",
+				"name": "Xenophon",
+				"similarity": 0.3665436804294586
+			},
+			"2": {
+				"id": "Q1920435",
+				"name": "Menexenus"
+			},
+			"3": {
+				"id": "Q409647",
+				"name": "Aeschines of Sphettus"
+			},
+			"4": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.44577309489250183
+			},
+			"5": {
+				"id": "Q179149",
+				"name": "Antisthenes"
+			},
+			"6": {
+				"id": "Q189506",
+				"name": "Aristippus",
+				"similarity": 0.35958489775657654
+			},
+			"7": {
+				"id": "Q312682",
+				"name": "Euclid of Megara"
+			},
+			"8": {
+				"id": "Q380190",
+				"name": "Phaedo of Elis"
+			},
+			"9": {
+				"id": "Q744125",
+				"name": "Chaerephon"
+			},
+			"10": {
+				"id": "Q928470",
+				"name": "Simmias of Thebes"
+			},
+			"11": {
+				"id": "Q965144",
+				"name": "Cebes"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q83041",
+				"name": "Anaxagoras"
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q60025",
+				"name": "Hannah Arendt",
+				"similarity": 0.059034544974565506
+			},
+			"1": {
+				"id": "Q312682",
+				"name": "Euclid of Megara"
+			},
+			"2": {
+				"id": "Q9358",
+				"name": "Friedrich Nietzsche",
+				"similarity": 0.32392385601997375
+			},
+			"3": {
+				"id": "Q937697",
+				"name": "Stefan Molyneux",
+				"similarity": 0.16368232667446136
+			},
+			"4": {
+				"id": "Q470453",
+				"name": "Merab Mamardashvili"
+			},
+			"5": {
+				"id": "Q868",
+				"name": "Aristotle",
+				"similarity": 0.35821810364723206
+			},
+			"6": {
+				"id": "Q179149",
+				"name": "Antisthenes"
+			},
+			"7": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.44577309489250183
+			},
+			"8": {
+				"id": "Q189506",
+				"name": "Aristippus",
+				"similarity": 0.35958489775657654
+			},
+			"9": {
+				"id": "Q171303",
+				"name": "Zeno of Citium"
+			},
+			"10": {
+				"id": "Q81244",
+				"name": "Karl Popper",
+				"similarity": 0.2780194580554962
+			},
+			"11": {
+				"id": "Q380190",
+				"name": "Phaedo of Elis"
+			}
+		}
+	}
+}

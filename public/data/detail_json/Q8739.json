@@ -1,1 +1,68 @@
-{"id": "Q8739", "name": "Archimedes", "image": {"0": "Retrato de un erudito (\u00bfArqu\u00edmedes?), por Domenico Fetti.jpg"}, "fieldOfWork": {"0": "geometry", "1": "mathematics", "2": "mechanics", "3": "engineering", "4": "astronomy"}, "occupation": {"0": "mathematician", "1": "physicist", "2": "astronomer", "3": "inventor", "4": "military engineer", "5": "philosopher", "6": "engineer"}, "dateOfBirth": {"0": "-0287-00-00T00:00:00Z", "1": "-0287-00-00T00:00:00Z", "2": "-0286-00-00T00:00:00Z", "3": "-0285-00-00T00:00:00Z"}, "dateOfDeath": {"0": "-0212-01-01T00:00:00Z", "1": "-0212-00-00T00:00:00Z", "2": "-0211-00-00T00:00:00Z", "3": "-0211-00-00T00:00:00Z"}, "timePeriod": {"0": "Hellenistic period"}, "permanentDuplicatedItem": {"0": "Archimedes"}, "residence": {"0": {"name": "Syracuse", "coordinates": {"latitude": 37.069166666667, "longitude": 15.2875, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "Archimedes' principle"}, "countryOfCitizenship": {"0": "ancient Syracuse"}, "edges": {"influenced": {"0": {"id": "Q184530", "name": "Gerolamo Cardano"}}}}
+{
+	"id": "Q8739",
+	"name": "Archimedes",
+	"image": {
+		"0": "Retrato de un erudito (\u00bfArqu\u00edmedes?), por Domenico Fetti.jpg"
+	},
+	"fieldOfWork": {
+		"0": "geometry",
+		"1": "mathematics",
+		"2": "mechanics",
+		"3": "engineering",
+		"4": "astronomy"
+	},
+	"occupation": {
+		"0": "mathematician",
+		"1": "physicist",
+		"2": "astronomer",
+		"3": "inventor",
+		"4": "military engineer",
+		"5": "philosopher",
+		"6": "engineer"
+	},
+	"dateOfBirth": {
+		"0": "-0287-00-00T00:00:00Z",
+		"1": "-0287-00-00T00:00:00Z",
+		"2": "-0286-00-00T00:00:00Z",
+		"3": "-0285-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0212-01-01T00:00:00Z",
+		"1": "-0212-00-00T00:00:00Z",
+		"2": "-0211-00-00T00:00:00Z",
+		"3": "-0211-00-00T00:00:00Z"
+	},
+	"timePeriod": {
+		"0": "Hellenistic period"
+	},
+	"permanentDuplicatedItem": {
+		"0": "Archimedes"
+	},
+	"residence": {
+		"0": {
+			"name": "Syracuse",
+			"coordinates": {
+				"latitude": 37.069166666667,
+				"longitude": 15.2875,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "Archimedes' principle"
+	},
+	"countryOfCitizenship": {
+		"0": "ancient Syracuse"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q184530",
+				"name": "Gerolamo Cardano",
+				"similarity": 0.40251314640045166
+			}
+		}
+	}
+}

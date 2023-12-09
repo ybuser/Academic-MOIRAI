@@ -1,1 +1,492 @@
-{"id": "Q868", "name": "Aristotle", "movement": {"0": "peripatetic school"}, "occupation": {"0": "biologist", "1": "cosmologist", "2": "logician", "3": "zoologist", "4": "literary critic", "5": "mathematician", "6": "ethicist", "7": "epistemologist", "8": "political philosopher", "9": "polymath", "10": "philosopher of language", "11": "writer", "12": "philosopher", "13": "astronomer", "14": "geographer", "15": "teacher", "16": "tutor", "17": "ontologist", "18": "physicist"}, "dateOfBirth": {"0": "-0384-00-00T00:00:00Z", "1": "-0383-00-00T00:00:00Z"}, "dateOfDeath": {"0": "-0322-00-00T00:00:00Z", "1": "-0322-03-07T00:00:00Z"}, "image": {"0": "Aristotle Altemps Inv8575.jpg"}, "student": {"0": "Alexander the Great", "1": "Meno"}, "permanentDuplicatedItem": {"0": "\u0905\u0945\u0930\u093f\u0938\u094d\u091f\u0949\u091f\u0932"}, "educatedAt": {"0": {"name": "Platonic Academy", "coordinates": {"latitude": 37.992359, "longitude": 23.708059, "altitude": null, "precision": 1e-07, "globe": "http://www.wikidata.org/entity/Q2"}}}, "residence": {"0": {"name": "Athens", "coordinates": {"latitude": 37.98416666666667, "longitude": 23.728055555555557, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Athens", "coordinates": {"latitude": 37.98416666666667, "longitude": 23.728055555555557, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "philosophy", "1": "natural philosophy"}, "notableWork": {"0": "Politics", "1": "Nicomachean Ethics", "2": "Metaphysics", "3": "Physics", "4": "Organon", "5": "Poetics", "6": "Constitution of the Athenians", "7": "Eudaimonia"}, "edges": {"influenced": {"0": {"id": "Q6512", "name": "S\u00f8ren Kierkegaard"}, "1": {"id": "Q1173486", "name": "David Anhaght"}, "2": {"id": "Q9235", "name": "Georg Wilhelm Friedrich Hegel"}, "3": {"id": "Q822727", "name": "Bernard Stiegler"}, "4": {"id": "Q39837", "name": "Averroes"}, "5": {"id": "Q35802", "name": "Benedictus de Spinoza"}, "6": {"id": "Q297493", "name": "Philippa Foot"}, "7": {"id": "Q60025", "name": "Hannah Arendt"}, "8": {"id": "Q346523", "name": "Andrea Cesalpino"}, "9": {"id": "Q12390662", "name": "Indalecio Armesto"}, "10": {"id": "Q16217207", "name": "Neel Burton"}, "11": {"id": "Q156268", "name": "Pierre Bourdieu"}, "12": {"id": "Q127398", "name": "Moshe ben Maimon"}, "13": {"id": "Q235470", "name": "Martha Nussbaum"}, "14": {"id": "Q963339", "name": "Giovanni Botero"}, "15": {"id": "Q131149", "name": "Henry David Thoreau"}, "16": {"id": "Q71146", "name": "\u00c9ric Weil"}, "17": {"id": "Q4326996", "name": "Oleg Nogovitsyn"}, "18": {"id": "Q313929", "name": "Mortimer Jerome Adler"}, "19": {"id": "Q537304", "name": "Ploutarchos of Athens"}, "20": {"id": "Q215927", "name": "Yeshayahu Leibowitz"}, "21": {"id": "Q528415", "name": "Hasdai Crescas"}, "22": {"id": "Q4887305", "name": "Benedict Pereira"}, "23": {"id": "Q275003", "name": "Alain"}, "24": {"id": "Q9204", "name": "C. S. Lewis"}, "25": {"id": "Q9438", "name": "Thomas Aquinas"}, "26": {"id": "Q275500", "name": "Jean Buridan"}, "27": {"id": "Q132524", "name": "Ayn Rand"}, "28": {"id": "Q9047", "name": "Gottfried Wilhelm Leibniz"}, "29": {"id": "Q102851", "name": "Boethius"}, "30": {"id": "Q229646", "name": "G. E. M. Anscombe"}, "31": {"id": "Q8011", "name": "Avicenna"}, "32": {"id": "Q467525", "name": "Nel Noddings"}, "33": {"id": "Q48301", "name": "Martin Heidegger"}, "34": {"id": "Q271809", "name": "Proclus"}, "35": {"id": "Q9358", "name": "Friedrich Nietzsche"}, "36": {"id": "Q2332520", "name": "Damaris Cudworth Masham"}, "37": {"id": "Q43936", "name": "William of Ockham"}, "38": {"id": "Q579194", "name": "John Major"}, "39": {"id": "Q87292", "name": "Jean Gebser"}, "40": {"id": "Q937697", "name": "Stefan Molyneux"}, "41": {"id": "Q7243", "name": "Leo Tolstoy"}, "42": {"id": "Q664619", "name": "R\u00e9mi Brague"}, "43": {"id": "Q37621", "name": "Thomas Hobbes"}, "44": {"id": "Q448", "name": "Denis Diderot"}, "45": {"id": "Q76356", "name": "Hans-Georg Gadamer"}, "46": {"id": "Q34943", "name": "Ptolemy"}, "47": {"id": "Q1067", "name": "Dante Alighieri"}, "48": {"id": "Q272615", "name": "J. L. Austin"}, "49": {"id": "Q11903", "name": "Hypatia"}, "50": {"id": "Q11104", "name": "Al-Hassan Ibn Al-Haytham"}, "51": {"id": "Q4115307", "name": "Al-Jubba'i"}, "52": {"id": "Q316353", "name": "Strato of Lampsacus"}, "53": {"id": "Q619", "name": "Nicolaus Copernicus"}, "54": {"id": "Q484141", "name": "Muhammad Iqbal"}, "55": {"id": "Q3386096", "name": "Pierre Manent"}, "56": {"id": "Q165792", "name": "Edmund Burke"}, "57": {"id": "Q517390", "name": "Chantal Delsol"}, "58": {"id": "Q809101", "name": "Barry Smith"}, "59": {"id": "Q9191", "name": "Ren\u00e9 Descartes"}, "60": {"id": "Q42156", "name": "Henri Bergson"}, "61": {"id": "Q12049595", "name": "Rodrigo de Arriaga"}, "62": {"id": "Q4413029", "name": "Vasily Seseman"}, "63": {"id": "Q3709773", "name": "Wolfgang Smith"}, "64": {"id": "Q81244", "name": "Karl Popper"}, "65": {"id": "Q160460", "name": "Al-Farabi"}}, "student": {"0": {"id": "Q2955937", "name": "Chamaeleon"}, "1": {"id": "Q736433", "name": "Clearchus of Soli"}, "2": {"id": "Q352621", "name": "Dicaearchus"}, "3": {"id": "Q2980452", "name": "Clytus of Miletus"}, "4": {"id": "Q160362", "name": "Theophrastus"}, "5": {"id": "Q335156", "name": "Aristoxenus"}, "6": {"id": "Q358482", "name": "Eudemus of Rhodes"}, "7": {"id": "Q943529", "name": "Phaenias of Eresus"}, "8": {"id": "Q3347025", "name": "Neleus of Scepsis"}}, "studentOf": {"0": {"id": "Q859", "name": "Plato"}}, "influencedBy": {"0": {"id": "Q859", "name": "Plato"}, "1": {"id": "Q913", "name": "Socrates"}, "2": {"id": "Q41155", "name": "Heraclitus"}, "3": {"id": "Q125551", "name": "Parmenides"}, "4": {"id": "Q132157", "name": "Zeno of Elea"}, "5": {"id": "Q41980", "name": "Democritus"}, "6": {"id": "Q42458", "name": "Anaximander"}, "7": {"id": "Q43216", "name": "Epicurus"}, "8": {"id": "Q5264", "name": "Hippocrates"}, "9": {"id": "Q83375", "name": "Empedocles"}}}}
+{
+	"id": "Q868",
+	"name": "Aristotle",
+	"movement": {
+		"0": "peripatetic school"
+	},
+	"occupation": {
+		"0": "biologist",
+		"1": "cosmologist",
+		"2": "logician",
+		"3": "zoologist",
+		"4": "literary critic",
+		"5": "mathematician",
+		"6": "ethicist",
+		"7": "epistemologist",
+		"8": "political philosopher",
+		"9": "polymath",
+		"10": "philosopher of language",
+		"11": "writer",
+		"12": "philosopher",
+		"13": "astronomer",
+		"14": "geographer",
+		"15": "teacher",
+		"16": "tutor",
+		"17": "ontologist",
+		"18": "physicist"
+	},
+	"dateOfBirth": {
+		"0": "-0384-00-00T00:00:00Z",
+		"1": "-0383-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0322-00-00T00:00:00Z",
+		"1": "-0322-03-07T00:00:00Z"
+	},
+	"image": {
+		"0": "Aristotle Altemps Inv8575.jpg"
+	},
+	"student": {
+		"0": "Alexander the Great",
+		"1": "Meno"
+	},
+	"permanentDuplicatedItem": {
+		"0": "\u0905\u0945\u0930\u093f\u0938\u094d\u091f\u0949\u091f\u0932"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Platonic Academy",
+			"coordinates": {
+				"latitude": 37.992359,
+				"longitude": 23.708059,
+				"altitude": null,
+				"precision": 1e-07,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"residence": {
+		"0": {
+			"name": "Athens",
+			"coordinates": {
+				"latitude": 37.98416666666667,
+				"longitude": 23.728055555555557,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Athens",
+			"coordinates": {
+				"latitude": 37.98416666666667,
+				"longitude": 23.728055555555557,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "philosophy",
+		"1": "natural philosophy"
+	},
+	"notableWork": {
+		"0": "Politics",
+		"1": "Nicomachean Ethics",
+		"2": "Metaphysics",
+		"3": "Physics",
+		"4": "Organon",
+		"5": "Poetics",
+		"6": "Constitution of the Athenians",
+		"7": "Eudaimonia"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q6512",
+				"name": "S\u00f8ren Kierkegaard"
+			},
+			"1": {
+				"id": "Q1173486",
+				"name": "David Anhaght",
+				"similarity": 0.43289417028427124
+			},
+			"2": {
+				"id": "Q9235",
+				"name": "Georg Wilhelm Friedrich Hegel",
+				"similarity": 0.28045380115509033
+			},
+			"3": {
+				"id": "Q822727",
+				"name": "Bernard Stiegler"
+			},
+			"4": {
+				"id": "Q39837",
+				"name": "Averroes",
+				"similarity": 0.31577518582344055
+			},
+			"5": {
+				"id": "Q35802",
+				"name": "Benedictus de Spinoza",
+				"similarity": 0.18674279749393463
+			},
+			"6": {
+				"id": "Q297493",
+				"name": "Philippa Foot"
+			},
+			"7": {
+				"id": "Q60025",
+				"name": "Hannah Arendt",
+				"similarity": -0.005773711018264294
+			},
+			"8": {
+				"id": "Q346523",
+				"name": "Andrea Cesalpino"
+			},
+			"9": {
+				"id": "Q12390662",
+				"name": "Indalecio Armesto"
+			},
+			"10": {
+				"id": "Q16217207",
+				"name": "Neel Burton"
+			},
+			"11": {
+				"id": "Q156268",
+				"name": "Pierre Bourdieu",
+				"similarity": 0.0797949731349945
+			},
+			"12": {
+				"id": "Q127398",
+				"name": "Moshe ben Maimon",
+				"similarity": 0.2477293461561203
+			},
+			"13": {
+				"id": "Q235470",
+				"name": "Martha Nussbaum",
+				"similarity": 0.14754165709018707
+			},
+			"14": {
+				"id": "Q963339",
+				"name": "Giovanni Botero"
+			},
+			"15": {
+				"id": "Q131149",
+				"name": "Henry David Thoreau",
+				"similarity": 0.05580494925379753
+			},
+			"16": {
+				"id": "Q71146",
+				"name": "\u00c9ric Weil"
+			},
+			"17": {
+				"id": "Q4326996",
+				"name": "Oleg Nogovitsyn"
+			},
+			"18": {
+				"id": "Q313929",
+				"name": "Mortimer Jerome Adler"
+			},
+			"19": {
+				"id": "Q537304",
+				"name": "Ploutarchos of Athens"
+			},
+			"20": {
+				"id": "Q215927",
+				"name": "Yeshayahu Leibowitz"
+			},
+			"21": {
+				"id": "Q528415",
+				"name": "Hasdai Crescas"
+			},
+			"22": {
+				"id": "Q4887305",
+				"name": "Benedict Pereira"
+			},
+			"23": {
+				"id": "Q275003",
+				"name": "Alain"
+			},
+			"24": {
+				"id": "Q9204",
+				"name": "C. S. Lewis",
+				"similarity": 0.2035914957523346
+			},
+			"25": {
+				"id": "Q9438",
+				"name": "Thomas Aquinas",
+				"similarity": 0.36963319778442383
+			},
+			"26": {
+				"id": "Q275500",
+				"name": "Jean Buridan"
+			},
+			"27": {
+				"id": "Q132524",
+				"name": "Ayn Rand",
+				"similarity": 0.04182053729891777
+			},
+			"28": {
+				"id": "Q9047",
+				"name": "Gottfried Wilhelm Leibniz",
+				"similarity": 0.2505148649215698
+			},
+			"29": {
+				"id": "Q102851",
+				"name": "Boethius",
+				"similarity": 0.30970168113708496
+			},
+			"30": {
+				"id": "Q229646",
+				"name": "G. E. M. Anscombe",
+				"similarity": 0.2755480110645294
+			},
+			"31": {
+				"id": "Q8011",
+				"name": "Avicenna",
+				"similarity": 0.48774266242980957
+			},
+			"32": {
+				"id": "Q467525",
+				"name": "Nel Noddings"
+			},
+			"33": {
+				"id": "Q48301",
+				"name": "Martin Heidegger",
+				"similarity": 0.09695889055728912
+			},
+			"34": {
+				"id": "Q271809",
+				"name": "Proclus"
+			},
+			"35": {
+				"id": "Q9358",
+				"name": "Friedrich Nietzsche",
+				"similarity": 0.1480225771665573
+			},
+			"36": {
+				"id": "Q2332520",
+				"name": "Damaris Cudworth Masham"
+			},
+			"37": {
+				"id": "Q43936",
+				"name": "William of Ockham"
+			},
+			"38": {
+				"id": "Q579194",
+				"name": "John Major",
+				"similarity": 0.36781710386276245
+			},
+			"39": {
+				"id": "Q87292",
+				"name": "Jean Gebser"
+			},
+			"40": {
+				"id": "Q937697",
+				"name": "Stefan Molyneux",
+				"similarity": 0.1074555367231369
+			},
+			"41": {
+				"id": "Q7243",
+				"name": "Leo Tolstoy",
+				"similarity": 0.21241921186447144
+			},
+			"42": {
+				"id": "Q664619",
+				"name": "R\u00e9mi Brague"
+			},
+			"43": {
+				"id": "Q37621",
+				"name": "Thomas Hobbes",
+				"similarity": 0.24756717681884766
+			},
+			"44": {
+				"id": "Q448",
+				"name": "Denis Diderot",
+				"similarity": 0.1049233227968216
+			},
+			"45": {
+				"id": "Q76356",
+				"name": "Hans-Georg Gadamer"
+			},
+			"46": {
+				"id": "Q34943",
+				"name": "Ptolemy",
+				"similarity": 0.40139085054397583
+			},
+			"47": {
+				"id": "Q1067",
+				"name": "Dante Alighieri",
+				"similarity": 0.24669493734836578
+			},
+			"48": {
+				"id": "Q272615",
+				"name": "J. L. Austin",
+				"similarity": 0.1204686239361763
+			},
+			"49": {
+				"id": "Q11903",
+				"name": "Hypatia",
+				"similarity": 0.24688351154327393
+			},
+			"50": {
+				"id": "Q11104",
+				"name": "Al-Hassan Ibn Al-Haytham",
+				"similarity": 0.29442131519317627
+			},
+			"51": {
+				"id": "Q4115307",
+				"name": "Al-Jubba'i"
+			},
+			"52": {
+				"id": "Q316353",
+				"name": "Strato of Lampsacus"
+			},
+			"53": {
+				"id": "Q619",
+				"name": "Nicolaus Copernicus",
+				"similarity": 0.347693532705307
+			},
+			"54": {
+				"id": "Q484141",
+				"name": "Muhammad Iqbal",
+				"similarity": 0.1559201031923294
+			},
+			"55": {
+				"id": "Q3386096",
+				"name": "Pierre Manent"
+			},
+			"56": {
+				"id": "Q165792",
+				"name": "Edmund Burke",
+				"similarity": 0.06230351701378822
+			},
+			"57": {
+				"id": "Q517390",
+				"name": "Chantal Delsol"
+			},
+			"58": {
+				"id": "Q809101",
+				"name": "Barry Smith"
+			},
+			"59": {
+				"id": "Q9191",
+				"name": "Ren\u00e9 Descartes"
+			},
+			"60": {
+				"id": "Q42156",
+				"name": "Henri Bergson"
+			},
+			"61": {
+				"id": "Q12049595",
+				"name": "Rodrigo de Arriaga"
+			},
+			"62": {
+				"id": "Q4413029",
+				"name": "Vasily Seseman"
+			},
+			"63": {
+				"id": "Q3709773",
+				"name": "Wolfgang Smith"
+			},
+			"64": {
+				"id": "Q81244",
+				"name": "Karl Popper",
+				"similarity": 0.06445767730474472
+			},
+			"65": {
+				"id": "Q160460",
+				"name": "Al-Farabi",
+				"similarity": 0.3272911608219147
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q2955937",
+				"name": "Chamaeleon",
+				"similarity": 0.27794045209884644
+			},
+			"1": {
+				"id": "Q736433",
+				"name": "Clearchus of Soli"
+			},
+			"2": {
+				"id": "Q352621",
+				"name": "Dicaearchus"
+			},
+			"3": {
+				"id": "Q2980452",
+				"name": "Clytus of Miletus"
+			},
+			"4": {
+				"id": "Q160362",
+				"name": "Theophrastus",
+				"similarity": 0.48282092809677124
+			},
+			"5": {
+				"id": "Q335156",
+				"name": "Aristoxenus"
+			},
+			"6": {
+				"id": "Q358482",
+				"name": "Eudemus of Rhodes"
+			},
+			"7": {
+				"id": "Q943529",
+				"name": "Phaenias of Eresus"
+			},
+			"8": {
+				"id": "Q3347025",
+				"name": "Neleus of Scepsis"
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.3513796031475067
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q859",
+				"name": "Plato",
+				"similarity": 0.3513796031475067
+			},
+			"1": {
+				"id": "Q913",
+				"name": "Socrates",
+				"similarity": 0.35821810364723206
+			},
+			"2": {
+				"id": "Q41155",
+				"name": "Heraclitus",
+				"similarity": 0.25499847531318665
+			},
+			"3": {
+				"id": "Q125551",
+				"name": "Parmenides",
+				"similarity": 0.3782869875431061
+			},
+			"4": {
+				"id": "Q132157",
+				"name": "Zeno of Elea",
+				"similarity": 0.4126264750957489
+			},
+			"5": {
+				"id": "Q41980",
+				"name": "Democritus"
+			},
+			"6": {
+				"id": "Q42458",
+				"name": "Anaximander",
+				"similarity": 0.3275565803050995
+			},
+			"7": {
+				"id": "Q43216",
+				"name": "Epicurus",
+				"similarity": 0.2887597978115082
+			},
+			"8": {
+				"id": "Q5264",
+				"name": "Hippocrates",
+				"similarity": 0.3206319510936737
+			},
+			"9": {
+				"id": "Q83375",
+				"name": "Empedocles"
+			}
+		}
+	}
+}

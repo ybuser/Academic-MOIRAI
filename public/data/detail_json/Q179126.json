@@ -1,1 +1,94 @@
-{"id": "Q179126", "name": "John Ruskin", "dateOfBirth": {"0": "+1819-02-08T00:00:00Z"}, "dateOfDeath": {"0": "+1900-01-20T00:00:00Z"}, "movement": {"0": "Pre-Raphaelite Brotherhood", "1": "free-thought"}, "educatedAt": {"0": {"name": "Christ Church", "coordinates": {"latitude": 51.7502, "longitude": -1.25585, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "King's College London", "coordinates": {"latitude": 51.511944444444, "longitude": -0.11611111111111, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "occupation": {"0": "writer", "1": "art critic", "2": "art historian", "3": "philosopher", "4": "painter", "5": "sociologist", "6": "university teacher", "7": "poet", "8": "literary critic", "9": "architect", "10": "journalist", "11": "aesthetician"}, "image": {"0": "John Ruskin 1863.jpg", "1": "John Ruskin.jpg", "2": "John Ruskin - Project Gutenberg eText 13103.jpg"}, "fieldOfWork": {"0": "art criticism"}, "notableWork": {"0": "Modern Painters", "1": "The Seven Lamps of Architecture", "2": "The Stones of Venice", "3": "Unto This Last", "4": "Fors Clavigera"}, "employer": {"0": {"name": "University of Oxford", "coordinates": {"latitude": 51.755, "longitude": -1.255, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "countryOfCitizenship": {"0": "United Kingdom of Great Britain and Ireland"}, "edges": {"influenced": {"0": {"id": "Q445939", "name": "Roger Scruton"}, "1": {"id": "Q1001", "name": "Mahatma Gandhi"}}}}
+{
+	"id": "Q179126",
+	"name": "John Ruskin",
+	"dateOfBirth": {
+		"0": "+1819-02-08T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1900-01-20T00:00:00Z"
+	},
+	"movement": {
+		"0": "Pre-Raphaelite Brotherhood",
+		"1": "free-thought"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Christ Church",
+			"coordinates": {
+				"latitude": 51.7502,
+				"longitude": -1.25585,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "King's College London",
+			"coordinates": {
+				"latitude": 51.511944444444,
+				"longitude": -0.11611111111111,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"occupation": {
+		"0": "writer",
+		"1": "art critic",
+		"2": "art historian",
+		"3": "philosopher",
+		"4": "painter",
+		"5": "sociologist",
+		"6": "university teacher",
+		"7": "poet",
+		"8": "literary critic",
+		"9": "architect",
+		"10": "journalist",
+		"11": "aesthetician"
+	},
+	"image": {
+		"0": "John Ruskin 1863.jpg",
+		"1": "John Ruskin.jpg",
+		"2": "John Ruskin - Project Gutenberg eText 13103.jpg"
+	},
+	"fieldOfWork": {
+		"0": "art criticism"
+	},
+	"notableWork": {
+		"0": "Modern Painters",
+		"1": "The Seven Lamps of Architecture",
+		"2": "The Stones of Venice",
+		"3": "Unto This Last",
+		"4": "Fors Clavigera"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Oxford",
+			"coordinates": {
+				"latitude": 51.755,
+				"longitude": -1.255,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"countryOfCitizenship": {
+		"0": "United Kingdom of Great Britain and Ireland"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q445939",
+				"name": "Roger Scruton",
+				"similarity": 0.21646925806999207
+			},
+			"1": {
+				"id": "Q1001",
+				"name": "Mahatma Gandhi",
+				"similarity": 0.04818882793188095
+			}
+		}
+	}
+}

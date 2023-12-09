@@ -1,1 +1,182 @@
-{"id": "Q438839", "name": "Aleksandr Dugin", "dateOfBirth": {"0": "+1962-01-07T00:00:00Z"}, "educatedAt": {"0": {"name": "Moscow Aviation Institute", "coordinates": {"latitude": 55.80978, "longitude": 37.50013, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Novocherkassk State Academy of Melioration", "coordinates": {"latitude": 47.4185, "longitude": 40.089, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "Moscow State University", "coordinates": {"latitude": 55.7025, "longitude": 37.530555555556, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "International Independent University of Environmental and Political Sciences", "coordinates": {"latitude": 55.816, "longitude": 37.5275, "altitude": null, "precision": 0.15988457070842, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "L. N. Gumilyov Eurasian National University", "coordinates": {"latitude": 51.1602, "longitude": 71.4648, "altitude": null, "precision": 0.014323884509476, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "University of Tehran", "coordinates": ""}, "4": {"name": "Southern Federal University", "coordinates": {"latitude": 47.2247, "longitude": 39.7286, "altitude": null, "precision": 2.77777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "5": {"name": "Fudan University", "coordinates": {"latitude": 31.298888888889, "longitude": 121.49916666667, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "6": {"name": "Gennady Seleznyov", "coordinates": ""}}, "student": {"0": "Aleksey Gintovt", "1": "Vladimir Karpets", "2": "Valery Korovin"}, "image": {"0": "Aleksandr Dugin 13981126000.jpg"}, "influencedBy": {"0": "Halford Mackinder", "1": "Joseph Stalin", "2": "Aleister Crowley"}, "notableWork": {"0": "Foundations of Geopolitics", "1": "The Fourth Political Theory", "2": "krvav\u00e1 pomluva"}, "countryOfCitizenship": {"0": "Russia", "1": "Soviet Union"}, "occupation": {"0": "propagandist", "1": "philosopher", "2": "geopolitician", "3": "political scientist", "4": "professor", "5": "sociologist", "6": "writer", "7": "politician", "8": "singer-songwriter", "9": "singer", "10": "songwriter", "11": "opinion journalist"}, "fieldOfWork": {"0": "propaganda", "1": "geopolitics", "2": "sociology", "3": "political science", "4": "philosophy", "5": "international relations", "6": "political philosophy"}, "edges": {"influencedBy": {"0": {"id": "Q48301", "name": "Martin Heidegger"}, "1": {"id": "Q1394", "name": "Vladimir Lenin"}, "2": {"id": "Q9358", "name": "Friedrich Nietzsche"}, "3": {"id": "Q9387", "name": "Max Weber"}, "4": {"id": "Q57112", "name": "Oswald Spengler"}, "5": {"id": "Q496850", "name": "Ren\u00e9 Gu\u00e9non"}, "6": {"id": "Q334147", "name": "Julius Evola"}, "7": {"id": "Q77148", "name": "Carl Schmitt"}, "8": {"id": "Q9235", "name": "Georg Wilhelm Friedrich Hegel"}}}}
+{
+	"id": "Q438839",
+	"name": "Aleksandr Dugin",
+	"dateOfBirth": {
+		"0": "+1962-01-07T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Moscow Aviation Institute",
+			"coordinates": {
+				"latitude": 55.80978,
+				"longitude": 37.50013,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Novocherkassk State Academy of Melioration",
+			"coordinates": {
+				"latitude": 47.4185,
+				"longitude": 40.089,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"name": "Moscow State University",
+			"coordinates": {
+				"latitude": 55.7025,
+				"longitude": 37.530555555556,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "International Independent University of Environmental and Political Sciences",
+			"coordinates": {
+				"latitude": 55.816,
+				"longitude": 37.5275,
+				"altitude": null,
+				"precision": 0.15988457070842,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "L. N. Gumilyov Eurasian National University",
+			"coordinates": {
+				"latitude": 51.1602,
+				"longitude": 71.4648,
+				"altitude": null,
+				"precision": 0.014323884509476,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "University of Tehran",
+			"coordinates": ""
+		},
+		"4": {
+			"name": "Southern Federal University",
+			"coordinates": {
+				"latitude": 47.2247,
+				"longitude": 39.7286,
+				"altitude": null,
+				"precision": 2.77777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"5": {
+			"name": "Fudan University",
+			"coordinates": {
+				"latitude": 31.298888888889,
+				"longitude": 121.49916666667,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"6": {
+			"name": "Gennady Seleznyov",
+			"coordinates": ""
+		}
+	},
+	"student": {
+		"0": "Aleksey Gintovt",
+		"1": "Vladimir Karpets",
+		"2": "Valery Korovin"
+	},
+	"image": {
+		"0": "Aleksandr Dugin 13981126000.jpg"
+	},
+	"influencedBy": {
+		"0": "Halford Mackinder",
+		"1": "Joseph Stalin",
+		"2": "Aleister Crowley"
+	},
+	"notableWork": {
+		"0": "Foundations of Geopolitics",
+		"1": "The Fourth Political Theory",
+		"2": "krvav\u00e1 pomluva"
+	},
+	"countryOfCitizenship": {
+		"0": "Russia",
+		"1": "Soviet Union"
+	},
+	"occupation": {
+		"0": "propagandist",
+		"1": "philosopher",
+		"2": "geopolitician",
+		"3": "political scientist",
+		"4": "professor",
+		"5": "sociologist",
+		"6": "writer",
+		"7": "politician",
+		"8": "singer-songwriter",
+		"9": "singer",
+		"10": "songwriter",
+		"11": "opinion journalist"
+	},
+	"fieldOfWork": {
+		"0": "propaganda",
+		"1": "geopolitics",
+		"2": "sociology",
+		"3": "political science",
+		"4": "philosophy",
+		"5": "international relations",
+		"6": "political philosophy"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q48301",
+				"name": "Martin Heidegger",
+				"similarity": 0.2276172935962677
+			},
+			"1": {
+				"id": "Q1394",
+				"name": "Vladimir Lenin",
+				"similarity": 0.4721110463142395
+			},
+			"2": {
+				"id": "Q9358",
+				"name": "Friedrich Nietzsche",
+				"similarity": 0.17382271587848663
+			},
+			"3": {
+				"id": "Q9387",
+				"name": "Max Weber",
+				"similarity": 0.15105094015598297
+			},
+			"4": {
+				"id": "Q57112",
+				"name": "Oswald Spengler",
+				"similarity": 0.28702953457832336
+			},
+			"5": {
+				"id": "Q496850",
+				"name": "Ren\u00e9 Gu\u00e9non"
+			},
+			"6": {
+				"id": "Q334147",
+				"name": "Julius Evola",
+				"similarity": 0.32834312319755554
+			},
+			"7": {
+				"id": "Q77148",
+				"name": "Carl Schmitt",
+				"similarity": 0.26504865288734436
+			},
+			"8": {
+				"id": "Q9235",
+				"name": "Georg Wilhelm Friedrich Hegel",
+				"similarity": 0.12385758012533188
+			}
+		}
+	}
+}

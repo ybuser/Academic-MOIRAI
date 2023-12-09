@@ -1,1 +1,98 @@
-{"id": "Q295386", "name": "G. E. Moore", "occupation": {"0": "philosopher", "1": "university teacher"}, "countryOfCitizenship": {"0": "United Kingdom"}, "dateOfBirth": {"0": "+1873-11-04T00:00:00Z"}, "dateOfDeath": {"0": "+1958-10-24T00:00:00Z"}, "educatedAt": {"0": {"name": "Trinity College", "coordinates": {"latitude": 52.206944444444, "longitude": 0.11694444444444, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Dulwich College", "coordinates": {"latitude": 51.43944444444445, "longitude": -0.08416666666666667, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "University of Cambridge", "coordinates": {"latitude": 52.205355979757925, "longitude": 0.11315726963968827, "altitude": null, "precision": 1e-08, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "philosophy"}, "image": {"0": "1914 George Edward Moore (cropped).jpg"}, "notableWork": {"0": "Ethics", "1": "Principia Ethica"}, "edges": {"influenced": {"0": {"id": "Q4725710", "name": "Alice Ambrose"}, "1": {"id": "Q86371", "name": "Gustav Bergmann"}, "2": {"id": "Q379900", "name": "Samuel Alexander"}, "3": {"id": "Q33760", "name": "Bertrand Russell"}}, "student": {"0": {"id": "Q1730299", "name": "R. B. Braithwaite"}, "1": {"id": "Q2941054", "name": "Casimir Lewy"}}, "studentOf": {"0": {"id": "Q778109", "name": "George Frederick Stout"}}}}
+{
+	"id": "Q295386",
+	"name": "G. E. Moore",
+	"occupation": {
+		"0": "philosopher",
+		"1": "university teacher"
+	},
+	"countryOfCitizenship": {
+		"0": "United Kingdom"
+	},
+	"dateOfBirth": {
+		"0": "+1873-11-04T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1958-10-24T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Trinity College",
+			"coordinates": {
+				"latitude": 52.206944444444,
+				"longitude": 0.11694444444444,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Dulwich College",
+			"coordinates": {
+				"latitude": 51.43944444444445,
+				"longitude": -0.08416666666666667,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"name": "University of Cambridge",
+			"coordinates": {
+				"latitude": 52.205355979757925,
+				"longitude": 0.11315726963968827,
+				"altitude": null,
+				"precision": 1e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"image": {
+		"0": "1914 George Edward Moore (cropped).jpg"
+	},
+	"notableWork": {
+		"0": "Ethics",
+		"1": "Principia Ethica"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q4725710",
+				"name": "Alice Ambrose"
+			},
+			"1": {
+				"id": "Q86371",
+				"name": "Gustav Bergmann"
+			},
+			"2": {
+				"id": "Q379900",
+				"name": "Samuel Alexander"
+			},
+			"3": {
+				"id": "Q33760",
+				"name": "Bertrand Russell",
+				"similarity": 0.45434918999671936
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q1730299",
+				"name": "R. B. Braithwaite"
+			},
+			"1": {
+				"id": "Q2941054",
+				"name": "Casimir Lewy"
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q778109",
+				"name": "George Frederick Stout"
+			}
+		}
+	}
+}

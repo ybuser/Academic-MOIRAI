@@ -1,1 +1,45 @@
-{"id": "Q5683", "name": "Geoffrey Chaucer", "image": {"0": "Geoffrey Chaucer (17th century).jpg", "1": "Geoffrey Chaucer - Illustration from Cassell's History of England - Century Edition - published circa 1902.jpg", "2": "Portrait of Geoffrey Chaucer (4671380) (cropped) 02.jpg", "3": "Chaucer Hoccleve cleanwhite.png"}, "dateOfDeath": {"0": "+1400-10-25T00:00:00Z", "1": "+1400-01-01T00:00:00Z"}, "occupation": {"0": "linguist", "1": "poet", "2": "lyricist", "3": "philosopher", "4": "politician", "5": "translator", "6": "astrologer", "7": "writer"}, "fieldOfWork": {"0": "bureaucracy"}, "dateOfBirth": {"0": "+1343-00-00T00:00:00Z"}, "countryOfCitizenship": {"0": "Kingdom of England"}, "notableWork": {"0": "The Canterbury Tales"}, "edges": {"influenced": {"0": {"id": "Q9204", "name": "C. S. Lewis"}}}}
+{
+	"id": "Q5683",
+	"name": "Geoffrey Chaucer",
+	"image": {
+		"0": "Geoffrey Chaucer (17th century).jpg",
+		"1": "Geoffrey Chaucer - Illustration from Cassell's History of England - Century Edition - published circa 1902.jpg",
+		"2": "Portrait of Geoffrey Chaucer (4671380) (cropped) 02.jpg",
+		"3": "Chaucer Hoccleve cleanwhite.png"
+	},
+	"dateOfDeath": {
+		"0": "+1400-10-25T00:00:00Z",
+		"1": "+1400-01-01T00:00:00Z"
+	},
+	"occupation": {
+		"0": "linguist",
+		"1": "poet",
+		"2": "lyricist",
+		"3": "philosopher",
+		"4": "politician",
+		"5": "translator",
+		"6": "astrologer",
+		"7": "writer"
+	},
+	"fieldOfWork": {
+		"0": "bureaucracy"
+	},
+	"dateOfBirth": {
+		"0": "+1343-00-00T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": "Kingdom of England"
+	},
+	"notableWork": {
+		"0": "The Canterbury Tales"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q9204",
+				"name": "C. S. Lewis",
+				"similarity": 0.46344631910324097
+			}
+		}
+	}
+}

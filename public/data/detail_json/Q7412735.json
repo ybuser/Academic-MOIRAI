@@ -1,1 +1,77 @@
-{"id": "Q7412735", "name": "Samuel T. Francis", "dateOfBirth": {"0": "+1947-04-29T00:00:00Z"}, "dateOfDeath": {"0": "+2005-02-15T00:00:00Z"}, "occupation": {"0": "historian", "1": "journalist", "2": "philosopher", "3": "non-fiction writer"}, "educatedAt": {"0": {"name": "Johns Hopkins University", "coordinates": {"latitude": 39.32888888888889, "longitude": -76.62055555555555, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of North Carolina at Chapel Hill", "coordinates": {"latitude": 35.908611111111, "longitude": -79.049166666667, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "The Washington Times", "coordinates": ""}, "1": {"name": "Mises Institute", "coordinates": ""}}, "countryOfCitizenship": {"0": "United States of America"}, "notableWork": {"0": "Anarcho-tyranny"}, "movement": {"0": "libertarianism", "1": "white nationalism", "2": "paleoconservatism"}, "edges": {"influencedBy": {"0": {"id": "Q11031", "name": "Vilfredo Pareto"}, "1": {"id": "Q1240178", "name": "James Burnham"}}, "influenced": {"0": {"id": "Q5765758", "name": "Paul Gottfried"}}}}
+{
+	"id": "Q7412735",
+	"name": "Samuel T. Francis",
+	"dateOfBirth": {
+		"0": "+1947-04-29T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+2005-02-15T00:00:00Z"
+	},
+	"occupation": {
+		"0": "historian",
+		"1": "journalist",
+		"2": "philosopher",
+		"3": "non-fiction writer"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Johns Hopkins University",
+			"coordinates": {
+				"latitude": 39.32888888888889,
+				"longitude": -76.62055555555555,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "University of North Carolina at Chapel Hill",
+			"coordinates": {
+				"latitude": 35.908611111111,
+				"longitude": -79.049166666667,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"name": "The Washington Times",
+			"coordinates": ""
+		},
+		"1": {
+			"name": "Mises Institute",
+			"coordinates": ""
+		}
+	},
+	"countryOfCitizenship": {
+		"0": "United States of America"
+	},
+	"notableWork": {
+		"0": "Anarcho-tyranny"
+	},
+	"movement": {
+		"0": "libertarianism",
+		"1": "white nationalism",
+		"2": "paleoconservatism"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q11031",
+				"name": "Vilfredo Pareto"
+			},
+			"1": {
+				"id": "Q1240178",
+				"name": "James Burnham"
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q5765758",
+				"name": "Paul Gottfried"
+			}
+		}
+	}
+}

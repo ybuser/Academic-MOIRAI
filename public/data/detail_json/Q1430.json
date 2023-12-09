@@ -1,1 +1,74 @@
-{"id": "Q1430", "name": "Marcus Aurelius", "studentOf": {"0": "Alexander of Cotiaeum"}, "image": {"0": "Marcus Aurelius Louvre MR561 n02.jpg", "1": "Marcoaurelio30000.jpg"}, "dateOfBirth": {"0": "+0121-04-26T00:00:00Z"}, "countryOfCitizenship": {"0": "Ancient Rome"}, "occupation": {"0": "politician", "1": "philosopher", "2": "writer", "3": "monarch"}, "residence": {"0": {"name": "Rome", "coordinates": {"latitude": 41.893055555556, "longitude": 12.482777777778, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "Meditations"}, "fieldOfWork": {"0": "philosophy"}, "dateOfDeath": {"0": "+0180-03-17T00:00:00Z"}, "timePeriod": {"0": "High Roman Empire"}, "movement": {"0": "stoicism"}, "edges": {"studentOf": {"0": {"id": "Q18999", "name": "Junius Rusticus"}, "1": {"id": "Q317055", "name": "Marcus Cornelius Fronto"}, "2": {"id": "Q311879", "name": "Herodes Atticus"}}, "influenced": {"0": {"id": "Q185085", "name": "Miguel de Unamuno"}}}}
+{
+	"id": "Q1430",
+	"name": "Marcus Aurelius",
+	"studentOf": {
+		"0": "Alexander of Cotiaeum"
+	},
+	"image": {
+		"0": "Marcus Aurelius Louvre MR561 n02.jpg",
+		"1": "Marcoaurelio30000.jpg"
+	},
+	"dateOfBirth": {
+		"0": "+0121-04-26T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": "Ancient Rome"
+	},
+	"occupation": {
+		"0": "politician",
+		"1": "philosopher",
+		"2": "writer",
+		"3": "monarch"
+	},
+	"residence": {
+		"0": {
+			"name": "Rome",
+			"coordinates": {
+				"latitude": 41.893055555556,
+				"longitude": 12.482777777778,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "Meditations"
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"dateOfDeath": {
+		"0": "+0180-03-17T00:00:00Z"
+	},
+	"timePeriod": {
+		"0": "High Roman Empire"
+	},
+	"movement": {
+		"0": "stoicism"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q18999",
+				"name": "Junius Rusticus",
+				"similarity": 0.544330358505249
+			},
+			"1": {
+				"id": "Q317055",
+				"name": "Marcus Cornelius Fronto"
+			},
+			"2": {
+				"id": "Q311879",
+				"name": "Herodes Atticus",
+				"similarity": 0.387503981590271
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q185085",
+				"name": "Miguel de Unamuno"
+			}
+		}
+	}
+}

@@ -1,1 +1,27 @@
-{"id": "Q758060", "name": "Atticus", "countryOfCitizenship": {"0": "Ancient Rome"}, "occupation": {"0": "philosopher"}, "dateOfBirth": {"0": "+0150-00-00T00:00:00Z"}, "timePeriod": {"0": "Roman Empire"}, "dateOfDeath": {"0": "+0200-00-00T00:00:00Z"}, "edges": {"student": {"0": {"id": "Q1586059", "name": "Harpocration of Argos"}}}}
+{
+	"id": "Q758060",
+	"name": "Atticus",
+	"countryOfCitizenship": {
+		"0": "Ancient Rome"
+	},
+	"occupation": {
+		"0": "philosopher"
+	},
+	"dateOfBirth": {
+		"0": "+0150-00-00T00:00:00Z"
+	},
+	"timePeriod": {
+		"0": "Roman Empire"
+	},
+	"dateOfDeath": {
+		"0": "+0200-00-00T00:00:00Z"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q1586059",
+				"name": "Harpocration of Argos"
+			}
+		}
+	}
+}

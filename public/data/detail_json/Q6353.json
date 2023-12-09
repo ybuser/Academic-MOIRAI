@@ -1,1 +1,104 @@
-{"id": "Q6353", "name": "Gerardus Mercator", "image": {"0": "Gerardus Mercator2.jpg", "1": "Mercator.jpg"}, "occupation": {"0": "mathematician", "1": "geographer", "2": "philosopher", "3": "theologian", "4": "cartographer", "5": "inventor", "6": "cosmographer", "7": "university teacher", "8": "instrument maker", "9": "writer"}, "dateOfBirth": {"0": "+1512-03-05T00:00:00Z"}, "dateOfDeath": {"0": "+1594-12-02T00:00:00Z"}, "countryOfCitizenship": {"0": "Holy Roman Empire", "1": "Habsburg Netherlands"}, "fieldOfWork": {"0": "geography", "1": "cartography", "2": "mathematics", "3": "theology", "4": "philosophy"}, "educatedAt": {"0": {"name": "Old University of Leuven", "coordinates": {"latitude": 50.877861111111, "longitude": 4.7006388888889, "altitude": null, "precision": 2.7777777777778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Universit\u00e9 catholique de Louvain", "coordinates": {"latitude": 50.669687, "longitude": 4.615591, "altitude": null, "precision": 2.7777777777778e-08, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "City Gymnasium", "coordinates": {"latitude": 51.690733, "longitude": 5.2893, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "Universities in Leuven", "coordinates": ""}}, "studentOf": {"0": "Macropedius"}, "notableWork": {"0": "Mercator projection", "1": "Mercator 1569 world map", "2": "Mercator map of Palestine", "3": "Angliae, Scotiae & Hiberniae nova descriptio", "4": "Mercator Europe map", "5": "Literarum latinarum, quas italicas, cursoriasque vocant, scribendarum ratio", "6": "Chronologia", "7": "Tabulae Geographicae", "8": "Mercator globe of the Earth (1541)"}, "edges": {"student": {"0": {"id": "Q201484", "name": "John Dee"}}, "studentOf": {"0": {"id": "Q455406", "name": "Gemma Frisius"}}}}
+{
+	"id": "Q6353",
+	"name": "Gerardus Mercator",
+	"image": {
+		"0": "Gerardus Mercator2.jpg",
+		"1": "Mercator.jpg"
+	},
+	"occupation": {
+		"0": "mathematician",
+		"1": "geographer",
+		"2": "philosopher",
+		"3": "theologian",
+		"4": "cartographer",
+		"5": "inventor",
+		"6": "cosmographer",
+		"7": "university teacher",
+		"8": "instrument maker",
+		"9": "writer"
+	},
+	"dateOfBirth": {
+		"0": "+1512-03-05T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1594-12-02T00:00:00Z"
+	},
+	"countryOfCitizenship": {
+		"0": "Holy Roman Empire",
+		"1": "Habsburg Netherlands"
+	},
+	"fieldOfWork": {
+		"0": "geography",
+		"1": "cartography",
+		"2": "mathematics",
+		"3": "theology",
+		"4": "philosophy"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Old University of Leuven",
+			"coordinates": {
+				"latitude": 50.877861111111,
+				"longitude": 4.7006388888889,
+				"altitude": null,
+				"precision": 2.7777777777778e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Universit\u00e9 catholique de Louvain",
+			"coordinates": {
+				"latitude": 50.669687,
+				"longitude": 4.615591,
+				"altitude": null,
+				"precision": 2.7777777777778e-08,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "City Gymnasium",
+			"coordinates": {
+				"latitude": 51.690733,
+				"longitude": 5.2893,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"name": "Universities in Leuven",
+			"coordinates": ""
+		}
+	},
+	"studentOf": {
+		"0": "Macropedius"
+	},
+	"notableWork": {
+		"0": "Mercator projection",
+		"1": "Mercator 1569 world map",
+		"2": "Mercator map of Palestine",
+		"3": "Angliae, Scotiae & Hiberniae nova descriptio",
+		"4": "Mercator Europe map",
+		"5": "Literarum latinarum, quas italicas, cursoriasque vocant, scribendarum ratio",
+		"6": "Chronologia",
+		"7": "Tabulae Geographicae",
+		"8": "Mercator globe of the Earth (1541)"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q201484",
+				"name": "John Dee",
+				"similarity": 0.19577687978744507
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q455406",
+				"name": "Gemma Frisius"
+			}
+		}
+	}
+}

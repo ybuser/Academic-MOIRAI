@@ -1,1 +1,155 @@
-{"id": "Q152388", "name": "Theodor W. Adorno", "movement": {"0": "Frankfurt School", "1": "20th-century classical music", "2": "continental philosophy"}, "notableWork": {"0": "Gesammelte Schriften", "1": "Negative Dialectics", "2": "Aesthetic Theory", "3": "Dialectic of Enlightenment", "4": "Philosophie und Musik", "5": "Minima Moralia", "6": "The Authoritarian Personality"}, "occupation": {"0": "philosopher", "1": "composer", "2": "musicologist", "3": "sociologist", "4": "university teacher", "5": "literary critic", "6": "music critic", "7": "aphorist", "8": "pianist", "9": "writer", "10": "academic"}, "countryOfCitizenship": {"0": "United States of America", "1": "Germany", "2": "German Empire"}, "dateOfBirth": {"0": "+1903-09-11T00:00:00Z"}, "dateOfDeath": {"0": "+1969-08-06T00:00:00Z"}, "employer": {"0": {"name": "Goethe University Frankfurt", "coordinates": {"latitude": 50.12791, "longitude": 8.66944, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "educatedAt": {"0": {"name": "Merton College", "coordinates": {"latitude": 51.75106, "longitude": -1.25211, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Goethe University Frankfurt", "coordinates": {"latitude": 50.12791, "longitude": 8.66944, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "philosophy"}, "image": {"0": "Theodor W. Adorno.jpg"}, "timePeriod": {"0": "contemporary philosophy"}, "edges": {"influenced": {"0": {"id": "Q69773659", "name": "Jos\u00e9 Rafael Herrera"}, "1": {"id": "Q184750", "name": "Slavoj \u017di\u017eek"}, "2": {"id": "Q347362", "name": "Fredric Jameson"}, "3": {"id": "Q84352", "name": "Andr\u00e9 Gorz"}, "4": {"id": "Q60735", "name": "Axel Honneth"}, "5": {"id": "Q10392247", "name": "Vladimir Safatle"}}, "studentOf": {"0": {"id": "Q77518", "name": "Hans Cornelius"}}, "student": {"0": {"id": "Q215896", "name": "Alfred Schmidt"}, "1": {"id": "Q76357", "name": "J\u00fcrgen Habermas"}}, "influencedBy": {"0": {"id": "Q61078", "name": "Walter Benjamin"}, "1": {"id": "Q76826", "name": "Max Horkheimer"}, "2": {"id": "Q9235", "name": "Georg Wilhelm Friedrich Hegel"}, "3": {"id": "Q9061", "name": "Karl Marx"}, "4": {"id": "Q9358", "name": "Friedrich Nietzsche"}}}}
+{
+	"id": "Q152388",
+	"name": "Theodor W. Adorno",
+	"movement": {
+		"0": "Frankfurt School",
+		"1": "20th-century classical music",
+		"2": "continental philosophy"
+	},
+	"notableWork": {
+		"0": "Gesammelte Schriften",
+		"1": "Negative Dialectics",
+		"2": "Aesthetic Theory",
+		"3": "Dialectic of Enlightenment",
+		"4": "Philosophie und Musik",
+		"5": "Minima Moralia",
+		"6": "The Authoritarian Personality"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "composer",
+		"2": "musicologist",
+		"3": "sociologist",
+		"4": "university teacher",
+		"5": "literary critic",
+		"6": "music critic",
+		"7": "aphorist",
+		"8": "pianist",
+		"9": "writer",
+		"10": "academic"
+	},
+	"countryOfCitizenship": {
+		"0": "United States of America",
+		"1": "Germany",
+		"2": "German Empire"
+	},
+	"dateOfBirth": {
+		"0": "+1903-09-11T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1969-08-06T00:00:00Z"
+	},
+	"employer": {
+		"0": {
+			"name": "Goethe University Frankfurt",
+			"coordinates": {
+				"latitude": 50.12791,
+				"longitude": 8.66944,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Merton College",
+			"coordinates": {
+				"latitude": 51.75106,
+				"longitude": -1.25211,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Goethe University Frankfurt",
+			"coordinates": {
+				"latitude": 50.12791,
+				"longitude": 8.66944,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"image": {
+		"0": "Theodor W. Adorno.jpg"
+	},
+	"timePeriod": {
+		"0": "contemporary philosophy"
+	},
+	"edges": {
+		"influenced": {
+			"0": {
+				"id": "Q69773659",
+				"name": "Jos\u00e9 Rafael Herrera"
+			},
+			"1": {
+				"id": "Q184750",
+				"name": "Slavoj \u017di\u017eek"
+			},
+			"2": {
+				"id": "Q347362",
+				"name": "Fredric Jameson"
+			},
+			"3": {
+				"id": "Q84352",
+				"name": "Andr\u00e9 Gorz"
+			},
+			"4": {
+				"id": "Q60735",
+				"name": "Axel Honneth"
+			},
+			"5": {
+				"id": "Q10392247",
+				"name": "Vladimir Safatle"
+			}
+		},
+		"studentOf": {
+			"0": {
+				"id": "Q77518",
+				"name": "Hans Cornelius"
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q215896",
+				"name": "Alfred Schmidt"
+			},
+			"1": {
+				"id": "Q76357",
+				"name": "J\u00fcrgen Habermas"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q61078",
+				"name": "Walter Benjamin",
+				"similarity": 0.3738005459308624
+			},
+			"1": {
+				"id": "Q76826",
+				"name": "Max Horkheimer"
+			},
+			"2": {
+				"id": "Q9235",
+				"name": "Georg Wilhelm Friedrich Hegel",
+				"similarity": 0.4441746473312378
+			},
+			"3": {
+				"id": "Q9061",
+				"name": "Karl Marx",
+				"similarity": 0.3425052762031555
+			},
+			"4": {
+				"id": "Q9358",
+				"name": "Friedrich Nietzsche",
+				"similarity": 0.21583925187587738
+			}
+		}
+	}
+}

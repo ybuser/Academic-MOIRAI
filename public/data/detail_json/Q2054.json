@@ -1,1 +1,101 @@
-{"id": "Q2054", "name": "Seneca", "occupation": {"0": "playwright", "1": "poet", "2": "philosopher", "3": "aphorist", "4": "statesperson", "5": "politician", "6": "writer"}, "dateOfBirth": {"0": "-0004-00-00T00:00:00Z"}, "dateOfDeath": {"0": "+0065-04-12T00:00:00Z"}, "image": {"0": "Duble herma of Socrates and Seneca Antikensammlung Berlin 07.jpg"}, "residence": {"0": {"name": "Corsica", "coordinates": {"latitude": 42.15, "longitude": 9.0833333333333, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Rome", "coordinates": {"latitude": 41.893055555556, "longitude": 12.482777777778, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "countryOfCitizenship": {"0": "Ancient Rome"}, "timePeriod": {"0": "Roman Empire"}, "notableWork": {"0": "De Vita Beata", "1": "Epistulae morales ad Lucilium", "2": "De ira"}, "movement": {"0": "stoicism"}, "fieldOfWork": {"0": "ethics", "1": "political philosophy"}, "edges": {"studentOf": {"0": {"id": "Q897523", "name": "Papirius Fabianus"}, "1": {"id": "Q486945", "name": "Sotion"}, "2": {"id": "Q780789", "name": "Attalus"}}, "influencedBy": {"0": {"id": "Q363375", "name": "Publilius Syrus"}, "1": {"id": "Q780789", "name": "Attalus"}, "2": {"id": "Q48305", "name": "Euripides"}}, "influenced": {"0": {"id": "Q102851", "name": "Boethius"}}}}
+{
+	"id": "Q2054",
+	"name": "Seneca",
+	"occupation": {
+		"0": "playwright",
+		"1": "poet",
+		"2": "philosopher",
+		"3": "aphorist",
+		"4": "statesperson",
+		"5": "politician",
+		"6": "writer"
+	},
+	"dateOfBirth": {
+		"0": "-0004-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+0065-04-12T00:00:00Z"
+	},
+	"image": {
+		"0": "Duble herma of Socrates and Seneca Antikensammlung Berlin 07.jpg"
+	},
+	"residence": {
+		"0": {
+			"name": "Corsica",
+			"coordinates": {
+				"latitude": 42.15,
+				"longitude": 9.0833333333333,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Rome",
+			"coordinates": {
+				"latitude": 41.893055555556,
+				"longitude": 12.482777777778,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"countryOfCitizenship": {
+		"0": "Ancient Rome"
+	},
+	"timePeriod": {
+		"0": "Roman Empire"
+	},
+	"notableWork": {
+		"0": "De Vita Beata",
+		"1": "Epistulae morales ad Lucilium",
+		"2": "De ira"
+	},
+	"movement": {
+		"0": "stoicism"
+	},
+	"fieldOfWork": {
+		"0": "ethics",
+		"1": "political philosophy"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q897523",
+				"name": "Papirius Fabianus"
+			},
+			"1": {
+				"id": "Q486945",
+				"name": "Sotion",
+				"similarity": 0.43985429406166077
+			},
+			"2": {
+				"id": "Q780789",
+				"name": "Attalus"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q363375",
+				"name": "Publilius Syrus"
+			},
+			"1": {
+				"id": "Q780789",
+				"name": "Attalus"
+			},
+			"2": {
+				"id": "Q48305",
+				"name": "Euripides",
+				"similarity": 0.3321329355239868
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q102851",
+				"name": "Boethius",
+				"similarity": 0.3871847987174988
+			}
+		}
+	}
+}

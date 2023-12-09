@@ -1,1 +1,48 @@
-{"id": "Q177847", "name": "Lucian of Samosata", "dateOfBirth": {"0": "+0120-00-00T00:00:00Z", "1": "+0125-00-00T00:00:00Z", "2": "+0120-00-00T00:00:00Z"}, "image": {"0": "Lucianus.jpg"}, "occupation": {"0": "writer", "1": "satirist", "2": "philosopher", "3": "biographer", "4": "poet"}, "notableWork": {"0": "A True Story", "1": "Dialogues of the Gods", "2": "Dialogues of the Dead", "3": "Luc. DMar."}, "dateOfDeath": {"0": "+0200-00-00T00:00:00Z", "1": "+0192-00-00T00:00:00Z", "2": "+0180-00-00T00:00:00Z"}, "timePeriod": {"0": "Roman Empire"}, "edges": {"studentOf": {"0": {"id": "Q949530", "name": "Demonax"}}, "influenced": {"0": {"id": "Q9068", "name": "Voltaire"}}}}
+{
+	"id": "Q177847",
+	"name": "Lucian of Samosata",
+	"dateOfBirth": {
+		"0": "+0120-00-00T00:00:00Z",
+		"1": "+0125-00-00T00:00:00Z",
+		"2": "+0120-00-00T00:00:00Z"
+	},
+	"image": {
+		"0": "Lucianus.jpg"
+	},
+	"occupation": {
+		"0": "writer",
+		"1": "satirist",
+		"2": "philosopher",
+		"3": "biographer",
+		"4": "poet"
+	},
+	"notableWork": {
+		"0": "A True Story",
+		"1": "Dialogues of the Gods",
+		"2": "Dialogues of the Dead",
+		"3": "Luc. DMar."
+	},
+	"dateOfDeath": {
+		"0": "+0200-00-00T00:00:00Z",
+		"1": "+0192-00-00T00:00:00Z",
+		"2": "+0180-00-00T00:00:00Z"
+	},
+	"timePeriod": {
+		"0": "Roman Empire"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q949530",
+				"name": "Demonax"
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q9068",
+				"name": "Voltaire",
+				"similarity": 0.23496973514556885
+			}
+		}
+	}
+}

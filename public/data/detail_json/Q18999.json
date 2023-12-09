@@ -1,1 +1,40 @@
-{"id": "Q18999", "name": "Junius Rusticus", "countryOfCitizenship": {"0": "Ancient Rome"}, "dateOfDeath": {"0": "+0170-01-01T00:00:00Z"}, "dateOfBirth": {"0": "+0100-01-01T00:00:00Z"}, "occupation": {"0": "philosopher", "1": "politician", "2": "military personnel", "3": "teacher"}, "movement": {"0": "stoicism"}, "fieldOfWork": {"0": "philosophy"}, "image": {"0": ""}, "timePeriod": {"0": "High Roman Empire"}, "edges": {"student": {"0": {"id": "Q1430", "name": "Marcus Aurelius"}}}}
+{
+	"id": "Q18999",
+	"name": "Junius Rusticus",
+	"countryOfCitizenship": {
+		"0": "Ancient Rome"
+	},
+	"dateOfDeath": {
+		"0": "+0170-01-01T00:00:00Z"
+	},
+	"dateOfBirth": {
+		"0": "+0100-01-01T00:00:00Z"
+	},
+	"occupation": {
+		"0": "philosopher",
+		"1": "politician",
+		"2": "military personnel",
+		"3": "teacher"
+	},
+	"movement": {
+		"0": "stoicism"
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"image": {
+		"0": ""
+	},
+	"timePeriod": {
+		"0": "High Roman Empire"
+	},
+	"edges": {
+		"student": {
+			"0": {
+				"id": "Q1430",
+				"name": "Marcus Aurelius",
+				"similarity": 0.544330358505249
+			}
+		}
+	}
+}

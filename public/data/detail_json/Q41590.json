@@ -1,1 +1,129 @@
-{"id": "Q41590", "name": "Mircea Eliade", "countryOfCitizenship": {"0": "Kingdom of Romania", "1": "Socialist Republic of Romania", "2": "United States of America"}, "occupation": {"0": "anthropologist", "1": "diplomat", "2": "historian of religion", "3": "historian", "4": "journalist", "5": "novelist", "6": "philosopher", "7": "essayist", "8": "playwright", "9": "pedagogue", "10": "university teacher", "11": "literary critic", "12": "biographer", "13": "mythographer", "14": "diarist", "15": "writer", "16": "religious studies scholar", "17": "ethnographer"}, "educatedAt": {"0": {"name": "University of Calcutta", "coordinates": {"latitude": 22.575, "longitude": 88.3628, "altitude": null, "precision": 0.0097285777792253, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of Bucharest", "coordinates": {"latitude": 44.435555555556, "longitude": 26.101116666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "image": {"0": "Mircea Eliade from Horia Photo 3 English (cropped).jpg"}, "influencedBy": {"0": "Honor\u00e9 de Balzac", "1": "Bogdan Petriceicu Hasdeu", "2": "Andr\u00e9 Gide"}, "fieldOfWork": {"0": "religious studies"}, "employer": {"0": {"name": "University of Chicago", "coordinates": {"latitude": 41.789722222222, "longitude": -87.599722222222, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of Bucharest", "coordinates": {"latitude": 44.435555555556, "longitude": 26.101116666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "doctralStudent": {"0": "Bruce Lincoln"}, "dateOfBirth": {"0": "+1907-03-09T00:00:00Z"}, "dateOfDeath": {"0": "+1986-04-22T00:00:00Z"}, "edges": {"influencedBy": {"0": {"id": "Q1380594", "name": "Nae Ionescu"}, "1": {"id": "Q313581", "name": "Nicolae Iorga"}, "2": {"id": "Q76748", "name": "Rudolf Otto"}, "3": {"id": "Q1381628", "name": "Gerardus van der Leeuw"}, "4": {"id": "Q496850", "name": "Ren\u00e9 Gu\u00e9non"}, "5": {"id": "Q334147", "name": "Julius Evola"}, "6": {"id": "Q529858", "name": "Giovanni Papini"}}}}
+{
+	"id": "Q41590",
+	"name": "Mircea Eliade",
+	"countryOfCitizenship": {
+		"0": "Kingdom of Romania",
+		"1": "Socialist Republic of Romania",
+		"2": "United States of America"
+	},
+	"occupation": {
+		"0": "anthropologist",
+		"1": "diplomat",
+		"2": "historian of religion",
+		"3": "historian",
+		"4": "journalist",
+		"5": "novelist",
+		"6": "philosopher",
+		"7": "essayist",
+		"8": "playwright",
+		"9": "pedagogue",
+		"10": "university teacher",
+		"11": "literary critic",
+		"12": "biographer",
+		"13": "mythographer",
+		"14": "diarist",
+		"15": "writer",
+		"16": "religious studies scholar",
+		"17": "ethnographer"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Calcutta",
+			"coordinates": {
+				"latitude": 22.575,
+				"longitude": 88.3628,
+				"altitude": null,
+				"precision": 0.0097285777792253,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "University of Bucharest",
+			"coordinates": {
+				"latitude": 44.435555555556,
+				"longitude": 26.101116666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"image": {
+		"0": "Mircea Eliade from Horia Photo 3 English (cropped).jpg"
+	},
+	"influencedBy": {
+		"0": "Honor\u00e9 de Balzac",
+		"1": "Bogdan Petriceicu Hasdeu",
+		"2": "Andr\u00e9 Gide"
+	},
+	"fieldOfWork": {
+		"0": "religious studies"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Chicago",
+			"coordinates": {
+				"latitude": 41.789722222222,
+				"longitude": -87.599722222222,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "University of Bucharest",
+			"coordinates": {
+				"latitude": 44.435555555556,
+				"longitude": 26.101116666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"doctralStudent": {
+		"0": "Bruce Lincoln"
+	},
+	"dateOfBirth": {
+		"0": "+1907-03-09T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1986-04-22T00:00:00Z"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q1380594",
+				"name": "Nae Ionescu"
+			},
+			"1": {
+				"id": "Q313581",
+				"name": "Nicolae Iorga",
+				"similarity": 0.4715065062046051
+			},
+			"2": {
+				"id": "Q76748",
+				"name": "Rudolf Otto"
+			},
+			"3": {
+				"id": "Q1381628",
+				"name": "Gerardus van der Leeuw",
+				"similarity": 0.27698618173599243
+			},
+			"4": {
+				"id": "Q496850",
+				"name": "Ren\u00e9 Gu\u00e9non"
+			},
+			"5": {
+				"id": "Q334147",
+				"name": "Julius Evola",
+				"similarity": 0.2962094843387604
+			},
+			"6": {
+				"id": "Q529858",
+				"name": "Giovanni Papini",
+				"similarity": 0.2424980103969574
+			}
+		}
+	}
+}

@@ -1,1 +1,131 @@
-{"id": "Q189564", "name": "Pierre Teilhard de Chardin", "occupation": {"0": "theologian", "1": "paleontologist", "2": "writer", "3": "paleoanthropologist", "4": "Catholic priest", "5": "geologist", "6": "philosopher", "7": "scientific collector", "8": "stretcher bearer"}, "countryOfCitizenship": {"0": "France"}, "dateOfBirth": {"0": "+1881-05-01T00:00:00Z"}, "educatedAt": {"0": {"name": "University of Paris", "coordinates": {"latitude": 48.8486, "longitude": 2.34333, "altitude": null, "precision": 0.013651149849302, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Villanova University", "coordinates": {"latitude": 40.03771, "longitude": -75.33755, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Notre Dame de Mongr\u00e9 High School", "coordinates": {"latitude": 45.9912, "longitude": 4.71183, "altitude": null, "precision": 2.777777777777778e-05, "globe": "http://www.wikidata.org/entity/Q2"}}}, "image": {"0": "TeilhardP 1955.jpg"}, "dateOfDeath": {"0": "+1955-04-10T00:00:00Z"}, "fieldOfWork": {"0": "philosophy"}, "influencedBy": {"0": "Paul the Apostle", "1": "Ignatius of Loyola"}, "residence": {"0": {"name": "France", "coordinates": {"latitude": 47, "longitude": 2, "altitude": null, "precision": 1, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "People's Republic of China", "coordinates": {"latitude": 35.844722222222224, "longitude": 103.45194444444445, "altitude": null, "precision": 0.0002777777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "New York City", "coordinates": {"latitude": 40.7, "longitude": -74, "altitude": null, "precision": 0.11849025182330258, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "France", "coordinates": {"latitude": 47, "longitude": 2, "altitude": null, "precision": 1, "globe": "http://www.wikidata.org/entity/Q2"}}}, "edges": {"influencedBy": {"0": {"id": "Q170472", "name": "Origen"}, "1": {"id": "Q191734", "name": "Gregory of Nyssa"}, "2": {"id": "Q42156", "name": "Henri Bergson"}, "3": {"id": "Q9235", "name": "Georg Wilhelm Friedrich Hegel"}}}}
+{
+	"id": "Q189564",
+	"name": "Pierre Teilhard de Chardin",
+	"occupation": {
+		"0": "theologian",
+		"1": "paleontologist",
+		"2": "writer",
+		"3": "paleoanthropologist",
+		"4": "Catholic priest",
+		"5": "geologist",
+		"6": "philosopher",
+		"7": "scientific collector",
+		"8": "stretcher bearer"
+	},
+	"countryOfCitizenship": {
+		"0": "France"
+	},
+	"dateOfBirth": {
+		"0": "+1881-05-01T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Paris",
+			"coordinates": {
+				"latitude": 48.8486,
+				"longitude": 2.34333,
+				"altitude": null,
+				"precision": 0.013651149849302,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Villanova University",
+			"coordinates": {
+				"latitude": 40.03771,
+				"longitude": -75.33755,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "Notre Dame de Mongr\u00e9 High School",
+			"coordinates": {
+				"latitude": 45.9912,
+				"longitude": 4.71183,
+				"altitude": null,
+				"precision": 2.777777777777778e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"image": {
+		"0": "TeilhardP 1955.jpg"
+	},
+	"dateOfDeath": {
+		"0": "+1955-04-10T00:00:00Z"
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"influencedBy": {
+		"0": "Paul the Apostle",
+		"1": "Ignatius of Loyola"
+	},
+	"residence": {
+		"0": {
+			"name": "France",
+			"coordinates": {
+				"latitude": 47,
+				"longitude": 2,
+				"altitude": null,
+				"precision": 1,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "People's Republic of China",
+			"coordinates": {
+				"latitude": 35.844722222222224,
+				"longitude": 103.45194444444445,
+				"altitude": null,
+				"precision": 0.0002777777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "New York City",
+			"coordinates": {
+				"latitude": 40.7,
+				"longitude": -74,
+				"altitude": null,
+				"precision": 0.11849025182330258,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "France",
+			"coordinates": {
+				"latitude": 47,
+				"longitude": 2,
+				"altitude": null,
+				"precision": 1,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q170472",
+				"name": "Origen",
+				"similarity": 0.37121570110321045
+			},
+			"1": {
+				"id": "Q191734",
+				"name": "Gregory of Nyssa",
+				"similarity": 0.4021410644054413
+			},
+			"2": {
+				"id": "Q42156",
+				"name": "Henri Bergson"
+			},
+			"3": {
+				"id": "Q9235",
+				"name": "Georg Wilhelm Friedrich Hegel",
+				"similarity": 0.23369108140468597
+			}
+		}
+	}
+}

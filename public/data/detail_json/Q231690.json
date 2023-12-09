@@ -1,1 +1,233 @@
-{"id": "Q231690", "name": "Bhimrao Ramji Ambedkar", "countryOfCitizenship": {"0": "British Raj", "1": "India", "2": "Dominion of India"}, "image": {"0": "Dr. Bhimrao Ambedkar.jpg", "1": "Dr Babasaheb Ambedkar at home Rajgriha \u2013 1946.jpg", "2": "Dr. Ambedkar 1.jpg", "3": "Dr. Babasaheb Ambedkar and his signature.jpg"}, "dateOfBirth": {"0": "+1891-04-14T00:00:00Z"}, "dateOfDeath": {"0": "+1956-12-06T00:00:00Z"}, "educatedAt": {"0": {"name": "University of Mumbai", "coordinates": ""}, "1": {"name": "Columbia University", "coordinates": {"latitude": 40.8075, "longitude": -73.961944444444, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "London School of Economics and Political Science", "coordinates": {"latitude": 51.513888888889, "longitude": -0.11666666666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "Elphinstone College", "coordinates": {"latitude": 18.9271, "longitude": 72.8312, "altitude": null, "precision": 2.77777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "4": {"name": "Government Law College, Mumbai", "coordinates": ""}}, "occupation": {"0": "economist", "1": "politician", "2": "constitutionalist", "3": "barrister", "4": "jurist", "5": "sociologist", "6": "anthropologist", "7": "pedagogue", "8": "writer", "9": "philosopher", "10": "social reformer", "11": "journalist", "12": "revolutionary", "13": "professor", "14": "political scientist", "15": "erudite person", "16": "orator", "17": "freedom fighter", "18": "historian", "19": "newspaper editor", "20": "civil rights advocate", "21": "humanitarian", "22": "human rights activist", "23": "educational theorist", "24": "spiritual leader", "25": "peace activist", "26": "autobiographer", "27": "political writer", "28": "theologian", "29": "painter", "30": "women's rights activist", "31": "bibliographer", "32": "essayist", "33": "scholar"}, "notableWork": {"0": "Annihilation of Caste", "1": "Castes in India: Their Mechanism, Genesis and Development", "2": "Who Were the Shudras?", "3": "The Buddha and His Dhamma", "4": "Waiting for a Visa", "5": "Small Holdings in India and Their Remedies", "6": "The Problem of the Rupees: Its Origin and Its Solution", "7": "The Evolution of Provincial Finance in British India", "8": "Pakistan or Partition of India", "9": "Ranade, Gandhi and Jinnah", "10": "What Congress and Gandhi Have Done to the Untouchables", "11": "States and Minorities", "12": "The Untouchables: Who Were They and Why They Became Untouchables", "13": "Thoughts on Linguistic States", "14": "Revolution and Counter-revolution in Ancient India", "15": "Riddles in Hinduism", "16": "Administration and Finance of the East India Company", "17": "Mr. Gandhi and the Emancipation of the Untouchables", "18": "Maharashtra as a Linguistic Province", "19": "The Rise and Fall of Hindu Women", "20": "Federation Versus Freedom", "21": "Communal Deadlock and a way to Solve it"}, "permanentDuplicatedItem": {"0": "\u09ad\u09c0\u09ae\u09b0\u09be\u0993 \u09b0\u09be\u09ae\u099c\u09bf \u0986\u09ae\u09cd\u09ac\u09c7\u09a6\u0995\u09be\u09b0"}, "studentOf": {"0": "Edwin Robert Anderson Seligman", "1": "Alexander Goldenweiser", "2": "Edwin Cannan", "3": "James Thomson Shotwell", "4": "James Harvey Robinson", "5": "Halford Mackinder"}, "influencedBy": {"0": "Lokan\u0101tha"}, "residence": {"0": {"name": "India", "coordinates": {"latitude": 22.8, "longitude": 83, "altitude": null, "precision": 0.1, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "United States of America", "coordinates": {"latitude": 39.828175, "longitude": -98.5795, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "London", "coordinates": {"latitude": 51.507222222222, "longitude": -0.1275, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "London", "coordinates": {"latitude": 51.507222222222, "longitude": -0.1275, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "Social Reform or Revolution", "1": "economics", "2": "law", "3": "philosophy", "4": "human rights", "5": "anthropology", "6": "politics", "7": "society", "8": "constitution", "9": "religion"}, "movement": {"0": "social movement", "1": "Indian independence movement", "2": "Dalit Buddhist movement"}, "edges": {"studentOf": {"0": {"id": "Q131805", "name": "John Dewey"}, "1": {"id": "Q263531", "name": "Leonard Trelawny Hobhouse"}, "2": {"id": "Q3264399", "name": "Goldsworthy Lowes Dickinson"}}, "influencedBy": {"0": {"id": "Q9441", "name": "The Buddha"}, "1": {"id": "Q312551", "name": "Kabir"}, "2": {"id": "Q314394", "name": "Jyotirao Phule"}, "3": {"id": "Q131805", "name": "John Dewey"}}}}
+{
+	"id": "Q231690",
+	"name": "Bhimrao Ramji Ambedkar",
+	"countryOfCitizenship": {
+		"0": "British Raj",
+		"1": "India",
+		"2": "Dominion of India"
+	},
+	"image": {
+		"0": "Dr. Bhimrao Ambedkar.jpg",
+		"1": "Dr Babasaheb Ambedkar at home Rajgriha \u2013 1946.jpg",
+		"2": "Dr. Ambedkar 1.jpg",
+		"3": "Dr. Babasaheb Ambedkar and his signature.jpg"
+	},
+	"dateOfBirth": {
+		"0": "+1891-04-14T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1956-12-06T00:00:00Z"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "University of Mumbai",
+			"coordinates": ""
+		},
+		"1": {
+			"name": "Columbia University",
+			"coordinates": {
+				"latitude": 40.8075,
+				"longitude": -73.961944444444,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "London School of Economics and Political Science",
+			"coordinates": {
+				"latitude": 51.513888888889,
+				"longitude": -0.11666666666667,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "Elphinstone College",
+			"coordinates": {
+				"latitude": 18.9271,
+				"longitude": 72.8312,
+				"altitude": null,
+				"precision": 2.77777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"4": {
+			"name": "Government Law College, Mumbai",
+			"coordinates": ""
+		}
+	},
+	"occupation": {
+		"0": "economist",
+		"1": "politician",
+		"2": "constitutionalist",
+		"3": "barrister",
+		"4": "jurist",
+		"5": "sociologist",
+		"6": "anthropologist",
+		"7": "pedagogue",
+		"8": "writer",
+		"9": "philosopher",
+		"10": "social reformer",
+		"11": "journalist",
+		"12": "revolutionary",
+		"13": "professor",
+		"14": "political scientist",
+		"15": "erudite person",
+		"16": "orator",
+		"17": "freedom fighter",
+		"18": "historian",
+		"19": "newspaper editor",
+		"20": "civil rights advocate",
+		"21": "humanitarian",
+		"22": "human rights activist",
+		"23": "educational theorist",
+		"24": "spiritual leader",
+		"25": "peace activist",
+		"26": "autobiographer",
+		"27": "political writer",
+		"28": "theologian",
+		"29": "painter",
+		"30": "women's rights activist",
+		"31": "bibliographer",
+		"32": "essayist",
+		"33": "scholar"
+	},
+	"notableWork": {
+		"0": "Annihilation of Caste",
+		"1": "Castes in India: Their Mechanism, Genesis and Development",
+		"2": "Who Were the Shudras?",
+		"3": "The Buddha and His Dhamma",
+		"4": "Waiting for a Visa",
+		"5": "Small Holdings in India and Their Remedies",
+		"6": "The Problem of the Rupees: Its Origin and Its Solution",
+		"7": "The Evolution of Provincial Finance in British India",
+		"8": "Pakistan or Partition of India",
+		"9": "Ranade, Gandhi and Jinnah",
+		"10": "What Congress and Gandhi Have Done to the Untouchables",
+		"11": "States and Minorities",
+		"12": "The Untouchables: Who Were They and Why They Became Untouchables",
+		"13": "Thoughts on Linguistic States",
+		"14": "Revolution and Counter-revolution in Ancient India",
+		"15": "Riddles in Hinduism",
+		"16": "Administration and Finance of the East India Company",
+		"17": "Mr. Gandhi and the Emancipation of the Untouchables",
+		"18": "Maharashtra as a Linguistic Province",
+		"19": "The Rise and Fall of Hindu Women",
+		"20": "Federation Versus Freedom",
+		"21": "Communal Deadlock and a way to Solve it"
+	},
+	"permanentDuplicatedItem": {
+		"0": "\u09ad\u09c0\u09ae\u09b0\u09be\u0993 \u09b0\u09be\u09ae\u099c\u09bf \u0986\u09ae\u09cd\u09ac\u09c7\u09a6\u0995\u09be\u09b0"
+	},
+	"studentOf": {
+		"0": "Edwin Robert Anderson Seligman",
+		"1": "Alexander Goldenweiser",
+		"2": "Edwin Cannan",
+		"3": "James Thomson Shotwell",
+		"4": "James Harvey Robinson",
+		"5": "Halford Mackinder"
+	},
+	"influencedBy": {
+		"0": "Lokan\u0101tha"
+	},
+	"residence": {
+		"0": {
+			"name": "India",
+			"coordinates": {
+				"latitude": 22.8,
+				"longitude": 83,
+				"altitude": null,
+				"precision": 0.1,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "United States of America",
+			"coordinates": {
+				"latitude": 39.828175,
+				"longitude": -98.5795,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "London",
+			"coordinates": {
+				"latitude": 51.507222222222,
+				"longitude": -0.1275,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"3": {
+			"name": "London",
+			"coordinates": {
+				"latitude": 51.507222222222,
+				"longitude": -0.1275,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"fieldOfWork": {
+		"0": "Social Reform or Revolution",
+		"1": "economics",
+		"2": "law",
+		"3": "philosophy",
+		"4": "human rights",
+		"5": "anthropology",
+		"6": "politics",
+		"7": "society",
+		"8": "constitution",
+		"9": "religion"
+	},
+	"movement": {
+		"0": "social movement",
+		"1": "Indian independence movement",
+		"2": "Dalit Buddhist movement"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q131805",
+				"name": "John Dewey",
+				"similarity": 0.37272119522094727
+			},
+			"1": {
+				"id": "Q263531",
+				"name": "Leonard Trelawny Hobhouse"
+			},
+			"2": {
+				"id": "Q3264399",
+				"name": "Goldsworthy Lowes Dickinson"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q9441",
+				"name": "The Buddha",
+				"similarity": 0.227478489279747
+			},
+			"1": {
+				"id": "Q312551",
+				"name": "Kabir",
+				"similarity": 0.4175122380256653
+			},
+			"2": {
+				"id": "Q314394",
+				"name": "Jyotirao Phule",
+				"similarity": 0.466875821352005
+			},
+			"3": {
+				"id": "Q131805",
+				"name": "John Dewey",
+				"similarity": 0.37272119522094727
+			}
+		}
+	}
+}

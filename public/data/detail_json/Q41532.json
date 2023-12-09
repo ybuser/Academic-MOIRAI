@@ -1,1 +1,162 @@
-{"id": "Q41532", "name": "Carl Jung", "countryOfCitizenship": {"0": "Switzerland"}, "dateOfBirth": {"0": "+1875-07-26T00:00:00Z"}, "dateOfDeath": {"0": "+1961-06-06T00:00:00Z"}, "image": {"0": "ETH-BIB-Jung, Carl Gustav (1875-1961)-Portrait-Portr 14163 (cropped).tif"}, "educatedAt": {"0": {"name": "Gymnasium am M\u00fcnsterplatz", "coordinates": {"latitude": 47.556183333333, "longitude": 7.5912416666667, "altitude": null, "precision": 0.00027777777777778, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of Basel", "coordinates": {"latitude": 47.55852, "longitude": 7.58346, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Wilhelmsgymnasium", "coordinates": {"latitude": 48.1381, "longitude": 11.5886, "altitude": null, "precision": 0.0001, "globe": "http://www.wikidata.org/entity/Q2"}}}, "occupation": {"0": "psychotherapist", "1": "psychologist", "2": "psychiatrist", "3": "essayist"}, "fieldOfWork": {"0": "psychiatry", "1": "psychology", "2": "analytical psychology", "3": "psychotherapy", "4": "comparative mythology", "5": "anthropology", "6": "alchemy", "7": "dream interpretation", "8": "art", "9": "comparative religion", "10": "philosophy"}, "employer": {"0": {"name": "University of Basel", "coordinates": {"latitude": 47.55852, "longitude": 7.58346, "altitude": null, "precision": 1e-05, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of Zurich", "coordinates": {"latitude": 47.374722222222, "longitude": 8.5483333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "ETH Zurich", "coordinates": {"latitude": 47.37645, "longitude": 8.54785, "altitude": null, "precision": 2.777777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "residence": {"0": {"name": "Switzerland", "coordinates": {"latitude": 46.798562, "longitude": 8.231973, "altitude": null, "precision": 1e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "notableWork": {"0": "Symbols of Transformation", "1": "Psychological Types", "2": "Synchronicity: An Acausal Connecting Principle", "3": "Archetypes and the Collective Unconscious", "4": "Ein moderner Mythus. Von Dingen die am Himmel gesehen werden", "5": "Psychology and Alchemy", "6": "Mysterium Coniunctionis", "7": "Man and His Symbols", "8": "Memories, Dreams, Reflections"}, "edges": {"studentOf": {"0": {"id": "Q9215", "name": "Sigmund Freud"}, "1": {"id": "Q328758", "name": "Pierre Janet"}}, "influenced": {"0": {"id": "Q270800", "name": "Gaston Bachelard"}, "1": {"id": "Q16217207", "name": "Neel Burton"}, "2": {"id": "Q354867", "name": "Alan Watts"}, "3": {"id": "Q713144", "name": "Jerzy Prokopiuk"}, "4": {"id": "Q87292", "name": "Jean Gebser"}, "5": {"id": "Q3170173", "name": "Jean-Yves Leloup"}}}}
+{
+	"id": "Q41532",
+	"name": "Carl Jung",
+	"countryOfCitizenship": {
+		"0": "Switzerland"
+	},
+	"dateOfBirth": {
+		"0": "+1875-07-26T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1961-06-06T00:00:00Z"
+	},
+	"image": {
+		"0": "ETH-BIB-Jung, Carl Gustav (1875-1961)-Portrait-Portr 14163 (cropped).tif"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Gymnasium am M\u00fcnsterplatz",
+			"coordinates": {
+				"latitude": 47.556183333333,
+				"longitude": 7.5912416666667,
+				"altitude": null,
+				"precision": 0.00027777777777778,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "University of Basel",
+			"coordinates": {
+				"latitude": 47.55852,
+				"longitude": 7.58346,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "Wilhelmsgymnasium",
+			"coordinates": {
+				"latitude": 48.1381,
+				"longitude": 11.5886,
+				"altitude": null,
+				"precision": 0.0001,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"occupation": {
+		"0": "psychotherapist",
+		"1": "psychologist",
+		"2": "psychiatrist",
+		"3": "essayist"
+	},
+	"fieldOfWork": {
+		"0": "psychiatry",
+		"1": "psychology",
+		"2": "analytical psychology",
+		"3": "psychotherapy",
+		"4": "comparative mythology",
+		"5": "anthropology",
+		"6": "alchemy",
+		"7": "dream interpretation",
+		"8": "art",
+		"9": "comparative religion",
+		"10": "philosophy"
+	},
+	"employer": {
+		"0": {
+			"name": "University of Basel",
+			"coordinates": {
+				"latitude": 47.55852,
+				"longitude": 7.58346,
+				"altitude": null,
+				"precision": 1e-05,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "University of Zurich",
+			"coordinates": {
+				"latitude": 47.374722222222,
+				"longitude": 8.5483333333333,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "ETH Zurich",
+			"coordinates": {
+				"latitude": 47.37645,
+				"longitude": 8.54785,
+				"altitude": null,
+				"precision": 2.777777777777778e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"residence": {
+		"0": {
+			"name": "Switzerland",
+			"coordinates": {
+				"latitude": 46.798562,
+				"longitude": 8.231973,
+				"altitude": null,
+				"precision": 1e-06,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"notableWork": {
+		"0": "Symbols of Transformation",
+		"1": "Psychological Types",
+		"2": "Synchronicity: An Acausal Connecting Principle",
+		"3": "Archetypes and the Collective Unconscious",
+		"4": "Ein moderner Mythus. Von Dingen die am Himmel gesehen werden",
+		"5": "Psychology and Alchemy",
+		"6": "Mysterium Coniunctionis",
+		"7": "Man and His Symbols",
+		"8": "Memories, Dreams, Reflections"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q9215",
+				"name": "Sigmund Freud",
+				"similarity": 0.42350056767463684
+			},
+			"1": {
+				"id": "Q328758",
+				"name": "Pierre Janet"
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q270800",
+				"name": "Gaston Bachelard"
+			},
+			"1": {
+				"id": "Q16217207",
+				"name": "Neel Burton"
+			},
+			"2": {
+				"id": "Q354867",
+				"name": "Alan Watts",
+				"similarity": 0.13686074316501617
+			},
+			"3": {
+				"id": "Q713144",
+				"name": "Jerzy Prokopiuk"
+			},
+			"4": {
+				"id": "Q87292",
+				"name": "Jean Gebser"
+			},
+			"5": {
+				"id": "Q3170173",
+				"name": "Jean-Yves Leloup"
+			}
+		}
+	}
+}

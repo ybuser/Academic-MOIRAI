@@ -1,1 +1,87 @@
-{"id": "Q76326", "name": "Dietrich Bonhoeffer", "countryOfCitizenship": {"0": "Germany"}, "dateOfBirth": {"0": "+1906-02-04T00:00:00Z"}, "dateOfDeath": {"0": "+1945-04-09T00:00:00Z", "1": "+1945-04-08T00:00:00Z"}, "image": {"0": "Bundesarchiv Bild 146-1987-074-16, Dietrich Bonhoeffer.jpg"}, "occupation": {"0": "theologian", "1": "philosopher", "2": "resistance fighter", "3": "poet"}, "educatedAt": {"0": {"name": "Union Theological Seminary", "coordinates": {"latitude": 40.811389, "longitude": -73.964167, "altitude": null, "precision": -1e-07, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Humboldt University of Berlin", "coordinates": {"latitude": 52.518055555556, "longitude": 13.393333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "University of T\u00fcbingen", "coordinates": {"latitude": 48.525, "longitude": 9.059, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "Humboldt University of Berlin", "coordinates": {"latitude": 52.518055555556, "longitude": 13.393333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}}, "studentOf": {"0": "Reinhold Seeberg", "1": "Karl Holl"}, "edges": {"influencedBy": {"0": {"id": "Q358561", "name": "Reinhold Niebuhr"}}, "influenced": {"0": {"id": "Q2318969", "name": "Peter Rollins"}}}}
+{
+	"id": "Q76326",
+	"name": "Dietrich Bonhoeffer",
+	"countryOfCitizenship": {
+		"0": "Germany"
+	},
+	"dateOfBirth": {
+		"0": "+1906-02-04T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "+1945-04-09T00:00:00Z",
+		"1": "+1945-04-08T00:00:00Z"
+	},
+	"image": {
+		"0": "Bundesarchiv Bild 146-1987-074-16, Dietrich Bonhoeffer.jpg"
+	},
+	"occupation": {
+		"0": "theologian",
+		"1": "philosopher",
+		"2": "resistance fighter",
+		"3": "poet"
+	},
+	"educatedAt": {
+		"0": {
+			"name": "Union Theological Seminary",
+			"coordinates": {
+				"latitude": 40.811389,
+				"longitude": -73.964167,
+				"altitude": null,
+				"precision": -1e-07,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"1": {
+			"name": "Humboldt University of Berlin",
+			"coordinates": {
+				"latitude": 52.518055555556,
+				"longitude": 13.393333333333,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		},
+		"2": {
+			"name": "University of T\u00fcbingen",
+			"coordinates": {
+				"latitude": 48.525,
+				"longitude": 9.059,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"employer": {
+		"0": {
+			"name": "Humboldt University of Berlin",
+			"coordinates": {
+				"latitude": 52.518055555556,
+				"longitude": 13.393333333333,
+				"altitude": null,
+				"precision": null,
+				"globe": "http://www.wikidata.org/entity/Q2"
+			}
+		}
+	},
+	"studentOf": {
+		"0": "Reinhold Seeberg",
+		"1": "Karl Holl"
+	},
+	"edges": {
+		"influencedBy": {
+			"0": {
+				"id": "Q358561",
+				"name": "Reinhold Niebuhr",
+				"similarity": 0.23281915485858917
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q2318969",
+				"name": "Peter Rollins",
+				"similarity": 0.14568206667900085
+			}
+		}
+	}
+}

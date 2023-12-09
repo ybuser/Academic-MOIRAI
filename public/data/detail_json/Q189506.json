@@ -1,1 +1,83 @@
-{"id": "Q189506", "name": "Aristippus", "movement": {"0": "Cyrenaics"}, "image": {"0": "Aristippus.jpg"}, "dateOfBirth": {"0": "-0434-00-00T00:00:00Z", "1": "-0435-00-00T00:00:00Z", "2": "-0430-00-00T00:00:00Z", "3": "-0435-00-00T00:00:00Z"}, "dateOfDeath": {"0": "-0355-01-01T00:00:00Z", "1": "-0366-00-00T00:00:00Z"}, "occupation": {"0": "philosopher"}, "timePeriod": {"0": "Hellenistic period"}, "fieldOfWork": {"0": "philosophy"}, "edges": {"studentOf": {"0": {"id": "Q913", "name": "Socrates"}}, "influenced": {"0": {"id": "Q43216", "name": "Epicurus"}, "1": {"id": "Q437876", "name": "Hegesias of Cyrene"}, "2": {"id": "Q665984", "name": "Aristippus the Younger"}, "3": {"id": "Q381765", "name": "Theodoros the Atheist"}, "4": {"id": "Q262225", "name": "Arete of Cyrene"}, "5": {"id": "Q556865", "name": "Anniceris"}}, "student": {"0": {"id": "Q2194939", "name": "Antipater of Cyrene"}, "1": {"id": "Q262225", "name": "Arete of Cyrene"}}, "influencedBy": {"0": {"id": "Q913", "name": "Socrates"}}}}
+{
+	"id": "Q189506",
+	"name": "Aristippus",
+	"movement": {
+		"0": "Cyrenaics"
+	},
+	"image": {
+		"0": "Aristippus.jpg"
+	},
+	"dateOfBirth": {
+		"0": "-0434-00-00T00:00:00Z",
+		"1": "-0435-00-00T00:00:00Z",
+		"2": "-0430-00-00T00:00:00Z",
+		"3": "-0435-00-00T00:00:00Z"
+	},
+	"dateOfDeath": {
+		"0": "-0355-01-01T00:00:00Z",
+		"1": "-0366-00-00T00:00:00Z"
+	},
+	"occupation": {
+		"0": "philosopher"
+	},
+	"timePeriod": {
+		"0": "Hellenistic period"
+	},
+	"fieldOfWork": {
+		"0": "philosophy"
+	},
+	"edges": {
+		"studentOf": {
+			"0": {
+				"id": "Q913",
+				"name": "Socrates",
+				"similarity": 0.35958489775657654
+			}
+		},
+		"influenced": {
+			"0": {
+				"id": "Q43216",
+				"name": "Epicurus",
+				"similarity": 0.37159475684165955
+			},
+			"1": {
+				"id": "Q437876",
+				"name": "Hegesias of Cyrene"
+			},
+			"2": {
+				"id": "Q665984",
+				"name": "Aristippus the Younger",
+				"similarity": 0.5298296213150024
+			},
+			"3": {
+				"id": "Q381765",
+				"name": "Theodoros the Atheist"
+			},
+			"4": {
+				"id": "Q262225",
+				"name": "Arete of Cyrene"
+			},
+			"5": {
+				"id": "Q556865",
+				"name": "Anniceris"
+			}
+		},
+		"student": {
+			"0": {
+				"id": "Q2194939",
+				"name": "Antipater of Cyrene"
+			},
+			"1": {
+				"id": "Q262225",
+				"name": "Arete of Cyrene"
+			}
+		},
+		"influencedBy": {
+			"0": {
+				"id": "Q913",
+				"name": "Socrates",
+				"similarity": 0.35958489775657654
+			}
+		}
+	}
+}
