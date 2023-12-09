@@ -48,12 +48,6 @@
 		"death": 1321
 	},
 	{
-		"id": "Q11035375",
-		"name": "Quintus Aelius Tubero",
-		"birth": -163,
-		"death": 2024
-	},
-	{
 		"id": "Q11104",
 		"name": "Al-Hassan Ibn Al-Haytham",
 		"birth": 965,
@@ -96,12 +90,6 @@
 		"death": 1048
 	},
 	{
-		"id": "Q1185502",
-		"name": "Demetrius Lacon",
-		"birth": -150,
-		"death": 2024
-	},
-	{
 		"id": "Q1189157",
 		"name": "Nausiphanes",
 		"birth": -400,
@@ -142,12 +130,6 @@
 		"name": "Frithjof Schuon",
 		"birth": 1907,
 		"death": 1998
-	},
-	{
-		"id": "Q1234536",
-		"name": "Colotes",
-		"birth": -320,
-		"death": 2024
 	},
 	{
 		"id": "Q1244262",
@@ -550,12 +532,6 @@
 		"name": "Giacomo Leopardi",
 		"birth": 1798,
 		"death": 1837
-	},
-	{
-		"id": "Q17303834",
-		"name": "Ibn al-Khammar",
-		"birth": 942,
-		"death": 2024
 	},
 	{
 		"id": "Q173893",
@@ -2680,12 +2656,6 @@
 		"name": "Benjamin Fondane",
 		"birth": 1898,
 		"death": 1944
-	},
-	{
-		"id": "Q8193981",
-		"name": "Ran Yong",
-		"birth": -522,
-		"death": 2024
 	},
 	{
 		"id": "Q82049",

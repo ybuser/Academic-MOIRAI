@@ -35,22 +35,22 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
   const[philosopherDetails, setPhilosopherDetails] = useState(null);
   const d3Container = useRef(null);
 
-  console.log("selected2 Philosopher is ", selectedPhilosopher);
+  // console.log("selected2 Philosopher is ", selectedPhilosopher);
 
   useEffect(() => {
     const loadPhilosopherDetails = async () => {
-      console.log("hihi");
+      // console.log("hihi");
 
       try {
         const response = await fetch(`data/detail_json/Q${selectedPhilosopher}.json`);
         if (!response.ok) {
-          console.log(await response.text());
+          // console.log(await response.text());
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
         const data = await response.json();
         setPhilosopherDetails(data);
       } catch (error) {
-        console.error("Error fetching philosopher details:", error);
+        // console.error("Error fetching philosopher details:", error);
       }
     };
 
@@ -61,7 +61,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
 
   useEffect(() => {
     if (d3Container.current && philosopherDetails && philosopherDetails.edges) {
-      console.log("selected2 Philosopher is ", selectedPhilosopher);
+      // console.log("selected2 Philosopher is ", selectedPhilosopher);
 
       const svg = d3.select(d3Container.current)
         .attr('width', '100%')
@@ -91,7 +91,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
           });
         }
       });
-      console.log("edges are ", edges);
+      // console.log("edges are ", edges);
 
       // Remove duplicate nodes
       const uniqueNodes = Array.from(new Map(nodes.map(node => [node.id, node])).values());

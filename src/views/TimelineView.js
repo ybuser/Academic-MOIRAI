@@ -58,6 +58,8 @@ function computeBarYPosition(data, direction = "top") {
 const TimelineView = (props) => {
   const svgContainerRef = useRef(null); // Ref for the SVG container
   const splotSvg = useRef(null);
+  const [activeNode, setActiveNode] = useState([]); 
+
   let data = props.data; 
   let relationships = props.relationships;
 
@@ -80,6 +82,7 @@ const TimelineView = (props) => {
 
   const extraHeightForXAxis = 30; // x축을 위한 추가 높이
   const svgHeight = chartHeight + margin.top + margin.bottom;
+  
   const containerHeight = svgHeight + extraHeightForXAxis; // 컨테이너 높이를 SVG 높이 + x축 높이로 설정
 
 
@@ -138,13 +141,25 @@ const TimelineView = (props) => {
       if (sourceNode && targetNode) {
         const sourceIndex = data.indexOf(sourceNode);
         const targetIndex = data.indexOf(targetNode);
+
+        let arrowColor;
+        switch (rel.type) {
+          case 'influenced':
+            arrowColor = 'red';
+            break;
+          case 'taught':
+            arrowColor = 'blue';
+            break;
+          default:
+            arrowColor = 'black';
+        }
     
         arrowLayer.append("line")
           .attr("x1", xScale(sourceNode.death))
           .attr("y1", yScale(yPos[sourceIndex]) + barHeight / 2)
           .attr("x2", xScale(targetNode.birth))
           .attr("y2", yScale(yPos[targetIndex]) + barHeight / 2)
-          .attr("stroke", "black")
+          .attr("stroke", arrowColor)
           .attr("marker-end", "url(#arrowhead)");
       }
     });
@@ -165,15 +180,13 @@ const TimelineView = (props) => {
 
     // Create labels displaying only name
     bars.append("text")
-      .text(d => d.name)
-      .attr("x", d => xScale(d.birth) + 4)
-      .attr("y", (d, i) => yScale(yPos[i]) + barHeight / 2)
-      .attr("alignment-baseline", "central")
-      .attr("font-size", 12)
-      .attr("fill", "white")
-      .attr("white-space", "nowrap")
-      // .attr("overflow", "hidden")
-      .attr("text-overflow", "ellipsis");
+    .text(d => d.name)
+    .attr("x", d => xScale((d.birth + d.death) / 2)) // Center the text
+    .attr("y", (d, i) => yScale(yPos[i]) + barHeight / 2)
+    .attr("alignment-baseline", "central")
+    .attr("font-size", 12)
+    .attr("fill", "white")
+    .attr("text-anchor", "middle"); // Center the text anchor
 
     // Mouseover and mouseout events for scrolling labels and showing dates on the timeline
     bars.on("mouseover", function (event, d) {
@@ -235,7 +248,7 @@ const TimelineView = (props) => {
         // Reset the label position to original
         const label = d3.select(this).select("text");
         const currentXPosition = parseFloat(label.attr("x"));
-        const originalXPosition = xScale(d.birth) + 4;
+        const originalXPosition = xScale((d.birth + d.death) / 2);
     
         if (currentXPosition !== originalXPosition) {
           label.interrupt() // Stop any active transition
@@ -244,16 +257,40 @@ const TimelineView = (props) => {
             .ease(d3.easeQuadInOut)
             .attr("x", originalXPosition);
         }
+    })
+    .on("click", function (event, d) {
+      const connectedNodes = relationships.filter(rel => rel.source === d.id || rel.target === d.id)
+        .map(rel => rel.source === d.id ? rel.target : rel.source);
+      const newActiveNodes = [d.id, ...connectedNodes];
+
+      console.log(newActiveNodes);
+      
+      setActiveNode(newActiveNodes); 
+      bars.attr("opacity", bar => newActiveNodes.includes(bar.id) ? 1 : 0.1);
+      arrowLayer.selectAll("line")
+      .attr("opacity", line => newActiveNodes.includes(line.source) || newActiveNodes.includes(line.target) ? 1 : 0.1);
+
+      event.stopPropagation(); 
     });
 
-
-  }, []);
+    svg.on("click", () => {
+      setActiveNode([]);
+      bars.attr("opacity", 1);
+      arrowLayer.selectAll("line").attr("opacity", 1);
+    });
+  }, [activeNode]);
 
 
   return (
-    <div ref={svgContainerRef} style={{ width: '100%', overflowX: 'auto', height: `${containerHeight}px` }}>
-      <svg ref={splotSvg} width={width} height={svgHeight}></svg>
+    <div>
+      <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px' }}>
+        <h2>Timeline View</h2>
+      </div>
+      <div ref={svgContainerRef} style={{ width: '100%', overflowX: 'auto', height: `${containerHeight}px` }}>
+        <svg ref={splotSvg} width={width} height={svgHeight}></svg>
+      </div>
     </div>
+    
   )
 }
 

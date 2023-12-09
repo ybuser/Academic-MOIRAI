@@ -1,3350 +1,3772 @@
 [
 	{
-		"source": "Q715169",
-		"target": "Q41568"
+		"source": "Q2897678",
+		"type": "influenced",
+		"target": "Q322922"
 	},
 	{
-		"source": "Q217771",
-		"target": "Q434266"
-	},
-	{
-		"source": "Q676267",
-		"target": "Q9438"
-	},
-	{
-		"source": "Q434266",
-		"target": "Q217771"
-	},
-	{
-		"source": "Q219368",
-		"target": "Q44272"
-	},
-	{
-		"source": "Q1541",
-		"target": "Q320042"
-	},
-	{
-		"source": "Q1541",
-		"target": "Q561367"
-	},
-	{
-		"source": "Q1541",
-		"target": "Q695534"
-	},
-	{
-		"source": "Q4313",
-		"target": "Q4295"
-	},
-	{
-		"source": "Q216072",
-		"target": "Q28959"
-	},
-	{
-		"source": "Q216072",
-		"target": "Q152919"
-	},
-	{
-		"source": "Q471046",
-		"target": "Q311826"
-	},
-	{
-		"source": "Q168004",
-		"target": "Q9381"
-	},
-	{
-		"source": "Q168004",
-		"target": "Q37160"
-	},
-	{
-		"source": "Q168004",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q168004",
-		"target": "Q9047"
-	},
-	{
-		"source": "Q168004",
-		"target": "Q5879"
-	},
-	{
-		"source": "Q168004",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q18999",
-		"target": "Q1430"
-	},
-	{
-		"source": "Q47434",
-		"target": "Q46830"
-	},
-	{
-		"source": "Q193670",
-		"target": "Q9364"
-	},
-	{
-		"source": "Q129772",
-		"target": "Q913"
-	},
-	{
-		"source": "Q6197",
-		"target": "Q667385"
-	},
-	{
-		"source": "Q19074",
-		"target": "Q186123"
-	},
-	{
-		"source": "Q169906",
-		"target": "Q9215"
-	},
-	{
-		"source": "Q169906",
-		"target": "Q13230"
-	},
-	{
-		"source": "Q169906",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q1173486",
-		"target": "Q859"
-	},
-	{
-		"source": "Q1173486",
+		"source": "Q42458",
+		"type": "influenced",
 		"target": "Q868"
 	},
 	{
-		"source": "Q1173486",
-		"target": "Q10261"
-	},
-	{
-		"source": "Q657941",
-		"target": "Q8778"
-	},
-	{
-		"source": "Q9235",
-		"target": "Q60070"
-	},
-	{
-		"source": "Q9235",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q9235",
-		"target": "Q41155"
-	},
-	{
-		"source": "Q9235",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q9235",
-		"target": "Q868"
-	},
-	{
-		"source": "Q9235",
-		"target": "Q859"
-	},
-	{
-		"source": "Q9235",
-		"target": "Q134189"
-	},
-	{
-		"source": "Q9235",
-		"target": "Q43939"
-	},
-	{
-		"source": "Q9235",
-		"target": "Q6527"
-	},
-	{
-		"source": "Q36330",
-		"target": "Q39837"
-	},
-	{
-		"source": "Q36330",
-		"target": "Q619"
-	},
-	{
-		"source": "Q36330",
-		"target": "Q47154"
-	},
-	{
-		"source": "Q36330",
-		"target": "Q193660"
-	},
-	{
-		"source": "Q158060",
-		"target": "Q125249"
-	},
-	{
-		"source": "Q981459",
-		"target": "Q12718"
-	},
-	{
-		"source": "Q22670",
-		"target": "Q5879"
-	},
-	{
-		"source": "Q22670",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q187520",
-		"target": "Q82049"
-	},
-	{
-		"source": "Q179785",
-		"target": "Q5264"
-	},
-	{
-		"source": "Q71029",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q71029",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q184530",
-		"target": "Q2287807"
-	},
-	{
-		"source": "Q184530",
-		"target": "Q8739"
-	},
-	{
-		"source": "Q310765",
-		"target": "Q6175878"
-	},
-	{
-		"source": "Q310765",
-		"target": "Q937"
-	},
-	{
-		"source": "Q84233",
-		"target": "Q1325"
-	},
-	{
-		"source": "Q84233",
-		"target": "Q297079"
-	},
-	{
-		"source": "Q84233",
-		"target": "Q1325"
-	},
-	{
-		"source": "Q84233",
-		"target": "Q297079"
-	},
-	{
-		"source": "Q60024",
-		"target": "Q75814"
-	},
-	{
-		"source": "Q60024",
-		"target": "Q125249"
-	},
-	{
-		"source": "Q503017",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q503017",
-		"target": "Q130631"
-	},
-	{
-		"source": "Q503017",
-		"target": "Q9215"
-	},
-	{
-		"source": "Q503017",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q503017",
-		"target": "Q60070"
-	},
-	{
-		"source": "Q503017",
-		"target": "Q9358"
-	},
-	{
-		"source": "Q503017",
-		"target": "Q157309"
-	},
-	{
-		"source": "Q201538",
-		"target": "Q44272"
-	},
-	{
-		"source": "Q201538",
-		"target": "Q9364"
-	},
-	{
-		"source": "Q297040",
-		"target": "Q10261"
-	},
-	{
-		"source": "Q320042",
-		"target": "Q1541"
-	},
-	{
-		"source": "Q320042",
-		"target": "Q667385"
-	},
-	{
-		"source": "Q82934",
-		"target": "Q12718"
-	},
-	{
-		"source": "Q201484",
-		"target": "Q6353"
-	},
-	{
-		"source": "Q9215",
-		"target": "Q41532"
-	},
-	{
-		"source": "Q39837",
-		"target": "Q868"
-	},
-	{
-		"source": "Q39837",
-		"target": "Q859"
-	},
-	{
-		"source": "Q39837",
-		"target": "Q134189"
-	},
-	{
-		"source": "Q39837",
-		"target": "Q9546"
-	},
-	{
-		"source": "Q39837",
-		"target": "Q11362"
-	},
-	{
-		"source": "Q39837",
-		"target": "Q160460"
-	},
-	{
-		"source": "Q39837",
-		"target": "Q8011"
-	},
-	{
-		"source": "Q445939",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q445939",
-		"target": "Q165792"
-	},
-	{
-		"source": "Q445939",
-		"target": "Q179126"
-	},
-	{
-		"source": "Q445939",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q731904",
-		"target": "Q859"
-	},
-	{
-		"source": "Q731904",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q731904",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q731904",
-		"target": "Q449538"
-	},
-	{
-		"source": "Q731904",
-		"target": "Q449538"
-	},
-	{
-		"source": "Q1035",
-		"target": "Q144535"
-	},
-	{
-		"source": "Q1035",
-		"target": "Q229264"
-	},
-	{
-		"source": "Q1035",
-		"target": "Q37160"
-	},
-	{
-		"source": "Q1035",
-		"target": "Q5879"
-	},
-	{
-		"source": "Q1035",
-		"target": "Q6694"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q125551"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q127398"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q131671"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q36330"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q37388"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q37621"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q39837"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q43216"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q47154"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q8011"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q859"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q868"
-	},
-	{
-		"source": "Q35802",
-		"target": "Q9047"
-	},
-	{
-		"source": "Q404023",
-		"target": "Q248578"
-	},
-	{
-		"source": "Q404023",
-		"target": "Q441590"
-	},
-	{
-		"source": "Q212338",
-		"target": "Q10261"
-	},
-	{
-		"source": "Q27645",
-		"target": "Q5749"
-	},
-	{
-		"source": "Q27645",
-		"target": "Q6527"
-	},
-	{
-		"source": "Q27645",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q27645",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q27645",
-		"target": "Q991"
-	},
-	{
-		"source": "Q452091",
-		"target": "Q935"
-	},
-	{
-		"source": "Q189564",
-		"target": "Q170472"
-	},
-	{
-		"source": "Q189564",
-		"target": "Q191734"
-	},
-	{
-		"source": "Q189564",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q2955937",
-		"target": "Q868"
-	},
-	{
-		"source": "Q2955937",
-		"target": "Q160362"
-	},
-	{
-		"source": "Q331853",
-		"target": "Q77888"
-	},
-	{
-		"source": "Q345641",
-		"target": "Q9358"
-	},
-	{
-		"source": "Q913",
-		"target": "Q859"
-	},
-	{
-		"source": "Q913",
-		"target": "Q129772"
-	},
-	{
-		"source": "Q913",
-		"target": "Q189506"
-	},
-	{
-		"source": "Q3342897",
-		"target": "Q192207"
-	},
-	{
-		"source": "Q211411",
-		"target": "Q73527"
-	},
-	{
-		"source": "Q78497",
-		"target": "Q81244"
-	},
-	{
-		"source": "Q925732",
-		"target": "Q1234536"
-	},
-	{
-		"source": "Q125249",
-		"target": "Q1290"
-	},
-	{
-		"source": "Q125249",
-		"target": "Q48226"
-	},
-	{
-		"source": "Q125249",
-		"target": "Q60024"
-	},
-	{
-		"source": "Q125249",
-		"target": "Q988129"
-	},
-	{
-		"source": "Q991",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q991",
-		"target": "Q22670"
-	},
-	{
-		"source": "Q76688",
-		"target": "Q84233"
-	},
-	{
-		"source": "Q76688",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q76688",
-		"target": "Q113951"
-	},
-	{
-		"source": "Q76688",
-		"target": "Q297079"
-	},
-	{
-		"source": "Q76688",
-		"target": "Q297079"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q165792"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q183167"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q140694"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q61078"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q190089"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q859"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q913"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q8018"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q77148"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q868"
-	},
-	{
-		"source": "Q60025",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q57497",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q57497",
-		"target": "Q61151"
-	},
-	{
-		"source": "Q57497",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q47478",
-		"target": "Q183126"
-	},
-	{
-		"source": "Q125551",
-		"target": "Q131671"
-	},
-	{
-		"source": "Q125551",
-		"target": "Q41155"
-	},
-	{
-		"source": "Q125551",
-		"target": "Q132157"
-	},
-	{
-		"source": "Q123190",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q221697",
-		"target": "Q384522"
-	},
-	{
-		"source": "Q310791",
-		"target": "Q9353"
-	},
-	{
-		"source": "Q310791",
-		"target": "Q37160"
-	},
-	{
-		"source": "Q310791",
-		"target": "Q9047"
-	},
-	{
-		"source": "Q6694",
-		"target": "Q60070"
-	},
-	{
-		"source": "Q7197",
-		"target": "Q9364"
-	},
-	{
-		"source": "Q43499",
-		"target": "Q1541"
-	},
-	{
-		"source": "Q788572",
-		"target": "Q113951"
-	},
-	{
-		"source": "Q788572",
-		"target": "Q1325"
-	},
-	{
-		"source": "Q788572",
-		"target": "Q84233"
-	},
-	{
-		"source": "Q183372",
-		"target": "Q215022"
-	},
-	{
-		"source": "Q183372",
-		"target": "Q9317"
-	},
-	{
-		"source": "Q183372",
-		"target": "Q214969"
-	},
-	{
-		"source": "Q183372",
-		"target": "Q33760"
-	},
-	{
-		"source": "Q156268",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q156268",
-		"target": "Q9047"
-	},
-	{
-		"source": "Q156268",
-		"target": "Q44272"
-	},
-	{
-		"source": "Q156268",
-		"target": "Q212639"
-	},
-	{
-		"source": "Q156268",
-		"target": "Q9391"
-	},
-	{
-		"source": "Q156268",
-		"target": "Q9438"
-	},
-	{
-		"source": "Q156268",
-		"target": "Q868"
-	},
-	{
-		"source": "Q156268",
-		"target": "Q9364"
-	},
-	{
-		"source": "Q50020",
-		"target": "Q60887"
-	},
-	{
-		"source": "Q8018",
-		"target": "Q43689"
-	},
-	{
-		"source": "Q438839",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q438839",
-		"target": "Q1394"
-	},
-	{
-		"source": "Q438839",
-		"target": "Q9358"
-	},
-	{
-		"source": "Q438839",
-		"target": "Q9387"
-	},
-	{
-		"source": "Q438839",
-		"target": "Q57112"
-	},
-	{
-		"source": "Q438839",
-		"target": "Q334147"
-	},
-	{
-		"source": "Q438839",
-		"target": "Q77148"
-	},
-	{
-		"source": "Q438839",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q215258",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q215258",
-		"target": "Q131805"
-	},
-	{
-		"source": "Q44258",
-		"target": "Q44011"
-	},
-	{
-		"source": "Q127398",
-		"target": "Q8011"
-	},
-	{
-		"source": "Q127398",
-		"target": "Q160460"
-	},
-	{
-		"source": "Q127398",
-		"target": "Q11362"
-	},
-	{
-		"source": "Q127398",
-		"target": "Q868"
-	},
-	{
-		"source": "Q127398",
-		"target": "Q39837"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q859"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q9358"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q13230"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q9215"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q6527"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q370389"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q184169"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q44272"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q61078"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q9391"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q44272"
-	},
-	{
-		"source": "Q130631",
-		"target": "Q184169"
-	},
-	{
-		"source": "Q311826",
-		"target": "Q471046"
-	},
-	{
-		"source": "Q41513",
-		"target": "Q101638"
-	},
-	{
-		"source": "Q41513",
-		"target": "Q1067"
-	},
-	{
-		"source": "Q41513",
-		"target": "Q185832"
-	},
-	{
-		"source": "Q73527",
-		"target": "Q43182"
-	},
-	{
-		"source": "Q73527",
-		"target": "Q211411"
-	},
-	{
-		"source": "Q184500",
-		"target": "Q8018"
-	},
-	{
-		"source": "Q184500",
-		"target": "Q191734"
-	},
-	{
-		"source": "Q41155",
-		"target": "Q131671"
-	},
-	{
-		"source": "Q192207",
-		"target": "Q131805"
-	},
-	{
-		"source": "Q192207",
-		"target": "Q3342897"
-	},
-	{
-		"source": "Q192207",
-		"target": "Q3635215"
-	},
-	{
-		"source": "Q4245051",
-		"target": "Q463723"
-	},
-	{
-		"source": "Q4245051",
-		"target": "Q550629"
-	},
-	{
-		"source": "Q298521",
-		"target": "Q9391"
-	},
-	{
-		"source": "Q298521",
-		"target": "Q214969"
-	},
-	{
-		"source": "Q298521",
-		"target": "Q221697"
-	},
-	{
-		"source": "Q298521",
-		"target": "Q37160"
-	},
-	{
-		"source": "Q298521",
-		"target": "Q60028"
-	},
-	{
-		"source": "Q298521",
-		"target": "Q7251"
-	},
-	{
-		"source": "Q43216",
-		"target": "Q1189157"
-	},
-	{
-		"source": "Q43216",
-		"target": "Q189506"
-	},
-	{
-		"source": "Q43216",
-		"target": "Q1234536"
-	},
-	{
-		"source": "Q235470",
-		"target": "Q868"
-	},
-	{
-		"source": "Q235470",
-		"target": "Q50020"
-	},
-	{
-		"source": "Q235470",
-		"target": "Q132489"
-	},
-	{
-		"source": "Q192315",
-		"target": "Q43216"
-	},
-	{
-		"source": "Q131671",
-		"target": "Q125551"
-	},
-	{
-		"source": "Q28959",
-		"target": "Q216072"
-	},
-	{
-		"source": "Q35900",
-		"target": "Q8011"
-	},
-	{
-		"source": "Q35900",
-		"target": "Q11826"
-	},
-	{
-		"source": "Q169234",
-		"target": "Q1393417"
-	},
-	{
-		"source": "Q1282198",
-		"target": "Q4322534"
-	},
-	{
-		"source": "Q358561",
-		"target": "Q60104"
-	},
-	{
-		"source": "Q259507",
-		"target": "Q8027"
-	},
-	{
-		"source": "Q131149",
-		"target": "Q48226"
-	},
-	{
-		"source": "Q131149",
-		"target": "Q868"
-	},
-	{
-		"source": "Q131149",
-		"target": "Q180081"
-	},
-	{
-		"source": "Q131149",
-		"target": "Q1035"
-	},
-	{
-		"source": "Q131149",
-		"target": "Q151403"
-	},
-	{
-		"source": "Q131149",
-		"target": "Q6694"
-	},
-	{
-		"source": "Q41568",
-		"target": "Q715169"
-	},
-	{
-		"source": "Q1394",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q1394",
-		"target": "Q34787"
-	},
-	{
-		"source": "Q1394",
-		"target": "Q182905"
-	},
-	{
-		"source": "Q1394",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q1394",
-		"target": "Q76586"
-	},
-	{
-		"source": "Q2010955",
-		"target": "Q400887"
-	},
-	{
-		"source": "Q2010955",
-		"target": "Q46420"
-	},
-	{
-		"source": "Q243757",
-		"target": "Q33760"
-	},
-	{
-		"source": "Q2054",
-		"target": "Q486945"
-	},
-	{
-		"source": "Q2054",
-		"target": "Q780789"
-	},
-	{
-		"source": "Q2054",
-		"target": "Q48305"
-	},
-	{
-		"source": "Q1290",
-		"target": "Q8018"
-	},
-	{
-		"source": "Q1290",
-		"target": "Q41568"
-	},
-	{
-		"source": "Q76857",
-		"target": "Q75814"
-	},
-	{
-		"source": "Q76857",
-		"target": "Q191095"
-	},
-	{
-		"source": "Q76857",
-		"target": "Q191095"
-	},
-	{
-		"source": "Q550629",
-		"target": "Q4245051"
-	},
-	{
-		"source": "Q5752",
-		"target": "Q27645"
-	},
-	{
-		"source": "Q5752",
-		"target": "Q5749"
-	},
-	{
-		"source": "Q2066255",
-		"target": "Q484141"
-	},
-	{
-		"source": "Q140694",
-		"target": "Q1290"
-	},
-	{
-		"source": "Q486945",
-		"target": "Q2054"
-	},
-	{
-		"source": "Q231690",
-		"target": "Q131805"
-	},
-	{
-		"source": "Q231690",
-		"target": "Q9441"
-	},
-	{
-		"source": "Q231690",
-		"target": "Q312551"
-	},
-	{
-		"source": "Q231690",
-		"target": "Q314394"
-	},
-	{
-		"source": "Q231690",
-		"target": "Q131805"
-	},
-	{
-		"source": "Q61078",
-		"target": "Q5879"
-	},
-	{
-		"source": "Q61078",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q6353",
-		"target": "Q201484"
-	},
-	{
-		"source": "Q5715809",
-		"target": "Q316045"
-	},
-	{
-		"source": "Q5715809",
-		"target": "Q171969"
-	},
-	{
-		"source": "Q5715809",
-		"target": "Q76586"
-	},
-	{
-		"source": "Q188903",
-		"target": "Q4604"
-	},
-	{
-		"source": "Q104461",
-		"target": "Q183372"
-	},
-	{
-		"source": "Q37160",
-		"target": "Q82049"
-	},
-	{
-		"source": "Q37160",
-		"target": "Q9353"
-	},
-	{
-		"source": "Q37160",
-		"target": "Q935"
-	},
-	{
-		"source": "Q535769",
-		"target": "Q169243"
-	},
-	{
-		"source": "Q44272",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q44272",
-		"target": "Q9358"
-	},
-	{
-		"source": "Q44272",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q44272",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q44272",
-		"target": "Q184169"
-	},
-	{
-		"source": "Q44272",
-		"target": "Q9215"
-	},
-	{
-		"source": "Q44272",
-		"target": "Q212639"
-	},
-	{
-		"source": "Q44272",
-		"target": "Q184169"
-	},
-	{
-		"source": "Q44272",
-		"target": "Q130631"
-	},
-	{
-		"source": "Q456963",
-		"target": "Q558275"
-	},
-	{
-		"source": "Q58586",
+		"source": "Q48301",
+		"type": "influenced",
 		"target": "Q2939300"
 	},
 	{
-		"source": "Q58586",
-		"target": "Q48301"
+		"source": "Q41155",
+		"type": "influenced",
+		"target": "Q34787"
 	},
 	{
-		"source": "Q58586",
-		"target": "Q76749"
-	},
-	{
-		"source": "Q58586",
-		"target": "Q57497"
-	},
-	{
-		"source": "Q58586",
-		"target": "Q75814"
-	},
-	{
-		"source": "Q58586",
-		"target": "Q57497"
-	},
-	{
-		"source": "Q58586",
-		"target": "Q60028"
-	},
-	{
-		"source": "Q58586",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q3635215",
-		"target": "Q192207"
-	},
-	{
-		"source": "Q184366",
-		"target": "Q1035"
-	},
-	{
-		"source": "Q471041",
-		"target": "Q123382"
-	},
-	{
-		"source": "Q471041",
-		"target": "Q8011"
-	},
-	{
-		"source": "Q471041",
-		"target": "Q46420"
-	},
-	{
-		"source": "Q471041",
-		"target": "Q2010955"
-	},
-	{
-		"source": "Q471041",
-		"target": "Q43347"
-	},
-	{
-		"source": "Q354867",
-		"target": "Q193871"
-	},
-	{
-		"source": "Q354867",
-		"target": "Q41532"
-	},
-	{
-		"source": "Q354867",
-		"target": "Q179266"
-	},
-	{
-		"source": "Q354867",
-		"target": "Q9391"
-	},
-	{
-		"source": "Q935",
-		"target": "Q452091"
-	},
-	{
-		"source": "Q170472",
-		"target": "Q188883"
-	},
-	{
-		"source": "Q558275",
-		"target": "Q456963"
-	},
-	{
-		"source": "Q5749",
-		"target": "Q1541"
-	},
-	{
-		"source": "Q5749",
-		"target": "Q154959"
-	},
-	{
-		"source": "Q5749",
-		"target": "Q6527"
-	},
-	{
-		"source": "Q5749",
-		"target": "Q82934"
-	},
-	{
-		"source": "Q5749",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q5749",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q314189",
+		"source": "Q913",
+		"type": "influenced",
 		"target": "Q9358"
 	},
 	{
-		"source": "Q314189",
-		"target": "Q991"
-	},
-	{
-		"source": "Q314189",
-		"target": "Q7243"
-	},
-	{
-		"source": "Q314189",
+		"source": "Q131671",
+		"type": "influenced",
 		"target": "Q35802"
 	},
 	{
-		"source": "Q314189",
-		"target": "Q9554"
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q60070"
 	},
 	{
-		"source": "Q314189",
-		"target": "Q1290"
+		"source": "Q9353",
+		"type": "influenced",
+		"target": "Q364975"
 	},
 	{
-		"source": "Q314189",
-		"target": "Q134189"
+		"source": "Q312551",
+		"type": "influenced",
+		"target": "Q231690"
 	},
 	{
-		"source": "Q101638",
-		"target": "Q126462"
-	},
-	{
-		"source": "Q76749",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q41590",
-		"target": "Q313581"
-	},
-	{
-		"source": "Q41590",
-		"target": "Q1381628"
-	},
-	{
-		"source": "Q41590",
-		"target": "Q334147"
-	},
-	{
-		"source": "Q41590",
-		"target": "Q529858"
-	},
-	{
-		"source": "Q373036",
-		"target": "Q212639"
-	},
-	{
-		"source": "Q7060",
-		"target": "Q43216"
-	},
-	{
-		"source": "Q7060",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q7060",
-		"target": "Q9358"
-	},
-	{
-		"source": "Q7060",
-		"target": "Q157309"
-	},
-	{
-		"source": "Q191095",
-		"target": "Q331853"
-	},
-	{
-		"source": "Q191095",
-		"target": "Q76857"
-	},
-	{
-		"source": "Q191095",
-		"target": "Q75814"
-	},
-	{
-		"source": "Q65108",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q48226",
-		"target": "Q41568"
-	},
-	{
-		"source": "Q48226",
-		"target": "Q185832"
-	},
-	{
-		"source": "Q48226",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q48226",
-		"target": "Q859"
-	},
-	{
-		"source": "Q9204",
-		"target": "Q1067"
-	},
-	{
-		"source": "Q9204",
-		"target": "Q183167"
-	},
-	{
-		"source": "Q9204",
-		"target": "Q19008"
-	},
-	{
-		"source": "Q9204",
+		"source": "Q1067",
+		"type": "influenced",
 		"target": "Q41513"
 	},
 	{
-		"source": "Q9204",
-		"target": "Q2044035"
+		"source": "Q125249",
+		"type": "influenced",
+		"target": "Q158060"
 	},
 	{
-		"source": "Q9204",
-		"target": "Q368519"
+		"source": "Q1381628",
+		"type": "influenced",
+		"target": "Q41590"
 	},
 	{
-		"source": "Q9204",
-		"target": "Q868"
+		"source": "Q5749",
+		"type": "influenced",
+		"target": "Q5752"
 	},
 	{
-		"source": "Q9204",
-		"target": "Q859"
+		"source": "Q5749",
+		"type": "influenced",
+		"target": "Q27645"
 	},
 	{
-		"source": "Q9204",
-		"target": "Q5683"
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q731904"
 	},
 	{
-		"source": "Q152919",
-		"target": "Q216072"
+		"source": "Q57112",
+		"type": "influenced",
+		"target": "Q438839"
 	},
 	{
-		"source": "Q9068",
-		"target": "Q1290"
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q152388"
 	},
 	{
-		"source": "Q9068",
-		"target": "Q1541"
+		"source": "Q58586",
+		"type": "taught",
+		"target": "Q48301"
 	},
 	{
-		"source": "Q9068",
-		"target": "Q177847"
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q130631"
 	},
 	{
-		"source": "Q9068",
-		"target": "Q4604"
+		"source": "Q131805",
+		"type": "influenced",
+		"target": "Q192207"
 	},
 	{
-		"source": "Q9068",
-		"target": "Q859"
+		"source": "Q1035",
+		"type": "influenced",
+		"target": "Q184366"
 	},
 	{
-		"source": "Q9068",
-		"target": "Q9353"
+		"source": "Q130631",
+		"type": "influenced",
+		"target": "Q2318969"
 	},
 	{
-		"source": "Q9068",
-		"target": "Q935"
+		"source": "Q57280",
+		"type": "influenced",
+		"target": "Q9358"
 	},
 	{
-		"source": "Q9438",
-		"target": "Q676267"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q102851"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q127398"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q1541"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q179759"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q184500"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q39837"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q43939"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q8011"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q8018"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q859"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q868"
-	},
-	{
-		"source": "Q9438",
-		"target": "Q9546"
-	},
-	{
-		"source": "Q3312923",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q3312923",
-		"target": "Q60025"
-	},
-	{
-		"source": "Q3312923",
-		"target": "Q373036"
-	},
-	{
-		"source": "Q132524",
-		"target": "Q868"
-	},
-	{
-		"source": "Q132524",
-		"target": "Q84233"
-	},
-	{
-		"source": "Q132524",
-		"target": "Q9438"
-	},
-	{
-		"source": "Q132524",
-		"target": "Q991"
-	},
-	{
-		"source": "Q132524",
-		"target": "Q22670"
-	},
-	{
-		"source": "Q665984",
-		"target": "Q189506"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q859"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q1290"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q36330"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q9438"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q37621"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q868"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q127398"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q4604"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q8018"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q43939"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q12735"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q134189"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q193660"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q11903"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q192315"
-	},
-	{
-		"source": "Q9047",
-		"target": "Q190089"
-	},
-	{
-		"source": "Q102851",
-		"target": "Q134189"
-	},
-	{
-		"source": "Q102851",
-		"target": "Q8018"
-	},
-	{
-		"source": "Q102851",
+		"source": "Q48305",
+		"type": "influenced",
 		"target": "Q2054"
 	},
 	{
+		"source": "Q134189",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q172599",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q169243",
+		"type": "influenced",
+		"target": "Q859"
+	},
+	{
+		"source": "Q9047",
+		"type": "influenced",
+		"target": "Q60070"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q81244"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q76688"
+	},
+	{
+		"source": "Q33760",
+		"type": "influenced",
+		"target": "Q243757"
+	},
+	{
+		"source": "Q991",
+		"type": "influenced",
+		"target": "Q937"
+	},
+	{
+		"source": "Q5816",
+		"type": "influenced",
+		"target": "Q184169"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q78497",
+		"type": "influenced",
+		"target": "Q242616"
+	},
+	{
+		"source": "Q9391",
+		"type": "taught",
+		"target": "Q229646"
+	},
+	{
+		"source": "Q1394",
+		"type": "influenced",
+		"target": "Q438839"
+	},
+	{
+		"source": "Q9047",
+		"type": "influenced",
+		"target": "Q33760"
+	},
+	{
+		"source": "Q60028",
+		"type": "influenced",
+		"target": "Q33760"
+	},
+	{
+		"source": "Q9047",
+		"type": "influenced",
+		"target": "Q75814"
+	},
+	{
+		"source": "Q991",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q77148",
+		"type": "influenced",
+		"target": "Q21062238"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q27645"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q9204"
+	},
+	{
+		"source": "Q9391",
+		"type": "influenced",
+		"target": "Q295012"
+	},
+	{
+		"source": "Q184169",
+		"type": "influenced",
+		"target": "Q44272"
+	},
+	{
+		"source": "Q37160",
+		"type": "influenced",
+		"target": "Q9312"
+	},
+	{
+		"source": "Q180081",
+		"type": "influenced",
+		"target": "Q131149"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q212639"
+	},
+	{
+		"source": "Q991",
+		"type": "influenced",
+		"target": "Q27645"
+	},
+	{
+		"source": "Q1325",
+		"type": "influenced",
+		"target": "Q788572"
+	},
+	{
+		"source": "Q7251",
+		"type": "influenced",
+		"target": "Q298521"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q9235"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q937697"
+	},
+	{
+		"source": "Q316045",
+		"type": "influenced",
+		"target": "Q5715809"
+	},
+	{
+		"source": "Q57112",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q5264",
+		"type": "influenced",
+		"target": "Q868"
+	},
+	{
+		"source": "Q221697",
+		"type": "taught",
+		"target": "Q384522"
+	},
+	{
+		"source": "Q9215",
+		"type": "influenced",
+		"target": "Q503017"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q102851"
+	},
+	{
+		"source": "Q43499",
+		"type": "influenced",
+		"target": "Q579194"
+	},
+	{
+		"source": "Q188883",
+		"type": "taught",
+		"target": "Q170472"
+	},
+	{
+		"source": "Q1290",
+		"type": "influenced",
+		"target": "Q314189"
+	},
+	{
+		"source": "Q1234536",
+		"type": "taught",
+		"target": "Q925732"
+	},
+	{
+		"source": "Q9353",
+		"type": "influenced",
+		"target": "Q82049"
+	},
+	{
 		"source": "Q102851",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q1189157",
+		"type": "taught",
+		"target": "Q43216"
+	},
+	{
+		"source": "Q60028",
+		"type": "influenced",
+		"target": "Q9391"
+	},
+	{
+		"source": "Q41513",
+		"type": "influenced",
+		"target": "Q9204"
+	},
+	{
+		"source": "Q131149",
+		"type": "influenced",
+		"target": "Q1001"
+	},
+	{
+		"source": "Q140694",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q144535",
+		"type": "influenced",
+		"target": "Q1035"
+	},
+	{
+		"source": "Q76326",
+		"type": "influenced",
+		"target": "Q2318969"
+	},
+	{
+		"source": "Q101638",
+		"type": "influenced",
+		"target": "Q79969"
+	},
+	{
+		"source": "Q859",
+		"type": "taught",
 		"target": "Q868"
 	},
 	{
 		"source": "Q44011",
+		"type": "taught",
 		"target": "Q44258"
 	},
 	{
-		"source": "Q78484",
-		"target": "Q189454"
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q229646"
 	},
 	{
-		"source": "Q78484",
-		"target": "Q5879"
+		"source": "Q36303",
+		"type": "influenced",
+		"target": "Q42458"
 	},
 	{
-		"source": "Q78484",
-		"target": "Q9438"
+		"source": "Q169234",
+		"type": "influenced",
+		"target": "Q8011"
 	},
 	{
-		"source": "Q11362",
-		"target": "Q160460"
+		"source": "Q101638",
+		"type": "influenced",
+		"target": "Q41513"
 	},
 	{
-		"source": "Q667385",
-		"target": "Q320042"
+		"source": "Q48301",
+		"type": "taught",
+		"target": "Q65108"
 	},
 	{
-		"source": "Q667385",
-		"target": "Q6197"
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q44272"
 	},
 	{
-		"source": "Q184980",
-		"target": "Q123190"
-	},
-	{
-		"source": "Q184980",
-		"target": "Q163087"
-	},
-	{
-		"source": "Q229646",
-		"target": "Q868"
-	},
-	{
-		"source": "Q229646",
-		"target": "Q9438"
-	},
-	{
-		"source": "Q229646",
-		"target": "Q9391"
-	},
-	{
-		"source": "Q229646",
-		"target": "Q445939"
-	},
-	{
-		"source": "Q172544",
-		"target": "Q9353"
-	},
-	{
-		"source": "Q172544",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q4322534",
-		"target": "Q1282198"
-	},
-	{
-		"source": "Q8011",
-		"target": "Q11826"
-	},
-	{
-		"source": "Q8011",
-		"target": "Q134189"
-	},
-	{
-		"source": "Q8011",
-		"target": "Q8778"
-	},
-	{
-		"source": "Q8011",
-		"target": "Q868"
-	},
-	{
-		"source": "Q8011",
-		"target": "Q5264"
-	},
-	{
-		"source": "Q8011",
-		"target": "Q179759"
-	},
-	{
-		"source": "Q8011",
-		"target": "Q169234"
-	},
-	{
-		"source": "Q8011",
-		"target": "Q160460"
-	},
-	{
-		"source": "Q152388",
-		"target": "Q61078"
-	},
-	{
-		"source": "Q152388",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q152388",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q152388",
+		"source": "Q9312",
+		"type": "influenced",
 		"target": "Q9358"
 	},
 	{
-		"source": "Q21062238",
-		"target": "Q151403"
+		"source": "Q243787",
+		"type": "influenced",
+		"target": "Q123382"
 	},
 	{
-		"source": "Q21062238",
+		"source": "Q913",
+		"type": "influenced",
+		"target": "Q859"
+	},
+	{
+		"source": "Q9387",
+		"type": "influenced",
+		"target": "Q76849"
+	},
+	{
+		"source": "Q125551",
+		"type": "influenced",
+		"target": "Q35802"
+	},
+	{
+		"source": "Q179759",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q160460",
+		"type": "influenced",
+		"target": "Q127398"
+	},
+	{
+		"source": "Q193660",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q34943"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q58586",
+		"type": "taught",
+		"target": "Q2939300"
+	},
+	{
+		"source": "Q212639",
+		"type": "taught",
+		"target": "Q44272"
+	},
+	{
+		"source": "Q358561",
+		"type": "influenced",
+		"target": "Q8027"
+	},
+	{
+		"source": "Q1541",
+		"type": "influenced",
+		"target": "Q43499"
+	},
+	{
+		"source": "Q66732",
+		"type": "influenced",
+		"target": "Q729048"
+	},
+	{
+		"source": "Q9049",
+		"type": "influenced",
+		"target": "Q212730"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q7060"
+	},
+	{
+		"source": "Q1290",
+		"type": "influenced",
+		"target": "Q140694"
+	},
+	{
+		"source": "Q58586",
+		"type": "influenced",
+		"target": "Q71029"
+	},
+	{
+		"source": "Q913",
+		"type": "influenced",
+		"target": "Q81244"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q48226"
+	},
+	{
+		"source": "Q160270",
+		"type": "influenced",
+		"target": "Q34787"
+	},
+	{
+		"source": "Q134661",
+		"type": "influenced",
+		"target": "Q33760"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q160640"
+	},
+	{
+		"source": "Q189454",
+		"type": "influenced",
+		"target": "Q78484"
+	},
+	{
+		"source": "Q6527",
+		"type": "influenced",
+		"target": "Q5749"
+	},
+	{
+		"source": "Q212639",
+		"type": "influenced",
+		"target": "Q156268"
+	},
+	{
+		"source": "Q11826",
+		"type": "influenced",
+		"target": "Q35900"
+	},
+	{
+		"source": "Q127398",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q131671",
+		"type": "taught",
+		"target": "Q125551"
+	},
+	{
+		"source": "Q75814",
+		"type": "taught",
+		"target": "Q191095"
+	},
+	{
+		"source": "Q913",
+		"type": "influenced",
+		"target": "Q937697"
+	},
+	{
+		"source": "Q6527",
+		"type": "influenced",
+		"target": "Q9312"
+	},
+	{
+		"source": "Q214969",
+		"type": "influenced",
+		"target": "Q298521"
+	},
+	{
+		"source": "Q13230",
+		"type": "influenced",
+		"target": "Q169906"
+	},
+	{
+		"source": "Q82049",
+		"type": "influenced",
+		"target": "Q37160"
+	},
+	{
+		"source": "Q183372",
+		"type": "taught",
+		"target": "Q215022"
+	},
+	{
+		"source": "Q60028",
+		"type": "influenced",
+		"target": "Q58586"
+	},
+	{
+		"source": "Q157309",
+		"type": "influenced",
+		"target": "Q7060"
+	},
+	{
+		"source": "Q334147",
+		"type": "influenced",
+		"target": "Q41590"
+	},
+	{
+		"source": "Q370389",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q8018",
+		"type": "influenced",
+		"target": "Q102851"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q44272"
+	},
+	{
+		"source": "Q160460",
+		"type": "influenced",
+		"target": "Q8011"
+	},
+	{
+		"source": "Q13230",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q34943",
+		"type": "influenced",
+		"target": "Q11903"
+	},
+	{
+		"source": "Q9438",
+		"type": "influenced",
+		"target": "Q229646"
+	},
+	{
+		"source": "Q183372",
+		"type": "taught",
+		"target": "Q214969"
+	},
+	{
+		"source": "Q9047",
+		"type": "influenced",
+		"target": "Q168004"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q9364"
+	},
+	{
+		"source": "Q6694",
+		"type": "influenced",
+		"target": "Q1035"
+	},
+	{
+		"source": "Q4604",
+		"type": "influenced",
+		"target": "Q188903"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q314189"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q35802"
+	},
+	{
+		"source": "Q8027",
+		"type": "influenced",
+		"target": "Q259507"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q3312923"
+	},
+	{
+		"source": "Q42458",
+		"type": "taught",
+		"target": "Q80612"
+	},
+	{
+		"source": "Q4604",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q131805",
+		"type": "taught",
+		"target": "Q47667"
+	},
+	{
+		"source": "Q34787",
+		"type": "influenced",
+		"target": "Q83003"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q34787"
+	},
+	{
+		"source": "Q326459",
+		"type": "influenced",
+		"target": "Q334147"
+	},
+	{
+		"source": "Q123382",
+		"type": "influenced",
+		"target": "Q729048"
+	},
+	{
+		"source": "Q19008",
+		"type": "influenced",
+		"target": "Q9204"
+	},
+	{
+		"source": "Q561367",
+		"type": "taught",
+		"target": "Q1541"
+	},
+	{
+		"source": "Q76586",
+		"type": "influenced",
+		"target": "Q5715809"
+	},
+	{
+		"source": "Q41568",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q44490",
+		"type": "influenced",
+		"target": "Q183167"
+	},
+	{
+		"source": "Q48226",
+		"type": "influenced",
+		"target": "Q79969"
+	},
+	{
+		"source": "Q43939",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q9235"
+	},
+	{
+		"source": "Q780789",
+		"type": "taught",
+		"target": "Q2054"
+	},
+	{
+		"source": "Q151403",
+		"type": "influenced",
+		"target": "Q131149"
+	},
+	{
+		"source": "Q6353",
+		"type": "taught",
+		"target": "Q201484"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q48301"
+	},
+	{
+		"source": "Q75814",
+		"type": "taught",
+		"target": "Q76857"
+	},
+	{
+		"source": "Q34943",
+		"type": "influenced",
+		"target": "Q1067"
+	},
+	{
+		"source": "Q27645",
+		"type": "influenced",
+		"target": "Q79969"
+	},
+	{
+		"source": "Q214969",
+		"type": "influenced",
+		"target": "Q242616"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q445939"
+	},
+	{
+		"source": "Q125551",
+		"type": "influenced",
+		"target": "Q868"
+	},
+	{
+		"source": "Q126462",
+		"type": "influenced",
+		"target": "Q101638"
+	},
+	{
+		"source": "Q36330",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q448"
+	},
+	{
+		"source": "Q125551",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q33760",
+		"type": "influenced",
+		"target": "Q9391"
+	},
+	{
+		"source": "Q314189",
+		"type": "influenced",
+		"target": "Q34670"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q132524"
+	},
+	{
+		"source": "Q935",
+		"type": "influenced",
+		"target": "Q37160"
+	},
+	{
+		"source": "Q9387",
+		"type": "influenced",
+		"target": "Q438839"
+	},
+	{
+		"source": "Q127398",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q7243"
+	},
+	{
+		"source": "Q37160",
+		"type": "influenced",
+		"target": "Q38193"
+	},
+	{
+		"source": "Q1001",
+		"type": "influenced",
+		"target": "Q937"
+	},
+	{
+		"source": "Q58586",
+		"type": "influenced",
+		"target": "Q212639"
+	},
+	{
+		"source": "Q9438",
+		"type": "influenced",
+		"target": "Q183167"
+	},
+	{
+		"source": "Q9215",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q334147"
+	},
+	{
+		"source": "Q5879",
+		"type": "influenced",
+		"target": "Q60070"
+	},
+	{
+		"source": "Q859",
+		"type": "taught",
+		"target": "Q160362"
+	},
+	{
+		"source": "Q217771",
+		"type": "taught",
+		"target": "Q434266"
+	},
+	{
+		"source": "Q48301",
+		"type": "taught",
+		"target": "Q60030"
+	},
+	{
+		"source": "Q179126",
+		"type": "influenced",
+		"target": "Q1001"
+	},
+	{
+		"source": "Q191734",
+		"type": "influenced",
+		"target": "Q184500"
+	},
+	{
+		"source": "Q113951",
+		"type": "influenced",
 		"target": "Q76688"
 	},
 	{
-		"source": "Q21062238",
-		"target": "Q84233"
+		"source": "Q50020",
+		"type": "influenced",
+		"target": "Q33760"
 	},
 	{
-		"source": "Q21062238",
-		"target": "Q77148"
+		"source": "Q9047",
+		"type": "influenced",
+		"target": "Q310791"
 	},
 	{
-		"source": "Q21062238",
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q445939"
+	},
+	{
+		"source": "Q5264",
+		"type": "influenced",
+		"target": "Q8011"
+	},
+	{
+		"source": "Q43216",
+		"type": "influenced",
+		"target": "Q7060"
+	},
+	{
+		"source": "Q7243",
+		"type": "influenced",
+		"target": "Q314189"
+	},
+	{
+		"source": "Q8018",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q190089",
+		"type": "influenced",
+		"target": "Q48301"
+	},
+	{
+		"source": "Q35802",
+		"type": "taught",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q191734",
+		"type": "influenced",
+		"target": "Q189564"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q180819"
+	},
+	{
+		"source": "Q1035",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q9441",
+		"type": "influenced",
+		"target": "Q1001"
+	},
+	{
+		"source": "Q60070",
+		"type": "influenced",
+		"target": "Q6694"
+	},
+	{
+		"source": "Q9438",
+		"type": "influenced",
+		"target": "Q48301"
+	},
+	{
+		"source": "Q60070",
+		"type": "influenced",
+		"target": "Q503017"
+	},
+	{
+		"source": "Q46420",
+		"type": "influenced",
+		"target": "Q471041"
+	},
+	{
+		"source": "Q191095",
+		"type": "taught",
+		"target": "Q331853"
+	},
+	{
+		"source": "Q33760",
+		"type": "influenced",
+		"target": "Q44461"
+	},
+	{
+		"source": "Q355245",
+		"type": "influenced",
+		"target": "Q937"
+	},
+	{
+		"source": "Q9438",
+		"type": "influenced",
+		"target": "Q132524"
+	},
+	{
+		"source": "Q131805",
+		"type": "influenced",
+		"target": "Q231690"
+	},
+	{
+		"source": "Q5879",
+		"type": "influenced",
+		"target": "Q1035"
+	},
+	{
+		"source": "Q463723",
+		"type": "influenced",
+		"target": "Q4245051"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q579194"
+	},
+	{
+		"source": "Q313666",
+		"type": "influenced",
+		"target": "Q334147"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q11903"
+	},
+	{
+		"source": "Q37621",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q302835",
+		"type": "influenced",
+		"target": "Q619"
+	},
+	{
+		"source": "Q184169",
+		"type": "taught",
+		"target": "Q44272"
+	},
+	{
+		"source": "Q310765",
+		"type": "taught",
+		"target": "Q6175878"
+	},
+	{
+		"source": "Q48301",
+		"type": "taught",
+		"target": "Q2939300"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q61078"
+	},
+	{
+		"source": "Q619",
+		"type": "influenced",
+		"target": "Q36330"
+	},
+	{
+		"source": "Q5683",
+		"type": "influenced",
+		"target": "Q9204"
+	},
+	{
+		"source": "Q125551",
+		"type": "influenced",
+		"target": "Q859"
+	},
+	{
+		"source": "Q36303",
+		"type": "influenced",
+		"target": "Q10261"
+	},
+	{
+		"source": "Q123382",
+		"type": "influenced",
+		"target": "Q471041"
+	},
+	{
+		"source": "Q113951",
+		"type": "influenced",
+		"target": "Q21062238"
+	},
+	{
+		"source": "Q579194",
+		"type": "taught",
+		"target": "Q715169"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q184169"
+	},
+	{
+		"source": "Q132524",
+		"type": "influenced",
+		"target": "Q937697"
+	},
+	{
+		"source": "Q1541",
+		"type": "influenced",
+		"target": "Q9068"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q160460"
+	},
+	{
+		"source": "Q58586",
+		"type": "influenced",
+		"target": "Q9364"
+	},
+	{
+		"source": "Q215258",
+		"type": "influenced",
+		"target": "Q242616"
+	},
+	{
+		"source": "Q84233",
+		"type": "influenced",
+		"target": "Q132524"
+	},
+	{
+		"source": "Q184169",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q125551",
+		"type": "influenced",
+		"target": "Q132157"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q322922"
+	},
+	{
+		"source": "Q84233",
+		"type": "influenced",
+		"target": "Q76688"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q1067"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q310341"
+	},
+	{
+		"source": "Q314189",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q39837",
+		"type": "influenced",
+		"target": "Q35802"
+	},
+	{
+		"source": "Q163087",
+		"type": "influenced",
+		"target": "Q184980"
+	},
+	{
+		"source": "Q60887",
+		"type": "taught",
+		"target": "Q50020"
+	},
+	{
+		"source": "Q913",
+		"type": "influenced",
+		"target": "Q868"
+	},
+	{
+		"source": "Q48301",
+		"type": "influenced",
+		"target": "Q438839"
+	},
+	{
+		"source": "Q77148",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q60025",
+		"type": "influenced",
+		"target": "Q3312923"
+	},
+	{
+		"source": "Q73527",
+		"type": "taught",
+		"target": "Q43182"
+	},
+	{
+		"source": "Q60104",
+		"type": "influenced",
+		"target": "Q358561"
+	},
+	{
+		"source": "Q37160",
+		"type": "influenced",
+		"target": "Q937"
+	},
+	{
+		"source": "Q75814",
+		"type": "taught",
+		"target": "Q58586"
+	},
+	{
+		"source": "Q695534",
+		"type": "taught",
+		"target": "Q1541"
+	},
+	{
+		"source": "Q5879",
+		"type": "influenced",
+		"target": "Q168004"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q9235"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q7060"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q449538"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q84233",
+		"type": "taught",
+		"target": "Q1325"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q48301"
+	},
+	{
+		"source": "Q9364",
+		"type": "influenced",
+		"target": "Q201538"
+	},
+	{
+		"source": "Q8011",
+		"type": "influenced",
+		"target": "Q127398"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q48226"
+	},
+	{
+		"source": "Q38193",
+		"type": "influenced",
+		"target": "Q937"
+	},
+	{
+		"source": "Q38193",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q9364",
+		"type": "influenced",
+		"target": "Q193670"
+	},
+	{
+		"source": "Q2054",
+		"type": "influenced",
+		"target": "Q102851"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q484141"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q334147"
+	},
+	{
+		"source": "Q134189",
+		"type": "influenced",
+		"target": "Q39837"
+	},
+	{
+		"source": "Q77148",
+		"type": "influenced",
+		"target": "Q438839"
+	},
+	{
+		"source": "Q192207",
+		"type": "taught",
+		"target": "Q3342897"
+	},
+	{
+		"source": "Q170472",
+		"type": "influenced",
+		"target": "Q189564"
+	},
+	{
+		"source": "Q76586",
+		"type": "influenced",
+		"target": "Q1394"
+	},
+	{
+		"source": "Q9438",
+		"type": "influenced",
+		"target": "Q1067"
+	},
+	{
+		"source": "Q913",
+		"type": "influenced",
+		"target": "Q189506"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q2939300"
+	},
+	{
+		"source": "Q47434",
+		"type": "influenced",
+		"target": "Q364975"
+	},
+	{
+		"source": "Q1541",
+		"type": "influenced",
+		"target": "Q364975"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q127398"
+	},
+	{
+		"source": "Q48301",
+		"type": "influenced",
+		"target": "Q212639"
+	},
+	{
+		"source": "Q8011",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q438839"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q83003",
+		"type": "influenced",
+		"target": "Q184169"
+	},
+	{
+		"source": "Q9381",
+		"type": "influenced",
+		"target": "Q168004"
+	},
+	{
+		"source": "Q9364",
+		"type": "influenced",
+		"target": "Q156268"
+	},
+	{
+		"source": "Q60030",
+		"type": "influenced",
+		"target": "Q306514"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q314189"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q160640"
+	},
+	{
+		"source": "Q6527",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q9546",
+		"type": "influenced",
+		"target": "Q39837"
+	},
+	{
+		"source": "Q5749",
+		"type": "influenced",
+		"target": "Q7243"
+	},
+	{
+		"source": "Q229264",
+		"type": "influenced",
+		"target": "Q1035"
+	},
+	{
+		"source": "Q5879",
+		"type": "influenced",
+		"target": "Q78484"
+	},
+	{
+		"source": "Q358561",
+		"type": "influenced",
+		"target": "Q76326"
+	},
+	{
+		"source": "Q44272",
+		"type": "influenced",
+		"target": "Q201538"
+	},
+	{
+		"source": "Q77888",
+		"type": "influenced",
+		"target": "Q331853"
+	},
+	{
+		"source": "Q184530",
+		"type": "taught",
+		"target": "Q2287807"
+	},
+	{
+		"source": "Q1541",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q9438",
+		"type": "influenced",
+		"target": "Q78484"
+	},
+	{
+		"source": "Q187520",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q214969",
+		"type": "taught",
+		"target": "Q298521"
+	},
+	{
+		"source": "Q9047",
+		"type": "influenced",
+		"target": "Q156268"
+	},
+	{
+		"source": "Q48301",
+		"type": "influenced",
+		"target": "Q44272"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q6527",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q37160",
+		"type": "influenced",
+		"target": "Q298521"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q8011"
+	},
+	{
+		"source": "Q6527",
+		"type": "influenced",
+		"target": "Q27645"
+	},
+	{
+		"source": "Q76420",
+		"type": "influenced",
+		"target": "Q33760"
+	},
+	{
+		"source": "Q295386",
+		"type": "influenced",
+		"target": "Q33760"
+	},
+	{
+		"source": "Q184169",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q36303",
+		"type": "taught",
+		"target": "Q42458"
+	},
+	{
+		"source": "Q991",
+		"type": "influenced",
+		"target": "Q7243"
+	},
+	{
+		"source": "Q11362",
+		"type": "influenced",
+		"target": "Q39837"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q168004"
+	},
+	{
+		"source": "Q22670",
+		"type": "influenced",
+		"target": "Q991"
+	},
+	{
+		"source": "Q8011",
+		"type": "influenced",
+		"target": "Q471041"
+	},
+	{
+		"source": "Q44272",
+		"type": "influenced",
+		"target": "Q156268"
+	},
+	{
+		"source": "Q131149",
+		"type": "influenced",
+		"target": "Q7243"
+	},
+	{
+		"source": "Q37160",
+		"type": "influenced",
+		"target": "Q310791"
+	},
+	{
+		"source": "Q313666",
+		"type": "influenced",
+		"target": "Q83003"
+	},
+	{
+		"source": "Q125551",
+		"type": "influenced",
+		"target": "Q48301"
+	},
+	{
+		"source": "Q61078",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q5749"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q334147"
+	},
+	{
+		"source": "Q320042",
+		"type": "taught",
+		"target": "Q1541"
+	},
+	{
+		"source": "Q180967",
+		"type": "influenced",
+		"target": "Q123382"
+	},
+	{
+		"source": "Q44272",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q311879",
+		"type": "taught",
+		"target": "Q1271013"
+	},
+	{
+		"source": "Q131149",
+		"type": "influenced",
+		"target": "Q8027"
+	},
+	{
+		"source": "Q61078",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q9353",
+		"type": "influenced",
+		"target": "Q37160"
+	},
+	{
+		"source": "Q715169",
+		"type": "taught",
+		"target": "Q41568"
+	},
+	{
+		"source": "Q184500",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q140694",
+		"type": "influenced",
+		"target": "Q449538"
+	},
+	{
+		"source": "Q48301",
+		"type": "influenced",
+		"target": "Q215258"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q9312"
+	},
+	{
+		"source": "Q38193",
+		"type": "influenced",
+		"target": "Q81244"
+	},
+	{
+		"source": "Q84233",
+		"type": "taught",
 		"target": "Q297079"
 	},
 	{
-		"source": "Q21062238",
-		"target": "Q113951"
+		"source": "Q935",
+		"type": "taught",
+		"target": "Q452091"
+	},
+	{
+		"source": "Q9353",
+		"type": "influenced",
+		"target": "Q38193"
+	},
+	{
+		"source": "Q7197",
+		"type": "influenced",
+		"target": "Q34670"
+	},
+	{
+		"source": "Q48301",
+		"type": "influenced",
+		"target": "Q9364"
+	},
+	{
+		"source": "Q33760",
+		"type": "taught",
+		"target": "Q9391"
+	},
+	{
+		"source": "Q183372",
+		"type": "influenced",
+		"target": "Q33760"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q11104"
+	},
+	{
+		"source": "Q57497",
+		"type": "influenced",
+		"target": "Q58586"
+	},
+	{
+		"source": "Q82934",
+		"type": "taught",
+		"target": "Q12718"
+	},
+	{
+		"source": "Q991",
+		"type": "influenced",
+		"target": "Q314189"
+	},
+	{
+		"source": "Q9381",
+		"type": "influenced",
+		"target": "Q34787"
+	},
+	{
+		"source": "Q9353",
+		"type": "influenced",
+		"target": "Q172544"
+	},
+	{
+		"source": "Q9364",
+		"type": "influenced",
+		"target": "Q7197"
+	},
+	{
+		"source": "Q183372",
+		"type": "influenced",
+		"target": "Q104461"
+	},
+	{
+		"source": "Q8018",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q73527",
+		"type": "taught",
+		"target": "Q211411"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q731904"
+	},
+	{
+		"source": "Q58586",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q9204"
+	},
+	{
+		"source": "Q76857",
+		"type": "taught",
+		"target": "Q191095"
+	},
+	{
+		"source": "Q34787",
+		"type": "influenced",
+		"target": "Q1394"
+	},
+	{
+		"source": "Q165792",
+		"type": "influenced",
+		"target": "Q183167"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q48301",
+		"type": "influenced",
+		"target": "Q503017"
+	},
+	{
+		"source": "Q313581",
+		"type": "influenced",
+		"target": "Q41590"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q9215",
+		"type": "influenced",
+		"target": "Q169906"
+	},
+	{
+		"source": "Q81244",
+		"type": "taught",
+		"target": "Q78497"
+	},
+	{
+		"source": "Q184169",
+		"type": "taught",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q183167",
+		"type": "influenced",
+		"target": "Q9204"
+	},
+	{
+		"source": "Q9364",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q60887",
+		"type": "influenced",
+		"target": "Q312546"
+	},
+	{
+		"source": "Q579194",
+		"type": "taught",
+		"target": "Q55597400"
+	},
+	{
+		"source": "Q47154",
+		"type": "influenced",
+		"target": "Q36330"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q37621"
+	},
+	{
+		"source": "Q39837",
+		"type": "influenced",
+		"target": "Q127398"
+	},
+	{
+		"source": "Q216072",
+		"type": "taught",
+		"target": "Q28959"
+	},
+	{
+		"source": "Q2010955",
+		"type": "influenced",
+		"target": "Q471041"
+	},
+	{
+		"source": "Q9047",
+		"type": "influenced",
+		"target": "Q9312"
+	},
+	{
+		"source": "Q657941",
+		"type": "taught",
+		"target": "Q8778"
+	},
+	{
+		"source": "Q190089",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q43216",
+		"type": "influenced",
+		"target": "Q192315"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q156268"
+	},
+	{
+		"source": "Q46420",
+		"type": "influenced",
+		"target": "Q123382"
+	},
+	{
+		"source": "Q9353",
+		"type": "influenced",
+		"target": "Q165792"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q9312"
+	},
+	{
+		"source": "Q297079",
+		"type": "influenced",
+		"target": "Q76688"
+	},
+	{
+		"source": "Q9438",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q9047",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q154959",
+		"type": "influenced",
+		"target": "Q9353"
+	},
+	{
+		"source": "Q48301",
+		"type": "taught",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q9068"
+	},
+	{
+		"source": "Q183372",
+		"type": "taught",
+		"target": "Q9317"
+	},
+	{
+		"source": "Q48226",
+		"type": "influenced",
+		"target": "Q125249"
+	},
+	{
+		"source": "Q169243",
+		"type": "taught",
+		"target": "Q535769"
+	},
+	{
+		"source": "Q39837",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q4322534",
+		"type": "taught",
+		"target": "Q1282198"
+	},
+	{
+		"source": "Q48226",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q123382",
+		"type": "taught",
+		"target": "Q471041"
+	},
+	{
+		"source": "Q76849",
+		"type": "influenced",
+		"target": "Q160640"
+	},
+	{
+		"source": "Q5752",
+		"type": "influenced",
+		"target": "Q7243"
+	},
+	{
+		"source": "Q404023",
+		"type": "taught",
+		"target": "Q441590"
+	},
+	{
+		"source": "Q48301",
+		"type": "influenced",
+		"target": "Q34670"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q503017"
+	},
+	{
+		"source": "Q160640",
+		"type": "taught",
+		"target": "Q373036"
+	},
+	{
+		"source": "Q41155",
+		"type": "influenced",
+		"target": "Q868"
+	},
+	{
+		"source": "Q48301",
+		"type": "influenced",
+		"target": "Q2318969"
+	},
+	{
+		"source": "Q183167",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q41155",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q37160",
+		"type": "influenced",
+		"target": "Q33760"
+	},
+	{
+		"source": "Q44272",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q82934",
+		"type": "influenced",
+		"target": "Q5749"
+	},
+	{
+		"source": "Q60028",
+		"type": "influenced",
+		"target": "Q298521"
+	},
+	{
+		"source": "Q9333",
+		"type": "influenced",
+		"target": "Q334147"
+	},
+	{
+		"source": "Q82778",
+		"type": "influenced",
+		"target": "Q364975"
+	},
+	{
+		"source": "Q937",
+		"type": "influenced",
+		"target": "Q81244"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q5879"
+	},
+	{
+		"source": "Q27645",
+		"type": "influenced",
+		"target": "Q5752"
+	},
+	{
+		"source": "Q46420",
+		"type": "taught",
+		"target": "Q770298"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q79969"
+	},
+	{
+		"source": "Q192207",
+		"type": "taught",
+		"target": "Q3635215"
+	},
+	{
+		"source": "Q1541",
+		"type": "influenced",
+		"target": "Q165792"
+	},
+	{
+		"source": "Q190089",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q8778",
+		"type": "influenced",
+		"target": "Q8011"
+	},
+	{
+		"source": "Q9441",
+		"type": "influenced",
+		"target": "Q231690"
+	},
+	{
+		"source": "Q12718",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q484141"
+	},
+	{
+		"source": "Q8011",
+		"type": "influenced",
+		"target": "Q35900"
+	},
+	{
+		"source": "Q42458",
+		"type": "taught",
+		"target": "Q10261"
+	},
+	{
+		"source": "Q189506",
+		"type": "influenced",
+		"target": "Q43216"
+	},
+	{
+		"source": "Q780789",
+		"type": "influenced",
+		"target": "Q2054"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q165792"
+	},
+	{
+		"source": "Q9438",
+		"type": "influenced",
+		"target": "Q156268"
+	},
+	{
+		"source": "Q160460",
+		"type": "influenced",
+		"target": "Q11362"
+	},
+	{
+		"source": "Q8018",
+		"type": "influenced",
+		"target": "Q1290"
+	},
+	{
+		"source": "Q322922",
+		"type": "taught",
+		"target": "Q503017"
+	},
+	{
+		"source": "Q157309",
+		"type": "influenced",
+		"target": "Q503017"
+	},
+	{
+		"source": "Q82049",
+		"type": "influenced",
+		"target": "Q9312"
+	},
+	{
+		"source": "Q868",
+		"type": "taught",
+		"target": "Q160362"
+	},
+	{
+		"source": "Q9353",
+		"type": "influenced",
+		"target": "Q9312"
+	},
+	{
+		"source": "Q1001",
+		"type": "influenced",
+		"target": "Q8027"
+	},
+	{
+		"source": "Q9441",
+		"type": "influenced",
+		"target": "Q7243"
+	},
+	{
+		"source": "Q297079",
+		"type": "influenced",
+		"target": "Q21062238"
+	},
+	{
+		"source": "Q5879",
+		"type": "influenced",
+		"target": "Q57112"
+	},
+	{
+		"source": "Q9068",
+		"type": "influenced",
+		"target": "Q448"
+	},
+	{
+		"source": "Q913",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q8018",
+		"type": "influenced",
+		"target": "Q184500"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q438839"
+	},
+	{
+		"source": "Q37160",
+		"type": "influenced",
+		"target": "Q1035"
+	},
+	{
+		"source": "Q8018",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q38193"
+	},
+	{
+		"source": "Q10261",
+		"type": "influenced",
+		"target": "Q1173486"
+	},
+	{
+		"source": "Q193871",
+		"type": "influenced",
+		"target": "Q322922"
+	},
+	{
+		"source": "Q320042",
+		"type": "taught",
+		"target": "Q667385"
+	},
+	{
+		"source": "Q134189",
+		"type": "influenced",
+		"target": "Q102851"
+	},
+	{
+		"source": "Q132157",
+		"type": "influenced",
+		"target": "Q868"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q83003"
+	},
+	{
+		"source": "Q221697",
+		"type": "influenced",
+		"target": "Q298521"
+	},
+	{
+		"source": "Q38193",
+		"type": "influenced",
+		"target": "Q9391"
+	},
+	{
+		"source": "Q550629",
+		"type": "influenced",
+		"target": "Q4245051"
+	},
+	{
+		"source": "Q123190",
+		"type": "influenced",
+		"target": "Q184980"
+	},
+	{
+		"source": "Q935",
+		"type": "influenced",
+		"target": "Q937"
+	},
+	{
+		"source": "Q311879",
+		"type": "taught",
+		"target": "Q1430"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q123382"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q152388"
+	},
+	{
+		"source": "Q214969",
+		"type": "taught",
+		"target": "Q384522"
+	},
+	{
+		"source": "Q192315",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q154959",
+		"type": "influenced",
+		"target": "Q37621"
+	},
+	{
+		"source": "Q4245051",
+		"type": "influenced",
+		"target": "Q550629"
+	},
+	{
+		"source": "Q131805",
+		"type": "influenced",
+		"target": "Q47667"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q7243"
+	},
+	{
+		"source": "Q2353373",
+		"type": "influenced",
+		"target": "Q1001"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q1394"
+	},
+	{
+		"source": "Q160362",
+		"type": "taught",
+		"target": "Q2955937"
+	},
+	{
+		"source": "Q154959",
+		"type": "influenced",
+		"target": "Q5749"
+	},
+	{
+		"source": "Q9358",
+		"type": "taught",
+		"target": "Q78484"
+	},
+	{
+		"source": "Q913",
+		"type": "taught",
+		"target": "Q189506"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q156268"
+	},
+	{
+		"source": "Q193660",
+		"type": "influenced",
+		"target": "Q36330"
+	},
+	{
+		"source": "Q183372",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q8739",
+		"type": "influenced",
+		"target": "Q184530"
+	},
+	{
+		"source": "Q169906",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q355245",
+		"type": "influenced",
+		"target": "Q7243"
+	},
+	{
+		"source": "Q311826",
+		"type": "taught",
+		"target": "Q471046"
+	},
+	{
+		"source": "Q48301",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q1290",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q6527",
+		"type": "influenced",
+		"target": "Q9235"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q131149"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q60070"
+	},
+	{
+		"source": "Q9215",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q179126",
+		"type": "influenced",
+		"target": "Q445939"
+	},
+	{
+		"source": "Q37621",
+		"type": "influenced",
+		"target": "Q9353"
+	},
+	{
+		"source": "Q60070",
+		"type": "influenced",
+		"target": "Q9235"
+	},
+	{
+		"source": "Q10261",
+		"type": "influenced",
+		"target": "Q297040"
+	},
+	{
+		"source": "Q47154",
+		"type": "influenced",
+		"target": "Q35802"
+	},
+	{
+		"source": "Q41155",
+		"type": "influenced",
+		"target": "Q859"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q189564"
+	},
+	{
+		"source": "Q189506",
+		"type": "influenced",
+		"target": "Q665984"
+	},
+	{
+		"source": "Q60104",
+		"type": "influenced",
+		"target": "Q2318969"
+	},
+	{
+		"source": "Q935",
+		"type": "influenced",
+		"target": "Q9312"
+	},
+	{
+		"source": "Q4604",
+		"type": "influenced",
+		"target": "Q9068"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q22670"
+	},
+	{
+		"source": "Q131149",
+		"type": "influenced",
+		"target": "Q79969"
+	},
+	{
+		"source": "Q113951",
+		"type": "influenced",
+		"target": "Q788572"
+	},
+	{
+		"source": "Q37160",
+		"type": "influenced",
+		"target": "Q168004"
+	},
+	{
+		"source": "Q131805",
+		"type": "influenced",
+		"target": "Q215258"
+	},
+	{
+		"source": "Q935",
+		"type": "influenced",
+		"target": "Q9068"
+	},
+	{
+		"source": "Q11362",
+		"type": "influenced",
+		"target": "Q127398"
+	},
+	{
+		"source": "Q12735",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q913",
+		"type": "taught",
+		"target": "Q859"
+	},
+	{
+		"source": "Q50020",
+		"type": "influenced",
+		"target": "Q235470"
+	},
+	{
+		"source": "Q84233",
+		"type": "influenced",
+		"target": "Q21062238"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q172544"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q38193"
+	},
+	{
+		"source": "Q76548",
+		"type": "influenced",
+		"target": "Q123382"
+	},
+	{
+		"source": "Q43216",
+		"type": "taught",
+		"target": "Q1234536"
+	},
+	{
+		"source": "Q60024",
+		"type": "taught",
+		"target": "Q75814"
+	},
+	{
+		"source": "Q134189",
+		"type": "influenced",
+		"target": "Q34670"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q39837"
+	},
+	{
+		"source": "Q19074",
+		"type": "taught",
+		"target": "Q186123"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q44272"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q71029"
+	},
+	{
+		"source": "Q1290",
+		"type": "influenced",
+		"target": "Q9068"
+	},
+	{
+		"source": "Q9554",
+		"type": "influenced",
+		"target": "Q314189"
+	},
+	{
+		"source": "Q216072",
+		"type": "taught",
+		"target": "Q152919"
+	},
+	{
+		"source": "Q179266",
+		"type": "influenced",
+		"target": "Q354867"
+	},
+	{
+		"source": "Q130631",
+		"type": "influenced",
+		"target": "Q353754"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q1173486"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q448"
+	},
+	{
+		"source": "Q9391",
+		"type": "influenced",
+		"target": "Q298521"
+	},
+	{
+		"source": "Q2044035",
+		"type": "influenced",
+		"target": "Q9204"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q449538"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q152388"
+	},
+	{
+		"source": "Q44272",
+		"type": "taught",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q558275",
+		"type": "taught",
+		"target": "Q456963"
+	},
+	{
+		"source": "Q22670",
+		"type": "influenced",
+		"target": "Q132524"
+	},
+	{
+		"source": "Q9215",
+		"type": "taught",
+		"target": "Q41532"
+	},
+	{
+		"source": "Q190089",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q35802"
+	},
+	{
+		"source": "Q44272",
+		"type": "influenced",
+		"target": "Q310341"
+	},
+	{
+		"source": "Q37388",
+		"type": "influenced",
+		"target": "Q35802"
+	},
+	{
+		"source": "Q484141",
+		"type": "influenced",
+		"target": "Q3348646"
+	},
+	{
+		"source": "Q134189",
+		"type": "influenced",
+		"target": "Q9235"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q58586"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q937"
+	},
+	{
+		"source": "Q34943",
+		"type": "influenced",
+		"target": "Q619"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q60070"
+	},
+	{
+		"source": "Q183372",
+		"type": "taught",
+		"target": "Q33760"
+	},
+	{
+		"source": "Q38193",
+		"type": "influenced",
+		"target": "Q7243"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q868",
+		"type": "taught",
+		"target": "Q2955937"
+	},
+	{
+		"source": "Q165792",
+		"type": "influenced",
+		"target": "Q445939"
+	},
+	{
+		"source": "Q57497",
+		"type": "taught",
+		"target": "Q58586"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q27645"
+	},
+	{
+		"source": "Q779523",
+		"type": "taught",
+		"target": "Q5424032"
+	},
+	{
+		"source": "Q57497",
+		"type": "taught",
+		"target": "Q61151"
+	},
+	{
+		"source": "Q46420",
+		"type": "influenced",
+		"target": "Q2010955"
+	},
+	{
+		"source": "Q9391",
+		"type": "influenced",
+		"target": "Q354867"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q48301"
+	},
+	{
+		"source": "Q84233",
+		"type": "influenced",
+		"target": "Q788572"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q991"
+	},
+	{
+		"source": "Q404023",
+		"type": "taught",
+		"target": "Q248578"
 	},
 	{
 		"source": "Q43347",
-		"target": "Q46420"
+		"type": "influenced",
+		"target": "Q471041"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q5749"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q731904"
+	},
+	{
+		"source": "Q177847",
+		"type": "influenced",
+		"target": "Q9068"
+	},
+	{
+		"source": "Q58586",
+		"type": "influenced",
+		"target": "Q48301"
+	},
+	{
+		"source": "Q37160",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q311160",
+		"type": "taught",
+		"target": "Q672145"
+	},
+	{
+		"source": "Q58586",
+		"type": "taught",
+		"target": "Q76749"
+	},
+	{
+		"source": "Q7243",
+		"type": "influenced",
+		"target": "Q484141"
+	},
+	{
+		"source": "Q935",
+		"type": "influenced",
+		"target": "Q364975"
+	},
+	{
+		"source": "Q160362",
+		"type": "taught",
+		"target": "Q313286"
+	},
+	{
+		"source": "Q60024",
+		"type": "taught",
+		"target": "Q125249"
+	},
+	{
+		"source": "Q991",
+		"type": "influenced",
+		"target": "Q334147"
+	},
+	{
+		"source": "Q185832",
+		"type": "influenced",
+		"target": "Q48226"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q168004"
+	},
+	{
+		"source": "Q41568",
+		"type": "influenced",
+		"target": "Q1290"
+	},
+	{
+		"source": "Q178709",
+		"type": "influenced",
+		"target": "Q334147"
+	},
+	{
+		"source": "Q43216",
+		"type": "influenced",
+		"target": "Q35802"
+	},
+	{
+		"source": "Q60104",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q81244",
+		"type": "taught",
+		"target": "Q404779"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q123190"
+	},
+	{
+		"source": "Q185832",
+		"type": "influenced",
+		"target": "Q41513"
+	},
+	{
+		"source": "Q7322195",
+		"type": "influenced",
+		"target": "Q937"
+	},
+	{
+		"source": "Q57112",
+		"type": "influenced",
+		"target": "Q334147"
+	},
+	{
+		"source": "Q9391",
+		"type": "influenced",
+		"target": "Q229646"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q184226"
+	},
+	{
+		"source": "Q8011",
+		"type": "influenced",
+		"target": "Q39837"
+	},
+	{
+		"source": "Q41568",
+		"type": "influenced",
+		"target": "Q48226"
+	},
+	{
+		"source": "Q46420",
+		"type": "influenced",
+		"target": "Q43347"
+	},
+	{
+		"source": "Q484141",
+		"type": "influenced",
+		"target": "Q2066255"
+	},
+	{
+		"source": "Q6527",
+		"type": "influenced",
+		"target": "Q7243"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q34787"
+	},
+	{
+		"source": "Q4604",
+		"type": "taught",
+		"target": "Q8193981"
+	},
+	{
+		"source": "Q58586",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q179759",
+		"type": "influenced",
+		"target": "Q8011"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q503017"
+	},
+	{
+		"source": "Q131805",
+		"type": "taught",
+		"target": "Q231690"
+	},
+	{
+		"source": "Q193871",
+		"type": "influenced",
+		"target": "Q354867"
+	},
+	{
+		"source": "Q373036",
+		"type": "influenced",
+		"target": "Q3312923"
+	},
+	{
+		"source": "Q5752",
+		"type": "influenced",
+		"target": "Q79969"
+	},
+	{
+		"source": "Q151403",
+		"type": "influenced",
+		"target": "Q21062238"
+	},
+	{
+		"source": "Q131671",
+		"type": "influenced",
+		"target": "Q41155"
+	},
+	{
+		"source": "Q169906",
+		"type": "influenced",
+		"target": "Q2318969"
+	},
+	{
+		"source": "Q160460",
+		"type": "influenced",
+		"target": "Q4115511"
+	},
+	{
+		"source": "Q9047",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q39837"
+	},
+	{
+		"source": "Q297079",
+		"type": "taught",
+		"target": "Q76688"
+	},
+	{
+		"source": "Q8011",
+		"type": "influenced",
+		"target": "Q35802"
+	},
+	{
+		"source": "Q10261",
+		"type": "influenced",
+		"target": "Q859"
+	},
+	{
+		"source": "Q41155",
+		"type": "influenced",
+		"target": "Q9235"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q868"
+	},
+	{
+		"source": "Q334147",
+		"type": "influenced",
+		"target": "Q438839"
+	},
+	{
+		"source": "Q134189",
+		"type": "influenced",
+		"target": "Q11903"
+	},
+	{
+		"source": "Q41155",
+		"type": "influenced",
+		"target": "Q48301"
+	},
+	{
+		"source": "Q140694",
+		"type": "influenced",
+		"target": "Q160640"
+	},
+	{
+		"source": "Q61078",
+		"type": "influenced",
+		"target": "Q152388"
+	},
+	{
+		"source": "Q486945",
+		"type": "taught",
+		"target": "Q2054"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q1173486"
+	},
+	{
+		"source": "Q229646",
+		"type": "taught",
+		"target": "Q445939"
+	},
+	{
+		"source": "Q314394",
+		"type": "influenced",
+		"target": "Q231690"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q11903"
+	},
+	{
+		"source": "Q9068",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q132489",
+		"type": "influenced",
+		"target": "Q235470"
+	},
+	{
+		"source": "Q7243",
+		"type": "influenced",
+		"target": "Q1001"
+	},
+	{
+		"source": "Q184226",
+		"type": "influenced",
+		"target": "Q310341"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q9364"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q81244"
+	},
+	{
+		"source": "Q37388",
+		"type": "influenced",
+		"target": "Q37621"
+	},
+	{
+		"source": "Q134189",
+		"type": "influenced",
+		"target": "Q160460"
+	},
+	{
+		"source": "Q43347",
+		"type": "influenced",
+		"target": "Q484141"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q619"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q34670"
+	},
+	{
+		"source": "Q160460",
+		"type": "influenced",
+		"target": "Q39837"
+	},
+	{
+		"source": "Q171969",
+		"type": "influenced",
+		"target": "Q5715809"
+	},
+	{
+		"source": "Q39837",
+		"type": "influenced",
+		"target": "Q36330"
+	},
+	{
+		"source": "Q5879",
+		"type": "influenced",
+		"target": "Q38193"
+	},
+	{
+		"source": "Q43216",
+		"type": "influenced",
+		"target": "Q868"
+	},
+	{
+		"source": "Q9235",
+		"type": "influenced",
+		"target": "Q9061"
+	},
+	{
+		"source": "Q44272",
+		"type": "influenced",
+		"target": "Q219368"
+	},
+	{
+		"source": "Q43216",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q160460"
+	},
+	{
+		"source": "Q9391",
+		"type": "influenced",
+		"target": "Q33760"
+	},
+	{
+		"source": "Q125249",
+		"type": "taught",
+		"target": "Q988129"
+	},
+	{
+		"source": "Q41532",
+		"type": "influenced",
+		"target": "Q354867"
+	},
+	{
+		"source": "Q10261",
+		"type": "taught",
+		"target": "Q212338"
+	},
+	{
+		"source": "Q36330",
+		"type": "influenced",
+		"target": "Q35802"
+	},
+	{
+		"source": "Q43689",
+		"type": "influenced",
+		"target": "Q8018"
+	},
+	{
+		"source": "Q309854",
+		"type": "influenced",
+		"target": "Q334147"
+	},
+	{
+		"source": "Q368519",
+		"type": "influenced",
+		"target": "Q9204"
+	},
+	{
+		"source": "Q1393417",
+		"type": "taught",
+		"target": "Q169234"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q484141"
+	},
+	{
+		"source": "Q36330",
+		"type": "influenced",
+		"target": "Q60070"
+	},
+	{
+		"source": "Q1290",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q127398",
+		"type": "influenced",
+		"target": "Q35802"
+	},
+	{
+		"source": "Q5879",
+		"type": "influenced",
+		"target": "Q22670"
+	},
+	{
+		"source": "Q1271013",
+		"type": "taught",
+		"target": "Q3625041"
+	},
+	{
+		"source": "Q165792",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q1035",
+		"type": "influenced",
+		"target": "Q44461"
+	},
+	{
+		"source": "Q125551",
+		"type": "taught",
+		"target": "Q132157"
+	},
+	{
+		"source": "Q76688",
+		"type": "influenced",
+		"target": "Q21062238"
+	},
+	{
+		"source": "Q41568",
+		"type": "influenced",
+		"target": "Q9312"
+	},
+	{
+		"source": "Q46830",
+		"type": "taught",
+		"target": "Q47434"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q48301"
+	},
+	{
+		"source": "Q9387",
+		"type": "influenced",
+		"target": "Q160640"
+	},
+	{
+		"source": "Q134189",
+		"type": "influenced",
+		"target": "Q314189"
+	},
+	{
+		"source": "Q5879",
+		"type": "influenced",
+		"target": "Q61078"
+	},
+	{
+		"source": "Q9438",
+		"type": "taught",
+		"target": "Q676267"
+	},
+	{
+		"source": "Q9391",
+		"type": "influenced",
+		"target": "Q156268"
+	},
+	{
+		"source": "Q6694",
+		"type": "influenced",
+		"target": "Q131149"
+	},
+	{
+		"source": "Q2010955",
+		"type": "taught",
+		"target": "Q400887"
+	},
+	{
+		"source": "Q220313",
+		"type": "taught",
+		"target": "Q381211"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q184169"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q272615"
+	},
+	{
+		"source": "Q529858",
+		"type": "influenced",
+		"target": "Q41590"
+	},
+	{
+		"source": "Q11826",
+		"type": "influenced",
+		"target": "Q8011"
+	},
+	{
+		"source": "Q4295",
+		"type": "taught",
+		"target": "Q4313"
+	},
+	{
+		"source": "Q9391",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q182905",
+		"type": "influenced",
+		"target": "Q1394"
+	},
+	{
+		"source": "Q22670",
+		"type": "influenced",
+		"target": "Q5879"
+	},
+	{
+		"source": "Q9353",
+		"type": "influenced",
+		"target": "Q9068"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q83003"
+	},
+	{
+		"source": "Q667385",
+		"type": "taught",
+		"target": "Q6197"
+	},
+	{
+		"source": "Q5879",
+		"type": "influenced",
+		"target": "Q484141"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q310341"
+	},
+	{
+		"source": "Q311485",
+		"type": "influenced",
+		"target": "Q10261"
+	},
+	{
+		"source": "Q60070",
+		"type": "taught",
+		"target": "Q9235"
+	},
+	{
+		"source": "Q9441",
+		"type": "influenced",
+		"target": "Q334147"
+	},
+	{
+		"source": "Q42458",
+		"type": "influenced",
+		"target": "Q10261"
+	},
+	{
+		"source": "Q43939",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q42458",
+		"type": "influenced",
+		"target": "Q48301"
+	},
+	{
+		"source": "Q991",
+		"type": "influenced",
+		"target": "Q34670"
+	},
+	{
+		"source": "Q1067",
+		"type": "influenced",
+		"target": "Q9204"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q130631"
+	},
+	{
+		"source": "Q179785",
+		"type": "taught",
+		"target": "Q5264"
+	},
+	{
+		"source": "Q41155",
+		"type": "influenced",
+		"target": "Q125551"
+	},
+	{
+		"source": "Q169243",
+		"type": "influenced",
+		"target": "Q9358"
+	},
+	{
+		"source": "Q82049",
+		"type": "influenced",
+		"target": "Q187520"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q235470"
+	},
+	{
+		"source": "Q9061",
+		"type": "influenced",
+		"target": "Q1394"
+	},
+	{
+		"source": "Q183126",
+		"type": "taught",
+		"target": "Q47478"
+	},
+	{
+		"source": "Q37621",
+		"type": "influenced",
+		"target": "Q35802"
+	},
+	{
+		"source": "Q913",
+		"type": "taught",
+		"target": "Q129772"
+	},
+	{
+		"source": "Q43939",
+		"type": "influenced",
+		"target": "Q9235"
+	},
+	{
+		"source": "Q48301",
+		"type": "influenced",
+		"target": "Q169906"
+	},
+	{
+		"source": "Q184226",
+		"type": "influenced",
+		"target": "Q463151"
+	},
+	{
+		"source": "Q60030",
+		"type": "taught",
+		"target": "Q160456"
+	},
+	{
+		"source": "Q1541",
+		"type": "influenced",
+		"target": "Q5749"
+	},
+	{
+		"source": "Q868",
+		"type": "influenced",
+		"target": "Q37621"
+	},
+	{
+		"source": "Q1035",
+		"type": "influenced",
+		"target": "Q131149"
+	},
+	{
+		"source": "Q1394",
+		"type": "influenced",
+		"target": "Q184169"
+	},
+	{
+		"source": "Q48226",
+		"type": "influenced",
+		"target": "Q131149"
+	},
+	{
+		"source": "Q44258",
+		"type": "taught",
+		"target": "Q44011"
+	},
+	{
+		"source": "Q48301",
+		"type": "influenced",
+		"target": "Q60025"
+	},
+	{
+		"source": "Q212639",
+		"type": "taught",
+		"target": "Q373036"
+	},
+	{
+		"source": "Q11903",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q9312",
+		"type": "influenced",
+		"target": "Q38193"
+	},
+	{
+		"source": "Q1290",
+		"type": "influenced",
+		"target": "Q125249"
+	},
+	{
+		"source": "Q130631",
+		"type": "influenced",
+		"target": "Q503017"
+	},
+	{
+		"source": "Q8018",
+		"type": "influenced",
+		"target": "Q9554"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q9047"
+	},
+	{
+		"source": "Q731904",
+		"type": "taught",
+		"target": "Q449538"
+	},
+	{
+		"source": "Q134189",
+		"type": "influenced",
+		"target": "Q8011"
+	},
+	{
+		"source": "Q9215",
+		"type": "influenced",
+		"target": "Q44272"
+	},
+	{
+		"source": "Q102851",
+		"type": "influenced",
+		"target": "Q1067"
+	},
+	{
+		"source": "Q168004",
+		"type": "influenced",
+		"target": "Q60070"
+	},
+	{
+		"source": "Q859",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q1394",
+		"type": "influenced",
+		"target": "Q83003"
+	},
+	{
+		"source": "Q9358",
+		"type": "influenced",
+		"target": "Q345641"
+	},
+	{
+		"source": "Q81244",
+		"type": "taught",
+		"target": "Q184980"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q33760"
+	},
+	{
+		"source": "Q35802",
+		"type": "influenced",
+		"target": "Q9235"
+	},
+	{
+		"source": "Q937",
+		"type": "influenced",
+		"target": "Q310765"
+	},
+	{
+		"source": "Q9546",
+		"type": "influenced",
+		"target": "Q9438"
+	},
+	{
+		"source": "Q9353",
+		"type": "influenced",
+		"target": "Q310791"
 	},
 	{
 		"source": "Q12718",
-		"target": "Q82934"
-	},
-	{
-		"source": "Q12718",
+		"type": "taught",
 		"target": "Q981459"
 	},
 	{
 		"source": "Q5879",
-		"target": "Q22670"
-	},
-	{
-		"source": "Q5879",
-		"target": "Q9068"
-	},
-	{
-		"source": "Q5879",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q132157",
-		"target": "Q125551"
-	},
-	{
-		"source": "Q132157",
-		"target": "Q125551"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q48301",
+		"type": "influenced",
 		"target": "Q9358"
 	},
 	{
-		"source": "Q48301",
-		"target": "Q41155"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q42458"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q125551"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q868"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q859"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q9438"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q190089"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q60025"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q2939300"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q65108"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q48301",
-		"target": "Q60030"
-	},
-	{
-		"source": "Q4115511",
-		"target": "Q160460"
-	},
-	{
-		"source": "Q80612",
-		"target": "Q42458"
-	},
-	{
-		"source": "Q8027",
-		"target": "Q358561"
-	},
-	{
-		"source": "Q8027",
-		"target": "Q131149"
-	},
-	{
-		"source": "Q8027",
-		"target": "Q1001"
-	},
-	{
-		"source": "Q131805",
-		"target": "Q47667"
-	},
-	{
-		"source": "Q779523",
-		"target": "Q5424032"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q38193"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q41155"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q48226"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q1035"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q125551"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q12718"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q1290"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q169243"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q172599"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q314189"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q41568"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q43216"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q57112"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q57280"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q5879"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q60104"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q6527"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q859"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q868"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q9047"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q9068"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q913"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q991"
-	},
-	{
-		"source": "Q9358",
-		"target": "Q78484"
-	},
-	{
-		"source": "Q205162",
-		"target": "Q160640"
-	},
-	{
-		"source": "Q123382",
-		"target": "Q180967"
-	},
-	{
-		"source": "Q123382",
-		"target": "Q859"
-	},
-	{
-		"source": "Q123382",
-		"target": "Q46420"
-	},
-	{
-		"source": "Q123382",
-		"target": "Q76548"
-	},
-	{
-		"source": "Q123382",
-		"target": "Q243787"
-	},
-	{
-		"source": "Q123382",
-		"target": "Q471041"
-	},
-	{
-		"source": "Q1234536",
-		"target": "Q43216"
-	},
-	{
-		"source": "Q1234536",
-		"target": "Q925732"
-	},
-	{
-		"source": "Q381211",
-		"target": "Q220313"
-	},
-	{
-		"source": "Q44461",
-		"target": "Q1035"
-	},
-	{
-		"source": "Q44461",
-		"target": "Q33760"
-	},
-	{
-		"source": "Q988129",
-		"target": "Q125249"
-	},
-	{
-		"source": "Q579194",
-		"target": "Q715169"
-	},
-	{
-		"source": "Q579194",
-		"target": "Q55597400"
-	},
-	{
-		"source": "Q579194",
-		"target": "Q868"
-	},
-	{
-		"source": "Q579194",
-		"target": "Q43499"
-	},
-	{
-		"source": "Q38193",
-		"target": "Q859"
-	},
-	{
-		"source": "Q38193",
-		"target": "Q9353"
-	},
-	{
-		"source": "Q38193",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q38193",
-		"target": "Q37160"
-	},
-	{
-		"source": "Q38193",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q38193",
-		"target": "Q5879"
-	},
-	{
-		"source": "Q322922",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q322922",
-		"target": "Q2897678"
-	},
-	{
-		"source": "Q322922",
-		"target": "Q193871"
-	},
-	{
-		"source": "Q322922",
-		"target": "Q503017"
-	},
-	{
-		"source": "Q937697",
-		"target": "Q132524"
-	},
-	{
-		"source": "Q937697",
-		"target": "Q868"
-	},
-	{
-		"source": "Q937697",
-		"target": "Q913"
-	},
-	{
-		"source": "Q186123",
-		"target": "Q19074"
-	},
-	{
-		"source": "Q937",
-		"target": "Q991"
-	},
-	{
-		"source": "Q937",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q937",
-		"target": "Q1001"
-	},
-	{
-		"source": "Q937",
-		"target": "Q38193"
-	},
-	{
-		"source": "Q937",
-		"target": "Q935"
-	},
-	{
-		"source": "Q937",
-		"target": "Q7322195"
-	},
-	{
-		"source": "Q937",
-		"target": "Q37160"
-	},
-	{
-		"source": "Q937",
-		"target": "Q355245"
-	},
-	{
-		"source": "Q7243",
-		"target": "Q991"
-	},
-	{
-		"source": "Q7243",
-		"target": "Q5752"
-	},
-	{
-		"source": "Q7243",
-		"target": "Q131149"
-	},
-	{
-		"source": "Q7243",
-		"target": "Q9441"
-	},
-	{
-		"source": "Q7243",
-		"target": "Q859"
-	},
-	{
-		"source": "Q7243",
-		"target": "Q38193"
-	},
-	{
-		"source": "Q7243",
-		"target": "Q868"
-	},
-	{
-		"source": "Q7243",
-		"target": "Q6527"
-	},
-	{
-		"source": "Q7243",
-		"target": "Q5749"
-	},
-	{
-		"source": "Q7243",
-		"target": "Q355245"
-	},
-	{
-		"source": "Q34670",
-		"target": "Q134189"
-	},
-	{
-		"source": "Q34670",
-		"target": "Q9358"
-	},
-	{
-		"source": "Q34670",
-		"target": "Q991"
-	},
-	{
-		"source": "Q34670",
-		"target": "Q314189"
-	},
-	{
-		"source": "Q34670",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q34670",
-		"target": "Q7197"
-	},
-	{
-		"source": "Q34670",
-		"target": "Q9364"
-	},
-	{
-		"source": "Q37621",
-		"target": "Q859"
-	},
-	{
-		"source": "Q37621",
-		"target": "Q868"
-	},
-	{
-		"source": "Q37621",
-		"target": "Q154959"
-	},
-	{
-		"source": "Q37621",
-		"target": "Q37388"
-	},
-	{
-		"source": "Q220313",
-		"target": "Q381211"
-	},
-	{
-		"source": "Q55597400",
-		"target": "Q579194"
-	},
-	{
-		"source": "Q3625041",
-		"target": "Q1271013"
-	},
-	{
-		"source": "Q448",
-		"target": "Q868"
-	},
-	{
-		"source": "Q448",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q448",
-		"target": "Q9068"
-	},
-	{
-		"source": "Q312546",
-		"target": "Q60887"
-	},
-	{
-		"source": "Q46830",
-		"target": "Q47434"
-	},
-	{
-		"source": "Q47667",
-		"target": "Q131805"
-	},
-	{
-		"source": "Q36303",
-		"target": "Q42458"
-	},
-	{
-		"source": "Q34943",
-		"target": "Q868"
-	},
-	{
-		"source": "Q5264",
-		"target": "Q179785"
-	},
-	{
-		"source": "Q868",
-		"target": "Q859"
-	},
-	{
-		"source": "Q868",
-		"target": "Q859"
-	},
-	{
-		"source": "Q868",
-		"target": "Q913"
-	},
-	{
-		"source": "Q868",
-		"target": "Q41155"
-	},
-	{
-		"source": "Q868",
-		"target": "Q125551"
-	},
-	{
-		"source": "Q868",
-		"target": "Q132157"
-	},
-	{
-		"source": "Q868",
-		"target": "Q42458"
-	},
-	{
-		"source": "Q868",
-		"target": "Q43216"
-	},
-	{
-		"source": "Q868",
-		"target": "Q5264"
-	},
-	{
-		"source": "Q868",
-		"target": "Q160362"
-	},
-	{
-		"source": "Q868",
-		"target": "Q2955937"
-	},
-	{
-		"source": "Q672145",
-		"target": "Q311160"
-	},
-	{
-		"source": "Q1067",
-		"target": "Q868"
-	},
-	{
-		"source": "Q1067",
-		"target": "Q102851"
-	},
-	{
-		"source": "Q1067",
-		"target": "Q34943"
-	},
-	{
-		"source": "Q1067",
-		"target": "Q9438"
-	},
-	{
-		"source": "Q272615",
-		"target": "Q868"
-	},
-	{
-		"source": "Q8193981",
-		"target": "Q4604"
-	},
-	{
-		"source": "Q82049",
-		"target": "Q9353"
-	},
-	{
-		"source": "Q441590",
-		"target": "Q404023"
-	},
-	{
-		"source": "Q770298",
-		"target": "Q46420"
-	},
-	{
-		"source": "Q184169",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q184169",
-		"target": "Q1394"
-	},
-	{
-		"source": "Q184169",
-		"target": "Q83003"
-	},
-	{
-		"source": "Q184169",
-		"target": "Q5816"
-	},
-	{
-		"source": "Q184169",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q184169",
-		"target": "Q44272"
-	},
-	{
-		"source": "Q214969",
-		"target": "Q384522"
-	},
-	{
-		"source": "Q214969",
-		"target": "Q298521"
-	},
-	{
-		"source": "Q57112",
-		"target": "Q5879"
-	},
-	{
-		"source": "Q11903",
-		"target": "Q859"
-	},
-	{
-		"source": "Q11903",
-		"target": "Q134189"
-	},
-	{
-		"source": "Q11903",
-		"target": "Q868"
-	},
-	{
-		"source": "Q11903",
-		"target": "Q34943"
-	},
-	{
-		"source": "Q859",
-		"target": "Q913"
-	},
-	{
-		"source": "Q859",
-		"target": "Q913"
-	},
-	{
-		"source": "Q859",
-		"target": "Q41155"
-	},
-	{
-		"source": "Q859",
-		"target": "Q125551"
-	},
-	{
-		"source": "Q859",
-		"target": "Q169243"
-	},
-	{
-		"source": "Q859",
-		"target": "Q10261"
-	},
-	{
-		"source": "Q859",
-		"target": "Q868"
-	},
-	{
-		"source": "Q859",
-		"target": "Q160362"
-	},
-	{
-		"source": "Q3348646",
-		"target": "Q484141"
-	},
-	{
-		"source": "Q9364",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q9364",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q9364",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q9364",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q463151",
-		"target": "Q184226"
-	},
-	{
-		"source": "Q11104",
-		"target": "Q868"
-	},
-	{
-		"source": "Q306514",
-		"target": "Q60030"
-	},
-	{
-		"source": "Q561367",
-		"target": "Q1541"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q9047"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q9358"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q44272"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q37160"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q190089"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q9215"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q9364"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q169906"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q184169"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q183372"
-	},
-	{
-		"source": "Q184226",
-		"target": "Q187520"
-	},
-	{
-		"source": "Q619",
-		"target": "Q34943"
-	},
-	{
-		"source": "Q619",
-		"target": "Q868"
-	},
-	{
-		"source": "Q619",
-		"target": "Q302835"
-	},
-	{
-		"source": "Q42458",
-		"target": "Q36303"
-	},
-	{
-		"source": "Q42458",
-		"target": "Q10261"
-	},
-	{
-		"source": "Q42458",
-		"target": "Q80612"
-	},
-	{
-		"source": "Q42458",
-		"target": "Q36303"
-	},
-	{
-		"source": "Q484141",
-		"target": "Q7243"
-	},
-	{
-		"source": "Q484141",
-		"target": "Q5879"
-	},
-	{
-		"source": "Q484141",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q484141",
-		"target": "Q9358"
-	},
-	{
-		"source": "Q484141",
-		"target": "Q868"
-	},
-	{
-		"source": "Q484141",
-		"target": "Q43347"
-	},
-	{
-		"source": "Q75814",
-		"target": "Q76857"
-	},
-	{
-		"source": "Q75814",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q75814",
-		"target": "Q191095"
-	},
-	{
-		"source": "Q75814",
-		"target": "Q9047"
-	},
-	{
-		"source": "Q189506",
-		"target": "Q913"
-	},
-	{
-		"source": "Q189506",
-		"target": "Q913"
-	},
-	{
-		"source": "Q449538",
-		"target": "Q731904"
-	},
-	{
-		"source": "Q449538",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q449538",
-		"target": "Q140694"
-	},
-	{
-		"source": "Q449538",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q695534",
-		"target": "Q1541"
-	},
-	{
-		"source": "Q4604",
-		"target": "Q8193981"
-	},
-	{
-		"source": "Q311879",
-		"target": "Q1271013"
-	},
-	{
-		"source": "Q311879",
+		"source": "Q18999",
+		"type": "taught",
 		"target": "Q1430"
 	},
 	{
-		"source": "Q1001",
-		"target": "Q131149"
-	},
-	{
-		"source": "Q1001",
-		"target": "Q7243"
-	},
-	{
-		"source": "Q1001",
-		"target": "Q9441"
-	},
-	{
-		"source": "Q1001",
-		"target": "Q183167"
-	},
-	{
-		"source": "Q1001",
-		"target": "Q179126"
-	},
-	{
-		"source": "Q1001",
-		"target": "Q2353373"
-	},
-	{
-		"source": "Q9061",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q9554",
-		"target": "Q8018"
-	},
-	{
-		"source": "Q9391",
-		"target": "Q33760"
-	},
-	{
-		"source": "Q9391",
-		"target": "Q60028"
-	},
-	{
-		"source": "Q9391",
-		"target": "Q38193"
-	},
-	{
-		"source": "Q9391",
-		"target": "Q229646"
-	},
-	{
-		"source": "Q295012",
-		"target": "Q9391"
-	},
-	{
-		"source": "Q2939300",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q2939300",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q2939300",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q2939300",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q2939300",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q212639",
-		"target": "Q58586"
-	},
-	{
-		"source": "Q212639",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q212639",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q212639",
-		"target": "Q44272"
-	},
-	{
-		"source": "Q212639",
-		"target": "Q373036"
-	},
-	{
-		"source": "Q1430",
-		"target": "Q311879"
-	},
-	{
-		"source": "Q1430",
-		"target": "Q18999"
-	},
-	{
-		"source": "Q311160",
-		"target": "Q672145"
-	},
-	{
-		"source": "Q2287807",
-		"target": "Q184530"
-	},
-	{
-		"source": "Q165792",
-		"target": "Q868"
-	},
-	{
-		"source": "Q165792",
-		"target": "Q1541"
-	},
-	{
-		"source": "Q165792",
-		"target": "Q9353"
-	},
-	{
-		"source": "Q165792",
-		"target": "Q37160"
-	},
-	{
-		"source": "Q8778",
-		"target": "Q657941"
-	},
-	{
-		"source": "Q60030",
-		"target": "Q160456"
-	},
-	{
-		"source": "Q10261",
-		"target": "Q42458"
-	},
-	{
-		"source": "Q10261",
-		"target": "Q311485"
-	},
-	{
-		"source": "Q10261",
-		"target": "Q42458"
-	},
-	{
-		"source": "Q10261",
-		"target": "Q36303"
-	},
-	{
-		"source": "Q10261",
-		"target": "Q212338"
-	},
-	{
-		"source": "Q160640",
-		"target": "Q140694"
-	},
-	{
-		"source": "Q160640",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q160640",
-		"target": "Q9387"
-	},
-	{
-		"source": "Q160640",
-		"target": "Q76849"
-	},
-	{
-		"source": "Q160640",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q160640",
-		"target": "Q373036"
-	},
-	{
-		"source": "Q76326",
-		"target": "Q358561"
-	},
-	{
-		"source": "Q364975",
-		"target": "Q9353"
-	},
-	{
-		"source": "Q364975",
-		"target": "Q1541"
-	},
-	{
-		"source": "Q364975",
-		"target": "Q82778"
-	},
-	{
-		"source": "Q364975",
-		"target": "Q47434"
-	},
-	{
-		"source": "Q364975",
-		"target": "Q935"
-	},
-	{
-		"source": "Q76849",
-		"target": "Q9387"
-	},
-	{
-		"source": "Q353754",
-		"target": "Q130631"
-	},
-	{
-		"source": "Q34787",
-		"target": "Q41155"
-	},
-	{
-		"source": "Q34787",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q34787",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q34787",
-		"target": "Q9381"
-	},
-	{
-		"source": "Q34787",
-		"target": "Q160270"
-	},
-	{
-		"source": "Q60070",
-		"target": "Q859"
-	},
-	{
-		"source": "Q60070",
-		"target": "Q36330"
-	},
-	{
-		"source": "Q60070",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q60070",
-		"target": "Q9047"
-	},
-	{
-		"source": "Q60070",
-		"target": "Q9312"
-	},
-	{
-		"source": "Q60070",
-		"target": "Q168004"
-	},
-	{
-		"source": "Q60070",
+		"source": "Q9068",
+		"type": "influenced",
 		"target": "Q5879"
 	},
 	{
-		"source": "Q60070",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q2318969",
-		"target": "Q76326"
-	},
-	{
-		"source": "Q2318969",
-		"target": "Q169906"
-	},
-	{
-		"source": "Q2318969",
-		"target": "Q130631"
-	},
-	{
-		"source": "Q2318969",
-		"target": "Q60104"
-	},
-	{
-		"source": "Q2318969",
-		"target": "Q48301"
-	},
-	{
-		"source": "Q9312",
-		"target": "Q37160"
-	},
-	{
-		"source": "Q9312",
-		"target": "Q82049"
-	},
-	{
-		"source": "Q9312",
-		"target": "Q6527"
-	},
-	{
-		"source": "Q9312",
-		"target": "Q935"
-	},
-	{
-		"source": "Q9312",
-		"target": "Q859"
-	},
-	{
-		"source": "Q9312",
-		"target": "Q41568"
-	},
-	{
-		"source": "Q9312",
-		"target": "Q9047"
-	},
-	{
-		"source": "Q9312",
-		"target": "Q9353"
-	},
-	{
-		"source": "Q9312",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q79969",
-		"target": "Q48226"
-	},
-	{
-		"source": "Q79969",
-		"target": "Q9358"
-	},
-	{
-		"source": "Q79969",
-		"target": "Q131149"
-	},
-	{
-		"source": "Q79969",
-		"target": "Q5752"
-	},
-	{
-		"source": "Q79969",
-		"target": "Q27645"
-	},
-	{
-		"source": "Q79969",
-		"target": "Q101638"
-	},
-	{
-		"source": "Q334147",
-		"target": "Q9441"
-	},
-	{
-		"source": "Q334147",
-		"target": "Q9333"
-	},
-	{
-		"source": "Q334147",
-		"target": "Q57112"
-	},
-	{
-		"source": "Q334147",
-		"target": "Q178709"
-	},
-	{
-		"source": "Q334147",
-		"target": "Q326459"
-	},
-	{
-		"source": "Q334147",
-		"target": "Q9358"
-	},
-	{
-		"source": "Q334147",
-		"target": "Q859"
-	},
-	{
-		"source": "Q334147",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q334147",
-		"target": "Q313666"
-	},
-	{
-		"source": "Q334147",
-		"target": "Q991"
-	},
-	{
-		"source": "Q334147",
-		"target": "Q309854"
-	},
-	{
-		"source": "Q729048",
-		"target": "Q123382"
-	},
-	{
-		"source": "Q729048",
-		"target": "Q66732"
-	},
-	{
-		"source": "Q43182",
-		"target": "Q73527"
-	},
-	{
-		"source": "Q780789",
-		"target": "Q2054"
-	},
-	{
-		"source": "Q9353",
-		"target": "Q37621"
-	},
-	{
-		"source": "Q9353",
-		"target": "Q154959"
-	},
-	{
-		"source": "Q1393417",
-		"target": "Q169234"
-	},
-	{
-		"source": "Q1189157",
-		"target": "Q43216"
-	},
-	{
-		"source": "Q248578",
-		"target": "Q404023"
-	},
-	{
-		"source": "Q33760",
-		"target": "Q50020"
-	},
-	{
-		"source": "Q33760",
-		"target": "Q134661"
-	},
-	{
-		"source": "Q33760",
-		"target": "Q60028"
-	},
-	{
-		"source": "Q33760",
-		"target": "Q76420"
-	},
-	{
-		"source": "Q33760",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q33760",
-		"target": "Q37160"
-	},
-	{
-		"source": "Q33760",
-		"target": "Q9047"
-	},
-	{
-		"source": "Q33760",
-		"target": "Q9391"
-	},
-	{
-		"source": "Q33760",
-		"target": "Q183372"
-	},
-	{
-		"source": "Q33760",
-		"target": "Q295386"
-	},
-	{
-		"source": "Q33760",
-		"target": "Q9391"
-	},
-	{
-		"source": "Q404779",
-		"target": "Q81244"
-	},
-	{
-		"source": "Q83003",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q83003",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q83003",
-		"target": "Q34787"
-	},
-	{
-		"source": "Q83003",
-		"target": "Q1394"
-	},
-	{
-		"source": "Q83003",
-		"target": "Q313666"
-	},
-	{
-		"source": "Q81244",
-		"target": "Q184980"
-	},
-	{
-		"source": "Q81244",
-		"target": "Q78497"
-	},
-	{
-		"source": "Q81244",
-		"target": "Q404779"
-	},
-	{
-		"source": "Q81244",
-		"target": "Q913"
-	},
-	{
-		"source": "Q81244",
-		"target": "Q868"
-	},
-	{
-		"source": "Q81244",
-		"target": "Q38193"
-	},
-	{
-		"source": "Q81244",
-		"target": "Q9235"
-	},
-	{
-		"source": "Q81244",
-		"target": "Q937"
-	},
-	{
-		"source": "Q180819",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q160460",
-		"target": "Q868"
-	},
-	{
-		"source": "Q160460",
-		"target": "Q859"
-	},
-	{
-		"source": "Q160460",
-		"target": "Q134189"
-	},
-	{
-		"source": "Q183126",
-		"target": "Q47478"
-	},
-	{
-		"source": "Q160362",
-		"target": "Q868"
-	},
-	{
-		"source": "Q160362",
-		"target": "Q859"
-	},
-	{
-		"source": "Q160362",
-		"target": "Q2955937"
-	},
-	{
-		"source": "Q160362",
-		"target": "Q313286"
-	},
-	{
-		"source": "Q242616",
-		"target": "Q214969"
-	},
-	{
-		"source": "Q242616",
-		"target": "Q215258"
-	},
-	{
-		"source": "Q242616",
-		"target": "Q78497"
-	},
-	{
-		"source": "Q212730",
-		"target": "Q9049"
+		"source": "Q9364",
+		"type": "influenced",
+		"target": "Q34670"
 	},
 	{
 		"source": "Q183167",
-		"target": "Q9438"
+		"type": "influenced",
+		"target": "Q1001"
 	},
 	{
-		"source": "Q183167",
+		"source": "Q37160",
+		"type": "influenced",
 		"target": "Q165792"
 	},
 	{
-		"source": "Q183167",
-		"target": "Q44490"
+		"source": "Q160640",
+		"type": "influenced",
+		"target": "Q205162"
 	},
 	{
-		"source": "Q1271013",
-		"target": "Q311879"
-	},
-	{
-		"source": "Q1271013",
-		"target": "Q3625041"
-	},
-	{
-		"source": "Q46420",
-		"target": "Q770298"
-	},
-	{
-		"source": "Q310341",
-		"target": "Q35802"
-	},
-	{
-		"source": "Q310341",
-		"target": "Q9061"
-	},
-	{
-		"source": "Q310341",
-		"target": "Q184226"
-	},
-	{
-		"source": "Q310341",
-		"target": "Q44272"
+		"source": "Q991",
+		"type": "influenced",
+		"target": "Q132524"
 	}
 ]

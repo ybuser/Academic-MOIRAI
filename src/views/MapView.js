@@ -43,7 +43,7 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
             />
           );
         })}
-        {console.log("philosophers in map view ", philosophers)}
+        {/* {console.log("philosophers in map view ", philosophers)} */}
         {philosophers.flatMap((philosopher, idx) => (
           philosopher.relationships.map((relationship, relIdx) => {
             const targetPhilosopher = philosophers.find(p => p.name === relationship.name);
