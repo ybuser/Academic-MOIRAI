@@ -25,6 +25,23 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
   const[philosopherDetails, setPhilosopherDetails] = useState(null);
   const d3Container = useRef(null);
 
+  const splitNameIntoTspan = (d, textElement, fontSize) => {
+    const words = d.name.split(' ');
+    const lineHeight = 1.2; // Adjust based on line height in em
+    const lineCount = words.length;
+    const totalHeight = lineCount * lineHeight; // Total height in em
+    const startY = -(totalHeight - 1) / 3 + "em"; // Centering adjustment
+  
+    textElement.text('');
+  
+    for (let i = 0; i < words.length; i++) {
+      textElement.append('tspan')
+        .text(words[i])
+        .attr('x', 0)
+        .attr('dy', i === 0 ? startY : lineHeight + "em");
+    }
+  };
+
   useEffect(() => {
     const loadPhilosopherDetails = async () => {
 
@@ -100,9 +117,11 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       // First add the text
       const labels = nodeGroup.append("text")
         .attr("text-anchor", "middle")
-        .attr("alignment-baseline", "central")
+        .attr("alignment-baseline", "middle")
         .style("font-size", fontSize)
-        .text(d => d.name);
+        .each(function(d) {
+          splitNameIntoTspan(d, d3.select(this), fontSize);
+        });
 
       
       const handleNodeClick = (philosopherNode) => {
