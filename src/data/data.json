@@ -6,58 +6,10 @@
 		"death": 1948
 	},
 	{
-		"id": "Q101112434",
-		"name": "Amalia Rosenbl\u00fcth",
-		"birth": 1892,
-		"death": 1979
-	},
-	{
 		"id": "Q101638",
 		"name": "Mary Wollstonecraft",
 		"birth": 1759,
 		"death": 1797
-	},
-	{
-		"id": "Q102194452",
-		"name": "Harold Robert Smart",
-		"birth": 1892,
-		"death": 1979
-	},
-	{
-		"id": "Q102213567",
-		"name": "Paul C. Gilmore",
-		"birth": 1925,
-		"death": 2015
-	},
-	{
-		"id": "Q102349046",
-		"name": "Marcin Mostowski",
-		"birth": 1955,
-		"death": 2017
-	},
-	{
-		"id": "Q102377884",
-		"name": "Joseph Baruzi",
-		"birth": 1876,
-		"death": 1952
-	},
-	{
-		"id": "Q102383135",
-		"name": "Dorothy Grover",
-		"birth": 1936,
-		"death": 2017
-	},
-	{
-		"id": "Q102391420",
-		"name": "Gottfried Zapf",
-		"birth": 1635,
-		"death": 1664
-	},
-	{
-		"id": "Q102585",
-		"name": "Johann Gottlieb Fichte",
-		"birth": 1762,
-		"death": 1814
 	},
 	{
 		"id": "Q10261",
@@ -72,70 +24,10 @@
 		"death": 525
 	},
 	{
-		"id": "Q102875",
-		"name": "Christian Friedrich von Schnurrer",
-		"birth": 1742,
-		"death": 1822
-	},
-	{
-		"id": "Q102898",
-		"name": "Michael Alberti",
-		"birth": 1682,
-		"death": 1757
-	},
-	{
-		"id": "Q10308883",
-		"name": "Jos\u00e9 Arthur Giannotti",
-		"birth": 1930,
-		"death": 2021
-	},
-	{
 		"id": "Q1035",
 		"name": "Charles Darwin",
 		"birth": 1809,
 		"death": 1882
-	},
-	{
-		"id": "Q1037136",
-		"name": "Carl Braig",
-		"birth": 1852,
-		"death": 1923
-	},
-	{
-		"id": "Q1037286",
-		"name": "Carl Christian Erhard Schmid",
-		"birth": 1761,
-		"death": 1812
-	},
-	{
-		"id": "Q1039504",
-		"name": "Duanmu Ci",
-		"birth": -520,
-		"death": -456
-	},
-	{
-		"id": "Q104150553",
-		"name": "Manley H. Thompson",
-		"birth": 1917,
-		"death": 1994
-	},
-	{
-		"id": "Q104183555",
-		"name": "Tadeusz Klimski",
-		"birth": 1948,
-		"death": 2013
-	},
-	{
-		"id": "Q1042297",
-		"name": "Carlo Marsuppini",
-		"birth": 1398,
-		"death": 1453
-	},
-	{
-		"id": "Q104261",
-		"name": "Walter Dubislav",
-		"birth": 1895,
-		"death": 1937
 	},
 	{
 		"id": "Q104461",
@@ -144,64 +36,10 @@
 		"death": 1956
 	},
 	{
-		"id": "Q1047689",
-		"name": "Menodotus of Nicomedia",
-		"birth": 100,
-		"death": 200
-	},
-	{
-		"id": "Q105015363",
-		"name": "Girolamo Bagolino",
-		"birth": 1450,
-		"death": 1550
-	},
-	{
-		"id": "Q1050943",
-		"name": "Catherine Colliot-Th\u00e9l\u00e8ne",
-		"birth": 1950,
-		"death": 2022
-	},
-	{
-		"id": "Q105428",
-		"name": "Johann Heinrich Pestalozzi",
-		"birth": 1746,
-		"death": 1827
-	},
-	{
-		"id": "Q1057185",
-		"name": "Antonio Aliotta",
-		"birth": 1881,
-		"death": 1964
-	},
-	{
-		"id": "Q105840",
-		"name": "Hans Leisegang",
-		"birth": 1890,
-		"death": 1951
-	},
-	{
-		"id": "Q1059243",
-		"name": "Chaim of Volozhin",
-		"birth": 1749,
-		"death": 1821
-	},
-	{
-		"id": "Q106336",
-		"name": "Eleazar of Worms",
-		"birth": 1160,
-		"death": 1238
-	},
-	{
-		"id": "Q1064777",
-		"name": "Charles Hartshorne",
-		"birth": 1897,
-		"death": 2000
-	},
-	{
-		"id": "Q1066534",
-		"name": "Charles de Bovelles",
-		"birth": 1479,
-		"death": 1567
+		"id": "Q1063699",
+		"name": "Charles Beitz",
+		"birth": 1949,
+		"death": 2024
 	},
 	{
 		"id": "Q1067",
@@ -210,124 +48,10 @@
 		"death": 1321
 	},
 	{
-		"id": "Q106769012",
-		"name": "Robert M. Harnish",
-		"birth": 1941,
-		"death": 2011
-	},
-	{
-		"id": "Q106916684",
-		"name": "Arshit Dana",
-		"birth": -476,
-		"death": -330
-	},
-	{
-		"id": "Q1073837",
-		"name": "Critolaus",
-		"birth": -200,
-		"death": -120
-	},
-	{
-		"id": "Q108485673",
-		"name": "Aleksander Wundheiler",
-		"birth": 1902,
-		"death": 1957
-	},
-	{
-		"id": "Q108676",
-		"name": "Theodor Haering",
-		"birth": 1884,
-		"death": 1964
-	},
-	{
-		"id": "Q1086848",
-		"name": "Francesco Mario Pagano",
-		"birth": 1748,
-		"death": 1799
-	},
-	{
-		"id": "Q108868489",
-		"name": "Nuri Ja'far",
-		"birth": 1914,
-		"death": 1991
-	},
-	{
-		"id": "Q10887841",
-		"name": "Yu Yue",
-		"birth": 1821,
-		"death": 1906
-	},
-	{
-		"id": "Q109090",
-		"name": "Heinrich Bruc\u00e6us",
-		"birth": 1530,
-		"death": 1593
-	},
-	{
-		"id": "Q109093",
-		"name": "Heinrich Maier",
-		"birth": 1867,
-		"death": 1933
-	},
-	{
-		"id": "Q10944085",
-		"name": "Bu Shang",
-		"birth": -507,
-		"death": -420
-	},
-	{
-		"id": "Q109533",
-		"name": "Josef Simon",
-		"birth": 1930,
-		"death": 2016
-	},
-	{
-		"id": "Q1096047",
-		"name": "Francisco Fern\u00e1ndez Buey",
-		"birth": 1943,
-		"death": 2012
-	},
-	{
-		"id": "Q1097111",
-		"name": "Ingetraut Dahlberg",
-		"birth": 1927,
-		"death": 2017
-	},
-	{
-		"id": "Q1098402",
-		"name": "Claus-Wilhelm Canaris",
-		"birth": 1937,
-		"death": 2021
-	},
-	{
-		"id": "Q11031",
-		"name": "Vilfredo Pareto",
-		"birth": 1848,
-		"death": 1923
-	},
-	{
-		"id": "Q110847",
-		"name": "Clemens Timpler",
-		"birth": 1563,
-		"death": 1624
-	},
-	{
-		"id": "Q110854",
-		"name": "Jakob Schegk",
-		"birth": 1511,
-		"death": 1587
-	},
-	{
 		"id": "Q11104",
 		"name": "Al-Hassan Ibn Al-Haytham",
 		"birth": 965,
 		"death": 1038
-	},
-	{
-		"id": "Q111605167",
-		"name": "Laurence Cornu",
-		"birth": 1952,
-		"death": 2021
 	},
 	{
 		"id": "Q111637",
@@ -336,166 +60,16 @@
 		"death": 2006
 	},
 	{
-		"id": "Q1116470",
-		"name": "Jos\u00e9 Mar\u00eda Valverde",
-		"birth": 1926,
-		"death": 1996
-	},
-	{
-		"id": "Q111686704",
-		"name": "Neal Gilbert",
-		"birth": 1924,
-		"death": 2020
-	},
-	{
-		"id": "Q112258",
-		"name": "Karl Leonhard Reinhold",
-		"birth": 1757,
-		"death": 1823
-	},
-	{
-		"id": "Q112452874",
-		"name": "Michel Vad\u00e9e",
-		"birth": 1934,
-		"death": 2014
-	},
-	{
-		"id": "Q1129523",
-		"name": "C. Lloyd Morgan",
-		"birth": 1852,
-		"death": 1936
-	},
-	{
-		"id": "Q113015",
-		"name": "Karl, Freiherr von Prel",
-		"birth": 1839,
-		"death": 1899
-	},
-	{
-		"id": "Q1133878",
-		"name": "Cornelius Martini",
-		"birth": 1568,
-		"death": 1621
-	},
-	{
 		"id": "Q11362",
 		"name": "Avempace",
 		"birth": 1080,
 		"death": 1139
 	},
 	{
-		"id": "Q113659",
-		"name": "Leopold Kohr",
-		"birth": 1909,
-		"death": 1994
-	},
-	{
-		"id": "Q11373",
-		"name": "Abu Ma'shar al-Balkhi",
-		"birth": 787,
-		"death": 886
-	},
-	{
-		"id": "Q113928",
-		"name": "Heinrich Ritter",
-		"birth": 1791,
-		"death": 1869
-	},
-	{
 		"id": "Q113951",
 		"name": "Erik von Kuehnelt-Leddihn",
 		"birth": 1909,
 		"death": 1999
-	},
-	{
-		"id": "Q11447909",
-		"name": "Zhuansun Shi",
-		"birth": -503,
-		"death": -450
-	},
-	{
-		"id": "Q1147803",
-		"name": "Zisi",
-		"birth": -483,
-		"death": -402
-	},
-	{
-		"id": "Q1149031",
-		"name": "Grigoris Vlastos",
-		"birth": 1907,
-		"death": 1991
-	},
-	{
-		"id": "Q114949297",
-		"name": "Joannes Luccarus",
-		"birth": 1622,
-		"death": 1709
-	},
-	{
-		"id": "Q1150441",
-		"name": "Miyake Kanran",
-		"birth": 1674,
-		"death": 1718
-	},
-	{
-		"id": "Q115114",
-		"name": "Franz Exner",
-		"birth": 1802,
-		"death": 1853
-	},
-	{
-		"id": "Q1151481",
-		"name": "Bahmany\u0101r",
-		"birth": 993,
-		"death": 1067
-	},
-	{
-		"id": "Q1152795",
-		"name": "Nizami Aruzi",
-		"birth": 1110,
-		"death": 1161
-	},
-	{
-		"id": "Q115483519",
-		"name": "Ghulam Rasool Hazarvi",
-		"birth": 1854,
-		"death": 1918
-	},
-	{
-		"id": "Q1155960",
-		"name": "Yan Hui",
-		"birth": -521,
-		"death": -490
-	},
-	{
-		"id": "Q115656261",
-		"name": "Louis Van Bladel",
-		"birth": 1923,
-		"death": 2000
-	},
-	{
-		"id": "Q115944015",
-		"name": "Heinz C. Luegenbiehl",
-		"birth": 1949,
-		"death": 2020
-	},
-	{
-		"id": "Q11687372",
-		"name": "Barbara Stanosz",
-		"birth": 1935,
-		"death": 2014
-	},
-	{
-		"id": "Q11701999",
-		"name": "Ramon Mart\u00ed d'Eixal\u00e0",
-		"birth": 1807,
-		"death": 1857
-	},
-	{
-		"id": "Q11725540",
-		"name": "Jerzy S\u0142upecki",
-		"birth": 1904,
-		"death": 1987
 	},
 	{
 		"id": "Q11730",
@@ -510,18 +84,6 @@
 		"death": 600
 	},
 	{
-		"id": "Q11739989",
-		"name": "Klemens Szaniawski",
-		"birth": 1925,
-		"death": 1990
-	},
-	{
-		"id": "Q11763687",
-		"name": "Ludwik Borkowski",
-		"birth": 1914,
-		"death": 1993
-	},
-	{
 		"id": "Q11826",
 		"name": "Al-Biruni",
 		"birth": 973,
@@ -534,124 +96,10 @@
 		"death": -400
 	},
 	{
-		"id": "Q118982",
-		"name": "Georg Gottlob Richter",
-		"birth": 1694,
-		"death": 1773
-	},
-	{
-		"id": "Q11899797",
-		"name": "Uuno Saarnio",
-		"birth": 1896,
-		"death": 1977
-	},
-	{
 		"id": "Q11903",
 		"name": "Hypatia",
 		"birth": 360,
 		"death": 415
-	},
-	{
-		"id": "Q11904655",
-		"name": "Al-Mubashshir ibn F\u0101tik",
-		"birth": 1019,
-		"death": 1097
-	},
-	{
-		"id": "Q1191140",
-		"name": "Antonio Persio",
-		"birth": 1542,
-		"death": 1612
-	},
-	{
-		"id": "Q1191771",
-		"name": "Reuben Goodstein",
-		"birth": 1912,
-		"death": 1985
-	},
-	{
-		"id": "Q11922761",
-		"name": "Francesc Gom\u00e0 i Must\u00e9",
-		"birth": 1915,
-		"death": 1998
-	},
-	{
-		"id": "Q12025432",
-		"name": "Ji\u0159\u00ed Pechar",
-		"birth": 1929,
-		"death": 2022
-	},
-	{
-		"id": "Q12049595",
-		"name": "Rodrigo de Arriaga",
-		"birth": 1592,
-		"death": 1667
-	},
-	{
-		"id": "Q1207671",
-		"name": "Zengzi",
-		"birth": -504,
-		"death": -435
-	},
-	{
-		"id": "Q12098945",
-		"name": "Aleksey Gilyarov",
-		"birth": 1855,
-		"death": 1938
-	},
-	{
-		"id": "Q12159920",
-		"name": "Vladimir Karlovitsj Tantsjer",
-		"birth": 1915,
-		"death": 1998
-	},
-	{
-		"id": "Q1218070",
-		"name": "Nicocles",
-		"birth": 310,
-		"death": 388
-	},
-	{
-		"id": "Q12227337",
-		"name": "\u02bbA\u1e0dud al-D\u012bn \u02bbAbd al-Ra\u1e25m\u0101n ibn A\u1e25mad \u012aj\u012b",
-		"birth": 1281,
-		"death": 1355
-	},
-	{
-		"id": "Q122318",
-		"name": "Paul Bernays",
-		"birth": 1888,
-		"death": 1977
-	},
-	{
-		"id": "Q1225067",
-		"name": "Leonteus of Lampsacus",
-		"birth": -301,
-		"death": -201
-	},
-	{
-		"id": "Q1225692",
-		"name": "Ludovico Geymonat",
-		"birth": 1908,
-		"death": 1991
-	},
-	{
-		"id": "Q12265675",
-		"name": "Pedro Hurtado de Mendoza",
-		"birth": 1578,
-		"death": 1651
-	},
-	{
-		"id": "Q122688",
-		"name": "Andreas Speiser",
-		"birth": 1885,
-		"death": 1970
-	},
-	{
-		"id": "Q1229024",
-		"name": "Themista of Lampsacus",
-		"birth": -300,
-		"death": -260
 	},
 	{
 		"id": "Q122972",
@@ -678,88 +126,10 @@
 		"death": 1980
 	},
 	{
-		"id": "Q123225",
-		"name": "Albrecht von Haller",
-		"birth": 1708,
-		"death": 1777
-	},
-	{
-		"id": "Q123379",
-		"name": "Anton Marty",
-		"birth": 1847,
-		"death": 1914
-	},
-	{
 		"id": "Q123382",
 		"name": "Frithjof Schuon",
 		"birth": 1907,
 		"death": 1998
-	},
-	{
-		"id": "Q123413",
-		"name": "Titus Burckhardt",
-		"birth": 1908,
-		"death": 1984
-	},
-	{
-		"id": "Q1236821",
-		"name": "Ermolao Barbaro",
-		"birth": 1453,
-		"death": 1493
-	},
-	{
-		"id": "Q1236969",
-		"name": "Dominique Noguez",
-		"birth": 1942,
-		"death": 2019
-	},
-	{
-		"id": "Q1237726",
-		"name": "Dominicus Gundissalinus",
-		"birth": 1115,
-		"death": 1190
-	},
-	{
-		"id": "Q123861",
-		"name": "Johann Jakob Bachofen",
-		"birth": 1815,
-		"death": 1887
-	},
-	{
-		"id": "Q12390662",
-		"name": "Indalecio Armesto",
-		"birth": 1838,
-		"death": 1890
-	},
-	{
-		"id": "Q123916",
-		"name": "Henri-Fr\u00e9d\u00e9ric Amiel",
-		"birth": 1821,
-		"death": 1881
-	},
-	{
-		"id": "Q1240178",
-		"name": "James Burnham",
-		"birth": 1905,
-		"death": 1987
-	},
-	{
-		"id": "Q1240239",
-		"name": "Theophilos Corydalleus",
-		"birth": 1570,
-		"death": 1646
-	},
-	{
-		"id": "Q1240697",
-		"name": "Donato Acciaioli",
-		"birth": 1429,
-		"death": 1478
-	},
-	{
-		"id": "Q12408037",
-		"name": "Josef Sch\u00e4chter",
-		"birth": 1901,
-		"death": 1994
 	},
 	{
 		"id": "Q1244262",
@@ -768,10 +138,10 @@
 		"death": 1217
 	},
 	{
-		"id": "Q1248105",
-		"name": "Aleksei Losev",
-		"birth": 1893,
-		"death": 1988
+		"id": "Q1252398",
+		"name": "John McDowell",
+		"birth": 1942,
+		"death": 2024
 	},
 	{
 		"id": "Q125249",
@@ -780,34 +150,16 @@
 		"death": 1910
 	},
 	{
-		"id": "Q125462",
-		"name": "Karl Ludwig von Haller",
-		"birth": 1768,
-		"death": 1854
-	},
-	{
 		"id": "Q125551",
 		"name": "Parmenides",
 		"birth": -515,
 		"death": -470
 	},
 	{
-		"id": "Q125879",
-		"name": "William Alston",
-		"birth": 1921,
-		"death": 2007
-	},
-	{
 		"id": "Q126462",
 		"name": "Thomas Paine",
 		"birth": 1737,
 		"death": 1809
-	},
-	{
-		"id": "Q1265422",
-		"name": "Duncan Liddel",
-		"birth": 1561,
-		"death": 1613
 	},
 	{
 		"id": "Q1271013",
@@ -822,12 +174,6 @@
 		"death": 1857
 	},
 	{
-		"id": "Q12725495",
-		"name": "Constantin Dimitrescu-Ia\u0219i",
-		"birth": 1849,
-		"death": 1923
-	},
-	{
 		"id": "Q12735",
 		"name": "John Amos Comenius",
 		"birth": 1592,
@@ -838,42 +184,6 @@
 		"name": "Moshe ben Maimon",
 		"birth": 1138,
 		"death": 1204
-	},
-	{
-		"id": "Q1276324",
-		"name": "Maitreya-n\u0101tha",
-		"birth": 270,
-		"death": 350
-	},
-	{
-		"id": "Q1277332",
-		"name": "Dariush Shayegan",
-		"birth": 1935,
-		"death": 2018
-	},
-	{
-		"id": "Q1278755",
-		"name": "Garry Davis",
-		"birth": 1921,
-		"death": 2013
-	},
-	{
-		"id": "Q1280002",
-		"name": "Franjo Markovi\u0107",
-		"birth": 1845,
-		"death": 1914
-	},
-	{
-		"id": "Q128126",
-		"name": "Claude L\u00e9vi-Strauss",
-		"birth": 1908,
-		"death": 2009
-	},
-	{
-		"id": "Q1281873",
-		"name": "Heiric of Auxerre",
-		"birth": 841,
-		"death": 876
 	},
 	{
 		"id": "Q1282198",
@@ -888,46 +198,10 @@
 		"death": 1010
 	},
 	{
-		"id": "Q12842827",
-		"name": "M\u0259qs\u0259d S\u0259ttarov",
-		"birth": 1925,
-		"death": 2000
-	},
-	{
-		"id": "Q1287486",
-		"name": "Metrocles",
-		"birth": -400,
-		"death": -300
-	},
-	{
 		"id": "Q1290",
 		"name": "Blaise Pascal",
 		"birth": 1623,
 		"death": 1662
-	},
-	{
-		"id": "Q1290391",
-		"name": "Gajo Petrovi\u0107",
-		"birth": 1927,
-		"death": 1993
-	},
-	{
-		"id": "Q129228",
-		"name": "Ren\u00e9 Girard",
-		"birth": 1923,
-		"death": 2015
-	},
-	{
-		"id": "Q12951981",
-		"name": "Hugues Leblanc",
-		"birth": 1924,
-		"death": 1999
-	},
-	{
-		"id": "Q12956085",
-		"name": "Albert Bazala",
-		"birth": 1877,
-		"death": 1947
 	},
 	{
 		"id": "Q129772",
@@ -936,58 +210,16 @@
 		"death": -354
 	},
 	{
-		"id": "Q1298228",
-		"name": "Johann August Heinrich Ulrich",
-		"birth": 1746,
-		"death": 1813
-	},
-	{
-		"id": "Q13021",
-		"name": "Vinoba Bhave",
-		"birth": 1895,
-		"death": 1982
-	},
-	{
-		"id": "Q130351",
-		"name": "Marcantonio Zimara",
-		"birth": 1460,
-		"death": 1523
-	},
-	{
-		"id": "Q13050819",
-		"name": "Anania Narekats\u02bbi",
-		"birth": 1000,
-		"death": 978
-	},
-	{
-		"id": "Q13050935",
-		"name": "Arakel Syunetsi",
-		"birth": 1350,
-		"death": 1425
-	},
-	{
 		"id": "Q130631",
 		"name": "Jacques Derrida",
 		"birth": 1930,
 		"death": 2004
 	},
 	{
-		"id": "Q130746",
-		"name": "Agust\u00edn Garc\u00eda Calvo",
-		"birth": 1926,
-		"death": 2012
-	},
-	{
 		"id": "Q131149",
 		"name": "Henry David Thoreau",
 		"birth": 1817,
 		"death": 1862
-	},
-	{
-		"id": "Q131333",
-		"name": "George Eliot",
-		"birth": 1819,
-		"death": 1880
 	},
 	{
 		"id": "Q131671",
@@ -1000,12 +232,6 @@
 		"name": "John Dewey",
 		"birth": 1859,
 		"death": 1952
-	},
-	{
-		"id": "Q1320537",
-		"name": "Wac\u0142aw Mejbaum",
-		"birth": 1933,
-		"death": 2002
 	},
 	{
 		"id": "Q132157",
@@ -1026,6 +252,12 @@
 		"death": 1913
 	},
 	{
+		"id": "Q132489",
+		"name": "Amartya Sen",
+		"birth": 1933,
+		"death": 2024
+	},
+	{
 		"id": "Q1325",
 		"name": "Friedrich Hayek",
 		"birth": 1899,
@@ -1038,88 +270,10 @@
 		"death": 1982
 	},
 	{
-		"id": "Q1326883",
-		"name": "Albert Brudzewski",
-		"birth": 1445,
-		"death": 1497
-	},
-	{
-		"id": "Q1333105",
-		"name": "Robert Nisbet",
-		"birth": 1913,
-		"death": 1996
-	},
-	{
-		"id": "Q1333153",
-		"name": "Philippe Lacoue-Labarthe",
-		"birth": 1940,
-		"death": 2007
-	},
-	{
-		"id": "Q1335335",
-		"name": "W\u0142adys\u0142aw Tatarkiewicz",
-		"birth": 1886,
-		"death": 1980
-	},
-	{
-		"id": "Q1336424",
-		"name": "Hermogenes",
-		"birth": -500,
-		"death": -400
-	},
-	{
-		"id": "Q1336951",
-		"name": "Emil Utitz",
-		"birth": 1883,
-		"death": 1956
-	},
-	{
 		"id": "Q134189",
 		"name": "Plotinus",
 		"birth": 203,
 		"death": 270
-	},
-	{
-		"id": "Q1343397",
-		"name": "Kamo no Mabuchi",
-		"birth": 1697,
-		"death": 1769
-	},
-	{
-		"id": "Q1344799",
-		"name": "Richard of Saint Victor",
-		"birth": 1110,
-		"death": 1173
-	},
-	{
-		"id": "Q1345582",
-		"name": "Gilbert Simondon",
-		"birth": 1924,
-		"death": 1989
-	},
-	{
-		"id": "Q1345657",
-		"name": "Muretus",
-		"birth": 1526,
-		"death": 1585
-	},
-	{
-		"id": "Q1346115",
-		"name": "Enzo Paci",
-		"birth": 1911,
-		"death": 1976
-	},
-	{
-		"id": "Q1346310",
-		"name": "Matthew of Aquasparta",
-		"birth": 1240,
-		"death": 1302
-	},
-	{
-		"id": "Q1346410",
-		"name": "Henry M. Sheffer",
-		"birth": 1882,
-		"death": 1964
 	},
 	{
 		"id": "Q134661",
@@ -1128,172 +282,10 @@
 		"death": 1864
 	},
 	{
-		"id": "Q1349785",
-		"name": "Jean Beaufret",
-		"birth": 1907,
-		"death": 1982
-	},
-	{
-		"id": "Q13515",
-		"name": "Fr\u00e9d\u00e9ric Bastiat",
-		"birth": 1801,
-		"death": 1850
-	},
-	{
-		"id": "Q13529",
-		"name": "Alfred Marshall",
-		"birth": 1842,
-		"death": 1924
-	},
-	{
-		"id": "Q135481",
-		"name": "Lev Gumilyov",
-		"birth": 1912,
-		"death": 1992
-	},
-	{
-		"id": "Q13575",
-		"name": "Fran\u00e7ois Quesnay",
-		"birth": 1694,
-		"death": 1774
-	},
-	{
-		"id": "Q1357962",
-		"name": "Franti\u0161ek Kl\u00e1cel",
-		"birth": 1808,
-		"death": 1882
-	},
-	{
-		"id": "Q1358306",
-		"name": "Horace Kallen",
-		"birth": 1882,
-		"death": 1974
-	},
-	{
-		"id": "Q1358685",
-		"name": "Sim\u00f3n Rodr\u00edguez",
-		"birth": 1769,
-		"death": 1853
-	},
-	{
-		"id": "Q1363975",
-		"name": "Michele Mercati",
-		"birth": 1541,
-		"death": 1593
-	},
-	{
-		"id": "Q1364813",
-		"name": "Norman Malcolm",
-		"birth": 1911,
-		"death": 1990
-	},
-	{
-		"id": "Q1364954",
-		"name": "William David Ross",
-		"birth": 1877,
-		"death": 1971
-	},
-	{
 		"id": "Q1366556",
 		"name": "Mohammad-Taqi Mesbah-Yazdi",
 		"birth": 1934,
 		"death": 2021
-	},
-	{
-		"id": "Q1366567",
-		"name": "Philo the Dialectician",
-		"birth": -400,
-		"death": -300
-	},
-	{
-		"id": "Q1369930",
-		"name": "Juan Mart\u00ednez Sil\u00edceo",
-		"birth": 1486,
-		"death": 1557
-	},
-	{
-		"id": "Q1370686",
-		"name": "Larry Laudan",
-		"birth": 1941,
-		"death": 2022
-	},
-	{
-		"id": "Q137152",
-		"name": "Aeneas of Gaza",
-		"birth": 445,
-		"death": 550
-	},
-	{
-		"id": "Q1371903",
-		"name": "Yonah Gerondi",
-		"birth": 1210,
-		"death": 1263
-	},
-	{
-		"id": "Q1372399",
-		"name": "Yuriy Drohobych",
-		"birth": 1450,
-		"death": 1494
-	},
-	{
-		"id": "Q1373037",
-		"name": "Syrianus",
-		"birth": 500,
-		"death": 437
-	},
-	{
-		"id": "Q1373185",
-		"name": "Walter Chatton",
-		"birth": 1285,
-		"death": 1343
-	},
-	{
-		"id": "Q1374720",
-		"name": "William Ames",
-		"birth": 1576,
-		"death": 1633
-	},
-	{
-		"id": "Q1375265",
-		"name": "Georges Wolinski",
-		"birth": 1934,
-		"death": 2015
-	},
-	{
-		"id": "Q137571",
-		"name": "Poul Martin M\u00f8ller",
-		"birth": 1794,
-		"death": 1838
-	},
-	{
-		"id": "Q1376025",
-		"name": "Joseph Agassi",
-		"birth": 1927,
-		"death": 2023
-	},
-	{
-		"id": "Q1377656",
-		"name": "Georgi Iwanowitsch Tschelpanow",
-		"birth": 1862,
-		"death": 1936
-	},
-	{
-		"id": "Q1378597",
-		"name": "Eurytus",
-		"birth": -500,
-		"death": -400
-	},
-	{
-		"id": "Q1380371",
-		"name": "Joseph Raz",
-		"birth": 1939,
-		"death": 2022
-	},
-	{
-		"id": "Q1380594",
-		"name": "Nae Ionescu",
-		"birth": 1890,
-		"death": 1940
 	},
 	{
 		"id": "Q1381628",
@@ -1302,70 +294,10 @@
 		"death": 1950
 	},
 	{
-		"id": "Q1382977",
-		"name": "Evald Ilyenkov",
-		"birth": 1924,
-		"death": 1979
-	},
-	{
-		"id": "Q1383306",
-		"name": "Remigius of Auxerre",
-		"birth": 841,
-		"death": 908
-	},
-	{
-		"id": "Q1384603",
-		"name": "Jacques Bouveresse",
-		"birth": 1940,
-		"death": 2021
-	},
-	{
-		"id": "Q1385296",
-		"name": "Quintus Sextius",
-		"birth": -50,
-		"death": -100
-	},
-	{
-		"id": "Q1386051",
-		"name": "Pasquale Galluppi",
-		"birth": 1770,
-		"death": 1846
-	},
-	{
-		"id": "Q1386165",
-		"name": "Felix Adler",
-		"birth": 1851,
-		"death": 1933
-	},
-	{
-		"id": "Q1386462",
-		"name": "Johann Friedrich Schultz",
-		"birth": 1739,
-		"death": 1805
-	},
-	{
 		"id": "Q138850",
 		"name": "Gershom Scholem",
 		"birth": 1897,
 		"death": 1982
-	},
-	{
-		"id": "Q1389946",
-		"name": "Philip Jourdain",
-		"birth": 1879,
-		"death": 1919
-	},
-	{
-		"id": "Q1391474",
-		"name": "Judah ben Samuel of Regensburg",
-		"birth": 1140,
-		"death": 1217
-	},
-	{
-		"id": "Q1392740",
-		"name": "George Boolos",
-		"birth": 1940,
-		"death": 1996
 	},
 	{
 		"id": "Q1393417",
@@ -1380,52 +312,10 @@
 		"death": 1924
 	},
 	{
-		"id": "Q1394797",
-		"name": "Hajime Tanabe",
-		"birth": 1885,
-		"death": 1962
-	},
-	{
-		"id": "Q1397057",
-		"name": "Keith Donnellan",
-		"birth": 1931,
-		"death": 2015
-	},
-	{
-		"id": "Q1399",
-		"name": "Niccol\u00f2 Machiavelli",
-		"birth": 1469,
-		"death": 1527
-	},
-	{
-		"id": "Q1401",
-		"name": "Petrarch",
-		"birth": 1304,
-		"death": 1374
-	},
-	{
-		"id": "Q1403677",
-		"name": "Juli\u00e1n Sanz del R\u00edo",
-		"birth": 1814,
-		"death": 1869
-	},
-	{
-		"id": "Q1405211",
-		"name": "John Haugeland",
-		"birth": 1945,
-		"death": 2010
-	},
-	{
 		"id": "Q140694",
 		"name": "Alexis de Tocqueville",
 		"birth": 1805,
 		"death": 1859
-	},
-	{
-		"id": "Q1423151",
-		"name": "A. C. Ewing",
-		"birth": 1899,
-		"death": 1973
 	},
 	{
 		"id": "Q1430",
@@ -1434,148 +324,16 @@
 		"death": 180
 	},
 	{
-		"id": "Q1436859",
-		"name": "Benjamin Whichcote",
-		"birth": 1609,
-		"death": 1683
-	},
-	{
-		"id": "Q1442647",
-		"name": "Franco Burgersdijk",
-		"birth": 1590,
-		"death": 1635
-	},
-	{
 		"id": "Q144535",
 		"name": "Herbert Spencer",
 		"birth": 1820,
 		"death": 1903
 	},
 	{
-		"id": "Q1445496",
-		"name": "Giovanni Battista Tolomei",
-		"birth": 1653,
-		"death": 1726
-	},
-	{
-		"id": "Q1447724",
-		"name": "John Niemeyer Findlay",
-		"birth": 1903,
-		"death": 1987
-	},
-	{
-		"id": "Q1450977",
-		"name": "Fran\u00e7ois Ch\u00e2telet",
-		"birth": 1925,
-		"death": 1985
-	},
-	{
-		"id": "Q1452279",
-		"name": "Fred Dretske",
-		"birth": 1932,
-		"death": 2013
-	},
-	{
-		"id": "Q1452702",
-		"name": "Frederic Brenton Fitch",
-		"birth": 1908,
-		"death": 1987
-	},
-	{
-		"id": "Q1457834",
-		"name": "Andr\u00e9 Neher",
-		"birth": 1914,
-		"death": 1988
-	},
-	{
-		"id": "Q1465879",
-		"name": "Xeniades",
-		"birth": -500,
-		"death": -500
-	},
-	{
-		"id": "Q1466681",
-		"name": "Rudolf Odebrecht",
-		"birth": 1883,
-		"death": 1945
-	},
-	{
-		"id": "Q1479519",
-		"name": "F\u00e9lix Ravaisson-Mollien",
-		"birth": 1813,
-		"death": 1900
-	},
-	{
-		"id": "Q1493020",
-		"name": "Michel Meyer",
-		"birth": 1950,
-		"death": 2022
-	},
-	{
-		"id": "Q1495249",
-		"name": "Gaspar Lax",
-		"birth": 1487,
-		"death": 1560
-	},
-	{
-		"id": "Q150471",
-		"name": "E. T. A. Hoffmann",
-		"birth": 1776,
-		"death": 1822
-	},
-	{
-		"id": "Q15064543",
-		"name": "Vitaly Bogatov",
-		"birth": 1925,
-		"death": 1997
-	},
-	{
-		"id": "Q15064561",
-		"name": "Aleksey Bogomolov",
-		"birth": 1927,
-		"death": 1983
-	},
-	{
-		"id": "Q15064710",
-		"name": "Georg Brutyan",
-		"birth": 1926,
-		"death": 2015
-	},
-	{
-		"id": "Q15068185",
-		"name": "Vladimir Kalinichenko",
-		"birth": 1948,
-		"death": 2008
-	},
-	{
-		"id": "Q15075128",
-		"name": "Ivan Sukhanov",
-		"birth": 1923,
-		"death": 2000
-	},
-	{
-		"id": "Q15079248",
-		"name": "Fridrikh Ovsienko",
-		"birth": 1939,
-		"death": 2007
-	},
-	{
-		"id": "Q1509840",
-		"name": "Gerald Sacks",
-		"birth": 1933,
-		"death": 2019
-	},
-	{
-		"id": "Q1510162",
-		"name": "Gerard Moll",
-		"birth": 1785,
-		"death": 1838
-	},
-	{
-		"id": "Q15138232",
-		"name": "Ludovico Boccadiferro",
-		"birth": 1482,
-		"death": 1545
+		"id": "Q14946680",
+		"name": "Alasdair Cochrane",
+		"birth": 1978,
+		"death": 2024
 	},
 	{
 		"id": "Q151403",
@@ -1584,22 +342,10 @@
 		"death": 1881
 	},
 	{
-		"id": "Q1514782",
-		"name": "Gerrit Mannoury",
-		"birth": 1867,
-		"death": 1956
-	},
-	{
 		"id": "Q1514998",
 		"name": "Gershom Carmichael",
 		"birth": 1672,
 		"death": 1729
-	},
-	{
-		"id": "Q151523",
-		"name": "Georg Luk\u00e1cs",
-		"birth": 1885,
-		"death": 1971
 	},
 	{
 		"id": "Q152388",
@@ -1608,70 +354,16 @@
 		"death": 1969
 	},
 	{
-		"id": "Q1525438",
-		"name": "Giorgio Colli",
-		"birth": 1917,
-		"death": 1979
-	},
-	{
-		"id": "Q1527182",
-		"name": "Gisbert Hasenjaeger",
-		"birth": 1919,
-		"death": 2006
-	},
-	{
 		"id": "Q152919",
 		"name": "Li Si",
 		"birth": -280,
 		"death": -208
 	},
 	{
-		"id": "Q153020",
-		"name": "Jos\u00e9 Ortega y Gasset",
-		"birth": 1883,
-		"death": 1955
-	},
-	{
-		"id": "Q153034",
-		"name": "Emmanuel Levinas",
-		"birth": 1906,
-		"death": 1995
-	},
-	{
-		"id": "Q153232",
-		"name": "Jean le Rond d'Alembert",
-		"birth": 1717,
-		"death": 1783
-	},
-	{
-		"id": "Q1539851",
-		"name": "Gottlieb S\u00f6hngen",
-		"birth": 1892,
-		"death": 1971
-	},
-	{
-		"id": "Q1539924",
-		"name": "Gottlob Friedrich Lipps",
-		"birth": 1865,
-		"death": 1931
-	},
-	{
 		"id": "Q1541",
 		"name": "Cicero",
 		"birth": -106,
 		"death": -43
-	},
-	{
-		"id": "Q154145",
-		"name": "Gabriel Marcel",
-		"birth": 1889,
-		"death": 1973
-	},
-	{
-		"id": "Q15428838",
-		"name": "Morris Lazerowitz",
-		"birth": 1907,
-		"death": 1987
 	},
 	{
 		"id": "Q154332",
@@ -1686,40 +378,10 @@
 		"death": 2022
 	},
 	{
-		"id": "Q15449288",
-		"name": "Karl D\u00fcrr",
-		"birth": 1888,
-		"death": 1970
-	},
-	{
-		"id": "Q15474",
-		"name": "Sir William Hamilton, 9th Baronet",
-		"birth": 1788,
-		"death": 1856
-	},
-	{
-		"id": "Q154751",
-		"name": "Nicholas of Cusa",
-		"birth": 1401,
-		"death": 1464
-	},
-	{
 		"id": "Q154959",
 		"name": "Hugo Grotius",
 		"birth": 1583,
 		"death": 1645
-	},
-	{
-		"id": "Q155547",
-		"name": "Johann Gottfried Herder",
-		"birth": 1744,
-		"death": 1803
-	},
-	{
-		"id": "Q1561551",
-		"name": "G\u00fcnther Jacoby",
-		"birth": 1881,
-		"death": 1969
 	},
 	{
 		"id": "Q156268",
@@ -1728,40 +390,10 @@
 		"death": 2002
 	},
 	{
-		"id": "Q1563700",
-		"name": "Vladimir Filipovi\u0107",
-		"birth": 1906,
-		"death": 1984
-	},
-	{
-		"id": "Q1567307",
-		"name": "\u0110uro Arnold",
-		"birth": 1853,
-		"death": 1941
-	},
-	{
-		"id": "Q157155",
-		"name": "Ernest Renan",
-		"birth": 1823,
-		"death": 1892
-	},
-	{
 		"id": "Q157309",
 		"name": "Simone Weil",
 		"birth": 1909,
 		"death": 1943
-	},
-	{
-		"id": "Q157318",
-		"name": "Leszek Ko\u0142akowski",
-		"birth": 1927,
-		"death": 2009
-	},
-	{
-		"id": "Q158030",
-		"name": "Cornelius Castoriadis",
-		"birth": 1922,
-		"death": 1997
 	},
 	{
 		"id": "Q158060",
@@ -1770,70 +402,10 @@
 		"death": 1963
 	},
 	{
-		"id": "Q15839162",
-		"name": "Federico Delfino",
-		"birth": 1477,
-		"death": 1547
-	},
-	{
-		"id": "Q1586059",
-		"name": "Harpocration of Argos",
-		"birth": 200,
-		"death": 200
-	},
-	{
-		"id": "Q158997",
-		"name": "Russell Kirk",
-		"birth": 1918,
-		"death": 1994
-	},
-	{
-		"id": "Q15902371",
-		"name": "Liu Gangji",
-		"birth": 1933,
-		"death": 2019
-	},
-	{
-		"id": "Q15912365",
-		"name": "Ingmar P\u00f6rn",
-		"birth": 1935,
-		"death": 2014
-	},
-	{
-		"id": "Q1593097",
-		"name": "H\u00e9ctor-Neri Casta\u00f1eda",
-		"birth": 1924,
-		"death": 1991
-	},
-	{
-		"id": "Q15948",
-		"name": "\u00c9mile Durkheim",
-		"birth": 1858,
-		"death": 1917
-	},
-	{
-		"id": "Q15961988",
-		"name": "Delfino Insolera",
-		"birth": 1920,
-		"death": 1987
-	},
-	{
-		"id": "Q159648",
-		"name": "Gianni Vattimo",
-		"birth": 1936,
-		"death": 2023
-	},
-	{
-		"id": "Q15975",
-		"name": "Montesquieu",
-		"birth": 1689,
-		"death": 1755
-	},
-	{
-		"id": "Q1599530",
-		"name": "Henry of Gorkum",
-		"birth": 1378,
-		"death": 1431
+		"id": "Q159876",
+		"name": "Julia Kristeva",
+		"birth": 1941,
+		"death": 2024
 	},
 	{
 		"id": "Q160270",
@@ -1848,10 +420,10 @@
 		"death": -287
 	},
 	{
-		"id": "Q160441",
-		"name": "Rabanus Maurus",
-		"birth": 780,
-		"death": 856
+		"id": "Q160456",
+		"name": "Angela Davis",
+		"birth": 1944,
+		"death": 2024
 	},
 	{
 		"id": "Q160460",
@@ -1866,40 +438,16 @@
 		"death": 1983
 	},
 	{
-		"id": "Q1607102",
-		"name": "Henry Odera Oruka",
-		"birth": 1944,
-		"death": 1995
+		"id": "Q16105913",
+		"name": "Melvin Fitting",
+		"birth": 1942,
+		"death": 2024
 	},
 	{
-		"id": "Q16130040",
-		"name": "Shalom Rosenberg",
-		"birth": 1935,
-		"death": 2023
-	},
-	{
-		"id": "Q16131864",
-		"name": "Eug\u00e8ne Fleischmann",
-		"birth": 1921,
-		"death": 1990
-	},
-	{
-		"id": "Q1620740",
-		"name": "Luigi Stefanini",
-		"birth": 1891,
-		"death": 1956
-	},
-	{
-		"id": "Q162597",
-		"name": "Henri Lefebvre",
-		"birth": 1901,
-		"death": 1991
-	},
-	{
-		"id": "Q16267493",
-		"name": "Jean Gayon",
-		"birth": 1949,
-		"death": 2018
+		"id": "Q16192619",
+		"name": "Selmer Bringsjord",
+		"birth": 1958,
+		"death": 2024
 	},
 	{
 		"id": "Q163087",
@@ -1908,52 +456,10 @@
 		"death": 1976
 	},
 	{
-		"id": "Q16335636",
-		"name": "Aleksandr Portnov",
-		"birth": 1947,
-		"death": 2010
-	},
-	{
-		"id": "Q16382",
-		"name": "Shrimad Rajchandra",
-		"birth": 1867,
-		"death": 1901
-	},
-	{
 		"id": "Q16388668",
 		"name": "Hovhannes Erznkatsi",
 		"birth": 1230,
 		"death": 1293
-	},
-	{
-		"id": "Q164797",
-		"name": "Paulo Freire",
-		"birth": 1921,
-		"death": 1997
-	},
-	{
-		"id": "Q16488456",
-		"name": "Sergey Anisimov",
-		"birth": 1922,
-		"death": 2005
-	},
-	{
-		"id": "Q1649541",
-		"name": "Monsieur Chouchani",
-		"birth": 1895,
-		"death": 1968
-	},
-	{
-		"id": "Q16514995",
-		"name": "Aleksandr Titarenko",
-		"birth": 1932,
-		"death": 1993
-	},
-	{
-		"id": "Q165589",
-		"name": "Leucippus",
-		"birth": -500,
-		"death": -500
 	},
 	{
 		"id": "Q165792",
@@ -1962,52 +468,10 @@
 		"death": 1797
 	},
 	{
-		"id": "Q16654472",
-		"name": "Anatoly Zotov",
-		"birth": 1931,
-		"death": 2021
-	},
-	{
-		"id": "Q16663531",
-		"name": "Martin Blais",
-		"birth": 1924,
-		"death": 2018
-	},
-	{
-		"id": "Q1679216",
-		"name": "Jakob Martini",
-		"birth": 1570,
-		"death": 1649
-	},
-	{
-		"id": "Q1680038",
-		"name": "James Black Baillie",
-		"birth": 1872,
-		"death": 1940
-	},
-	{
 		"id": "Q168004",
 		"name": "Friedrich Heinrich Jacobi",
 		"birth": 1743,
 		"death": 1819
-	},
-	{
-		"id": "Q1684965",
-		"name": "Jean-Louis D\u00e9otte",
-		"birth": 1946,
-		"death": 2018
-	},
-	{
-		"id": "Q1685382",
-		"name": "Jean Bollack",
-		"birth": 1923,
-		"death": 2012
-	},
-	{
-		"id": "Q1691712",
-		"name": "Joel Feinberg",
-		"birth": 1926,
-		"death": 2004
 	},
 	{
 		"id": "Q169234",
@@ -2022,42 +486,6 @@
 		"death": -420
 	},
 	{
-		"id": "Q1693342",
-		"name": "Johann Erich Berger",
-		"birth": 1772,
-		"death": 1833
-	},
-	{
-		"id": "Q1694154",
-		"name": "Johann Gottfried Teske",
-		"birth": 1704,
-		"death": 1772
-	},
-	{
-		"id": "Q1697683",
-		"name": "Johannes Heurnius",
-		"birth": 1543,
-		"death": 1601
-	},
-	{
-		"id": "Q1698081",
-		"name": "Johann Neldel",
-		"birth": 1554,
-		"death": 1612
-	},
-	{
-		"id": "Q1698312",
-		"name": "Johann Scharf",
-		"birth": 1595,
-		"death": 1660
-	},
-	{
-		"id": "Q1698538",
-		"name": "John Versor",
-		"birth": 1500,
-		"death": 1485
-	},
-	{
 		"id": "Q169906",
 		"name": "Jacques Lacan",
 		"birth": 1901,
@@ -2070,40 +498,10 @@
 		"death": 2021
 	},
 	{
-		"id": "Q17004559",
-		"name": "Ibn Hindu",
-		"birth": 942,
-		"death": 1019
-	},
-	{
-		"id": "Q170147",
-		"name": "Hans Reichenbach",
-		"birth": 1891,
-		"death": 1953
-	},
-	{
-		"id": "Q1702073",
-		"name": "John W. N. Watkins",
-		"birth": 1924,
-		"death": 1999
-	},
-	{
-		"id": "Q170302",
-		"name": "Saadi",
-		"birth": 1210,
-		"death": 1291
-	},
-	{
 		"id": "Q170472",
 		"name": "Origen",
 		"birth": 185,
 		"death": 254
-	},
-	{
-		"id": "Q1709082",
-		"name": "Reiner Bontius",
-		"birth": 1576,
-		"death": 1623
 	},
 	{
 		"id": "Q171091",
@@ -2112,40 +510,10 @@
 		"death": 1982
 	},
 	{
-		"id": "Q171195",
-		"name": "N\u0101g\u0101rjuna",
-		"birth": 150,
-		"death": 250
-	},
-	{
-		"id": "Q1712202",
-		"name": "Max Hildebert Boehm",
-		"birth": 1891,
-		"death": 1968
-	},
-	{
-		"id": "Q1712243",
-		"name": "Julien Freund",
-		"birth": 1921,
-		"death": 1993
-	},
-	{
-		"id": "Q171303",
-		"name": "Zeno of Citium",
-		"birth": -334,
-		"death": -263
-	},
-	{
 		"id": "Q171677",
 		"name": "Roger Bacon",
 		"birth": 1220,
 		"death": 1292
-	},
-	{
-		"id": "Q1717033",
-		"name": "J\u00fcrgen Bona Meyer",
-		"birth": 1829,
-		"death": 1897
 	},
 	{
 		"id": "Q171969",
@@ -2166,64 +534,10 @@
 		"death": 1837
 	},
 	{
-		"id": "Q1730299",
-		"name": "R. B. Braithwaite",
-		"birth": 1900,
-		"death": 1990
-	},
-	{
-		"id": "Q17376678",
-		"name": "Gail Stine",
-		"birth": 1940,
-		"death": 1977
-	},
-	{
-		"id": "Q17381881",
-		"name": "Sven Krohn",
-		"birth": 1903,
-		"death": 1999
-	},
-	{
 		"id": "Q173893",
 		"name": "John Wycliffe",
 		"birth": 1320,
 		"death": 1384
-	},
-	{
-		"id": "Q174550",
-		"name": "Achille Lemot",
-		"birth": 1846,
-		"death": 1909
-	},
-	{
-		"id": "Q1747950",
-		"name": "Philipp Scherbe",
-		"birth": 1553,
-		"death": 1605
-	},
-	{
-		"id": "Q1759046",
-		"name": "Apollonius Cronus",
-		"birth": -350,
-		"death": -350
-	},
-	{
-		"id": "Q176163",
-		"name": "August Cieszkowski",
-		"birth": 1814,
-		"death": 1894
-	},
-	{
-		"id": "Q1763617",
-		"name": "Nicarete of Megara",
-		"birth": -400,
-		"death": -300
-	},
-	{
-		"id": "Q176909",
-		"name": "Walker Percy",
-		"birth": 1916,
-		"death": 1990
 	},
 	{
 		"id": "Q177847",
@@ -2238,34 +552,16 @@
 		"death": 1744
 	},
 	{
-		"id": "Q179109",
-		"name": "Roland Barthes",
-		"birth": 1915,
-		"death": 1980
-	},
-	{
 		"id": "Q179126",
 		"name": "John Ruskin",
 		"birth": 1819,
 		"death": 1900
 	},
 	{
-		"id": "Q179149",
-		"name": "Antisthenes",
-		"birth": -444,
-		"death": -365
-	},
-	{
 		"id": "Q179266",
 		"name": "Jiddu Krishnamurti",
 		"birth": 1895,
 		"death": 1986
-	},
-	{
-		"id": "Q1797377",
-		"name": "Najmuddin Kubra",
-		"birth": 1145,
-		"death": 1221
 	},
 	{
 		"id": "Q179759",
@@ -2280,22 +576,10 @@
 		"death": -375
 	},
 	{
-		"id": "Q1798685",
-		"name": "Vincenzo Maggi",
-		"birth": 1498,
-		"death": 1564
-	},
-	{
 		"id": "Q180081",
 		"name": "Cato the Elder",
 		"birth": -234,
 		"death": -149
-	},
-	{
-		"id": "Q1802197",
-		"name": "Mario Vegetti",
-		"birth": 1937,
-		"death": 2018
 	},
 	{
 		"id": "Q180819",
@@ -2310,64 +594,16 @@
 		"death": 820
 	},
 	{
-		"id": "Q181707",
-		"name": "Charles Fourier",
-		"birth": 1772,
-		"death": 1837
-	},
-	{
-		"id": "Q18197541",
-		"name": "Ren\u00e9 F\u00e9d\u00e9",
-		"birth": 1645,
-		"death": 1716
-	},
-	{
-		"id": "Q182128",
-		"name": "Giovanni Pico della Mirandola",
-		"birth": 1463,
-		"death": 1494
-	},
-	{
-		"id": "Q18224490",
-		"name": "Tiberio Russiliano",
-		"birth": 1490,
-		"death": 1560
-	},
-	{
-		"id": "Q182847",
-		"name": "Jean Baudrillard",
-		"birth": 1929,
-		"death": 2007
-	},
-	{
-		"id": "Q18288619",
-		"name": "Gregorio Messere",
-		"birth": 1636,
-		"death": 1708
-	},
-	{
 		"id": "Q182905",
 		"name": "Georgi Plekhanov",
 		"birth": 1856,
 		"death": 1918
 	},
 	{
-		"id": "Q183074",
-		"name": "Juana In\u00e9s de la Cruz",
-		"birth": 1651,
-		"death": 1695
-	},
-	{
 		"id": "Q183126",
 		"name": "Ramakrishna",
 		"birth": 1836,
 		"death": 1886
-	},
-	{
-		"id": "Q183144",
-		"name": "Epictetus",
-		"birth": 50,
-		"death": 138
 	},
 	{
 		"id": "Q183167",
@@ -2380,12 +616,6 @@
 		"name": "Alfred North Whitehead",
 		"birth": 1861,
 		"death": 1947
-	},
-	{
-		"id": "Q183509",
-		"name": "Ilya Prigogine",
-		"birth": 1917,
-		"death": 2003
 	},
 	{
 		"id": "Q184169",
@@ -2418,52 +648,16 @@
 		"death": 1576
 	},
 	{
-		"id": "Q18456",
-		"name": "Bertha von Suttner",
-		"birth": 1843,
-		"death": 1914
-	},
-	{
-		"id": "Q184656",
-		"name": "Nikolai Berdyaev",
-		"birth": 1874,
-		"death": 1948
-	},
-	{
-		"id": "Q184735",
-		"name": "Bernard Bolzano",
-		"birth": 1781,
-		"death": 1848
-	},
-	{
 		"id": "Q184980",
 		"name": "Thomas Kuhn",
 		"birth": 1922,
 		"death": 1996
 	},
 	{
-		"id": "Q185085",
-		"name": "Miguel de Unamuno",
-		"birth": 1864,
-		"death": 1936
-	},
-	{
 		"id": "Q185117",
 		"name": "Justin Martyr",
 		"birth": 100,
 		"death": 165
-	},
-	{
-		"id": "Q185150",
-		"name": "Eudoxus of Cnidus",
-		"birth": -408,
-		"death": -355
-	},
-	{
-		"id": "Q185375",
-		"name": "Mikhail Bakhtin",
-		"birth": 1895,
-		"death": 1975
 	},
 	{
 		"id": "Q185770",
@@ -2478,46 +672,16 @@
 		"death": 1772
 	},
 	{
-		"id": "Q1862572",
-		"name": "Walter Burley",
-		"birth": 1275,
-		"death": 1344
-	},
-	{
-		"id": "Q18644268",
-		"name": "Jos\u00e9 Rafael Nu\u00f1ez Tenorio",
-		"birth": 1933,
-		"death": 1998
-	},
-	{
-		"id": "Q1871941",
-		"name": "Louis Richeome",
-		"birth": 1544,
-		"death": 1625
-	},
-	{
-		"id": "Q187336",
-		"name": "Giuseppe Mazzini",
-		"birth": 1805,
-		"death": 1872
-	},
-	{
-		"id": "Q187506",
-		"name": "Honor\u00e9 Daumier",
-		"birth": 1808,
-		"death": 1879
+		"id": "Q186123",
+		"name": "Francis Fukuyama",
+		"birth": 1952,
+		"death": 2024
 	},
 	{
 		"id": "Q187520",
 		"name": "Charles Sanders Peirce",
 		"birth": 1839,
 		"death": 1914
-	},
-	{
-		"id": "Q188357",
-		"name": "Ian Hacking",
-		"birth": 1936,
-		"death": 2023
 	},
 	{
 		"id": "Q188411",
@@ -2530,24 +694,6 @@
 		"name": "William Godwin",
 		"birth": 1756,
 		"death": 1836
-	},
-	{
-		"id": "Q188663",
-		"name": "Marin Mersenne",
-		"birth": 1588,
-		"death": 1648
-	},
-	{
-		"id": "Q1887149",
-		"name": "Malek Bennabi",
-		"birth": 1905,
-		"death": 1973
-	},
-	{
-		"id": "Q1888019",
-		"name": "Petr Vop\u011bnka",
-		"birth": 1935,
-		"death": 2015
 	},
 	{
 		"id": "Q188883",
@@ -2568,12 +714,6 @@
 		"death": 1891
 	},
 	{
-		"id": "Q18945471",
-		"name": "Girolamo Manfredi",
-		"birth": 1430,
-		"death": 1493
-	},
-	{
 		"id": "Q189506",
 		"name": "Aristippus",
 		"birth": -434,
@@ -2584,24 +724,6 @@
 		"name": "Pierre Teilhard de Chardin",
 		"birth": 1881,
 		"death": 1955
-	},
-	{
-		"id": "Q189759",
-		"name": "Zeno of Sidon",
-		"birth": -150,
-		"death": -75
-	},
-	{
-		"id": "Q189767",
-		"name": "Zeno of Tarsus",
-		"birth": -250,
-		"death": -200
-	},
-	{
-		"id": "Q1898915",
-		"name": "Albert Thibaudet",
-		"birth": 1874,
-		"death": 1936
 	},
 	{
 		"id": "Q18999",
@@ -2622,22 +744,10 @@
 		"death": 1308
 	},
 	{
-		"id": "Q190302",
-		"name": "Claude Adrien Helv\u00e9tius",
-		"birth": 1715,
-		"death": 1771
-	},
-	{
 		"id": "Q19074",
 		"name": "Samuel P. Huntington",
 		"birth": 1927,
 		"death": 2008
-	},
-	{
-		"id": "Q190944",
-		"name": "Jean Bodin",
-		"birth": 1530,
-		"death": 1596
 	},
 	{
 		"id": "Q191026",
@@ -2646,22 +756,10 @@
 		"death": 1911
 	},
 	{
-		"id": "Q191029",
-		"name": "Giuseppe Peano",
-		"birth": 1858,
-		"death": 1932
-	},
-	{
 		"id": "Q191095",
 		"name": "Edward Sapir",
 		"birth": 1884,
 		"death": 1939
-	},
-	{
-		"id": "Q1912529",
-		"name": "Max Frischeisen-K\u00f6hler",
-		"birth": 1878,
-		"death": 1923
 	},
 	{
 		"id": "Q191734",
@@ -2670,82 +768,16 @@
 		"death": 395
 	},
 	{
-		"id": "Q192066",
-		"name": "Paul Ric\u0153ur",
-		"birth": 1913,
-		"death": 2005
-	},
-	{
 		"id": "Q192207",
 		"name": "Aurobindo Ghosh",
 		"birth": 1872,
 		"death": 1950
 	},
 	{
-		"id": "Q192214",
-		"name": "Ren\u00e9 Goscinny",
-		"birth": 1926,
-		"death": 1977
-	},
-	{
-		"id": "Q192313",
-		"name": "Pyrrho",
-		"birth": -360,
-		"death": -270
-	},
-	{
 		"id": "Q192315",
 		"name": "Pierre Gassendi",
 		"birth": 1592,
 		"death": 1655
-	},
-	{
-		"id": "Q192331",
-		"name": "Nikolay Chernyshevsky",
-		"birth": 1828,
-		"death": 1889
-	},
-	{
-		"id": "Q192348",
-		"name": "Benedetto Croce",
-		"birth": 1866,
-		"death": 1952
-	},
-	{
-		"id": "Q192374",
-		"name": "Marsilio Ficino",
-		"birth": 1433,
-		"death": 1499
-	},
-	{
-		"id": "Q192885",
-		"name": "Vissarion Belinsky",
-		"birth": 1811,
-		"death": 1848
-	},
-	{
-		"id": "Q193257",
-		"name": "Jean-Fran\u00e7ois Lyotard",
-		"birth": 1924,
-		"death": 1998
-	},
-	{
-		"id": "Q1932828",
-		"name": "Mihailo Petrovi\u0107",
-		"birth": 1868,
-		"death": 1943
-	},
-	{
-		"id": "Q193405",
-		"name": "Emil Cioran",
-		"birth": 1911,
-		"death": 1995
-	},
-	{
-		"id": "Q19364024",
-		"name": "Adam Ziele\u0144czyk",
-		"birth": 1880,
-		"death": 1943
 	},
 	{
 		"id": "Q193660",
@@ -2760,46 +792,16 @@
 		"death": 1961
 	},
 	{
-		"id": "Q19367451",
-		"name": "Michael Wendler",
-		"birth": 1610,
-		"death": 1671
-	},
-	{
 		"id": "Q193871",
 		"name": "Marshall McLuhan",
 		"birth": 1911,
 		"death": 1980
 	},
 	{
-		"id": "Q1955589",
-		"name": "Mustafa 'Abd al-Raziq",
-		"birth": 1885,
-		"death": 1947
-	},
-	{
 		"id": "Q1957878",
 		"name": "Ephrem Mtsire",
 		"birth": 1001,
 		"death": 1101
-	},
-	{
-		"id": "Q1959231",
-		"name": "Ivan Zabelin",
-		"birth": 1820,
-		"death": 1908
-	},
-	{
-		"id": "Q1959495",
-		"name": "Frederik Christian Sibbern",
-		"birth": 1785,
-		"death": 1872
-	},
-	{
-		"id": "Q19629705",
-		"name": "Georges Kalinowski",
-		"birth": 1916,
-		"death": 2000
 	},
 	{
 		"id": "Q1963396",
@@ -2814,64 +816,10 @@
 		"death": 1898
 	},
 	{
-		"id": "Q1967442",
-		"name": "Sergei Rubinstein",
-		"birth": 1889,
-		"death": 1960
-	},
-	{
-		"id": "Q1986444",
-		"name": "Nicolas Antoine Boulanger",
-		"birth": 1722,
-		"death": 1759
-	},
-	{
-		"id": "Q1990039",
-		"name": "Nicanor",
-		"birth": -300,
-		"death": -300
-	},
-	{
-		"id": "Q19918316",
-		"name": "Lazare Aug\u00e9",
-		"birth": 1798,
-		"death": 1874
-	},
-	{
-		"id": "Q19946244",
-		"name": "Johann Bernhard Wiedeburg",
-		"birth": 1687,
-		"death": 1766
-	},
-	{
-		"id": "Q19985001",
-		"name": "Giovanni Nesi",
-		"birth": 1456,
-		"death": 1506
-	},
-	{
-		"id": "Q200639",
-		"name": "Paul Val\u00e9ry",
-		"birth": 1871,
-		"death": 1945
-	},
-	{
 		"id": "Q2010955",
 		"name": "Mulla Sadra",
 		"birth": 1571,
 		"death": 1641
-	},
-	{
-		"id": "Q201221",
-		"name": "Alexander Ivanovich Herzen",
-		"birth": 1812,
-		"death": 1870
-	},
-	{
-		"id": "Q201477",
-		"name": "Jean-Antoine-Nicolas de Caritat de Condorcet",
-		"birth": 1743,
-		"death": 1794
 	},
 	{
 		"id": "Q201484",
@@ -2886,58 +834,10 @@
 		"death": 2003
 	},
 	{
-		"id": "Q202001",
-		"name": "Archytas",
-		"birth": -428,
-		"death": -347
-	},
-	{
-		"id": "Q2026602",
-		"name": "Herbert Enderton",
-		"birth": 1936,
-		"death": 2010
-	},
-	{
-		"id": "Q2027982",
-		"name": "Charles Secr\u00e9tan",
-		"birth": 1815,
-		"death": 1895
-	},
-	{
-		"id": "Q2028047",
-		"name": "Ioane Petritsi",
-		"birth": 1050,
-		"death": 1200
-	},
-	{
-		"id": "Q203445",
-		"name": "Porphyry",
-		"birth": 233,
-		"death": 301
-	},
-	{
-		"id": "Q203674",
-		"name": "Pierre Klossowski",
-		"birth": 1905,
-		"death": 2001
-	},
-	{
-		"id": "Q203911",
-		"name": "Metrodorus of Stratonicea",
-		"birth": -140,
-		"death": -70
-	},
-	{
 		"id": "Q2044035",
 		"name": "Thomas Traherne",
 		"birth": 1636,
 		"death": 1674
-	},
-	{
-		"id": "Q2050459",
-		"name": "Paul of Pergula",
-		"birth": 1380,
-		"death": 1455
 	},
 	{
 		"id": "Q205162",
@@ -2952,106 +852,10 @@
 		"death": 65
 	},
 	{
-		"id": "Q205704",
-		"name": "Apollodorus of Athens",
-		"birth": -180,
-		"death": -120
-	},
-	{
-		"id": "Q205927",
-		"name": "Robert Nozick",
-		"birth": 1938,
-		"death": 2002
-	},
-	{
-		"id": "Q206119",
-		"name": "Marcus Terentius Varro",
-		"birth": -116,
-		"death": -27
-	},
-	{
-		"id": "Q2064265",
-		"name": "Paul of Venice",
-		"birth": 1369,
-		"death": 1429
-	},
-	{
 		"id": "Q2066255",
 		"name": "Fazlur Rahman Malik",
 		"birth": 1919,
 		"death": 1988
-	},
-	{
-		"id": "Q20723803",
-		"name": "Marcien Towa",
-		"birth": 1931,
-		"death": 2014
-	},
-	{
-		"id": "Q20724",
-		"name": "Louis Couturat",
-		"birth": 1868,
-		"death": 1914
-	},
-	{
-		"id": "Q20733704",
-		"name": "Gerhard Stammler",
-		"birth": 1898,
-		"death": 1977
-	},
-	{
-		"id": "Q2073584",
-		"name": "Peter Aczel",
-		"birth": 1941,
-		"death": 2023
-	},
-	{
-		"id": "Q207359",
-		"name": "Georges Bataille",
-		"birth": 1897,
-		"death": 1962
-	},
-	{
-		"id": "Q20740732",
-		"name": "Deborah Cook",
-		"birth": 1954,
-		"death": 2020
-	},
-	{
-		"id": "Q20740852",
-		"name": "Mark Fisher",
-		"birth": 1968,
-		"death": 2017
-	},
-	{
-		"id": "Q20742399",
-		"name": "Natalya Gorskaya",
-		"birth": 1930,
-		"death": 2004
-	},
-	{
-		"id": "Q207534",
-		"name": "Alfred Tarski",
-		"birth": 1901,
-		"death": 1983
-	},
-	{
-		"id": "Q207718",
-		"name": "Isaac Barrow",
-		"birth": 1630,
-		"death": 1677
-	},
-	{
-		"id": "Q2081039",
-		"name": "Peter of Auvergne",
-		"birth": 1240,
-		"death": 1304
-	},
-	{
-		"id": "Q208448",
-		"name": "Augustus De Morgan",
-		"birth": 1806,
-		"death": 1871
 	},
 	{
 		"id": "Q2087377",
@@ -3060,46 +864,10 @@
 		"death": -270
 	},
 	{
-		"id": "Q20903300",
-		"name": "Michel Adam",
-		"birth": 1926,
-		"death": 2007
-	},
-	{
-		"id": "Q209102",
-		"name": "Lactantius",
-		"birth": 240,
-		"death": 317
-	},
-	{
-		"id": "Q2092904",
-		"name": "Piero Martinetti",
-		"birth": 1872,
-		"death": 1943
-	},
-	{
-		"id": "Q21051990",
-		"name": "Francesco Piccolomini",
-		"birth": 1520,
-		"death": 1604
-	},
-	{
-		"id": "Q210573",
-		"name": "Hippias",
-		"birth": -443,
-		"death": -399
-	},
-	{
-		"id": "Q21094677",
-		"name": "Aleksandr Gryaznov",
-		"birth": 1948,
-		"death": 2001
-	},
-	{
-		"id": "Q2112937",
-		"name": "Henricus Reneri",
-		"birth": 1593,
-		"death": 1639
+		"id": "Q21062238",
+		"name": "Curtis Yarvin",
+		"birth": 1973,
+		"death": 2024
 	},
 	{
 		"id": "Q211411",
@@ -3108,22 +876,10 @@
 		"death": -208
 	},
 	{
-		"id": "Q21163",
-		"name": "Ferdinand T\u00f6nnies",
-		"birth": 1855,
-		"death": 1936
-	},
-	{
-		"id": "Q21183585",
-		"name": "Kirill Nikonov",
-		"birth": 1938,
-		"death": 2015
-	},
-	{
-		"id": "Q21207507",
-		"name": "Pietro Catena",
-		"birth": 1501,
-		"death": 1576
+		"id": "Q211539",
+		"name": "Peter Singer",
+		"birth": 1946,
+		"death": 2024
 	},
 	{
 		"id": "Q212338",
@@ -3138,40 +894,10 @@
 		"death": 1961
 	},
 	{
-		"id": "Q213672",
-		"name": "Wolfgang K\u00f6hler",
-		"birth": 1887,
-		"death": 1967
-	},
-	{
-		"id": "Q214115",
-		"name": "Lorenzo Valla",
-		"birth": 1407,
-		"death": 1457
-	},
-	{
-		"id": "Q214121",
-		"name": "Xenocrates",
-		"birth": -396,
-		"death": -314
-	},
-	{
-		"id": "Q214375",
-		"name": "Richard H\u00f6nigswald",
-		"birth": 1875,
-		"death": 1947
-	},
-	{
-		"id": "Q214712",
-		"name": "Friedrich Solmsen",
-		"birth": 1904,
-		"death": 1989
-	},
-	{
-		"id": "Q214816",
-		"name": "Pierre Bayle",
-		"birth": 1647,
-		"death": 1706
+		"id": "Q212730",
+		"name": "Steven Pinker",
+		"birth": 1954,
+		"death": 2024
 	},
 	{
 		"id": "Q214969",
@@ -3180,28 +906,10 @@
 		"death": 2000
 	},
 	{
-		"id": "Q2149770",
-		"name": "Richard Herbertz",
-		"birth": 1878,
-		"death": 1959
-	},
-	{
 		"id": "Q215022",
 		"name": "Arthur Eddington",
 		"birth": 1882,
 		"death": 1944
-	},
-	{
-		"id": "Q215126",
-		"name": "Wolfgang Stegm\u00fcller",
-		"birth": 1923,
-		"death": 1991
-	},
-	{
-		"id": "Q21525754",
-		"name": "Delia Graff Fara",
-		"birth": 1969,
-		"death": 2017
 	},
 	{
 		"id": "Q215258",
@@ -3210,52 +918,10 @@
 		"death": 2007
 	},
 	{
-		"id": "Q215282",
-		"name": "Joachim Georg Darjes",
-		"birth": 1714,
-		"death": 1791
-	},
-	{
-		"id": "Q21534866",
-		"name": "Vladimir Smirnov",
-		"birth": 1931,
-		"death": 1996
-	},
-	{
-		"id": "Q215371",
-		"name": "Johann Georg Heinrich Feder",
-		"birth": 1740,
-		"death": 1821
-	},
-	{
-		"id": "Q21546753",
-		"name": "Johann Geilfus",
-		"birth": 1592,
-		"death": 1654
-	},
-	{
-		"id": "Q215608",
-		"name": "Wilhelm Traugott Krug",
-		"birth": 1770,
-		"death": 1842
-	},
-	{
-		"id": "Q215896",
-		"name": "Alfred Schmidt",
-		"birth": 1931,
-		"death": 2012
-	},
-	{
-		"id": "Q215927",
-		"name": "Yeshayahu Leibowitz",
-		"birth": 1903,
-		"death": 1994
-	},
-	{
-		"id": "Q215991",
-		"name": "Jacob Klein",
-		"birth": 1899,
-		"death": 1978
+		"id": "Q215506",
+		"name": "Jerry Seinfeld",
+		"birth": 1954,
+		"death": 2024
 	},
 	{
 		"id": "Q216072",
@@ -3270,46 +936,16 @@
 		"death": 120
 	},
 	{
-		"id": "Q21644215",
-		"name": "Mark Moisevich Rosenthal",
-		"birth": 1906,
-		"death": 1975
-	},
-	{
-		"id": "Q216809",
-		"name": "Paul Cohen",
-		"birth": 1934,
-		"death": 2007
-	},
-	{
 		"id": "Q217771",
 		"name": "George Gurdjieff",
 		"birth": 1866,
 		"death": 1949
 	},
 	{
-		"id": "Q218254",
-		"name": "Dugald Stewart",
-		"birth": 1753,
-		"death": 1828
-	},
-	{
-		"id": "Q218322",
-		"name": "Joseph Butler",
-		"birth": 1692,
-		"death": 1752
-	},
-	{
-		"id": "Q2194939",
-		"name": "Antipater of Cyrene",
-		"birth": -400,
-		"death": -360
-	},
-	{
-		"id": "Q220269",
-		"name": "Dimitrie Gusti",
-		"birth": 1880,
-		"death": 1955
+		"id": "Q219368",
+		"name": "Judith Butler",
+		"birth": 1956,
+		"death": 2024
 	},
 	{
 		"id": "Q220313",
@@ -3318,76 +954,10 @@
 		"death": 1452
 	},
 	{
-		"id": "Q220550",
-		"name": "J\u00e1n Koll\u00e1r",
-		"birth": 1793,
-		"death": 1852
-	},
-	{
-		"id": "Q220856",
-		"name": "Charles Bernard Renouvier",
-		"birth": 1815,
-		"death": 1903
-	},
-	{
-		"id": "Q220976",
-		"name": "Thomas \u00e0 Kempis",
-		"birth": 1380,
-		"death": 1471
-	},
-	{
-		"id": "Q221182",
-		"name": "Isocrates",
-		"birth": -436,
-		"death": -338
-	},
-	{
-		"id": "Q221657",
-		"name": "Theodoros Metochites",
-		"birth": 1270,
-		"death": 1332
-	},
-	{
 		"id": "Q221697",
 		"name": "Hilary Putnam",
 		"birth": 1926,
 		"death": 2016
-	},
-	{
-		"id": "Q2223815",
-		"name": "Abdel Rahman Badawi",
-		"birth": 1917,
-		"death": 2002
-	},
-	{
-		"id": "Q223383",
-		"name": "Mnesarchus of Athens",
-		"birth": -160,
-		"death": -85
-	},
-	{
-		"id": "Q223723",
-		"name": "Cesare Beccaria",
-		"birth": 1738,
-		"death": 1794
-	},
-	{
-		"id": "Q2239003",
-		"name": "Peter Crockaert",
-		"birth": 1465,
-		"death": 1514
-	},
-	{
-		"id": "Q2255276",
-		"name": "Bronis\u0142aw Trentowski",
-		"birth": 1808,
-		"death": 1869
-	},
-	{
-		"id": "Q2262516",
-		"name": "Michelangelo Fardella",
-		"birth": 1650,
-		"death": 1718
 	},
 	{
 		"id": "Q22670",
@@ -3408,24 +978,6 @@
 		"death": 1602
 	},
 	{
-		"id": "Q22907093",
-		"name": "Muhammad Sadiq Ardestani",
-		"birth": 1644,
-		"death": 1721
-	},
-	{
-		"id": "Q22908529",
-		"name": "Sayyed Ahmad Alavi",
-		"birth": 1582,
-		"death": 1650
-	},
-	{
-		"id": "Q2292575",
-		"name": "Petrus Gyllius",
-		"birth": 1490,
-		"death": 1555
-	},
-	{
 		"id": "Q229264",
 		"name": "Georges-Louis Leclerc, Comte de Buffon",
 		"birth": 1707,
@@ -3438,112 +990,34 @@
 		"death": 2001
 	},
 	{
-		"id": "Q2303850",
-		"name": "Jules Lachelier",
-		"birth": 1832,
-		"death": 1918
-	},
-	{
-		"id": "Q2311453",
-		"name": "Sphaerus",
-		"birth": -285,
-		"death": -221
-	},
-	{
-		"id": "Q2314046",
-		"name": "John Smith",
-		"birth": 1618,
-		"death": 1652
-	},
-	{
 		"id": "Q231690",
 		"name": "Bhimrao Ramji Ambedkar",
 		"birth": 1891,
 		"death": 1956
 	},
 	{
-		"id": "Q2332520",
-		"name": "Damaris Cudworth Masham",
-		"birth": 1659,
-		"death": 1708
+		"id": "Q2318969",
+		"name": "Peter Rollins",
+		"birth": 1973,
+		"death": 2024
 	},
 	{
-		"id": "Q235494",
-		"name": "Hipparchia of Maroneia",
-		"birth": -350,
-		"death": -280
+		"id": "Q235470",
+		"name": "Martha Nussbaum",
+		"birth": 1947,
+		"death": 2024
 	},
 	{
-		"id": "Q236594",
-		"name": "Sextus Empiricus",
-		"birth": 200,
-		"death": 300
-	},
-	{
-		"id": "Q2367395",
-		"name": "Salem Ben Hmida",
-		"birth": 1882,
-		"death": 1961
-	},
-	{
-		"id": "Q2369009",
-		"name": "Apollodorus the Epicurean",
-		"birth": -150,
-		"death": -150
-	},
-	{
-		"id": "Q237833",
-		"name": "George Santayana",
-		"birth": 1863,
-		"death": 1952
-	},
-	{
-		"id": "Q2390351",
-		"name": "Sergei Nikolaevich Trubetskoy",
-		"birth": 1862,
-		"death": 1905
-	},
-	{
-		"id": "Q23957762",
-		"name": "Thomas Le Myesier",
-		"birth": 1300,
-		"death": 1336
-	},
-	{
-		"id": "Q24010086",
-		"name": "\u041a\u0430\u043d\u0430\u0440\u0441\u044c\u043a\u0438\u0439 \u0410\u043d\u0430\u0442\u043e\u043b\u0456\u0439 \u0421\u0442\u0430\u043d\u0456\u0441\u043b\u0430\u0432\u043e\u0432\u0438\u0447",
-		"birth": 1936,
-		"death": 1984
-	},
-	{
-		"id": "Q240643",
-		"name": "Allan Kardec",
-		"birth": 1804,
-		"death": 1869
-	},
-	{
-		"id": "Q2408399",
-		"name": "Thaddeus of Parma",
-		"birth": 1300,
-		"death": 1359
-	},
-	{
-		"id": "Q2418083",
-		"name": "Theodor Erismann",
-		"birth": 1883,
-		"death": 1961
+		"id": "Q242616",
+		"name": "Patricia Churchland",
+		"birth": 1943,
+		"death": 2024
 	},
 	{
 		"id": "Q243187",
 		"name": "Photios I of Constantinople",
 		"birth": 827,
 		"death": 896
-	},
-	{
-		"id": "Q243267",
-		"name": "Juliusz S\u0142owacki",
-		"birth": 1809,
-		"death": 1849
 	},
 	{
 		"id": "Q243757",
@@ -3558,46 +1032,10 @@
 		"death": 1359
 	},
 	{
-		"id": "Q2439397",
-		"name": "Jaime Balmes",
-		"birth": 1810,
-		"death": 1848
-	},
-	{
-		"id": "Q245355",
-		"name": "Zygmunt Krasi\u0144ski",
-		"birth": 1812,
-		"death": 1859
-	},
-	{
-		"id": "Q2456433",
-		"name": "Joop Doorman",
-		"birth": 1928,
-		"death": 2009
-	},
-	{
-		"id": "Q2458048",
-		"name": "Fredy Perlman",
-		"birth": 1934,
-		"death": 1985
-	},
-	{
-		"id": "Q2469927",
-		"name": "Jacques Garelli",
-		"birth": 1931,
-		"death": 2014
-	},
-	{
 		"id": "Q2476671",
 		"name": "Ulrich Schrade",
 		"birth": 1943,
 		"death": 2009
-	},
-	{
-		"id": "Q2481551",
-		"name": "Arnoldus Senguerdius",
-		"birth": 1610,
-		"death": 1668
 	},
 	{
 		"id": "Q248578",
@@ -3606,70 +1044,16 @@
 		"death": 390
 	},
 	{
-		"id": "Q248624",
-		"name": "Amelius",
-		"birth": 200,
-		"death": 300
-	},
-	{
-		"id": "Q248793",
-		"name": "Maximus of Ephesus",
-		"birth": 310,
-		"death": 372
-	},
-	{
-		"id": "Q248840",
-		"name": "Hierocles of Alexandria",
-		"birth": 400,
-		"death": 500
-	},
-	{
-		"id": "Q248969",
-		"name": "Sopater of Apamea",
-		"birth": 242,
-		"death": 325
-	},
-	{
 		"id": "Q2493557",
 		"name": "Vladimir Pashuto",
 		"birth": 1918,
 		"death": 1983
 	},
 	{
-		"id": "Q249984",
-		"name": "Robin Gandy",
-		"birth": 1919,
-		"death": 1995
-	},
-	{
-		"id": "Q251259",
-		"name": "Ibn Tufayl",
-		"birth": 1110,
-		"death": 1185
-	},
-	{
-		"id": "Q2524557",
-		"name": "Anatolius of Laodicea",
-		"birth": 201,
-		"death": 283
-	},
-	{
-		"id": "Q25390732",
-		"name": "Boris Yudin",
-		"birth": 1943,
-		"death": 2017
-	},
-	{
-		"id": "Q2547521",
-		"name": "Victor Alekseyevich Vaziulin",
-		"birth": 1932,
-		"death": 2012
-	},
-	{
-		"id": "Q2548282",
-		"name": "Mikel Dufrenne",
-		"birth": 1910,
-		"death": 1995
+		"id": "Q253407",
+		"name": "Donna Haraway",
+		"birth": 1944,
+		"death": 2024
 	},
 	{
 		"id": "Q255275",
@@ -3678,112 +1062,10 @@
 		"death": -103
 	},
 	{
-		"id": "Q256541",
-		"name": "Robert Grosseteste",
-		"birth": 1175,
-		"death": 1253
-	},
-	{
-		"id": "Q2572749",
-		"name": "Hirata Atsutane",
-		"birth": 1776,
-		"death": 1843
-	},
-	{
-		"id": "Q2576969",
-		"name": "Manuel Sacrist\u00e1n",
-		"birth": 1925,
-		"death": 1985
-	},
-	{
-		"id": "Q2577106",
-		"name": "Octave Hamelin",
-		"birth": 1856,
-		"death": 1907
-	},
-	{
-		"id": "Q2578676",
-		"name": "William Ernest Johnson",
-		"birth": 1858,
-		"death": 1931
-	},
-	{
-		"id": "Q2580994",
-		"name": "W. W. Bartley III",
-		"birth": 1934,
-		"death": 1990
-	},
-	{
-		"id": "Q25820",
-		"name": "Thomas Young",
-		"birth": 1773,
-		"death": 1829
-	},
-	{
-		"id": "Q258369",
-		"name": "Peter Damian",
-		"birth": 1007,
-		"death": 1072
-	},
-	{
 		"id": "Q259507",
 		"name": "bell hooks",
 		"birth": 1952,
 		"death": 2021
-	},
-	{
-		"id": "Q259731",
-		"name": "Teodor Oizerman",
-		"birth": 1914,
-		"death": 2017
-	},
-	{
-		"id": "Q2599504",
-		"name": "Sofya Yanovskaya",
-		"birth": 1896,
-		"death": 1966
-	},
-	{
-		"id": "Q26037404",
-		"name": "G\u00f6tz Martius",
-		"birth": 1853,
-		"death": 1927
-	},
-	{
-		"id": "Q2604125",
-		"name": "Nikolai Bugaev",
-		"birth": 1837,
-		"death": 1903
-	},
-	{
-		"id": "Q2606914",
-		"name": "Alfred Jules \u00c9mile Fouill\u00e9e",
-		"birth": 1838,
-		"death": 1912
-	},
-	{
-		"id": "Q26208095",
-		"name": "Maria Bezobrazova",
-		"birth": 1857,
-		"death": 1914
-	},
-	{
-		"id": "Q262225",
-		"name": "Arete of Cyrene",
-		"birth": -400,
-		"death": -340
-	},
-	{
-		"id": "Q2625574",
-		"name": "Andrzej Towia\u0144ski",
-		"birth": 1799,
-		"death": 1878
-	},
-	{
-		"id": "Q263531",
-		"name": "Leonard Trelawny Hobhouse",
-		"birth": 1864,
-		"death": 1929
 	},
 	{
 		"id": "Q2636293",
@@ -3792,148 +1074,22 @@
 		"death": 1896
 	},
 	{
-		"id": "Q2639498",
-		"name": "Boethus of Sidon",
-		"birth": -75,
-		"death": -10
-	},
-	{
-		"id": "Q264028",
-		"name": "John of Salisbury",
-		"birth": 1110,
-		"death": 1180
-	},
-	{
-		"id": "Q264334",
-		"name": "Charles L. Stevenson",
-		"birth": 1908,
-		"death": 1979
-	},
-	{
 		"id": "Q264918",
 		"name": "Arthur de Gobineau",
 		"birth": 1816,
 		"death": 1882
 	},
 	{
-		"id": "Q2658411",
-		"name": "Bah\u0101\u02be al-d\u012bn al-\u02bf\u0100mil\u012b",
-		"birth": 1547,
-		"death": 1621
-	},
-	{
-		"id": "Q2661420",
-		"name": "Dardanus of Athens",
-		"birth": -160,
-		"death": -85
-	},
-	{
-		"id": "Q2661448",
-		"name": "Sholom Dovber Schneersohn",
-		"birth": 1860,
-		"death": 1920
-	},
-	{
-		"id": "Q26648",
-		"name": "John Argyropoulos",
-		"birth": 1415,
-		"death": 1487
-	},
-	{
-		"id": "Q2669359",
-		"name": "Najm al-D\u012bn al-Qazw\u012bn\u012b al-K\u0101tib\u012b",
-		"birth": 1203,
-		"death": 1277
-	},
-	{
-		"id": "Q26714",
-		"name": "Paul Deussen",
-		"birth": 1845,
-		"death": 1919
-	},
-	{
-		"id": "Q267825",
-		"name": "William of Champeaux",
-		"birth": 1070,
-		"death": 1121
-	},
-	{
-		"id": "Q2695766",
-		"name": "Ab\u016b Hayy\u0101n al-Tawh\u012bd\u012b",
-		"birth": 923,
-		"death": 1023
-	},
-	{
-		"id": "Q2695834",
-		"name": "Agathobulus",
-		"birth": 100,
-		"death": 200
-	},
-	{
-		"id": "Q2696619",
-		"name": "Athanasius of Balad",
-		"birth": 634,
-		"death": 686
-	},
-	{
-		"id": "Q2705204",
-		"name": "Evander",
-		"birth": -201,
-		"death": -101
-	},
-	{
-		"id": "Q2706119",
-		"name": "Telecles",
-		"birth": -201,
-		"death": -167
+		"id": "Q26849480",
+		"name": "Rineke Verbrugge",
+		"birth": 1965,
+		"death": 2024
 	},
 	{
 		"id": "Q2707309",
 		"name": "Richard J. Bernstein",
 		"birth": 1932,
 		"death": 2022
-	},
-	{
-		"id": "Q270800",
-		"name": "Gaston Bachelard",
-		"birth": 1884,
-		"death": 1962
-	},
-	{
-		"id": "Q2716613",
-		"name": "Ferdinand Alqui\u00e9",
-		"birth": 1906,
-		"death": 1985
-	},
-	{
-		"id": "Q271666",
-		"name": "James Mill",
-		"birth": 1773,
-		"death": 1836
-	},
-	{
-		"id": "Q271809",
-		"name": "Proclus",
-		"birth": 412,
-		"death": 485
-	},
-	{
-		"id": "Q2719051",
-		"name": "Ibn Sab'in",
-		"birth": 1217,
-		"death": 1270
-	},
-	{
-		"id": "Q272087",
-		"name": "Tatian",
-		"birth": 120,
-		"death": 180
-	},
-	{
-		"id": "Q272119",
-		"name": "\u00c9tienne Bonnot de Condillac",
-		"birth": 1714,
-		"death": 1780
 	},
 	{
 		"id": "Q272411",
@@ -3948,60 +1104,6 @@
 		"death": 1960
 	},
 	{
-		"id": "Q2734753",
-		"name": "Carlos de Sig\u00fcenza y G\u00f3ngora",
-		"birth": 1645,
-		"death": 1700
-	},
-	{
-		"id": "Q2743421",
-		"name": "\u00c9tienne Souriau",
-		"birth": 1892,
-		"death": 1979
-	},
-	{
-		"id": "Q274358",
-		"name": "\u00c9douard Le Roy",
-		"birth": 1870,
-		"death": 1954
-	},
-	{
-		"id": "Q2746354",
-		"name": "Maurice De Wulf",
-		"birth": 1867,
-		"death": 1947
-	},
-	{
-		"id": "Q274969",
-		"name": "\u00c9mile Boutroux",
-		"birth": 1845,
-		"death": 1921
-	},
-	{
-		"id": "Q274978",
-		"name": "\u00c9mile Br\u00e9hier",
-		"birth": 1876,
-		"death": 1952
-	},
-	{
-		"id": "Q275003",
-		"name": "Alain",
-		"birth": 1868,
-		"death": 1951
-	},
-	{
-		"id": "Q275500",
-		"name": "Jean Buridan",
-		"birth": 1295,
-		"death": 1358
-	},
-	{
-		"id": "Q2756217",
-		"name": "Vital du Four",
-		"birth": 1260,
-		"death": 1327
-	},
-	{
 		"id": "Q2757496",
 		"name": "Gaston Berger",
 		"birth": 1896,
@@ -4014,130 +1116,10 @@
 		"death": 1876
 	},
 	{
-		"id": "Q278699",
-		"name": "William Petty",
-		"birth": 1623,
-		"death": 1687
-	},
-	{
-		"id": "Q279030",
-		"name": "G\u00f3mez Pereira",
-		"birth": 1500,
-		"death": 1567
-	},
-	{
-		"id": "Q27913",
-		"name": "Friedrich Paulsen",
-		"birth": 1846,
-		"death": 1908
-	},
-	{
 		"id": "Q279359",
 		"name": "Vilna Gaon",
 		"birth": 1720,
 		"death": 1797
-	},
-	{
-		"id": "Q280432",
-		"name": "Athenodoros Cananites",
-		"birth": -100,
-		"death": -100
-	},
-	{
-		"id": "Q280872",
-		"name": "Timon of Phlius",
-		"birth": -320,
-		"death": -230
-	},
-	{
-		"id": "Q28092109",
-		"name": "Pierre-Jean Labarri\u00e8re",
-		"birth": 1931,
-		"death": 2018
-	},
-	{
-		"id": "Q281179",
-		"name": "Jean Gerson",
-		"birth": 1363,
-		"death": 1429
-	},
-	{
-		"id": "Q282132",
-		"name": "Charles Andler",
-		"birth": 1866,
-		"death": 1933
-	},
-	{
-		"id": "Q2821533",
-		"name": "Abel Rey",
-		"birth": 1873,
-		"death": 1940
-	},
-	{
-		"id": "Q2822077",
-		"name": "Abu Bishr Matta ibn Yunus",
-		"birth": 870,
-		"death": 940
-	},
-	{
-		"id": "Q282280",
-		"name": "Vladimir Solovyov",
-		"birth": 1853,
-		"death": 1900
-	},
-	{
-		"id": "Q282883",
-		"name": "Shihab al-Din Suhrawardi",
-		"birth": 1155,
-		"death": 1191
-	},
-	{
-		"id": "Q2838721",
-		"name": "Roger Marston",
-		"birth": 1201,
-		"death": 1303
-	},
-	{
-		"id": "Q2839759",
-		"name": "Alphonse Darlu",
-		"birth": 1849,
-		"death": 1921
-	},
-	{
-		"id": "Q284994",
-		"name": "Carneades",
-		"birth": -214,
-		"death": -129
-	},
-	{
-		"id": "Q2857327",
-		"name": "Antonio Loschi",
-		"birth": 1368,
-		"death": 1441
-	},
-	{
-		"id": "Q286599",
-		"name": "Palla Strozzi",
-		"birth": 1372,
-		"death": 1462
-	},
-	{
-		"id": "Q28714944",
-		"name": "Al-Rummani",
-		"birth": 909,
-		"death": 994
-	},
-	{
-		"id": "Q287485",
-		"name": "Theodoros Gaza",
-		"birth": 1398,
-		"death": 1475
-	},
-	{
-		"id": "Q2880132",
-		"name": "Niccol\u00f2 Cabeo",
-		"birth": 1586,
-		"death": 1650
 	},
 	{
 		"id": "Q288441",
@@ -4146,22 +1128,10 @@
 		"death": 1950
 	},
 	{
-		"id": "Q288467",
-		"name": "Lastheneia of Mantinea",
-		"birth": -350,
-		"death": -400
-	},
-	{
-		"id": "Q288756",
-		"name": "Jaakko Hintikka",
-		"birth": 1929,
-		"death": 2015
-	},
-	{
-		"id": "Q28949027",
-		"name": "Francesco Del Punta",
-		"birth": 1941,
-		"death": 2013
+		"id": "Q28918",
+		"name": "Luce Irigaray",
+		"birth": 1930,
+		"death": 2024
 	},
 	{
 		"id": "Q28959",
@@ -4170,82 +1140,16 @@
 		"death": -232
 	},
 	{
-		"id": "Q28961275",
-		"name": "Gert Heinz M\u00fcller",
-		"birth": 1923,
-		"death": 2006
-	},
-	{
-		"id": "Q2896591",
-		"name": "Yaqob Zera",
-		"birth": 1599,
-		"death": 1692
-	},
-	{
-		"id": "Q289739",
-		"name": "\u00c9tienne Gilson",
-		"birth": 1884,
-		"death": 1978
-	},
-	{
 		"id": "Q2897678",
 		"name": "Bernard Charbonneau",
 		"birth": 1910,
 		"death": 1996
 	},
 	{
-		"id": "Q2898258",
-		"name": "Bernard Mabille",
-		"birth": 1959,
-		"death": 2014
-	},
-	{
-		"id": "Q2898375",
-		"name": "Bernard Naudin",
-		"birth": 1876,
-		"death": 1946
-	},
-	{
-		"id": "Q2898613",
-		"name": "Bernard Sich\u00e8re",
-		"birth": 1944,
-		"death": 2019
-	},
-	{
-		"id": "Q290140",
-		"name": "\u00c9tienne Vacherot",
-		"birth": 1809,
-		"death": 1897
-	},
-	{
-		"id": "Q290227",
-		"name": "\u00c9tienne de La Bo\u00e9tie",
-		"birth": 1530,
-		"death": 1563
-	},
-	{
-		"id": "Q2903381",
-		"name": "Abner Shimony",
-		"birth": 1928,
-		"death": 2015
-	},
-	{
 		"id": "Q290536",
 		"name": "Ram Dass",
 		"birth": 1931,
 		"death": 2019
-	},
-	{
-		"id": "Q2905519",
-		"name": "Nathan Rotenstreich",
-		"birth": 1914,
-		"death": 1993
-	},
-	{
-		"id": "Q2920042",
-		"name": "Shlomo Pines",
-		"birth": 1908,
-		"death": 1990
 	},
 	{
 		"id": "Q2927235",
@@ -4260,34 +1164,10 @@
 		"death": 1970
 	},
 	{
-		"id": "Q294100",
-		"name": "Jacques B\u00e9nigne Bossuet",
-		"birth": 1627,
-		"death": 1704
-	},
-	{
-		"id": "Q2941054",
-		"name": "Casimir Lewy",
-		"birth": 1919,
-		"death": 1991
-	},
-	{
-		"id": "Q294109",
-		"name": "Michael Psellos",
-		"birth": 1018,
-		"death": 1078
-	},
-	{
-		"id": "Q29509419",
-		"name": "Gwendoline Jarczyk",
-		"birth": 1927,
-		"death": 2021
-	},
-	{
-		"id": "Q29530781",
-		"name": "Andrea Revueltas",
-		"birth": 1938,
-		"death": 2010
+		"id": "Q295012",
+		"name": "John Searle",
+		"birth": 1932,
+		"death": 2024
 	},
 	{
 		"id": "Q295386",
@@ -4296,46 +1176,10 @@
 		"death": 1958
 	},
 	{
-		"id": "Q295393",
-		"name": "Marcel Mauss",
-		"birth": 1872,
-		"death": 1950
-	},
-	{
 		"id": "Q2955937",
 		"name": "Chamaeleon",
 		"birth": -400,
 		"death": -300
-	},
-	{
-		"id": "Q2959720",
-		"name": "Charles B\u00e9nard",
-		"birth": 1807,
-		"death": 1898
-	},
-	{
-		"id": "Q295978",
-		"name": "George Herbert Mead",
-		"birth": 1863,
-		"death": 1931
-	},
-	{
-		"id": "Q2959848",
-		"name": "Charles Mopsik",
-		"birth": 1956,
-		"death": 2003
-	},
-	{
-		"id": "Q296244",
-		"name": "Vittorio Alfieri",
-		"birth": 1749,
-		"death": 1803
-	},
-	{
-		"id": "Q296249",
-		"name": "Imre Lakatos",
-		"birth": 1922,
-		"death": 1974
 	},
 	{
 		"id": "Q297040",
@@ -4350,106 +1194,10 @@
 		"death": 1995
 	},
 	{
-		"id": "Q297402",
-		"name": "Prodicus",
-		"birth": -460,
-		"death": -380
-	},
-	{
-		"id": "Q297420",
-		"name": "Panaetius",
-		"birth": -185,
-		"death": -110
-	},
-	{
-		"id": "Q297435",
-		"name": "Roscellinus",
-		"birth": 1050,
-		"death": 1121
-	},
-	{
-		"id": "Q297493",
-		"name": "Philippa Foot",
-		"birth": 1920,
-		"death": 2010
-	},
-	{
-		"id": "Q2975121",
-		"name": "Claire Salomon-Bayet",
-		"birth": 1932,
-		"death": 2016
-	},
-	{
-		"id": "Q2977201",
-		"name": "Claude Clerselier",
-		"birth": 1614,
-		"death": 1684
-	},
-	{
-		"id": "Q297726",
-		"name": "Hippolyte Taine",
-		"birth": 1828,
-		"death": 1893
-	},
-	{
-		"id": "Q298075",
-		"name": "Guy Debord",
-		"birth": 1931,
-		"death": 1994
-	},
-	{
 		"id": "Q298521",
 		"name": "Saul Kripke",
 		"birth": 1940,
 		"death": 2022
-	},
-	{
-		"id": "Q29865016",
-		"name": "Dmitry Gorsky",
-		"birth": 1920,
-		"death": 1994
-	},
-	{
-		"id": "Q298860",
-		"name": "Hippasus",
-		"birth": -600,
-		"death": -500
-	},
-	{
-		"id": "Q2991836",
-		"name": "Al-Khazini",
-		"birth": 1077,
-		"death": 1155
-	},
-	{
-		"id": "Q299446",
-		"name": "Basilios Bessarion",
-		"birth": 1403,
-		"death": 1472
-	},
-	{
-		"id": "Q2996527",
-		"name": "Gregory of Tatev",
-		"birth": 1346,
-		"death": 1409
-	},
-	{
-		"id": "Q30143889",
-		"name": "Pierre Raymond",
-		"birth": 1942,
-		"death": 2014
-	},
-	{
-		"id": "Q30227914",
-		"name": "Wolfe Mays",
-		"birth": 1912,
-		"death": 2005
-	},
-	{
-		"id": "Q3026986",
-		"name": "Didier Deleule",
-		"birth": 1941,
-		"death": 2019
 	},
 	{
 		"id": "Q302835",
@@ -4458,10 +1206,10 @@
 		"death": 1273
 	},
 	{
-		"id": "Q3063591",
-		"name": "Fabien Eboussi Boulaga",
-		"birth": 1934,
-		"death": 2018
+		"id": "Q3051714",
+		"name": "Elsa Dorlin",
+		"birth": 1974,
+		"death": 2024
 	},
 	{
 		"id": "Q306514",
@@ -4470,70 +1218,10 @@
 		"death": 1989
 	},
 	{
-		"id": "Q306658",
-		"name": "Abbo of Fleury",
-		"birth": 945,
-		"death": 1004
-	},
-	{
-		"id": "Q3069070",
-		"name": "Fernand Brunner",
-		"birth": 1920,
-		"death": 1991
-	},
-	{
 		"id": "Q307",
 		"name": "Galileo Galilei",
 		"birth": 1564,
 		"death": 1642
-	},
-	{
-		"id": "Q3071870",
-		"name": "Filippo Beroaldo",
-		"birth": 1453,
-		"death": 1505
-	},
-	{
-		"id": "Q3081515",
-		"name": "Francis Kaplan",
-		"birth": 1927,
-		"death": 2018
-	},
-	{
-		"id": "Q3084343",
-		"name": "Fran\u00e7ois Dagognet",
-		"birth": 1924,
-		"death": 2015
-	},
-	{
-		"id": "Q3084656",
-		"name": "Fran\u00e7ois F\u00e9dier",
-		"birth": 1935,
-		"death": 2021
-	},
-	{
-		"id": "Q309675",
-		"name": "G. Stanley Hall",
-		"birth": 1846,
-		"death": 1924
-	},
-	{
-		"id": "Q309759",
-		"name": "Edward Lear",
-		"birth": 1812,
-		"death": 1888
-	},
-	{
-		"id": "Q309772",
-		"name": "Athenagoras of Athens",
-		"birth": 133,
-		"death": 190
-	},
-	{
-		"id": "Q309818",
-		"name": "Nicolas Malebranche",
-		"birth": 1638,
-		"death": 1715
 	},
 	{
 		"id": "Q309854",
@@ -4542,46 +1230,10 @@
 		"death": 1821
 	},
 	{
-		"id": "Q3098636",
-		"name": "Jacques Rohault",
-		"birth": 1618,
-		"death": 1672
-	},
-	{
-		"id": "Q3099938",
-		"name": "Ga\u00ebtan de Ti\u00e8ne",
-		"birth": 1387,
-		"death": 1465
-	},
-	{
-		"id": "Q3100617",
-		"name": "Genevi\u00e8ve Clancy",
-		"birth": 1937,
-		"death": 2005
-	},
-	{
-		"id": "Q310149",
-		"name": "Cleanthes",
-		"birth": -331,
-		"death": -232
-	},
-	{
-		"id": "Q310173",
-		"name": "Ammonius Saccas",
-		"birth": 175,
-		"death": 242
-	},
-	{
-		"id": "Q3106259",
-		"name": "Gilles-Gaston Granger",
-		"birth": 1920,
-		"death": 2016
-	},
-	{
-		"id": "Q310757",
-		"name": "Ru\u0111er Josip Bo\u0161kovi\u0107",
-		"birth": 1711,
-		"death": 1787
+		"id": "Q310341",
+		"name": "Antonio Negri",
+		"birth": 1933,
+		"death": 2024
 	},
 	{
 		"id": "Q310765",
@@ -4590,34 +1242,10 @@
 		"death": 1992
 	},
 	{
-		"id": "Q310777",
-		"name": "Nicole Oresme",
-		"birth": 1323,
-		"death": 1382
-	},
-	{
 		"id": "Q310791",
 		"name": "Jules Michelet",
 		"birth": 1798,
 		"death": 1874
-	},
-	{
-		"id": "Q310794",
-		"name": "Karl Pearson",
-		"birth": 1857,
-		"death": 1936
-	},
-	{
-		"id": "Q310913",
-		"name": "Th\u00edch Nh\u1ea5t H\u1ea1nh",
-		"birth": 1926,
-		"death": 2022
-	},
-	{
-		"id": "Q310916",
-		"name": "Iamblichus",
-		"birth": 240,
-		"death": 320
 	},
 	{
 		"id": "Q311160",
@@ -4632,18 +1260,6 @@
 		"death": -520
 	},
 	{
-		"id": "Q311772",
-		"name": "Donald Davidson",
-		"birth": 1917,
-		"death": 2003
-	},
-	{
-		"id": "Q311776",
-		"name": "Paul Grice",
-		"birth": 1913,
-		"death": 1988
-	},
-	{
 		"id": "Q311826",
 		"name": "Muhammad Abduh",
 		"birth": 1849,
@@ -4654,36 +1270,6 @@
 		"name": "Herodes Atticus",
 		"birth": 101,
 		"death": 177
-	},
-	{
-		"id": "Q312295",
-		"name": "Giovanni Gentile",
-		"birth": 1875,
-		"death": 1944
-	},
-	{
-		"id": "Q312384",
-		"name": "Francisco de Vitoria",
-		"birth": 1480,
-		"death": 1546
-	},
-	{
-		"id": "Q3124002",
-		"name": "G\u00e9rard Granel",
-		"birth": 1930,
-		"death": 2000
-	},
-	{
-		"id": "Q3124102",
-		"name": "G\u00e9rard Lebrun",
-		"birth": 1930,
-		"death": 1999
-	},
-	{
-		"id": "Q3124306",
-		"name": "G\u00e9rard Simon",
-		"birth": 1931,
-		"death": 2009
 	},
 	{
 		"id": "Q312546",
@@ -4698,58 +1284,10 @@
 		"death": 1518
 	},
 	{
-		"id": "Q312682",
-		"name": "Euclid of Megara",
-		"birth": -436,
-		"death": -365
-	},
-	{
-		"id": "Q3128822",
-		"name": "Hayashi H\u014dk\u014d",
-		"birth": 1644,
-		"death": 1732
-	},
-	{
-		"id": "Q3128825",
-		"name": "Hayashi Jussai",
-		"birth": 1768,
-		"death": 1841
-	},
-	{
-		"id": "Q313093",
-		"name": "Herman Boerhaave",
-		"birth": 1668,
-		"death": 1738
-	},
-	{
-		"id": "Q3131573",
-		"name": "Henri Marion",
-		"birth": 1846,
-		"death": 1896
-	},
-	{
-		"id": "Q313174",
-		"name": "Pietro d'Abano",
-		"birth": 1250,
-		"death": 1315
-	},
-	{
 		"id": "Q313286",
 		"name": "Demetrius of Phalerum",
 		"birth": -350,
 		"death": -283
-	},
-	{
-		"id": "Q313386",
-		"name": "Gilbert Ryle",
-		"birth": 1900,
-		"death": 1976
-	},
-	{
-		"id": "Q313454",
-		"name": "Jan \u0141ukasiewicz",
-		"birth": 1878,
-		"death": 1956
 	},
 	{
 		"id": "Q313581",
@@ -4762,18 +1300,6 @@
 		"name": "Georges Sorel",
 		"birth": 1847,
 		"death": 1922
-	},
-	{
-		"id": "Q313929",
-		"name": "Mortimer Jerome Adler",
-		"birth": 1902,
-		"death": 2001
-	},
-	{
-		"id": "Q3141604",
-		"name": "Howard Thurman",
-		"birth": 1899,
-		"death": 1981
 	},
 	{
 		"id": "Q314189",
@@ -4794,88 +1320,10 @@
 		"death": 1890
 	},
 	{
-		"id": "Q314467",
-		"name": "Aenesidemus",
-		"birth": -80,
-		"death": -10
-	},
-	{
-		"id": "Q3144878",
-		"name": "H\u00e9l\u00e8ne V\u00e9drine",
-		"birth": 1926,
-		"death": 2019
-	},
-	{
-		"id": "Q314488",
-		"name": "Leonardo Bruni",
-		"birth": 1370,
-		"death": 1444
-	},
-	{
-		"id": "Q3147466",
-		"name": "Ibn Zura",
-		"birth": 943,
-		"death": 1008
-	},
-	{
-		"id": "Q315210",
-		"name": "Maurice Blanchot",
-		"birth": 1907,
-		"death": 2003
-	},
-	{
-		"id": "Q315251",
-		"name": "Nicola Abbagnano",
-		"birth": 1901,
-		"death": 1990
-	},
-	{
-		"id": "Q315347",
-		"name": "Peter Lombard",
-		"birth": 1100,
-		"death": 1160
-	},
-	{
-		"id": "Q315360",
-		"name": "Damascius",
-		"birth": 450,
-		"death": 550
-	},
-	{
-		"id": "Q315372",
-		"name": "Gabriel Tarde",
-		"birth": 1843,
-		"death": 1904
-	},
-	{
-		"id": "Q315387",
-		"name": "Frank P. Ramsey",
-		"birth": 1903,
-		"death": 1930
-	},
-	{
-		"id": "Q3157543",
-		"name": "Jacob Gordin",
-		"birth": 1896,
-		"death": 1947
-	},
-	{
 		"id": "Q3158533",
 		"name": "Jacques Chevalier",
 		"birth": 1882,
 		"death": 1962
-	},
-	{
-		"id": "Q3158616",
-		"name": "Jacques D'Hondt",
-		"birth": 1920,
-		"death": 2012
-	},
-	{
-		"id": "Q315871",
-		"name": "Justus Lipsius",
-		"birth": 1547,
-		"death": 1606
 	},
 	{
 		"id": "Q316045",
@@ -4884,238 +1332,10 @@
 		"death": 1927
 	},
 	{
-		"id": "Q316334",
-		"name": "Heraclides Ponticus",
-		"birth": -385,
-		"death": -322
-	},
-	{
-		"id": "Q316339",
-		"name": "Francisco Su\u00e1rez",
-		"birth": 1548,
-		"death": 1617
-	},
-	{
 		"id": "Q316343",
 		"name": "Vasubandhu",
 		"birth": 300,
 		"death": 399
-	},
-	{
-		"id": "Q316347",
-		"name": "Thomas Reid",
-		"birth": 1710,
-		"death": 1796
-	},
-	{
-		"id": "Q316349",
-		"name": "Abu al-Hasan al-Ash'ari",
-		"birth": 873,
-		"death": 935
-	},
-	{
-		"id": "Q316353",
-		"name": "Strato of Lampsacus",
-		"birth": -335,
-		"death": -269
-	},
-	{
-		"id": "Q316357",
-		"name": "Juan Luis Vives",
-		"birth": 1492,
-		"death": 1540
-	},
-	{
-		"id": "Q316367",
-		"name": "Francis Hutcheson",
-		"birth": 1694,
-		"death": 1746
-	},
-	{
-		"id": "Q316371",
-		"name": "Vladimir Ivanovich Vernadsky",
-		"birth": 1863,
-		"death": 1945
-	},
-	{
-		"id": "Q316559",
-		"name": "Arnold Geulincx",
-		"birth": 1624,
-		"death": 1669
-	},
-	{
-		"id": "Q3165762",
-		"name": "Jean-Fran\u00e7ois Marquet",
-		"birth": 1938,
-		"death": 2017
-	},
-	{
-		"id": "Q3166708",
-		"name": "Jean-Louis Chr\u00e9tien",
-		"birth": 1952,
-		"death": 2019
-	},
-	{
-		"id": "Q3166739",
-		"name": "Jean-Louis Destouches",
-		"birth": 1909,
-		"death": 1980
-	},
-	{
-		"id": "Q316674",
-		"name": "Louis Gabriel Ambroise de Bonald",
-		"birth": 1754,
-		"death": 1840
-	},
-	{
-		"id": "Q3167853",
-		"name": "Jean-Marie Vaysse",
-		"birth": 1950,
-		"death": 2011
-	},
-	{
-		"id": "Q3167862",
-		"name": "Jean-Marie Vincent",
-		"birth": 1934,
-		"death": 2004
-	},
-	{
-		"id": "Q3168103",
-		"name": "Jean-Michel Palmier",
-		"birth": 1944,
-		"death": 1998
-	},
-	{
-		"id": "Q316867",
-		"name": "Sosigenes of Alexandria",
-		"birth": -100,
-		"death": -100
-	},
-	{
-		"id": "Q3170058",
-		"name": "Jean-Toussaint Desanti",
-		"birth": 1914,
-		"death": 2002
-	},
-	{
-		"id": "Q317055",
-		"name": "Marcus Cornelius Fronto",
-		"birth": 100,
-		"death": 160
-	},
-	{
-		"id": "Q3170621",
-		"name": "Jean Baruzi",
-		"birth": 1881,
-		"death": 1953
-	},
-	{
-		"id": "Q317075",
-		"name": "R. G. Collingwood",
-		"birth": 1889,
-		"death": 1943
-	},
-	{
-		"id": "Q317098",
-		"name": "Lanfranc",
-		"birth": 1005,
-		"death": 1089
-	},
-	{
-		"id": "Q317146",
-		"name": "Alexandros of Aphrodisias",
-		"birth": 200,
-		"death": 215
-	},
-	{
-		"id": "Q3174523",
-		"name": "Jean Salem",
-		"birth": 1952,
-		"death": 2018
-	},
-	{
-		"id": "Q3174547",
-		"name": "Jean Saphary",
-		"birth": 1797,
-		"death": 1865
-	},
-	{
-		"id": "Q3174599",
-		"name": "Johann Schweigh\u00e4user",
-		"birth": 1742,
-		"death": 1830
-	},
-	{
-		"id": "Q31754",
-		"name": "Huang Zongxi",
-		"birth": 1610,
-		"death": 1695
-	},
-	{
-		"id": "Q317554",
-		"name": "Hugh of Saint Victor",
-		"birth": 1096,
-		"death": 1141
-	},
-	{
-		"id": "Q3177546",
-		"name": "Jerzy Giedymin",
-		"birth": 1925,
-		"death": 1993
-	},
-	{
-		"id": "Q317947",
-		"name": "Crates of Thebes",
-		"birth": -365,
-		"death": -285
-	},
-	{
-		"id": "Q318048",
-		"name": "Nelson Goodman",
-		"birth": 1906,
-		"death": 1998
-	},
-	{
-		"id": "Q3182114",
-		"name": "John Moore",
-		"birth": 1957,
-		"death": 2002
-	},
-	{
-		"id": "Q31845",
-		"name": "Arrian",
-		"birth": 89,
-		"death": 175
-	},
-	{
-		"id": "Q318580",
-		"name": "Pierre d'Ailly",
-		"birth": 1350,
-		"death": 1419
-	},
-	{
-		"id": "Q318787",
-		"name": "Pietro Pomponazzi",
-		"birth": 1462,
-		"death": 1525
-	},
-	{
-		"id": "Q318943",
-		"name": "Cornelius Jansen",
-		"birth": 1585,
-		"death": 1638
-	},
-	{
-		"id": "Q319186",
-		"name": "Jerry Fodor",
-		"birth": 1935,
-		"death": 2017
-	},
-	{
-		"id": "Q319243",
-		"name": "Alexandre Koyr\u00e9",
-		"birth": 1892,
-		"death": 1964
 	},
 	{
 		"id": "Q320042",
@@ -5124,112 +1344,10 @@
 		"death": -68
 	},
 	{
-		"id": "Q320546",
-		"name": "Peter of Spain",
-		"birth": 1300,
-		"death": 1300
-	},
-	{
-		"id": "Q321390",
-		"name": "Adam of Balsham",
-		"birth": 1100,
-		"death": 1181
-	},
-	{
 		"id": "Q322922",
 		"name": "Jacques Ellul",
 		"birth": 1912,
 		"death": 1994
-	},
-	{
-		"id": "Q323107",
-		"name": "Patrick Suppes",
-		"birth": 1922,
-		"death": 2014
-	},
-	{
-		"id": "Q323245",
-		"name": "Antoine Augustin Cournot",
-		"birth": 1801,
-		"death": 1877
-	},
-	{
-		"id": "Q323281",
-		"name": "Guarino Guarini",
-		"birth": 1624,
-		"death": 1683
-	},
-	{
-		"id": "Q323448",
-		"name": "Abraham Abulafia",
-		"birth": 1240,
-		"death": 1292
-	},
-	{
-		"id": "Q323906",
-		"name": "Heymeric de Campo",
-		"birth": 1395,
-		"death": 1460
-	},
-	{
-		"id": "Q324420",
-		"name": "Nicolaus Taurellus",
-		"birth": 1547,
-		"death": 1606
-	},
-	{
-		"id": "Q324542",
-		"name": "Jos\u00e9 Luis L\u00f3pez-Aranguren",
-		"birth": 1909,
-		"death": 1996
-	},
-	{
-		"id": "Q324932",
-		"name": "Lucien L\u00e9vy-Bruhl",
-		"birth": 1857,
-		"death": 1939
-	},
-	{
-		"id": "Q325650",
-		"name": "William of Sherwood",
-		"birth": 1200,
-		"death": 1272
-	},
-	{
-		"id": "Q325955",
-		"name": "Speusippus",
-		"birth": -407,
-		"death": -339
-	},
-	{
-		"id": "Q325992",
-		"name": "Giulio Cesare la Galla",
-		"birth": 1571,
-		"death": 1624
-	},
-	{
-		"id": "Q325993",
-		"name": "Kazimierz Ajdukiewicz",
-		"birth": 1890,
-		"death": 1963
-	},
-	{
-		"id": "Q326000",
-		"name": "Maurice Halbwachs",
-		"birth": 1877,
-		"death": 1945
-	},
-	{
-		"id": "Q326307",
-		"name": "Peter Olivi",
-		"birth": 1248,
-		"death": 1298
-	},
-	{
-		"id": "Q3264399",
-		"name": "Goldsworthy Lowes Dickinson",
-		"birth": 1862,
-		"death": 1932
 	},
 	{
 		"id": "Q326459",
@@ -5238,64 +1356,10 @@
 		"death": 1941
 	},
 	{
-		"id": "Q3265565",
-		"name": "Lucien Jerphagnon",
-		"birth": 1921,
-		"death": 2011
-	},
-	{
-		"id": "Q326624",
-		"name": "V\u00e1clav \u010cern\u00fd",
-		"birth": 1905,
-		"death": 1987
-	},
-	{
-		"id": "Q3268033",
-		"name": "Alan Ross Anderson",
-		"birth": 1925,
-		"death": 1973
-	},
-	{
-		"id": "Q3271303",
-		"name": "L\u00e9on Robin",
-		"birth": 1866,
-		"death": 1947
-	},
-	{
-		"id": "Q3271431",
-		"name": "Leon of Byzantium",
-		"birth": -400,
-		"death": -340
-	},
-	{
-		"id": "Q327198",
-		"name": "Albert Lautman",
-		"birth": 1908,
-		"death": 1944
-	},
-	{
-		"id": "Q327322",
-		"name": "Otakar Hostinsk\u00fd",
-		"birth": 1847,
-		"death": 1910
-	},
-	{
 		"id": "Q327630",
 		"name": "Wesley C. Salmon",
 		"birth": 1925,
 		"death": 2001
-	},
-	{
-		"id": "Q327981",
-		"name": "John Alan Robinson",
-		"birth": 1930,
-		"death": 2016
-	},
-	{
-		"id": "Q328062",
-		"name": "Antonio Banfi",
-		"birth": 1886,
-		"death": 1957
 	},
 	{
 		"id": "Q328150",
@@ -5304,88 +1368,16 @@
 		"death": 1408
 	},
 	{
-		"id": "Q328758",
-		"name": "Pierre Janet",
-		"birth": 1859,
-		"death": 1947
-	},
-	{
-		"id": "Q3288047",
-		"name": "Marc Froment-Meurice",
-		"birth": 1953,
-		"death": 2019
-	},
-	{
-		"id": "Q3288822",
-		"name": "Marcel Conche",
-		"birth": 1922,
-		"death": 2022
-	},
-	{
-		"id": "Q3290739",
-		"name": "Marguerite Thibert",
-		"birth": 1886,
-		"death": 1982
-	},
-	{
-		"id": "Q3296918",
-		"name": "John Anderson",
-		"birth": 1893,
-		"death": 1962
-	},
-	{
-		"id": "Q3299494",
-		"name": "Andronicus Callistus",
-		"birth": 1400,
-		"death": 1486
-	},
-	{
-		"id": "Q3300394",
-		"name": "Maurice Bellet",
-		"birth": 1923,
-		"death": 2018
-	},
-	{
-		"id": "Q330110",
-		"name": "Abraham Isaac Kook",
-		"birth": 1865,
-		"death": 1935
-	},
-	{
-		"id": "Q330289",
-		"name": "Stephen of Alexandria",
-		"birth": 600,
-		"death": 622
-	},
-	{
-		"id": "Q3303997",
-		"name": "Abu Sulayman Sijistani",
-		"birth": 932,
-		"death": 1000
-	},
-	{
-		"id": "Q3308844",
-		"name": "Michel Alexandre",
-		"birth": 1888,
-		"death": 1952
-	},
-	{
 		"id": "Q3309295",
 		"name": "Michel Clouscard",
 		"birth": 1928,
 		"death": 2009
 	},
 	{
-		"id": "Q3311076",
-		"name": "Michel Villey",
-		"birth": 1914,
-		"death": 1988
-	},
-	{
-		"id": "Q3312861",
-		"name": "Jos\u00e9 Ferrater Mora",
-		"birth": 1912,
-		"death": 1991
+		"id": "Q3312283",
+		"name": "John Finnis",
+		"birth": 1940,
+		"death": 2024
 	},
 	{
 		"id": "Q3312923",
@@ -5394,46 +1386,10 @@
 		"death": 2017
 	},
 	{
-		"id": "Q3315763",
-		"name": "Mir Damad",
-		"birth": 1561,
-		"death": 1631
-	},
-	{
 		"id": "Q331853",
 		"name": "Benjamin Lee Whorf",
 		"birth": 1897,
 		"death": 1941
-	},
-	{
-		"id": "Q331856",
-		"name": "J\u00f3zef Maria Hoene-Wro\u0144ski",
-		"birth": 1776,
-		"death": 1853
-	},
-	{
-		"id": "Q3320814",
-		"name": "Monique Castillo",
-		"birth": 1948,
-		"death": 2019
-	},
-	{
-		"id": "Q332470",
-		"name": "Henry St John, 1st Viscount Bolingbroke",
-		"birth": 1678,
-		"death": 1751
-	},
-	{
-		"id": "Q332535",
-		"name": "Sergei Bulgakov",
-		"birth": 1871,
-		"death": 1944
-	},
-	{
-		"id": "Q332785",
-		"name": "Persius",
-		"birth": 34,
-		"death": 62
 	},
 	{
 		"id": "Q332905",
@@ -5442,28 +1398,10 @@
 		"death": 1989
 	},
 	{
-		"id": "Q333402",
-		"name": "Alfred Korzybski",
-		"birth": 1879,
-		"death": 1950
-	},
-	{
 		"id": "Q333922",
 		"name": "William Whewell",
 		"birth": 1794,
 		"death": 1866
-	},
-	{
-		"id": "Q3339958",
-		"name": "Nicolas-Fran\u00e7ois Canard",
-		"birth": 1754,
-		"death": 1833
-	},
-	{
-		"id": "Q334090",
-		"name": "Sun Bin",
-		"birth": -400,
-		"death": -316
 	},
 	{
 		"id": "Q334147",
@@ -5478,22 +1416,10 @@
 		"death": 1983
 	},
 	{
-		"id": "Q334457",
-		"name": "Dio Chrysostom",
-		"birth": 40,
-		"death": 120
-	},
-	{
 		"id": "Q3348646",
 		"name": "Abul Hasan Ali Hasani Nadwi",
 		"birth": 1913,
 		"death": 1999
-	},
-	{
-		"id": "Q334965",
-		"name": "Charles P\u00e9guy",
-		"birth": 1873,
-		"death": 1914
 	},
 	{
 		"id": "Q335011",
@@ -5502,58 +1428,10 @@
 		"death": 1968
 	},
 	{
-		"id": "Q335027",
-		"name": "Seymour Papert",
-		"birth": 1928,
-		"death": 2016
-	},
-	{
-		"id": "Q3350831",
-		"name": "Olivier Bloch",
-		"birth": 1930,
-		"death": 2021
-	},
-	{
-		"id": "Q335112",
-		"name": "Anthony Ashley-Cooper, 3rd Earl of Shaftesbury",
-		"birth": 1671,
-		"death": 1713
-	},
-	{
-		"id": "Q3351328",
-		"name": "Olivier Revault d'Allonnes",
-		"birth": 1923,
-		"death": 2009
-	},
-	{
-		"id": "Q335148",
-		"name": "Stephen Cole Kleene",
-		"birth": 1909,
-		"death": 1994
-	},
-	{
-		"id": "Q335156",
-		"name": "Aristoxenus",
-		"birth": -360,
-		"death": -300
-	},
-	{
 		"id": "Q3353450",
 		"name": "Fakhr-al-Din Iraqi",
 		"birth": 1213,
 		"death": 1289
-	},
-	{
-		"id": "Q335544",
-		"name": "Jos\u00e9 Carlos Mari\u00e1tegui",
-		"birth": 1894,
-		"death": 1930
-	},
-	{
-		"id": "Q336769",
-		"name": "Pavel Florensky",
-		"birth": 1882,
-		"death": 1937
 	},
 	{
 		"id": "Q33760",
@@ -5562,100 +1440,10 @@
 		"death": 1970
 	},
 	{
-		"id": "Q337628",
-		"name": "Pyotr Lavrov",
-		"birth": 1823,
-		"death": 1900
-	},
-	{
-		"id": "Q3380741",
-		"name": "Philippe Soulez",
-		"birth": 1943,
-		"death": 1994
-	},
-	{
-		"id": "Q3384169",
-		"name": "Pierre Boutang",
-		"birth": 1916,
-		"death": 1998
-	},
-	{
-		"id": "Q3384318",
-		"name": "Pierre Caussat",
-		"birth": 1931,
-		"death": 2019
-	},
-	{
-		"id": "Q3385436",
-		"name": "Pierre Hassner",
-		"birth": 1933,
-		"death": 2018
-	},
-	{
-		"id": "Q3391858",
-		"name": "Dino Formaggio",
-		"birth": 1914,
-		"death": 2008
-	},
-	{
 		"id": "Q33941",
 		"name": "Julian",
 		"birth": 331,
 		"death": 363
-	},
-	{
-		"id": "Q3398798",
-		"name": "Richard I. Aaron",
-		"birth": 1901,
-		"death": 1987
-	},
-	{
-		"id": "Q342416",
-		"name": "Arnobius",
-		"birth": 255,
-		"death": 327
-	},
-	{
-		"id": "Q342564",
-		"name": "Titu Maiorescu",
-		"birth": 1840,
-		"death": 1917
-	},
-	{
-		"id": "Q342646",
-		"name": "Michael Dummett",
-		"birth": 1925,
-		"death": 2011
-	},
-	{
-		"id": "Q342730",
-		"name": "Antonio Labriola",
-		"birth": 1843,
-		"death": 1904
-	},
-	{
-		"id": "Q343018",
-		"name": "Eunapius",
-		"birth": 349,
-		"death": 420
-	},
-	{
-		"id": "Q3434946",
-		"name": "Robert Desgabets",
-		"birth": 1610,
-		"death": 1678
-	},
-	{
-		"id": "Q3436698",
-		"name": "Robert of Melun",
-		"birth": 1100,
-		"death": 1167
-	},
-	{
-		"id": "Q3440020",
-		"name": "Roland Dalbiez",
-		"birth": 1893,
-		"death": 1976
 	},
 	{
 		"id": "Q345641",
@@ -5664,34 +1452,10 @@
 		"death": 2003
 	},
 	{
-		"id": "Q345815",
-		"name": "Pierre Laromigui\u00e8re",
-		"birth": 1756,
-		"death": 1837
-	},
-	{
-		"id": "Q34628",
-		"name": "Gotthold Ephraim Lessing",
-		"birth": 1729,
-		"death": 1781
-	},
-	{
-		"id": "Q346523",
-		"name": "Andrea Cesalpino",
-		"birth": 1524,
-		"death": 1603
-	},
-	{
 		"id": "Q34670",
 		"name": "Albert Camus",
 		"birth": 1913,
 		"death": 1960
-	},
-	{
-		"id": "Q347222",
-		"name": "Frederic Harrison",
-		"birth": 1831,
-		"death": 1923
 	},
 	{
 		"id": "Q34787",
@@ -5700,28 +1464,10 @@
 		"death": 1895
 	},
 	{
-		"id": "Q3480224",
-		"name": "Sydney Shoemaker",
-		"birth": 1931,
-		"death": 2022
-	},
-	{
-		"id": "Q3482627",
-		"name": "Shuddhananda Bharati",
-		"birth": 1897,
-		"death": 1990
-	},
-	{
-		"id": "Q348408",
-		"name": "Martianus Capella",
-		"birth": 360,
-		"death": 428
-	},
-	{
-		"id": "Q3484569",
-		"name": "Simone Goyard-Fabre",
-		"birth": 1927,
-		"death": 2019
+		"id": "Q3482420",
+		"name": "Shmuel Trigano",
+		"birth": 1948,
+		"death": 2024
 	},
 	{
 		"id": "Q34943",
@@ -5730,124 +1476,10 @@
 		"death": 170
 	},
 	{
-		"id": "Q349694",
-		"name": "Muhsin Mahdi",
-		"birth": 1926,
-		"death": 2007
-	},
-	{
 		"id": "Q3498726",
 		"name": "Harold Arthur Prichard",
 		"birth": 1871,
 		"death": 1947
-	},
-	{
-		"id": "Q350183",
-		"name": "Georg Henrik von Wright",
-		"birth": 1916,
-		"death": 2003
-	},
-	{
-		"id": "Q350236",
-		"name": "F. H. Bradley",
-		"birth": 1846,
-		"death": 1924
-	},
-	{
-		"id": "Q3505892",
-		"name": "Suzanne Bachelard",
-		"birth": 1919,
-		"death": 2007
-	},
-	{
-		"id": "Q3507055",
-		"name": "Pierre-Sylvain R\u00e9gis",
-		"birth": 1632,
-		"death": 1707
-	},
-	{
-		"id": "Q351318",
-		"name": "Eug\u00e8ne Dupr\u00e9el",
-		"birth": 1879,
-		"death": 1967
-	},
-	{
-		"id": "Q351359",
-		"name": "Emmanuel Mounier",
-		"birth": 1905,
-		"death": 1950
-	},
-	{
-		"id": "Q351366",
-		"name": "Emil Leon Post",
-		"birth": 1897,
-		"death": 1954
-	},
-	{
-		"id": "Q3513783",
-		"name": "Francis Ellingwood Abbot",
-		"birth": 1836,
-		"death": 1903
-	},
-	{
-		"id": "Q351518",
-		"name": "Simplicius of Cilicia",
-		"birth": 480,
-		"death": 560
-	},
-	{
-		"id": "Q351527",
-		"name": "Gaetano Mosca",
-		"birth": 1858,
-		"death": 1941
-	},
-	{
-		"id": "Q351691",
-		"name": "Antoine Destutt de Tracy",
-		"birth": 1754,
-		"death": 1836
-	},
-	{
-		"id": "Q352465",
-		"name": "F\u00e9lix Guattari",
-		"birth": 1930,
-		"death": 1992
-	},
-	{
-		"id": "Q3525030",
-		"name": "Thomas Davidson",
-		"birth": 1840,
-		"death": 1900
-	},
-	{
-		"id": "Q352621",
-		"name": "Dicaearchus",
-		"birth": -350,
-		"death": -290
-	},
-	{
-		"id": "Q352663",
-		"name": "Sperone Speroni",
-		"birth": 1500,
-		"death": 1588
-	},
-	{
-		"id": "Q352804",
-		"name": "Juan Maldonado",
-		"birth": 1533,
-		"death": 1583
-	},
-	{
-		"id": "Q352988",
-		"name": "Andronicus of Rhodes",
-		"birth": -100,
-		"death": -60
-	},
-	{
-		"id": "Q353668",
-		"name": "Guillaume Bud\u00e9",
-		"birth": 1467,
-		"death": 1540
 	},
 	{
 		"id": "Q353754",
@@ -5856,28 +1488,16 @@
 		"death": 1983
 	},
 	{
-		"id": "Q354384",
-		"name": "Theon of Alexandria",
-		"birth": 335,
-		"death": 400
-	},
-	{
-		"id": "Q354431",
-		"name": "Aelius Aristides",
-		"birth": 117,
-		"death": 189
-	},
-	{
-		"id": "Q354504",
-		"name": "Alexandre Koj\u00e8ve",
-		"birth": 1902,
-		"death": 1968
-	},
-	{
 		"id": "Q354867",
 		"name": "Alan Watts",
 		"birth": 1915,
 		"death": 1973
+	},
+	{
+		"id": "Q355201",
+		"name": "Alvin Plantinga",
+		"birth": 1932,
+		"death": 2024
 	},
 	{
 		"id": "Q355237",
@@ -5892,64 +1512,10 @@
 		"death": 1897
 	},
 	{
-		"id": "Q355455",
-		"name": "Nahmanides",
-		"birth": 1194,
-		"death": 1270
-	},
-	{
-		"id": "Q3557194",
-		"name": "Victor Brochard",
-		"birth": 1848,
-		"death": 1907
-	},
-	{
-		"id": "Q356069",
-		"name": "Kenneth Waltz",
-		"birth": 1924,
-		"death": 2013
-	},
-	{
-		"id": "Q3561345",
-		"name": "Vittore Trincavelli",
-		"birth": 1496,
-		"death": 1568
-	},
-	{
-		"id": "Q356513",
-		"name": "Jacques Lef\u00e8vre d'\u00c9taples",
-		"birth": 1450,
-		"death": 1537
-	},
-	{
-		"id": "Q356568",
-		"name": "Arnaldus de Villa Nova",
-		"birth": 1240,
-		"death": 1311
-	},
-	{
-		"id": "Q356572",
-		"name": "Fran\u00e7ois Vatable",
-		"birth": 1495,
-		"death": 1547
-	},
-	{
-		"id": "Q357027",
-		"name": "Synesius of Cyrene",
-		"birth": 370,
-		"death": 413
-	},
-	{
-		"id": "Q3570731",
-		"name": "Xavier L\u00e9on",
-		"birth": 1868,
-		"death": 1935
-	},
-	{
-		"id": "Q3571334",
-		"name": "Yahya ibn Adi",
-		"birth": 893,
-		"death": 974
+		"id": "Q3557581",
+		"name": "Victor Skumin",
+		"birth": 1948,
+		"death": 2024
 	},
 	{
 		"id": "Q35802",
@@ -5958,34 +1524,10 @@
 		"death": 1677
 	},
 	{
-		"id": "Q358482",
-		"name": "Eudemus of Rhodes",
-		"birth": -370,
-		"death": -300
-	},
-	{
-		"id": "Q358497",
-		"name": "Aleksey Khomyakov",
-		"birth": 1804,
-		"death": 1860
-	},
-	{
 		"id": "Q358561",
 		"name": "Reinhold Niebuhr",
 		"birth": 1892,
 		"death": 1971
-	},
-	{
-		"id": "Q3587776",
-		"name": "\u00c9lie Vinet",
-		"birth": 1509,
-		"death": 1587
-	},
-	{
-		"id": "Q3588560",
-		"name": "\u00c9mile Hennequin",
-		"birth": 1858,
-		"death": 1888
 	},
 	{
 		"id": "Q35900",
@@ -5994,100 +1536,10 @@
 		"death": 1131
 	},
 	{
-		"id": "Q3592076",
-		"name": "\u00c9tienne Borne",
-		"birth": 1907,
-		"death": 1993
-	},
-	{
-		"id": "Q3592370",
-		"name": "\u00c9tienne Tassin",
-		"birth": 1955,
-		"death": 2018
-	},
-	{
-		"id": "Q360084",
-		"name": "Juri Lotman",
-		"birth": 1922,
-		"death": 1993
-	},
-	{
-		"id": "Q360135",
-		"name": "Kang Youwei",
-		"birth": 1858,
-		"death": 1927
-	},
-	{
-		"id": "Q360466",
-		"name": "George Cruikshank",
-		"birth": 1792,
-		"death": 1878
-	},
-	{
-		"id": "Q360512",
-		"name": "Baltasar Graci\u00e1n",
-		"birth": 1601,
-		"death": 1658
-	},
-	{
-		"id": "Q3608193",
-		"name": "Alberto Caracciolo",
-		"birth": 1918,
-		"death": 1990
-	},
-	{
-		"id": "Q361318",
-		"name": "Vyacheslav Ivanovich Ivanov",
-		"birth": 1866,
-		"death": 1949
-	},
-	{
-		"id": "Q3618074",
-		"name": "Valentino Annibale Pastore",
-		"birth": 1868,
-		"death": 1956
-	},
-	{
-		"id": "Q3619255",
-		"name": "Antonio Bernardi",
-		"birth": 1502,
-		"death": 1565
-	},
-	{
-		"id": "Q361974",
-		"name": "Adolf Gr\u00fcnbaum",
-		"birth": 1923,
-		"death": 2018
-	},
-	{
-		"id": "Q3620111",
-		"name": "Antonio Rocco",
-		"birth": 1586,
-		"death": 1652
-	},
-	{
-		"id": "Q362127",
-		"name": "Aleksei N. Leontiev",
-		"birth": 1903,
-		"death": 1979
-	},
-	{
-		"id": "Q3624582",
-		"name": "Arturo Reghini",
-		"birth": 1878,
-		"death": 1946
-	},
-	{
 		"id": "Q3625041",
 		"name": "Aelius Antipater",
 		"birth": 150,
 		"death": 300
-	},
-	{
-		"id": "Q3629638",
-		"name": "Augusto Guzzo",
-		"birth": 1894,
-		"death": 1986
 	},
 	{
 		"id": "Q36303",
@@ -6102,40 +1554,10 @@
 		"death": 1600
 	},
 	{
-		"id": "Q363375",
-		"name": "Publilius Syrus",
-		"birth": -100,
-		"death": -100
-	},
-	{
 		"id": "Q3635215",
 		"name": "Indra Sen",
 		"birth": 1903,
 		"death": 1994
-	},
-	{
-		"id": "Q3635397",
-		"name": "Bartholomew Mastrius",
-		"birth": 1602,
-		"death": 1673
-	},
-	{
-		"id": "Q3638733",
-		"name": "Bernardino Tomitano",
-		"birth": 1517,
-		"death": 1576
-	},
-	{
-		"id": "Q3639370",
-		"name": "Bianca Bianchi",
-		"birth": 1914,
-		"death": 2000
-	},
-	{
-		"id": "Q364456",
-		"name": "Michel Serres",
-		"birth": 1930,
-		"death": 2019
 	},
 	{
 		"id": "Q364975",
@@ -6144,94 +1566,16 @@
 		"death": 1734
 	},
 	{
-		"id": "Q365110",
-		"name": "Philo of Larissa",
-		"birth": -145,
-		"death": -79
-	},
-	{
-		"id": "Q365129",
-		"name": "Arthur Coleman Danto",
-		"birth": 1924,
-		"death": 2013
-	},
-	{
-		"id": "Q365183",
-		"name": "Themistius",
-		"birth": 317,
-		"death": 388
-	},
-	{
-		"id": "Q365557",
-		"name": "Rodolphus Agricola",
-		"birth": 1443,
-		"death": 1485
-	},
-	{
-		"id": "Q365628",
-		"name": "Bonifaty Kedrov",
-		"birth": 1903,
-		"death": 1985
-	},
-	{
 		"id": "Q365695",
 		"name": "Moses of Chorene",
 		"birth": 410,
 		"death": 490
 	},
 	{
-		"id": "Q3659002",
-		"name": "Carlo Antoni",
-		"birth": 1896,
-		"death": 1959
-	},
-	{
-		"id": "Q366031",
-		"name": "Anaxarchus",
-		"birth": -380,
-		"death": -320
-	},
-	{
-		"id": "Q3660738",
-		"name": "Hadi Sabzavari",
-		"birth": 1797,
-		"death": 1873
-	},
-	{
-		"id": "Q366328",
-		"name": "Brunetto Latini",
-		"birth": 1220,
-		"death": 1294
-	},
-	{
-		"id": "Q36761039",
-		"name": "Eva Picardi",
-		"birth": 1948,
-		"death": 2017
-	},
-	{
 		"id": "Q368519",
 		"name": "George MacDonald",
 		"birth": 1824,
 		"death": 1905
-	},
-	{
-		"id": "Q369129",
-		"name": "Dexippus",
-		"birth": 350,
-		"death": 350
-	},
-	{
-		"id": "Q369621",
-		"name": "Thomas Hill Green",
-		"birth": 1836,
-		"death": 1882
-	},
-	{
-		"id": "Q369907",
-		"name": "Syed Abul Ala Maududi",
-		"birth": 1903,
-		"death": 1979
 	},
 	{
 		"id": "Q370389",
@@ -6246,46 +1590,10 @@
 		"death": 1776
 	},
 	{
-		"id": "Q372109",
-		"name": "Nicephorus Gregoras",
-		"birth": 1295,
-		"death": 1360
-	},
-	{
-		"id": "Q3724408",
-		"name": "Emilio Garroni",
-		"birth": 1925,
-		"death": 2005
-	},
-	{
-		"id": "Q3725980",
-		"name": "Enrico Pessina",
-		"birth": 1828,
-		"death": 1916
-	},
-	{
-		"id": "Q372798",
-		"name": "Polus",
-		"birth": -500,
-		"death": -460
-	},
-	{
-		"id": "Q372888",
-		"name": "Clarembald of Arras",
-		"birth": 1110,
-		"death": 1160
-	},
-	{
 		"id": "Q373036",
 		"name": "Claude Lefort",
 		"birth": 1924,
 		"death": 2010
-	},
-	{
-		"id": "Q3732050",
-		"name": "Erminio Troilo",
-		"birth": 1874,
-		"death": 1968
 	},
 	{
 		"id": "Q37327",
@@ -6294,106 +1602,10 @@
 		"death": 1989
 	},
 	{
-		"id": "Q3736354",
-		"name": "Harry Browne",
-		"birth": 1933,
-		"death": 2006
-	},
-	{
-		"id": "Q3737203",
-		"name": "Georgy Shchedrovitsky",
-		"birth": 1929,
-		"death": 1994
-	},
-	{
 		"id": "Q37388",
 		"name": "Francis Bacon",
 		"birth": 1561,
 		"death": 1626
-	},
-	{
-		"id": "Q3742102",
-		"name": "Felice Battaglia",
-		"birth": 1902,
-		"death": 1977
-	},
-	{
-		"id": "Q374362",
-		"name": "Nikolay Ogarev",
-		"birth": 1813,
-		"death": 1877
-	},
-	{
-		"id": "Q3749602",
-		"name": "Francesco Barone",
-		"birth": 1923,
-		"death": 2001
-	},
-	{
-		"id": "Q374965",
-		"name": "Joseph B. Soloveitchik",
-		"birth": 1903,
-		"death": 1993
-	},
-	{
-		"id": "Q3749759",
-		"name": "Francesco Cattani da Diacceto",
-		"birth": 1446,
-		"death": 1522
-	},
-	{
-		"id": "Q3749893",
-		"name": "Francesco De Sarlo",
-		"birth": 1864,
-		"death": 1937
-	},
-	{
-		"id": "Q3750240",
-		"name": "Francesco Maria Spinelli",
-		"birth": 1686,
-		"death": 1752
-	},
-	{
-		"id": "Q3750512",
-		"name": "Francesco Puccinotti",
-		"birth": 1794,
-		"death": 1872
-	},
-	{
-		"id": "Q3754034",
-		"name": "Guido Calogero",
-		"birth": 1904,
-		"death": 1986
-	},
-	{
-		"id": "Q375438",
-		"name": "Fran\u00e7ois Bernier",
-		"birth": 1620,
-		"death": 1688
-	},
-	{
-		"id": "Q3755967",
-		"name": "G\u00e9rard Vergnaud",
-		"birth": 1933,
-		"death": 2021
-	},
-	{
-		"id": "Q3756600",
-		"name": "Gabriele Giannantoni",
-		"birth": 1932,
-		"death": 1998
-	},
-	{
-		"id": "Q376036",
-		"name": "Svetozar Markovi\u0107",
-		"birth": 1846,
-		"death": 1875
-	},
-	{
-		"id": "Q376124",
-		"name": "Petrus Ramus",
-		"birth": 1515,
-		"death": 1572
 	},
 	{
 		"id": "Q37621",
@@ -6402,112 +1614,10 @@
 		"death": 1679
 	},
 	{
-		"id": "Q3765051",
-		"name": "Gioele Solari",
-		"birth": 1872,
-		"death": 1952
-	},
-	{
-		"id": "Q3766049",
-		"name": "Giovan Battista Amico",
-		"birth": 1512,
-		"death": 1538
-	},
-	{
-		"id": "Q3767167",
-		"name": "Giovanni Emanuele Bari\u00e9",
-		"birth": 1894,
-		"death": 1956
-	},
-	{
-		"id": "Q3770770",
-		"name": "Giuseppe La Napola da Trapani",
-		"birth": 1586,
-		"death": 1649
-	},
-	{
-		"id": "Q37735252",
-		"name": "Geoffrey Kneebone",
-		"birth": 1918,
-		"death": 2003
-	},
-	{
-		"id": "Q3774796",
-		"name": "Jos\u00e9 Gaos",
-		"birth": 1900,
-		"death": 1969
-	},
-	{
-		"id": "Q3776494",
-		"name": "Gregorio Caloprese",
-		"birth": 1654,
-		"death": 1715
-	},
-	{
-		"id": "Q3787447",
-		"name": "D. H. Mellor",
-		"birth": 1938,
-		"death": 2020
-	},
-	{
-		"id": "Q379589",
-		"name": "Ananda Coomaraswamy",
-		"birth": 1877,
-		"death": 1947
-	},
-	{
 		"id": "Q379836",
 		"name": "Liang Chi-chao",
 		"birth": 1873,
 		"death": 1929
-	},
-	{
-		"id": "Q379900",
-		"name": "Samuel Alexander",
-		"birth": 1859,
-		"death": 1938
-	},
-	{
-		"id": "Q379902",
-		"name": "David Hartley",
-		"birth": 1705,
-		"death": 1757
-	},
-	{
-		"id": "Q379905",
-		"name": "Asanga",
-		"birth": 300,
-		"death": 301
-	},
-	{
-		"id": "Q379912",
-		"name": "Bernard Mandeville",
-		"birth": 1670,
-		"death": 1733
-	},
-	{
-		"id": "Q380190",
-		"name": "Phaedo of Elis",
-		"birth": -401,
-		"death": -400
-	},
-	{
-		"id": "Q380256",
-		"name": "Nikolay Lossky",
-		"birth": 1870,
-		"death": 1965
-	},
-	{
-		"id": "Q380456",
-		"name": "Edward B. Titchener",
-		"birth": 1867,
-		"death": 1927
-	},
-	{
-		"id": "Q3805962",
-		"name": "Jacopo da Forl\u00ec",
-		"birth": 1364,
-		"death": 1414
 	},
 	{
 		"id": "Q38082",
@@ -6516,34 +1626,10 @@
 		"death": 1898
 	},
 	{
-		"id": "Q3810237",
-		"name": "Joseph LeConte",
-		"birth": 1823,
-		"death": 1901
-	},
-	{
-		"id": "Q381048",
-		"name": "Stilpo",
-		"birth": -359,
-		"death": -279
-	},
-	{
 		"id": "Q381211",
 		"name": "Gennadius Scholarius",
 		"birth": 1400,
 		"death": 1473
-	},
-	{
-		"id": "Q381256",
-		"name": "Lucian Blaga",
-		"birth": 1895,
-		"death": 1961
-	},
-	{
-		"id": "Q3816658",
-		"name": "Ralph of Longchamp",
-		"birth": 1155,
-		"death": 1215
 	},
 	{
 		"id": "Q381710",
@@ -6552,64 +1638,10 @@
 		"death": 1022
 	},
 	{
-		"id": "Q381720",
-		"name": "Jan Pato\u010dka",
-		"birth": 1907,
-		"death": 1977
-	},
-	{
-		"id": "Q3817456",
-		"name": "Andrew Seth Pringle-Pattison",
-		"birth": 1856,
-		"death": 1931
-	},
-	{
-		"id": "Q3817476",
-		"name": "John Cook Wilson",
-		"birth": 1849,
-		"death": 1915
-	},
-	{
-		"id": "Q381765",
-		"name": "Theodoros the Atheist",
-		"birth": -340,
-		"death": -250
-	},
-	{
-		"id": "Q381848",
-		"name": "Patrick Geddes",
-		"birth": 1854,
-		"death": 1932
-	},
-	{
-		"id": "Q381874",
-		"name": "Gaius Musonius Rufus",
-		"birth": 25,
-		"death": 95
-	},
-	{
 		"id": "Q38193",
 		"name": "Arthur Schopenhauer",
 		"birth": 1788,
 		"death": 1860
-	},
-	{
-		"id": "Q381994",
-		"name": "Kazimierz Twardowski",
-		"birth": 1866,
-		"death": 1938
-	},
-	{
-		"id": "Q38218402",
-		"name": "Girolamo Bardi",
-		"birth": 1603,
-		"death": 1667
-	},
-	{
-		"id": "Q38221086",
-		"name": "Rudolf Christian Wagner",
-		"birth": 1671,
-		"death": 1741
 	},
 	{
 		"id": "Q3825797",
@@ -6618,28 +1650,10 @@
 		"death": 1499
 	},
 	{
-		"id": "Q382582",
-		"name": "Maine de Biran",
-		"birth": 1766,
-		"death": 1824
-	},
-	{
-		"id": "Q382785",
-		"name": "Corax of Syracuse",
-		"birth": -500,
-		"death": -500
-	},
-	{
 		"id": "Q3838517",
 		"name": "Luciano Anceschi",
 		"birth": 1911,
 		"death": 1995
-	},
-	{
-		"id": "Q384263",
-		"name": "Barlaam of Seminara",
-		"birth": 1290,
-		"death": 1348
 	},
 	{
 		"id": "Q384522",
@@ -6648,130 +1662,10 @@
 		"death": 2001
 	},
 	{
-		"id": "Q3845887",
-		"name": "Marcantonio Genua",
-		"birth": 1491,
-		"death": 1563
-	},
-	{
-		"id": "Q384647",
-		"name": "Motoori Norinaga",
-		"birth": 1730,
-		"death": 1801
-	},
-	{
-		"id": "Q3848492",
-		"name": "Mario Dal Pra",
-		"birth": 1914,
-		"death": 1992
-	},
-	{
-		"id": "Q3850939",
-		"name": "Fernando Gonz\u00e1lez",
-		"birth": 1895,
-		"death": 1964
-	},
-	{
-		"id": "Q385213",
-		"name": "Prohaeresius",
-		"birth": 276,
-		"death": 368
-	},
-	{
-		"id": "Q385790",
-		"name": "African Spir",
-		"birth": 1837,
-		"death": 1890
-	},
-	{
-		"id": "Q386261",
-		"name": "Lacydes of Cyrene",
-		"birth": -300,
-		"death": -205
-	},
-	{
-		"id": "Q3863186",
-		"name": "Morris Raphael Cohen",
-		"birth": 1880,
-		"death": 1947
-	},
-	{
-		"id": "Q3876122",
-		"name": "Nicola Badaloni",
-		"birth": 1924,
-		"death": 2005
-	},
-	{
-		"id": "Q3876500",
-		"name": "Nicoletto Vernia",
-		"birth": 1420,
-		"death": 1499
-	},
-	{
-		"id": "Q38873",
-		"name": "Lou Andreas-Salom\u00e9",
-		"birth": 1861,
-		"death": 1937
-	},
-	{
-		"id": "Q3897695",
-		"name": "Patricia Bergquist",
-		"birth": 1933,
-		"death": 2009
-	},
-	{
-		"id": "Q390501",
-		"name": "Agapius",
-		"birth": 500,
-		"death": 600
-	},
-	{
-		"id": "Q392835",
-		"name": "Shah Waliullah Dehlawi",
-		"birth": 1703,
-		"death": 1762
-	},
-	{
-		"id": "Q394628",
-		"name": "Raymond Williams",
-		"birth": 1921,
-		"death": 1988
-	},
-	{
-		"id": "Q3953764",
-		"name": "Sebastiano Maturi",
-		"birth": 1843,
-		"death": 1917
-	},
-	{
-		"id": "Q3956192",
-		"name": "Sergio Moravia",
-		"birth": 1940,
-		"death": 2020
-	},
-	{
-		"id": "Q395689",
-		"name": "Agostino Nifo",
-		"birth": 1473,
-		"death": 1538
-	},
-	{
 		"id": "Q39837",
 		"name": "Averroes",
 		"birth": 1126,
 		"death": 1198
-	},
-	{
-		"id": "Q3991387",
-		"name": "Timagoras of Gela",
-		"birth": -350,
-		"death": -300
-	},
-	{
-		"id": "Q4007748",
-		"name": "Valentino Gerratana",
-		"birth": 1916,
-		"death": 2000
 	},
 	{
 		"id": "Q400887",
@@ -6780,88 +1674,16 @@
 		"death": 1826
 	},
 	{
-		"id": "Q4015296",
-		"name": "Vittorio Beonio Brocchieri",
-		"birth": 1902,
-		"death": 1979
-	},
-	{
-		"id": "Q4015437",
-		"name": "Vittorio Mathieu",
-		"birth": 1923,
-		"death": 2020
-	},
-	{
-		"id": "Q4026982",
-		"name": "Arsen Iqaltoeli",
-		"birth": 1050,
-		"death": 1127
-	},
-	{
-		"id": "Q402807",
-		"name": "Baha ud-Din Walad",
-		"birth": 1148,
-		"death": 1230
-	},
-	{
 		"id": "Q404023",
 		"name": "Aedesius",
 		"birth": 280,
 		"death": 355
 	},
 	{
-		"id": "Q4061710",
-		"name": "Nikolay Alekseyev",
-		"birth": 1879,
-		"death": 1964
-	},
-	{
-		"id": "Q4064478",
-		"name": "Aleksandr Amosov",
-		"birth": 1948,
-		"death": 1996
-	},
-	{
-		"id": "Q4073006",
-		"name": "Aleksandr Akhmanov",
-		"birth": 1893,
-		"death": 1957
-	},
-	{
-		"id": "Q4083668",
-		"name": "Yosef Ben Shlomo",
-		"birth": 1930,
-		"death": 2007
-	},
-	{
-		"id": "Q4094992",
-		"name": "Valery Alekseievich Bosenko",
-		"birth": 1927,
-		"death": 2007
-	},
-	{
-		"id": "Q409647",
-		"name": "Aeschines of Sphettus",
-		"birth": -430,
-		"death": -360
-	},
-	{
-		"id": "Q4097652",
-		"name": "Nicolai von Bubnov",
-		"birth": 1880,
-		"death": 1962
-	},
-	{
-		"id": "Q4113335",
-		"name": "M. Vladislavlev",
-		"birth": 1840,
-		"death": 1890
-	},
-	{
-		"id": "Q4115307",
-		"name": "Al-Jubba'i",
-		"birth": 849,
-		"death": 915
+		"id": "Q404779",
+		"name": "David Miller",
+		"birth": 1942,
+		"death": 2024
 	},
 	{
 		"id": "Q41155",
@@ -6876,106 +1698,10 @@
 		"death": 992
 	},
 	{
-		"id": "Q4116338",
-		"name": "Mir Fendereski",
-		"birth": 1562,
-		"death": 1640
-	},
-	{
-		"id": "Q41166",
-		"name": "Jonathan Swift",
-		"birth": 1667,
-		"death": 1745
-	},
-	{
-		"id": "Q4117210",
-		"name": "Ahmad ibn al-Tayyib al-Sarakhsi",
-		"birth": 833,
-		"death": 899
-	},
-	{
-		"id": "Q4120523",
-		"name": "Hassan Hassanzadeh Amoli",
-		"birth": 1926,
-		"death": 2021
-	},
-	{
-		"id": "Q4122804",
-		"name": "Yevgeny Kazimirovich Voyshvillo",
-		"birth": 1913,
-		"death": 2008
-	},
-	{
-		"id": "Q41257",
-		"name": "Heinrich Hertz",
-		"birth": 1857,
-		"death": 1894
-	},
-	{
-		"id": "Q4125928",
-		"name": "Orotnets\u02bbi Hovhann\u0113s, Vardapet",
-		"birth": 1315,
-		"death": 1386
-	},
-	{
-		"id": "Q4129997",
-		"name": "Boris Vysheslavtsev",
-		"birth": 1877,
-		"death": 1954
-	},
-	{
-		"id": "Q4131970",
-		"name": "Piama Ga\u00efdenko",
-		"birth": 1934,
-		"death": 2021
-	},
-	{
-		"id": "Q4134523",
-		"name": "Dzhermen Gvishiani",
-		"birth": 1928,
-		"death": 2003
-	},
-	{
-		"id": "Q4135222",
-		"name": "Alexander Gendin",
-		"birth": 1930,
-		"death": 2015
-	},
-	{
-		"id": "Q41390",
-		"name": "Kurt G\u00f6del",
-		"birth": 1906,
-		"death": 1978
-	},
-	{
-		"id": "Q41476",
-		"name": "Hans Driesch",
-		"birth": 1867,
-		"death": 1941
-	},
-	{
-		"id": "Q4150348",
-		"name": "Nikola\u00ef Grot",
-		"birth": 1852,
-		"death": 1899
-	},
-	{
 		"id": "Q41513",
 		"name": "William Blake",
 		"birth": 1757,
 		"death": 1827
-	},
-	{
-		"id": "Q41523",
-		"name": "Plutarch",
-		"birth": 40,
-		"death": 120
-	},
-	{
-		"id": "Q4152308",
-		"name": "Pavel Gurevich",
-		"birth": 1933,
-		"death": 2018
 	},
 	{
 		"id": "Q41532",
@@ -6990,124 +1716,16 @@
 		"death": 1592
 	},
 	{
-		"id": "Q41585",
-		"name": "David Hilbert",
-		"birth": 1862,
-		"death": 1943
-	},
-	{
 		"id": "Q41590",
 		"name": "Mircea Eliade",
 		"birth": 1907,
 		"death": 1986
 	},
 	{
-		"id": "Q4162777",
-		"name": "Sergey Dmitriyev",
-		"birth": 1906,
-		"death": 1991
-	},
-	{
-		"id": "Q4170493",
-		"name": "E. K. Duluman",
-		"birth": 1928,
-		"death": 2013
-	},
-	{
-		"id": "Q4178491",
-		"name": "Yuri Zhdanov",
-		"birth": 1919,
-		"death": 2006
-	},
-	{
-		"id": "Q4180366",
-		"name": "Edwin Holt",
-		"birth": 1873,
-		"death": 1946
-	},
-	{
-		"id": "Q4184356",
-		"name": "Aleksandr Zaytsev",
-		"birth": 1926,
-		"death": 2000
-	},
-	{
-		"id": "Q4196862",
-		"name": "Galina Ivanchenko",
-		"birth": 1965,
-		"death": 2009
-	},
-	{
-		"id": "Q41980",
-		"name": "Democritus",
-		"birth": -460,
-		"death": -360
-	},
-	{
-		"id": "Q4200625",
-		"name": "Daniel H. H. Ingalls, Sr.",
-		"birth": 1916,
-		"death": 1999
-	},
-	{
 		"id": "Q42063",
 		"name": "Xuanzang",
 		"birth": 602,
 		"death": 664
-	},
-	{
-		"id": "Q4207106",
-		"name": "Moisey Kagan",
-		"birth": 1921,
-		"death": 2006
-	},
-	{
-		"id": "Q4211362",
-		"name": "Zakhar Kamensky",
-		"birth": 1915,
-		"death": 1999
-	},
-	{
-		"id": "Q4212652",
-		"name": "Igor Jakovlevitsj Kanterov",
-		"birth": 1938,
-		"death": 2018
-	},
-	{
-		"id": "Q42156",
-		"name": "Henri Bergson",
-		"birth": 1859,
-		"death": 1941
-	},
-	{
-		"id": "Q4225395",
-		"name": "Valery Kovalenko",
-		"birth": 1939,
-		"death": 2018
-	},
-	{
-		"id": "Q4225527",
-		"name": "Ivan Kovalchenko",
-		"birth": 1923,
-		"death": 1995
-	},
-	{
-		"id": "Q4226680",
-		"name": "Aleksei Aleksandrovich Kozlov",
-		"birth": 1831,
-		"death": 1901
-	},
-	{
-		"id": "Q4232349",
-		"name": "Pawel Vasilievich Kopnin",
-		"birth": 1922,
-		"death": 1971
-	},
-	{
-		"id": "Q4235165",
-		"name": "Richard Kosolapov",
-		"birth": 1930,
-		"death": 2020
 	},
 	{
 		"id": "Q4245051",
@@ -7122,52 +1740,10 @@
 		"death": -547
 	},
 	{
-		"id": "Q4252545",
-		"name": "Iosaf Semenovich Ladenko",
-		"birth": 1933,
-		"death": 1996
-	},
-	{
-		"id": "Q4254197",
-		"name": "Nikolay Lapin",
-		"birth": 1931,
-		"death": 2021
-	},
-	{
-		"id": "Q4266616",
-		"name": "Lev Lopatin",
-		"birth": 1855,
-		"death": 1920
-	},
-	{
-		"id": "Q4289037",
-		"name": "Aleksandr Meyer",
-		"birth": 1874,
-		"death": 1939
-	},
-	{
 		"id": "Q4295",
 		"name": "Peter Abelard",
 		"birth": 1079,
 		"death": 1142
-	},
-	{
-		"id": "Q4296054",
-		"name": "Vladimir Mironov",
-		"birth": 1953,
-		"death": 2020
-	},
-	{
-		"id": "Q4296849",
-		"name": "Lev Mitrokhin",
-		"birth": 1930,
-		"death": 2005
-	},
-	{
-		"id": "Q4304936",
-		"name": "Nelli Motroshilova",
-		"birth": 1934,
-		"death": 2021
 	},
 	{
 		"id": "Q4313",
@@ -7176,28 +1752,10 @@
 		"death": 1202
 	},
 	{
-		"id": "Q4316594",
-		"name": "Pavel Nekrasov",
-		"birth": 1853,
-		"death": 1924
-	},
-	{
 		"id": "Q43182",
 		"name": "Eratosthenes",
 		"birth": -276,
 		"death": -194
-	},
-	{
-		"id": "Q4319613",
-		"name": "P. F. Nikandrov",
-		"birth": 1923,
-		"death": 1975
-	},
-	{
-		"id": "Q432077",
-		"name": "Fran\u00e7ois Douaren",
-		"birth": 1509,
-		"death": 1559
 	},
 	{
 		"id": "Q43216",
@@ -7212,58 +1770,10 @@
 		"death": 1924
 	},
 	{
-		"id": "Q4326996",
-		"name": "Oleg Nogovitsyn",
-		"birth": 1955,
-		"death": 2019
-	},
-	{
-		"id": "Q432730",
-		"name": "Daniel Bensa\u00efd",
-		"birth": 1946,
-		"death": 2010
-	},
-	{
-		"id": "Q433076",
-		"name": "Henry Sidgwick",
-		"birth": 1838,
-		"death": 1900
-	},
-	{
-		"id": "Q4330851",
-		"name": "Mikhail Ovsyannikov",
-		"birth": 1915,
-		"death": 1987
-	},
-	{
 		"id": "Q43347",
 		"name": "Rumi",
 		"birth": 1207,
 		"death": 1273
-	},
-	{
-		"id": "Q433741",
-		"name": "Georges Canguilhem",
-		"birth": 1904,
-		"death": 1995
-	},
-	{
-		"id": "Q43393",
-		"name": "Robert Boyle",
-		"birth": 1627,
-		"death": 1691
-	},
-	{
-		"id": "Q43409724",
-		"name": "Robert Damien",
-		"birth": 1949,
-		"death": 2017
-	},
-	{
-		"id": "Q434203",
-		"name": "Diogenes of Babylon",
-		"birth": -240,
-		"death": -150
 	},
 	{
 		"id": "Q43423",
@@ -7278,40 +1788,10 @@
 		"death": 1947
 	},
 	{
-		"id": "Q434346",
-		"name": "Victor Cousin",
-		"birth": 1792,
-		"death": 1867
-	},
-	{
-		"id": "Q434356",
-		"name": "Manuel Chrysoloras",
-		"birth": 1355,
-		"death": 1415
-	},
-	{
-		"id": "Q434773",
-		"name": "Crantor",
-		"birth": -344,
-		"death": -275
-	},
-	{
 		"id": "Q43499",
 		"name": "Erasmus",
 		"birth": 1466,
 		"death": 1536
-	},
-	{
-		"id": "Q435006",
-		"name": "Berengar of Tours",
-		"birth": 990,
-		"death": 1088
-	},
-	{
-		"id": "Q4352000",
-		"name": "Jason of Nysa",
-		"birth": -100,
-		"death": -60
 	},
 	{
 		"id": "Q435300",
@@ -7320,76 +1800,16 @@
 		"death": 1597
 	},
 	{
-		"id": "Q436634",
-		"name": "Cassius Longinus",
-		"birth": 213,
-		"death": 273
-	},
-	{
 		"id": "Q43689",
 		"name": "Ambrose",
 		"birth": 339,
 		"death": 397
 	},
 	{
-		"id": "Q4372587",
-		"name": "Pavel Popov",
-		"birth": 1892,
-		"death": 1964
-	},
-	{
-		"id": "Q437332",
-		"name": "Cleomenes the Cynic",
-		"birth": -300,
-		"death": -300
-	},
-	{
-		"id": "Q43746",
-		"name": "Bonaventure",
-		"birth": 1221,
-		"death": 1274
-	},
-	{
-		"id": "Q437876",
-		"name": "Hegesias of Cyrene",
-		"birth": -400,
-		"death": -300
-	},
-	{
-		"id": "Q437943",
-		"name": "Ruth Barcan Marcus",
-		"birth": 1921,
-		"death": 2012
-	},
-	{
-		"id": "Q4386708",
-		"name": "Vadim Rabinovich",
-		"birth": 1935,
-		"death": 2013
-	},
-	{
-		"id": "Q4387966",
-		"name": "Yakov Radul-Zatulovsky",
-		"birth": 1903,
-		"death": 1987
-	},
-	{
-		"id": "Q439143",
-		"name": "Gillian Rose",
-		"birth": 1947,
-		"death": 1995
-	},
-	{
-		"id": "Q439195",
-		"name": "Andr\u00e9s Bello",
-		"birth": 1781,
-		"death": 1865
-	},
-	{
-		"id": "Q43936",
-		"name": "William of Ockham",
-		"birth": 1285,
-		"death": 1349
+		"id": "Q438839",
+		"name": "Aleksandr Dugin",
+		"birth": 1962,
+		"death": 2024
 	},
 	{
 		"id": "Q43939",
@@ -7398,46 +1818,10 @@
 		"death": 1109
 	},
 	{
-		"id": "Q4396201",
-		"name": "Yuri Rozhdestvensky",
-		"birth": 1926,
-		"death": 1999
-	},
-	{
 		"id": "Q44011",
 		"name": "Gregory of Nazianzus",
 		"birth": 329,
 		"death": 389
-	},
-	{
-		"id": "Q4402242",
-		"name": "Andreas R\u00fcdiger",
-		"birth": 1673,
-		"death": 1731
-	},
-	{
-		"id": "Q441066",
-		"name": "Julius Caesar Scaliger",
-		"birth": 1484,
-		"death": 1558
-	},
-	{
-		"id": "Q441178",
-		"name": "Raymond Smullyan",
-		"birth": 1919,
-		"death": 2017
-	},
-	{
-		"id": "Q4413029",
-		"name": "Vasily Seseman",
-		"birth": 1884,
-		"death": 1963
-	},
-	{
-		"id": "Q441382",
-		"name": "Christine Ladd-Franklin",
-		"birth": 1847,
-		"death": 1930
 	},
 	{
 		"id": "Q441590",
@@ -7446,22 +1830,10 @@
 		"death": 362
 	},
 	{
-		"id": "Q4423223",
-		"name": "David Hartman",
-		"birth": 1931,
-		"death": 2013
-	},
-	{
 		"id": "Q44258",
 		"name": "Basil of Caesarea",
 		"birth": 329,
 		"death": 379
-	},
-	{
-		"id": "Q4427122",
-		"name": "Vasily Vasilievich Sokolov",
-		"birth": 1919,
-		"death": 2017
 	},
 	{
 		"id": "Q44272",
@@ -7470,10 +1842,10 @@
 		"death": 1984
 	},
 	{
-		"id": "Q44344",
-		"name": "Hilary of Poitiers",
-		"birth": 315,
-		"death": 367
+		"id": "Q44461",
+		"name": "Richard Dawkins",
+		"birth": 1941,
+		"death": 2024
 	},
 	{
 		"id": "Q44481",
@@ -7494,70 +1866,10 @@
 		"death": 2020
 	},
 	{
-		"id": "Q44601",
-		"name": "Francesco Guicciardini",
-		"birth": 1483,
-		"death": 1540
-	},
-	{
-		"id": "Q4463478",
-		"name": "Matvey Troitskiy",
-		"birth": 1835,
-		"death": 1899
-	},
-	{
-		"id": "Q4464173",
-		"name": "Sergey Trubetskoy",
-		"birth": 1890,
-		"death": 1949
-	},
-	{
-		"id": "Q446656",
-		"name": "Richard of Middleton",
-		"birth": 1249,
-		"death": 1302
-	},
-	{
-		"id": "Q4467048",
-		"name": "Anna-Teresa Tymieniecka",
-		"birth": 1923,
-		"death": 2014
-	},
-	{
-		"id": "Q447476",
-		"name": "Onesikritos",
-		"birth": -360,
-		"death": -290
-	},
-	{
-		"id": "Q4479885",
-		"name": "Avenir Uyomov",
-		"birth": 1928,
-		"death": 2012
-	},
-	{
 		"id": "Q448",
 		"name": "Denis Diderot",
 		"birth": 1713,
 		"death": 1784
-	},
-	{
-		"id": "Q44847",
-		"name": "D. T. Suzuki",
-		"birth": 1870,
-		"death": 1966
-	},
-	{
-		"id": "Q44872",
-		"name": "Romano Guardini",
-		"birth": 1885,
-		"death": 1968
-	},
-	{
-		"id": "Q4492267",
-		"name": "B. A. Fokht",
-		"birth": 1875,
-		"death": 1946
 	},
 	{
 		"id": "Q449538",
@@ -7566,40 +1878,10 @@
 		"death": 2006
 	},
 	{
-		"id": "Q45013",
-		"name": "Axiothea of Phlius",
-		"birth": -400,
-		"death": -400
-	},
-	{
-		"id": "Q4506083",
-		"name": "Arnold Tsofnas",
-		"birth": 1937,
-		"death": 2014
-	},
-	{
-		"id": "Q450821",
-		"name": "Tanya Reinhart",
-		"birth": 1943,
-		"death": 2007
-	},
-	{
 		"id": "Q45125",
 		"name": "Kitar\u014d Nishida",
 		"birth": 1870,
 		"death": 1945
-	},
-	{
-		"id": "Q451550",
-		"name": "Philodemus",
-		"birth": -110,
-		"death": -35
-	},
-	{
-		"id": "Q452077",
-		"name": "Menippus",
-		"birth": -300,
-		"death": -260
 	},
 	{
 		"id": "Q452091",
@@ -7608,58 +1890,10 @@
 		"death": 1752
 	},
 	{
-		"id": "Q452116",
-		"name": "Julia Hall Bowman Robinson",
-		"birth": 1919,
-		"death": 1985
-	},
-	{
-		"id": "Q4521283",
-		"name": "Mikhail Shakhnovich",
-		"birth": 1911,
-		"death": 1992
-	},
-	{
-		"id": "Q452797",
-		"name": "Marta Harnecker",
-		"birth": 1937,
-		"death": 2019
-	},
-	{
-		"id": "Q4529089",
-		"name": "Ivan Shchipanov",
-		"birth": 1904,
-		"death": 1983
-	},
-	{
-		"id": "Q4533461",
-		"name": "You Ruo",
-		"birth": -518,
-		"death": -458
-	},
-	{
-		"id": "Q453365",
-		"name": "Amalric of Bena",
-		"birth": 1150,
-		"death": 1206
-	},
-	{
 		"id": "Q454802",
 		"name": "Ernesto Laclau",
 		"birth": 1935,
 		"death": 2014
-	},
-	{
-		"id": "Q455406",
-		"name": "Gemma Frisius",
-		"birth": 1508,
-		"death": 1555
-	},
-	{
-		"id": "Q456301",
-		"name": "Cha\u00efm Perelman",
-		"birth": 1912,
-		"death": 1984
 	},
 	{
 		"id": "Q456963",
@@ -7668,76 +1902,16 @@
 		"death": 650
 	},
 	{
-		"id": "Q457950",
-		"name": "Raimon Panikkar",
-		"birth": 1918,
-		"death": 2010
-	},
-	{
-		"id": "Q457968",
-		"name": "Alexander of Hales",
-		"birth": 1175,
-		"death": 1245
-	},
-	{
-		"id": "Q457986",
-		"name": "Bernardino Telesio",
-		"birth": 1509,
-		"death": 1588
-	},
-	{
-		"id": "Q458108",
-		"name": "Apion",
-		"birth": -20,
-		"death": 45
-	},
-	{
-		"id": "Q45936",
-		"name": "Strabo",
-		"birth": -64,
-		"death": 23
-	},
-	{
-		"id": "Q460075",
-		"name": "Isabel Paterson",
-		"birth": 1886,
-		"death": 1961
-	},
-	{
 		"id": "Q4604",
 		"name": "Confucius",
 		"birth": -552,
 		"death": -479
 	},
 	{
-		"id": "Q461007",
-		"name": "Eubulides",
-		"birth": -500,
-		"death": -400
-	},
-	{
-		"id": "Q461067",
-		"name": "Pantaenus",
-		"birth": 200,
-		"death": 216
-	},
-	{
-		"id": "Q4622",
-		"name": "Francesco Filelfo",
-		"birth": 1398,
-		"death": 1481
-	},
-	{
 		"id": "Q463151",
 		"name": "Pierre Clastres",
 		"birth": 1934,
 		"death": 1977
-	},
-	{
-		"id": "Q463307",
-		"name": "Bjarni J\u00f3nsson",
-		"birth": 1920,
-		"death": 2016
 	},
 	{
 		"id": "Q463405",
@@ -7758,58 +1932,10 @@
 		"death": 1240
 	},
 	{
-		"id": "Q465763",
-		"name": "Salomon Maimon",
-		"birth": 1754,
-		"death": 1800
-	},
-	{
-		"id": "Q466026",
-		"name": "Susanne Langer",
-		"birth": 1895,
-		"death": 1985
-	},
-	{
-		"id": "Q466951",
-		"name": "Clitomachus",
-		"birth": -187,
-		"death": -110
-	},
-	{
 		"id": "Q467015",
 		"name": "Henry Corbin",
 		"birth": 1903,
 		"death": 1978
-	},
-	{
-		"id": "Q467525",
-		"name": "Nel Noddings",
-		"birth": 1929,
-		"death": 2022
-	},
-	{
-		"id": "Q467616",
-		"name": "Arai Hakuseki",
-		"birth": 1657,
-		"death": 1725
-	},
-	{
-		"id": "Q467668",
-		"name": "Louis Lavelle",
-		"birth": 1883,
-		"death": 1951
-	},
-	{
-		"id": "Q4680059",
-		"name": "Adam de Wodeham",
-		"birth": 1298,
-		"death": 1358
-	},
-	{
-		"id": "Q468097",
-		"name": "D\u00e9sir\u00e9 Mercier",
-		"birth": 1851,
-		"death": 1926
 	},
 	{
 		"id": "Q46830",
@@ -7818,34 +1944,16 @@
 		"death": 1703
 	},
 	{
-		"id": "Q468473",
-		"name": "Gustave de Molinari",
-		"birth": 1819,
-		"death": 1912
-	},
-	{
-		"id": "Q4684778",
-		"name": "Adriaan Heereboord",
-		"birth": 1614,
-		"death": 1661
-	},
-	{
-		"id": "Q470453",
-		"name": "Merab Mamardashvili",
-		"birth": 1930,
-		"death": 1990
-	},
-	{
-		"id": "Q47087962",
-		"name": "Roger Martin",
-		"birth": 1920,
-		"death": 1979
-	},
-	{
 		"id": "Q470890",
 		"name": "Harold Laski",
 		"birth": 1893,
 		"death": 1950
+	},
+	{
+		"id": "Q471041",
+		"name": "Seyyed Hossein Nasr",
+		"birth": 1933,
+		"death": 2024
 	},
 	{
 		"id": "Q471046",
@@ -7854,70 +1962,16 @@
 		"death": 1935
 	},
 	{
-		"id": "Q471260",
-		"name": "Josiah Royce",
-		"birth": 1855,
-		"death": 1916
-	},
-	{
-		"id": "Q471523",
-		"name": "Francesco de Sanctis",
-		"birth": 1817,
-		"death": 1883
-	},
-	{
 		"id": "Q47154",
 		"name": "Lucretius",
 		"birth": -94,
 		"death": -55
 	},
 	{
-		"id": "Q4718531",
-		"name": "Alexander Campbell Fraser",
-		"birth": 1819,
-		"death": 1914
-	},
-	{
-		"id": "Q47208",
-		"name": "Louis-Claude de Saint-Martin",
-		"birth": 1743,
-		"death": 1803
-	},
-	{
-		"id": "Q4723003",
-		"name": "Alfred Kastil",
-		"birth": 1874,
-		"death": 1950
-	},
-	{
-		"id": "Q4725710",
-		"name": "Alice Ambrose",
-		"birth": 1906,
-		"death": 2001
-	},
-	{
-		"id": "Q472671",
-		"name": "G\u00e9rard Encausse",
-		"birth": 1865,
-		"death": 1916
-	},
-	{
-		"id": "Q472676",
-		"name": "Stephen Toulmin",
-		"birth": 1922,
-		"death": 2009
-	},
-	{
-		"id": "Q473038",
-		"name": "Richard Congreve",
-		"birth": 1818,
-		"death": 1899
-	},
-	{
-		"id": "Q473381",
-		"name": "Ammonius of Athens",
-		"birth": 50,
-		"death": 100
+		"id": "Q4734342",
+		"name": "Alon Harel",
+		"birth": 1957,
+		"death": 2024
 	},
 	{
 		"id": "Q473773",
@@ -7926,22 +1980,10 @@
 		"death": 1963
 	},
 	{
-		"id": "Q474107",
-		"name": "Pierre Aubenque",
-		"birth": 1929,
-		"death": 2020
-	},
-	{
 		"id": "Q47434",
 		"name": "Edmond Halley",
 		"birth": 1656,
 		"death": 1742
-	},
-	{
-		"id": "Q47469059",
-		"name": "Francesco Dal Pozzo",
-		"birth": 1490,
-		"death": 1490
 	},
 	{
 		"id": "Q47478",
@@ -7950,46 +1992,16 @@
 		"death": 1902
 	},
 	{
-		"id": "Q47493669",
-		"name": "Jes\u00fas Garc\u00eda L\u00f3pez",
-		"birth": 1924,
-		"death": 2005
-	},
-	{
-		"id": "Q47546043",
-		"name": "Peter Menzies",
+		"id": "Q4765569",
+		"name": "Anita L. Allen",
 		"birth": 1953,
-		"death": 2015
-	},
-	{
-		"id": "Q4759606",
-		"name": "Andrzej Grzegorczyk",
-		"birth": 1922,
-		"death": 2014
+		"death": 2024
 	},
 	{
 		"id": "Q47667",
 		"name": "Hu Shih",
 		"birth": 1891,
 		"death": 1962
-	},
-	{
-		"id": "Q47695",
-		"name": "Rudolf Christoph Eucken",
-		"birth": 1846,
-		"death": 1926
-	},
-	{
-		"id": "Q47739",
-		"name": "Zhuangzi",
-		"birth": -369,
-		"death": -288
-	},
-	{
-		"id": "Q481384",
-		"name": "Ebn Meskavayh",
-		"birth": 932,
-		"death": 1030
 	},
 	{
 		"id": "Q48226",
@@ -8016,28 +2028,10 @@
 		"death": 1938
 	},
 	{
-		"id": "Q485247",
-		"name": "Uchimura Kanz\u014d",
-		"birth": 1861,
-		"death": 1930
-	},
-	{
-		"id": "Q486283",
-		"name": "Jo Gwang-jo",
-		"birth": 1482,
-		"death": 1520
-	},
-	{
 		"id": "Q486291",
 		"name": "Yi Hwang",
 		"birth": 1501,
 		"death": 1570
-	},
-	{
-		"id": "Q48644785",
-		"name": "Yury Borunkov",
-		"birth": 1926,
-		"death": 2006
 	},
 	{
 		"id": "Q486945",
@@ -8046,22 +2040,10 @@
 		"death": 100
 	},
 	{
-		"id": "Q4887305",
-		"name": "Benedict Pereira",
-		"birth": 1535,
-		"death": 1610
-	},
-	{
 		"id": "Q49325",
 		"name": "Albert Schweitzer",
 		"birth": 1875,
 		"death": 1965
-	},
-	{
-		"id": "Q4933403",
-		"name": "Bob Meyer",
-		"birth": 1932,
-		"death": 2009
 	},
 	{
 		"id": "Q495259",
@@ -8070,34 +2052,10 @@
 		"death": 1763
 	},
 	{
-		"id": "Q496850",
-		"name": "Ren\u00e9 Gu\u00e9non",
-		"birth": 1886,
-		"death": 1951
-	},
-	{
-		"id": "Q49698",
-		"name": "Johann Alexander D\u00f6derlein",
-		"birth": 1675,
-		"death": 1745
-	},
-	{
-		"id": "Q5000848",
-		"name": "Burton Dreben",
-		"birth": 1927,
-		"death": 1999
-	},
-	{
 		"id": "Q50020",
 		"name": "John Stuart Mill",
 		"birth": 1806,
 		"death": 1873
-	},
-	{
-		"id": "Q50144153",
-		"name": "Nicoletta Tirinnanzi",
-		"birth": 1964,
-		"death": 2012
 	},
 	{
 		"id": "Q503017",
@@ -8106,124 +2064,10 @@
 		"death": 2021
 	},
 	{
-		"id": "Q503075",
-		"name": "Crates of Mallus",
-		"birth": -200,
-		"death": -145
-	},
-	{
-		"id": "Q504753",
-		"name": "Arthur Oncken Lovejoy",
-		"birth": 1873,
-		"death": 1962
-	},
-	{
-		"id": "Q505296",
-		"name": "Nikos Poulantzas",
-		"birth": 1936,
-		"death": 1979
-	},
-	{
-		"id": "Q507014",
-		"name": "Paul Virilio",
-		"birth": 1932,
-		"death": 2018
-	},
-	{
-		"id": "Q507036",
-		"name": "Lucius Annaeus Cornutus",
-		"birth": 10,
-		"death": 80
-	},
-	{
-		"id": "Q511513",
-		"name": "Jakob von Uexk\u00fcll",
-		"birth": 1864,
-		"death": 1944
-	},
-	{
-		"id": "Q5129084",
-		"name": "Claude Zilberberg",
-		"birth": 1938,
-		"death": 2018
-	},
-	{
-		"id": "Q513159",
-		"name": "Jean Henri van Swinden",
-		"birth": 1746,
-		"death": 1823
-	},
-	{
-		"id": "Q513448",
-		"name": "Lucien Goldmann",
-		"birth": 1913,
-		"death": 1970
-	},
-	{
-		"id": "Q515319",
-		"name": "Andrzej Mostowski",
-		"birth": 1913,
-		"death": 1975
-	},
-	{
-		"id": "Q515633",
-		"name": "Jean Cavaill\u00e8s",
-		"birth": 1903,
-		"death": 1944
-	},
-	{
-		"id": "Q518827",
-		"name": "Andr\u00e9 Gill",
-		"birth": 1840,
-		"death": 1885
-	},
-	{
-		"id": "Q51954763",
-		"name": "Monette Martinet",
-		"birth": 1915,
-		"death": 2011
-	},
-	{
-		"id": "Q520726",
-		"name": "Juli\u00e1n Mar\u00edas",
-		"birth": 1914,
-		"death": 2005
-	},
-	{
-		"id": "Q520851",
-		"name": "Gy\u00f6rgy Bretter",
-		"birth": 1932,
-		"death": 1977
-	},
-	{
-		"id": "Q523113",
-		"name": "Bernard Silvestris",
-		"birth": 1085,
-		"death": 1160
-	},
-	{
-		"id": "Q5235831",
-		"name": "David Kalupahana",
-		"birth": 1936,
-		"death": 2014
-	},
-	{
-		"id": "Q523923",
-		"name": "Julius Pomponius Laetus",
-		"birth": 1428,
-		"death": 1498
-	},
-	{
 		"id": "Q524048",
 		"name": "Gentile da Foligno",
 		"birth": 1280,
 		"death": 1348
-	},
-	{
-		"id": "Q525525",
-		"name": "Lambert van Velthuysen",
-		"birth": 1622,
-		"death": 1685
 	},
 	{
 		"id": "Q5264",
@@ -8232,94 +2076,10 @@
 		"death": -370
 	},
 	{
-		"id": "Q52723313",
-		"name": "Paulin Malapert",
-		"birth": 1862,
-		"death": 1937
-	},
-	{
-		"id": "Q528261",
-		"name": "Ralph Cudworth",
-		"birth": 1617,
-		"death": 1688
-	},
-	{
-		"id": "Q528415",
-		"name": "Hasdai Crescas",
-		"birth": 1340,
-		"death": 1410
-	},
-	{
-		"id": "Q528452",
-		"name": "Jacqueline Lichtenstein",
-		"birth": 1947,
-		"death": 2019
-	},
-	{
-		"id": "Q528493",
-		"name": "Stanis\u0142aw Le\u015bniewski",
-		"birth": 1886,
-		"death": 1939
-	},
-	{
-		"id": "Q5290682",
-		"name": "Dominic of Flanders",
-		"birth": 1420,
-		"death": 1479
-	},
-	{
-		"id": "Q529302",
-		"name": "Fulbert of Chartres",
-		"birth": 960,
-		"death": 1028
-	},
-	{
 		"id": "Q529858",
 		"name": "Giovanni Papini",
 		"birth": 1881,
 		"death": 1956
-	},
-	{
-		"id": "Q530983",
-		"name": "Bernard Lonergan",
-		"birth": 1904,
-		"death": 1984
-	},
-	{
-		"id": "Q533514",
-		"name": "George of Trebizond",
-		"birth": 1395,
-		"death": 1472
-	},
-	{
-		"id": "Q5336706",
-		"name": "Eddy Zemach",
-		"birth": 1935,
-		"death": 2021
-	},
-	{
-		"id": "Q5342062",
-		"name": "Edward Bullough",
-		"birth": 1880,
-		"death": 1934
-	},
-	{
-		"id": "Q5345386",
-		"name": "Edward Spencer Beesly",
-		"birth": 1831,
-		"death": 1915
-	},
-	{
-		"id": "Q534656",
-		"name": "Alice Voinescu",
-		"birth": 1885,
-		"death": 1961
-	},
-	{
-		"id": "Q5348276",
-		"name": "Eguinaire Baron",
-		"birth": 1495,
-		"death": 1550
 	},
 	{
 		"id": "Q535769",
@@ -8328,52 +2088,10 @@
 		"death": -400
 	},
 	{
-		"id": "Q5360773",
-		"name": "Eliezer Schweid",
-		"birth": 1929,
-		"death": 2022
-	},
-	{
-		"id": "Q536528",
-		"name": "Richard Montague",
-		"birth": 1930,
-		"death": 1971
-	},
-	{
-		"id": "Q5365699",
-		"name": "Elliott Mendelson",
-		"birth": 1931,
-		"death": 2020
-	},
-	{
-		"id": "Q537304",
-		"name": "Ploutarchos of Athens",
-		"birth": 350,
-		"death": 430
-	},
-	{
 		"id": "Q539514",
 		"name": "Metrodorus of Lampsacus",
 		"birth": -500,
 		"death": -464
-	},
-	{
-		"id": "Q539577",
-		"name": "Guarino da Verona",
-		"birth": 1374,
-		"death": 1460
-	},
-	{
-		"id": "Q540407",
-		"name": "Jean Hyppolite",
-		"birth": 1907,
-		"death": 1968
-	},
-	{
-		"id": "Q542090",
-		"name": "Konstantin Leontiev",
-		"birth": 1831,
-		"death": 1891
 	},
 	{
 		"id": "Q5424032",
@@ -8382,154 +2100,16 @@
 		"death": 1992
 	},
 	{
-		"id": "Q542405",
-		"name": "Alois Riehl",
-		"birth": 1844,
-		"death": 1924
-	},
-	{
-		"id": "Q542808",
-		"name": "Hermarchus",
-		"birth": -325,
-		"death": -250
-	},
-	{
-		"id": "Q5469707",
-		"name": "Johannes de Raey",
-		"birth": 1618,
-		"death": 1702
-	},
-	{
-		"id": "Q548062",
-		"name": "Jerzy \u0141o\u015b",
-		"birth": 1920,
-		"death": 1998
-	},
-	{
-		"id": "Q548104",
-		"name": "Julius Pollux",
-		"birth": 200,
-		"death": 238
-	},
-	{
-		"id": "Q548532",
-		"name": "Jules Simon",
-		"birth": 1814,
-		"death": 1896
-	},
-	{
-		"id": "Q54913419",
-		"name": "Luis Juan Guerrero",
-		"birth": 1899,
-		"death": 1957
-	},
-	{
-		"id": "Q55018249",
-		"name": "Samuel Bochart",
-		"birth": 1599,
-		"death": 1667
-	},
-	{
-		"id": "Q550318",
-		"name": "Pietro Verri",
-		"birth": 1728,
-		"death": 1797
-	},
-	{
 		"id": "Q550629",
 		"name": "Lyndon LaRouche",
 		"birth": 1922,
 		"death": 2019
 	},
 	{
-		"id": "Q550792",
-		"name": "Constantin R\u0103dulescu-Motru",
-		"birth": 1868,
-		"death": 1957
-	},
-	{
-		"id": "Q5511260",
-		"name": "Fyodor Khaskhachikh",
-		"birth": 1907,
-		"death": 1942
-	},
-	{
-		"id": "Q551761",
-		"name": "Jean Guitton",
-		"birth": 1901,
-		"death": 1999
-	},
-	{
-		"id": "Q551795",
-		"name": "Jacques Pelletier du Mans",
-		"birth": 1517,
-		"death": 1583
-	},
-	{
-		"id": "Q55194417",
-		"name": "Gerhard ter Steghen",
-		"birth": 1405,
-		"death": 1480
-	},
-	{
-		"id": "Q553132",
-		"name": "James Mark Baldwin",
-		"birth": 1861,
-		"death": 1934
-	},
-	{
-		"id": "Q5535768",
-		"name": "Georg Nees",
-		"birth": 1926,
-		"death": 2016
-	},
-	{
-		"id": "Q553722",
-		"name": "\u015a\u0101ntarak\u1e63ita",
-		"birth": 725,
-		"death": 788
-	},
-	{
-		"id": "Q553796",
-		"name": "Norwood Russell Hanson",
-		"birth": 1924,
-		"death": 1967
-	},
-	{
-		"id": "Q553856",
-		"name": "Polemon",
-		"birth": -400,
-		"death": -270
-	},
-	{
-		"id": "Q553870",
-		"name": "Ernest Nagel",
-		"birth": 1901,
-		"death": 1985
-	},
-	{
-		"id": "Q554387",
-		"name": "Favorinus",
-		"birth": 85,
-		"death": 200
-	},
-	{
-		"id": "Q5546769",
-		"name": "Georges B\u00e9n\u00e9z\u00e9",
-		"birth": 1888,
-		"death": 1978
-	},
-	{
-		"id": "Q5555288",
-		"name": "Carlos Par\u00eds",
-		"birth": 1925,
-		"death": 2014
-	},
-	{
-		"id": "Q55553912",
-		"name": "Philibert Fezaye",
-		"birth": 1600,
-		"death": 1649
+		"id": "Q5525794",
+		"name": "Gary R. Mar",
+		"birth": 1952,
+		"death": 2024
 	},
 	{
 		"id": "Q555693",
@@ -8538,82 +2118,10 @@
 		"death": 1855
 	},
 	{
-		"id": "Q555818",
-		"name": "Philippus of Opus",
-		"birth": -400,
-		"death": -400
-	},
-	{
 		"id": "Q55597400",
 		"name": "Jean Dullaert",
 		"birth": 1471,
 		"death": 1513
-	},
-	{
-		"id": "Q5561001",
-		"name": "Gilbert Jack",
-		"birth": 1578,
-		"death": 1628
-	},
-	{
-		"id": "Q55628974",
-		"name": "Charles Chihara",
-		"birth": 1932,
-		"death": 2020
-	},
-	{
-		"id": "Q556865",
-		"name": "Anniceris",
-		"birth": -400,
-		"death": -360
-	},
-	{
-		"id": "Q556932",
-		"name": "Otto Heurnius",
-		"birth": 1577,
-		"death": 1652
-	},
-	{
-		"id": "Q55712954",
-		"name": "Jean Laporte",
-		"birth": 1886,
-		"death": 1948
-	},
-	{
-		"id": "Q55714887",
-		"name": "\u00c9mile Grucker",
-		"birth": 1828,
-		"death": 1904
-	},
-	{
-		"id": "Q55730912",
-		"name": "John de Nova Domo",
-		"birth": 1400,
-		"death": 1418
-	},
-	{
-		"id": "Q55771674",
-		"name": "Louis Panier",
-		"birth": 1945,
-		"death": 2012
-	},
-	{
-		"id": "Q55778282",
-		"name": "Giovanni Bernardino Longo",
-		"birth": 1528,
-		"death": 1599
-	},
-	{
-		"id": "Q5582103",
-		"name": "Gonsalvus of Spain",
-		"birth": 1255,
-		"death": 1313
-	},
-	{
-		"id": "Q558272",
-		"name": "Dign\u0101ga",
-		"birth": 480,
-		"death": 540
 	},
 	{
 		"id": "Q558275",
@@ -8628,94 +2136,10 @@
 		"death": 1657
 	},
 	{
-		"id": "Q5584507",
-		"name": "Goran \u0160vob",
-		"birth": 1947,
-		"death": 2013
-	},
-	{
-		"id": "Q5584986",
-		"name": "Gordon Haddon Clark",
-		"birth": 1902,
-		"death": 1985
-	},
-	{
-		"id": "Q55894160",
-		"name": "Richard Strohal",
-		"birth": 1888,
-		"death": 1976
-	},
-	{
-		"id": "Q55914544",
-		"name": "Jakob Friedrich M\u00fcller",
-		"birth": 1700,
-		"death": 1759
-	},
-	{
-		"id": "Q55939589",
-		"name": "Robert E. Butts",
-		"birth": 1928,
-		"death": 1997
-	},
-	{
-		"id": "Q559622",
-		"name": "Joseph Albo",
-		"birth": 1380,
-		"death": 1444
-	},
-	{
-		"id": "Q55973583",
-		"name": "Nelly Viallaneix",
-		"birth": 1923,
-		"death": 2005
-	},
-	{
-		"id": "Q560872",
-		"name": "Benedetto Castelli",
-		"birth": 1577,
-		"death": 1643
-	},
-	{
-		"id": "Q561101",
-		"name": "Richard Price",
-		"birth": 1721,
-		"death": 1791
-	},
-	{
 		"id": "Q561367",
 		"name": "Lucius Aelius Stilo Praeconinus",
 		"birth": -154,
 		"death": -74
-	},
-	{
-		"id": "Q5615634",
-		"name": "Guido Terrena",
-		"birth": 1270,
-		"death": 1342
-	},
-	{
-		"id": "Q56247961",
-		"name": "Rose Goetz",
-		"birth": 1930,
-		"death": 2016
-	},
-	{
-		"id": "Q56308288",
-		"name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0418\u0432\u0430\u043d\u043e\u0432\u0438\u0447 \u0410\u0431\u0440\u0430\u043c\u043e\u0432",
-		"birth": 1945,
-		"death": 2002
-	},
-	{
-		"id": "Q56312119",
-		"name": "Mikhail Abramov",
-		"birth": 1933,
-		"death": 2006
-	},
-	{
-		"id": "Q565242",
-		"name": "Anne Dufourmantelle",
-		"birth": 1964,
-		"death": 2017
 	},
 	{
 		"id": "Q5683",
@@ -8724,34 +2148,10 @@
 		"death": 1400
 	},
 	{
-		"id": "Q568497",
-		"name": "Pierre Daniel Huet",
-		"birth": 1630,
-		"death": 1721
-	},
-	{
-		"id": "Q569607",
-		"name": "Anselm of Laon",
-		"birth": 1050,
-		"death": 1117
-	},
-	{
-		"id": "Q5698078",
-		"name": "Antonio Coronel",
-		"birth": 1500,
-		"death": 1600
-	},
-	{
-		"id": "Q5699559",
-		"name": "Antonio Rodr\u00edguez Hu\u00e9scar",
-		"birth": 1912,
-		"death": 1990
-	},
-	{
-		"id": "Q57085",
-		"name": "Erich Fromm",
-		"birth": 1900,
-		"death": 1980
+		"id": "Q569063",
+		"name": "Roberto Mangabeira Unger",
+		"birth": 1947,
+		"death": 2024
 	},
 	{
 		"id": "Q57112",
@@ -8766,28 +2166,10 @@
 		"death": 1951
 	},
 	{
-		"id": "Q57186",
-		"name": "Samuel von Pufendorf",
-		"birth": 1632,
-		"death": 1694
-	},
-	{
 		"id": "Q57188",
 		"name": "Ernst Cassirer",
 		"birth": 1874,
 		"death": 1945
-	},
-	{
-		"id": "Q57193",
-		"name": "Moritz Schlick",
-		"birth": 1882,
-		"death": 1936
-	},
-	{
-		"id": "Q57196",
-		"name": "Franz Brentano",
-		"birth": 1838,
-		"death": 1917
 	},
 	{
 		"id": "Q5720636",
@@ -8796,64 +2178,10 @@
 		"death": 2007
 	},
 	{
-		"id": "Q57219",
-		"name": "David Strauss",
-		"birth": 1808,
-		"death": 1874
-	},
-	{
-		"id": "Q5722572",
-		"name": "Henry of Harclay",
-		"birth": 1270,
-		"death": 1317
-	},
-	{
-		"id": "Q57240",
-		"name": "Ernst Bloch",
-		"birth": 1885,
-		"death": 1977
-	},
-	{
-		"id": "Q57255",
-		"name": "Hans Jonas",
-		"birth": 1903,
-		"death": 1993
-	},
-	{
-		"id": "Q57272060",
-		"name": "Geoffrey Midgley",
-		"birth": 1921,
-		"death": 1997
-	},
-	{
 		"id": "Q57280",
 		"name": "Johann Joachim Winckelmann",
 		"birth": 1717,
 		"death": 1768
-	},
-	{
-		"id": "Q5728139",
-		"name": "Henry Scrimgeour",
-		"birth": 1505,
-		"death": 1572
-	},
-	{
-		"id": "Q573120",
-		"name": "Jean Wahl",
-		"birth": 1888,
-		"death": 1974
-	},
-	{
-		"id": "Q57314",
-		"name": "Robert Michels",
-		"birth": 1876,
-		"death": 1936
-	},
-	{
-		"id": "Q5732535",
-		"name": "Heraclides of Aenus",
-		"birth": -350,
-		"death": -400
 	},
 	{
 		"id": "Q5749",
@@ -8868,40 +2196,10 @@
 		"death": 1936
 	},
 	{
-		"id": "Q57501",
-		"name": "Christian Thomasius",
-		"birth": 1655,
-		"death": 1728
-	},
-	{
 		"id": "Q5752",
 		"name": "Peter Kropotkin",
 		"birth": 1842,
 		"death": 1921
-	},
-	{
-		"id": "Q57554",
-		"name": "Georg Christoph Lichtenberg",
-		"birth": 1742,
-		"death": 1799
-	},
-	{
-		"id": "Q57566",
-		"name": "Georg Ernst Stahl",
-		"birth": 1659,
-		"death": 1734
-	},
-	{
-		"id": "Q57684",
-		"name": "Hermann Lotze",
-		"birth": 1817,
-		"death": 1881
-	},
-	{
-		"id": "Q5784486",
-		"name": "Constantino L\u00e1scaris Comneno",
-		"birth": 1923,
-		"death": 1979
 	},
 	{
 		"id": "Q579194",
@@ -8910,46 +2208,10 @@
 		"death": 1550
 	},
 	{
-		"id": "Q57946",
-		"name": "Hugo M\u00fcnsterberg",
-		"birth": 1863,
-		"death": 1916
-	},
-	{
 		"id": "Q5816",
 		"name": "Mao Zedong",
 		"birth": 1893,
 		"death": 1976
-	},
-	{
-		"id": "Q581732",
-		"name": "Antipater of Tarsus",
-		"birth": -300,
-		"death": -129
-	},
-	{
-		"id": "Q58184066",
-		"name": "Jean-Luc Berlet",
-		"birth": 1966,
-		"death": 2018
-	},
-	{
-		"id": "Q583119",
-		"name": "Gilbert de La Porr\u00e9e",
-		"birth": 1070,
-		"death": 1154
-	},
-	{
-		"id": "Q5850487",
-		"name": "Eugenio Frutos",
-		"birth": 1903,
-		"death": 1979
-	},
-	{
-		"id": "Q5857579",
-		"name": "Federico de Castro y Fern\u00e1ndez",
-		"birth": 1834,
-		"death": 1903
 	},
 	{
 		"id": "Q58586",
@@ -8958,112 +2220,16 @@
 		"death": 1938
 	},
 	{
-		"id": "Q586050",
-		"name": "Asclepigenia",
-		"birth": 500,
-		"death": 485
-	},
-	{
-		"id": "Q58720",
-		"name": "Mikhail Vassilyevich Lomonosov",
-		"birth": 1711,
-		"death": 1765
-	},
-	{
 		"id": "Q5879",
 		"name": "Johann Wolfgang von Goethe",
 		"birth": 1749,
 		"death": 1832
 	},
 	{
-		"id": "Q588308",
-		"name": "Hubert Damisch",
-		"birth": 1928,
-		"death": 2017
-	},
-	{
-		"id": "Q58853",
-		"name": "Karl-Otto Apel",
-		"birth": 1922,
-		"death": 2017
-	},
-	{
 		"id": "Q59180",
 		"name": "Diogenes of Sinope",
 		"birth": -412,
 		"death": -323
-	},
-	{
-		"id": "Q5928027",
-		"name": "Javier Muguerza",
-		"birth": 1936,
-		"death": 2019
-	},
-	{
-		"id": "Q5932384",
-		"name": "Joaqu\u00edn Sama y Vinagre",
-		"birth": 1840,
-		"death": 1895
-	},
-	{
-		"id": "Q5935914",
-		"name": "Jorge Rivera Cruchaga",
-		"birth": 1927,
-		"death": 2017
-	},
-	{
-		"id": "Q5950051",
-		"name": "Huston Smith",
-		"birth": 1919,
-		"death": 2016
-	},
-	{
-		"id": "Q5952326",
-		"name": "Juan Rivano",
-		"birth": 1926,
-		"death": 2015
-	},
-	{
-		"id": "Q59530344",
-		"name": "Valerio Verra",
-		"birth": 1928,
-		"death": 2001
-	},
-	{
-		"id": "Q59533629",
-		"name": "Ellery Eells",
-		"birth": 1953,
-		"death": 2006
-	},
-	{
-		"id": "Q5956382",
-		"name": "Hyman Levy",
-		"birth": 1889,
-		"death": 1975
-	},
-	{
-		"id": "Q596911",
-		"name": "Franciscus van den Enden",
-		"birth": 1602,
-		"death": 1674
-	},
-	{
-		"id": "Q5973447",
-		"name": "Leopoldo Eulogio Palacios",
-		"birth": 1912,
-		"death": 1981
-	},
-	{
-		"id": "Q599238",
-		"name": "Antonino Pagliaro",
-		"birth": 1898,
-		"death": 1973
-	},
-	{
-		"id": "Q59945",
-		"name": "Jacob Burckhardt",
-		"birth": 1818,
-		"death": 1897
 	},
 	{
 		"id": "Q60024",
@@ -9090,22 +2256,10 @@
 		"death": 1979
 	},
 	{
-		"id": "Q60059",
-		"name": "Albertus Magnus",
-		"birth": 1193,
-		"death": 1280
-	},
-	{
 		"id": "Q60070",
 		"name": "Friedrich Wilhelm Joseph Schelling",
 		"birth": 1775,
 		"death": 1854
-	},
-	{
-		"id": "Q60080",
-		"name": "Wilhelm Dilthey",
-		"birth": 1833,
-		"death": 1911
 	},
 	{
 		"id": "Q60104",
@@ -9114,154 +2268,10 @@
 		"death": 1965
 	},
 	{
-		"id": "Q601475",
-		"name": "Maurice de Gandillac",
-		"birth": 1906,
-		"death": 2006
-	},
-	{
-		"id": "Q601482",
-		"name": "Georges Politzer",
-		"birth": 1903,
-		"death": 1942
-	},
-	{
-		"id": "Q60208",
-		"name": "Karl Korsch",
-		"birth": 1886,
-		"death": 1961
-	},
-	{
-		"id": "Q602201",
-		"name": "Antonio Genovesi",
-		"birth": 1713,
-		"death": 1769
-	},
-	{
-		"id": "Q60287",
-		"name": "Walter Heitler",
-		"birth": 1904,
-		"death": 1981
-	},
-	{
-		"id": "Q60412",
-		"name": "Thomas Luckmann",
-		"birth": 1927,
-		"death": 2016
-	},
-	{
-		"id": "Q604460",
-		"name": "Georgius Merula",
-		"birth": 1430,
-		"death": 1494
-	},
-	{
-		"id": "Q60502",
-		"name": "Gerhard Gentzen",
-		"birth": 1909,
-		"death": 1945
-	},
-	{
-		"id": "Q6053995",
-		"name": "Oscar Traversa",
-		"birth": 1940,
-		"death": 2020
-	},
-	{
-		"id": "Q60625",
-		"name": "Conrad Celtes",
-		"birth": 1459,
-		"death": 1508
-	},
-	{
-		"id": "Q6076692",
-		"name": "Isaac Levi",
-		"birth": 1930,
-		"death": 2018
-	},
-	{
-		"id": "Q607841",
-		"name": "Charles Malik",
-		"birth": 1906,
-		"death": 1987
-	},
-	{
-		"id": "Q60843485",
-		"name": "Ottaviano Ferrari",
-		"birth": 1518,
-		"death": 1586
-	},
-	{
-		"id": "Q60884",
-		"name": "G\u00fcnther Anders",
-		"birth": 1902,
-		"death": 1992
-	},
-	{
 		"id": "Q60887",
 		"name": "Jeremy Bentham",
 		"birth": 1749,
 		"death": 1832
-	},
-	{
-		"id": "Q6095336",
-		"name": "Quint\u00edn Racionero",
-		"birth": 1948,
-		"death": 2012
-	},
-	{
-		"id": "Q60972",
-		"name": "Joseph Dietzgen",
-		"birth": 1828,
-		"death": 1888
-	},
-	{
-		"id": "Q6098542",
-		"name": "Ivaylo Ditchev",
-		"birth": 1955,
-		"death": 2023
-	},
-	{
-		"id": "Q60999026",
-		"name": "Jean-Marie Beyssade",
-		"birth": 1936,
-		"death": 2016
-	},
-	{
-		"id": "Q610240",
-		"name": "Th\u00e9odore Simon Jouffroy",
-		"birth": 1796,
-		"death": 1842
-	},
-	{
-		"id": "Q610255",
-		"name": "Michel Henry",
-		"birth": 1922,
-		"death": 2002
-	},
-	{
-		"id": "Q610309",
-		"name": "Lambert of Auxerre",
-		"birth": 1300,
-		"death": 1300
-	},
-	{
-		"id": "Q61037",
-		"name": "Wilhelm Ackermann",
-		"birth": 1896,
-		"death": 1962
-	},
-	{
-		"id": "Q61044",
-		"name": "Albertus de Saxonia",
-		"birth": 1316,
-		"death": 1390
-	},
-	{
-		"id": "Q61067",
-		"name": "Johann Reuchlin",
-		"birth": 1455,
-		"death": 1522
 	},
 	{
 		"id": "Q61078",
@@ -9270,118 +2280,16 @@
 		"death": 1940
 	},
 	{
-		"id": "Q611015",
-		"name": "Jean Laplanche",
-		"birth": 1924,
-		"death": 2012
-	},
-	{
-		"id": "Q611233",
-		"name": "Jean-Baptiste Robinet",
-		"birth": 1735,
-		"death": 1820
-	},
-	{
 		"id": "Q61151",
 		"name": "Eduard Spranger",
 		"birth": 1882,
 		"death": 1963
 	},
 	{
-		"id": "Q61190",
-		"name": "Oswald K\u00fclpe",
-		"birth": 1862,
-		"death": 1915
-	},
-	{
-		"id": "Q61255",
-		"name": "Kuno Fischer",
-		"birth": 1824,
-		"death": 1907
-	},
-	{
-		"id": "Q61280",
-		"name": "Friedrich Adolf Trendelenburg",
-		"birth": 1802,
-		"death": 1872
-	},
-	{
-		"id": "Q6129301",
-		"name": "James Balfour",
-		"birth": 1705,
-		"death": 1795
-	},
-	{
-		"id": "Q613140",
-		"name": "Mipam Gyatso",
-		"birth": 1846,
-		"death": 1912
-	},
-	{
-		"id": "Q6132223",
-		"name": "James D. Wallace",
-		"birth": 1937,
-		"death": 2019
-	},
-	{
-		"id": "Q6145127",
-		"name": "James Ward",
-		"birth": 1843,
-		"death": 1925
-	},
-	{
-		"id": "Q615260",
-		"name": "William of Conches",
-		"birth": 1080,
-		"death": 1154
-	},
-	{
-		"id": "Q615907",
-		"name": "Aonio Paleario",
-		"birth": 1503,
-		"death": 1570
-	},
-	{
-		"id": "Q61628",
-		"name": "Eugen Fink",
-		"birth": 1905,
-		"death": 1975
-	},
-	{
-		"id": "Q61658883",
-		"name": "Fatma Chamakh Haddad",
-		"birth": 1936,
-		"death": 2013
-	},
-	{
-		"id": "Q61674",
-		"name": "Friedrich Albert Lange",
-		"birth": 1828,
-		"death": 1875
-	},
-	{
-		"id": "Q61723",
-		"name": "Gustav Landauer",
-		"birth": 1870,
-		"death": 1919
-	},
-	{
-		"id": "Q6173195",
-		"name": "\u00c1ngel Gonz\u00e1lez \u00c1lvarez",
-		"birth": 1916,
-		"death": 1991
-	},
-	{
-		"id": "Q61882",
-		"name": "Werner Jaeger",
-		"birth": 1888,
-		"death": 1961
-	},
-	{
-		"id": "Q61885",
-		"name": "Carl Gustav Hempel",
-		"birth": 1905,
-		"death": 1997
+		"id": "Q6175878",
+		"name": "Jeffrey Bub",
+		"birth": 1942,
+		"death": 2024
 	},
 	{
 		"id": "Q619",
@@ -9390,130 +2298,10 @@
 		"death": 1543
 	},
 	{
-		"id": "Q61968584",
-		"name": "Jon Michael Dunn",
-		"birth": 1941,
-		"death": 2021
-	},
-	{
 		"id": "Q6197",
 		"name": "Horace",
 		"birth": -65,
 		"death": -8
-	},
-	{
-		"id": "Q61970",
-		"name": "Theodor Lipps",
-		"birth": 1851,
-		"death": 1914
-	},
-	{
-		"id": "Q6220219",
-		"name": "John Baconthorpe",
-		"birth": 1290,
-		"death": 1347
-	},
-	{
-		"id": "Q6225652",
-		"name": "John Chamberlain",
-		"birth": 1903,
-		"death": 1995
-	},
-	{
-		"id": "Q6235869",
-		"name": "John Gough",
-		"birth": 1757,
-		"death": 1825
-	},
-	{
-		"id": "Q62373",
-		"name": "Max Bense",
-		"birth": 1910,
-		"death": 1990
-	},
-	{
-		"id": "Q62415",
-		"name": "Hermann Harms",
-		"birth": 1870,
-		"death": 1942
-	},
-	{
-		"id": "Q62596",
-		"name": "Paul R\u00e9e",
-		"birth": 1849,
-		"death": 1901
-	},
-	{
-		"id": "Q6265864",
-		"name": "John of la Rochelle",
-		"birth": 1190,
-		"death": 1245
-	},
-	{
-		"id": "Q62714738",
-		"name": "Ilya Pantskhava",
-		"birth": 1906,
-		"death": 1986
-	},
-	{
-		"id": "Q627941",
-		"name": "Jacopo Zabarella",
-		"birth": 1533,
-		"death": 1589
-	},
-	{
-		"id": "Q62830",
-		"name": "Lujo Brentano",
-		"birth": 1844,
-		"death": 1931
-	},
-	{
-		"id": "Q62977",
-		"name": "Walter Kaufmann",
-		"birth": 1921,
-		"death": 1980
-	},
-	{
-		"id": "Q6301222",
-		"name": "Juan de Celaya",
-		"birth": 1490,
-		"death": 1558
-	},
-	{
-		"id": "Q63081",
-		"name": "Johannes Nikolaus Tetens",
-		"birth": 1736,
-		"death": 1807
-	},
-	{
-		"id": "Q63104733",
-		"name": "Didier Rebuffel",
-		"birth": 1957,
-		"death": 1999
-	},
-	{
-		"id": "Q631084",
-		"name": "Niketas Stethatos",
-		"birth": 1000,
-		"death": 1090
-	},
-	{
-		"id": "Q631466",
-		"name": "Benny L\u00e9vy",
-		"birth": 1945,
-		"death": 2003
-	},
-	{
-		"id": "Q633563",
-		"name": "Satprem",
-		"birth": 1923,
-		"death": 2007
-	},
-	{
-		"id": "Q63485315",
-		"name": "Jeanne Halbwachs",
-		"birth": 1890,
-		"death": 1980
 	},
 	{
 		"id": "Q6353",
@@ -9522,94 +2310,10 @@
 		"death": 1594
 	},
 	{
-		"id": "Q636959",
-		"name": "Kamala\u015b\u012bla",
-		"birth": 740,
-		"death": 795
-	},
-	{
-		"id": "Q6373353",
-		"name": "Karrar Hussain",
-		"birth": 1911,
-		"death": 1999
-	},
-	{
-		"id": "Q639807",
-		"name": "Pietro Piovani",
-		"birth": 1922,
-		"death": 1980
-	},
-	{
-		"id": "Q6400784",
-		"name": "Mirza Mahdi Elahi Qomshehei",
-		"birth": 1901,
-		"death": 1973
-	},
-	{
-		"id": "Q6417154",
-		"name": "Baba Kuhi of Shiraz",
-		"birth": 948,
-		"death": 1037
-	},
-	{
-		"id": "Q6430245",
-		"name": "Konstanty Michalski",
-		"birth": 1879,
-		"death": 1947
-	},
-	{
-		"id": "Q64592",
-		"name": "Otto Mencke",
-		"birth": 1644,
-		"death": 1707
-	},
-	{
-		"id": "Q646092",
-		"name": "Beatus Rhenanus",
-		"birth": 1485,
-		"death": 1547
-	},
-	{
-		"id": "Q64623",
-		"name": "Johann Eduard Erdmann",
-		"birth": 1805,
-		"death": 1892
-	},
-	{
-		"id": "Q646951",
-		"name": "Ariston of Chios",
-		"birth": -300,
-		"death": -300
-	},
-	{
-		"id": "Q648051",
-		"name": "Andrzej Maksymilian Fredro",
-		"birth": 1620,
-		"death": 1679
-	},
-	{
-		"id": "Q650151",
-		"name": "Jacob Taubes",
-		"birth": 1923,
-		"death": 1987
-	},
-	{
 		"id": "Q65108",
 		"name": "Ernst Nolte",
 		"birth": 1923,
 		"death": 2016
-	},
-	{
-		"id": "Q6512",
-		"name": "S\u00f8ren Kierkegaard",
-		"birth": 1813,
-		"death": 1855
-	},
-	{
-		"id": "Q65181",
-		"name": "Leonard Nelson",
-		"birth": 1882,
-		"death": 1927
 	},
 	{
 		"id": "Q6527",
@@ -9618,118 +2322,10 @@
 		"death": 1778
 	},
 	{
-		"id": "Q6533462",
-		"name": "Yasui Sokken",
-		"birth": 1799,
-		"death": 1876
-	},
-	{
-		"id": "Q6537362",
-		"name": "Hanawa Hokiichi",
-		"birth": 1746,
-		"death": 1821
-	},
-	{
-		"id": "Q655194",
-		"name": "Albert G\u00f6rland",
-		"birth": 1869,
-		"death": 1952
-	},
-	{
-		"id": "Q655390",
-		"name": "Fujiwara Seika",
-		"birth": 1561,
-		"death": 1619
-	},
-	{
-		"id": "Q6560770",
-		"name": "Amenomori H\u014dsh\u016b",
-		"birth": 1668,
-		"death": 1755
-	},
-	{
-		"id": "Q6562432",
-		"name": "Kinoshita Jun'an",
-		"birth": 1621,
-		"death": 1699
-	},
-	{
-		"id": "Q6562825",
-		"name": "Sakakibara K\u014dsh\u016b",
-		"birth": 1656,
-		"death": 1706
-	},
-	{
-		"id": "Q6564851",
-		"name": "Matsuzaki K\u014dd\u014d",
-		"birth": 1771,
-		"death": 1844
-	},
-	{
-		"id": "Q6565179",
-		"name": "Muro Ky\u016bs\u014d",
-		"birth": 1658,
-		"death": 1734
-	},
-	{
-		"id": "Q65784205",
-		"name": "Johann Baptist Rieffert",
-		"birth": 1883,
-		"death": 1956
-	},
-	{
-		"id": "Q65786",
-		"name": "Philip Marheineke",
-		"birth": 1780,
-		"death": 1846
-	},
-	{
 		"id": "Q657941",
 		"name": "Albinus",
 		"birth": 100,
 		"death": 200
-	},
-	{
-		"id": "Q65806",
-		"name": "Ernst Laas",
-		"birth": 1837,
-		"death": 1885
-	},
-	{
-		"id": "Q658109",
-		"name": "Thierry of Chartres",
-		"birth": 1100,
-		"death": 1155
-	},
-	{
-		"id": "Q65987",
-		"name": "Dieter Henrich",
-		"birth": 1927,
-		"death": 2022
-	},
-	{
-		"id": "Q660170",
-		"name": "Isidore of Alexandria",
-		"birth": 450,
-		"death": 520
-	},
-	{
-		"id": "Q66147",
-		"name": "Friedrich Meinecke",
-		"birth": 1862,
-		"death": 1954
-	},
-	{
-		"id": "Q662932",
-		"name": "Persaeus",
-		"birth": -306,
-		"death": -243
-	},
-	{
-		"id": "Q663485",
-		"name": "James Rowland Angell",
-		"birth": 1869,
-		"death": 1949
 	},
 	{
 		"id": "Q665984",
@@ -9750,52 +2346,10 @@
 		"death": -50
 	},
 	{
-		"id": "Q6677426",
-		"name": "Itamar Pitowsky",
-		"birth": 1950,
-		"death": 2010
-	},
-	{
-		"id": "Q66853",
-		"name": "Manegold of Lautenbach",
-		"birth": 1030,
-		"death": 1103
-	},
-	{
-		"id": "Q669191",
-		"name": "Simone Porzio",
-		"birth": 1496,
-		"death": 1554
-	},
-	{
 		"id": "Q6694",
 		"name": "Alexander von Humboldt",
 		"birth": 1769,
 		"death": 1859
-	},
-	{
-		"id": "Q670103",
-		"name": "Eino Kaila",
-		"birth": 1890,
-		"death": 1958
-	},
-	{
-		"id": "Q670987",
-		"name": "Mykola Amosov",
-		"birth": 1913,
-		"death": 2002
-	},
-	{
-		"id": "Q67131",
-		"name": "Moritz Wilhelm Drobisch",
-		"birth": 1802,
-		"death": 1896
-	},
-	{
-		"id": "Q67136",
-		"name": "Bartholomaeus Keckermann",
-		"birth": 1571,
-		"death": 1609
 	},
 	{
 		"id": "Q672145",
@@ -9804,268 +2358,28 @@
 		"death": 1978
 	},
 	{
-		"id": "Q672846",
-		"name": "Neagu Djuvara",
-		"birth": 1916,
-		"death": 2018
-	},
-	{
-		"id": "Q67323",
-		"name": "Jakob Thomasius",
-		"birth": 1622,
-		"death": 1684
-	},
-	{
-		"id": "Q673596",
-		"name": "Hieronymus Balbus",
-		"birth": 1460,
-		"death": 1535
-	},
-	{
-		"id": "Q674208",
-		"name": "Yehuda Elkana",
-		"birth": 1934,
-		"death": 2012
-	},
-	{
-		"id": "Q675928",
-		"name": "Lupus Servatus",
-		"birth": 805,
-		"death": 862
-	},
-	{
 		"id": "Q676267",
 		"name": "Henry Bate of Malines",
 		"birth": 1246,
 		"death": 1310
 	},
 	{
-		"id": "Q6769832",
-		"name": "Mark Steiner",
-		"birth": 1942,
-		"death": 2020
+		"id": "Q6793653",
+		"name": "Mauricio Su\u00e1rez",
+		"birth": 1968,
+		"death": 2024
 	},
 	{
-		"id": "Q677843",
-		"name": "Armand Thi\u00e9ry",
-		"birth": 1868,
-		"death": 1955
+		"id": "Q7039031",
+		"name": "Nino Cocchiarella",
+		"birth": 1933,
+		"death": 2024
 	},
 	{
-		"id": "Q678242",
-		"name": "Carlos Vaz Ferreira",
-		"birth": 1872,
-		"death": 1958
-	},
-	{
-		"id": "Q6796429",
-		"name": "May Brodbeck",
-		"birth": 1917,
-		"death": 1983
-	},
-	{
-		"id": "Q680632",
-		"name": "Xavier Zubiri",
-		"birth": 1898,
-		"death": 1983
-	},
-	{
-		"id": "Q68133",
-		"name": "Johann David Michaelis",
-		"birth": 1717,
-		"death": 1791
-	},
-	{
-		"id": "Q682467",
-		"name": "Ralph McInerny",
-		"birth": 1929,
-		"death": 2010
-	},
-	{
-		"id": "Q6829827",
-		"name": "Michael Detlefsen",
-		"birth": 1948,
-		"death": 2019
-	},
-	{
-		"id": "Q68446",
-		"name": "Ernst Tugendhat",
-		"birth": 1930,
-		"death": 2023
-	},
-	{
-		"id": "Q685787",
-		"name": "Henry Hazlitt",
-		"birth": 1894,
-		"death": 1993
-	},
-	{
-		"id": "Q692100",
-		"name": "Alois Riegl",
-		"birth": 1858,
-		"death": 1905
-	},
-	{
-		"id": "Q693290",
-		"name": "Luigi Pareyson",
-		"birth": 1918,
-		"death": 1991
-	},
-	{
-		"id": "Q698867",
-		"name": "Min Sun",
-		"birth": -536,
-		"death": -480
-	},
-	{
-		"id": "Q699085",
-		"name": "Ernst, Baron von Feuchtersleben",
-		"birth": 1806,
-		"death": 1849
-	},
-	{
-		"id": "Q6992366",
-		"name": "Shem-Tov Gefen",
-		"birth": 1856,
-		"death": 1927
-	},
-	{
-		"id": "Q70053",
-		"name": "Konrad Mutian",
-		"birth": 1470,
-		"death": 1526
-	},
-	{
-		"id": "Q704649",
-		"name": "Pierre Leroux",
-		"birth": 1797,
-		"death": 1871
-	},
-	{
-		"id": "Q704954",
-		"name": "Leo Baeck",
-		"birth": 1873,
-		"death": 1956
-	},
-	{
-		"id": "Q705666",
-		"name": "Pierre Jean George Cabanis",
-		"birth": 1757,
-		"death": 1808
-	},
-	{
-		"id": "Q706432",
-		"name": "Ronald Giere",
-		"birth": 1938,
-		"death": 2020
-	},
-	{
-		"id": "Q706529",
-		"name": "Woncheuk",
-		"birth": 613,
-		"death": 696
-	},
-	{
-		"id": "Q70666",
-		"name": "Jakob Sigismund Beck",
-		"birth": 1761,
-		"death": 1840
-	},
-	{
-		"id": "Q7068",
-		"name": "Julien Offray de La Mettrie",
-		"birth": 1709,
-		"death": 1751
-	},
-	{
-		"id": "Q706888",
-		"name": "Hermann Samuel Reimarus",
-		"birth": 1694,
-		"death": 1768
-	},
-	{
-		"id": "Q706898",
-		"name": "Evert Willem Beth",
-		"birth": 1908,
-		"death": 1964
-	},
-	{
-		"id": "Q707088",
-		"name": "Ray Huang",
-		"birth": 1918,
-		"death": 2000
-	},
-	{
-		"id": "Q707313",
-		"name": "Ch'ien Mu",
-		"birth": 1895,
-		"death": 1990
-	},
-	{
-		"id": "Q707490",
-		"name": "Jean-Marie Guyau",
-		"birth": 1854,
-		"death": 1888
-	},
-	{
-		"id": "Q707637",
-		"name": "Henry of Ghent",
-		"birth": 1217,
-		"death": 1293
-	},
-	{
-		"id": "Q707787",
-		"name": "Robert Filmer",
-		"birth": 1588,
-		"death": 1653
-	},
-	{
-		"id": "Q70793",
-		"name": "Martin Knutzen",
-		"birth": 1713,
-		"death": 1751
-	},
-	{
-		"id": "Q707977",
-		"name": "Hao Wang",
-		"birth": 1921,
-		"death": 1995
-	},
-	{
-		"id": "Q7082884",
-		"name": "Ola Raknes",
-		"birth": 1887,
-		"death": 1975
-	},
-	{
-		"id": "Q708473",
-		"name": "Isidore Isou",
-		"birth": 1925,
-		"death": 2007
-	},
-	{
-		"id": "Q708853",
-		"name": "Mario Bunge",
-		"birth": 1919,
-		"death": 2020
-	},
-	{
-		"id": "Q7090119",
-		"name": "Omer Talon",
-		"birth": 1510,
-		"death": 1562
-	},
-	{
-		"id": "Q710052",
-		"name": "C\u00e9lestin Bougl\u00e9",
-		"birth": 1870,
-		"death": 1940
-	},
-	{
-		"id": "Q71026",
-		"name": "Joachim Jungius",
-		"birth": 1587,
-		"death": 1657
+		"id": "Q7060",
+		"name": "Michel Onfray",
+		"birth": 1959,
+		"death": 2024
 	},
 	{
 		"id": "Q71029",
@@ -10074,88 +2388,10 @@
 		"death": 1955
 	},
 	{
-		"id": "Q7108058",
-		"name": "Osvaldo Lira",
-		"birth": 1904,
-		"death": 1996
-	},
-	{
-		"id": "Q71144",
-		"name": "Karl Larenz",
-		"birth": 1903,
-		"death": 1993
-	},
-	{
-		"id": "Q71146",
-		"name": "\u00c9ric Weil",
-		"birth": 1904,
-		"death": 1977
-	},
-	{
-		"id": "Q711964",
-		"name": "Cristoforo Landino",
-		"birth": 1424,
-		"death": 1498
-	},
-	{
-		"id": "Q712032",
-		"name": "Francesco Barbaro",
-		"birth": 1390,
-		"death": 1454
-	},
-	{
-		"id": "Q712462",
-		"name": "Wilfrid Sellars",
-		"birth": 1912,
-		"death": 1989
-	},
-	{
-		"id": "Q71263",
-		"name": "Moritz Geiger",
-		"birth": 1880,
-		"death": 1937
-	},
-	{
-		"id": "Q712755",
-		"name": "Crates of Athens",
-		"birth": -400,
-		"death": -260
-	},
-	{
-		"id": "Q713144",
-		"name": "Jerzy Prokopiuk",
-		"birth": 1931,
-		"death": 2021
-	},
-	{
-		"id": "Q713261",
-		"name": "Petr Chel\u010dick\u00fd",
-		"birth": 1390,
-		"death": 1460
-	},
-	{
-		"id": "Q713743",
-		"name": "Jean Grenier",
-		"birth": 1898,
-		"death": 1971
-	},
-	{
 		"id": "Q714369",
 		"name": "Dai Zhen",
 		"birth": 1724,
 		"death": 1777
-	},
-	{
-		"id": "Q714839",
-		"name": "Tadeusz Kotarbi\u0144ski",
-		"birth": 1886,
-		"death": 1981
-	},
-	{
-		"id": "Q7151427",
-		"name": "Paul Humphreys",
-		"birth": 1950,
-		"death": 2022
 	},
 	{
 		"id": "Q715169",
@@ -10164,160 +2400,16 @@
 		"death": 1582
 	},
 	{
-		"id": "Q7154285",
-		"name": "Paul Weiss",
-		"birth": 1901,
-		"death": 2002
-	},
-	{
-		"id": "Q715478",
-		"name": "Diodorus Cronus",
-		"birth": -400,
-		"death": -300
-	},
-	{
-		"id": "Q716415",
-		"name": "Jan Standonck",
-		"birth": 1453,
-		"death": 1504
-	},
-	{
-		"id": "Q7177110",
-		"name": "Peter Sterry",
-		"birth": 1613,
-		"death": 1672
-	},
-	{
-		"id": "Q71855",
-		"name": "Georg Bernhard Bilfinger",
-		"birth": 1693,
-		"death": 1750
-	},
-	{
-		"id": "Q718564",
-		"name": "William de la Mare",
-		"birth": 1300,
-		"death": 1290
-	},
-	{
-		"id": "Q7192119",
-		"name": "Pierre Cally",
-		"birth": 1630,
-		"death": 1709
-	},
-	{
-		"id": "Q719418",
-		"name": "Vasily Rozanov",
-		"birth": 1856,
-		"death": 1919
-	},
-	{
 		"id": "Q7197",
 		"name": "Simone de Beauvoir",
 		"birth": 1908,
 		"death": 1986
 	},
 	{
-		"id": "Q72050",
-		"name": "Christoph von Sigwart",
-		"birth": 1830,
-		"death": 1904
-	},
-	{
-		"id": "Q72062",
-		"name": "Paul Ludwig Landsberg",
-		"birth": 1901,
-		"death": 1944
-	},
-	{
-		"id": "Q72074",
-		"name": "Oskar Becker",
-		"birth": 1889,
-		"death": 1964
-	},
-	{
-		"id": "Q72086",
-		"name": "Narzi\u00df Ach",
-		"birth": 1871,
-		"death": 1946
-	},
-	{
-		"id": "Q72106",
-		"name": "Bruno Bauch",
-		"birth": 1877,
-		"death": 1942
-	},
-	{
-		"id": "Q7213239",
-		"name": "Isaiah Tishby",
-		"birth": 1908,
-		"death": 1992
-	},
-	{
-		"id": "Q72151",
-		"name": "Markus Herz",
-		"birth": 1747,
-		"death": 1803
-	},
-	{
-		"id": "Q7220447",
-		"name": "Pepita Haezrahi",
-		"birth": 1921,
-		"death": 1963
-	},
-	{
-		"id": "Q722347",
-		"name": "Walter J. Ong",
-		"birth": 1912,
-		"death": 2003
-	},
-	{
-		"id": "Q722738",
-		"name": "Juan Bautista Alberdi",
-		"birth": 1810,
-		"death": 1884
-	},
-	{
-		"id": "Q722835",
-		"name": "Edvard Westermarck",
-		"birth": 1862,
-		"death": 1939
-	},
-	{
-		"id": "Q72306",
-		"name": "Nicolaus Hieronymus Gundling",
-		"birth": 1671,
-		"death": 1729
-	},
-	{
 		"id": "Q7231",
 		"name": "Rosa Luxemburg",
 		"birth": 1871,
 		"death": 1919
-	},
-	{
-		"id": "Q723141",
-		"name": "Juan Donoso Cort\u00e9s",
-		"birth": 1809,
-		"death": 1853
-	},
-	{
-		"id": "Q723531",
-		"name": "Nissim of Gerona",
-		"birth": 1310,
-		"death": 1380
-	},
-	{
-		"id": "Q723578",
-		"name": "Jon Barwise",
-		"birth": 1942,
-		"death": 2000
-	},
-	{
-		"id": "Q7237544",
-		"name": "Praepositinus",
-		"birth": 1150,
-		"death": 1210
 	},
 	{
 		"id": "Q7243",
@@ -10332,82 +2424,10 @@
 		"death": 1910
 	},
 	{
-		"id": "Q725020",
-		"name": "Stanley Cavell",
-		"birth": 1926,
-		"death": 2018
-	},
-	{
 		"id": "Q7251",
 		"name": "Alan Turing",
 		"birth": 1912,
 		"death": 1954
-	},
-	{
-		"id": "Q725642",
-		"name": "Clarence Irving Lewis",
-		"birth": 1883,
-		"death": 1964
-	},
-	{
-		"id": "Q725843",
-		"name": "Vittorino da Feltre",
-		"birth": 1378,
-		"death": 1446
-	},
-	{
-		"id": "Q725859",
-		"name": "Herman of Carinthia",
-		"birth": 1100,
-		"death": 1160
-	},
-	{
-		"id": "Q7263937",
-		"name": "Python of Aenus",
-		"birth": -350,
-		"death": -400
-	},
-	{
-		"id": "Q727363",
-		"name": "Giovanni Vincenzo Gravina",
-		"birth": 1664,
-		"death": 1718
-	},
-	{
-		"id": "Q72814",
-		"name": "Gustav Kafka",
-		"birth": 1883,
-		"death": 1953
-	},
-	{
-		"id": "Q7284377",
-		"name": "Raimo Tuomela",
-		"birth": 1940,
-		"death": 2020
-	},
-	{
-		"id": "Q728489",
-		"name": "Vladimir Jank\u00e9l\u00e9vitch",
-		"birth": 1903,
-		"death": 1985
-	},
-	{
-		"id": "Q728592",
-		"name": "Cecco d'Ascoli",
-		"birth": 1269,
-		"death": 1327
-	},
-	{
-		"id": "Q7286",
-		"name": "\u00c9milie du Ch\u00e2telet",
-		"birth": 1706,
-		"death": 1749
-	},
-	{
-		"id": "Q72897",
-		"name": "Georg Misch",
-		"birth": 1878,
-		"death": 1965
 	},
 	{
 		"id": "Q729048",
@@ -10416,40 +2436,10 @@
 		"death": 2022
 	},
 	{
-		"id": "Q729903",
-		"name": "Qutb al-Din al-Shirazi",
-		"birth": 1236,
-		"death": 1311
-	},
-	{
-		"id": "Q72998",
-		"name": "Paul Lorenzen",
-		"birth": 1915,
-		"death": 1994
-	},
-	{
-		"id": "Q73001",
-		"name": "Georg Hamel",
-		"birth": 1877,
-		"death": 1954
-	},
-	{
-		"id": "Q73014",
-		"name": "Erhard Weigel",
-		"birth": 1625,
-		"death": 1699
-	},
-	{
 		"id": "Q731904",
 		"name": "Valentin Ferdinandovich Asmus",
 		"birth": 1894,
 		"death": 1975
-	},
-	{
-		"id": "Q73210",
-		"name": "Karl von Prantl",
-		"birth": 1820,
-		"death": 1888
 	},
 	{
 		"id": "Q7322195",
@@ -10458,34 +2448,10 @@
 		"death": 2013
 	},
 	{
-		"id": "Q732458",
-		"name": "Aleksandr Vvedensky",
-		"birth": 1856,
-		"death": 1925
-	},
-	{
-		"id": "Q7326846",
-		"name": "Richard Jeffrey",
-		"birth": 1926,
-		"death": 2002
-	},
-	{
-		"id": "Q7335870",
-		"name": "Tomoo Odaka",
-		"birth": 1899,
-		"death": 1956
-	},
-	{
-		"id": "Q7341485",
-		"name": "Robert Alyngton",
-		"birth": 1355,
-		"death": 1398
-	},
-	{
-		"id": "Q7342457",
-		"name": "Robert Bruce Raup",
-		"birth": 1888,
-		"death": 1976
+		"id": "Q7347121",
+		"name": "Robert M. French",
+		"birth": 1951,
+		"death": 2024
 	},
 	{
 		"id": "Q73527",
@@ -10494,142 +2460,10 @@
 		"death": -240
 	},
 	{
-		"id": "Q7356610",
-		"name": "Roderick Firth",
-		"birth": 1917,
-		"death": 1987
-	},
-	{
-		"id": "Q736433",
-		"name": "Clearchus of Soli",
-		"birth": -400,
-		"death": -300
-	},
-	{
-		"id": "Q7367915",
-		"name": "Rose Rand",
-		"birth": 1903,
-		"death": 1980
-	},
-	{
-		"id": "Q737448",
-		"name": "Muhammad Husayn Tabatabaei",
-		"birth": 1892,
-		"death": 1981
-	},
-	{
-		"id": "Q737756",
-		"name": "Pier Paolo Vergerio the Elder",
-		"birth": 1370,
-		"death": 1444
-	},
-	{
-		"id": "Q738539",
-		"name": "Carlo Michelstaedter",
-		"birth": 1887,
-		"death": 1910
-	},
-	{
-		"id": "Q738727",
-		"name": "Mark of Ephesus",
-		"birth": 1392,
-		"death": 1444
-	},
-	{
-		"id": "Q7387391",
-		"name": "S. Barry Cooper",
-		"birth": 1943,
-		"death": 2015
-	},
-	{
-		"id": "Q740432",
-		"name": "Polyaenus of Lampsacus",
-		"birth": -340,
-		"death": -278
-	},
-	{
 		"id": "Q7412735",
 		"name": "Samuel T. Francis",
 		"birth": 1947,
 		"death": 2005
-	},
-	{
-		"id": "Q743918",
-		"name": "Henricus Regius",
-		"birth": 1598,
-		"death": 1679
-	},
-	{
-		"id": "Q744014",
-		"name": "Nicholas of Cl\u00e9manges",
-		"birth": 1363,
-		"death": 1437
-	},
-	{
-		"id": "Q744125",
-		"name": "Chaerephon",
-		"birth": -401,
-		"death": -401
-	},
-	{
-		"id": "Q748526",
-		"name": "Stjepan Gradi\u0107",
-		"birth": 1613,
-		"death": 1683
-	},
-	{
-		"id": "Q749452",
-		"name": "Clinomachus",
-		"birth": -400,
-		"death": -400
-	},
-	{
-		"id": "Q75023",
-		"name": "Benno Erdmann",
-		"birth": 1851,
-		"death": 1921
-	},
-	{
-		"id": "Q75037",
-		"name": "Johann Nepomuk Huber",
-		"birth": 1830,
-		"death": 1879
-	},
-	{
-		"id": "Q75149",
-		"name": "R\u00fcdiger Bubner",
-		"birth": 1941,
-		"death": 2007
-	},
-	{
-		"id": "Q7519803",
-		"name": "Simon Somerville Laurie",
-		"birth": 1829,
-		"death": 1909
-	},
-	{
-		"id": "Q7520146",
-		"name": "Simon of Faversham",
-		"birth": 1260,
-		"death": 1306
-	},
-	{
-		"id": "Q75642",
-		"name": "Johann Sturm",
-		"birth": 1635,
-		"death": 1703
-	},
-	{
-		"id": "Q75784",
-		"name": "Ferdinand Lassalle",
-		"birth": 1825,
-		"death": 1864
-	},
-	{
-		"id": "Q75790",
-		"name": "Karl L\u00f6with",
-		"birth": 1897,
-		"death": 1973
 	},
 	{
 		"id": "Q758060",
@@ -10638,22 +2472,10 @@
 		"death": 200
 	},
 	{
-		"id": "Q75812",
-		"name": "Norbert Elias",
-		"birth": 1897,
-		"death": 1990
-	},
-	{
 		"id": "Q75814",
 		"name": "Wilhelm Wundt",
 		"birth": 1832,
 		"death": 1920
-	},
-	{
-		"id": "Q75889",
-		"name": "Friedrich H\u00f6lderlin",
-		"birth": 1770,
-		"death": 1843
 	},
 	{
 		"id": "Q7609232",
@@ -10662,28 +2484,10 @@
 		"death": 2019
 	},
 	{
-		"id": "Q76114",
-		"name": "Franz Jakob Clemens",
-		"birth": 1815,
-		"death": 1862
-	},
-	{
-		"id": "Q761732",
-		"name": "Francisco Giner de los R\u00edos",
-		"birth": 1839,
-		"death": 1915
-	},
-	{
 		"id": "Q762",
 		"name": "Leonardo da Vinci",
 		"birth": 1452,
 		"death": 1519
-	},
-	{
-		"id": "Q76325",
-		"name": "Philipp Melanchthon",
-		"birth": 1497,
-		"death": 1560
 	},
 	{
 		"id": "Q76326",
@@ -10698,70 +2502,10 @@
 		"death": 1976
 	},
 	{
-		"id": "Q76356",
-		"name": "Hans-Georg Gadamer",
-		"birth": 1900,
-		"death": 2002
-	},
-	{
 		"id": "Q76420",
 		"name": "Georg Cantor",
 		"birth": 1845,
 		"death": 1918
-	},
-	{
-		"id": "Q76422",
-		"name": "Ludwig Feuerbach",
-		"birth": 1804,
-		"death": 1872
-	},
-	{
-		"id": "Q764300",
-		"name": "Dominique Lecourt",
-		"birth": 1944,
-		"death": 2022
-	},
-	{
-		"id": "Q76442",
-		"name": "Johann Christoph Gottsched",
-		"birth": 1700,
-		"death": 1766
-	},
-	{
-		"id": "Q764947",
-		"name": "Taftazani",
-		"birth": 1322,
-		"death": 1390
-	},
-	{
-		"id": "Q76499",
-		"name": "Johann Georg Hamann",
-		"birth": 1730,
-		"death": 1788
-	},
-	{
-		"id": "Q76501",
-		"name": "Nicolai Hartmann",
-		"birth": 1882,
-		"death": 1950
-	},
-	{
-		"id": "Q76504",
-		"name": "Paul Natorp",
-		"birth": 1854,
-		"death": 1924
-	},
-	{
-		"id": "Q76509",
-		"name": "Karl Jaspers",
-		"birth": 1883,
-		"death": 1969
-	},
-	{
-		"id": "Q76510",
-		"name": "Christian Wolff",
-		"birth": 1679,
-		"death": 1754
 	},
 	{
 		"id": "Q76512",
@@ -10770,52 +2514,10 @@
 		"death": 1841
 	},
 	{
-		"id": "Q76515",
-		"name": "Erich Rothacker",
-		"birth": 1888,
-		"death": 1965
-	},
-	{
-		"id": "Q76516",
-		"name": "Richard Avenarius",
-		"birth": 1843,
-		"death": 1896
-	},
-	{
-		"id": "Q76518",
-		"name": "Hans Vaihinger",
-		"birth": 1852,
-		"death": 1933
-	},
-	{
-		"id": "Q76519",
-		"name": "Rudolf Carnap",
-		"birth": 1891,
-		"death": 1970
-	},
-	{
-		"id": "Q76521",
-		"name": "Max Scheler",
-		"birth": 1874,
-		"death": 1928
-	},
-	{
-		"id": "Q76522",
-		"name": "Helmuth Plessner",
-		"birth": 1892,
-		"death": 1985
-	},
-	{
 		"id": "Q76548",
 		"name": "Meister Eckhart",
 		"birth": 1260,
 		"death": 1328
-	},
-	{
-		"id": "Q76576",
-		"name": "Friedrich Schleiermacher",
-		"birth": 1768,
-		"death": 1834
 	},
 	{
 		"id": "Q76586",
@@ -10824,46 +2526,10 @@
 		"death": 1938
 	},
 	{
-		"id": "Q76685",
-		"name": "Johann Friedrich Herbart",
-		"birth": 1776,
-		"death": 1841
-	},
-	{
-		"id": "Q76707",
-		"name": "Wilhelm Eduard Weber",
-		"birth": 1804,
-		"death": 1891
-	},
-	{
-		"id": "Q76709",
-		"name": "Hermann Cohen",
-		"birth": 1842,
-		"death": 1918
-	},
-	{
-		"id": "Q76710",
-		"name": "Franz Rosenzweig",
-		"birth": 1886,
-		"death": 1929
-	},
-	{
-		"id": "Q76725",
-		"name": "Max Stirner",
-		"birth": 1806,
-		"death": 1856
-	},
-	{
-		"id": "Q76727",
-		"name": "Ernst J\u00fcnger",
-		"birth": 1895,
-		"death": 1998
-	},
-	{
-		"id": "Q76748",
-		"name": "Rudolf Otto",
-		"birth": 1869,
-		"death": 1937
+		"id": "Q76688",
+		"name": "Hans-Hermann Hoppe",
+		"birth": 1949,
+		"death": 2024
 	},
 	{
 		"id": "Q76749",
@@ -10872,28 +2538,10 @@
 		"death": 1942
 	},
 	{
-		"id": "Q76823",
-		"name": "Karl Mannheim",
-		"birth": 1893,
-		"death": 1947
-	},
-	{
-		"id": "Q76826",
-		"name": "Max Horkheimer",
-		"birth": 1895,
-		"death": 1973
-	},
-	{
 		"id": "Q76849",
 		"name": "Georg Simmel",
 		"birth": 1858,
 		"death": 1918
-	},
-	{
-		"id": "Q768555",
-		"name": "Philip the Chancellor",
-		"birth": 1165,
-		"death": 1236
 	},
 	{
 		"id": "Q76857",
@@ -10902,58 +2550,10 @@
 		"death": 1942
 	},
 	{
-		"id": "Q76878",
-		"name": "Bruno Bauer",
-		"birth": 1809,
-		"death": 1882
-	},
-	{
-		"id": "Q76881",
-		"name": "Gustav Fechner",
-		"birth": 1801,
-		"death": 1887
-	},
-	{
-		"id": "Q76997",
-		"name": "Moses Mendelssohn",
-		"birth": 1729,
-		"death": 1786
-	},
-	{
-		"id": "Q77012",
-		"name": "Heinrich Rickert",
-		"birth": 1863,
-		"death": 1936
-	},
-	{
-		"id": "Q77017",
-		"name": "Jakob B\u00f6hme",
-		"birth": 1575,
-		"death": 1624
-	},
-	{
 		"id": "Q770298",
 		"name": "Sadr al-Din al-Qunawi",
 		"birth": 1209,
 		"death": 1274
-	},
-	{
-		"id": "Q77045",
-		"name": "Wilhelm Windelband",
-		"birth": 1848,
-		"death": 1915
-	},
-	{
-		"id": "Q77057",
-		"name": "Karl Robert Eduard von Hartmann",
-		"birth": 1842,
-		"death": 1906
-	},
-	{
-		"id": "Q77144",
-		"name": "Leo Strauss",
-		"birth": 1899,
-		"death": 1973
 	},
 	{
 		"id": "Q77148",
@@ -10962,58 +2562,10 @@
 		"death": 1985
 	},
 	{
-		"id": "Q772775",
-		"name": "Polemon of Laodicea",
-		"birth": 90,
-		"death": 144
-	},
-	{
-		"id": "Q77288",
-		"name": "Ehrenfried Walther von Tschirnhaus",
-		"birth": 1651,
-		"death": 1708
-	},
-	{
-		"id": "Q77436",
-		"name": "Jakob Friedrich Fries",
-		"birth": 1773,
-		"death": 1843
-	},
-	{
-		"id": "Q77498",
-		"name": "Friedrich Eduard Beneke",
-		"birth": 1798,
-		"death": 1854
-	},
-	{
-		"id": "Q77518",
-		"name": "Hans Cornelius",
-		"birth": 1863,
-		"death": 1947
-	},
-	{
-		"id": "Q77521",
-		"name": "Karl Groos",
-		"birth": 1861,
-		"death": 1946
-	},
-	{
 		"id": "Q77609",
 		"name": "Hermann Bonitz",
 		"birth": 1814,
 		"death": 1888
-	},
-	{
-		"id": "Q778109",
-		"name": "George Frederick Stout",
-		"birth": 1860,
-		"death": 1944
-	},
-	{
-		"id": "Q77881",
-		"name": "Christian Jakob Kraus",
-		"birth": 1753,
-		"death": 1807
 	},
 	{
 		"id": "Q77888",
@@ -11022,52 +2574,10 @@
 		"death": 1835
 	},
 	{
-		"id": "Q77947",
-		"name": "Ernst Meumann",
-		"birth": 1862,
-		"death": 1915
-	},
-	{
 		"id": "Q779523",
 		"name": "William Ernest Hocking",
 		"birth": 1873,
 		"death": 1966
-	},
-	{
-		"id": "Q7795234",
-		"name": "Thomas Wilton",
-		"birth": 1270,
-		"death": 1320
-	},
-	{
-		"id": "Q780989",
-		"name": "Alessandro Verri",
-		"birth": 1741,
-		"death": 1816
-	},
-	{
-		"id": "Q78129",
-		"name": "Gustav Teichm\u00fcller",
-		"birth": 1832,
-		"death": 1888
-	},
-	{
-		"id": "Q78251",
-		"name": "Dmytro Chyzhevsky",
-		"birth": 1894,
-		"death": 1977
-	},
-	{
-		"id": "Q783344",
-		"name": "Elijah Benamozegh",
-		"birth": 1823,
-		"death": 1900
-	},
-	{
-		"id": "Q784373",
-		"name": "Piero Vettori",
-		"birth": 1499,
-		"death": 1585
 	},
 	{
 		"id": "Q78484",
@@ -11076,34 +2586,10 @@
 		"death": 1925
 	},
 	{
-		"id": "Q78492",
-		"name": "Tom\u00e1\u0161 Garrigue Masaryk",
-		"birth": 1850,
-		"death": 1937
-	},
-	{
 		"id": "Q78497",
 		"name": "Paul Feyerabend",
 		"birth": 1924,
 		"death": 1994
-	},
-	{
-		"id": "Q78513",
-		"name": "Otto Weininger",
-		"birth": 1880,
-		"death": 1903
-	},
-	{
-		"id": "Q785250",
-		"name": "Petrus Comestor",
-		"birth": 1100,
-		"death": 1179
-	},
-	{
-		"id": "Q78600",
-		"name": "Alexius Meinong",
-		"birth": 1853,
-		"death": 1920
 	},
 	{
 		"id": "Q78603",
@@ -11112,40 +2598,10 @@
 		"death": 1932
 	},
 	{
-		"id": "Q786572",
-		"name": "Galvano Della Volpe",
-		"birth": 1895,
-		"death": 1968
-	},
-	{
 		"id": "Q788572",
 		"name": "Max Eastman",
 		"birth": 1883,
 		"death": 1969
-	},
-	{
-		"id": "Q78891",
-		"name": "Hugo Bergmann",
-		"birth": 1883,
-		"death": 1975
-	},
-	{
-		"id": "Q79177",
-		"name": "Philipp Frank",
-		"birth": 1884,
-		"death": 1966
-	},
-	{
-		"id": "Q7961364",
-		"name": "Walda Heywat",
-		"birth": 1599,
-		"death": 1692
-	},
-	{
-		"id": "Q796587",
-		"name": "Shams Tabrizi",
-		"birth": 1185,
-		"death": 1248
 	},
 	{
 		"id": "Q79969",
@@ -11154,22 +2610,10 @@
 		"death": 1940
 	},
 	{
-		"id": "Q800136",
-		"name": "Gustav Shpet",
-		"birth": 1879,
-		"death": 1937
-	},
-	{
-		"id": "Q8005704",
-		"name": "William Boone",
-		"birth": 1920,
-		"death": 1983
-	},
-	{
-		"id": "Q8007226",
-		"name": "William Craig",
-		"birth": 1918,
-		"death": 2016
+		"id": "Q8005287",
+		"name": "William Bechtel",
+		"birth": 1951,
+		"death": 2024
 	},
 	{
 		"id": "Q8011",
@@ -11190,28 +2634,10 @@
 		"death": 1968
 	},
 	{
-		"id": "Q8041259",
-		"name": "W\u0142adys\u0142aw Witwicki",
-		"birth": 1878,
-		"death": 1948
-	},
-	{
 		"id": "Q80612",
 		"name": "Anaximenes of Miletus",
 		"birth": -585,
 		"death": -525
-	},
-	{
-		"id": "Q809420",
-		"name": "Barth\u00e9lemy-Prosper Enfantin",
-		"birth": 1796,
-		"death": 1864
-	},
-	{
-		"id": "Q81082",
-		"name": "Henri Poincar\u00e9",
-		"birth": 1854,
-		"death": 1912
 	},
 	{
 		"id": "Q81244",
@@ -11232,64 +2658,16 @@
 		"death": 1944
 	},
 	{
-		"id": "Q8193646",
-		"name": "Alberto Wagner de Reyna",
-		"birth": 1915,
-		"death": 2006
-	},
-	{
-		"id": "Q8193964",
-		"name": "Yan Yan",
-		"birth": -506,
-		"death": -443
-	},
-	{
 		"id": "Q82049",
 		"name": "J.A.S.C.",
 		"birth": 1685,
 		"death": 1753
 	},
 	{
-		"id": "Q822329",
-		"name": "Bernard Bosanquet",
-		"birth": 1848,
-		"death": 1923
-	},
-	{
-		"id": "Q822727",
-		"name": "Bernard Stiegler",
-		"birth": 1952,
-		"death": 2020
-	},
-	{
-		"id": "Q822820",
-		"name": "Bernard d'Espagnat",
-		"birth": 1921,
-		"death": 2015
-	},
-	{
-		"id": "Q826272",
-		"name": "Bernard of Chartres",
-		"birth": 1070,
-		"death": 1130
-	},
-	{
-		"id": "Q8273058",
-		"name": "Tudor Vianu",
-		"birth": 1898,
-		"death": 1964
-	},
-	{
 		"id": "Q82778",
 		"name": "Pliny the Elder",
 		"birth": 20,
 		"death": 79
-	},
-	{
-		"id": "Q828641",
-		"name": "Bertrand de Jouvenel",
-		"birth": 1903,
-		"death": 1987
 	},
 	{
 		"id": "Q82934",
@@ -11304,52 +2682,10 @@
 		"death": 1937
 	},
 	{
-		"id": "Q83041",
-		"name": "Anaxagoras",
-		"birth": -500,
-		"death": -428
-	},
-	{
 		"id": "Q83331",
 		"name": "Louis de Broglie",
 		"birth": 1892,
 		"death": 1987
-	},
-	{
-		"id": "Q83375",
-		"name": "Empedocles",
-		"birth": -490,
-		"death": -430
-	},
-	{
-		"id": "Q836861",
-		"name": "Zilu",
-		"birth": -542,
-		"death": -480
-	},
-	{
-		"id": "Q837573",
-		"name": "Zai Yu",
-		"birth": -522,
-		"death": -458
-	},
-	{
-		"id": "Q840587",
-		"name": "Xavier Rubert de Vent\u00f3s",
-		"birth": 1939,
-		"death": 2023
-	},
-	{
-		"id": "Q840630",
-		"name": "\u00c9lie Hal\u00e9vy",
-		"birth": 1870,
-		"death": 1937
-	},
-	{
-		"id": "Q84186",
-		"name": "Ivan Illich",
-		"birth": 1926,
-		"death": 2002
 	},
 	{
 		"id": "Q84233",
@@ -11364,58 +2700,10 @@
 		"death": 1906
 	},
 	{
-		"id": "Q84345",
-		"name": "Ludwig von Bertalanffy",
-		"birth": 1901,
-		"death": 1972
-	},
-	{
-		"id": "Q84352",
-		"name": "Andr\u00e9 Gorz",
-		"birth": 1923,
-		"death": 2007
-	},
-	{
-		"id": "Q84405248",
-		"name": "Miros\u0142aw Nowaczyk",
-		"birth": 1931,
-		"death": 2007
-	},
-	{
 		"id": "Q84412",
 		"name": "Wilhelm Reich",
 		"birth": 1897,
 		"death": 1957
-	},
-	{
-		"id": "Q84423",
-		"name": "Martin Buber",
-		"birth": 1878,
-		"death": 1965
-	},
-	{
-		"id": "Q84664",
-		"name": "Robert von Zimmermann",
-		"birth": 1824,
-		"death": 1898
-	},
-	{
-		"id": "Q85142",
-		"name": "Kurt Baier",
-		"birth": 1917,
-		"death": 2010
-	},
-	{
-		"id": "Q85509996",
-		"name": "\u00c9milienne Naert",
-		"birth": 1920,
-		"death": 2001
-	},
-	{
-		"id": "Q855257",
-		"name": "Blasius of Parma",
-		"birth": 1355,
-		"death": 1416
 	},
 	{
 		"id": "Q859",
@@ -11424,40 +2712,10 @@
 		"death": -347
 	},
 	{
-		"id": "Q86073",
-		"name": "Heinrich Gomperz",
-		"birth": 1873,
-		"death": 1942
-	},
-	{
-		"id": "Q86371",
-		"name": "Gustav Bergmann",
-		"birth": 1906,
-		"death": 1987
-	},
-	{
-		"id": "Q86575",
-		"name": "Frithjof Bergmann",
-		"birth": 1930,
-		"death": 2021
-	},
-	{
 		"id": "Q868",
 		"name": "Aristotle",
 		"birth": -384,
 		"death": -322
-	},
-	{
-		"id": "Q87284",
-		"name": "Kurt Grelling",
-		"birth": 1886,
-		"death": 1942
-	},
-	{
-		"id": "Q87292",
-		"name": "Jean Gebser",
-		"birth": 1905,
-		"death": 1973
 	},
 	{
 		"id": "Q8739",
@@ -11466,22 +2724,10 @@
 		"death": -212
 	},
 	{
-		"id": "Q8771887",
-		"name": "Edgar Irmscher",
-		"birth": 1887,
-		"death": 1968
-	},
-	{
-		"id": "Q877276",
-		"name": "Roderick Chisholm",
-		"birth": 1916,
-		"death": 1999
-	},
-	{
-		"id": "Q87767",
-		"name": "Inocenc Arno\u0161t Bl\u00e1ha",
-		"birth": 1879,
-		"death": 1960
+		"id": "Q876398",
+		"name": "Hans Kamp",
+		"birth": 1940,
+		"death": 2024
 	},
 	{
 		"id": "Q8778",
@@ -11490,64 +2736,16 @@
 		"death": 300
 	},
 	{
-		"id": "Q87981",
-		"name": "Alois H\u00f6fler",
-		"birth": 1853,
-		"death": 1922
-	},
-	{
-		"id": "Q8862524",
-		"name": "Tadeusz Kro\u0144ski",
-		"birth": 1907,
-		"death": 1958
-	},
-	{
-		"id": "Q8918030",
-		"name": "Jun'ichi Aomi",
-		"birth": 1924,
-		"death": 2013
-	},
-	{
-		"id": "Q89206",
-		"name": "Richard Falckenberg",
-		"birth": 1851,
-		"death": 1920
-	},
-	{
-		"id": "Q892567",
-		"name": "Bonif\u00e1c Buzek",
-		"birth": 1788,
-		"death": 1839
-	},
-	{
-		"id": "Q9021",
-		"name": "Max Planck",
-		"birth": 1858,
-		"death": 1947
-	},
-	{
-		"id": "Q9032726",
-		"name": "Miguel Angel Gallardo",
-		"birth": 1955,
-		"death": 2022
-	},
-	{
 		"id": "Q9047",
 		"name": "Gottfried Wilhelm Leibniz",
 		"birth": 1646,
 		"death": 1716
 	},
 	{
-		"id": "Q90545",
-		"name": "Paul Hensel",
-		"birth": 1860,
-		"death": 1930
-	},
-	{
-		"id": "Q905827",
-		"name": "Diodorus of Tyre",
-		"birth": -150,
-		"death": -200
+		"id": "Q9049",
+		"name": "Noam Chomsky",
+		"birth": 1928,
+		"death": 2024
 	},
 	{
 		"id": "Q9061",
@@ -11562,46 +2760,10 @@
 		"death": 1778
 	},
 	{
-		"id": "Q91137",
-		"name": "Fyodor Stepun",
-		"birth": 1884,
-		"death": 1965
-	},
-	{
 		"id": "Q913",
 		"name": "Socrates",
 		"birth": -470,
 		"death": -399
-	},
-	{
-		"id": "Q914428",
-		"name": "Raymond Boudon",
-		"birth": 1934,
-		"death": 2013
-	},
-	{
-		"id": "Q9175565",
-		"name": "Bogumi\u0142 Jasinowski",
-		"birth": 1883,
-		"death": 1969
-	},
-	{
-		"id": "Q9175965",
-		"name": "Bogus\u0142aw Wolniewicz",
-		"birth": 1927,
-		"death": 2017
-	},
-	{
-		"id": "Q9176931",
-		"name": "Boles\u0142aw Soboci\u0144ski",
-		"birth": 1906,
-		"death": 1980
-	},
-	{
-		"id": "Q9191",
-		"name": "Ren\u00e9 Descartes",
-		"birth": 1596,
-		"death": 1650
 	},
 	{
 		"id": "Q9204",
@@ -11616,58 +2778,16 @@
 		"death": 1939
 	},
 	{
-		"id": "Q92268",
-		"name": "Ernst Soner",
-		"birth": 1572,
-		"death": 1612
-	},
-	{
-		"id": "Q922742",
-		"name": "Stanis\u0142aw Ja\u015bkowski",
-		"birth": 1906,
-		"death": 1965
-	},
-	{
-		"id": "Q92276",
-		"name": "Gernot B\u00f6hme",
-		"birth": 1937,
-		"death": 2022
-	},
-	{
-		"id": "Q92345",
-		"name": "Ernst Platner",
-		"birth": 1744,
-		"death": 1818
-	},
-	{
 		"id": "Q9235",
 		"name": "Georg Wilhelm Friedrich Hegel",
 		"birth": 1770,
 		"death": 1831
 	},
 	{
-		"id": "Q923582",
-		"name": "Francisco Varela",
-		"birth": 1946,
-		"death": 2001
-	},
-	{
-		"id": "Q92410",
-		"name": "Georg Wolfgang Wedel",
-		"birth": 1645,
-		"death": 1721
-	},
-	{
 		"id": "Q924215",
 		"name": "Hecato of Rhodes",
 		"birth": -200,
 		"death": -160
-	},
-	{
-		"id": "Q9253226",
-		"name": "El\u017cbieta Paczkowska-\u0141agowska",
-		"birth": 1948,
-		"death": 2021
 	},
 	{
 		"id": "Q925716",
@@ -11682,64 +2802,10 @@
 		"death": -300
 	},
 	{
-		"id": "Q92611",
-		"name": "Haskell Curry",
-		"birth": 1900,
-		"death": 1982
-	},
-	{
-		"id": "Q92741",
-		"name": "Alonzo Church",
-		"birth": 1903,
-		"death": 1995
-	},
-	{
-		"id": "Q928470",
-		"name": "Simmias of Thebes",
-		"birth": -500,
-		"death": -400
-	},
-	{
 		"id": "Q928551",
 		"name": "Origen the Pagan",
 		"birth": 200,
 		"death": 300
-	},
-	{
-		"id": "Q9288205",
-		"name": "Henry Hi\u017c",
-		"birth": 1917,
-		"death": 2006
-	},
-	{
-		"id": "Q9288240",
-		"name": "Henryk Jankowski",
-		"birth": 1929,
-		"death": 2004
-	},
-	{
-		"id": "Q929541",
-		"name": "Jacob of Edessa",
-		"birth": 633,
-		"death": 708
-	},
-	{
-		"id": "Q9303011",
-		"name": "Rafa\u0142 Molski",
-		"birth": 1925,
-		"death": 2000
-	},
-	{
-		"id": "Q930679",
-		"name": "Eugeni d'Ors",
-		"birth": 1881,
-		"death": 1954
-	},
-	{
-		"id": "Q93113",
-		"name": "Coluccio Salutati",
-		"birth": 1331,
-		"death": 1406
 	},
 	{
 		"id": "Q9312",
@@ -11748,46 +2814,16 @@
 		"death": 1804
 	},
 	{
-		"id": "Q9312655",
-		"name": "Roman Suszko",
-		"birth": 1919,
-		"death": 1979
-	},
-	{
-		"id": "Q931271",
-		"name": "Tisias",
-		"birth": -500,
-		"death": -500
-	},
-	{
 		"id": "Q9317",
 		"name": "John Maynard Keynes",
 		"birth": 1883,
 		"death": 1946
 	},
 	{
-		"id": "Q931898",
-		"name": "William of Auxerre",
-		"birth": 1145,
-		"death": 1231
-	},
-	{
 		"id": "Q9333",
 		"name": "Laozi",
 		"birth": -604,
 		"death": -600
-	},
-	{
-		"id": "Q93397",
-		"name": "Max Adler",
-		"birth": 1873,
-		"death": 1937
-	},
-	{
-		"id": "Q934510",
-		"name": "Lyco of Troas",
-		"birth": -299,
-		"death": -225
 	},
 	{
 		"id": "Q935",
@@ -11802,28 +2838,10 @@
 		"death": 1704
 	},
 	{
-		"id": "Q935663",
-		"name": "Mario Perniola",
-		"birth": 1941,
-		"death": 2018
-	},
-	{
 		"id": "Q9358",
 		"name": "Friedrich Nietzsche",
 		"birth": 1844,
 		"death": 1900
-	},
-	{
-		"id": "Q935877",
-		"name": "Carlo Pellegrini",
-		"birth": 1839,
-		"death": 1889
-	},
-	{
-		"id": "Q936308",
-		"name": "Cesare Cremonini",
-		"birth": 1550,
-		"death": 1631
 	},
 	{
 		"id": "Q9364",
@@ -11832,28 +2850,22 @@
 		"death": 1980
 	},
 	{
-		"id": "Q93690",
-		"name": "Karl Menger",
-		"birth": 1902,
-		"death": 1985
-	},
-	{
 		"id": "Q937",
 		"name": "Albert Einstein",
 		"birth": 1879,
 		"death": 1955
 	},
 	{
+		"id": "Q937697",
+		"name": "Stefan Molyneux",
+		"birth": 1966,
+		"death": 2024
+	},
+	{
 		"id": "Q9381",
 		"name": "Adam Smith",
 		"birth": 1723,
 		"death": 1790
-	},
-	{
-		"id": "Q93826",
-		"name": "Friedrich Waismann",
-		"birth": 1896,
-		"death": 1959
 	},
 	{
 		"id": "Q9387",
@@ -11874,36 +2886,6 @@
 		"death": 1200
 	},
 	{
-		"id": "Q93996",
-		"name": "Ernst Mach",
-		"birth": 1838,
-		"death": 1916
-	},
-	{
-		"id": "Q94018",
-		"name": "Alfred Sch\u00fctz",
-		"birth": 1899,
-		"death": 1959
-	},
-	{
-		"id": "Q940847",
-		"name": "Bruno Leoni",
-		"birth": 1913,
-		"death": 1967
-	},
-	{
-		"id": "Q943361",
-		"name": "Corrado B\u00f6hm",
-		"birth": 1923,
-		"death": 2017
-	},
-	{
-		"id": "Q943529",
-		"name": "Phaenias of Eresus",
-		"birth": -400,
-		"death": -360
-	},
-	{
 		"id": "Q9438",
 		"name": "Thomas Aquinas",
 		"birth": 1225,
@@ -11916,70 +2898,10 @@
 		"death": -483
 	},
 	{
-		"id": "Q94626673",
-		"name": "Ernest W. Adams",
-		"birth": 1926,
-		"death": 2009
-	},
-	{
-		"id": "Q947456",
-		"name": "Sidney Hook",
-		"birth": 1902,
-		"death": 1989
-	},
-	{
-		"id": "Q947651",
-		"name": "John Italus",
-		"birth": 1025,
-		"death": 1085
-	},
-	{
-		"id": "Q94896116",
-		"name": "Friedrich Weidauer",
-		"birth": 1894,
-		"death": 1973
-	},
-	{
-		"id": "Q948966",
-		"name": "Allan Bloom",
-		"birth": 1930,
-		"death": 1992
-	},
-	{
-		"id": "Q949162",
-		"name": "Alessandro Achillini",
-		"birth": 1463,
-		"death": 1512
-	},
-	{
-		"id": "Q949530",
-		"name": "Demonax",
-		"birth": 200,
-		"death": 170
-	},
-	{
-		"id": "Q950303",
-		"name": "Cratippus of Pergamon",
-		"birth": -100,
-		"death": -100
-	},
-	{
-		"id": "Q951066",
-		"name": "L\u00e9on Brunschvicg",
-		"birth": 1869,
-		"death": 1944
-	},
-	{
-		"id": "Q951460",
-		"name": "Fran\u00e7ois Zourabichvili",
-		"birth": 1965,
-		"death": 2006
-	},
-	{
-		"id": "Q95227239",
-		"name": "Bruno Segre",
-		"birth": 1930,
-		"death": 2023
+		"id": "Q951297",
+		"name": "Harvey Friedman",
+		"birth": 1948,
+		"death": 2024
 	},
 	{
 		"id": "Q9546",
@@ -11988,100 +2910,10 @@
 		"death": 1111
 	},
 	{
-		"id": "Q954692",
-		"name": "Eugenio Garin",
-		"birth": 1909,
-		"death": 2004
-	},
-	{
 		"id": "Q9554",
 		"name": "Martin Luther",
 		"birth": 1483,
 		"death": 1546
-	},
-	{
-		"id": "Q95678",
-		"name": "Johann Christoph Wichmannshausen",
-		"birth": 1663,
-		"death": 1727
-	},
-	{
-		"id": "Q956913",
-		"name": "Petre \u021au\u021bea",
-		"birth": 1902,
-		"death": 1991
-	},
-	{
-		"id": "Q957416",
-		"name": "Solomon Feferman",
-		"birth": 1928,
-		"death": 2016
-	},
-	{
-		"id": "Q957553",
-		"name": "Martin Lings",
-		"birth": 1909,
-		"death": 2005
-	},
-	{
-		"id": "Q95761997",
-		"name": "Robert G. Turnbull",
-		"birth": 1950,
-		"death": 2004
-	},
-	{
-		"id": "Q960081",
-		"name": "Kenneth Burke",
-		"birth": 1897,
-		"death": 1993
-	},
-	{
-		"id": "Q96188",
-		"name": "Johannes Caselius",
-		"birth": 1533,
-		"death": 1613
-	},
-	{
-		"id": "Q962148",
-		"name": "Gilbert Harman",
-		"birth": 1938,
-		"death": 2021
-	},
-	{
-		"id": "Q962334",
-		"name": "Hillel ben Samuel",
-		"birth": 1220,
-		"death": 1295
-	},
-	{
-		"id": "Q962486",
-		"name": "Echecrates of Phlius",
-		"birth": -500,
-		"death": -400
-	},
-	{
-		"id": "Q963339",
-		"name": "Giovanni Botero",
-		"birth": 1544,
-		"death": 1617
-	},
-	{
-		"id": "Q965144",
-		"name": "Cebes",
-		"birth": -500,
-		"death": -400
-	},
-	{
-		"id": "Q965524",
-		"name": "Pierre Paul Royer-Collard",
-		"birth": 1763,
-		"death": 1845
-	},
-	{
-		"id": "Q965802",
-		"name": "Jamgon Kongtrul Lodro Taye",
-		"birth": 1813,
-		"death": 1899
 	},
 	{
 		"id": "Q969533",
@@ -12090,100 +2922,10 @@
 		"death": 1935
 	},
 	{
-		"id": "Q969758",
-		"name": "Gregory of Narek",
-		"birth": 951,
-		"death": 1003
-	},
-	{
-		"id": "Q969976",
-		"name": "Dionysius the Renegade",
-		"birth": -330,
-		"death": -250
-	},
-	{
-		"id": "Q97068223",
-		"name": "Andr\u00e9 Doz",
-		"birth": 1928,
-		"death": 2013
-	},
-	{
-		"id": "Q97077",
-		"name": "Moriz Carri\u00e8re",
-		"birth": 1817,
-		"death": 1895
-	},
-	{
-		"id": "Q971382",
-		"name": "Aldo Leopold",
-		"birth": 1887,
-		"death": 1948
-	},
-	{
-		"id": "Q971585",
-		"name": "Hubert Dreyfus",
-		"birth": 1929,
-		"death": 2017
-	},
-	{
-		"id": "Q972152",
-		"name": "Pierre Hadot",
-		"birth": 1922,
-		"death": 2010
-	},
-	{
-		"id": "Q97296",
-		"name": "Johann Friedrich Flatt",
-		"birth": 1759,
-		"death": 1821
-	},
-	{
-		"id": "Q973196",
-		"name": "Francisco Sanches",
-		"birth": 1550,
-		"death": 1623
-	},
-	{
-		"id": "Q974775",
-		"name": "Olympiodorus the Younger",
-		"birth": 495,
-		"death": 570
-	},
-	{
-		"id": "Q974885",
-		"name": "Elias",
-		"birth": 600,
-		"death": 600
-	},
-	{
 		"id": "Q97502",
 		"name": "Valentin Alberti",
 		"birth": 1635,
 		"death": 1697
-	},
-	{
-		"id": "Q97530",
-		"name": "Max Heinze",
-		"birth": 1835,
-		"death": 1909
-	},
-	{
-		"id": "Q978049",
-		"name": "Gustavo Bueno",
-		"birth": 1924,
-		"death": 2016
-	},
-	{
-		"id": "Q97841",
-		"name": "Konrad Engelbert Oelsner",
-		"birth": 1764,
-		"death": 1828
-	},
-	{
-		"id": "Q97982684",
-		"name": "Jean-Marc Drouin",
-		"birth": 1948,
-		"death": 2020
 	},
 	{
 		"id": "Q981459",
@@ -12192,63 +2934,15 @@
 		"death": 1903
 	},
 	{
-		"id": "Q981959",
-		"name": "Semyon Frank",
-		"birth": 1877,
-		"death": 1950
-	},
-	{
-		"id": "Q982170",
-		"name": "Shlomo ben Aderet",
-		"birth": 1235,
-		"death": 1310
-	},
-	{
-		"id": "Q983648",
-		"name": "Kostas Axelos",
-		"birth": 1924,
-		"death": 2010
-	},
-	{
-		"id": "Q983724",
-		"name": "Nikolai Stankevich",
-		"birth": 1813,
-		"death": 1840
-	},
-	{
 		"id": "Q988129",
 		"name": "Mary Whiton Calkins",
 		"birth": 1863,
 		"death": 1930
 	},
 	{
-		"id": "Q990589",
-		"name": "Menedemus",
-		"birth": -340,
-		"death": -265
-	},
-	{
-		"id": "Q990873",
-		"name": "Ernesto Codignola",
-		"birth": 1885,
-		"death": 1965
-	},
-	{
 		"id": "Q991",
 		"name": "Fyodor Dostoyevsky",
 		"birth": 1821,
 		"death": 1881
-	},
-	{
-		"id": "Q993489",
-		"name": "Bruno Liebrucks",
-		"birth": 1911,
-		"death": 1986
-	},
-	{
-		"id": "Q993993",
-		"name": "Bruno von Freytag-L\u00f6ringhoff",
-		"birth": 1912,
-		"death": 1996
 	}
 ]

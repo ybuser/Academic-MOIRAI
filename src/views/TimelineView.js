@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react'
 import * as d3 from "d3";
+import { act } from 'react-dom/test-utils';
 
-function computeBarYPosition(data, direction = "center") {
+function computeBarYPosition(data, direction = "top") {
   function xOverlaps(a, b) {
     return a.birth < b.death + 1 && a.death + 1 > b.birth;
   }
@@ -56,16 +57,21 @@ function computeBarYPosition(data, direction = "center") {
 }
 
 const TimelineView = (props) => {
-  const svgContainerRef = useRef(null); // Ref for the SVG container
+  const svgContainerRef = useRef(null); 
   const splotSvg = useRef(null);
+  const [activeNode, setActiveNode] = useState([]); 
+
   let data = props.data; 
   let relationships = props.relationships;
 
-  const margin = ({ top: 10, right: 20, bottom: 50, left: 20 }); // Increase bottom margin
-  const width = 1800;
+  const margin = ({ top: 10, right: 20, bottom: 50, left: 20 }); 
   const barHeight = 20;
   const maxYear = Math.max(...data.map(d => d.death)) + 20;
   const minYear = Math.min(...data.map(d => d.birth)) - 20;
+  const timelineLength = maxYear - minYear;
+  const widthPerYear = 10;
+  const width = widthPerYear * timelineLength + margin.left + margin.right;
+
 
   const yPos = computeBarYPosition(data);
 
@@ -74,13 +80,19 @@ const TimelineView = (props) => {
   const chartHeight = (yPosMax - yPosMin) * barHeight * 2;
   const height = chartHeight + margin.top + margin.bottom;
 
+  const extraHeightForXAxis = 30; 
+  const svgHeight = chartHeight + margin.top + margin.bottom;
+  
+  const containerHeight = svgHeight + extraHeightForXAxis;
+
+
   const xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
   const yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
 
   useEffect(() => {
     const svg = d3.select(splotSvg.current)
       .attr("width", width)
-      .attr("height", height);
+      .attr("height", svgHeight);
 
     svg.append("defs").append("marker")
       .attr("id", "arrowhead")
@@ -98,7 +110,6 @@ const TimelineView = (props) => {
     const centuryStart = Math.ceil(minYear / 100) * 100;
     const centuries = d3.range(centuryStart, maxYear, 100);
   
-    // Draw vertical gridlines at every century mark
     const linesLayer = svg.append("g").attr("class", "lines-layer");
   
     linesLayer.append("g")
@@ -112,59 +123,75 @@ const TimelineView = (props) => {
         .style("stroke", "rgba(0,0,0,0.2)")
         .style("stroke-dasharray", "2,2");
 
-    // Draw x-axis with labels every 20 years, starting from 1700
     svg.append("g")
       .attr("transform", `translate(0,${chartHeight})`)
       .call(d3.axisBottom(xScale)
         .tickValues(d3.range(Math.floor(minYear / 20) * 20, maxYear, 20))
-        .tickFormat(d3.format(".0f")) // Add this line to change the tick format
+        .tickFormat(d3.format(".0f"))
         .tickSizeOuter(0));
 
     const arrowLayer = svg.append("g").attr("class", "arrow-layer");
 
     relationships.forEach(rel => {
-      const sourceNode = data.find(d => d.name === rel.source);
-      const targetNode = data.find(d => d.name === rel.target);
+      const sourceNode = data.find(d => d.id === rel.source);
+      const targetNode = data.find(d => d.id === rel.target);
     
       if (sourceNode && targetNode) {
         const sourceIndex = data.indexOf(sourceNode);
         const targetIndex = data.indexOf(targetNode);
-    
+
+        let arrowColor;
+        switch (rel.type) {
+          case 'influenced':
+            arrowColor = 'red';
+            break;
+          case 'taught':
+            arrowColor = 'blue';
+            break;
+          default:
+            arrowColor = 'black';
+        }        
         arrowLayer.append("line")
-          .attr("x1", xScale(sourceNode.death))
-          .attr("y1", yScale(yPos[sourceIndex]) + barHeight / 2)
-          .attr("x2", xScale(targetNode.birth))
-          .attr("y2", yScale(yPos[targetIndex]) + barHeight / 2)
-          .attr("stroke", "black")
+          .data([rel])
+          .attr("x1", xScale((sourceNode.death+sourceNode.birth)/2))
+          .attr("y1", yPos[sourceIndex] < yPos[targetIndex] ? yScale(yPos[sourceIndex]) : yScale(yPos[sourceIndex]) + barHeight)
+          .attr("x2", xScale((targetNode.birth+targetNode.death)/2))
+          .attr("y2", yPos[sourceIndex] > yPos[targetIndex] ? yScale(yPos[targetIndex]) : yScale(yPos[targetIndex]) + barHeight)
+          .attr("stroke", arrowColor)
+          .attr("opacity", activeNode[0] == sourceNode.id || activeNode[0] == targetNode.id ? 1 : 0)
           .attr("marker-end", "url(#arrowhead)");
       }
     });
 
     // Create bars and labels
+
+    svg.selectAll("rect").remove();
+    // svg.selectAll(".arrow-layer").remove();
+
     const bars = svg.append("g")
       .selectAll("g")
       .data(data)
       .join("g");
 
     // Create bars
+
     bars.append("rect")
       .attr("x", d => xScale(d.birth))
       .attr("width", d => xScale(d.death) - xScale(d.birth))
       .attr("y", (d, i) => yScale(yPos[i]))
       .attr("height", barHeight)
-      .attr("fill", "steelblue");
+      .attr("fill", "steelblue")
+      .attr("opacity", d => activeNode.includes(d.id) ? 1 : 0.1);
 
     // Create labels displaying only name
     bars.append("text")
-      .text(d => d.name)
-      .attr("x", d => xScale(d.birth) + 4)
-      .attr("y", (d, i) => yScale(yPos[i]) + barHeight / 2)
-      .attr("alignment-baseline", "central")
-      .attr("font-size", 12)
-      .attr("fill", "white")
-      .attr("white-space", "nowrap")
-      // .attr("overflow", "hidden")
-      .attr("text-overflow", "ellipsis");
+    .text(d => d.name)
+    .attr("x", d => xScale((d.birth + d.death) / 2)) // Center the text
+    .attr("y", (d, i) => yScale(yPos[i]) + barHeight / 2)
+    .attr("alignment-baseline", "central")
+    .attr("font-size", 12)
+    .attr("fill", "black")
+    .attr("text-anchor", "middle"); // Center the text anchor
 
     // Mouseover and mouseout events for scrolling labels and showing dates on the timeline
     bars.on("mouseover", function (event, d) {
@@ -226,7 +253,7 @@ const TimelineView = (props) => {
         // Reset the label position to original
         const label = d3.select(this).select("text");
         const currentXPosition = parseFloat(label.attr("x"));
-        const originalXPosition = xScale(d.birth) + 4;
+        const originalXPosition = xScale((d.birth + d.death) / 2);
     
         if (currentXPosition !== originalXPosition) {
           label.interrupt() // Stop any active transition
@@ -235,16 +262,38 @@ const TimelineView = (props) => {
             .ease(d3.easeQuadInOut)
             .attr("x", originalXPosition);
         }
+    })
+    .on("click", function (event, d) {
+      const connectedNodes = relationships.filter(rel => rel.source === d.id || rel.target === d.id)
+        .map(rel => rel.source === d.id ? rel.target : rel.source);
+      const newActiveNodes = [d.id, ...connectedNodes];
+
+      setActiveNode(newActiveNodes); 
+
+      svg.selectAll(".arrow-layer").remove();
+
+      event.stopPropagation(); 
     });
 
+    svg.on("click", () => {
+      setActiveNode([]);
+      svg.selectAll(".arrow-layer").remove();
+    });
 
-  }, []);
+    console.log(activeNode);
+  }, [activeNode]);
 
 
   return (
-    <div ref={svgContainerRef} style={{ width: '100%', overflowX: 'auto' }}>
-      <svg ref={splotSvg} width={width} height={height}></svg>
+    <div>
+      <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px' }}>
+        <h2>Timeline View</h2>
+      </div>
+      <div ref={svgContainerRef} style={{ width: '100%', overflowX: 'auto', height: `${containerHeight}px` }}>
+        <svg ref={splotSvg} width={width} height={svgHeight}></svg>
+      </div>
     </div>
+    
   )
 }
 

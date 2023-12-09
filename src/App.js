@@ -66,9 +66,9 @@ function App() {
       <Container>
         {/* <H1> Academic MOIRAI </H1> */}
         <TimelineContainer>
-          <SubTitle>
+          {/* <SubTitle>
           Timeline View
-          </SubTitle>
+          </SubTitle> */}
           {/* <Wrapper> */}
             <TimelineView
               data={importedData}
