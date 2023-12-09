@@ -14,6 +14,27 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAP_API_KEY,
   });
 
+  // Function to adjust overlapping coordinates
+  const adjustCoordinates = (markers, newMarker, adjustment = 0.001) => {
+    while (newMarker && markers.some(marker => marker.lat === newMarker.lat && marker.lng === newMarker.lng)) {
+      newMarker.lat += adjustment;
+      newMarker.lng += adjustment;
+    }
+  };
+
+  const extractLocationData = (philosopher) => {
+    const location = philosopher.residence || philosopher.educatedAt || philosopher.employer;
+    if (location && location[0] && location[0].coordinates) {
+      return {
+        lat: location[0].coordinates.latitude,
+        lng: location[0].coordinates.longitude,
+        label: philosopher.name
+      };
+    }
+    return null;
+  };
+
+
   useEffect(() => {
     // console.log("1 in useeffect");
     const fetchPhilosopherDetails = async (id) => {
@@ -25,23 +46,14 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
 
     // console.log("4. in useeffect selected", selectedPhilosopher);
 
-    const extractLocationData = (philosopher) => {
-      const location = philosopher.residence || philosopher.educatedAt || philosopher.employer;
-      if (location && location[0] && location[0].coordinates) {
-        return {
-          lat: location[0].coordinates.latitude,
-          lng: location[0].coordinates.longitude,
-          label: philosopher.name
-        };
-      }
-    };
-
     const loadPhilosophers = async () => {
       let markers = [];
-      // console.log("5. now before fetch");
       const mainPhilosopher = await fetchPhilosopherDetails(selectedPhilosopher);
-      markers.push(extractLocationData(mainPhilosopher));
-      // console.log("6. fetched");
+      let mainMarker = extractLocationData(mainPhilosopher);
+      if (mainMarker) {
+        adjustCoordinates(markers, mainMarker);
+        markers.push(mainMarker);
+      }
 
       const edgePromises = [];
       for (let edgeType in mainPhilosopher.edges) {
@@ -52,7 +64,11 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
 
       const edgeDetails = await Promise.all(edgePromises);
       edgeDetails.forEach(details => {
-        markers.push(extractLocationData(details));
+        let marker = extractLocationData(details);
+        if (marker) {
+          adjustCoordinates(markers, marker);
+          markers.push(marker);
+        }
       });
 
       // console.log("7. in useeffect");
