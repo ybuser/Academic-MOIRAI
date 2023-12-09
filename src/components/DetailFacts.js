@@ -34,6 +34,14 @@ const FactP = styled.div`
     }
 `;
 const DetailFacts = ({ philosopherDetails }) => {
+    // Check if philosopherDetails and its properties are defined
+    const occupation = philosopherDetails && philosopherDetails.occupation ? Object.values(philosopherDetails.occupation).map(value => value['name']).join(', ') : '';
+    const movement = philosopherDetails && philosopherDetails.movement ? Object.values(philosopherDetails.movement).map(value => value['name']).join(', ') : '';
+    const notableWork = philosopherDetails && philosopherDetails.notableWork ? Object.entries(philosopherDetails.notableWork).sort(([, valueA], [, valueB]) => {
+        const idA = parseInt(valueA['id'].substring(1));
+        const idB = parseInt(valueB['id'].substring(1));
+        return idA - idB;
+    }).slice(0, 5) : [];
 
     return (
         <InfoWrapper id='detailInfo'> 
@@ -58,31 +66,18 @@ const DetailFacts = ({ philosopherDetails }) => {
 
             <p style={{ margin: '4px' , textAlign: 'left' }}>{philosopherDetails.desc}</p>
 
-            <p style={{ fontWeight: 'normal' }}>
-                    {Object.values(philosopherDetails.occupation).map(value => value['name']).join(', ')}
-            </p>
-
+            <p style={{ fontWeight: 'normal' }}>{occupation}</p>
             <FactP>
                 <h4>Movements</h4>
-                <p style={{ fontWeight: 'normal' }}>
-                    {Object.values(philosopherDetails.movement).map(value => value['name']).join(', ')}
-                </p>
+                <p style={{ fontWeight: 'normal' }}>{movement}</p>
             </FactP>
-
             <FactP>
                 <h4>Notable Works</h4>
-                    {Object.entries(philosopherDetails.notableWork)
-                        .sort(([, valueA], [, valueB]) => {
-                            const idA = parseInt(valueA['id'].substring(1));
-                            const idB = parseInt(valueB['id'].substring(1));
-                            return idA - idB;
-                        })
-                        .slice(0, 5)
-                        .map(([key, value]) => (
-                            <div key={key}>
-                                <p style={{ fontWeight: 'normal' }}>{value['name']}</p>
-                            </div>
-                    ))}
+                {notableWork.map(([key, value]) => (
+                    <div key={key}>
+                        <p style={{ fontWeight: 'normal' }}>{value['name']}</p>
+                    </div>
+                ))}
             </FactP>
         </InfoWrapper>
     );
