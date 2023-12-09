@@ -4,21 +4,60 @@
     "desc": "Italian polymath",
     "wiki_link": "https://en.wikipedia.org/wiki/Galileo_Galilei",
     "countryOfCitizenship": {
-        "0": "Duchy of Florence",
-        "1": "Grand Duchy of Tuscany"
+        "0": {
+            "id": "Q2252973",
+            "name": "Duchy of Florence"
+        },
+        "1": {
+            "id": "Q154849",
+            "name": "Grand Duchy of Tuscany"
+        }
     },
     "occupation": {
-        "0": "astronomer",
-        "1": "philosopher",
-        "2": "mathematician",
-        "3": "physicist",
-        "4": "inventor",
-        "5": "astrologer",
-        "6": "polymath",
-        "7": "university teacher",
-        "8": "scientist",
-        "9": "engineer",
-        "10": "philosopher"
+        "0": {
+            "id": "Q11063",
+            "name": "astronomer"
+        },
+        "1": {
+            "id": "Q4964182",
+            "name": "philosopher"
+        },
+        "2": {
+            "id": "Q170790",
+            "name": "mathematician"
+        },
+        "3": {
+            "id": "Q169470",
+            "name": "physicist"
+        },
+        "4": {
+            "id": "Q205375",
+            "name": "inventor"
+        },
+        "5": {
+            "id": "Q155647",
+            "name": "astrologer"
+        },
+        "6": {
+            "id": "Q270141",
+            "name": "polymath"
+        },
+        "7": {
+            "id": "Q1622272",
+            "name": "university teacher"
+        },
+        "8": {
+            "id": "Q901",
+            "name": "scientist"
+        },
+        "9": {
+            "id": "Q81096",
+            "name": "engineer"
+        },
+        "10": {
+            "id": "Q4964182",
+            "name": "philosopher"
+        }
     },
     "dateOfBirth": {
         "0": "+1564-02-15T00:00:00Z"
@@ -28,6 +67,7 @@
     },
     "residence": {
         "0": {
+            "id": "Q13375",
             "name": "Pisa",
             "coordinates": {
                 "latitude": 43.716666666667,
@@ -38,6 +78,7 @@
             }
         },
         "1": {
+            "id": "Q617",
             "name": "Padua",
             "coordinates": {
                 "latitude": 45.406388888889,
@@ -48,6 +89,7 @@
             }
         },
         "2": {
+            "id": "Q2044",
             "name": "Florence",
             "coordinates": {
                 "latitude": 43.771388888889,
@@ -60,6 +102,7 @@
     },
     "educatedAt": {
         "0": {
+            "id": "Q645663",
             "name": "University of Pisa",
             "coordinates": {
                 "latitude": 43.716508333333,
@@ -72,6 +115,7 @@
     },
     "employer": {
         "0": {
+            "id": "Q193510",
             "name": "University of Padua",
             "coordinates": {
                 "latitude": 45.42,
@@ -82,6 +126,7 @@
             }
         },
         "1": {
+            "id": "Q645663",
             "name": "University of Pisa",
             "coordinates": {
                 "latitude": 43.716508333333,
@@ -93,25 +138,64 @@
         }
     },
     "fieldOfWork": {
-        "0": "astronomy",
-        "1": "physics",
-        "2": "mechanics",
-        "3": "philosophy",
-        "4": "mathematics"
+        "0": {
+            "id": "Q333",
+            "name": "astronomy"
+        },
+        "1": {
+            "id": "Q413",
+            "name": "physics"
+        },
+        "2": {
+            "id": "Q41217",
+            "name": "mechanics"
+        },
+        "3": {
+            "id": "Q5891",
+            "name": "philosophy"
+        },
+        "4": {
+            "id": "Q395",
+            "name": "mathematics"
+        }
     },
     "doctralStudent": {
-        "0": "Giuseppe Biancani",
-        "1": "Benedetto Castelli",
-        "2": "Mario Guiducci",
-        "3": "Vincenzo Viviani"
+        "0": {
+            "id": "Q501774",
+            "name": "Giuseppe Biancani"
+        },
+        "1": {
+            "id": "Q560872",
+            "name": "Benedetto Castelli"
+        },
+        "2": {
+            "id": "Q1796926",
+            "name": "Mario Guiducci"
+        },
+        "3": {
+            "id": "Q318037",
+            "name": "Vincenzo Viviani"
+        }
     },
     "student": {
-        "0": "Niccol\u00f2 Arrighetti",
-        "1": "Giuseppe Biancani"
+        "0": {
+            "id": "Q38158885",
+            "name": "Niccol\u00f2 Arrighetti"
+        },
+        "1": {
+            "id": "Q501774",
+            "name": "Giuseppe Biancani"
+        }
     },
     "notableWork": {
-        "0": "Galilean transformation",
-        "1": "equations for a falling body"
+        "0": {
+            "id": "Q219207",
+            "name": "Galilean transformation"
+        },
+        "1": {
+            "id": "Q1132975",
+            "name": "equations for a falling body"
+        }
     },
     "image": {
         "0": "Galileo.arp.300pix.jpg",
