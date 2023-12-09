@@ -1,1 +1,138 @@
-{"id": "Q313581", "name": "Nicolae Iorga", "countryOfCitizenship": {"0": "United Principalities of Moldavia and Wallachia", "1": "Kingdom of Romania"}, "dateOfBirth": {"0": "+1871-01-17T00:00:00Z", "1": "+1871-06-05T00:00:00Z", "2": "+1871-06-18T00:00:00Z"}, "dateOfDeath": {"0": "+1940-11-27T00:00:00Z", "1": "+1940-11-28T00:00:00Z"}, "occupation": {"0": "politician", "1": "linguist", "2": "geopolitician", "3": "poet", "4": "writer", "5": "historian of Eastern Europe", "6": "historian", "7": "philosopher", "8": "literary historian", "9": "playwright", "10": "literary critic", "11": "journalist", "12": "orientalist", "13": "biographer", "14": "children's writer", "15": "classical scholar", "16": "translator", "17": "university teacher"}, "educatedAt": {"0": {"name": "Alexandru Ioan Cuza University", "coordinates": {"latitude": 47.174230555556, "longitude": 27.571691666667, "altitude": null, "precision": 2.7777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "Leipzig University", "coordinates": {"latitude": 51.3387, "longitude": 12.378727777777778, "altitude": null, "precision": 2.777777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Humboldt University of Berlin", "coordinates": {"latitude": 52.518055555556, "longitude": 13.393333333333, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "3": {"name": "\u00c9cole pratique des hautes \u00e9tudes", "coordinates": {"latitude": 48.8311, "longitude": 2.34, "altitude": null, "precision": 1e-07, "globe": "http://www.wikidata.org/entity/Q2"}}}, "employer": {"0": {"name": "University of Paris", "coordinates": {"latitude": 48.8486, "longitude": 2.34333, "altitude": null, "precision": 0.013651149849302, "globe": "http://www.wikidata.org/entity/Q2"}}, "1": {"name": "University of Bucharest", "coordinates": {"latitude": 44.435555555556, "longitude": 26.101116666667, "altitude": null, "precision": null, "globe": "http://www.wikidata.org/entity/Q2"}}, "2": {"name": "Alexandru Ioan Cuza University", "coordinates": {"latitude": 47.174230555556, "longitude": 27.571691666667, "altitude": null, "precision": 2.7777777777778e-06, "globe": "http://www.wikidata.org/entity/Q2"}}}, "fieldOfWork": {"0": "history", "1": "politics", "2": "creative and professional writing", "3": "literary criticism", "4": "memoir literature", "5": "poetry"}, "student": {"0": "Natalia Negru", "1": "\u0218tefan Manciulea", "2": "Eliza Campus"}, "studentOf": {"0": "Alexandru Grigore Su\u021bu"}, "image": {"0": "Nicolae Iorga (1).jpg"}, "edges": {"influenced": {"0": {"id": "Q41590", "name": "Mircea Eliade"}}}}
+{
+    "id": "Q313581",
+    "name": "Nicolae Iorga",
+    "countryOfCitizenship": {
+        "0": "United Principalities of Moldavia and Wallachia",
+        "1": "Kingdom of Romania"
+    },
+    "dateOfBirth": {
+        "0": "+1871-01-17T00:00:00Z",
+        "1": "+1871-06-05T00:00:00Z",
+        "2": "+1871-06-18T00:00:00Z"
+    },
+    "dateOfDeath": {
+        "0": "+1940-11-27T00:00:00Z",
+        "1": "+1940-11-28T00:00:00Z"
+    },
+    "occupation": {
+        "0": "politician",
+        "1": "linguist",
+        "2": "geopolitician",
+        "3": "poet",
+        "4": "writer",
+        "5": "historian of Eastern Europe",
+        "6": "historian",
+        "7": "philosopher",
+        "8": "literary historian",
+        "9": "playwright",
+        "10": "literary critic",
+        "11": "journalist",
+        "12": "orientalist",
+        "13": "biographer",
+        "14": "children's writer",
+        "15": "classical scholar",
+        "16": "translator",
+        "17": "university teacher"
+    },
+    "educatedAt": {
+        "0": {
+            "name": "Alexandru Ioan Cuza University",
+            "coordinates": {
+                "latitude": 47.174230555556,
+                "longitude": 27.571691666667,
+                "altitude": null,
+                "precision": 2.7777777777778e-06,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        },
+        "1": {
+            "name": "Leipzig University",
+            "coordinates": {
+                "latitude": 51.3387,
+                "longitude": 12.378727777777778,
+                "altitude": null,
+                "precision": 2.777777777777778e-06,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        },
+        "2": {
+            "name": "Humboldt University of Berlin",
+            "coordinates": {
+                "latitude": 52.518055555556,
+                "longitude": 13.393333333333,
+                "altitude": null,
+                "precision": null,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        },
+        "3": {
+            "name": "\u00c9cole pratique des hautes \u00e9tudes",
+            "coordinates": {
+                "latitude": 48.8311,
+                "longitude": 2.34,
+                "altitude": null,
+                "precision": 1e-07,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        }
+    },
+    "employer": {
+        "0": {
+            "name": "University of Paris",
+            "coordinates": {
+                "latitude": 48.8486,
+                "longitude": 2.34333,
+                "altitude": null,
+                "precision": 0.013651149849302,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        },
+        "1": {
+            "name": "University of Bucharest",
+            "coordinates": {
+                "latitude": 44.435555555556,
+                "longitude": 26.101116666667,
+                "altitude": null,
+                "precision": null,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        },
+        "2": {
+            "name": "Alexandru Ioan Cuza University",
+            "coordinates": {
+                "latitude": 47.174230555556,
+                "longitude": 27.571691666667,
+                "altitude": null,
+                "precision": 2.7777777777778e-06,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
+        }
+    },
+    "fieldOfWork": {
+        "0": "history",
+        "1": "politics",
+        "2": "creative and professional writing",
+        "3": "literary criticism",
+        "4": "memoir literature",
+        "5": "poetry"
+    },
+    "student": {
+        "0": "Natalia Negru",
+        "1": "\u0218tefan Manciulea",
+        "2": "Eliza Campus"
+    },
+    "studentOf": {
+        "0": "Alexandru Grigore Su\u021bu"
+    },
+    "image": {
+        "0": "Nicolae Iorga (1).jpg"
+    },
+    "edges": {
+        "influenced": {
+            "0": {
+                "id": "Q41590",
+                "name": "Mircea Eliade"
+            }
+        }
+    }
+}

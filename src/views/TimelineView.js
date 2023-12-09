@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import * as d3 from "d3";
+import { act } from 'react-dom/test-utils';
 
 function computeBarYPosition(data, direction = "top") {
   function xOverlaps(a, b) {
@@ -56,15 +57,14 @@ function computeBarYPosition(data, direction = "top") {
 }
 
 const TimelineView = (props) => {
-  const svgContainerRef = useRef(null); // Ref for the SVG container
+  const svgContainerRef = useRef(null); 
   const splotSvg = useRef(null);
   const [activeNode, setActiveNode] = useState([]); 
 
   let data = props.data; 
   let relationships = props.relationships;
 
-  const margin = ({ top: 10, right: 20, bottom: 50, left: 20 }); // Increase bottom margin
-  // const width = 1800;
+  const margin = ({ top: 10, right: 20, bottom: 50, left: 20 }); 
   const barHeight = 20;
   const maxYear = Math.max(...data.map(d => d.death)) + 20;
   const minYear = Math.min(...data.map(d => d.birth)) - 20;
@@ -80,10 +80,10 @@ const TimelineView = (props) => {
   const chartHeight = (yPosMax - yPosMin) * barHeight * 2;
   const height = chartHeight + margin.top + margin.bottom;
 
-  const extraHeightForXAxis = 30; // x축을 위한 추가 높이
+  const extraHeightForXAxis = 30; 
   const svgHeight = chartHeight + margin.top + margin.bottom;
   
-  const containerHeight = svgHeight + extraHeightForXAxis; // 컨테이너 높이를 SVG 높이 + x축 높이로 설정
+  const containerHeight = svgHeight + extraHeightForXAxis;
 
 
   const xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
@@ -110,7 +110,6 @@ const TimelineView = (props) => {
     const centuryStart = Math.ceil(minYear / 100) * 100;
     const centuries = d3.range(centuryStart, maxYear, 100);
   
-    // Draw vertical gridlines at every century mark
     const linesLayer = svg.append("g").attr("class", "lines-layer");
   
     linesLayer.append("g")
@@ -124,7 +123,6 @@ const TimelineView = (props) => {
         .style("stroke", "rgba(0,0,0,0.2)")
         .style("stroke-dasharray", "2,2");
 
-    // Draw x-axis with labels every 20 years, starting from 1700
     svg.append("g")
       .attr("transform", `translate(0,${chartHeight})`)
       .call(d3.axisBottom(xScale)
@@ -152,31 +150,38 @@ const TimelineView = (props) => {
             break;
           default:
             arrowColor = 'black';
-        }
-    
+        }        
         arrowLayer.append("line")
+          .data([rel])
           .attr("x1", xScale(sourceNode.death))
           .attr("y1", yScale(yPos[sourceIndex]) + barHeight / 2)
           .attr("x2", xScale(targetNode.birth))
           .attr("y2", yScale(yPos[targetIndex]) + barHeight / 2)
           .attr("stroke", arrowColor)
+          .attr("opacity", activeNode[0] == sourceNode.id || activeNode[0] == targetNode.id ? 1 : 0)
           .attr("marker-end", "url(#arrowhead)");
       }
     });
 
     // Create bars and labels
+
+    svg.selectAll("rect").remove();
+    // svg.selectAll(".arrow-layer").remove();
+
     const bars = svg.append("g")
       .selectAll("g")
       .data(data)
       .join("g");
 
     // Create bars
+
     bars.append("rect")
       .attr("x", d => xScale(d.birth))
       .attr("width", d => xScale(d.death) - xScale(d.birth))
       .attr("y", (d, i) => yScale(yPos[i]))
       .attr("height", barHeight)
-      .attr("fill", "steelblue");
+      .attr("fill", "steelblue")
+      .attr("opacity", d => activeNode.includes(d.id) ? 1 : 0.1);
 
     // Create labels displaying only name
     bars.append("text")
@@ -185,7 +190,7 @@ const TimelineView = (props) => {
     .attr("y", (d, i) => yScale(yPos[i]) + barHeight / 2)
     .attr("alignment-baseline", "central")
     .attr("font-size", 12)
-    .attr("fill", "white")
+    .attr("fill", "black")
     .attr("text-anchor", "middle"); // Center the text anchor
 
     // Mouseover and mouseout events for scrolling labels and showing dates on the timeline
@@ -263,21 +268,25 @@ const TimelineView = (props) => {
         .map(rel => rel.source === d.id ? rel.target : rel.source);
       const newActiveNodes = [d.id, ...connectedNodes];
 
-      console.log(newActiveNodes);
-      
       setActiveNode(newActiveNodes); 
-      bars.attr("opacity", bar => newActiveNodes.includes(bar.id) ? 1 : 0.1);
-      arrowLayer.selectAll("line")
-      .attr("opacity", line => newActiveNodes.includes(line.source) || newActiveNodes.includes(line.target) ? 1 : 0.1);
+
+      svg.selectAll(".arrow-layer").remove();
+
+      // arrowLayer.selectAll("line").attr("opacity", 0);
+      // arrowLayer.selectAll("line")
+      // .filter(line => newActiveNodes.includes(line.source) || newActiveNodes.includes(line.target))
+      // .attr("opacity", 1);
 
       event.stopPropagation(); 
     });
 
     svg.on("click", () => {
       setActiveNode([]);
-      bars.attr("opacity", 1);
-      arrowLayer.selectAll("line").attr("opacity", 1);
+      svg.selectAll(".arrow-layer").remove();
+      // arrowLayer.selectAll("line").attr("opacity", 0);
     });
+
+    console.log(activeNode);
   }, [activeNode]);
 
 
