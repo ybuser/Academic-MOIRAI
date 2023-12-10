@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import * as d3 from "d3";
 import { act } from 'react-dom/test-utils';
 
-function computeBarYPosition(data, direction = "top") {
+function computeBarYPosition(data, direction = "bottom") {
   function xOverlaps(a, b) {
     return a.birth < b.death + 1 && a.death + 1 > b.birth;
   }
@@ -57,18 +57,48 @@ function computeBarYPosition(data, direction = "top") {
 }
 
 const TimelineView = (props) => {
+  
   const svgContainerRef = useRef(null); 
   const splotSvg = useRef(null);
+  const zoomRef = useRef(); 
 
-  let data = props.data; 
-  let relationships = props.relationships;
+  const [zoomScale, setZoomScale] = useState(1);
+  const desiredVisiblePercentage = d3.scaleLinear().domain([0.5, 1]).range([10, 100])(zoomScale);
+  const priorityThreshold = 1 - desiredVisiblePercentage/100;
+  console.log("priorityThreshold: ", priorityThreshold);
 
+  let data = props.data.filter(d => d.priority >= priorityThreshold); 
+  console.log("data: ", data);
+  let relationships = props.relationships.filter(rel => data.find(d => d.id === rel.source) && data.find(d => d.id === rel.target));
+  console.log("relationships: ", relationships); 
   // Function to find all connected nodes
   const findConnectedNodes = (selectedId) => {
     const connectedNodes = relationships
       .filter(rel => rel.source === selectedId || rel.target === selectedId)
       .map(rel => rel.source === selectedId ? rel.target : rel.source);
     return [selectedId, ...new Set(connectedNodes)];
+  };
+
+  const centerAlignment = (selectedId) => {
+    const nodeX = xScale((selectedId.birth + selectedId.death) / 2);
+    const nodeIndex = data.indexOf(selectedId);
+    const nodeY = yScale(yPos[nodeIndex]);
+
+    // 컨테이너의 너비 및 높이 가져오기
+    const containerWidth = svgContainerRef.current.clientWidth;
+    const containerHeight = svgContainerRef.current.clientHeight;
+
+    // 줌 레벨에 따라 조정된 노드 위치 계산
+    const adjustedNodeX = nodeX * zoomScale;
+    const adjustedNodeY = nodeY * zoomScale;
+
+    // 스크롤 위치 조정하여 노드를 중앙에 위치시키기
+    // 줌 레벨을 고려하여 조정된 노드 위치를 사용
+    const scrollX = adjustedNodeX - containerWidth / 2;
+    const scrollY = adjustedNodeY - containerHeight / 2;
+
+    svgContainerRef.current.scrollLeft = scrollX;
+    svgContainerRef.current.scrollTop = scrollY;
   };
 
   // Initialize activeNode with selected philosopher and connected nodes
@@ -99,8 +129,13 @@ const TimelineView = (props) => {
 
   const xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
   const yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
-
+  
   useEffect(() => {
+
+    if (zoomScale==1 && activeNode.length > 0) {
+      centerAlignment(data.find(d => d.id === activeNode[0]));
+    }
+
     const svg = d3.select(splotSvg.current)
       .attr("width", width)
       .attr("height", svgHeight);
@@ -151,17 +186,17 @@ const TimelineView = (props) => {
         const sourceIndex = data.indexOf(sourceNode);
         const targetIndex = data.indexOf(targetNode);
         
-        let arrowStrokeDasharray;
-        switch (rel.type) {
-          case 'influenced':
-            arrowStrokeDasharray = "5,5"; // Dashed line
-            break;
-          case 'taught':
-            arrowStrokeDasharray = "0"; // Solid line
-            break;
-          default:
-            arrowStrokeDasharray = "0";
-          }     
+        // let arrowStrokeDasharray;
+        // switch (rel.type) {
+        //   case 'influenced':
+        //     arrowStrokeDasharray = "5,5"; // Dashed line
+        //     break;
+        //   case 'taught':
+        //     arrowStrokeDasharray = "0"; // Solid line
+        //     break;
+        //   default:
+        //     arrowStrokeDasharray = "0";
+        // }     
         
         let arrowColor;
         switch (activeNode[0]) {
@@ -182,7 +217,7 @@ const TimelineView = (props) => {
           .attr("x2", xScale((targetNode.birth+targetNode.death)/2))
           .attr("y2", yPos[sourceIndex] > yPos[targetIndex] ? yScale(yPos[targetIndex]) : yScale(yPos[targetIndex]) + barHeight)
           .attr("stroke", arrowColor)
-          .attr("stroke-dasharray", arrowStrokeDasharray)
+          // .attr("stroke-dasharray", arrowStrokeDasharray)
           .attr("opacity", activeNode[0] == sourceNode.id || activeNode[0] == targetNode.id ? 1 : 0)
           .attr("marker-end", "url(#arrowhead)");
       }
@@ -191,6 +226,7 @@ const TimelineView = (props) => {
     // Create bars and labels
 
     svg.selectAll("rect").remove();
+    svg.selectAll(".label").remove();
     // svg.selectAll(".arrow-layer").remove();
 
     const bars = svg.append("g")
@@ -211,6 +247,7 @@ const TimelineView = (props) => {
     // Create labels displaying only name
     bars.append("text")
     .text(d => d.name)
+    .attr("class", "label")
     .attr("x", d => xScale((d.birth + d.death) / 2)) // Center the text
     .attr("y", (d, i) => yScale(yPos[i]) + barHeight / 2)
     .attr("alignment-baseline", "central")
@@ -291,37 +328,11 @@ const TimelineView = (props) => {
         }
     })
     .on("click", function (event, d) {
-      const connectedNodes = relationships.filter(rel => rel.source === d.id || rel.target === d.id)
-        .map(rel => rel.source === d.id ? rel.target : rel.source);
-      const newActiveNodes = [d.id, ...connectedNodes];
-
-      setActiveNode(newActiveNodes); 
-
+      setActiveNode(findConnectedNodes(d.id)); 
       svg.selectAll(".arrow-layer").remove();
-
-      // x-좌표 계산
-      const nodeX = xScale((d.birth + d.death) / 2);
-
-      // y-좌표 계산
-      const nodeIndex = data.indexOf(d);
-      const nodeY = yScale(yPos[nodeIndex]);
-
-      // 컨테이너의 너비 및 높이 가져오기
-      const containerWidth = svgContainerRef.current.clientWidth;
-      const containerHeight = svgContainerRef.current.clientHeight;
-
-      // 스크롤 위치 조정하여 노드를 중앙에 위치시키기
-      const scrollX = nodeX - containerWidth / 2;
-      const scrollY = nodeY - containerHeight / 2;
-
-      console.log(scrollX, scrollY);
-
-      svgContainerRef.current.scrollLeft = scrollX;
-      svgContainerRef.current.scrollTop = scrollY;
-
-      console.log(svgContainerRef.current.scrollLeft, svgContainerRef.current.scrollTop);
-
-
+      if(zoomScale==1) {
+        centerAlignment(d);
+      }
       event.stopPropagation(); 
     });
 
@@ -331,17 +342,46 @@ const TimelineView = (props) => {
     });
   }, [activeNode]);
 
+  // 줌 기능 구현
+  useEffect(() => {
+    const svg = d3.select(splotSvg.current);
+
+    const zoom = d3.zoom()
+      .scaleExtent([0.5, 2]) // 줌 범위: 0.5배에서 2배
+      .on('zoom', (event) => {
+        if (event.sourceEvent && event.sourceEvent.type === 'wheel') {
+          event.sourceEvent.preventDefault();
+        } else {
+          svg.attr('transform', event.transform);
+          setZoomScale(event.transform.k);
+        }
+      });
+
+    svg.call(zoom);
+    zoomRef.current = zoom;
+
+  }, []);
+  
+  const zoomIn = () => {
+    d3.select(splotSvg.current).transition().call(zoomRef.current.scaleBy, 5/4);
+  };
+
+  const zoomOut = () => {
+    d3.select(splotSvg.current).transition().call(zoomRef.current.scaleBy, 4/5);
+  };
 
   return (
     <div>
       <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px' }}>
         <h2>Timeline View</h2>
+        <button onClick={zoomIn}>+</button>
+        <button onClick={zoomOut}>-</button>
       </div>
       <div ref={svgContainerRef} style={{ width: '100%', overflow: 'auto', height: `${containerHeight}px` }}>
         <svg ref={splotSvg} width={width} height={svgHeight}></svg>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default TimelineView;
