@@ -82,12 +82,22 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
                 adjustCoordinates(markers, marker);
                 markers.push(marker);
                 
-                // Set default line color and then adjust based on edge type
-                let lineColor = "#0000FF"; // Default blue
-                if (edgeType === "taught") {
-                  lineColor = "#ADD8E6"; // Light blue for taught
-                } else if (edgeType === "learnedFrom") {
-                  lineColor = "#FFB6C1"; // Light red for learnedFrom
+                let lineColor;
+                switch (edgeType) {
+                  case "taught":
+                    lineColor = "#0015D1"; // Blue for "taught"
+                    break;
+                  case "learnedFrom":
+                    lineColor = "#D1000A"; // Red for "learnedFrom"
+                    break;
+                  case "influenced":
+                    lineColor = "#3399FF"; // Light blue for "influenced"
+                    break;
+                  case "influencedBy":
+                    lineColor = "#E66369"; // Light red for "influencedBy"
+                    break;
+                  default:
+                    lineColor = "#0000FF"; // Default blue
                 }
                 
                 lines.push({
