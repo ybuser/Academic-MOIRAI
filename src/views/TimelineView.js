@@ -59,10 +59,21 @@ function computeBarYPosition(data, direction = "top") {
 const TimelineView = (props) => {
   const svgContainerRef = useRef(null); 
   const splotSvg = useRef(null);
-  const [activeNode, setActiveNode] = useState([]); 
 
   let data = props.data; 
   let relationships = props.relationships;
+
+  // Function to find all connected nodes
+  const findConnectedNodes = (selectedId) => {
+    const connectedNodes = relationships
+      .filter(rel => rel.source === selectedId || rel.target === selectedId)
+      .map(rel => rel.source === selectedId ? rel.target : rel.source);
+    return [selectedId, ...new Set(connectedNodes)];
+  };
+
+  // Initialize activeNode with selected philosopher and connected nodes
+  const initialActiveNodes = findConnectedNodes('Q' + props.selectedPhilosopher.toString());
+  const [activeNode, setActiveNode] = useState(initialActiveNodes);
 
   const margin = ({ top: 10, right: 20, bottom: 50, left: 20 }); 
   const barHeight = 20;
@@ -139,18 +150,31 @@ const TimelineView = (props) => {
       if (sourceNode && targetNode) {
         const sourceIndex = data.indexOf(sourceNode);
         const targetIndex = data.indexOf(targetNode);
-
-        let arrowColor;
+        
+        let arrowStrokeDasharray;
         switch (rel.type) {
           case 'influenced':
-            arrowColor = 'red';
+            arrowStrokeDasharray = "5,5"; // Dashed line
             break;
           case 'taught':
-            arrowColor = 'blue';
+            arrowStrokeDasharray = "0"; // Solid line
             break;
           default:
-            arrowColor = 'black';
-        }        
+            arrowStrokeDasharray = "0";
+          }     
+        
+        let arrowColor;
+        switch (activeNode[0]) {
+          case sourceNode.id:
+            arrowColor = "blue";
+            break;
+          case targetNode.id:
+            arrowColor = "red";
+            break;
+          default:
+            arrowColor = "red";
+        }
+
         arrowLayer.append("line")
           .data([rel])
           .attr("x1", xScale((sourceNode.death+sourceNode.birth)/2))
@@ -158,6 +182,7 @@ const TimelineView = (props) => {
           .attr("x2", xScale((targetNode.birth+targetNode.death)/2))
           .attr("y2", yPos[sourceIndex] > yPos[targetIndex] ? yScale(yPos[targetIndex]) : yScale(yPos[targetIndex]) + barHeight)
           .attr("stroke", arrowColor)
+          .attr("stroke-dasharray", arrowStrokeDasharray)
           .attr("opacity", activeNode[0] == sourceNode.id || activeNode[0] == targetNode.id ? 1 : 0)
           .attr("marker-end", "url(#arrowhead)");
       }
@@ -219,14 +244,16 @@ const TimelineView = (props) => {
       lineGroup.append("text")
         .text(d.birth)
         .attr("x", xScale(d.birth))
-        .attr("y", chartHeight + 30)
+        .attr("y", yScale(yPos[data.indexOf(d)]) + barHeight + 10)
+        .attr("font-size", 12)
         .attr("text-anchor", "middle")
         .attr("fill", "red"); // Display birth date in red
 
       lineGroup.append("text")
         .text(d.death)
         .attr("x", xScale(d.death))
-        .attr("y", chartHeight + 30)
+        .attr("y", yScale(yPos[data.indexOf(d)]) + barHeight + 10)
+        .attr("font-size", 12)
         .attr("text-anchor", "middle")
         .attr("fill", "red"); // Display death date in red
 
@@ -272,6 +299,29 @@ const TimelineView = (props) => {
 
       svg.selectAll(".arrow-layer").remove();
 
+      // x-좌표 계산
+      const nodeX = xScale((d.birth + d.death) / 2);
+
+      // y-좌표 계산
+      const nodeIndex = data.indexOf(d);
+      const nodeY = yScale(yPos[nodeIndex]);
+
+      // 컨테이너의 너비 및 높이 가져오기
+      const containerWidth = svgContainerRef.current.clientWidth;
+      const containerHeight = svgContainerRef.current.clientHeight;
+
+      // 스크롤 위치 조정하여 노드를 중앙에 위치시키기
+      const scrollX = nodeX - containerWidth / 2;
+      const scrollY = nodeY - containerHeight / 2;
+
+      console.log(scrollX, scrollY);
+
+      svgContainerRef.current.scrollLeft = scrollX;
+      svgContainerRef.current.scrollTop = scrollY;
+
+      console.log(svgContainerRef.current.scrollLeft, svgContainerRef.current.scrollTop);
+
+
       event.stopPropagation(); 
     });
 
@@ -279,8 +329,6 @@ const TimelineView = (props) => {
       setActiveNode([]);
       svg.selectAll(".arrow-layer").remove();
     });
-
-    console.log(activeNode);
   }, [activeNode]);
 
 
@@ -289,11 +337,10 @@ const TimelineView = (props) => {
       <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px' }}>
         <h2>Timeline View</h2>
       </div>
-      <div ref={svgContainerRef} style={{ width: '100%', overflowX: 'auto', height: `${containerHeight}px` }}>
+      <div ref={svgContainerRef} style={{ width: '100%', overflow: 'auto', height: `${containerHeight}px` }}>
         <svg ref={splotSvg} width={width} height={svgHeight}></svg>
       </div>
     </div>
-    
   )
 }
 
