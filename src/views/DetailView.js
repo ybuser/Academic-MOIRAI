@@ -105,7 +105,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       return;
     }
 
-    if (d3Container.current && philosopherDetails && philosopherDetails.edges) {
+    if (d3Container.current) {
       const svg = d3.select(d3Container.current)
         .attr('width', '100%')
         .attr('height', '100%')
@@ -117,22 +117,47 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
         id: philosopherDetails.id,
         name: philosopherDetails.name
       }]
-
       const edges = [];
+      const addedEdges = new Map(); // Tracks which edges have been added
 
-      // Extract edges and similarity scores
+      const addEdge = (source, target, similarity) => {
+        const edgeKey = `${source}->${target}`;
+        if (!addedEdges.has(edgeKey)) {
+          edges.push({
+            source,
+            target,
+            similarity
+          });
+          addedEdges.set(edgeKey, true);
+        }
+      };
+
+      // Prioritize "taught" and "learnedFrom"
+      ['taught', 'learnedFrom'].forEach(edgeType => {
+        if (philosopherDetails.edges[edgeType]) {
+          Object.values(philosopherDetails.edges[edgeType]).forEach(edge => {
+            nodes.push({ id: edge.id, name: edge.name });
+            addEdge(
+              edgeType === 'taught' ? philosopherDetails.id : edge.id,
+              edgeType === 'taught' ? edge.id : philosopherDetails.id,
+              edge.similarity
+            );
+          });
+        }
+      });
+
+      // Then add "influenced" and "influencedBy" if not already added
       ['influenced', 'influencedBy'].forEach(edgeType => {
         if (philosopherDetails.edges[edgeType]) {
           Object.values(philosopherDetails.edges[edgeType]).forEach(edge => {
-            nodes.push({
-              id: edge.id,
-              name: edge.name
-            });
-            edges.push({
-              source: edgeType === 'influenced' ? philosopherDetails.id : edge.id,
-              target: edgeType === 'influenced' ? edge.id : philosopherDetails.id,
-              similarity: edge.similarity // Add similarity score to the edge
-            });
+            if (!addedEdges.has(`${philosopherDetails.id}->${edge.id}`) && !addedEdges.has(`${edge.id}->${philosopherDetails.id}`)) {
+              nodes.push({ id: edge.id, name: edge.name });
+              addEdge(
+                edgeType === 'influenced' ? philosopherDetails.id : edge.id,
+                edgeType === 'influenced' ? edge.id : philosopherDetails.id,
+                edge.similarity
+              );
+            }
           });
         }
       });

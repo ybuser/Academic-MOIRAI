@@ -76,7 +76,7 @@ const DetailContainer = styled(ViewContainer)`
 `;
 
 function App() {
-  const [selectedPhilosopher, setSelectedPhilosopher] = useState(58586);
+  const [selectedPhilosopher, setSelectedPhilosopher] = useState(4322534);
   return (
     <ThemeProvider theme={baseTheme}>
       <Container>
