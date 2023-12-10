@@ -43,7 +43,7 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
     const fetchPhilosopherDetails = async (id) => {
       // console.log("2. getting detailes in ", id);
       const response = await fetch(`data/detail_json/Q${id}.json`);
-      console.log("3. response is ", response);
+      // console.log("3. response is ", response);
       return await response.json();
     };
 
@@ -119,7 +119,8 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
         });
   
         googleMarker.addListener('click', () => {
-          setSelectedPhilosopher(marker.id); // Change to use marker.id
+          const philosopherId = marker.id.replace('Q', '');
+          setSelectedPhilosopher(philosopherId); // Change to use marker.id
         });
   
         return googleMarker;
