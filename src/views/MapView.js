@@ -17,7 +17,7 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
   });
 
   // Function to adjust overlapping coordinates
-  const adjustCoordinates = (markers, newMarker, adjustment = 0.001) => {
+  const adjustCoordinates = (markers, newMarker, adjustment = 0.03) => {
     while (newMarker && markers.some(marker => marker.lat === newMarker.lat && marker.lng === newMarker.lng)) {
       newMarker.lat += adjustment;
       newMarker.lng += adjustment;
