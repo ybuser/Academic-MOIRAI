@@ -8,9 +8,10 @@ const StyledMap = styled.div`
   width: 100%;
 `;
 
-const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
+const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
   const [markersData, setMarkersData] = useState([]);
   const [linesData, setLinesData] = useState([]);
+  const [mapKey, setMapKey] = useState(Date.now()); // New state to track map key
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAP_API_KEY,
   });
@@ -29,7 +30,8 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
       return {
         lat: location[0].coordinates.latitude,
         lng: location[0].coordinates.longitude,
-        label: philosopher.name
+        label: philosopher.name,
+        id: philosopher.id
       };
     }
     return null;
@@ -48,6 +50,10 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
     // console.log("4. in useeffect selected", selectedPhilosopher);
 
     const loadPhilosophers = async () => {
+      // Clear previous data
+      setMarkersData([]);
+      setLinesData([]);
+      
       let markers = [];
       const lines = [];
       const mainPhilosopher = await fetchPhilosopherDetails(selectedPhilosopher);
@@ -88,21 +94,42 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
 
     loadPhilosophers();
   }, [selectedPhilosopher]);
+
+  useEffect(() => {
+    setMapKey(Date.now()); // Update map key when selectedPhilosopher changes
+  }, [selectedPhilosopher]);
   
   const mapRef = useRef(null);
   const onMapLoad = (map) => mapRef.current = map;
   const defaultCenter = { lat: 48.8566, lng: 2.3522 };
+  const markerClustererRef = useRef(null);
 
   useEffect(() => {
-    if (isLoaded && mapRef.current && markersData.length > 0) {
-      new MarkerClusterer(mapRef.current, markersData.map(marker => new window.google.maps.Marker({
-        position: { lat: marker.lat, lng: marker.lng },
-        label: marker.label,
-      })), {
+    if (isLoaded && mapRef.current) {
+      if (markerClustererRef.current) {
+        markerClustererRef.current.clearMarkers();
+      }
+
+      // Create new markers
+      const googleMarkers = markersData.map(marker => {
+        const googleMarker = new window.google.maps.Marker({
+          position: { lat: marker.lat, lng: marker.lng },
+          label: marker.label,
+          clickable: true
+        });
+  
+        googleMarker.addListener('click', () => {
+          setSelectedPhilosopher(marker.id); // Change to use marker.id
+        });
+  
+        return googleMarker;
+      });
+
+      markerClustererRef.current = new MarkerClusterer(mapRef.current, googleMarkers, {
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
       });
     }
-  }, [markersData, isLoaded]);
+  }, [markersData, isLoaded, setSelectedPhilosopher]);
 
   if (loadError) return <div>Error loading maps</div>;
   if (!isLoaded) return <div>...loading</div>;
@@ -110,9 +137,10 @@ const MapView = ({ setSelectePhilosopher, selectedPhilosopher, className}) => {
   return (
     <StyledMap className={className}>
       <GoogleMap
+        key={mapKey} // Use the mapKey as a key for the GoogleMap component
         mapContainerStyle={{ width: '100%', height: '100%' }}
         onLoad={onMapLoad}
-        center={defaultCenter} 
+        center={defaultCenter}
         zoom={2}
       >
         {linesData.map((line, index) => (
