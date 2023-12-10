@@ -18,10 +18,10 @@ const TimelineView = (props) => {
 
   let data = props.data;
   let relationships = props.relationships; 
-
+  let display = 1;
   const computeBarYPosition = (data, direction = "bottom") => {
     const xOverlaps = (a, b) => {
-      let offset = d3.scaleLinear().domain([minScale, maxScale]).range([200, 1])(zoomScale);
+      let offset = d3.scaleLinear().domain([minScale, maxScale]).range([(a.name.length + b.name.length) * 4, 1])(zoomScale);
       return a.birth < b.death + offset && a.death + offset > b.birth;
     }
   
@@ -104,12 +104,12 @@ const TimelineView = (props) => {
     const scrollX = nodeX - containerWidth / 2;
     const scrollY = nodeY - containerHeight / 2;
 
-    console.log(scrollX, scrollY);
+    //console.log(scrollX, scrollY);
 
     svgContainerRef.current.scrollLeft = scrollX;
     svgContainerRef.current.scrollTop = scrollY;
 
-    console.log(svgContainerRef.current.scrollLeft, svgContainerRef.current.scrollTop); 
+    //console.log(svgContainerRef.current.scrollLeft, svgContainerRef.current.scrollTop); 
   };
 
   // Initialize activeNode with selected philosopher and connected nodes
@@ -149,8 +149,6 @@ const TimelineView = (props) => {
     
     desiredVisiblePercentage = d3.scaleLinear().domain([minScale, maxScale]).range([80, 0])(zoomScale);
     data = props.data.filter(d => d.priority >= desiredVisiblePercentage/100);
-    console.log("desiredVisiblePercentage: ", desiredVisiblePercentage);
-    console.log("data: ", data);
 
     yPos = computeBarYPosition(data);
     yPosMax = Math.max(...yPos);
@@ -197,10 +195,11 @@ const TimelineView = (props) => {
         .style("stroke", "rgba(0,0,0,0.2)")
         .style("stroke-dasharray", "2,2");
 
+    const tickInterval = Math.ceil(20 / zoomScale / 10) * 10;
     svg.append("g")
       .attr("transform", `translate(0,${chartHeight})`)
       .call(d3.axisBottom(xScale)
-        .tickValues(d3.range(Math.floor(minYear / 20) * 20, maxYear, 20/zoomScale))
+        .tickValues(d3.range(Math.floor(minYear / tickInterval) * tickInterval, maxYear, tickInterval))
         .tickFormat(d3.format(".0f"))
         .tickSizeOuter(0));
 
@@ -211,7 +210,6 @@ const TimelineView = (props) => {
       const targetNode = data.find(d => d.id === rel.target);
     
       if (sourceNode && targetNode) {
-        console.log("sourceNode: ", sourceNode, "targetNode: ", targetNode);
         const sourceIndex = data.indexOf(sourceNode);
         const targetIndex = data.indexOf(targetNode);
         
@@ -249,6 +247,7 @@ const TimelineView = (props) => {
             arrowColor = "red";
         }
 
+        (activeNode[0] === sourceNode.id || activeNode[0] === targetNode.id ) && console.log("arrowColor: ", arrowColor);
         arrowLayer.append("line")
           .data([rel])
           .attr("x1", xScale((sourceNode.death+sourceNode.birth)/2))
@@ -337,20 +336,20 @@ const TimelineView = (props) => {
         .attr("text-anchor", "middle")
         .attr("fill", "red"); // Display death date in red
 
-      // Scroll label if necessary
-      const label = bar.select("text");
-      const labelWidth = label.node().getComputedTextLength();
-      const barWidth = xScale(d.death) - xScale(d.birth);
+      // // Scroll label if necessary
+      // const label = bar.select("text");
+      // const labelWidth = label.node().getComputedTextLength();
+      // const barWidth = xScale(d.death) - xScale(d.birth);
       
-      if (labelWidth > barWidth - 8) {
-        const scrollAmount = labelWidth - barWidth + 12; // Leave some padding for visual clarity
-        label.interrupt() // Stop any active transition
-          .transition()
-          .duration(2000)
-          .ease(d3.easeQuadInOut)
-          .attr("x", d => xScale(d.birth) + 4 - scrollAmount)
-          .attr("clip-path", 'polygon(0,0,${barWidth},0,${barWidth},${barHeight},0,${barHeight})');
-      }
+      // if (labelWidth > barWidth - 8) {
+      //   const scrollAmount = labelWidth - barWidth + 12; // Leave some padding for visual clarity
+      //   label.interrupt() // Stop any active transition
+      //     .transition()
+      //     .duration(2000)
+      //     .ease(d3.easeQuadInOut)
+      //     .attr("x", d => xScale(d.birth) + 4 - scrollAmount)
+      //     .attr("clip-path", 'polygon(0,0,${barWidth},0,${barWidth},${barHeight},0,${barHeight})');
+      // }
 
     })
     .on("mouseout", function (event, d) {
@@ -430,9 +429,9 @@ const TimelineView = (props) => {
   }
 
   return (
-    <div>
+    <div style={{chartHeight}}>
       <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px' }}>
-        <h2>Timeline View</h2>
+        <h2 style={{ margin: '0' }}>Timeline View</h2>
         <button onClick={() => handleZoom(1.25)}>+</button>
         <button onClick={() => handleZoom(0.8)}>-</button>
       </div>
