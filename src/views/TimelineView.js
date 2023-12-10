@@ -2,72 +2,77 @@ import React, { useState, useEffect, useRef } from 'react'
 import * as d3 from "d3";
 import { act } from 'react-dom/test-utils';
 
-function computeBarYPosition(data, direction = "bottom") {
-  function xOverlaps(a, b) {
-    return a.birth < b.death + 1 && a.death + 1 > b.birth;
-  }
 
-  const yPos = [];
-  const lastBars = {};
-
-  let minRow = 0;
-  let maxRow = 0;
-
-  data.sort((a, b) => a.birth - b.birth);
-
-  data.forEach((d, i) => {
-    if (i === 0) {
-      yPos[i] = 0;
-      lastBars[0] = d;
-      return;
-    }
-
-    let optimalRow;
-    let minDeathYear = Infinity;
-
-    for (const row of Object.keys(lastBars).map(Number)) {
-      if (!xOverlaps(lastBars[row], d) && lastBars[row]?.death < minDeathYear) {
-        optimalRow = row;
-        minDeathYear = lastBars[row]?.death;
-      }
-    }
-
-    if (optimalRow === undefined) {
-      if (direction === "top") {
-        optimalRow = maxRow + 1;
-      } else if (direction === "bottom") {
-        optimalRow = minRow - 1;
-      } else {
-        optimalRow = Math.abs(minRow - 1) < maxRow + 1 ? minRow - 1 : maxRow + 1;
-      }
-    }
-
-    yPos[i] = optimalRow;
-    lastBars[optimalRow] = d;
-
-    if (optimalRow < minRow) {
-      minRow = optimalRow;
-    }
-    if (optimalRow > maxRow) {
-      maxRow = optimalRow;
-    }
-  });
-
-  return yPos;
-}
 
 const TimelineView = (props) => {
   
   const svgContainerRef = useRef(null); 
   const splotSvg = useRef(null);
   // const zoomRef = useRef(); 
-  // const [zoomScale, setZoomScale] = useState(1);
-  // const desiredVisiblePercentage = d3.scaleLinear().domain([0.5, 1]).range([10, 100])(zoomScale);
+  const [zoomScale, setZoomScale] = useState(1);
+  const minScale = 0.05;
+  const maxScale = 1;
+  let desiredVisiblePercentage = d3.scaleLinear().domain([minScale, maxScale]).range([5, 100])(zoomScale);
   // const priorityThreshold = 1 - desiredVisiblePercentage/100;
   // console.log("priorityThreshold: ", priorityThreshold);
 
   let data = props.data;
   let relationships = props.relationships; 
+
+  const computeBarYPosition = (data, direction = "bottom") => {
+    const xOverlaps = (a, b) => {
+      let offset = d3.scaleLinear().domain([minScale, maxScale]).range([200, 1])(zoomScale);
+      return a.birth < b.death + offset && a.death + offset > b.birth;
+    }
+  
+    const yPos = [];
+    const lastBars = {};
+  
+    let minRow = 0;
+    let maxRow = 0;
+  
+    data.sort((a, b) => a.birth - b.birth);
+  
+    data.forEach((d, i) => {
+      if (i === 0) {
+        yPos[i] = 0;
+        lastBars[0] = d;
+        return;
+      }
+  
+      let optimalRow;
+      let minDeathYear = Infinity;
+  
+      for (const row of Object.keys(lastBars).map(Number)) {
+        if (!xOverlaps(lastBars[row], d) && lastBars[row]?.death < minDeathYear) {
+          optimalRow = row;
+          minDeathYear = lastBars[row]?.death;
+        }
+      }
+  
+      if (optimalRow === undefined) {
+        if (direction === "top") {
+          optimalRow = maxRow + 1;
+        } else if (direction === "bottom") {
+          optimalRow = minRow - 1;
+        } else {
+          optimalRow = Math.abs(minRow - 1) < maxRow + 1 ? minRow - 1 : maxRow + 1;
+        }
+      }
+  
+      yPos[i] = optimalRow;
+      lastBars[optimalRow] = d;
+  
+      if (optimalRow < minRow) {
+        minRow = optimalRow;
+      }
+      if (optimalRow > maxRow) {
+        maxRow = optimalRow;
+      }
+    });
+  
+    return yPos;
+  }
 
   // let data = props.data.filter(d => d.priority >= priorityThreshold); 
   // console.log("data: ", data);
@@ -115,34 +120,48 @@ const TimelineView = (props) => {
   const maxYear = Math.max(...data.map(d => d.death)) + 20;
   const minYear = Math.min(...data.map(d => d.birth)) - 20;
   const timelineLength = maxYear - minYear;
-  const widthPerYear = 10;
-  const width = widthPerYear * timelineLength + margin.left + margin.right;
-
-
-  const yPos = computeBarYPosition(data);
-
-  const yPosMax = Math.max(...yPos);
-  const yPosMin = Math.min(...yPos);
-  const chartHeight = (yPosMax - yPosMin) * barHeight * 2;
-  const height = chartHeight + margin.top + margin.bottom;
-
   const extraHeightForXAxis = 30; 
-  const svgHeight = chartHeight + margin.top + margin.bottom;
-  
-  const containerHeight = svgHeight + extraHeightForXAxis;
 
 
-  const xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
-  const yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
+  let widthPerYear = 10;
+  let width = widthPerYear * timelineLength + margin.left + margin.right;
+
+  let yPos = computeBarYPosition(data);
+  let yPosMax = Math.max(...yPos);
+  let yPosMin = Math.min(...yPos);
+  let chartHeight = (yPosMax - yPosMin) * barHeight * 2;
+  let height = chartHeight + margin.top + margin.bottom;
+  let svgHeight = chartHeight + margin.top + margin.bottom;
+  let containerHeight = svgHeight + extraHeightForXAxis;
+
+  let xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
+  let yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
   
   useEffect(() => {
-    setActiveNode(findConnectedNodes('Q' + props.selectedPhilosopher.toString()));
+    // setActiveNode(findConnectedNodes('Q' + props.selectedPhilosopher.toString()));
     // if (zoomScale==1 && activeNode.length > 0) {
     //   centerAlignment(data.find(d => d.id === activeNode[0]));
     // }
-    if (activeNode.length > 0) {
-      centerAlignment(data.find(d => d.id === activeNode[0]));
-    }
+
+
+    widthPerYear = 10*zoomScale;
+    width = widthPerYear * timelineLength + margin.left + margin.right;
+    
+    desiredVisiblePercentage = d3.scaleLinear().domain([minScale, maxScale]).range([80, 0])(zoomScale);
+    data = props.data.filter(d => d.priority >= desiredVisiblePercentage/100);
+    console.log("desiredVisiblePercentage: ", desiredVisiblePercentage);
+    console.log("data: ", data);
+
+    yPos = computeBarYPosition(data);
+    yPosMax = Math.max(...yPos);
+    yPosMin = Math.min(...yPos);
+    chartHeight = (yPosMax - yPosMin) * barHeight * 2;
+    height = chartHeight + margin.top + margin.bottom;
+    svgHeight = chartHeight + margin.top + margin.bottom;
+    containerHeight = svgHeight + extraHeightForXAxis;
+  
+    xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
+    yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
 
     const svg = d3.select(splotSvg.current)
       .attr("width", width)
@@ -164,6 +183,7 @@ const TimelineView = (props) => {
     const centuryStart = Math.ceil(minYear / 100) * 100;
     const centuries = d3.range(centuryStart, maxYear, 100);
   
+    svg.selectAll("g").remove();
     const linesLayer = svg.append("g").attr("class", "lines-layer");
   
     linesLayer.append("g")
@@ -180,7 +200,7 @@ const TimelineView = (props) => {
     svg.append("g")
       .attr("transform", `translate(0,${chartHeight})`)
       .call(d3.axisBottom(xScale)
-        .tickValues(d3.range(Math.floor(minYear / 20) * 20, maxYear, 20))
+        .tickValues(d3.range(Math.floor(minYear / 20) * 20, maxYear, 20/zoomScale))
         .tickFormat(d3.format(".0f"))
         .tickSizeOuter(0));
 
@@ -191,6 +211,7 @@ const TimelineView = (props) => {
       const targetNode = data.find(d => d.id === rel.target);
     
       if (sourceNode && targetNode) {
+        console.log("sourceNode: ", sourceNode, "targetNode: ", targetNode);
         const sourceIndex = data.indexOf(sourceNode);
         const targetIndex = data.indexOf(targetNode);
         
@@ -236,8 +257,12 @@ const TimelineView = (props) => {
           .attr("y2", yPos[sourceIndex] > yPos[targetIndex] ? yScale(yPos[targetIndex]) : yScale(yPos[targetIndex]) + barHeight)
           .attr("stroke", arrowColor)
           // .attr("stroke-dasharray", arrowStrokeDasharray)
-          .attr("opacity", activeNode[0] == sourceNode.id || activeNode[0] == targetNode.id ? 1 : 0)
+          .attr("opacity", activeNode[0] === sourceNode.id || activeNode[0] === targetNode.id ? 1 : 0)
           .attr("marker-end", "url(#arrowhead)");
+      }
+
+      if (activeNode.length > 0) {
+        centerAlignment(data.find(d => d.id === activeNode[0]));
       }
     });
 
@@ -245,7 +270,7 @@ const TimelineView = (props) => {
 
     svg.selectAll("rect").remove();
     svg.selectAll(".label").remove();
-    // svg.selectAll(".arrow-layer").remove();
+    svg.selectAll(".arrow-layer").remove();
 
     const bars = svg.append("g")
       .selectAll("g")
@@ -361,7 +386,8 @@ const TimelineView = (props) => {
       setActiveNode([]);
       svg.selectAll(".arrow-layer").remove();
     });
-  }, [activeNode, props.selectedPhilosopher]);
+
+  }, [activeNode, props.selectedPhilosopher, zoomScale]);
 
   // // 줌 기능 구현
   // useEffect(() => {
@@ -391,10 +417,24 @@ const TimelineView = (props) => {
   //   d3.select(splotSvg.current).transition().call(zoomRef.current.scaleBy, 4/5);
   // };
 
+  const handleZoom = (mult) =>{
+    if (zoomScale*mult < minScale || zoomScale*mult > maxScale) {
+      return;
+    }
+    setZoomScale(zoomScale*mult);
+    if (activeNode.length > 0) {
+      
+      //centerAlignment(data.find(d => d.id === activeNode[0]));
+    }
+
+  }
+
   return (
     <div>
       <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px' }}>
         <h2>Timeline View</h2>
+        <button onClick={() => handleZoom(1.25)}>+</button>
+        <button onClick={() => handleZoom(0.8)}>-</button>
       </div>
       <div ref={svgContainerRef} style={{ width: '100%', overflow: 'auto', height: `${containerHeight}px` }}>
         <svg ref={splotSvg} width={width} height={svgHeight}></svg>
