@@ -72,8 +72,8 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
 
   const calculateDistance = (similarity) => {
     // Adjust these values as needed for your specific use case
-    const maxDistance = 300; // maximum distance for low similarity
-    const minDistance = 10; // minimum distance for high similarity
+    const maxDistance = 400; // maximum distance for low similarity
+    const minDistance = 0; // minimum distance for high similarity
 
     return maxDistance - similarity * (maxDistance - minDistance);
   };
@@ -101,12 +101,11 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
 
   useEffect(() => {
     if (d3Container.current && philosopherDetails && philosopherDetails.edges) {
-      const width = d3Container.current.clientWidth;
-      const height = d3Container.current.clientHeight;
-
       const svg = d3.select(d3Container.current)
-        .attr('width', width)
-        .attr('height', height);
+        .attr('width', '100%')
+        .attr('height', '100%')
+        .attr('viewBox', '0 0 920 720')
+        .attr('preserveAspectRatio', 'xMidYMid meet');
       svg.selectAll("*").remove(); // Clear SVG to avoid duplication
       
       const nodes = [{
@@ -173,31 +172,31 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       setTimeout(() => {
         labels.each(function(d) {
           const bbox = this.getBBox();
-          d.width = bbox.width; // Add some padding
-          d.height = bbox.height; // Add some padding
+          d.width = bbox.width + 20;
+          d.height = bbox.height + 12;
         });
 
         // Now add the circles
         const node = nodeGroup.insert("circle", "text")
-          .attr("r", d => Math.sqrt(d.width * d.height)/1.2) // Calculate radius based on text size
+          .attr("r", d => Math.sqrt(d.width * d.height)/1.6) // Calculate radius based on text size
           .attr("fill", "white")
           .attr("stroke", "black")
           .on("click", d => handleNodeClick(d)); 
 
         const centralNode = nodes.find(node => node.id === philosopherDetails.id);
         const otherNodes = nodes.filter(node => node.id !== philosopherDetails.id);
-        const radialForce = d3.forceRadial(150, 400, 320).strength(0.8);
         
         // Set up the simulation
-        const simulation = d3.forceSimulation(nodes)
-          .force("link", d3.forceLink(edges).id(d => d.id)
-            .distance(d => calculateDistance(d.similarity))) // Use similarity to determine distance
-          .force("charge", d3.forceManyBody().strength(-2000))
-          .force("center", d3.forceCenter(width/2 + 200, height/2 + 150));
-
+      const simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(edges).id(d => d.id)
+          .distance(d => calculateDistance(d.similarity)))
+        .force("charge", d3.forceManyBody().strength(-800))
+        .force("center", d3.forceCenter(400, 320))
+        .force("collision", d3.forceCollide().radius(d => Math.sqrt(d.width * d.height)/1.2 + 10)) // Prevent overlap
+        .force("radial", d3.forceRadial(300, 400, 320).strength(0.8));
 
         // Apply the radial force only to the non-central nodes
-        // simulation.force("radial").initialize(otherNodes);
+        simulation.force("radial").initialize(otherNodes);
 
         
         // Define the tick function for the simulation
