@@ -51,6 +51,8 @@ const DetailFacts = ({ philosopherDetails }) => {
             style={{
                 float: 'right',
                 margin: '0',
+                marginLeft: '1rem',
+                marginBottom: '1rem',
                 width: '100px',
                 objectFit: 'contain',
                 alignSelf: 'flex-start',
@@ -64,21 +66,53 @@ const DetailFacts = ({ philosopherDetails }) => {
                 {`(${formatDateToYear(philosopherDetails.dateOfBirth[0])} - ${formatDateToYear(philosopherDetails.dateOfDeath[0])})`}
             </p> */}
 
-            <p style={{ margin: '4px' , textAlign: 'left' }}>{philosopherDetails.desc}</p>
+            <p style={{ margin: '4px' , textAlign: 'left' }}>
+                {philosopherDetails.desc}
+                <a style={{ margin: '4px', textAlign: 'left' }} href={philosopherDetails.wiki_link} target="_blank">[Wikipedia]</a>
+            </p>
 
-            <p style={{ fontWeight: 'normal' }}>{occupation}</p>
-            <FactP>
-                <h4>Movements</h4>
-                <p style={{ fontWeight: 'normal' }}>{movement}</p>
-            </FactP>
-            <FactP>
-                <h4>Notable Works</h4>
-                {notableWork.map(([key, value]) => (
-                    <div key={key}>
-                        <p style={{ fontWeight: 'normal' }}>{value['name']}</p>
-                    </div>
-                ))}
-            </FactP>
+            {
+                philosopherDetails.occupation && philosopherDetails.occupation[0] && philosopherDetails.occupation[0] !== 'None' &&
+                <FactP>
+                    <h4>Occupation</h4>
+                    <p style={{ fontWeight: 'normal' }}>
+                        {Object.values(philosopherDetails.occupation).slice(0, 5).map(value => value['name']).join(', ')}
+                    </p>
+                </FactP>
+            }
+
+            {
+                philosopherDetails.fieldOfWork && philosopherDetails.fieldOfWork[0] && philosopherDetails.fieldOfWork[0] !== 'None' &&
+                <FactP>
+                    <h4>Field of Work</h4>
+                    <p style={{ fontWeight: 'normal' }}>
+                        {Object.values(philosopherDetails.fieldOfWork).slice(0, 5).map(value => value['name']).join(', ')}
+                    </p>
+                </FactP>
+            }
+
+            {
+                movement !== "" &&
+                <FactP>
+                    <h4>Movements</h4>
+                    <p style={{ fontWeight: 'normal' }}>{movement}</p>
+                </FactP>
+            }
+
+            {
+                philosopherDetails.notableWork && philosopherDetails.notableWork[0] && philosopherDetails.notableWork[0] !== 'None' &&
+                <FactP>
+                    <h4>Notable Works</h4>
+                    {notableWork.map(([key, value]) => (
+                        <div key={key}>
+                            <p style={{ fontWeight: 'normal' }}>{value['name']}</p>
+                        </div>
+                    ))}
+                </FactP>
+            }
+            
+
+            
         </InfoWrapper>
     );
 };
