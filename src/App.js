@@ -7,7 +7,7 @@ import importedData from './data/data.json';
 import relationships from './data/relationships.json';
 
 const baseTheme = {
-  background: '#fff',
+  background: '#ccc',
   color: '#222',
 }
 const darkTheme = {
@@ -20,18 +20,25 @@ const Container = styled.div`
   background-color: ${(props) => props.theme.background};
   display: grid;
   height: 100vh;
-
-  grid-template-rows: 1fr 1.5fr;
-  grid-template-columns: 1.5fr 1fr 1fr;
+  padding: 1rem; // Add padding around the entire container for a spacious feel
+  grid-template-rows: auto auto auto; // Adjust this as needed for your layout
+  grid-template-columns: repeat(3, 1fr); // 3 equal columns
   grid-template-areas:
-      "main main main"
-      "content1 content2 content2";
-  text-align: center;
-  grid-gap: 2rem;
+    "timeline timeline timeline"
+    "map detail detail";
+  gap: 1rem; // Space between grid items
+  font-family: 'Roboto', sans-serif; // Example modern font
+  border-radius: 8px;
+
   @media screen and (max-width: 768px) {
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "timeline"
+      "map"
+      "detail";
   }
-`
+`;
 
 const SubTitle = styled.div`
   text-align: left;
@@ -46,18 +53,27 @@ const Wrapper = styled.div`
   max-height: 100%;
 `
 
-const TimelineContainer = styled.div`
-  grid-area: main;
+const ViewContainer = styled.div`
+  background: #fff; // Card background
+  border-radius: 8px; // Rounded corners for the card
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); // Subtle shadow for depth
   overflow: auto;
-`
-const MapContainer = styled.div`
-  grid-area: content1;
-  overflow: auto;
-`
-const DetailContainer = styled.div`
-  grid-area: content2;
-  overflow: auto;
-`
+  display: flex;
+  flex-direction: column; // Stack children vertically
+  padding: 5px;
+`;
+
+const TimelineContainer = styled(ViewContainer)`
+  grid-area: timeline;
+`;
+
+const MapContainer = styled(ViewContainer)`
+  grid-area: map;
+`;
+
+const DetailContainer = styled(ViewContainer)`
+  grid-area: detail;
+`;
 
 function App() {
   const [selectedPhilosopher, setSelectedPhilosopher] = useState(58586);
@@ -95,12 +111,12 @@ function App() {
           <SubTitle>
             Detail View
           </SubTitle>
-          <Wrapper>
+          {/* <Wrapper> */}
             <DetailView
               setSelectedPhilosopher={setSelectedPhilosopher}
               selectedPhilosopher={selectedPhilosopher}
             />
-          </Wrapper>
+          {/* </Wrapper> */}
         </DetailContainer>
       </Container>
     </ThemeProvider>
