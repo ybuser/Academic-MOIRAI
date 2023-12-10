@@ -56,7 +56,6 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
       
       let markers = [];
       const lines = [];
-      const processedEdges = new Set();
       const mainPhilosopher = await fetchPhilosopherDetails(selectedPhilosopher);
       let mainMarker = extractLocationData(mainPhilosopher);
     
@@ -68,41 +67,28 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
         for (let edgeType in mainPhilosopher.edges) {
           const edgesArray = Object.values(mainPhilosopher.edges[edgeType]);
           edgesArray.forEach(edge => {
-            if (processedEdges.has(edge.id)) {
-              return;
-            }
-
             edgePromises.push(fetchPhilosopherDetails(edge.id.replace('Q', '')).then(details => {
               let marker = extractLocationData(details);
               if (marker) {
                 adjustCoordinates(markers, marker);
                 markers.push(marker);
                 
-                // Determine line color and style based on edge type
-                const lineColor = (edgeType === "influenced" || edgeType === "taught") ? "blue" : "red";
-                const isDotted = edgeType === "influenced" || edgeType === "influencedBy";
-
-                // If the line should be dotted, add the icons property
-                const polylineOptions = {
-                  strokeColor: lineColor,
-                  strokeWeight: 2,
-                  icons: isDotted ? [{
-                    icon: { path: 'M 0,-1 0,1', strokeOpacity: 1, scale: 4 },
-                    offset: '0',
-                    repeat: '20px'
-                  }] : []
-                };
-
+                // Set default line color and then adjust based on edge type
+                let lineColor = "#0000FF"; // Default blue
+                if (edgeType === "taught") {
+                  lineColor = "#ADD8E6"; // Light blue for taught
+                } else if (edgeType === "learnedFrom") {
+                  lineColor = "#FFB6C1"; // Light red for learnedFrom
+                }
+                
                 lines.push({
                   from: { lat: mainMarker.lat, lng: mainMarker.lng },
                   to: { lat: marker.lat, lng: marker.lng },
-                  options: polylineOptions
+                  options: {
+                    strokeColor: lineColor,
+                    strokeWeight: 2
+                  }
                 });
-
-                // If the edge is 'taught' or 'learnedFrom', mark it as processed
-                if (edgeType === "taught" || edgeType === "learnedFrom") {
-                  processedEdges.add(edge.id);
-                }
               }
             }));
           });
