@@ -6,7 +6,14 @@
     "countryOfCitizenship": {
         "0": {
             "id": "Q148540",
-            "name": "Republic of Florence"
+            "name": "Republic of Florence",
+            "coordinates": {
+                "latitude": 43.769444444444446,
+                "longitude": 11.25611111111111,
+                "altitude": null,
+                "precision": 0.0002777777777777778,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
         }
     },
     "dateOfBirth": {
@@ -82,6 +89,19 @@
         "2": {
             "id": "Q321563",
             "name": "Paolo dal Pozzo Toscanelli"
+        }
+    },
+    "placeOfDeath": {
+        "0": {
+            "id": "Q205116",
+            "name": "Amboise",
+            "coordinates": {
+                "latitude": 47.411388888889,
+                "longitude": 0.9825,
+                "altitude": null,
+                "precision": 0.00027777777777778,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
         }
     },
     "occupation": {
@@ -241,6 +261,19 @@
             "id": "Q187998",
             "name": "Cesare Borgia",
             "coordinates": ""
+        }
+    },
+    "placeOfBirth": {
+        "0": {
+            "id": "Q154184",
+            "name": "Anchiano",
+            "coordinates": {
+                "latitude": 43.799166666667,
+                "longitude": 10.938133333333,
+                "altitude": null,
+                "precision": 0.00027777777777778,
+                "globe": "http://www.wikidata.org/entity/Q2"
+            }
         }
     },
     "image": {
