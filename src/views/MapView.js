@@ -25,7 +25,15 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
   };
 
   const extractLocationData = (philosopher) => {
-    const location = philosopher.residence || philosopher.educatedAt || philosopher.employer;
+    // Check primary location fields first
+    let location = philosopher.residence || philosopher.educatedAt || philosopher.employer;
+  
+    // If no primary location, check additional fields
+    if (!location || !location[0] || !location[0].coordinates) {
+      location = philosopher.countryOfCitizenship || philosopher.placeOfBirth || philosopher.placeOfDeath;
+    }
+  
+    // Extract coordinates if available
     if (location && location[0] && location[0].coordinates) {
       return {
         lat: location[0].coordinates.latitude,
@@ -34,6 +42,7 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
         id: philosopher.id
       };
     }
+  
     return null;
   };
 
