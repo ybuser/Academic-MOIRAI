@@ -99,8 +99,12 @@ const TimelineView = (props) => {
     const scrollX = nodeX - containerWidth / 2;
     const scrollY = nodeY - containerHeight / 2;
 
+    console.log(scrollX, scrollY);
+
     svgContainerRef.current.scrollLeft = scrollX;
     svgContainerRef.current.scrollTop = scrollY;
+
+    console.log(svgContainerRef.current.scrollLeft, svgContainerRef.current.scrollTop); 
   };
 
   // Initialize activeNode with selected philosopher and connected nodes
@@ -203,8 +207,18 @@ const TimelineView = (props) => {
         // }     
         
         let arrowColor;
+        if (activeNode[0] == sourceNode.id && rel.type == 'taught') {
+          arrowColor = "#0015D1";
+        } else if (activeNode[0] == sourceNode.id && rel.type == 'influenced') {
+          arrowColor = "#3399FF";
+        } else if (activeNode[0] == targetNode.id && rel.type == 'taught') {
+          arrowColor = "#D1000A";
+        } else if (activeNode[0] == targetNode.id && rel.type == 'influenced') {
+          arrowColor = "#E66369";
+        }
+
         switch (activeNode[0]) {
-          case sourceNode.id:
+          case sourceNode.id :
             arrowColor = "blue";
             break;
           case targetNode.id:
