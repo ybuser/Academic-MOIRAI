@@ -149,7 +149,8 @@ const TimelineView = (props) => {
     
     desiredVisiblePercentage = d3.scaleLinear().domain([minScale, maxScale]).range([80, 0])(zoomScale);
     data = props.data.filter(d => d.priority >= desiredVisiblePercentage/100);
-
+    relationships = props.relationships.filter(rel => data.find(d => d.id === rel.source) && data.find(d => d.id === rel.target));
+    
     yPos = computeBarYPosition(data);
     yPosMax = Math.max(...yPos);
     yPosMin = Math.min(...yPos);
@@ -181,7 +182,7 @@ const TimelineView = (props) => {
     const centuryStart = Math.ceil(minYear / 100) * 100;
     const centuries = d3.range(centuryStart, maxYear, 100);
   
-    svg.selectAll("g").remove();
+    // svg.selectAll("g").remove();
     const linesLayer = svg.append("g").attr("class", "lines-layer");
   
     linesLayer.append("g")
@@ -236,17 +237,6 @@ const TimelineView = (props) => {
           arrowColor = "#E66369";
         }
 
-        switch (activeNode[0]) {
-          case sourceNode.id :
-            arrowColor = "blue";
-            break;
-          case targetNode.id:
-            arrowColor = "red";
-            break;
-          default:
-            arrowColor = "red";
-        }
-
         (activeNode[0] === sourceNode.id || activeNode[0] === targetNode.id ) && console.log("arrowColor: ", arrowColor);
         arrowLayer.append("line")
           .data([rel])
@@ -269,7 +259,7 @@ const TimelineView = (props) => {
 
     svg.selectAll("rect").remove();
     svg.selectAll(".label").remove();
-    svg.selectAll(".arrow-layer").remove();
+    // svg.selectAll(".arrow-layer").remove();
 
     const bars = svg.append("g")
       .selectAll("g")
@@ -388,35 +378,11 @@ const TimelineView = (props) => {
 
   }, [activeNode, props.selectedPhilosopher, zoomScale]);
 
-  // // 줌 기능 구현
-  // useEffect(() => {
-  //   const svg = d3.select(splotSvg.current);
-
-  //   const zoom = d3.zoom()
-  //     .scaleExtent([0.5, 2]) // 줌 범위: 0.5배에서 2배
-  //     .on('zoom', (event) => {
-  //       if (event.sourceEvent && event.sourceEvent.type === 'wheel') {
-  //         event.sourceEvent.preventDefault();
-  //       } else {
-  //         svg.attr('transform', event.transform);
-  //         setZoomScale(event.transform.k);
-  //       }
-  //     });
-
-  //   svg.call(zoom);
-  //   zoomRef.current = zoom;
-
-  // }, []);
-  
-  // const zoomIn = () => {
-  //   d3.select(splotSvg.current).transition().call(zoomRef.current.scaleBy, 5/4);
-  // };
-
-  // const zoomOut = () => {
-  //   d3.select(splotSvg.current).transition().call(zoomRef.current.scaleBy, 4/5);
-  // };
 
   const handleZoom = (mult) =>{
+    const svg = d3.select(splotSvg.current);
+    svg.selectAll(".arrow-layer").remove();
+    svg.selectAll(".lines-layer").remove();
     if (zoomScale*mult < minScale || zoomScale*mult > maxScale) {
       return;
     }
