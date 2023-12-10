@@ -933,7 +933,7 @@
     {
         "id": "Q1957878",
         "name": "Ephrem Mtsire",
-        "birth": 1001,
+        "birth": 1025,
         "death": 1101,
         "priority": 0.21893491124260356
     },
@@ -1374,8 +1374,8 @@
     {
         "id": "Q2955937",
         "name": "Chamaeleon",
-        "birth": -400,
-        "death": -300,
+        "birth": -350,
+        "death": -275,
         "priority": 0.5857988165680473
     },
     {
@@ -1794,14 +1794,14 @@
     {
         "id": "Q3625041",
         "name": "Aelius Antipater",
-        "birth": 150,
-        "death": 300,
+        "birth": 200,
+        "death": 268,
         "priority": 0.1992110453648915
     },
     {
         "id": "Q36303",
         "name": "Thales",
-        "birth": -650,
+        "birth": -626,
         "death": -548,
         "priority": 0.8106508875739645
     },
@@ -2375,8 +2375,8 @@
     {
         "id": "Q486945",
         "name": "Sotion",
-        "birth": -100,
-        "death": 100,
+        "birth": -40,
+        "death": 40,
         "priority": 0.611439842209073
     },
     {
@@ -3187,8 +3187,8 @@
     {
         "id": "Q8778",
         "name": "Galen",
-        "birth": 200,
-        "death": 300,
+        "birth": 129,
+        "death": 216,
         "priority": 0.7100591715976331
     },
     {
