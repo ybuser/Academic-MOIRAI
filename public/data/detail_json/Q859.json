@@ -405,137 +405,169 @@
         "influenced": {
             "0": {
                 "id": "Q60025",
-                "name": "Hannah Arendt"
+                "name": "Hannah Arendt",
+                "similarity": 0.12635403871536255
             },
             "1": {
                 "id": "Q35802",
-                "name": "Benedictus de Spinoza"
+                "name": "Benedictus de Spinoza",
+                "similarity": 0.23996856808662415
             },
             "2": {
                 "id": "Q1173486",
-                "name": "David Anhaght"
+                "name": "David Anhaght",
+                "similarity": 0.22919684648513794
             },
             "3": {
                 "id": "Q7243",
-                "name": "Leo Tolstoy"
+                "name": "Leo Tolstoy",
+                "similarity": 0.11800860613584518
             },
             "4": {
                 "id": "Q9358",
-                "name": "Friedrich Nietzsche"
+                "name": "Friedrich Nietzsche",
+                "similarity": 0.27760645747184753
             },
             "5": {
                 "id": "Q9068",
-                "name": "Voltaire"
+                "name": "Voltaire",
+                "similarity": 0.16457198560237885
             },
             "6": {
                 "id": "Q9204",
-                "name": "C. S. Lewis"
+                "name": "C. S. Lewis",
+                "similarity": 0.021777184680104256
             },
             "7": {
                 "id": "Q37621",
-                "name": "Thomas Hobbes"
+                "name": "Thomas Hobbes",
+                "similarity": 0.2798987329006195
             },
             "8": {
                 "id": "Q9438",
-                "name": "Thomas Aquinas"
+                "name": "Thomas Aquinas",
+                "similarity": 0.43627920746803284
             },
             "9": {
                 "id": "Q123382",
-                "name": "Frithjof Schuon"
+                "name": "Frithjof Schuon",
+                "similarity": 0.2748378813266754
             },
             "10": {
                 "id": "Q48226",
-                "name": "Ralph Waldo Emerson"
+                "name": "Ralph Waldo Emerson",
+                "similarity": 0.1685658097267151
             },
             "11": {
                 "id": "Q39837",
-                "name": "Averroes"
+                "name": "Averroes",
+                "similarity": 0.38046392798423767
             },
             "12": {
                 "id": "Q48301",
-                "name": "Martin Heidegger"
+                "name": "Martin Heidegger",
+                "similarity": 0.2711840867996216
             },
             "13": {
                 "id": "Q38193",
-                "name": "Arthur Schopenhauer"
+                "name": "Arthur Schopenhauer",
+                "similarity": 0.368564635515213
             },
             "14": {
                 "id": "Q60070",
-                "name": "Friedrich Wilhelm Joseph Schelling"
+                "name": "Friedrich Wilhelm Joseph Schelling",
+                "similarity": 0.35044005513191223
             },
             "15": {
                 "id": "Q9312",
-                "name": "Immanuel Kant"
+                "name": "Immanuel Kant",
+                "similarity": 0.2581814229488373
             },
             "16": {
                 "id": "Q130631",
-                "name": "Jacques Derrida"
+                "name": "Jacques Derrida",
+                "similarity": 0.3817819356918335
             },
             "17": {
                 "id": "Q11903",
-                "name": "Hypatia"
+                "name": "Hypatia",
+                "similarity": 0.3143424987792969
             },
             "18": {
                 "id": "Q868",
-                "name": "Aristotle"
+                "name": "Aristotle",
+                "similarity": 0.37871137261390686
             },
             "19": {
                 "id": "Q160460",
-                "name": "Al-Farabi"
+                "name": "Al-Farabi",
+                "similarity": 0.38477960228919983
             },
             "20": {
                 "id": "Q9047",
-                "name": "Gottfried Wilhelm Leibniz"
+                "name": "Gottfried Wilhelm Leibniz",
+                "similarity": 0.24736960232257843
             },
             "21": {
                 "id": "Q9235",
-                "name": "Georg Wilhelm Friedrich Hegel"
+                "name": "Georg Wilhelm Friedrich Hegel",
+                "similarity": 0.4646274149417877
             },
             "22": {
                 "id": "Q334147",
-                "name": "Julius Evola"
+                "name": "Julius Evola",
+                "similarity": 0.050187911838293076
             },
             "23": {
                 "id": "Q731904",
-                "name": "Valentin Ferdinandovich Asmus"
+                "name": "Valentin Ferdinandovich Asmus",
+                "similarity": 0.24593499302864075
             }
         },
         "influencedBy": {
             "0": {
                 "id": "Q913",
-                "name": "Socrates"
+                "name": "Socrates",
+                "similarity": 0.46516895294189453
             },
             "1": {
                 "id": "Q41155",
-                "name": "Heraclitus"
+                "name": "Heraclitus",
+                "similarity": 0.4612862765789032
             },
             "2": {
                 "id": "Q169243",
-                "name": "Protagoras"
+                "name": "Protagoras",
+                "similarity": 0.4659980535507202
             },
             "3": {
                 "id": "Q10261",
-                "name": "Pythagoras"
+                "name": "Pythagoras",
+                "similarity": 0.513974130153656
             },
             "4": {
                 "id": "Q125551",
-                "name": "Parmenides"
+                "name": "Parmenides",
+                "similarity": 0.5461021065711975
             }
         },
         "taught": {
             "0": {
                 "id": "Q868",
-                "name": "Aristotle"
+                "name": "Aristotle",
+                "similarity": 0.37871137261390686
             },
             "1": {
                 "id": "Q160362",
-                "name": "Theophrastus"
+                "name": "Theophrastus",
+                "similarity": 0.3670492470264435
             }
         },
         "learnedFrom": {
             "0": {
                 "id": "Q913",
-                "name": "Socrates"
+                "name": "Socrates",
+                "similarity": 0.46516895294189453
             }
         }
     },
