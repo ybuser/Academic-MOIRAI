@@ -104,8 +104,7 @@ const TimelineView = (props) => {
   };
 
   // Initialize activeNode with selected philosopher and connected nodes
-  const initialActiveNodes = findConnectedNodes('Q' + props.selectedPhilosopher.toString());
-  const [activeNode, setActiveNode] = useState(initialActiveNodes);
+  const [activeNode, setActiveNode] = useState([]);
 
   const margin = ({ top: 10, right: 20, bottom: 50, left: 20 }); 
   const barHeight = 20;
