@@ -63,14 +63,27 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
     }
   };
   
-  
-
   const calculateDistance = (similarity) => {
     // Adjust these values as needed for your specific use case
     const maxDistance = 300; // maximum distance for low similarity
     const minDistance = 0; // minimum distance for high similarity
 
     return maxDistance - similarity * (maxDistance - minDistance);
+  };
+
+  const getLineColor = (edgeType) => {
+    switch (edgeType) {
+      case "taught":
+        return "#0015D1"; // Blue for "taught"
+      case "learnedFrom":
+        return "#D1000A"; // Red for "learnedFrom"
+      case "influenced":
+        return "#3399FF"; // Light blue for "influenced"
+      case "influencedBy":
+        return "#E66369"; // Light red for "influencedBy"
+      default:
+        return "#0000FF"; // Default blue
+    }
   };
 
   useEffect(() => {
@@ -120,13 +133,14 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       const edges = [];
       const addedEdges = new Map(); // Tracks which edges have been added
 
-      const addEdge = (source, target, similarity) => {
+      const addEdge = (source, target, similarity, edgeType) => {
         const edgeKey = `${source}->${target}`;
         if (!addedEdges.has(edgeKey)) {
           edges.push({
             source,
             target,
-            similarity
+            similarity,
+            edgeType
           });
           addedEdges.set(edgeKey, true);
         }
@@ -140,7 +154,8 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
             addEdge(
               edgeType === 'taught' ? philosopherDetails.id : edge.id,
               edgeType === 'taught' ? edge.id : philosopherDetails.id,
-              edge.similarity
+              edge.similarity,
+              edgeType // Pass the edge type
             );
           });
         }
@@ -150,17 +165,22 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       ['influenced', 'influencedBy'].forEach(edgeType => {
         if (philosopherDetails.edges[edgeType]) {
           Object.values(philosopherDetails.edges[edgeType]).forEach(edge => {
-            if (!addedEdges.has(`${philosopherDetails.id}->${edge.id}`) && !addedEdges.has(`${edge.id}->${philosopherDetails.id}`)) {
+            const edgeKey = `${philosopherDetails.id}->${edge.id}`;
+            const reverseEdgeKey = `${edge.id}->${philosopherDetails.id}`;
+            // Check if the edge or its reverse has not already been added
+            if (!addedEdges.has(edgeKey) && !addedEdges.has(reverseEdgeKey)) {
               nodes.push({ id: edge.id, name: edge.name });
               addEdge(
                 edgeType === 'influenced' ? philosopherDetails.id : edge.id,
                 edgeType === 'influenced' ? edge.id : philosopherDetails.id,
-                edge.similarity
+                edge.similarity,
+                edgeType // Pass the edge type
               );
             }
           });
         }
       });
+      
       // console.log("edges are ", edges);
 
       // Remove duplicate nodes
@@ -174,7 +194,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
         .data(edges)
         .join("line")
         .attr("stroke-width", 8)
-        .attr("stroke", "#999");
+        .attr("stroke", d => getLineColor(d.edgeType)); // Set the color based on the edge type
 
       // Add a group for each node which will contain the circle and the text
       const nodeGroup = svg.append("g")
