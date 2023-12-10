@@ -60,17 +60,19 @@ const TimelineView = (props) => {
   
   const svgContainerRef = useRef(null); 
   const splotSvg = useRef(null);
-  const zoomRef = useRef(); 
+  // const zoomRef = useRef(); 
+  // const [zoomScale, setZoomScale] = useState(1);
+  // const desiredVisiblePercentage = d3.scaleLinear().domain([0.5, 1]).range([10, 100])(zoomScale);
+  // const priorityThreshold = 1 - desiredVisiblePercentage/100;
+  // console.log("priorityThreshold: ", priorityThreshold);
 
-  const [zoomScale, setZoomScale] = useState(1);
-  const desiredVisiblePercentage = d3.scaleLinear().domain([0.5, 1]).range([10, 100])(zoomScale);
-  const priorityThreshold = 1 - desiredVisiblePercentage/100;
-  console.log("priorityThreshold: ", priorityThreshold);
+  let data = props.data;
+  let relationships = props.relationships; 
 
-  let data = props.data.filter(d => d.priority >= priorityThreshold); 
-  console.log("data: ", data);
-  let relationships = props.relationships.filter(rel => data.find(d => d.id === rel.source) && data.find(d => d.id === rel.target));
-  console.log("relationships: ", relationships); 
+  // let data = props.data.filter(d => d.priority >= priorityThreshold); 
+  // console.log("data: ", data);
+  // let relationships = props.relationships.filter(rel => data.find(d => d.id === rel.source) && data.find(d => d.id === rel.target));
+  // console.log("relationships: ", relationships); 
   // Function to find all connected nodes
   const findConnectedNodes = (selectedId) => {
     const connectedNodes = relationships
@@ -88,14 +90,14 @@ const TimelineView = (props) => {
     const containerWidth = svgContainerRef.current.clientWidth;
     const containerHeight = svgContainerRef.current.clientHeight;
 
-    // 줌 레벨에 따라 조정된 노드 위치 계산
-    const adjustedNodeX = nodeX * zoomScale;
-    const adjustedNodeY = nodeY * zoomScale;
+    // // 줌 레벨에 따라 조정된 노드 위치 계산
+    // const adjustedNodeX = nodeX * zoomScale;
+    // const adjustedNodeY = nodeY * zoomScale;
 
     // 스크롤 위치 조정하여 노드를 중앙에 위치시키기
     // 줌 레벨을 고려하여 조정된 노드 위치를 사용
-    const scrollX = adjustedNodeX - containerWidth / 2;
-    const scrollY = adjustedNodeY - containerHeight / 2;
+    const scrollX = nodeX - containerWidth / 2;
+    const scrollY = nodeY - containerHeight / 2;
 
     svgContainerRef.current.scrollLeft = scrollX;
     svgContainerRef.current.scrollTop = scrollY;
@@ -131,8 +133,11 @@ const TimelineView = (props) => {
   const yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
   
   useEffect(() => {
-
-    if (zoomScale==1 && activeNode.length > 0) {
+    setActiveNode(findConnectedNodes('Q' + props.selectedPhilosopher.toString()));
+    // if (zoomScale==1 && activeNode.length > 0) {
+    //   centerAlignment(data.find(d => d.id === activeNode[0]));
+    // }
+    if (activeNode.length > 0) {
       centerAlignment(data.find(d => d.id === activeNode[0]));
     }
 
@@ -328,11 +333,14 @@ const TimelineView = (props) => {
         }
     })
     .on("click", function (event, d) {
+      props.setSelectedPhilosopher(d.id.replace('Q', ''));
       setActiveNode(findConnectedNodes(d.id)); 
       svg.selectAll(".arrow-layer").remove();
-      if(zoomScale==1) {
-        centerAlignment(d);
-      }
+      // if(zoomScale==1) {
+      //   centerAlignment(d);
+      // }
+      centerAlignment(d);
+
       event.stopPropagation(); 
     });
 
@@ -340,42 +348,40 @@ const TimelineView = (props) => {
       setActiveNode([]);
       svg.selectAll(".arrow-layer").remove();
     });
-  }, [activeNode]);
+  }, [activeNode, props.selectedPhilosopher]);
 
-  // 줌 기능 구현
-  useEffect(() => {
-    const svg = d3.select(splotSvg.current);
+  // // 줌 기능 구현
+  // useEffect(() => {
+  //   const svg = d3.select(splotSvg.current);
 
-    const zoom = d3.zoom()
-      .scaleExtent([0.5, 2]) // 줌 범위: 0.5배에서 2배
-      .on('zoom', (event) => {
-        if (event.sourceEvent && event.sourceEvent.type === 'wheel') {
-          event.sourceEvent.preventDefault();
-        } else {
-          svg.attr('transform', event.transform);
-          setZoomScale(event.transform.k);
-        }
-      });
+  //   const zoom = d3.zoom()
+  //     .scaleExtent([0.5, 2]) // 줌 범위: 0.5배에서 2배
+  //     .on('zoom', (event) => {
+  //       if (event.sourceEvent && event.sourceEvent.type === 'wheel') {
+  //         event.sourceEvent.preventDefault();
+  //       } else {
+  //         svg.attr('transform', event.transform);
+  //         setZoomScale(event.transform.k);
+  //       }
+  //     });
 
-    svg.call(zoom);
-    zoomRef.current = zoom;
+  //   svg.call(zoom);
+  //   zoomRef.current = zoom;
 
-  }, []);
+  // }, []);
   
-  const zoomIn = () => {
-    d3.select(splotSvg.current).transition().call(zoomRef.current.scaleBy, 5/4);
-  };
+  // const zoomIn = () => {
+  //   d3.select(splotSvg.current).transition().call(zoomRef.current.scaleBy, 5/4);
+  // };
 
-  const zoomOut = () => {
-    d3.select(splotSvg.current).transition().call(zoomRef.current.scaleBy, 4/5);
-  };
+  // const zoomOut = () => {
+  //   d3.select(splotSvg.current).transition().call(zoomRef.current.scaleBy, 4/5);
+  // };
 
   return (
     <div>
       <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px' }}>
         <h2>Timeline View</h2>
-        <button onClick={zoomIn}>+</button>
-        <button onClick={zoomOut}>-</button>
       </div>
       <div ref={svgContainerRef} style={{ width: '100%', overflow: 'auto', height: `${containerHeight}px` }}>
         <svg ref={splotSvg} width={width} height={svgHeight}></svg>
