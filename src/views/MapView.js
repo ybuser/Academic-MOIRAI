@@ -56,6 +56,7 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
       
       let markers = [];
       const lines = [];
+      const processedEdges = new Set();
       const mainPhilosopher = await fetchPhilosopherDetails(selectedPhilosopher);
       let mainMarker = extractLocationData(mainPhilosopher);
     
@@ -65,23 +66,49 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
     
         const edgePromises = [];
         for (let edgeType in mainPhilosopher.edges) {
-          Object.values(mainPhilosopher.edges[edgeType]).forEach(edge => {
-            edgePromises.push(fetchPhilosopherDetails(edge.id.replace('Q', '')));
+          const edgesArray = Object.values(mainPhilosopher.edges[edgeType]);
+          edgesArray.forEach(edge => {
+            if (processedEdges.has(edge.id)) {
+              return;
+            }
+
+            edgePromises.push(fetchPhilosopherDetails(edge.id.replace('Q', '')).then(details => {
+              let marker = extractLocationData(details);
+              if (marker) {
+                adjustCoordinates(markers, marker);
+                markers.push(marker);
+                
+                // Determine line color and style based on edge type
+                const lineColor = (edgeType === "influenced" || edgeType === "taught") ? "blue" : "red";
+                const isDotted = edgeType === "influenced" || edgeType === "influencedBy";
+
+                // If the line should be dotted, add the icons property
+                const polylineOptions = {
+                  strokeColor: lineColor,
+                  strokeWeight: 2,
+                  icons: isDotted ? [{
+                    icon: { path: 'M 0,-1 0,1', strokeOpacity: 1, scale: 4 },
+                    offset: '0',
+                    repeat: '20px'
+                  }] : []
+                };
+
+                lines.push({
+                  from: { lat: mainMarker.lat, lng: mainMarker.lng },
+                  to: { lat: marker.lat, lng: marker.lng },
+                  options: polylineOptions
+                });
+
+                // If the edge is 'taught' or 'learnedFrom', mark it as processed
+                if (edgeType === "taught" || edgeType === "learnedFrom") {
+                  processedEdges.add(edge.id);
+                }
+              }
+            }));
           });
         }
 
-        const edgeDetails = await Promise.all(edgePromises);
-        edgeDetails.forEach(details => {
-          let marker = extractLocationData(details);
-          if (marker) {
-            adjustCoordinates(markers, marker);
-            markers.push(marker);
-            lines.push({
-              from: { lat: mainMarker.lat, lng: mainMarker.lng },
-              to: { lat: marker.lat, lng: marker.lng }
-            });
-          }
-        });
+        await Promise.all(edgePromises);
       }
 
       // console.log("7. in useeffect");
@@ -148,7 +175,7 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
           <Polyline
             key={index}
             path={[line.from, line.to]}
-            options={{ strokeColor: "#FF0000", strokeWeight: 2 }}
+            options={line.options}
           />
         ))}
       </GoogleMap>
