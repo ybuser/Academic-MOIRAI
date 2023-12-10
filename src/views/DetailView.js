@@ -28,17 +28,45 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
   const splitNameIntoTspan = (d, textElement, fontSize) => {
     const words = d.name.split(' ');
     const lineHeight = 1.2; // Adjust based on line height in em
-    const lineCount = words.length;
-    const totalHeight = lineCount * lineHeight; // Total height in em
-    const startY = -(totalHeight - 1) / 3 + "em"; // Centering adjustment
+
+    if (words.length === 1) {
+      // For a single-word name, simply set the text without adding tspans
+      textElement.text(words[0]);
+    } else {
+      let initialsLine = '';
+      let lastName = '';
   
-    textElement.text('');
+      words.forEach((word, index) => {
+        if (word.endsWith('.') && word.length <= 2) { // Check if the word is an initial
+          initialsLine += word + ' ';
+        } else {
+          // If it's the last word, treat it as the last name
+          if (index === words.length - 1) {
+            lastName = word;
+          } else {
+            initialsLine += word + ' ';
+          }
+        }
+      });
   
-    for (let i = 0; i < words.length; i++) {
+      const totalHeight = (lastName ? 2 : 1) * lineHeight; // Total height in em
+      const startY = -(totalHeight - 1) / 3 + "em"; // Centering adjustment
+  
+      textElement.text('');
+  
+      // Add the initials line
       textElement.append('tspan')
-        .text(words[i])
+        .text(initialsLine.trim())
         .attr('x', 0)
-        .attr('dy', i === 0 ? startY : lineHeight + "em");
+        .attr('dy', startY);
+  
+      // Add the last name if present
+      if (lastName) {
+        textElement.append('tspan')
+          .text(lastName)
+          .attr('x', 0)
+          .attr('dy', lineHeight + "em");
+      }
     }
   };
 
