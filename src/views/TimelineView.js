@@ -2,78 +2,90 @@ import React, { useState, useEffect, useRef } from 'react'
 import * as d3 from "d3";
 import { act } from 'react-dom/test-utils';
 
-function computeBarYPosition(data, direction = "bottom") {
-  function xOverlaps(a, b) {
-    return a.birth < b.death + 1 && a.death + 1 > b.birth;
-  }
-
-  const yPos = [];
-  const lastBars = {};
-
-  let minRow = 0;
-  let maxRow = 0;
-
-  data.sort((a, b) => a.birth - b.birth);
-
-  data.forEach((d, i) => {
-    if (i === 0) {
-      yPos[i] = 0;
-      lastBars[0] = d;
-      return;
-    }
-
-    let optimalRow;
-    let minDeathYear = Infinity;
-
-    for (const row of Object.keys(lastBars).map(Number)) {
-      if (!xOverlaps(lastBars[row], d) && lastBars[row]?.death < minDeathYear) {
-        optimalRow = row;
-        minDeathYear = lastBars[row]?.death;
-      }
-    }
-
-    if (optimalRow === undefined) {
-      if (direction === "top") {
-        optimalRow = maxRow + 1;
-      } else if (direction === "bottom") {
-        optimalRow = minRow - 1;
-      } else {
-        optimalRow = Math.abs(minRow - 1) < maxRow + 1 ? minRow - 1 : maxRow + 1;
-      }
-    }
-
-    yPos[i] = optimalRow;
-    lastBars[optimalRow] = d;
-
-    if (optimalRow < minRow) {
-      minRow = optimalRow;
-    }
-    if (optimalRow > maxRow) {
-      maxRow = optimalRow;
-    }
-  });
-
-  return yPos;
-}
-
 const TimelineView = (props) => {
   
   const svgContainerRef = useRef(null); 
   const splotSvg = useRef(null);
-  // const zoomRef = useRef(); 
-  // const [zoomScale, setZoomScale] = useState(1);
-  // const desiredVisiblePercentage = d3.scaleLinear().domain([0.5, 1]).range([10, 100])(zoomScale);
-  // const priorityThreshold = 1 - desiredVisiblePercentage/100;
-  // console.log("priorityThreshold: ", priorityThreshold);
+  const [zoomScale, setZoomScale] = useState(1);
+  const minScale = 0.05;
+  const maxScale = 1;
+  let desiredVisiblePercentage = d3.scaleLinear().domain([minScale, maxScale]).range([5, 100])(zoomScale);
 
   let data = props.data;
   let relationships = props.relationships; 
+  let display = 1;
 
-  // let data = props.data.filter(d => d.priority >= priorityThreshold); 
-  // console.log("data: ", data);
-  // let relationships = props.relationships.filter(rel => data.find(d => d.id === rel.source) && data.find(d => d.id === rel.target));
-  // console.log("relationships: ", relationships); 
-  // Function to find all connected nodes
+  const legendData = [
+    { color: "#0015D1", text: "Taught" },
+    { color: "#3399FF", text: "Influenced" },
+    { color: "#D1000A", text: "LearnedFrom" },
+    { color: "#E66369", text: "InfluencedBy" }
+  ];
+
+  const buttonStyle = {
+    width: '30px', 
+    height: '30px', 
+    fontSize: '16px',
+    padding: '5px', 
+    margin: '5px', 
+    cursor: 'pointer' 
+  };
+
+  const computeBarYPosition = (data, direction = "bottom") => {
+    const xOverlaps = (a, b) => {
+      let offset = d3.scaleLinear().domain([minScale, maxScale]).range([(a.name.length + b.name.length) * 4, 1])(zoomScale);
+      return a.birth < b.death + offset && a.death + offset > b.birth;
+    }
+  
+    const yPos = [];
+    const lastBars = {};
+  
+    let minRow = 0;
+    let maxRow = 0;
+  
+    data.sort((a, b) => a.birth - b.birth);
+  
+    data.forEach((d, i) => {
+      if (i === 0) {
+        yPos[i] = 0;
+        lastBars[0] = d;
+        return;
+      }
+  
+      let optimalRow;
+      let minDeathYear = Infinity;
+  
+      for (const row of Object.keys(lastBars).map(Number)) {
+        if (!xOverlaps(lastBars[row], d) && lastBars[row]?.death < minDeathYear) {
+          optimalRow = row;
+          minDeathYear = lastBars[row]?.death;
+        }
+      }
+  
+      if (optimalRow === undefined) {
+        if (direction === "top") {
+          optimalRow = maxRow + 1;
+        } else if (direction === "bottom") {
+          optimalRow = minRow - 1;
+        } else {
+          optimalRow = Math.abs(minRow - 1) < maxRow + 1 ? minRow - 1 : maxRow + 1;
+        }
+      }
+  
+      yPos[i] = optimalRow;
+      lastBars[optimalRow] = d;
+  
+      if (optimalRow < minRow) {
+        minRow = optimalRow;
+      }
+      if (optimalRow > maxRow) {
+        maxRow = optimalRow;
+      }
+    });
+  
+    return yPos;
+  }
+
   const findConnectedNodes = (selectedId) => {
     const connectedNodes = relationships
       .filter(rel => rel.source === selectedId || rel.target === selectedId)
@@ -86,55 +98,41 @@ const TimelineView = (props) => {
     const nodeIndex = data.indexOf(selectedId);
     const nodeY = yScale(yPos[nodeIndex]);
 
-    // 컨테이너의 너비 및 높이 가져오기
     const containerWidth = svgContainerRef.current.clientWidth;
     const containerHeight = svgContainerRef.current.clientHeight;
 
-    // // 줌 레벨에 따라 조정된 노드 위치 계산
-    // const adjustedNodeX = nodeX * zoomScale;
-    // const adjustedNodeY = nodeY * zoomScale;
-
-    // 스크롤 위치 조정하여 노드를 중앙에 위치시키기
-    // 줌 레벨을 고려하여 조정된 노드 위치를 사용
     const scrollX = nodeX - containerWidth / 2;
     const scrollY = nodeY - containerHeight / 2;
-
-    // console.log(scrollX, scrollY);
 
     svgContainerRef.current.scrollLeft = scrollX;
     svgContainerRef.current.scrollTop = scrollY;
 
-    // console.log(svgContainerRef.current.scrollLeft, svgContainerRef.current.scrollTop); 
   };
 
   // Initialize activeNode with selected philosopher and connected nodes
-  // const initialActiveNodes = findConnectedNodes('Q' + props.selectedPhilosopher.toString());
-  // console.log("initialActiveNodes: ", initialActiveNodes);
   const [activeNode, setActiveNode] = useState([]);
-  const [changed, setChanged] = useState(false);  
 
   const margin = ({ top: 10, right: 20, bottom: 50, left: 20 }); 
   const barHeight = 20;
   const maxYear = Math.max(...data.map(d => d.death)) + 20;
   const minYear = Math.min(...data.map(d => d.birth)) - 20;
   const timelineLength = maxYear - minYear;
-  const widthPerYear = 10;
-  const width = widthPerYear * timelineLength + margin.left + margin.right;
-
-  const yPos = computeBarYPosition(data);
-
-  const yPosMax = Math.max(...yPos);
-  const yPosMin = Math.min(...yPos);
-  const chartHeight = (yPosMax - yPosMin) * barHeight * 2;
-  const height = chartHeight + margin.top + margin.bottom;
-
   const extraHeightForXAxis = 30; 
-  const svgHeight = chartHeight + margin.top + margin.bottom;
-  
-  const containerHeight = svgHeight + extraHeightForXAxis;
 
-  const xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
-  const yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
+
+  let widthPerYear = 10;
+  let width = widthPerYear * timelineLength + margin.left + margin.right;
+
+  let yPos = computeBarYPosition(data);
+  let yPosMax = Math.max(...yPos);
+  let yPosMin = Math.min(...yPos);
+  let chartHeight = (yPosMax - yPosMin) * barHeight * 2;
+  let height = chartHeight + margin.top + margin.bottom;
+  let svgHeight = chartHeight + margin.top + margin.bottom;
+  let containerHeight = svgHeight + extraHeightForXAxis;
+
+  let xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
+  let yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
   
   useEffect(() => {
     const svg = d3.select(splotSvg.current);
@@ -144,9 +142,24 @@ const TimelineView = (props) => {
   }, [props.selectedPhilosopher]);
 
   useEffect(() => {
-    // if (zoomScale==1 && activeNode.length > 0) {
-    //   centerAlignment(data.find(d => d.id === activeNode[0]));
-    // }
+    widthPerYear = 10*zoomScale;
+    width = widthPerYear * timelineLength + margin.left + margin.right;
+
+    desiredVisiblePercentage = d3.scaleLinear().domain([minScale, maxScale]).range([80, 0])(zoomScale);
+    data = props.data.filter(d => d.priority >= desiredVisiblePercentage/100);
+    relationships = props.relationships.filter(rel => data.find(d => d.id === rel.source) && data.find(d => d.id === rel.target));
+
+    yPos = computeBarYPosition(data);
+    yPosMax = Math.max(...yPos);
+    yPosMin = Math.min(...yPos);
+    chartHeight = (yPosMax - yPosMin) * barHeight * 2;
+    height = chartHeight + margin.top + margin.bottom;
+    svgHeight = chartHeight + margin.top + margin.bottom;
+    containerHeight = svgHeight + extraHeightForXAxis;
+  
+    xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
+    yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
+
     if (activeNode.length > 0) {
       centerAlignment(data.find(d => d.id === activeNode[0]));
     }
@@ -344,9 +357,7 @@ const TimelineView = (props) => {
       props.setSelectedPhilosopher(d.id.replace('Q', ''));
       setActiveNode(findConnectedNodes(d.id)); 
       svg.selectAll(".arrow-layer").remove();
-      // if(zoomScale==1) {
-      //   centerAlignment(d);
-      // }
+
       centerAlignment(d);
 
       event.stopPropagation(); 
@@ -356,42 +367,38 @@ const TimelineView = (props) => {
       setActiveNode([]);
       svg.selectAll(".arrow-layer").remove();
     });
-  }, [activeNode]);
+  }, [activeNode, zoomScale]);
 
-  // // 줌 기능 구현
-  // useEffect(() => {
-  //   const svg = d3.select(splotSvg.current);
-
-  //   const zoom = d3.zoom()
-  //     .scaleExtent([0.5, 2]) // 줌 범위: 0.5배에서 2배
-  //     .on('zoom', (event) => {
-  //       if (event.sourceEvent && event.sourceEvent.type === 'wheel') {
-  //         event.sourceEvent.preventDefault();
-  //       } else {
-  //         svg.attr('transform', event.transform);
-  //         setZoomScale(event.transform.k);
-  //       }
-  //     });
-
-  //   svg.call(zoom);
-  //   zoomRef.current = zoom;
-
-  // }, []);
-  
-  // const zoomIn = () => {
-  //   d3.select(splotSvg.current).transition().call(zoomRef.current.scaleBy, 5/4);
-  // };
-
-  // const zoomOut = () => {
-  //   d3.select(splotSvg.current).transition().call(zoomRef.current.scaleBy, 4/5);
-  // };
+  const handleZoom = (mult) =>{
+    const svg = d3.select(splotSvg.current);
+    svg.selectAll(".arrow-layer").remove();
+    svg.selectAll(".lines-layer").remove();
+    if (zoomScale*mult < minScale || zoomScale*mult > maxScale) {
+      return;
+    }
+    setZoomScale(zoomScale*mult);
+    if (activeNode.length > 0) { 
+      //centerAlignment(data.find(d => d.id === activeNode[0]));
+    }
+  }
 
   return (
-    <div>
-      <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px' }}>
-        <h2>Timeline View</h2>
+    <div style={{chartHeight}}>
+      <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px', display: 'flex', alignItems: 'center' }}>
+        <h2 style={{ margin: '0' }}>Timeline View</h2>
+        {/* 레전드 추가 */}
+        <div style={{ marginLeft: '20px', display: 'flex', alignItems: 'center' }}>
+          {legendData.map((item, index) => (
+            <div key={index} style={{ display: 'flex', alignItems: 'center', marginRight: '10px' }}>
+              <div style={{ width: '20px', height: '10px', backgroundColor: item.color, marginRight: '5px' }}></div>
+              <span style={{ fontSize: '10px' }}>{item.text}</span>
+            </div>
+          ))}
+        </div>
+        <button style={buttonStyle} onClick={() => handleZoom(1.25)}>+</button>
+        <button style={buttonStyle} onClick={() => handleZoom(0.8)}>-</button>
       </div>
-      <div ref={svgContainerRef} style={{ width: '100%', overflow: 'auto', height: `${containerHeight}px` }}>
+      <div ref={svgContainerRef} style={{ width: '100%', overflow: 'auto', height: `383px` }}>
         <svg ref={splotSvg} width={width} height={svgHeight}></svg>
       </div>
     </div>
