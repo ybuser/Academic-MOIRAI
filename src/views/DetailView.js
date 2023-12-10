@@ -28,51 +28,46 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
   const splitNameIntoTspan = (d, textElement, fontSize) => {
     const words = d.name.split(' ');
     const lineHeight = 1.2; // Adjust based on line height in em
-
+  
+    textElement.text('');
+  
     if (words.length === 1) {
       // For a single-word name, simply set the text without adding tspans
       textElement.text(words[0]);
     } else {
-      let initialsLine = '';
-      let lastName = '';
+      // Calculate the total height of all lines
+      const totalHeight = words.length * lineHeight;
   
       words.forEach((word, index) => {
-        if (word.endsWith('.') && word.length <= 2) { // Check if the word is an initial
-          initialsLine += word + ' ';
-        } else {
-          // If it's the last word, treat it as the last name
-          if (index === words.length - 1) {
-            lastName = word;
-          } else {
-            initialsLine += word + ' ';
-          }
+        // Check if the word is an initial
+        if (word.endsWith('.') && word.length <= 2 && index < words.length - 1) {
+          word += ' '; // Add a space for initials, except for the last word
         }
-      });
   
-      const totalHeight = (lastName ? 2 : 1) * lineHeight; // Total height in em
-      const startY = -(totalHeight - 1) / 3 + "em"; // Centering adjustment
+        // Calculate startY for each line
+        let startY;
+        if (index === 0) {
+          // Adjust startY for the first line to center the text block vertically
+          startY = `-${(totalHeight / 2 - lineHeight / 2 - 0.4).toFixed(1)}em`;
+        } else {
+          // For subsequent lines, simply move down by lineHeight
+          startY = `${lineHeight}em`;
+        }
   
-      textElement.text('');
-  
-      // Add the initials line
-      textElement.append('tspan')
-        .text(initialsLine.trim())
-        .attr('x', 0)
-        .attr('dy', startY);
-  
-      // Add the last name if present
-      if (lastName) {
+        // Add each word as a separate tspan
         textElement.append('tspan')
-          .text(lastName)
+          .text(word)
           .attr('x', 0)
-          .attr('dy', lineHeight + "em");
-      }
+          .attr('dy', startY);
+      });
     }
   };
+  
+  
 
   const calculateDistance = (similarity) => {
     // Adjust these values as needed for your specific use case
-    const maxDistance = 400; // maximum distance for low similarity
+    const maxDistance = 300; // maximum distance for low similarity
     const minDistance = 0; // minimum distance for high similarity
 
     return maxDistance - similarity * (maxDistance - minDistance);
@@ -190,7 +185,7 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       const simulation = d3.forceSimulation(nodes)
         .force("link", d3.forceLink(edges).id(d => d.id)
           .distance(d => calculateDistance(d.similarity)))
-        .force("charge", d3.forceManyBody().strength(-800))
+        .force("charge", d3.forceManyBody().strength(-200))
         .force("center", d3.forceCenter(400, 320))
         .force("collision", d3.forceCollide().radius(d => Math.sqrt(d.width * d.height)/1.2 + 10)) // Prevent overlap
         .force("radial", d3.forceRadial(300, 400, 320).strength(0.8));
