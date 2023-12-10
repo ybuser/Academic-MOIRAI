@@ -48,6 +48,13 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
 
 
   useEffect(() => {
+    if (!selectedPhilosopher) {
+      // If no selected philosopher, clear data and do not proceed further
+      setMarkersData([]);
+      setLinesData([]);
+      return;
+    }
+
     // console.log("1 in useeffect");
     const fetchPhilosopherDetails = async (id) => {
       // console.log("2. getting detailes in ", id);
@@ -176,11 +183,11 @@ const MapView = ({ setSelectedPhilosopher, selectedPhilosopher, className}) => {
         center={defaultCenter}
         zoom={2}
       >
-        {linesData.map((line, index) => (
-          <Polyline
-            key={index}
-            path={[line.from, line.to]}
-            options={line.options}
+        {selectedPhilosopher && linesData.map((line, index) => (
+          <Polyline 
+            key={index} 
+            path={[line.from, line.to]} 
+            options={line.options} 
           />
         ))}
       </GoogleMap>

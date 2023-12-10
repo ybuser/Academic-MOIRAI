@@ -74,8 +74,13 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
   };
 
   useEffect(() => {
-    const loadPhilosopherDetails = async () => {
+    if (!selectedPhilosopher) {
+      // If no selected philosopher, clear details and do not proceed further
+      setPhilosopherDetails(null);
+      return;
+    }
 
+    const loadPhilosopherDetails = async () => {
       try {
         const response = await fetch(`data/detail_json/Q${selectedPhilosopher}.json`);
         if (!response.ok) {
@@ -95,6 +100,11 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
   }, [selectedPhilosopher]);
 
   useEffect(() => {
+    if (!philosopherDetails || !philosopherDetails.edges) {
+      // If no philosopher details or edges, do not proceed with graph rendering
+      return;
+    }
+
     if (d3Container.current && philosopherDetails && philosopherDetails.edges) {
       const svg = d3.select(d3Container.current)
         .attr('width', '100%')
@@ -208,6 +218,15 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
       });
     }
   }, [philosopherDetails, setSelectedPhilosopher]); // Dependency array
+
+  if (!selectedPhilosopher) {
+    return <DetailContainer className={className}>
+      <GraphWrapper>
+        {/* Display a message or leave empty as per your design */}
+        <div>Select a philosopher to view details.</div>
+      </GraphWrapper>
+    </DetailContainer>;
+  }
 
   const handleSetPhilosopher = () => {
     // Assuming you have a way to get philosopher data by ID
