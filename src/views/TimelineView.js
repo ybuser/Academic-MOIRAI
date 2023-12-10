@@ -99,16 +99,19 @@ const TimelineView = (props) => {
     const scrollX = nodeX - containerWidth / 2;
     const scrollY = nodeY - containerHeight / 2;
 
-    console.log(scrollX, scrollY);
+    // console.log(scrollX, scrollY);
 
     svgContainerRef.current.scrollLeft = scrollX;
     svgContainerRef.current.scrollTop = scrollY;
 
-    console.log(svgContainerRef.current.scrollLeft, svgContainerRef.current.scrollTop); 
+    // console.log(svgContainerRef.current.scrollLeft, svgContainerRef.current.scrollTop); 
   };
 
   // Initialize activeNode with selected philosopher and connected nodes
+  // const initialActiveNodes = findConnectedNodes('Q' + props.selectedPhilosopher.toString());
+  // console.log("initialActiveNodes: ", initialActiveNodes);
   const [activeNode, setActiveNode] = useState([]);
+  const [changed, setChanged] = useState(false);  
 
   const margin = ({ top: 10, right: 20, bottom: 50, left: 20 }); 
   const barHeight = 20;
@@ -117,7 +120,6 @@ const TimelineView = (props) => {
   const timelineLength = maxYear - minYear;
   const widthPerYear = 10;
   const width = widthPerYear * timelineLength + margin.left + margin.right;
-
 
   const yPos = computeBarYPosition(data);
 
@@ -131,12 +133,17 @@ const TimelineView = (props) => {
   
   const containerHeight = svgHeight + extraHeightForXAxis;
 
-
   const xScale = d3.scaleLinear().domain([minYear, maxYear]).range([margin.left, width - margin.right]);
   const yScale = d3.scalePoint().domain(d3.range(yPosMin, yPosMax + 1)).range([height - margin.bottom, margin.top]).padding(1.5);
   
   useEffect(() => {
+    const svg = d3.select(splotSvg.current);
+    svg.selectAll(".arrow-layer").remove();
+
     setActiveNode(findConnectedNodes('Q' + props.selectedPhilosopher.toString()));
+  }, [props.selectedPhilosopher]);
+
+  useEffect(() => {
     // if (zoomScale==1 && activeNode.length > 0) {
     //   centerAlignment(data.find(d => d.id === activeNode[0]));
     // }
@@ -217,17 +224,6 @@ const TimelineView = (props) => {
           arrowColor = "#E66369";
         }
 
-        switch (activeNode[0]) {
-          case sourceNode.id :
-            arrowColor = "blue";
-            break;
-          case targetNode.id:
-            arrowColor = "red";
-            break;
-          default:
-            arrowColor = "red";
-        }
-
         arrowLayer.append("line")
           .data([rel])
           .attr("x1", xScale((sourceNode.death+sourceNode.birth)/2))
@@ -245,7 +241,6 @@ const TimelineView = (props) => {
 
     svg.selectAll("rect").remove();
     svg.selectAll(".label").remove();
-    // svg.selectAll(".arrow-layer").remove();
 
     const bars = svg.append("g")
       .selectAll("g")
@@ -361,7 +356,7 @@ const TimelineView = (props) => {
       setActiveNode([]);
       svg.selectAll(".arrow-layer").remove();
     });
-  }, [activeNode, props.selectedPhilosopher]);
+  }, [activeNode]);
 
   // // 줌 기능 구현
   // useEffect(() => {
