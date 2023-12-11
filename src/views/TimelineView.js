@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react'
 import * as d3 from "d3";
 import { act } from 'react-dom/test-utils';
+import Button from '@mui/material/Button';
+import ZoomInIcon from '@mui/icons-material/ZoomIn';
+import ZoomOutIcon from '@mui/icons-material/ZoomOut';
 
 const TimelineView = (props) => {
   
@@ -32,7 +35,7 @@ const TimelineView = (props) => {
   const buttonStyle = {
     width: '30px', 
     height: '30px', 
-    fontSize: '16px',
+    fontSize: '20px',
     padding: '5px', 
     margin: '5px', 
     cursor: 'pointer' 
@@ -411,8 +414,12 @@ const TimelineView = (props) => {
             </div>
           ))}
         </div>
-        <button style={buttonStyle} onClick={() => handleZoom(1.25)}>+</button>
-        <button style={buttonStyle} onClick={() => handleZoom(0.8)}>-</button>
+        <Button variant="outlined" onClick={() => handleZoom(1.25)} disabled={zoomScale * 1.25 > maxScale}  style={buttonStyle}>
+          +
+        </Button>
+        <Button variant="outlined" onClick={() => handleZoom(0.8)} disabled={zoomScale * 0.8 < minScale} style={buttonStyle}>
+          -
+        </Button>
       </div>
       <div ref={svgContainerRef} style={{ width: '100%', overflow: 'auto', height: `383px` }}>
         <svg ref={splotSvg} width={width} height={svgHeight}></svg>
