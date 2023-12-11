@@ -104,6 +104,7 @@ const TimelineView = (props) => {
   };
 
   const centerAlignment = (selectedId) => {
+    if (selectedId == null) return;
     const nodeX = xScale((selectedId.birth + selectedId.death) / 2);
     const nodeIndex = data.indexOf(selectedId);
     const nodeY = yScale(yPos[nodeIndex]);
