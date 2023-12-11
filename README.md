@@ -1,6 +1,5 @@
-![website1](https://github.com/ybuser/Academic-MOIRAI/assets/16937724/ee1e63ea-aa82-4e7e-b735-16cc8399d7ac)
-![website2](https://github.com/ybuser/Academic-MOIRAI/assets/16937724/d74652a5-6317-4b32-887e-c36f0fc84845)
-
+![moirai_capture](https://github.com/ybuser/Academic-MOIRAI/assets/16937724/21e8aefa-3976-4869-b7c5-fac143385f20)
+![Poster](https://github.com/ybuser/Academic-MOIRAI/assets/16937724/ff8fe9ad-c5e4-4516-83dc-98e61a626f0e)
 
 
 # Getting Started with Create React App
