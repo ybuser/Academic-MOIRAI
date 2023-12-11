@@ -209,8 +209,9 @@ const TimelineView = (props) => {
 
     svg.append("g")
       .attr("transform", `translate(0,${chartHeight})`)
+      .attr("class", "x-axis")
       .call(d3.axisBottom(xScale)
-        .tickValues(d3.range(Math.floor(minYear / 20) * 20, maxYear, 20))
+        .tickValues(d3.range(Math.floor(minYear / 20) * 20, maxYear, Math.ceil(200 / widthPerYear / 10) * 10))
         .tickFormat(d3.format(".0f"))
         .tickSizeOuter(0));
 
@@ -395,6 +396,7 @@ const TimelineView = (props) => {
     const svg = d3.select(splotSvg.current);
     svg.selectAll(".arrow-layer").remove();
     svg.selectAll(".lines-layer").remove();
+    svg.selectAll(".x-axis").remove();
     setZoomScale(zoomScale*mult);
     if (activeNode.length > 0) { 
       //centerAlignment(data.find(d => d.id === activeNode[0]));
