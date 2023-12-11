@@ -231,7 +231,9 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
           .attr("r", d => Math.sqrt(d.width * d.height)/1.6) // Calculate radius based on text size
           .attr("fill", "white")
           .attr("stroke", "black")
-          .on("click", d => handleNodeClick(d)); 
+
+        node.on("click", handleNodeClick); 
+        labels.on("click", handleNodeClick); 
 
         const centralNode = nodes.find(node => node.id === philosopherDetails.id);
         const otherNodes = nodes.filter(node => node.id !== philosopherDetails.id);
