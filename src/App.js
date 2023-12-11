@@ -19,7 +19,7 @@ const Container = styled.div`
   color: ${(props) => props.theme.color};
   background-color: ${(props) => props.theme.background};
   display: grid;
-  height: 100vh;
+  height: 95vh;
   padding: 1rem; // Add padding around the entire container for a spacious feel
   grid-template-rows: auto auto auto; // Adjust this as needed for your layout
   grid-template-columns: repeat(3, 1fr); // 3 equal columns

@@ -13,9 +13,8 @@ const InfoWrapper = styled.div`
     display: block;
     padding: 1rem;
     overflow: hidden;
-    max-height: calc(100% - 120px); /* Adjust based on your layout */
     overflow-y: auto;
-    height: 400px; /* Set a fixed height */
+    height: 360px; /* Set a fixed height */
     text-align: left;
 `;
 

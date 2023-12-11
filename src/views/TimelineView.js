@@ -15,11 +15,18 @@ const TimelineView = (props) => {
   let relationships = props.relationships; 
   let display = 1;
 
-  const legendData = [
+  const legendDataBackup = [
     { color: "#0015D1", text: "Taught" },
     { color: "#3399FF", text: "Influenced" },
     { color: "#D1000A", text: "LearnedFrom" },
     { color: "#E66369", text: "InfluencedBy" }
+  ];
+
+  const legendData = [
+    { color: "#0015D1", text: "Taught" },
+    { color: "#66CCFF", text: "Influenced" },
+    { color: "#D1000A", text: "LearnedFrom" },
+    { color: "#EEA3B1", text: "InfluencedBy" }
   ];
 
   const buttonStyle = {
@@ -230,11 +237,11 @@ const TimelineView = (props) => {
         if (activeNode[0] == sourceNode.id && rel.type == 'taught') {
           arrowColor = "#0015D1";
         } else if (activeNode[0] == sourceNode.id && rel.type == 'influenced') {
-          arrowColor = "#3399FF";
+          arrowColor = "#66CCFF";
         } else if (activeNode[0] == targetNode.id && rel.type == 'taught') {
           arrowColor = "#D1000A";
         } else if (activeNode[0] == targetNode.id && rel.type == 'influenced') {
-          arrowColor = "#E66369";
+          arrowColor = "#EEA3B1";
         }
 
         arrowLayer.append("line")
@@ -320,20 +327,20 @@ const TimelineView = (props) => {
         .attr("text-anchor", "middle")
         .attr("fill", "red"); // Display death date in red
 
-      // Scroll label if necessary
-      const label = bar.select("text");
-      const labelWidth = label.node().getComputedTextLength();
-      const barWidth = xScale(d.death) - xScale(d.birth);
+      // // Scroll label if necessary
+      // const label = bar.select("text");
+      // const labelWidth = label.node().getComputedTextLength();
+      // const barWidth = xScale(d.death) - xScale(d.birth);
       
-      if (labelWidth > barWidth - 8) {
-        const scrollAmount = labelWidth - barWidth + 12; // Leave some padding for visual clarity
-        label.interrupt() // Stop any active transition
-          .transition()
-          .duration(2000)
-          .ease(d3.easeQuadInOut)
-          .attr("x", d => xScale(d.birth) + 4 - scrollAmount)
-          .attr("clip-path", 'polygon(0,0,${barWidth},0,${barWidth},${barHeight},0,${barHeight})');
-      }
+      // if (labelWidth > barWidth - 8) {
+      //   const scrollAmount = labelWidth - barWidth + 12; // Leave some padding for visual clarity
+      //   label.interrupt() // Stop any active transition
+      //     .transition()
+      //     .duration(2000)
+      //     .ease(d3.easeQuadInOut)
+      //     .attr("x", d => xScale(d.birth) + 4 - scrollAmount)
+      //     .attr("clip-path", 'polygon(0,0,${barWidth},0,${barWidth},${barHeight},0,${barHeight})');
+      // }
 
     })
     .on("mouseout", function (event, d) {
@@ -367,15 +374,24 @@ const TimelineView = (props) => {
       setActiveNode([]);
       svg.selectAll(".arrow-layer").remove();
     });
+
+    if (activeNode.length > 0) { 
+      try{ 
+        centerAlignment(data.find(d => d.id === activeNode[0]));
+      }
+      catch {
+        console.log(data.find(d => d.id === activeNode[0]));
+      }
+    }
   }, [activeNode, zoomScale]);
 
   const handleZoom = (mult) =>{
-    const svg = d3.select(splotSvg.current);
-    svg.selectAll(".arrow-layer").remove();
-    svg.selectAll(".lines-layer").remove();
     if (zoomScale*mult < minScale || zoomScale*mult > maxScale) {
       return;
     }
+    const svg = d3.select(splotSvg.current);
+    svg.selectAll(".arrow-layer").remove();
+    svg.selectAll(".lines-layer").remove();
     setZoomScale(zoomScale*mult);
     if (activeNode.length > 0) { 
       //centerAlignment(data.find(d => d.id === activeNode[0]));
@@ -391,7 +407,7 @@ const TimelineView = (props) => {
           {legendData.map((item, index) => (
             <div key={index} style={{ display: 'flex', alignItems: 'center', marginRight: '10px' }}>
               <div style={{ width: '20px', height: '10px', backgroundColor: item.color, marginRight: '5px' }}></div>
-              <span style={{ fontSize: '10px' }}>{item.text}</span>
+              <span style={{ fontSize: '12px' }}>{item.text}</span>
             </div>
           ))}
         </div>
