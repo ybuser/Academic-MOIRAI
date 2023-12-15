@@ -151,7 +151,13 @@ const TimelineView = (props) => {
     svg.selectAll(".lines-layer").remove();
     svg.selectAll(".x-axis").remove();
 
-    setActiveNode(findConnectedNodes('Q' + props.selectedPhilosopher.toString()));
+    if (props.selectedPhilosopher != null) {
+      setActiveNode(findConnectedNodes('Q' + props.selectedPhilosopher.toString()));
+    }
+    else {
+      setActiveNode([]);
+    }
+
   }, [props.selectedPhilosopher, desiredVisiblePercentage]);
 
   useEffect(() => {
@@ -180,6 +186,7 @@ const TimelineView = (props) => {
     const svg = d3.select(splotSvg.current)
       .attr("width", width)
       .attr("height", svgHeight);
+
 
     svg.append("defs").append("marker")
       .attr("id", "arrowhead")
@@ -265,7 +272,6 @@ const TimelineView = (props) => {
     });
 
     // Create bars and labels
-
     svg.selectAll("rect").remove();
     svg.selectAll(".label").remove();
 
@@ -379,6 +385,7 @@ const TimelineView = (props) => {
 
     svg.on("click", () => {
       setActiveNode([]);
+      props.setSelectedPhilosopher(null);
       svg.selectAll(".arrow-layer").remove();
     });
 
