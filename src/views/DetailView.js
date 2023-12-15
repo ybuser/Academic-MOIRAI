@@ -125,6 +125,21 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
         .attr('viewBox', '0 0 920 720')
         .attr('preserveAspectRatio', 'xMidYMid meet');
       svg.selectAll("*").remove(); // Clear SVG to avoid duplication
+
+      // Define arrow markers for each edge type
+      svg.append('defs').selectAll('marker')
+      .data(['taught', 'learnedFrom', 'influenced', 'influencedBy'])
+      .enter().append('marker')
+        .attr('id', d => `arrow-${d}`) 
+        .attr('viewBox', '0 -5 10 10')
+        .attr('refX', 5) // Adjust this value to move the arrow position
+        .attr('refY', 0)
+        .attr('markerWidth', 3)
+        .attr('markerHeight', 3)
+        .attr('orient', 'auto')
+      .append('path')
+        .attr('d', 'M0,-5L10,0L0,5')
+        .style('fill', d => getLineColor(d));
       
       const nodes = [{
         id: philosopherDetails.id,
@@ -140,7 +155,9 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
             source,
             target,
             similarity,
-            edgeType
+            edgeType,
+
+            arrow: (edgeType === 'influencedBy' || edgeType === 'learnedFrom') ? 'to' : 'from'
           });
           addedEdges.set(edgeKey, true);
         }
@@ -194,7 +211,8 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
         .data(edges)
         .join("line")
         .attr("stroke-width", 8)
-        .attr("stroke", d => getLineColor(d.edgeType)); // Set the color based on the edge type
+        .attr("stroke", d => getLineColor(d.edgeType)) // Set the color based on the edge type
+        .attr("marker-end" , d => `url(#arrow-${d.edgeType})`); // Use the arrow marker based on the direction
 
       // Add a group for each node which will contain the circle and the text
       const nodeGroup = svg.append("g")
@@ -224,6 +242,8 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
           const bbox = this.getBBox();
           d.width = bbox.width + 20;
           d.height = bbox.height + 12;
+          // Calculate the radius based on node size, and store it in the node data.
+          d.radius = Math.sqrt(d.width * d.height) / 1.6; // Update this formula as needed
         });
 
         // Now add the circles
@@ -254,10 +274,27 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
         // Define the tick function for the simulation
         simulation.on("tick", () => {
           link
-            .attr("x1", d => d.source.x)
-            .attr("y1", d => d.source.y)
-            .attr("x2", d => d.target.x)
-            .attr("y2", d => d.target.y);
+            .attr("x1", d => d.source.x + (d.target.x - d.source.x) * d.source.radius / Math.hypot(d.target.x - d.source.x, d.target.y - d.source.y))
+            .attr("y1", d => d.source.y + (d.target.y - d.source.y) * d.source.radius / Math.hypot(d.target.x - d.source.x, d.target.y - d.source.y))
+            .attr("x2", d => {
+              // Subtract the radius from the line's length so the arrowhead is visible
+              const dx = d.target.x - d.source.x;
+              const dy = d.target.y - d.source.y;
+              const gamma = Math.atan2(dy, dx); // Calculate the angle of the line
+              const offsetX = Math.cos(gamma) * (d.target.radius + 10); // Add some padding if needed
+              const offsetY = Math.sin(gamma) * (d.target.radius + 10); // Add some padding if needed
+              return d.target.x - offsetX;
+            })
+            .attr("y2", d => {
+              // Subtract the radius from the line's length so the arrowhead is visible
+              const dx = d.target.x - d.source.x;
+              const dy = d.target.y - d.source.y;
+              const gamma = Math.atan2(dy, dx); // Calculate the angle of the line
+              const offsetX = Math.cos(gamma) * (d.target.radius + 10); // Add some padding if needed
+              const offsetY = Math.sin(gamma) * (d.target.radius + 10); // Add some padding if needed
+              return d.target.y - offsetY;
+            });
+
 
           nodeGroup
             .attr("transform", d => `translate(${d.x},${d.y})`);
