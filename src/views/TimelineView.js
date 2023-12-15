@@ -12,7 +12,7 @@ const TimelineView = (props) => {
   const [zoomScale, setZoomScale] = useState(1);
   const minScale = 0.05;
   const maxScale = 1;
-  let desiredVisiblePercentage = d3.scaleLinear().domain([minScale, maxScale]).range([5, 100])(zoomScale);
+  const [desiredVisiblePercentage, setDesiredVisiblePercentage] = useState(80); // Initial value set to 100%
 
   let data = props.data;
   let relationships = props.relationships; 
@@ -41,7 +41,7 @@ const TimelineView = (props) => {
     cursor: 'pointer' 
   };
 
-  const computeBarYPosition = (data, direction = "bottom") => {
+  const computeBarYPosition = (data, direction = "center") => {
     const xOverlaps = (a, b) => {
       let offset = d3.scaleLinear().domain([minScale, maxScale]).range([(a.name.length + b.name.length) * 4, 1])(zoomScale);
       return a.birth < b.death + offset && a.death + offset > b.birth;
@@ -148,15 +148,17 @@ const TimelineView = (props) => {
   useEffect(() => {
     const svg = d3.select(splotSvg.current);
     svg.selectAll(".arrow-layer").remove();
+    svg.selectAll(".lines-layer").remove();
+    svg.selectAll(".x-axis").remove();
 
     setActiveNode(findConnectedNodes('Q' + props.selectedPhilosopher.toString()));
-  }, [props.selectedPhilosopher]);
+  }, [props.selectedPhilosopher, desiredVisiblePercentage]);
 
   useEffect(() => {
     widthPerYear = 10*zoomScale;
     width = widthPerYear * timelineLength + margin.left + margin.right;
 
-    desiredVisiblePercentage = d3.scaleLinear().domain([minScale, maxScale]).range([80, 0])(zoomScale);
+    // desiredVisiblePercentage = d3.scaleLinear().domain([minScale, maxScale]).range([80, 0])(zoomScale);
     data = props.data.filter(d => d.priority >= desiredVisiblePercentage/100);
     relationships = props.relationships.filter(rel => data.find(d => d.id === rel.source) && data.find(d => d.id === rel.target));
 
@@ -388,7 +390,7 @@ const TimelineView = (props) => {
         console.log(data.find(d => d.id === activeNode[0]));
       }
     }
-  }, [activeNode, zoomScale]);
+  }, [activeNode, zoomScale, desiredVisiblePercentage]);
 
   const handleZoom = (mult) =>{
     if (zoomScale*mult < minScale || zoomScale*mult > maxScale) {
@@ -408,7 +410,6 @@ const TimelineView = (props) => {
     <div style={{chartHeight}}>
       <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px', display: 'flex', alignItems: 'center' }}>
         <h2 style={{ margin: '0' }}>Timeline View</h2>
-        {/* 레전드 추가 */}
         <div style={{ marginLeft: '20px', display: 'flex', alignItems: 'center' }}>
           {legendData.map((item, index) => (
             <div key={index} style={{ display: 'flex', alignItems: 'center', marginRight: '10px' }}>
@@ -423,6 +424,16 @@ const TimelineView = (props) => {
         <Button variant="outlined" onClick={() => handleZoom(0.8)} disabled={zoomScale * 0.8 < minScale} style={buttonStyle}>
           -
         </Button>
+        <div style={{ /* Styles for the scrollbar container */ }}>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value={desiredVisiblePercentage}
+            onChange={(e) => setDesiredVisiblePercentage(e.target.value)}
+            style={{ /* Styles for the scrollbar */ }}
+          />
+        </div>
       </div>
       <div ref={svgContainerRef} style={{ width: '100%', overflow: 'auto', height: `383px` }}>
         <svg ref={splotSvg} width={width} height={svgHeight}></svg>
