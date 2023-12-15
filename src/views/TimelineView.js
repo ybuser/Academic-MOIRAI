@@ -272,17 +272,21 @@ const TimelineView = (props) => {
     });
 
     // Create bars and labels
-    svg.selectAll("rect").remove();
+    // svg.selectAll("rect").remove();
     svg.selectAll(".label").remove();
 
-    const bars = svg.append("g")
-      .selectAll("g")
-      .data(data)
-      .join("g");
+    // const bars = svg.append("g")
+    //   .selectAll("g")
+    //   .data(data)
+    //   .join("g");
 
     // Create bars
-
-    bars.append("rect")
+    const bars = svg.selectAll("rect").data(data);
+    bars
+      .enter()
+      .append("rect")
+      .merge(bars)
+      .transition().duration(1000)
       .attr("x", d => xScale(d.birth))
       .attr("width", d => xScale(d.death) - xScale(d.birth))
       .attr("y", (d, i) => yScale(yPos[i]))
@@ -291,15 +295,18 @@ const TimelineView = (props) => {
       .attr("opacity", d => activeNode.includes(d.id) ? 1 : 0.1);
 
     // Create labels displaying only name
-    bars.append("text")
-    .text(d => d.name)
-    .attr("class", "label")
-    .attr("x", d => xScale((d.birth + d.death) / 2)) // Center the text
-    .attr("y", (d, i) => yScale(yPos[i]) + barHeight / 2)
-    .attr("alignment-baseline", "central")
-    .attr("font-size", 12)
-    .attr("fill", "black")
-    .attr("text-anchor", "middle"); // Center the text anchor
+    bars.enter()
+      .append("text")
+      .merge(bars)
+      .transition().duration(1000)
+      .text(d => d.name)
+      .attr("class", "label")
+      .attr("x", d => xScale((d.birth + d.death) / 2)) // Center the text
+      .attr("y", (d, i) => yScale(yPos[i]) + barHeight / 2)
+      .attr("alignment-baseline", "central")
+      .attr("font-size", 12)
+      .attr("fill", "black")
+      .attr("text-anchor", "middle"); // Center the text anchor
 
     // Mouseover and mouseout events for scrolling labels and showing dates on the timeline
     bars.on("mouseover", function (event, d) {
@@ -359,9 +366,9 @@ const TimelineView = (props) => {
     .on("mouseout", function (event, d) {
         // Hide vertical lines and dates along the timeline
         svg.selectAll(".timeline-hover").remove();
-    
         // Reset the label position to original
         const label = d3.select(this).select("text");
+        console.log(label);
         const currentXPosition = parseFloat(label.attr("x"));
         const originalXPosition = xScale((d.birth + d.death) / 2);
     
