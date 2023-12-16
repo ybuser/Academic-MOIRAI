@@ -4,2863 +4,2667 @@
         "name": "Mahatma Gandhi",
         "birth": 1869,
         "death": 1948,
-        "priority": 0.8268398268398268
+        "priority": 0.8130841121495327
     },
     {
         "id": "Q101638",
         "name": "Mary Wollstonecraft",
         "birth": 1759,
         "death": 1797,
-        "priority": 0.6125541125541125
+        "priority": 0.5817757009345794
     },
     {
         "id": "Q10261",
         "name": "Pythagoras",
         "birth": -550,
         "death": -490,
-        "priority": 0.9090909090909091
+        "priority": 0.9018691588785047
     },
     {
         "id": "Q102851",
         "name": "Boethius",
         "birth": 480,
         "death": 525,
-        "priority": 0.8181818181818182
+        "priority": 0.8037383177570093
     },
     {
         "id": "Q1035",
         "name": "Charles Darwin",
         "birth": 1809,
         "death": 1882,
-        "priority": 0.8831168831168831
+        "priority": 0.8738317757009346
     },
     {
         "id": "Q104461",
         "name": "Heinrich Scholz",
         "birth": 1884,
         "death": 1956,
-        "priority": 0.14935064935064934
+        "priority": 0.1191588785046729
     },
     {
         "id": "Q1067",
         "name": "Dante Alighieri",
         "birth": 1265,
         "death": 1321,
-        "priority": 0.8571428571428571
+        "priority": 0.8457943925233645
     },
     {
         "id": "Q11104",
         "name": "Al-Hassan Ibn Al-Haytham",
         "birth": 965,
         "death": 1038,
-        "priority": 0.1038961038961039
+        "priority": 0.07009345794392523
     },
     {
         "id": "Q11362",
         "name": "Avempace",
         "birth": 1080,
         "death": 1139,
-        "priority": 0.6103896103896104
+        "priority": 0.5794392523364486
     },
     {
         "id": "Q113951",
         "name": "Erik von Kuehnelt-Leddihn",
         "birth": 1909,
         "death": 1999,
-        "priority": 0.6688311688311688
-    },
-    {
-        "id": "Q11730",
-        "name": "Otto Bauer",
-        "birth": 1881,
-        "death": 1938,
-        "priority": 0.05194805194805195
+        "priority": 0.6425233644859814
     },
     {
         "id": "Q1173486",
         "name": "David Anhaght",
         "birth": 600,
         "death": 630,
-        "priority": 0.551948051948052
+        "priority": 0.5186046511627908
     },
     {
         "id": "Q11826",
         "name": "Al-Biruni",
         "birth": 973,
         "death": 1048,
-        "priority": 0.5367965367965368
+        "priority": 0.5
     },
     {
         "id": "Q1189157",
         "name": "Nausiphanes",
         "birth": -400,
         "death": -370,
-        "priority": 0.6385281385281385
+        "priority": 0.6098130841121495
     },
     {
         "id": "Q11903",
         "name": "Hypatia",
         "birth": 360,
         "death": 415,
-        "priority": 0.7640692640692641
-    },
-    {
-        "id": "Q122972",
-        "name": "Louis Agassiz",
-        "birth": 1807,
-        "death": 1873,
-        "priority": 0.03896103896103896
+        "priority": 0.7453271028037384
     },
     {
         "id": "Q123089",
         "name": "Benjamin Constant",
         "birth": 1767,
         "death": 1830,
-        "priority": 0.0367965367965368
+        "priority": 0.02558139534883721
     },
     {
         "id": "Q123147",
         "name": "Ammonius Hermiae",
         "birth": 440,
         "death": 523,
-        "priority": 0.2987012987012987
+        "priority": 0.2523364485981308
     },
     {
         "id": "Q123190",
         "name": "Jean Piaget",
         "birth": 1896,
         "death": 1980,
-        "priority": 0.5562770562770563
+        "priority": 0.5210280373831776
     },
     {
         "id": "Q123382",
         "name": "Frithjof Schuon",
         "birth": 1907,
         "death": 1998,
-        "priority": 0.8809523809523809
+        "priority": 0.8714953271028038
     },
     {
         "id": "Q1244262",
         "name": "David of Dinant",
         "birth": 1160,
         "death": 1217,
-        "priority": 0.2792207792207792
+        "priority": 0.2336448598130841
     },
     {
         "id": "Q125249",
         "name": "William James",
         "birth": 1842,
         "death": 1910,
-        "priority": 0.8376623376623377
+        "priority": 0.8247663551401869
     },
     {
         "id": "Q125551",
         "name": "Parmenides",
         "birth": -515,
         "death": -470,
-        "priority": 0.9415584415584416
+        "priority": 0.9369158878504673
     },
     {
         "id": "Q126462",
         "name": "Thomas Paine",
         "birth": 1737,
         "death": 1809,
-        "priority": 0.487012987012987
+        "priority": 0.4462616822429907
     },
     {
         "id": "Q1271013",
         "name": "Adrianus of Tyre",
         "birth": 113,
         "death": 193,
-        "priority": 0.5411255411255411
+        "priority": 0.5046728971962616
     },
     {
         "id": "Q12718",
         "name": "Auguste Comte",
         "birth": 1798,
         "death": 1857,
-        "priority": 0.8658008658008658
+        "priority": 0.8551401869158879
     },
     {
         "id": "Q12735",
         "name": "John Amos Comenius",
         "birth": 1592,
         "death": 1670,
-        "priority": 0.5
+        "priority": 0.4602803738317757
     },
     {
         "id": "Q127398",
         "name": "Moshe ben Maimon",
         "birth": 1138,
         "death": 1204,
-        "priority": 0.8722943722943723
+        "priority": 0.8621495327102804
     },
     {
         "id": "Q1282198",
         "name": "Ivan Ilyin",
         "birth": 1883,
         "death": 1954,
-        "priority": 0.3961038961038961
+        "priority": 0.34813084112149534
     },
     {
         "id": "Q1283657",
         "name": "Aimoin",
         "birth": 960,
         "death": 1010,
-        "priority": 0.06493506493506493
+        "priority": 0.04205607476635514
     },
     {
         "id": "Q1290",
         "name": "Blaise Pascal",
         "birth": 1623,
         "death": 1662,
-        "priority": 0.9199134199134199
+        "priority": 0.9135514018691588
     },
     {
         "id": "Q129772",
         "name": "Xenophon",
         "birth": -430,
         "death": -354,
-        "priority": 0.5281385281385281
+        "priority": 0.49065420560747663
     },
     {
         "id": "Q130631",
         "name": "Jacques Derrida",
         "birth": 1930,
         "death": 2004,
-        "priority": 0.9696969696969697
+        "priority": 0.9672897196261683
     },
     {
         "id": "Q131149",
         "name": "Henry David Thoreau",
         "birth": 1817,
         "death": 1862,
-        "priority": 0.9134199134199135
+        "priority": 0.9065420560747663
     },
     {
         "id": "Q131671",
         "name": "Xenophanes",
         "birth": -560,
         "death": -478,
-        "priority": 0.7878787878787878
+        "priority": 0.7710280373831776
     },
     {
         "id": "Q131805",
         "name": "John Dewey",
         "birth": 1859,
         "death": 1952,
-        "priority": 0.9047619047619048
+        "priority": 0.897196261682243
     },
     {
         "id": "Q132157",
         "name": "Zeno of Elea",
         "birth": -490,
         "death": -425,
-        "priority": 0.6796536796536796
+        "priority": 0.6542056074766355
     },
     {
         "id": "Q1322939",
         "name": "John Peckham",
         "birth": 1227,
         "death": 1292,
-        "priority": 0.06277056277056277
+        "priority": 0.0397196261682243
     },
     {
         "id": "Q13230",
         "name": "Ferdinand de Saussure",
         "birth": 1857,
         "death": 1913,
-        "priority": 0.7207792207792207
+        "priority": 0.6985981308411215
     },
     {
         "id": "Q132489",
         "name": "Amartya Sen",
         "birth": 1933,
         "death": 2024,
-        "priority": 0.5627705627705628
+        "priority": 0.5280373831775701
     },
     {
         "id": "Q1325",
         "name": "Friedrich Hayek",
         "birth": 1899,
         "death": 1992,
-        "priority": 0.4329004329004329
+        "priority": 0.3878504672897196
     },
     {
         "id": "Q132524",
         "name": "Ayn Rand",
         "birth": 1905,
         "death": 1982,
-        "priority": 0.8095238095238095
+        "priority": 0.794392523364486
     },
     {
         "id": "Q134189",
         "name": "Plotinus",
         "birth": 203,
         "death": 270,
-        "priority": 0.948051948051948
+        "priority": 0.9439252336448598
     },
     {
         "id": "Q134661",
         "name": "George Boole",
         "birth": 1815,
         "death": 1864,
-        "priority": 0.48484848484848486
+        "priority": 0.4439252336448598
     },
     {
         "id": "Q1366556",
         "name": "Mohammad-Taqi Mesbah-Yazdi",
         "birth": 1934,
         "death": 2021,
-        "priority": 0.3939393939393939
+        "priority": 0.34579439252336447
     },
     {
         "id": "Q1381628",
         "name": "Gerardus van der Leeuw",
         "birth": 1890,
         "death": 1950,
-        "priority": 0.21212121212121213
-    },
-    {
-        "id": "Q138850",
-        "name": "Gershom Scholem",
-        "birth": 1897,
-        "death": 1982,
-        "priority": 0.19047619047619047
+        "priority": 0.17289719626168223
     },
     {
         "id": "Q1393417",
         "name": "Ali ibn Sahl Rabban al-Tabari",
         "birth": 838,
         "death": 870,
-        "priority": 0.3722943722943723
+        "priority": 0.32558139534883723
     },
     {
         "id": "Q1394",
         "name": "Vladimir Lenin",
         "birth": 1870,
         "death": 1924,
-        "priority": 0.841991341991342
+        "priority": 0.8294392523364486
     },
     {
         "id": "Q140694",
         "name": "Alexis de Tocqueville",
         "birth": 1805,
         "death": 1859,
-        "priority": 0.7337662337662337
+        "priority": 0.7126168224299065
     },
     {
         "id": "Q1430",
         "name": "Marcus Aurelius",
         "birth": 121,
         "death": 180,
-        "priority": 0.6363636363636364
+        "priority": 0.6074766355140186
     },
     {
         "id": "Q144535",
         "name": "Herbert Spencer",
         "birth": 1820,
         "death": 1903,
-        "priority": 0.48268398268398266
+        "priority": 0.441588785046729
     },
     {
         "id": "Q151403",
         "name": "Thomas Carlyle",
         "birth": 1795,
         "death": 1881,
-        "priority": 0.6493506493506493
+        "priority": 0.6214953271028038
     },
     {
         "id": "Q1514998",
         "name": "Gershom Carmichael",
         "birth": 1672,
         "death": 1729,
-        "priority": 0.16883116883116883
+        "priority": 0.13317757009345793
     },
     {
         "id": "Q152388",
         "name": "Theodor W. Adorno",
         "birth": 1903,
         "death": 1969,
-        "priority": 0.6277056277056277
+        "priority": 0.5981308411214953
     },
     {
         "id": "Q152919",
         "name": "Li Si",
         "birth": -280,
         "death": -208,
-        "priority": 0.12987012987012986
+        "priority": 0.09813084112149532
     },
     {
         "id": "Q1541",
         "name": "Cicero",
         "birth": -106,
         "death": -43,
-        "priority": 0.9393939393939394
+        "priority": 0.9345794392523364
     },
     {
         "id": "Q154332",
         "name": "Alcuin",
         "birth": 724,
         "death": 804,
-        "priority": 0.10822510822510822
+        "priority": 0.07476635514018691
     },
     {
         "id": "Q154959",
         "name": "Hugo Grotius",
         "birth": 1583,
         "death": 1645,
-        "priority": 0.7077922077922078
+        "priority": 0.6845794392523364
     },
     {
         "id": "Q156268",
         "name": "Pierre Bourdieu",
         "birth": 1930,
         "death": 2002,
-        "priority": 0.8225108225108225
+        "priority": 0.8084112149532711
     },
     {
         "id": "Q157309",
         "name": "Simone Weil",
         "birth": 1909,
         "death": 1943,
-        "priority": 0.6471861471861472
+        "priority": 0.6191588785046729
     },
     {
         "id": "Q158060",
         "name": "W. E. B. Du Bois",
         "birth": 1868,
         "death": 1963,
-        "priority": 0.11255411255411256
+        "priority": 0.0794392523364486
     },
     {
         "id": "Q160270",
         "name": "David Ricardo",
         "birth": 1772,
         "death": 1823,
-        "priority": 0.22943722943722944
+        "priority": 0.19158878504672897
     },
     {
         "id": "Q160362",
         "name": "Theophrastus",
         "birth": -371,
         "death": -287,
-        "priority": 0.8311688311688312
+        "priority": 0.8177570093457944
     },
     {
         "id": "Q160460",
         "name": "Al-Farabi",
         "birth": 872,
         "death": 951,
-        "priority": 0.9004329004329005
+        "priority": 0.8925233644859814
     },
     {
         "id": "Q160640",
         "name": "Raymond Aron",
         "birth": 1905,
         "death": 1983,
-        "priority": 0.8982683982683982
+        "priority": 0.8901869158878505
     },
     {
         "id": "Q163087",
         "name": "Michael Polanyi",
         "birth": 1891,
         "death": 1976,
-        "priority": 0.3159041394335512
+        "priority": 0.26869158878504673
     },
     {
         "id": "Q16388668",
         "name": "Hovhannes Erznkatsi",
         "birth": 1230,
         "death": 1293,
-        "priority": 0.0021645021645021645
+        "priority": 0.002336448598130841
     },
     {
         "id": "Q165792",
         "name": "Edmund Burke",
         "birth": 1729,
         "death": 1797,
-        "priority": 0.8679653679653679
+        "priority": 0.8574766355140186
     },
     {
         "id": "Q168004",
         "name": "Friedrich Heinrich Jacobi",
         "birth": 1743,
         "death": 1819,
-        "priority": 0.7857142857142857
+        "priority": 0.7686915887850467
     },
     {
         "id": "Q169234",
         "name": "Abu Bakr al-Razi",
         "birth": 866,
         "death": 925,
-        "priority": 0.6038961038961039
+        "priority": 0.572429906542056
     },
     {
         "id": "Q169243",
         "name": "Protagoras",
         "birth": -486,
         "death": -420,
-        "priority": 0.7835497835497836
+        "priority": 0.7663551401869159
     },
     {
         "id": "Q169906",
         "name": "Jacques Lacan",
         "birth": 1901,
         "death": 1981,
-        "priority": 0.7597402597402597
+        "priority": 0.7406542056074766
     },
     {
         "id": "Q170472",
         "name": "Origen",
         "birth": 185,
         "death": 254,
-        "priority": 0.6341991341991342
+        "priority": 0.6051401869158879
     },
     {
         "id": "Q171677",
         "name": "Roger Bacon",
         "birth": 1220,
         "death": 1292,
-        "priority": 0.33116883116883117
+        "priority": 0.2803738317757009
     },
     {
         "id": "Q171969",
         "name": "Georges Cuvier",
         "birth": 1769,
         "death": 1832,
-        "priority": 0.3181818181818182
+        "priority": 0.26635514018691586
     },
     {
         "id": "Q172544",
         "name": "John Rawls",
         "birth": 1921,
         "death": 2002,
-        "priority": 0.44155844155844154
+        "priority": 0.397196261682243
     },
     {
         "id": "Q172599",
         "name": "Giacomo Leopardi",
         "birth": 1798,
         "death": 1837,
-        "priority": 0.4805194805194805
+        "priority": 0.4392523364485981
     },
     {
         "id": "Q173893",
         "name": "John Wycliffe",
         "birth": 1320,
         "death": 1384,
-        "priority": 0.03463203463203463
+        "priority": 0.02336448598130841
     },
     {
         "id": "Q177847",
         "name": "Lucian of Samosata",
         "birth": 120,
         "death": 200,
-        "priority": 0.31601731601731603
+        "priority": 0.26401869158878505
     },
     {
         "id": "Q178709",
         "name": "Giambattista Vico",
         "birth": 1668,
         "death": 1744,
-        "priority": 0.5346320346320347
+        "priority": 0.4976635514018692
     },
     {
         "id": "Q179126",
         "name": "John Ruskin",
         "birth": 1819,
         "death": 1900,
-        "priority": 0.5194805194805194
+        "priority": 0.48130841121495327
     },
     {
         "id": "Q179266",
         "name": "Jiddu Krishnamurti",
         "birth": 1895,
         "death": 1986,
-        "priority": 0.47835497835497837
+        "priority": 0.4369158878504673
     },
     {
         "id": "Q179759",
         "name": "Al-Kindi",
         "birth": 801,
         "death": 873,
-        "priority": 0.645021645021645
+        "priority": 0.616822429906542
     },
     {
         "id": "Q179785",
         "name": "Gorgias",
         "birth": -483,
         "death": -375,
-        "priority": 0.6168831168831169
+        "priority": 0.5864485981308412
     },
     {
         "id": "Q180081",
         "name": "Cato the Elder",
         "birth": -234,
         "death": -149,
-        "priority": 0.22727272727272727
+        "priority": 0.18925233644859812
     },
     {
         "id": "Q180819",
         "name": "Lev Vygotsky",
         "birth": 1896,
         "death": 1934,
-        "priority": 0.10173160173160173
+        "priority": 0.06775700934579439
     },
     {
         "id": "Q180967",
         "name": "Adi Shankara",
         "birth": 788,
         "death": 820,
-        "priority": 0.5324675324675324
+        "priority": 0.4953271028037383
     },
     {
         "id": "Q182905",
         "name": "Georgi Plekhanov",
         "birth": 1856,
         "death": 1918,
-        "priority": 0.47619047619047616
+        "priority": 0.43457943925233644
     },
     {
         "id": "Q183126",
         "name": "Ramakrishna",
         "birth": 1836,
         "death": 1886,
-        "priority": 0.3787878787878788
+        "priority": 0.3294392523364486
     },
     {
         "id": "Q183167",
         "name": "G. K. Chesterton",
         "birth": 1874,
         "death": 1936,
-        "priority": 0.7770562770562771
+        "priority": 0.7593457943925234
     },
     {
         "id": "Q183372",
         "name": "Alfred North Whitehead",
         "birth": 1861,
         "death": 1947,
-        "priority": 0.9502164502164502
+        "priority": 0.9462616822429907
     },
     {
         "id": "Q184169",
         "name": "Louis Althusser",
         "birth": 1918,
         "death": 1990,
-        "priority": 0.9458874458874459
+        "priority": 0.9415887850467289
     },
     {
         "id": "Q184226",
         "name": "Gilles Deleuze",
         "birth": 1925,
         "death": 1995,
-        "priority": 0.9588744588744589
+        "priority": 0.955607476635514
     },
     {
         "id": "Q184366",
         "name": "Thomas Henry Huxley",
         "birth": 1825,
         "death": 1895,
-        "priority": 0.11688311688311688
+        "priority": 0.08411214953271028
     },
     {
         "id": "Q184500",
         "name": "Johannes Scotus Eriugena",
         "birth": 810,
         "death": 877,
-        "priority": 0.6255411255411255
+        "priority": 0.5957943925233645
     },
     {
         "id": "Q184530",
         "name": "Gerolamo Cardano",
         "birth": 1501,
         "death": 1576,
-        "priority": 0.5173160173160173
+        "priority": 0.47897196261682246
     },
     {
         "id": "Q184980",
         "name": "Thomas Kuhn",
         "birth": 1922,
         "death": 1996,
-        "priority": 0.6017316017316018
+        "priority": 0.5700934579439252
     },
     {
         "id": "Q185117",
         "name": "Justin Martyr",
         "birth": 100,
         "death": 165,
-        "priority": 0.032467532467532464
+        "priority": 0.02102803738317757
     },
     {
         "id": "Q185770",
         "name": "Posidonius",
         "birth": -135,
         "death": -51,
-        "priority": 0.329004329004329
+        "priority": 0.2780373831775701
     },
     {
         "id": "Q185832",
         "name": "Emmanuel Swedenborg",
         "birth": 1688,
         "death": 1772,
-        "priority": 0.5151515151515151
+        "priority": 0.4766355140186916
     },
     {
         "id": "Q186123",
         "name": "Francis Fukuyama",
         "birth": 1952,
         "death": 2024,
-        "priority": 0.18831168831168832
+        "priority": 0.1542056074766355
     },
     {
         "id": "Q187520",
         "name": "Charles Sanders Peirce",
         "birth": 1839,
         "death": 1914,
-        "priority": 0.5541125541125541
+        "priority": 0.5186915887850467
     },
     {
         "id": "Q188411",
         "name": "Bernard of Clairvaux",
         "birth": 1090,
         "death": 1153,
-        "priority": 0.030303030303030304
+        "priority": 0.018691588785046728
     },
     {
         "id": "Q188569",
         "name": "William Godwin",
         "birth": 1756,
         "death": 1836,
-        "priority": 0.18614718614718614
+        "priority": 0.15186915887850466
     },
     {
         "id": "Q188883",
         "name": "Clement of Alexandria",
         "birth": 150,
         "death": 215,
-        "priority": 0.5476190476190477
+        "priority": 0.5116822429906542
     },
     {
         "id": "Q188903",
         "name": "Mencius",
         "birth": -372,
         "death": -289,
-        "priority": 0.43506493506493504
+        "priority": 0.3901869158878505
     },
     {
         "id": "Q189454",
         "name": "Helena Blavatsky",
         "birth": 1831,
         "death": 1891,
-        "priority": 0.22510822510822512
+        "priority": 0.18691588785046728
     },
     {
         "id": "Q189506",
         "name": "Aristippus",
         "birth": -434,
         "death": -355,
-        "priority": 0.7575757575757576
+        "priority": 0.7383177570093458
     },
     {
         "id": "Q189564",
         "name": "Pierre Teilhard de Chardin",
         "birth": 1881,
         "death": 1955,
-        "priority": 0.5995670995670995
+        "priority": 0.5677570093457944
     },
     {
         "id": "Q18999",
         "name": "Junius Rusticus",
         "birth": 100,
         "death": 170,
-        "priority": 0.5844155844155844
+        "priority": 0.5514018691588785
     },
     {
         "id": "Q19008",
         "name": "Arthur Balfour",
         "birth": 1848,
         "death": 1930,
-        "priority": 0.24025974025974026
+        "priority": 0.20327102803738317
     },
     {
         "id": "Q190089",
         "name": "Duns Scotus",
         "birth": 1265,
         "death": 1308,
-        "priority": 0.8441558441558441
+        "priority": 0.8317757009345794
     },
     {
         "id": "Q19074",
         "name": "Samuel P. Huntington",
         "birth": 1927,
         "death": 2008,
-        "priority": 0.38095238095238093
-    },
-    {
-        "id": "Q191026",
-        "name": "Francis Galton",
-        "birth": 1822,
-        "death": 1911,
-        "priority": 0.02813852813852814
+        "priority": 0.3317757009345794
     },
     {
         "id": "Q191095",
         "name": "Edward Sapir",
         "birth": 1884,
         "death": 1939,
-        "priority": 0.6666666666666666
+        "priority": 0.641860465116279
     },
     {
         "id": "Q191734",
         "name": "Gregory of Nyssa",
         "birth": 335,
         "death": 395,
-        "priority": 0.512987012987013
+        "priority": 0.4742990654205608
     },
     {
         "id": "Q192207",
         "name": "Aurobindo Ghosh",
         "birth": 1872,
         "death": 1950,
-        "priority": 0.7987012987012987
+        "priority": 0.7827102803738317
     },
     {
         "id": "Q192315",
         "name": "Pierre Gassendi",
         "birth": 1592,
         "death": 1655,
-        "priority": 0.5974025974025974
+        "priority": 0.5654205607476636
     },
     {
         "id": "Q193660",
         "name": "Ramon Llull",
         "birth": 1232,
         "death": 1316,
-        "priority": 0.6904761904761905
+        "priority": 0.6658878504672897
     },
     {
         "id": "Q193670",
         "name": "Frantz Fanon",
         "birth": 1925,
         "death": 1961,
-        "priority": 0.37012987012987014
+        "priority": 0.32009345794392524
     },
     {
         "id": "Q193871",
         "name": "Marshall McLuhan",
         "birth": 1911,
         "death": 1980,
-        "priority": 0.6428571428571429
+        "priority": 0.6144859813084113
     },
     {
         "id": "Q1957878",
         "name": "Ephrem Mtsire",
         "birth": 1025,
         "death": 1101,
-        "priority": 0.16666666666666666
+        "priority": 0.1308411214953271
     },
     {
         "id": "Q1963396",
         "name": "Najm al-Din Razi",
         "birth": 1177,
         "death": 1256,
-        "priority": 0.3484848484848485
-    },
-    {
-        "id": "Q196546",
-        "name": "Syed Ahmed Khan",
-        "birth": 1817,
-        "death": 1898,
-        "priority": 0.08225108225108226
+        "priority": 0.2967289719626168
     },
     {
         "id": "Q2010955",
         "name": "Mulla Sadra",
         "birth": 1571,
         "death": 1641,
-        "priority": 0.6991341991341992
+        "priority": 0.6767441860465117
     },
     {
         "id": "Q201484",
         "name": "John Dee",
         "birth": 1527,
         "death": 1608,
-        "priority": 0.18398268398268397
+        "priority": 0.14953271028037382
     },
     {
         "id": "Q201538",
         "name": "Edward Said",
         "birth": 1935,
         "death": 2003,
-        "priority": 0.14285714285714285
+        "priority": 0.11214953271028037
     },
     {
         "id": "Q2044035",
         "name": "Thomas Traherne",
         "birth": 1636,
         "death": 1674,
-        "priority": 0.20995670995670995
+        "priority": 0.1705607476635514
     },
     {
         "id": "Q205162",
         "name": "Isaiah Berlin",
         "birth": 1909,
         "death": 1997,
-        "priority": 0.36796536796536794
+        "priority": 0.3177570093457944
     },
     {
         "id": "Q2054",
         "name": "Seneca",
         "birth": -4,
         "death": 65,
-        "priority": 0.7943722943722944
+        "priority": 0.7780373831775701
     },
     {
         "id": "Q2066255",
         "name": "Fazlur Rahman Malik",
         "birth": 1919,
         "death": 1988,
-        "priority": 0.36363636363636365
+        "priority": 0.3130841121495327
     },
     {
         "id": "Q2087377",
         "name": "Asclepiades of Phlius",
         "birth": -350,
         "death": -270,
-        "priority": 0.27705627705627706
+        "priority": 0.23130841121495327
     },
     {
         "id": "Q21062238",
         "name": "Curtis Yarvin",
         "birth": 1973,
         "death": 2024,
-        "priority": 0.7316017316017316
+        "priority": 0.7102803738317757
     },
     {
         "id": "Q211411",
         "name": "Chrysippus of Soli",
         "birth": -281,
         "death": -208,
-        "priority": 0.5238095238095238
+        "priority": 0.48598130841121495
     },
     {
         "id": "Q212338",
         "name": "Philolaus",
         "birth": -470,
         "death": -390,
-        "priority": 0.4134199134199134
+        "priority": 0.36682242990654207
     },
     {
         "id": "Q212639",
         "name": "Maurice Merleau-Ponty",
         "birth": 1908,
         "death": 1961,
-        "priority": 0.8939393939393939
+        "priority": 0.8855140186915887
     },
     {
         "id": "Q212730",
         "name": "Steven Pinker",
         "birth": 1954,
         "death": 2024,
-        "priority": 0.09956709956709957
+        "priority": 0.06542056074766354
     },
     {
         "id": "Q214969",
         "name": "Willard Van Orman Quine",
         "birth": 1908,
         "death": 2000,
-        "priority": 0.8116883116883117
+        "priority": 0.7967289719626168
     },
     {
         "id": "Q215022",
         "name": "Arthur Eddington",
         "birth": 1882,
         "death": 1944,
-        "priority": 0.1406926406926407
+        "priority": 0.10981308411214953
     },
     {
         "id": "Q215258",
         "name": "Richard Rorty",
         "birth": 1931,
         "death": 2007,
-        "priority": 0.6233766233766234
+        "priority": 0.5934579439252337
     },
     {
         "id": "Q216072",
         "name": "Xunzi",
         "birth": -313,
         "death": -238,
-        "priority": 0.7554112554112554
+        "priority": 0.735981308411215
     },
     {
         "id": "Q2161",
         "name": "Tacitus",
         "birth": 54,
         "death": 120,
-        "priority": 0.08874458874458875
+        "priority": 0.053738317757009345
     },
     {
         "id": "Q217771",
         "name": "George Gurdjieff",
         "birth": 1866,
         "death": 1949,
-        "priority": 0.5822510822510822
+        "priority": 0.5490654205607477
     },
     {
         "id": "Q219368",
         "name": "Judith Butler",
         "birth": 1956,
         "death": 2024,
-        "priority": 0.341991341991342
+        "priority": 0.2897196261682243
     },
     {
         "id": "Q220313",
         "name": "Gemistus Pletho",
         "birth": 1355,
         "death": 1452,
-        "priority": 0.6645021645021645
+        "priority": 0.6378504672897196
     },
     {
         "id": "Q221697",
         "name": "Hilary Putnam",
         "birth": 1926,
         "death": 2016,
-        "priority": 0.474025974025974
+        "priority": 0.4322429906542056
     },
     {
         "id": "Q22670",
         "name": "Friedrich Schiller",
         "birth": 1759,
         "death": 1805,
-        "priority": 0.8203463203463204
+        "priority": 0.8060747663551402
     },
     {
         "id": "Q2275364",
         "name": "Severus Sebokht",
         "birth": 575,
         "death": 667,
-        "priority": 0.006493506493506494
+        "priority": 0.007009345794392523
     },
     {
         "id": "Q2287807",
         "name": "Simone Simoni",
         "birth": 1532,
         "death": 1602,
-        "priority": 0.5952380952380952
+        "priority": 0.5630841121495327
     },
     {
         "id": "Q229264",
         "name": "Georges-Louis Leclerc, Comte de Buffon",
         "birth": 1707,
         "death": 1788,
-        "priority": 0.25757575757575757
+        "priority": 0.21495327102803738
     },
     {
         "id": "Q229646",
         "name": "G. E. M. Anscombe",
         "birth": 1919,
         "death": 2001,
-        "priority": 0.7813852813852814
+        "priority": 0.764018691588785
     },
     {
         "id": "Q231690",
         "name": "Bhimrao Ramji Ambedkar",
         "birth": 1891,
         "death": 1956,
-        "priority": 0.829004329004329
+        "priority": 0.8154205607476636
     },
     {
         "id": "Q2318969",
         "name": "Peter Rollins",
         "birth": 1973,
         "death": 2024,
-        "priority": 0.6601731601731602
+        "priority": 0.633177570093458
     },
     {
         "id": "Q235470",
         "name": "Martha Nussbaum",
         "birth": 1947,
         "death": 2024,
-        "priority": 0.5800865800865801
+        "priority": 0.5467289719626168
     },
     {
         "id": "Q242616",
         "name": "Patricia Churchland",
         "birth": 1943,
         "death": 2024,
-        "priority": 0.577922077922078
+        "priority": 0.544392523364486
     },
     {
         "id": "Q243187",
         "name": "Photios I of Constantinople",
         "birth": 827,
         "death": 896,
-        "priority": 0.025974025974025976
+        "priority": 0.016355140186915886
     },
     {
         "id": "Q243757",
         "name": "A. J. Ayer",
         "birth": 1910,
         "death": 1989,
-        "priority": 0.41125541125541126
+        "priority": 0.3644859813084112
     },
     {
         "id": "Q243787",
         "name": "Gregory Palamas",
         "birth": 1296,
         "death": 1359,
-        "priority": 0.31385281385281383
+        "priority": 0.2616822429906542
     },
     {
         "id": "Q248578",
         "name": "Chrysanthius",
         "birth": 310,
         "death": 390,
-        "priority": 0.4090909090909091
-    },
-    {
-        "id": "Q253407",
-        "name": "Donna Haraway",
-        "birth": 1944,
-        "death": 2024,
-        "priority": 0.29653679653679654
+        "priority": 0.3621495327102804
     },
     {
         "id": "Q255275",
         "name": "Charmadas",
         "birth": -168,
         "death": -103,
-        "priority": 0.2943722943722944
+        "priority": 0.24883720930232558
     },
     {
         "id": "Q259507",
         "name": "bell hooks",
         "birth": 1952,
         "death": 2021,
-        "priority": 0.42857142857142855
-    },
-    {
-        "id": "Q2636293",
-        "name": "Nikolay Strakhov",
-        "birth": 1828,
-        "death": 1896,
-        "priority": 0.1645021645021645
+        "priority": 0.38317757009345793
     },
     {
         "id": "Q264918",
         "name": "Arthur de Gobineau",
         "birth": 1816,
         "death": 1882,
-        "priority": 0.023809523809523808
+        "priority": 0
     },
     {
         "id": "Q272411",
         "name": "Mozi",
         "birth": -470,
         "death": -391,
-        "priority": 0.1830065359477124
+        "priority": 0.14719626168224298
     },
     {
         "id": "Q272615",
         "name": "J. L. Austin",
         "birth": 1911,
         "death": 1960,
-        "priority": 0.3398268398268398
-    },
-    {
-        "id": "Q2757496",
-        "name": "Gaston Berger",
-        "birth": 1896,
-        "death": 1960,
-        "priority": 0.16233766233766234
+        "priority": 0.28738317757009346
     },
     {
         "id": "Q27645",
         "name": "Mikhail Bakunin",
         "birth": 1814,
         "death": 1876,
-        "priority": 0.8484848484848485
+        "priority": 0.8372093023255814
     },
     {
         "id": "Q279359",
         "name": "Vilna Gaon",
         "birth": 1720,
         "death": 1797,
-        "priority": 0.021645021645021644
-    },
-    {
-        "id": "Q288441",
-        "name": "Ramana Maharshi",
-        "birth": 1879,
-        "death": 1950,
-        "priority": 0.01948051948051948
+        "priority": 0.014018691588785047
     },
     {
         "id": "Q28959",
         "name": "Han Fei",
         "birth": -279,
         "death": -232,
-        "priority": 0.13203463203463203
+        "priority": 0.1
     },
     {
         "id": "Q2897678",
         "name": "Bernard Charbonneau",
         "birth": 1910,
         "death": 1996,
-        "priority": 0.461038961038961
+        "priority": 0.4182242990654206
     },
     {
         "id": "Q2927235",
         "name": "Bryson of Achaea",
         "birth": -450,
         "death": -400,
-        "priority": 0.3463203463203463
+        "priority": 0.29439252336448596
     },
     {
         "id": "Q2939300",
         "name": "Carlos Astrada",
         "birth": 1894,
         "death": 1970,
-        "priority": 0.7229437229437229
+        "priority": 0.7009345794392523
     },
     {
         "id": "Q295012",
         "name": "John Searle",
         "birth": 1932,
         "death": 2024,
-        "priority": 0.33766233766233766
+        "priority": 0.2850467289719626
     },
     {
         "id": "Q295386",
         "name": "G. E. Moore",
         "birth": 1873,
         "death": 1958,
-        "priority": 0.5303030303030303
+        "priority": 0.4929906542056075
     },
     {
         "id": "Q2955937",
         "name": "Chamaeleon",
         "birth": -350,
         "death": -275,
-        "priority": 0.5497835497835498
+        "priority": 0.514018691588785
     },
     {
         "id": "Q297040",
         "name": "Apollonius of Tyana",
         "birth": 15,
         "death": 100,
-        "priority": 0.3354978354978355
+        "priority": 0.2827102803738318
     },
     {
         "id": "Q297079",
         "name": "Murray Rothbard",
         "birth": 1926,
         "death": 1995,
-        "priority": 0.7683982683982684
+        "priority": 0.75
     },
     {
         "id": "Q298521",
         "name": "Saul Kripke",
         "birth": 1940,
         "death": 2022,
-        "priority": 0.7965367965367965
+        "priority": 0.780373831775701
     },
     {
         "id": "Q302835",
         "name": "Nasir al-Din al-Tusi",
         "birth": 1201,
         "death": 1273,
-        "priority": 0.3116883116883117
+        "priority": 0.25934579439252337
     },
     {
         "id": "Q306514",
         "name": "Abbie Hoffman",
         "birth": 1936,
         "death": 1989,
-        "priority": 0.09740259740259741
+        "priority": 0.0630841121495327
     },
     {
         "id": "Q307",
         "name": "Galileo Galilei",
         "birth": 1564,
         "death": 1642,
-        "priority": 0.05627705627705628
+        "priority": 0.03271028037383177
     },
     {
         "id": "Q309854",
         "name": "Joseph de Maistre",
         "birth": 1753,
         "death": 1821,
-        "priority": 0.47186147186147187
+        "priority": 0.42990654205607476
     },
     {
         "id": "Q310341",
         "name": "Antonio Negri",
         "birth": 1933,
         "death": 2024,
-        "priority": 0.6212121212121212
+        "priority": 0.5911214953271028
     },
     {
         "id": "Q310765",
         "name": "David Bohm",
         "birth": 1917,
         "death": 1992,
-        "priority": 0.09523809523809523
+        "priority": 0.06074766355140187
     },
     {
         "id": "Q310791",
         "name": "Jules Michelet",
         "birth": 1798,
         "death": 1874,
-        "priority": 0.45670995670995673
+        "priority": 0.4135514018691589
     },
     {
         "id": "Q311160",
         "name": "Hussein-Ali Montazeri",
         "birth": 1922,
         "death": 2009,
-        "priority": 0.7056277056277056
+        "priority": 0.6822429906542056
     },
     {
         "id": "Q311485",
         "name": "Pherecydes of Syros",
         "birth": -580,
         "death": -520,
-        "priority": 0.4696969696969697
+        "priority": 0.42757009345794394
     },
     {
         "id": "Q311826",
         "name": "Muhammad Abduh",
         "birth": 1849,
         "death": 1905,
-        "priority": 0.4393939393939394
+        "priority": 0.39485981308411217
     },
     {
         "id": "Q311879",
         "name": "Herodes Atticus",
         "birth": 101,
         "death": 177,
-        "priority": 0.7380952380952381
+        "priority": 0.7172897196261683
     },
     {
         "id": "Q312546",
         "name": "William Stanley Jevons",
         "birth": 1835,
         "death": 1882,
-        "priority": 0.11471861471861472
+        "priority": 0.08177570093457943
     },
     {
         "id": "Q312551",
         "name": "Kabir",
         "birth": 1398,
         "death": 1518,
-        "priority": 0.22294372294372294
+        "priority": 0.18457943925233644
     },
     {
         "id": "Q313286",
         "name": "Demetrius of Phalerum",
         "birth": -350,
         "death": -283,
-        "priority": 0.4069264069264069
+        "priority": 0.3598130841121495
     },
     {
         "id": "Q313581",
         "name": "Nicolae Iorga",
         "birth": 1871,
         "death": 1940,
-        "priority": 0.30952380952380953
+        "priority": 0.2570093457943925
     },
     {
         "id": "Q313666",
         "name": "Georges Sorel",
         "birth": 1847,
         "death": 1922,
-        "priority": 0.6406926406926406
+        "priority": 0.6121495327102804
     },
     {
         "id": "Q314189",
         "name": "Lev Shestov",
         "birth": 1866,
         "death": 1938,
-        "priority": 0.8744588744588745
+        "priority": 0.8644859813084113
     },
     {
         "id": "Q314394",
         "name": "Jyotirao Phule",
         "birth": 1827,
         "death": 1890,
-        "priority": 0.22077922077922077
-    },
-    {
-        "id": "Q3158533",
-        "name": "Jacques Chevalier",
-        "birth": 1882,
-        "death": 1962,
-        "priority": 0.27056277056277056
+        "priority": 0.1822429906542056
     },
     {
         "id": "Q316045",
         "name": "Georg Brandes",
         "birth": 1842,
         "death": 1927,
-        "priority": 0.2554112554112554
+        "priority": 0.2116279069767442
     },
     {
         "id": "Q316343",
         "name": "Vasubandhu",
         "birth": 300,
         "death": 399,
-        "priority": 0.08008658008658008
+        "priority": 0.0514018691588785
     },
     {
         "id": "Q320042",
         "name": "Antiochus of Ascalon",
         "birth": -130,
         "death": -68,
-        "priority": 0.8051948051948052
+        "priority": 0.7897196261682243
     },
     {
         "id": "Q322922",
         "name": "Jacques Ellul",
         "birth": 1912,
         "death": 1994,
-        "priority": 0.7164502164502164
+        "priority": 0.6939252336448598
     },
     {
         "id": "Q326459",
         "name": "Dmitry Merezhkovsky",
         "birth": 1865,
         "death": 1941,
-        "priority": 0.21861471861471862
+        "priority": 0.17990654205607476
     },
     {
         "id": "Q328150",
         "name": "John of Ravenna",
         "birth": 1343,
         "death": 1408,
-        "priority": 0.07792207792207792
+        "priority": 0.04906542056074766
     },
     {
         "id": "Q3312923",
         "name": "Miguel Abensour",
         "birth": 1939,
         "death": 2017,
-        "priority": 0.5686274509803921
+        "priority": 0.5373831775700935
     },
     {
         "id": "Q331853",
         "name": "Benjamin Lee Whorf",
         "birth": 1897,
         "death": 1941,
-        "priority": 0.2532467532467532
+        "priority": 0.2102803738317757
     },
     {
         "id": "Q333922",
         "name": "William Whewell",
         "birth": 1794,
         "death": 1866,
-        "priority": 0.3268398268398268
+        "priority": 0.2757009345794392
     },
     {
         "id": "Q334147",
         "name": "Julius Evola",
         "birth": 1898,
         "death": 1974,
-        "priority": 0.9372294372294372
+        "priority": 0.9322429906542056
     },
     {
         "id": "Q3342897",
         "name": "Nolini Kanta Gupta",
         "birth": 1889,
         "death": 1983,
-        "priority": 0.12337662337662338
+        "priority": 0.0911214953271028
     },
     {
         "id": "Q3348646",
         "name": "Abul Hasan Ali Hasani Nadwi",
         "birth": 1913,
         "death": 1999,
-        "priority": 0.13636363636363635
+        "priority": 0.10514018691588785
     },
     {
         "id": "Q3353450",
         "name": "Fakhr-al-Din Iraqi",
         "birth": 1213,
         "death": 1289,
-        "priority": 0.16017316017316016
+        "priority": 0.12850467289719625
     },
     {
         "id": "Q33760",
         "name": "Bertrand Russell",
         "birth": 1872,
         "death": 1970,
-        "priority": 0.9653679653679653
+        "priority": 0.9626168224299065
     },
     {
         "id": "Q33941",
         "name": "Julian",
         "birth": 331,
         "death": 363,
-        "priority": 0.11038961038961038
+        "priority": 0.07710280373831775
     },
     {
         "id": "Q345641",
         "name": "Bernard Williams",
         "birth": 1929,
         "death": 2003,
-        "priority": 0.3658008658008658
+        "priority": 0.31542056074766356
     },
     {
         "id": "Q34670",
         "name": "Albert Camus",
         "birth": 1913,
         "death": 1960,
-        "priority": 0.8008658008658008
+        "priority": 0.7850467289719626
     },
     {
         "id": "Q34787",
         "name": "Friedrich Engels",
         "birth": 1820,
         "death": 1895,
-        "priority": 0.8333333333333334
+        "priority": 0.8200934579439252
     },
     {
         "id": "Q34943",
         "name": "Ptolemy",
         "birth": 100,
         "death": 170,
-        "priority": 0.7186147186147186
-    },
-    {
-        "id": "Q3498726",
-        "name": "Harold Arthur Prichard",
-        "birth": 1871,
-        "death": 1947,
-        "priority": 0.15800865800865802
+        "priority": 0.6962616822429907
     },
     {
         "id": "Q353754",
         "name": "Paul de Man",
         "birth": 1919,
         "death": 1983,
-        "priority": 0.09307359307359307
+        "priority": 0.05813953488372093
     },
     {
         "id": "Q354867",
         "name": "Alan Watts",
         "birth": 1915,
         "death": 1973,
-        "priority": 0.5108225108225108
-    },
-    {
-        "id": "Q355201",
-        "name": "Alvin Plantinga",
-        "birth": 1932,
-        "death": 2024,
-        "priority": 0.24675324675324675
+        "priority": 0.4719626168224299
     },
     {
         "id": "Q355237",
         "name": "Bruno Latour",
         "birth": 1947,
         "death": 2022,
-        "priority": 0.3333333333333333
+        "priority": 0.2837209302325581
     },
     {
         "id": "Q355245",
         "name": "Henry George",
         "birth": 1839,
         "death": 1897,
-        "priority": 0.5086580086580087
-    },
-    {
-        "id": "Q3557581",
-        "name": "Victor Skumin",
-        "birth": 1948,
-        "death": 2024,
-        "priority": 0.2683982683982684
+        "priority": 0.4696261682242991
     },
     {
         "id": "Q35802",
         "name": "Benedictus de Spinoza",
         "birth": 1632,
         "death": 1677,
-        "priority": 0.9935064935064936
+        "priority": 0.9930232558139535
     },
     {
         "id": "Q358561",
         "name": "Reinhold Niebuhr",
         "birth": 1892,
         "death": 1971,
-        "priority": 0.5909090909090909
+        "priority": 0.5584112149532711
     },
     {
         "id": "Q35900",
         "name": "Omar Khayy\u00e1m",
         "birth": 1048,
         "death": 1131,
-        "priority": 0.1471861471861472
+        "priority": 0.11682242990654206
     },
     {
         "id": "Q3625041",
         "name": "Aelius Antipater",
         "birth": 200,
         "death": 268,
-        "priority": 0.15584415584415584
+        "priority": 0.1261682242990654
     },
     {
         "id": "Q36303",
         "name": "Thales",
         "birth": -626,
         "death": -548,
-        "priority": 0.7922077922077922
+        "priority": 0.7757009345794392
     },
     {
         "id": "Q36330",
         "name": "Giordano Bruno",
         "birth": 1548,
         "death": 1600,
-        "priority": 0.8614718614718615
+        "priority": 0.8504672897196262
     },
     {
         "id": "Q3635215",
         "name": "Indra Sen",
         "birth": 1903,
         "death": 1994,
-        "priority": 0.12121212121212122
+        "priority": 0.08878504672897196
     },
     {
         "id": "Q364975",
         "name": "Richard Cantillon",
         "birth": 1675,
         "death": 1734,
-        "priority": 0.5454545454545454
+        "priority": 0.5093457943925234
     },
     {
         "id": "Q365695",
         "name": "Moses of Chorene",
         "birth": 410,
         "death": 490,
-        "priority": 0.07575757575757576
+        "priority": 0.04672897196261682
     },
     {
         "id": "Q368519",
         "name": "George MacDonald",
         "birth": 1824,
         "death": 1905,
-        "priority": 0.21645021645021645
+        "priority": 0.17757009345794392
     },
     {
         "id": "Q370389",
         "name": "Louis Marin",
         "birth": 1931,
         "death": 1992,
-        "priority": 0.4675324675324675
+        "priority": 0.4252336448598131
     },
     {
         "id": "Q37160",
         "name": "David Hume",
         "birth": 1711,
         "death": 1776,
-        "priority": 0.9675324675324676
+        "priority": 0.9649532710280374
     },
     {
         "id": "Q373036",
         "name": "Claude Lefort",
         "birth": 1924,
         "death": 2010,
-        "priority": 0.7121212121212122
+        "priority": 0.6892523364485982
     },
     {
         "id": "Q37388",
         "name": "Francis Bacon",
         "birth": 1561,
         "death": 1626,
-        "priority": 0.6948051948051948
+        "priority": 0.6705607476635514
     },
     {
         "id": "Q37621",
         "name": "Thomas Hobbes",
         "birth": 1588,
         "death": 1679,
-        "priority": 0.8463203463203464
-    },
-    {
-        "id": "Q379836",
-        "name": "Liang Chi-chao",
-        "birth": 1873,
-        "death": 1929,
-        "priority": 0.0735930735930736
+        "priority": 0.8341121495327103
     },
     {
         "id": "Q38082",
         "name": "Lewis Carroll",
         "birth": 1832,
         "death": 1898,
-        "priority": 0.049783549783549784
+        "priority": 0
     },
     {
         "id": "Q381211",
         "name": "Gennadius Scholarius",
         "birth": 1400,
         "death": 1473,
-        "priority": 0.2922077922077922
+        "priority": 0.24766355140186916
     },
     {
         "id": "Q381710",
         "name": "Symeon the New Theologian",
         "birth": 949,
         "death": 1022,
-        "priority": 0.07142857142857142
+        "priority": 0.04439252336448598
     },
     {
         "id": "Q38193",
         "name": "Arthur Schopenhauer",
         "birth": 1788,
         "death": 1860,
-        "priority": 0.9242424242424242
+        "priority": 0.9182242990654206
     },
     {
         "id": "Q3825797",
         "name": "Lambertus de Monte",
         "birth": 1430,
         "death": 1499,
-        "priority": 0.2662337662337662
+        "priority": 0.22429906542056074
     },
     {
         "id": "Q39837",
         "name": "Averroes",
         "birth": 1126,
         "death": 1198,
-        "priority": 0.934640522875817
+        "priority": 0.9299065420560748
     },
     {
         "id": "Q400887",
         "name": "Ahmad ibn Zayn al-Din al-Ahsa'i",
         "birth": 1753,
         "death": 1826,
-        "priority": 0.354978354978355
+        "priority": 0.3037383177570093
     },
     {
         "id": "Q404023",
         "name": "Aedesius",
         "birth": 280,
         "death": 355,
-        "priority": 0.7705627705627706
+        "priority": 0.7523364485981309
     },
     {
         "id": "Q404779",
         "name": "David Miller",
         "birth": 1942,
         "death": 2024,
-        "priority": 0.40476190476190477
+        "priority": 0.3574766355140187
     },
     {
         "id": "Q41155",
         "name": "Heraclitus",
         "birth": -535,
         "death": -470,
-        "priority": 0.922077922077922
+        "priority": 0.9158878504672897
     },
     {
         "id": "Q4115511",
         "name": "Abu al-Hassan al-Amiri",
         "birth": 913,
         "death": 992,
-        "priority": 0.3852813852813853
+        "priority": 0.3364485981308411
     },
     {
         "id": "Q41513",
         "name": "William Blake",
         "birth": 1757,
         "death": 1827,
-        "priority": 0.7662337662337663
+        "priority": 0.7476635514018691
     },
     {
         "id": "Q41532",
         "name": "Carl Jung",
         "birth": 1875,
         "death": 1961,
-        "priority": 0.49783549783549785
+        "priority": 0.45794392523364486
     },
     {
         "id": "Q41568",
         "name": "Michel de Montaigne",
         "birth": 1533,
         "death": 1592,
-        "priority": 0.8593073593073594
+        "priority": 0.8481308411214953
     },
     {
         "id": "Q41590",
         "name": "Mircea Eliade",
         "birth": 1907,
         "death": 1986,
-        "priority": 0.7294372294372294
+        "priority": 0.7079439252336449
     },
     {
         "id": "Q42063",
         "name": "Xuanzang",
         "birth": 602,
         "death": 664,
-        "priority": 0.047619047619047616
+        "priority": 0.030373831775700934
     },
     {
         "id": "Q4245051",
         "name": "Pobisk Kuznetsov",
         "birth": 1924,
         "death": 2000,
-        "priority": 0.658008658008658
+        "priority": 0.6308411214953271
     },
     {
         "id": "Q42458",
         "name": "Anaximander",
         "birth": -610,
         "death": -547,
-        "priority": 0.9112554112554112
+        "priority": 0.9042056074766355
     },
     {
         "id": "Q4295",
         "name": "Peter Abelard",
         "birth": 1079,
         "death": 1142,
-        "priority": 0.6774891774891775
+        "priority": 0.6518691588785047
     },
     {
         "id": "Q4313",
         "name": "Alain de Lille",
         "birth": 1117,
         "death": 1202,
-        "priority": 0.38311688311688313
+        "priority": 0.3341121495327103
     },
     {
         "id": "Q43182",
         "name": "Eratosthenes",
         "birth": -276,
         "death": -194,
-        "priority": 0.42424242424242425
+        "priority": 0.37850467289719625
     },
     {
         "id": "Q43216",
         "name": "Epicurus",
         "birth": -342,
         "death": -270,
-        "priority": 0.9307359307359307
+        "priority": 0.9252336448598131
     },
     {
         "id": "Q4322534",
         "name": "Pavel Novgorodtsev",
         "birth": 1866,
         "death": 1924,
-        "priority": 0.5692640692640693
+        "priority": 0.5350467289719626
     },
     {
         "id": "Q43347",
         "name": "Rumi",
         "birth": 1207,
         "death": 1273,
-        "priority": 0.6926406926406926
+        "priority": 0.6682242990654206
     },
     {
         "id": "Q43423",
         "name": "Aesop",
         "birth": -620,
         "death": -564,
-        "priority": 0.045454545454545456
+        "priority": 0.028037383177570093
     },
     {
         "id": "Q434266",
         "name": "Petr Uspensky",
         "birth": 1878,
         "death": 1947,
-        "priority": 0.1277056277056277
+        "priority": 0.09579439252336448
     },
     {
         "id": "Q43499",
         "name": "Erasmus",
         "birth": 1466,
         "death": 1536,
-        "priority": 0.6082251082251082
+        "priority": 0.5771028037383178
     },
     {
         "id": "Q435300",
         "name": "Francesco Patrizi",
         "birth": 1529,
         "death": 1597,
-        "priority": 0.45454545454545453
+        "priority": 0.411214953271028
     },
     {
         "id": "Q43689",
         "name": "Ambrose",
         "birth": 339,
         "death": 397,
-        "priority": 0.23809523809523808
+        "priority": 0.20093457943925233
     },
     {
         "id": "Q438839",
         "name": "Aleksandr Dugin",
         "birth": 1962,
         "death": 2024,
-        "priority": 0.803030303030303
+        "priority": 0.7873831775700935
     },
     {
         "id": "Q43939",
         "name": "Anselm of Canterbury",
         "birth": 1033,
         "death": 1109,
-        "priority": 0.7619047619047619
+        "priority": 0.7429906542056075
     },
     {
         "id": "Q44011",
         "name": "Gregory of Nazianzus",
         "birth": 329,
         "death": 389,
-        "priority": 0.6753246753246753
+        "priority": 0.6495327102803738
     },
     {
         "id": "Q441590",
         "name": "Eustathius of Cappadocia",
         "birth": 300,
         "death": 362,
-        "priority": 0.4523809523809524
+        "priority": 0.4088785046728972
     },
     {
         "id": "Q44258",
         "name": "Basil of Caesarea",
         "birth": 329,
         "death": 379,
-        "priority": 0.6190476190476191
+        "priority": 0.5887850467289719
     },
     {
         "id": "Q44272",
         "name": "Michel Foucault",
         "birth": 1926,
         "death": 1984,
-        "priority": 0.9761904761904762
+        "priority": 0.9742990654205608
     },
     {
         "id": "Q44461",
         "name": "Richard Dawkins",
         "birth": 1941,
         "death": 2024,
-        "priority": 0.5606060606060606
+        "priority": 0.5257009345794392
     },
     {
         "id": "Q44481",
         "name": "Pierre-Simon Laplace",
         "birth": 1749,
         "death": 1827,
-        "priority": 0.09090909090909091
+        "priority": 0.056074766355140186
     },
     {
         "id": "Q44490",
         "name": "John Henry Newman",
         "birth": 1801,
         "death": 1890,
-        "priority": 0.23593073593073594
+        "priority": 0.1985981308411215
     },
     {
         "id": "Q445939",
         "name": "Roger Scruton",
         "birth": 1944,
         "death": 2020,
-        "priority": 0.7359307359307359
+        "priority": 0.7149532710280374
     },
     {
         "id": "Q448",
         "name": "Denis Diderot",
         "birth": 1713,
         "death": 1784,
-        "priority": 0.538961038961039
+        "priority": 0.5023364485981309
     },
     {
         "id": "Q449538",
         "name": "Alexander Zinoviev",
         "birth": 1922,
         "death": 2006,
-        "priority": 0.5887445887445888
-    },
-    {
-        "id": "Q45125",
-        "name": "Kitar\u014d Nishida",
-        "birth": 1870,
-        "death": 1945,
-        "priority": 0.30303030303030304
+        "priority": 0.5560747663551402
     },
     {
         "id": "Q452091",
         "name": "William Whiston",
         "birth": 1667,
         "death": 1752,
-        "priority": 0.13852813852813853
+        "priority": 0.10697674418604651
     },
     {
         "id": "Q456963",
         "name": "Candrak\u012brti",
         "birth": 600,
         "death": 650,
-        "priority": 0.6320346320346321
+        "priority": 0.602803738317757
     },
     {
         "id": "Q4604",
         "name": "Confucius",
         "birth": -552,
         "death": -479,
-        "priority": 0.8354978354978355
+        "priority": 0.822429906542056
     },
     {
         "id": "Q463151",
         "name": "Pierre Clastres",
         "birth": 1934,
         "death": 1977,
-        "priority": 0.4264069264069264
+        "priority": 0.3808411214953271
     },
     {
         "id": "Q463405",
         "name": "Elia del Medigo",
         "birth": 1460,
         "death": 1497,
-        "priority": 0.17965367965367965
+        "priority": 0.14485981308411214
     },
     {
         "id": "Q463723",
         "name": "Nikolai Fyodorovich Fyodorov",
         "birth": 1829,
         "death": 1903,
-        "priority": 0.4653679653679654
+        "priority": 0.42289719626168226
     },
     {
         "id": "Q46420",
         "name": "Ibn Arabi",
         "birth": 1165,
         "death": 1240,
-        "priority": 0.8961038961038961
+        "priority": 0.8878504672897196
     },
     {
         "id": "Q467015",
         "name": "Henry Corbin",
         "birth": 1903,
         "death": 1978,
-        "priority": 0.37662337662337664
+        "priority": 0.32710280373831774
     },
     {
         "id": "Q46830",
         "name": "Robert Hooke",
         "birth": 1635,
         "death": 1703,
-        "priority": 0.70995670995671
-    },
-    {
-        "id": "Q470890",
-        "name": "Harold Laski",
-        "birth": 1893,
-        "death": 1950,
-        "priority": 0.017316017316017316
+        "priority": 0.6869158878504673
     },
     {
         "id": "Q471041",
         "name": "Seyyed Hossein Nasr",
         "birth": 1933,
         "death": 2024,
-        "priority": 0.7792207792207793
+        "priority": 0.7627906976744186
     },
     {
         "id": "Q471046",
         "name": "Rida Muhammad Rashid",
         "birth": 1865,
         "death": 1935,
-        "priority": 0.12554112554112554
+        "priority": 0.09345794392523364
     },
     {
         "id": "Q47154",
         "name": "Lucretius",
         "birth": -94,
         "death": -55,
-        "priority": 0.6536796536796536
-    },
-    {
-        "id": "Q473773",
-        "name": "David Low",
-        "birth": 1891,
-        "death": 1963,
-        "priority": 0.015151515151515152
+        "priority": 0.6261682242990654
     },
     {
         "id": "Q47434",
         "name": "Edmond Halley",
         "birth": 1656,
         "death": 1742,
-        "priority": 0.49567099567099565
+        "priority": 0.45813953488372094
     },
     {
         "id": "Q47478",
         "name": "Swami Vivekananda",
         "birth": 1863,
         "death": 1902,
-        "priority": 0.42207792207792205
+        "priority": 0.37616822429906543
     },
     {
         "id": "Q47667",
         "name": "Hu Shih",
         "birth": 1891,
         "death": 1962,
-        "priority": 0.525974025974026
+        "priority": 0.4883177570093458
     },
     {
         "id": "Q48226",
         "name": "Ralph Waldo Emerson",
         "birth": 1803,
         "death": 1882,
-        "priority": 0.8787878787878788
+        "priority": 0.8691588785046729
     },
     {
         "id": "Q48301",
         "name": "Martin Heidegger",
         "birth": 1889,
         "death": 1976,
-        "priority": 0.9891774891774892
+        "priority": 0.9883177570093458
     },
     {
         "id": "Q48305",
         "name": "Euripides",
         "birth": -480,
         "death": -406,
-        "priority": 0.23376623376623376
+        "priority": 0.19626168224299065
     },
     {
         "id": "Q484141",
         "name": "Muhammad Iqbal",
         "birth": 1877,
         "death": 1938,
-        "priority": 0.8701298701298701
+        "priority": 0.8598130841121495
     },
     {
         "id": "Q486291",
         "name": "Yi Hwang",
         "birth": 1501,
         "death": 1570,
-        "priority": 0.012987012987012988
+        "priority": 0.011682242990654205
     },
     {
         "id": "Q486945",
         "name": "Sotion",
         "birth": -40,
         "death": 40,
-        "priority": 0.5757575757575758
-    },
-    {
-        "id": "Q49325",
-        "name": "Albert Schweitzer",
-        "birth": 1875,
-        "death": 1965,
-        "priority": 0.2510822510822511
+        "priority": 0.5420560747663551
     },
     {
         "id": "Q495259",
         "name": "Yi Ik",
         "birth": 1681,
         "death": 1763,
-        "priority": 0.1774891774891775
+        "priority": 0.14186046511627906
     },
     {
         "id": "Q50020",
         "name": "John Stuart Mill",
         "birth": 1806,
         "death": 1873,
-        "priority": 0.7402597402597403
+        "priority": 0.719626168224299
     },
     {
         "id": "Q503017",
         "name": "Jean-Luc Nancy",
         "birth": 1940,
         "death": 2021,
-        "priority": 0.8073593073593074
+        "priority": 0.7920560747663551
     },
     {
         "id": "Q524048",
         "name": "Gentile da Foligno",
         "birth": 1280,
         "death": 1348,
-        "priority": 0.10606060606060606
+        "priority": 0.07242990654205607
     },
     {
         "id": "Q5264",
         "name": "Hippocrates",
         "birth": -460,
         "death": -370,
-        "priority": 0.696969696969697
+        "priority": 0.6728971962616822
     },
     {
         "id": "Q529858",
         "name": "Giovanni Papini",
         "birth": 1881,
         "death": 1956,
-        "priority": 0.21428571428571427
+        "priority": 0.17523364485981308
     },
     {
         "id": "Q535769",
         "name": "Metrodorus of Chios",
         "birth": -500,
         "death": -400,
-        "priority": 0.45021645021645024
+        "priority": 0.40654205607476634
     },
     {
         "id": "Q539514",
         "name": "Metrodorus of Lampsacus",
         "birth": -500,
         "death": -464,
-        "priority": 0.29004329004329005
+        "priority": 0.24532710280373832
     },
     {
         "id": "Q5424032",
         "name": "F. S. C. Northrop",
         "birth": 1893,
         "death": 1992,
-        "priority": 0.3917748917748918
+        "priority": 0.34345794392523366
     },
     {
         "id": "Q550629",
         "name": "Lyndon LaRouche",
         "birth": 1922,
         "death": 2019,
-        "priority": 0.3528138528138528
-    },
-    {
-        "id": "Q555693",
-        "name": "Timofey Granovsky",
-        "birth": 1813,
-        "death": 1855,
-        "priority": 0.06926406926406926
+        "priority": 0.3014018691588785
     },
     {
         "id": "Q55597400",
         "name": "Jean Dullaert",
         "birth": 1471,
         "death": 1513,
-        "priority": 0.38961038961038963
+        "priority": 0.34418604651162793
     },
     {
         "id": "Q558275",
         "name": "Aryadeva",
         "birth": 200,
         "death": 250,
-        "priority": 0.6623376623376623
+        "priority": 0.6355140186915887
     },
     {
         "id": "Q558279",
         "name": "Hayashi Razan",
         "birth": 1583,
         "death": 1657,
-        "priority": 0.2878787878787879
+        "priority": 0.24299065420560748
     },
     {
         "id": "Q561367",
         "name": "Lucius Aelius Stilo Praeconinus",
         "birth": -154,
         "death": -74,
-        "priority": 0.43722943722943725
+        "priority": 0.3925233644859813
     },
     {
         "id": "Q5683",
         "name": "Geoffrey Chaucer",
         "birth": 1343,
         "death": 1400,
-        "priority": 0.24458874458874458
+        "priority": 0.20794392523364486
     },
     {
         "id": "Q57112",
         "name": "Oswald Spengler",
         "birth": 1880,
         "death": 1936,
-        "priority": 0.7748917748917749
+        "priority": 0.7570093457943925
     },
     {
         "id": "Q5715809",
         "name": "Henric Sanielevici",
         "birth": 1875,
         "death": 1951,
-        "priority": 0.5043290043290043
-    },
-    {
-        "id": "Q57188",
-        "name": "Ernst Cassirer",
-        "birth": 1874,
-        "death": 1945,
-        "priority": 0.2012987012987013
+        "priority": 0.4649532710280374
     },
     {
         "id": "Q57280",
         "name": "Johann Joachim Winckelmann",
         "birth": 1717,
         "death": 1768,
-        "priority": 0.23160173160173161
+        "priority": 0.1930232558139535
     },
     {
         "id": "Q5749",
         "name": "Pierre-Joseph Proudhon",
         "birth": 1809,
         "death": 1865,
-        "priority": 0.8766233766233766
+        "priority": 0.866822429906542
     },
     {
         "id": "Q57497",
         "name": "Carl Stumpf",
         "birth": 1848,
         "death": 1936,
-        "priority": 0.8528138528138528
+        "priority": 0.8411214953271028
     },
     {
         "id": "Q5752",
         "name": "Peter Kropotkin",
         "birth": 1842,
         "death": 1921,
-        "priority": 0.7532467532467533
+        "priority": 0.7336448598130841
     },
     {
         "id": "Q579194",
         "name": "John Major",
         "birth": 1467,
         "death": 1550,
-        "priority": 0.8636363636363636
+        "priority": 0.852803738317757
     },
     {
         "id": "Q5816",
         "name": "Mao Zedong",
         "birth": 1893,
         "death": 1976,
-        "priority": 0.3246753246753247
+        "priority": 0.2733644859813084
     },
     {
         "id": "Q58586",
         "name": "Edmund Husserl",
         "birth": 1859,
         "death": 1938,
-        "priority": 0.9783549783549783
+        "priority": 0.9766355140186916
     },
     {
         "id": "Q5879",
         "name": "Johann Wolfgang von Goethe",
         "birth": 1749,
         "death": 1832,
-        "priority": 0.9718614718614719
+        "priority": 0.969626168224299
     },
     {
         "id": "Q59180",
         "name": "Diogenes of Sinope",
         "birth": -412,
         "death": -323,
-        "priority": 0.35714285714285715
+        "priority": 0.3060747663551402
     },
     {
         "id": "Q60024",
         "name": "Hermann von Helmholtz",
         "birth": 1821,
         "death": 1894,
-        "priority": 0.7142857142857143
+        "priority": 0.6915887850467289
     },
     {
         "id": "Q60025",
         "name": "Hannah Arendt",
         "birth": 1906,
         "death": 1975,
-        "priority": 0.9437229437229437
+        "priority": 0.9392523364485982
     },
     {
         "id": "Q60028",
         "name": "Gottlob Frege",
         "birth": 1848,
         "death": 1925,
-        "priority": 0.854978354978355
+        "priority": 0.8434579439252337
     },
     {
         "id": "Q60030",
         "name": "Herbert Marcuse",
         "birth": 1898,
         "death": 1979,
-        "priority": 0.6060606060606061
+        "priority": 0.5747663551401869
     },
     {
         "id": "Q60070",
         "name": "Friedrich Wilhelm Joseph Schelling",
         "birth": 1775,
         "death": 1854,
-        "priority": 0.9523809523809523
+        "priority": 0.9485981308411215
     },
     {
         "id": "Q60104",
         "name": "Paul Tillich",
         "birth": 1886,
         "death": 1965,
-        "priority": 0.7489177489177489
+        "priority": 0.7289719626168224
     },
     {
         "id": "Q60887",
         "name": "Jeremy Bentham",
         "birth": 1749,
         "death": 1832,
-        "priority": 0.7272727272727273
+        "priority": 0.705607476635514
     },
     {
         "id": "Q61078",
         "name": "Walter Benjamin",
         "birth": 1892,
         "death": 1940,
-        "priority": 0.816017316017316
+        "priority": 0.8014018691588785
     },
     {
         "id": "Q61151",
         "name": "Eduard Spranger",
         "birth": 1882,
         "death": 1963,
-        "priority": 0.19913419913419914
+        "priority": 0.16121495327102803
     },
     {
         "id": "Q619",
         "name": "Nicolaus Copernicus",
         "birth": 1473,
         "death": 1543,
-        "priority": 0.7467532467532467
+        "priority": 0.7266355140186916
     },
     {
         "id": "Q6197",
         "name": "Horace",
         "birth": -65,
         "death": -8,
-        "priority": 0.20562770562770563
+        "priority": 0.1658878504672897
     },
     {
         "id": "Q6353",
         "name": "Gerardus Mercator",
         "birth": 1512,
         "death": 1594,
-        "priority": 0.44372294372294374
+        "priority": 0.39953271028037385
     },
     {
         "id": "Q65108",
         "name": "Ernst Nolte",
         "birth": 1923,
         "death": 2016,
-        "priority": 0.4199134199134199
+        "priority": 0.37383177570093457
     },
     {
         "id": "Q6527",
         "name": "Jean-Jacques Rousseau",
         "birth": 1712,
         "death": 1778,
-        "priority": 0.9025974025974026
+        "priority": 0.8948598130841121
     },
     {
         "id": "Q657941",
         "name": "Albinus",
         "birth": 100,
         "death": 200,
-        "priority": 0.6147186147186147
+        "priority": 0.5841121495327103
     },
     {
         "id": "Q665984",
         "name": "Aristippus the Younger",
         "birth": -400,
         "death": -380,
-        "priority": 0.3874458874458874
+        "priority": 0.338785046728972
     },
     {
         "id": "Q66732",
         "name": "Eugen Rosenstock-Huessy",
         "birth": 1888,
         "death": 1973,
-        "priority": 0.4935064935064935
+        "priority": 0.4532710280373832
     },
     {
         "id": "Q667385",
         "name": "Aristos of Ascalon",
         "birth": -50,
         "death": -20,
-        "priority": 0.7034632034632035
+        "priority": 0.6799065420560748
     },
     {
         "id": "Q6694",
         "name": "Alexander von Humboldt",
         "birth": 1769,
         "death": 1859,
-        "priority": 0.6883116883116883
+        "priority": 0.6635514018691588
     },
     {
         "id": "Q672145",
         "name": "Al Sayed Musa al-Sadr",
         "birth": 1928,
         "death": 1978,
-        "priority": 0.17532467532467533
+        "priority": 0.14018691588785046
     },
     {
         "id": "Q676267",
         "name": "Henry Bate of Malines",
         "birth": 1246,
         "death": 1310,
-        "priority": 0.4025974025974026
+        "priority": 0.35514018691588783
     },
     {
         "id": "Q7060",
         "name": "Michel Onfray",
         "birth": 1959,
         "death": 2024,
-        "priority": 0.6535947712418301
+        "priority": 0.6285046728971962
     },
     {
         "id": "Q71029",
         "name": "Hermann Weyl",
         "birth": 1885,
         "death": 1955,
-        "priority": 0.14502164502164502
+        "priority": 0.11448598130841121
     },
     {
         "id": "Q714369",
         "name": "Dai Zhen",
         "birth": 1724,
         "death": 1777,
-        "priority": 0.010822510822510822
+        "priority": 0.009345794392523364
     },
     {
         "id": "Q715169",
         "name": "George Buchanan",
         "birth": 1506,
         "death": 1582,
-        "priority": 0.5432900432900433
+        "priority": 0.5070093457943925
     },
     {
         "id": "Q7197",
         "name": "Simone de Beauvoir",
         "birth": 1908,
         "death": 1986,
-        "priority": 0.5865800865800865
-    },
-    {
-        "id": "Q7231",
-        "name": "Rosa Luxemburg",
-        "birth": 1871,
-        "death": 1919,
-        "priority": 0.30735930735930733
+        "priority": 0.5537383177570093
     },
     {
         "id": "Q7243",
         "name": "Leo Tolstoy",
         "birth": 1828,
         "death": 1910,
-        "priority": 0.9285714285714286
-    },
-    {
-        "id": "Q7245",
-        "name": "Mark Twain",
-        "birth": 1835,
-        "death": 1910,
-        "priority": 0.05411255411255411
+        "priority": 0.9232558139534883
     },
     {
         "id": "Q7251",
         "name": "Alan Turing",
         "birth": 1912,
         "death": 1954,
-        "priority": 0.34415584415584416
+        "priority": 0.29534883720930233
     },
     {
         "id": "Q729048",
         "name": "Olavo de Carvalho",
         "birth": 1947,
         "death": 2022,
-        "priority": 0.5064935064935064
+        "priority": 0.4672897196261682
     },
     {
         "id": "Q731904",
         "name": "Valentin Ferdinandovich Asmus",
         "birth": 1894,
         "death": 1975,
-        "priority": 0.7445887445887446
+        "priority": 0.7242990654205608
     },
     {
         "id": "Q7322195",
         "name": "Riazuddin",
         "birth": 1930,
         "death": 2013,
-        "priority": 0.2077922077922078
+        "priority": 0.16822429906542055
     },
     {
         "id": "Q73527",
         "name": "Arcesilaus",
         "birth": -315,
         "death": -240,
-        "priority": 0.7727272727272727
+        "priority": 0.7546728971962616
     },
     {
         "id": "Q758060",
         "name": "Atticus",
         "birth": 150,
         "death": 200,
-        "priority": 0.17316017316017315
+        "priority": 0.1378504672897196
     },
     {
         "id": "Q75814",
         "name": "Wilhelm Wundt",
         "birth": 1832,
         "death": 1920,
-        "priority": 0.8917748917748918
+        "priority": 0.883177570093458
     },
     {
         "id": "Q762",
         "name": "Leonardo da Vinci",
         "birth": 1452,
         "death": 1519,
-        "priority": 0.1341991341991342
+        "priority": 0.102803738317757
     },
     {
         "id": "Q76326",
         "name": "Dietrich Bonhoeffer",
         "birth": 1906,
         "death": 1945,
-        "priority": 0.4588744588744589
-    },
-    {
-        "id": "Q76327",
-        "name": "Rudolf Bultmann",
-        "birth": 1884,
-        "death": 1976,
-        "priority": 0.04329004329004329
+        "priority": 0.4158878504672897
     },
     {
         "id": "Q76420",
         "name": "Georg Cantor",
         "birth": 1845,
         "death": 1918,
-        "priority": 0.3225108225108225
+        "priority": 0.27209302325581397
     },
     {
         "id": "Q76512",
         "name": "Franz Xaver von Baader",
         "birth": 1765,
         "death": 1841,
-        "priority": 0.19696969696969696
+        "priority": 0.1588785046728972
     },
     {
         "id": "Q76548",
         "name": "Meister Eckhart",
         "birth": 1260,
         "death": 1328,
-        "priority": 0.49134199134199136
+        "priority": 0.45093457943925236
     },
     {
         "id": "Q76586",
         "name": "Karl Kautsky",
         "birth": 1854,
         "death": 1938,
-        "priority": 0.6515151515151515
+        "priority": 0.6238317757009346
     },
     {
         "id": "Q76688",
         "name": "Hans-Hermann Hoppe",
         "birth": 1949,
         "death": 2024,
-        "priority": 0.8246753246753247
+        "priority": 0.8107476635514018
     },
     {
         "id": "Q76749",
         "name": "Edith Stein",
         "birth": 1891,
         "death": 1942,
-        "priority": 0.41774891774891776
+        "priority": 0.37149532710280375
     },
     {
         "id": "Q76849",
         "name": "Georg Simmel",
         "birth": 1858,
         "death": 1918,
-        "priority": 0.5584415584415584
+        "priority": 0.5233644859813084
     },
     {
         "id": "Q76857",
         "name": "Franz Boas",
         "birth": 1858,
         "death": 1942,
-        "priority": 0.6731601731601732
+        "priority": 0.647196261682243
     },
     {
         "id": "Q770298",
         "name": "Sadr al-Din al-Qunawi",
         "birth": 1209,
         "death": 1274,
-        "priority": 0.4004329004329004
+        "priority": 0.352803738317757
     },
     {
         "id": "Q77148",
         "name": "Carl Schmitt",
         "birth": 1888,
         "death": 1985,
-        "priority": 0.670995670995671
-    },
-    {
-        "id": "Q77609",
-        "name": "Hermann Bonitz",
-        "birth": 1814,
-        "death": 1888,
-        "priority": 0.08658008658008658
+        "priority": 0.6448598130841121
     },
     {
         "id": "Q77888",
         "name": "Wilhelm von Humboldt",
         "birth": 1767,
         "death": 1835,
-        "priority": 0.48917748917748916
+        "priority": 0.4511627906976744
     },
     {
         "id": "Q779523",
         "name": "William Ernest Hocking",
         "birth": 1873,
         "death": 1966,
-        "priority": 0.5735930735930735
+        "priority": 0.5397196261682243
     },
     {
         "id": "Q78484",
         "name": "Rudolf Steiner",
         "birth": 1861,
         "death": 1925,
-        "priority": 0.564935064935065
+        "priority": 0.530373831775701
     },
     {
         "id": "Q78497",
         "name": "Paul Feyerabend",
         "birth": 1924,
         "death": 1994,
-        "priority": 0.6298701298701299
-    },
-    {
-        "id": "Q78603",
-        "name": "Christian von Ehrenfels",
-        "birth": 1859,
-        "death": 1932,
-        "priority": 0.3008658008658009
+        "priority": 0.6004672897196262
     },
     {
         "id": "Q788572",
         "name": "Max Eastman",
         "birth": 1883,
         "death": 1969,
-        "priority": 0.35064935064935066
+        "priority": 0.3023255813953488
     },
     {
         "id": "Q79969",
         "name": "Emma Goldman",
         "birth": 1869,
         "death": 1940,
-        "priority": 0.683982683982684
+        "priority": 0.6588785046728972
     },
     {
         "id": "Q8011",
         "name": "Avicenna",
         "birth": 980,
         "death": 1037,
-        "priority": 0.9545454545454546
+        "priority": 0.9509345794392523
     },
     {
         "id": "Q8018",
         "name": "Augustine of Hippo",
         "birth": 354,
         "death": 430,
-        "priority": 0.9155844155844156
+        "priority": 0.9088785046728972
     },
     {
         "id": "Q8027",
         "name": "Martin Luther King Jr.",
         "birth": 1929,
         "death": 1968,
-        "priority": 0.5930735930735931
+        "priority": 0.5607476635514018
     },
     {
         "id": "Q80612",
         "name": "Anaximenes of Miletus",
         "birth": -585,
         "death": -525,
-        "priority": 0.4155844155844156
+        "priority": 0.3691588785046729
     },
     {
         "id": "Q81244",
         "name": "Karl Popper",
         "birth": 1902,
         "death": 1994,
-        "priority": 0.9264069264069265
-    },
-    {
-        "id": "Q81447",
-        "name": "Aldous Huxley",
-        "birth": 1894,
-        "death": 1963,
-        "priority": 0.24891774891774893
+        "priority": 0.9205607476635514
     },
     {
         "id": "Q817484",
         "name": "Benjamin Fondane",
         "birth": 1898,
         "death": 1944,
-        "priority": 0.008658008658008658
+        "priority": 0
     },
     {
         "id": "Q82049",
         "name": "J.A.S.C.",
         "birth": 1685,
         "death": 1753,
-        "priority": 0.79004329004329
+        "priority": 0.7733644859813084
     },
     {
         "id": "Q82778",
         "name": "Pliny the Elder",
         "birth": 20,
         "death": 79,
-        "priority": 0.36147186147186144
+        "priority": 0.3107476635514019
     },
     {
         "id": "Q82934",
         "name": "Claude Henri de Rouvroy, comte de Saint-Simon",
         "birth": 1760,
         "death": 1825,
-        "priority": 0.7424242424242424
+        "priority": 0.7219626168224299
     },
     {
         "id": "Q83003",
         "name": "Antonio Gramsci",
         "birth": 1891,
         "death": 1937,
-        "priority": 0.8138528138528138
-    },
-    {
-        "id": "Q83331",
-        "name": "Louis de Broglie",
-        "birth": 1892,
-        "death": 1987,
-        "priority": 0.08441558441558442
+        "priority": 0.7990654205607477
     },
     {
         "id": "Q84233",
         "name": "Ludwig von Mises",
         "birth": 1881,
         "death": 1973,
-        "priority": 0.8874458874458875
-    },
-    {
-        "id": "Q84296",
-        "name": "Ludwig Boltzmann",
-        "birth": 1844,
-        "death": 1906,
-        "priority": 0.19480519480519481
+        "priority": 0.8790697674418605
     },
     {
         "id": "Q84412",
         "name": "Wilhelm Reich",
         "birth": 1897,
         "death": 1957,
-        "priority": 0.04112554112554113
+        "priority": 0
     },
     {
         "id": "Q859",
         "name": "Plato",
         "birth": -427,
         "death": -347,
-        "priority": 0.9956709956709957
+        "priority": 0.9953271028037384
     },
     {
         "id": "Q868",
@@ -2874,251 +2678,244 @@
         "name": "Archimedes",
         "birth": -287,
         "death": -212,
-        "priority": 0.24242424242424243
+        "priority": 0.205607476635514
     },
     {
         "id": "Q8778",
         "name": "Galen",
         "birth": 129,
         "death": 216,
-        "priority": 0.6861471861471862
+        "priority": 0.6612149532710281
     },
     {
         "id": "Q9047",
         "name": "Gottfried Wilhelm Leibniz",
         "birth": 1646,
         "death": 1716,
-        "priority": 0.9826839826839827
+        "priority": 0.9813084112149533
     },
     {
         "id": "Q9049",
         "name": "Noam Chomsky",
         "birth": 1928,
         "death": 2024,
-        "priority": 0.43073593073593075
+        "priority": 0.3855140186915888
     },
     {
         "id": "Q9061",
         "name": "Karl Marx",
         "birth": 1818,
         "death": 1883,
-        "priority": 0.9848484848484849
+        "priority": 0.9836448598130841
     },
     {
         "id": "Q9068",
         "name": "Voltaire",
         "birth": 1694,
         "death": 1778,
-        "priority": 0.9069264069264069
+        "priority": 0.8995327102803738
     },
     {
         "id": "Q913",
         "name": "Socrates",
         "birth": -470,
         "death": -399,
-        "priority": 0.974025974025974
+        "priority": 0.9719626168224299
     },
     {
         "id": "Q9204",
         "name": "C. S. Lewis",
         "birth": 1898,
         "death": 1963,
-        "priority": 0.8506493506493507
+        "priority": 0.8387850467289719
     },
     {
         "id": "Q9215",
         "name": "Sigmund Freud",
         "birth": 1856,
         "death": 1939,
-        "priority": 0.9177489177489178
+        "priority": 0.9112149532710281
     },
     {
         "id": "Q9235",
         "name": "Georg Wilhelm Friedrich Hegel",
         "birth": 1770,
         "death": 1831,
-        "priority": 0.9913419913419913
+        "priority": 0.9906542056074766
     },
     {
         "id": "Q924215",
         "name": "Hecato of Rhodes",
         "birth": -200,
         "death": -160,
-        "priority": 0.2857142857142857
+        "priority": 0.24065420560747663
     },
     {
         "id": "Q925716",
         "name": "Olympiodorus the Elder",
         "birth": 500,
         "death": 600,
-        "priority": 0.170995670995671
+        "priority": 0.13551401869158877
     },
     {
         "id": "Q925732",
         "name": "Menedemus the Cynic",
         "birth": -400,
         "death": -300,
-        "priority": 0.44805194805194803
+        "priority": 0.40420560747663553
     },
     {
         "id": "Q928551",
         "name": "Origen the Pagan",
         "birth": 200,
         "death": 300,
-        "priority": 0.28354978354978355
+        "priority": 0.2383177570093458
     },
     {
         "id": "Q9312",
         "name": "Immanuel Kant",
         "birth": 1724,
         "death": 1804,
-        "priority": 0.987012987012987
+        "priority": 0.985981308411215
     },
     {
         "id": "Q9317",
         "name": "John Maynard Keynes",
         "birth": 1883,
         "death": 1946,
-        "priority": 0.3051948051948052
+        "priority": 0.2546728971962617
     },
     {
         "id": "Q9333",
         "name": "Laozi",
         "birth": -604,
         "death": -520,
-        "priority": 0.5021645021645021
+        "priority": 0.46261682242990654
     },
     {
         "id": "Q935",
         "name": "Isaac Newton",
         "birth": 1642,
         "death": 1727,
-        "priority": 0.8896103896103896
+        "priority": 0.8808411214953271
     },
     {
         "id": "Q9353",
         "name": "John Locke",
         "birth": 1632,
         "death": 1704,
-        "priority": 0.9632034632034632
+        "priority": 0.9602803738317757
     },
     {
         "id": "Q9358",
         "name": "Friedrich Nietzsche",
         "birth": 1844,
         "death": 1900,
-        "priority": 0.9978354978354979
+        "priority": 0.9976635514018691
     },
     {
         "id": "Q9364",
         "name": "Jean-Paul Sartre",
         "birth": 1905,
         "death": 1980,
-        "priority": 0.9329004329004329
+        "priority": 0.927570093457944
     },
     {
         "id": "Q937",
         "name": "Albert Einstein",
         "birth": 1879,
         "death": 1955,
-        "priority": 0.8852813852813853
+        "priority": 0.8761682242990654
     },
     {
         "id": "Q937697",
         "name": "Stefan Molyneux",
         "birth": 1966,
         "death": 2024,
-        "priority": 0.37445887445887444
+        "priority": 0.3247663551401869
     },
     {
         "id": "Q9381",
         "name": "Adam Smith",
         "birth": 1723,
         "death": 1790,
-        "priority": 0.6818181818181818
+        "priority": 0.6565420560747663
     },
     {
         "id": "Q9387",
         "name": "Max Weber",
         "birth": 1864,
         "death": 1920,
-        "priority": 0.7510822510822511
+        "priority": 0.7313084112149533
     },
     {
         "id": "Q9391",
         "name": "Ludwig Wittgenstein",
         "birth": 1889,
         "death": 1951,
-        "priority": 0.961038961038961
+        "priority": 0.9579439252336449
     },
     {
         "id": "Q9397",
         "name": "Zhu Xi",
         "birth": 1130,
         "death": 1200,
-        "priority": 0.20346320346320346
+        "priority": 0.16355140186915887
     },
     {
         "id": "Q9438",
         "name": "Thomas Aquinas",
         "birth": 1225,
         "death": 1274,
-        "priority": 0.9805194805194806
+        "priority": 0.9789719626168224
     },
     {
         "id": "Q9441",
         "name": "The Buddha",
         "birth": -563,
         "death": -483,
-        "priority": 0.8398268398268398
+        "priority": 0.8271028037383178
     },
     {
         "id": "Q9546",
         "name": "Al-Ghazali",
         "birth": 1058,
         "death": 1111,
-        "priority": 0.5670995670995671
+        "priority": 0.5327102803738317
     },
     {
         "id": "Q9554",
         "name": "Martin Luther",
         "birth": 1483,
         "death": 1546,
-        "priority": 0.3593073593073593
-    },
-    {
-        "id": "Q969533",
-        "name": "Tahar al-Haddad",
-        "birth": 1899,
-        "death": 1935,
-        "priority": 0.0670995670995671
+        "priority": 0.308411214953271
     },
     {
         "id": "Q97502",
         "name": "Valentin Alberti",
         "birth": 1635,
         "death": 1697,
-        "priority": 0.19264069264069264
+        "priority": 0.1558139534883721
     },
     {
         "id": "Q981459",
         "name": "Pierre Laffitte",
         "birth": 1823,
         "death": 1903,
-        "priority": 0.39826839826839827
+        "priority": 0.35046728971962615
     },
     {
         "id": "Q988129",
         "name": "Mary Whiton Calkins",
         "birth": 1863,
         "death": 1930,
-        "priority": 0.4458874458874459
+        "priority": 0.40186915887850466
     },
     {
         "id": "Q991",
         "name": "Fyodor Dostoyevsky",
         "birth": 1821,
         "death": 1881,
-        "priority": 0.9567099567099567
+        "priority": 0.9532710280373832
     }
 ]
