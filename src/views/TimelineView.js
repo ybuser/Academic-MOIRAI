@@ -43,6 +43,19 @@ const TimelineView = (props) => {
     cursor: 'pointer' 
   };
 
+  const searchContainerStyle = {
+    position: 'absolute',
+    top: '10px',
+    right: '10px',
+    zIndex: 100,
+    display: 'flex',
+    alignItems: 'center',
+    backgroundColor: 'white',
+    padding: '5px',
+    borderRadius: '5px',
+    border: '1px solid #ddd'
+  };
+
   const computeBarYPosition = (data, direction = "center") => {
     const xOverlaps = (a, b) => {
       let offset = d3.scaleLinear().domain([minScale, maxScale]).range([(a.name.length + b.name.length) * 4, 1])(zoomScale);
@@ -492,7 +505,8 @@ const TimelineView = (props) => {
           />
         </div>
 
-        <div style={{ position: 'absolute', top: '10px', right: '10px', zIndex: 100 }}>
+        <div style={searchContainerStyle}>
+          <span role="img" aria-label="search" style={{ marginRight: '5px' }}>🔍</span>
           <input
             type="text"
             placeholder="Search philosophers..."
