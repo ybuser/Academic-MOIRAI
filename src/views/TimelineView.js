@@ -527,7 +527,7 @@ const TimelineView = (props) => {
             bottom: '20px', 
             visibility: 'hidden', 
           }}>Nodes: {nodeCount}</div> */}
-          <span style={{ marginLeft: '5x', marginRight: '10px' }}>Show less</span>
+          <span style={{ marginLeft: '20x', marginRight: '10px' }}>Show less</span>
           <input
             type="range"
             min="10"
