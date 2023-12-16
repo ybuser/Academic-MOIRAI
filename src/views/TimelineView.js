@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react'
 import * as d3 from "d3";
 import { act } from 'react-dom/test-utils';
+import ButtonGroup from '@mui/material/ButtonGroup';
+import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import ZoomInIcon from '@mui/icons-material/ZoomIn';
 import ZoomOutIcon from '@mui/icons-material/ZoomOut';
@@ -9,10 +11,14 @@ const TimelineView = (props) => {
   
   const svgContainerRef = useRef(null); 
   const splotSvg = useRef(null);
-  const [zoomScale, setZoomScale] = useState(1);
-  const minScale = 0.05;
-  const maxScale = 1;
-  const [desiredVisiblePercentage, setDesiredVisiblePercentage] = useState(80); // Initial value set to 100%
+  const minScale = 1;
+  const maxScale = 8;
+  const [zoomScale, setZoomScale] = useState(minScale);
+  // const minWidthPerYear = window.frameElement.clientWidth / 2700;
+  const minWidthPerYear = 1400 / 2700;
+  const zoomMult = 1.5;
+
+  const [desiredVisiblePercentage, setDesiredVisiblePercentage] = useState(10); // Initial value set to 100%
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
 
@@ -34,14 +40,14 @@ const TimelineView = (props) => {
     { color: "#EEA3B1", text: "InfluencedBy" }
   ];
 
-  const buttonStyle = {
-    width: '30px', 
-    height: '30px', 
-    fontSize: '20px',
-    padding: '5px', 
-    margin: '5px', 
-    cursor: 'pointer' 
-  };
+  // const buttonStyle = {
+  //   width: '30px', 
+  //   height: '30px', 
+  //   fontSize: '20px',
+  //   padding: '5px', 
+  //   margin: '5px', 
+  //   cursor: 'pointer' 
+  // };
 
   const searchContainerStyle = {
     position: 'absolute',
@@ -58,7 +64,7 @@ const TimelineView = (props) => {
 
   const computeBarYPosition = (data, direction = "center") => {
     const xOverlaps = (a, b) => {
-      let offset = d3.scaleLinear().domain([minScale, maxScale]).range([(a.name.length + b.name.length) * 4, 1])(zoomScale);
+      let offset = d3.scaleLinear().domain([minScale, maxScale]).range([(a.name.length + b.name.length) * 5, 1])(zoomScale);
       return a.birth < b.death + offset && a.death + offset > b.birth;
     }
   
@@ -146,7 +152,7 @@ const TimelineView = (props) => {
   const extraHeightForXAxis = 30; 
 
 
-  let widthPerYear = 10;
+  let widthPerYear = minWidthPerYear*zoomScale;
   let width = widthPerYear * timelineLength + margin.left + margin.right;
 
   let yPos = computeBarYPosition(data);
@@ -176,7 +182,7 @@ const TimelineView = (props) => {
   }, [props.selectedPhilosopher, desiredVisiblePercentage]);
 
   useEffect(() => {
-    widthPerYear = 10*zoomScale;
+    widthPerYear = minWidthPerYear*zoomScale;
     width = widthPerYear * timelineLength + margin.left + margin.right;
 
     // desiredVisiblePercentage = d3.scaleLinear().domain([minScale, maxScale]).range([80, 0])(zoomScale);
@@ -236,7 +242,7 @@ const TimelineView = (props) => {
       .attr("transform", `translate(0,${chartHeight})`)
       .attr("class", "x-axis")
       .call(d3.axisBottom(xScale)
-        .tickValues(d3.range(Math.floor(minYear / 20) * 20, maxYear, Math.ceil(200 / widthPerYear / 10) * 10))
+        .tickValues(d3.range(Math.ceil(minYear / 100) * 100, maxYear, Math.min(Math.ceil(200 / widthPerYear / 50) * 50, 100)))
         .tickFormat(d3.format(".0f"))
         .tickSizeOuter(0));
 
@@ -485,7 +491,7 @@ const TimelineView = (props) => {
   return (
     <div style={{chartHeight}}>
       <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px', display: 'flex', alignItems: 'center' }}>
-        <h2 style={{ margin: '0' }}>Timeline View</h2>
+        <h2 style={{ margin: '0 10px 0 10px'}}>Timeline View</h2>
         <div style={{ marginLeft: '20px', display: 'flex', alignItems: 'center' }}>
           {legendData.map((item, index) => (
             <div key={index} style={{ display: 'flex', alignItems: 'center', marginRight: '10px' }}>
@@ -494,12 +500,21 @@ const TimelineView = (props) => {
             </div>
           ))}
         </div>
-        <Button variant="outlined" onClick={() => handleZoom(1.25)} disabled={zoomScale * 1.25 > maxScale}  style={buttonStyle}>
-          +
-        </Button>
-        <Button variant="outlined" onClick={() => handleZoom(0.8)} disabled={zoomScale * 0.8 < minScale} style={buttonStyle}>
-          -
-        </Button>
+        <ButtonGroup variant="outlined" aria-label="outlined button group" >
+          <IconButton  onClick={() => handleZoom(zoomMult)} disabled={zoomScale * 1.25 > maxScale} color="primary" aria-label="zoomIn">
+            <ZoomInIcon />
+          </IconButton>
+          <IconButton  onClick={() => handleZoom(1/zoomMult)} disabled={zoomScale * 0.8 < minScale} color="primary" aria-label="zoomOut">
+            <ZoomOutIcon />
+          </IconButton>
+          {/* <Button variant="outlined" onClick={() => handleZoom(1.25)} disabled={zoomScale * 1.25 > maxScale}>
+            +
+          </Button>
+          <Button variant="outlined" onClick={() => handleZoom(0.8)} disabled={zoomScale * 0.8 < minScale}>
+            -
+          </Button> */}
+        </ButtonGroup>
+        
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <span style={{ marginLeft: '20px', marginRight: '10px' }}>Show less</span>
           <input
@@ -539,7 +554,7 @@ const TimelineView = (props) => {
           )}
         </div>
       </div>
-      <div ref={svgContainerRef} style={{ width: '100%', overflow: 'auto', height: `383px` }}>
+      <div ref={svgContainerRef} style={{ width: '100%', overflow: 'auto', height: `383px`, justifyContent: 'center' }}>
         <svg ref={splotSvg} width={width} height={svgHeight}></svg>
       </div>
     </div>
