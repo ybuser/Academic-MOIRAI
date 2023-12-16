@@ -13,6 +13,8 @@ const TimelineView = (props) => {
   const minScale = 0.05;
   const maxScale = 1;
   const [desiredVisiblePercentage, setDesiredVisiblePercentage] = useState(80); // Initial value set to 100%
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
 
   let data = props.data;
   let relationships = props.relationships; 
@@ -39,6 +41,19 @@ const TimelineView = (props) => {
     padding: '5px', 
     margin: '5px', 
     cursor: 'pointer' 
+  };
+
+  const searchContainerStyle = {
+    position: 'absolute',
+    top: '10px',
+    right: '10px',
+    zIndex: 100,
+    display: 'flex',
+    alignItems: 'center',
+    backgroundColor: 'white',
+    padding: '5px',
+    borderRadius: '5px',
+    border: '1px solid #ddd'
   };
 
   const computeBarYPosition = (data, direction = "center") => {
@@ -413,6 +428,54 @@ const TimelineView = (props) => {
     }
   }
 
+  // Function to handle search input changes
+  const handleSearchChange = (event) => {
+    const query = event.target.value;
+    setSearchQuery(query);
+
+    if (query.length > 0) {
+      const results = data.filter(philosopher =>
+        philosopher.name.toLowerCase().includes(query.toLowerCase())
+      );
+      setSearchResults(results);
+    } else {
+      setSearchResults([]);
+    }
+  };
+
+  // Function to handle selection of a philosopher from search results
+  const handleSelectPhilosopher = (philosopherId) => {
+    props.setSelectedPhilosopher(philosopherId.replace('Q', ''));
+    setSearchQuery('');
+    setSearchResults([]);
+    centerAlignment(findPhilosopherById(philosopherId));
+  };
+
+  const findPhilosopherById = (id) => {
+    return data.find(philosopher => philosopher.id === id);
+  };
+
+  // Styles for the dropdown container
+  const dropdownStyle = {
+    backgroundColor: 'white',
+    position: 'absolute',
+    right: 0,
+    top: '30px', // Adjust as necessary
+    border: '1px solid #ddd', // Optional, for border around dropdown
+    zIndex: 1000 // To ensure it appears above other content
+  };
+
+  // Styles for each dropdown item
+  const dropdownItemStyle = {
+    padding: '5px 10px', // Adjust for padding
+    cursor: 'pointer'
+  };
+
+  // Styles for dropdown item on hover
+  const dropdownItemHoverStyle = {
+    backgroundColor: '#f0f0f0' // Color change on hover
+  };
+
   return (
     <div style={{chartHeight}}>
       <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px', display: 'flex', alignItems: 'center' }}>
@@ -440,6 +503,32 @@ const TimelineView = (props) => {
             onChange={(e) => setDesiredVisiblePercentage(e.target.value)}
             style={{ /* Styles for the scrollbar */ }}
           />
+        </div>
+
+        <div style={searchContainerStyle}>
+          <span role="img" aria-label="search" style={{ marginRight: '5px' }}>🔍</span>
+          <input
+            type="text"
+            placeholder="Search philosophers..."
+            value={searchQuery}
+            onChange={handleSearchChange}
+            style={{ /* Add styles for the search input */ }}
+          />
+          {searchResults.length > 0 && (
+            <div style={dropdownStyle}>
+              {searchResults.map(philosopher => (
+                <div
+                  key={philosopher.id}
+                  onClick={() => handleSelectPhilosopher(philosopher.id)}
+                  style={dropdownItemStyle}
+                  onMouseOver={(e) => e.currentTarget.style.backgroundColor = dropdownItemHoverStyle.backgroundColor}
+                  onMouseOut={(e) => e.currentTarget.style.backgroundColor = ''}
+                >
+                  {philosopher.name}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
       <div ref={svgContainerRef} style={{ width: '100%', overflow: 'auto', height: `383px` }}>
