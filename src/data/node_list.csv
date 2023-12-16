@@ -1,6 +1,4 @@
 id,name,node_desc,node_birth,node_death,wiki_link
-Q951297,Harvey Friedman,American mathematician and logician,+1948-09-23T00:00:00Z,,https://en.wikipedia.org/wiki/Harvey_Friedman
-Q37327,Samuel Beckett,Nobel-winning Irish writer (1906–1989),+1906-04-13T00:00:00Z,+1989-12-22T00:00:00Z,https://en.wikipedia.org/wiki/Samuel_Beckett
 Q715169,George Buchanan,Scottish historian and humanist scholar; (1506-1582),+1506-02-01T00:00:00Z,+1582-09-28T00:00:00Z,https://en.wikipedia.org/wiki/George_Buchanan
 Q217771,George Gurdjieff,"Philosopher, mystic, and writer (c. 1866–1877 – 1949)",+1866-01-13T00:00:00Z,+1949-10-29T00:00:00Z,https://en.wikipedia.org/wiki/George_Gurdjieff
 Q676267,Henry Bate of Malines,Flemish philosopher,+1246-03-24T00:00:00Z,+1310-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Henry_Bate_of_Mechelen
@@ -45,7 +43,6 @@ Q190089,Duns Scotus,Scottish Franciscan friar and philosopher (c. 1265/66–13
 Q4295,Peter Abelard,"French scholastic philosopher, theologian and preeminent logician (c.1079-1142)",+1079-01-01T00:00:00Z,+1142-04-21T00:00:00Z,https://en.wikipedia.org/wiki/Peter_Abelard
 Q184530,Gerolamo Cardano,"Italian Renaissance mathematician, physician, astrologer (1501-1576)",+1501-09-24T00:00:00Z,+1576-09-21T00:00:00Z,https://en.wikipedia.org/wiki/Gerolamo_Cardano
 Q313581,Nicolae Iorga,"Romanian historian, politician, literary critic, memoirist, poet and playwright",+1871-01-17T00:00:00Z,+1940-11-27T00:00:00Z,https://en.wikipedia.org/wiki/Nicolae_Iorga
-Q1252398,John McDowell,South African philosopher and academic,+1942-03-07T00:00:00Z,,https://en.wikipedia.org/wiki/John_McDowell
 Q132489,Amartya Sen,Indian economist and philosopher,+1933-11-03T00:00:00Z,,https://en.wikipedia.org/wiki/Amartya_Sen
 Q310765,David Bohm,American theoretical physicist,+1917-12-20T00:00:00Z,+1992-10-27T00:00:00Z,https://en.wikipedia.org/wiki/David_Bohm
 Q272411,Mozi,5th-century BC Chinese philosopher and founder of Mohism,-0470-01-01T00:00:00Z,-0391-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Mozi
@@ -56,12 +53,9 @@ Q969533,Tahar al-Haddad,"Tunisian intellectual, trade unionist and politician",+
 Q1381628,Gerardus van der Leeuw,Dutch religious studies scholar and politician (1890–1950),+1890-03-18T00:00:00Z,+1950-11-18T00:00:00Z,https://en.wikipedia.org/wiki/Gerard_van_der_Leeuw
 Q201538,Edward Said,Palestinian-American professor (1935–2003),+1935-11-01T00:00:00Z,+2003-09-25T00:00:00Z,https://en.wikipedia.org/wiki/Edward_Said
 Q297040,Apollonius of Tyana,1st century AD Greek Neopythagorean philosopher,+0015-00-00T00:00:00Z,+0100-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Apollonius_of_Tyana
-Q876398,Hans Kamp,Dutch philosopher and linguist,+1940-09-05T00:00:00Z,,https://en.wikipedia.org/wiki/Hans_Kamp
 Q320042,Antiochus of Ascalon,ancient Greek philosopher,-0130-00-00T00:00:00Z,-0068-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Antiochus_of_Ascalon
-Q3309295,Michel Clouscard,French Marxist philosopher and sociologist,+1928-08-06T00:00:00Z,+2009-02-21T00:00:00Z,https://en.wikipedia.org/wiki/Michel_Clouscard
 Q82934,"Claude Henri de Rouvroy, comte de Saint-Simon",French early socialist theorist (1760-1825),+1760-10-17T00:00:00Z,+1825-05-19T00:00:00Z,https://en.wikipedia.org/wiki/Henri_de_Saint-Simon
 Q201484,John Dee,"16th-century English mathematician, astrologer, and alchemist",+1527-07-13T00:00:00Z,+1608-12-00T00:00:00Z,https://en.wikipedia.org/wiki/John_Dee
-Q2476671,Ulrich Schrade,Polish philosopher (1943-2009),+1943-07-21T00:00:00Z,+2009-11-15T00:00:00Z,https://en.wikipedia.org/wiki/Ulrich_Schrade
 Q279359,Vilna Gaon,Polish-Lithuanian rabbi and Talmudist (1720–1797),+1720-04-23T00:00:00Z,+1797-10-09T00:00:00Z,https://en.wikipedia.org/wiki/Vilna_Gaon
 Q44490,John Henry Newman,"English cleric, cardinal and saint (1801-1890)",+1801-02-21T00:00:00Z,+1890-08-11T00:00:00Z,https://en.wikipedia.org/wiki/John_Henry_Newman
 Q9215,Sigmund Freud,Austrian neurologist and founder of psychoanalysis (1856–1939),+1856-05-06T00:00:00Z,+1939-09-23T00:00:00Z,https://en.wikipedia.org/wiki/Sigmund_Freud
@@ -75,18 +69,14 @@ Q78603,Christian von Ehrenfels,Austrian philosopher (1859-1932),+1859-06-20T00:0
 Q177847,Lucian of Samosata,2nd-century Syrian satirist and rhetorician,+0120-00-00T00:00:00Z,+0200-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Lucian
 Q35802,Benedictus de Spinoza,Dutch philosopher (1632–1677),+1632-11-24T00:00:00Z,+1677-02-21T00:00:00Z,https://en.wikipedia.org/wiki/Baruch_Spinoza
 Q404023,Aedesius,Neoplatonist philosopher,+0280-00-00T00:00:00Z,+0355-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Aedesius
-Q384522,David Lewis,American philosopher (1941–2001),+1941-09-28T00:00:00Z,+2001-10-14T00:00:00Z,https://en.wikipedia.org/wiki/David_Lewis_(philosopher)
 Q212338,Philolaus,"Greek philosopher, astronomer and Pythagorean (c.470–c.385 BCE)",-0470-01-01T00:00:00Z,-0390-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Philolaus
 Q27645,Mikhail Bakunin,Russian revolutionary anarchist and philosopher (1814–1876),+1814-05-30T00:00:00Z,+1876-07-01T00:00:00Z,https://en.wikipedia.org/wiki/Mikhail_Bakunin
 Q452091,William Whiston,"theologian, historian, mathematician (1667-1752)",+1667-12-09T00:00:00Z,+1752-08-22T00:00:00Z,https://en.wikipedia.org/wiki/William_Whiston
 Q463723,Nikolai Fyodorovich Fyodorov,Russian philosopher and life extensionist (1829-1903),+1829-05-26T00:00:00Z,+1903-12-15T00:00:00Z,https://en.wikipedia.org/wiki/Nikolai_Fyodorov_(philosopher)
-Q171091,Philip K. Dick,American science fiction author (1928–1982),+1928-12-16T00:00:00Z,+1982-03-02T00:00:00Z,https://en.wikipedia.org/wiki/Philip_K._Dick
 Q77148,Carl Schmitt,"German jurist, political theorist and professor of law (1888-1985)",+1888-07-12T00:00:00Z,+1985-04-07T00:00:00Z,https://en.wikipedia.org/wiki/Carl_Schmitt
 Q189564,Pierre Teilhard de Chardin,"French philosopher, Jesuit priest, and paleontologist",+1881-05-01T00:00:00Z,+1955-04-10T00:00:00Z,https://en.wikipedia.org/wiki/Pierre_Teilhard_de_Chardin
 Q185117,Justin Martyr,2nd century CE Christian apologist and martyr,+0100-01-01T00:00:00Z,+0165-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Justin_Martyr
-Q2955937,Chamaeleon,Greek Peripatetic philosopher (c.350–c.275 BC),-0400-00-00T00:00:00Z,-0300-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Chamaeleon_(philosopher)
-Q3051714,Elsa Dorlin,French philosopher,+1974-01-01T00:00:00Z,,https://en.wikipedia.org/wiki/Elsa_Dorlin
-Q4765569,Anita L. Allen,American lawyer,+1953-03-24T00:00:00Z,,https://en.wikipedia.org/wiki/Anita_L._Allen
+Q2955937,Chamaeleon,Greek Peripatetic philosopher (c.350–c.275 BC),-0350-00-00T00:00:00Z,-0275-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Chamaeleon_(philosopher)
 Q331853,Benjamin Lee Whorf,American linguist (1897-1941),+1897-04-24T00:00:00Z,+1941-07-26T00:00:00Z,https://en.wikipedia.org/wiki/Benjamin_Lee_Whorf
 Q345641,Bernard Williams,English moral philosopher (1929–2003),+1929-09-21T00:00:00Z,+2003-06-10T00:00:00Z,https://en.wikipedia.org/wiki/Bernard_Williams
 Q913,Socrates,classical Greek Athenian philosopher (c. 470 – 399 BC),-0470-00-00T00:00:00Z,-0399-02-15T00:00:00Z,https://en.wikipedia.org/wiki/Socrates
@@ -101,7 +91,6 @@ Q113951,Erik von Kuehnelt-Leddihn,Austrian noble and political theorist (1909-19
 Q125249,William James,"American philosopher, psychologist, and pragmatist (1842–1910)",+1842-01-11T00:00:00Z,+1910-08-26T00:00:00Z,https://en.wikipedia.org/wiki/William_James
 Q991,Fyodor Dostoyevsky,Russian novelist (1821–1881),+1821-11-11T00:00:00Z,+1881-01-28T00:00:00Z,https://en.wikipedia.org/wiki/Fyodor_Dostoevsky
 Q313666,Georges Sorel,French philosopher and sociologist,+1847-11-02T00:00:00Z,+1922-08-29T00:00:00Z,https://en.wikipedia.org/wiki/Georges_Sorel
-Q211539,Peter Singer,Australian moral philosopher,+1946-07-06T00:00:00Z,,https://en.wikipedia.org/wiki/Peter_Singer
 Q2927235,Bryson of Achaea,4th-century BC Greek philosopher,-0450-00-00T00:00:00Z,-0400-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Bryson_of_Achaea
 Q76688,Hans-Hermann Hoppe,Austrian school economist and libertarian anarcho-capitalist philosopher,+1949-09-02T00:00:00Z,,https://en.wikipedia.org/wiki/Hans-Hermann_Hoppe
 Q60025,Hannah Arendt,German-American political theorist and philosopher (1906–1975),+1906-10-14T00:00:00Z,+1975-12-04T00:00:00Z,https://en.wikipedia.org/wiki/Hannah_Arendt
@@ -135,8 +124,6 @@ Q188569,William Godwin,"English journalist, political philosopher and novelist",
 Q215258,Richard Rorty,American philosopher,+1931-10-04T00:00:00Z,+2007-06-08T00:00:00Z,https://en.wikipedia.org/wiki/Richard_Rorty
 Q44258,Basil of Caesarea,4th-century Christian bishop and saint,+0329-01-01T00:00:00Z,+0379-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Basil_of_Caesarea
 Q127398,Moshe ben Maimon,Medieval Jewish philosopher from Spain (1135–1204),+1138-03-30T00:00:00Z,+1204-12-13T00:00:00Z,https://en.wikipedia.org/wiki/Maimonides
-Q16192619,Selmer Bringsjord,American computer scientist,+1958-11-24T00:00:00Z,,https://en.wikipedia.org/wiki/Selmer_Bringsjord
-Q15448970,Walter Jaeschke,philosopher and Hegel scholar,+1945-09-20T00:00:00Z,+2022-07-14T00:00:00Z,https://en.wikipedia.org/wiki/Walter_Jaeschke
 Q130631,Jacques Derrida,Algerian-French philosopher,+1930-07-15T00:00:00Z,+2004-10-08T00:00:00Z,https://en.wikipedia.org/wiki/Jacques_Derrida
 Q1514998,Gershom Carmichael,Scottish philosopher,+1672-01-01T00:00:00Z,+1729-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Gershom_Carmichael
 Q163087,Michael Polanyi,Hungarian-British polymath,+1891-03-11T00:00:00Z,+1976-02-22T00:00:00Z,https://en.wikipedia.org/wiki/Michael_Polanyi
@@ -170,10 +157,8 @@ Q57280,Johann Joachim Winckelmann,"German art historian and archaeologist, and c
 Q259507,bell hooks,"American author, feminist, and social activist",+1952-09-25T00:00:00Z,+2021-12-15T00:00:00Z,https://en.wikipedia.org/wiki/Bell_hooks
 Q182905,Georgi Plekhanov,Russian philosopher (1856–1918),+1856-11-29T00:00:00Z,+1918-05-30T00:00:00Z,https://en.wikipedia.org/wiki/Georgi_Plekhanov
 Q131149,Henry David Thoreau,"American essayist, poet, and philosopher (1817–1862)",+1817-07-12T00:00:00Z,+1862-05-06T00:00:00Z,https://en.wikipedia.org/wiki/Henry_David_Thoreau
-Q28918,Luce Irigaray,"Belgian-born French feminist, philosopher, linguist, psycholinguist, psychoanalyst and cultural theorist",+1930-05-03T00:00:00Z,,https://en.wikipedia.org/wiki/Luce_Irigaray
 Q473773,David Low,British (Australasian) cartoonist (1891-1963),+1891-04-07T00:00:00Z,+1963-09-19T00:00:00Z,https://en.wikipedia.org/wiki/David_Low_(cartoonist)
 Q41568,Michel de Montaigne,"French author, philosopher, and statesman (1533–1592)",+1533-02-28T00:00:00Z,+1592-09-12T00:00:00Z,https://en.wikipedia.org/wiki/Michel_de_Montaigne
-Q215506,Jerry Seinfeld,American comedian and actor,+1954-04-29T00:00:00Z,,https://en.wikipedia.org/wiki/Jerry_Seinfeld
 Q5424032,F. S. C. Northrop,American philosopher (1893-1992),+1893-11-27T00:00:00Z,+1992-07-21T00:00:00Z,https://en.wikipedia.org/wiki/F._S._C._Northrop
 Q138850,Gershom Scholem,German-born Israeli philosopher and historian (1897–1982),+1897-12-05T00:00:00Z,+1982-02-21T00:00:00Z,https://en.wikipedia.org/wiki/Gershom_Scholem
 Q76420,Georg Cantor,"German mathematician, inventor of set theory (1845–1918)",+1845-02-19T00:00:00Z,+1918-01-06T00:00:00Z,https://en.wikipedia.org/wiki/Georg_Cantor
@@ -186,7 +171,6 @@ Q1394,Vladimir Lenin,"Russian politician, communist theorist and the founder of 
 Q60887,Jeremy Bentham,"British philosopher, jurist, and social reformer (1748–1832)",+1749-02-15T00:00:00Z,+1832-06-06T00:00:00Z,https://en.wikipedia.org/wiki/Jeremy_Bentham
 Q2010955,Mulla Sadra,Iranian Sufi and Shia Muslim Theologian,+1571-00-00T00:00:00Z,+1641-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Mulla_Sadra
 Q193660,Ramon Llull,Majorcan writer and philosopher,+1232-00-00T00:00:00Z,+1316-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Ramon_Llull
-Q159876,Julia Kristeva,"Bulgarian philosopher, psychoanalyst & academic",+1941-06-24T00:00:00Z,,https://en.wikipedia.org/wiki/Julia_Kristeva
 Q381710,Symeon the New Theologian,"Christian saint, monk, and theologian",+0949-01-01T00:00:00Z,+1022-03-12T00:00:00Z,https://en.wikipedia.org/wiki/Symeon_the_New_Theologian
 Q169243,Protagoras,Pre-Socratic Greek philosopher (c.490–c.420 BC),-0486-00-00T00:00:00Z,-0420-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Protagoras
 Q243757,A. J. Ayer,English philosopher,+1910-10-29T00:00:00Z,+1989-06-27T00:00:00Z,https://en.wikipedia.org/wiki/A._J._Ayer
@@ -198,9 +182,8 @@ Q76857,Franz Boas,German-American anthropologist,+1858-07-09T00:00:00Z,+1942-12-
 Q550629,Lyndon LaRouche,American political activist (1922-2019),+1922-09-08T00:00:00Z,+2019-02-12T00:00:00Z,https://en.wikipedia.org/wiki/Lyndon_LaRouche
 Q5752,Peter Kropotkin,Russian revolutionary socialist and philosopher (1842–1921),+1842-11-27T00:00:00Z,+1921-02-08T00:00:00Z,https://en.wikipedia.org/wiki/Peter_Kropotkin
 Q2066255,Fazlur Rahman Malik,Pakistani philosopher,+1919-09-21T00:00:00Z,+1988-07-26T00:00:00Z,https://en.wikipedia.org/wiki/Fazlur_Rahman_Malik
-Q290536,Ram Dass,American contemporary spiritual teacher and the author of the 1971 book Be Here Now,+1931-04-06T00:00:00Z,+2019-12-22T00:00:00Z,https://en.wikipedia.org/wiki/Ram_Dass
 Q140694,Alexis de Tocqueville,French political thinker and historian (1805-1859),+1805-07-29T00:00:00Z,+1859-04-16T00:00:00Z,https://en.wikipedia.org/wiki/Alexis_de_Tocqueville
-Q486945,Sotion,ancient Greek philosopher,-0100-01-01T00:00:00Z,+0100-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Sotion_(Pythagorean)
+Q486945,Sotion,ancient Greek philosopher,-0040-01-01T00:00:00Z,+0040-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Sotion_(Pythagorean)
 Q231690,Bhimrao Ramji Ambedkar,"Indian polymath, philosopher, and social reformer (1891–1956)",+1891-04-14T00:00:00Z,+1956-12-06T00:00:00Z,https://en.wikipedia.org/wiki/B._R._Ambedkar
 Q43689,Ambrose,Roman theologian and Bishop of Milan (c. 340–397),+0339-00-00T00:00:00Z,+0397-04-04T00:00:00Z,https://en.wikipedia.org/wiki/Ambrose
 Q188411,Bernard of Clairvaux,"Burgundian saint, abbot and theologian (1090-1153)",+1090-01-01T00:00:00Z,+1153-08-20T00:00:00Z,https://en.wikipedia.org/wiki/Bernard_of_Clairvaux
@@ -208,26 +191,20 @@ Q762,Leonardo da Vinci,Italian Renaissance polymath (1452−1519),+1452-04-15T00
 Q61078,Walter Benjamin,"German literary critic, philosopher and social critic (1892–1940)",+1892-07-15T00:00:00Z,+1940-09-26T00:00:00Z,https://en.wikipedia.org/wiki/Walter_Benjamin
 Q6353,Gerardus Mercator,"Flemish geographer, cosmographer and cartographer (1512–1594)",+1512-03-05T00:00:00Z,+1594-12-02T00:00:00Z,https://en.wikipedia.org/wiki/Gerardus_Mercator
 Q9049,Noam Chomsky,American linguist and activist (born 1928),+1928-12-07T00:00:00Z,,https://en.wikipedia.org/wiki/Noam_Chomsky
-Q314215,Robert Anton Wilson,"American author, futurist, and agnostic mystic",+1932-01-18T00:00:00Z,+2007-01-11T00:00:00Z,https://en.wikipedia.org/wiki/Robert_Anton_Wilson
 Q5715809,Henric Sanielevici,"Romanian journalist and literary critic, also remembered for his work in anthropology, ethnography, sociology and zoology (1875-1951)",+1875-09-21T00:00:00Z,+1951-02-19T00:00:00Z,https://en.wikipedia.org/wiki/Henric_Sanielevici
 Q191734,Gregory of Nyssa,bishop of Nyssa,+0335-00-00T00:00:00Z,+0395-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Gregory_of_Nyssa
 Q76586,Karl Kautsky,"Czech-Austrian philosopher, journalist, and Marxist theoretician (1854-1938)",+1854-10-16T00:00:00Z,+1938-10-17T00:00:00Z,https://en.wikipedia.org/wiki/Karl_Kautsky
 Q188903,Mencius,Chinese Confucian philosopher (372–289 BC),-0372-00-00T00:00:00Z,-0289-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Mencius
 Q81447,Aldous Huxley,English writer and philosopher (1894–1963),+1894-07-26T00:00:00Z,+1963-11-22T00:00:00Z,https://en.wikipedia.org/wiki/Aldous_Huxley
-Q7347121,Robert M. French,cognitive scientist,+1951-01-01T00:00:00Z,,https://en.wikipedia.org/wiki/Robert_M._French
-Q14946680,Alasdair Cochrane,"British political theorist, ethicist, activist, author",+1978-03-31T00:00:00Z,,https://en.wikipedia.org/wiki/Alasdair_Cochrane
 Q104461,Heinrich Scholz,German theologian (1884-1956),+1884-12-17T00:00:00Z,+1956-12-30T00:00:00Z,https://en.wikipedia.org/wiki/Heinrich_Scholz
 Q5524998,Gary Drescher,American artificial intelligence scientist,,,https://en.wikipedia.org/wiki/Gary_Drescher
 Q41532,Carl Jung,Swiss psychiatrist and psychotherapist (1875–1961),+1875-07-26T00:00:00Z,+1961-06-06T00:00:00Z,https://en.wikipedia.org/wiki/Carl_Jung
-Q8005287,William Bechtel,American philosopher,+1951-00-00T00:00:00Z,,https://en.wikipedia.org/wiki/William_Bechtel
 Q37160,David Hume,"Scottish philosopher, economist, and historian",+1711-04-26T00:00:00Z,+1776-08-25T00:00:00Z,https://en.wikipedia.org/wiki/David_Hume
 Q535769,Metrodorus of Chios,4th-century BC Greek philosopher,-0500-01-01T00:00:00Z,-0400-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Metrodorus_of_Chios
 Q44272,Michel Foucault,French philosopher,+1926-10-15T00:00:00Z,+1984-06-25T00:00:00Z,https://en.wikipedia.org/wiki/Michel_Foucault
-Q3312283,John Finnis,Australian legal scholar and philosopher,+1940-07-28T00:00:00Z,,https://en.wikipedia.org/wiki/John_Finnis
 Q456963,Candrakīrti,Indian philosopher,+0600-01-01T00:00:00Z,+0650-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Chandrakirti
 Q316045,Georg Brandes,Danish literature critic and scholar,+1842-02-04T00:00:00Z,+1927-02-19T00:00:00Z,https://en.wikipedia.org/wiki/Georg_Brandes
 Q3498726,Harold Arthur Prichard,British philosopher,+1871-01-01T00:00:00Z,+1947-01-01T00:00:00Z,https://en.wikipedia.org/wiki/H._A._Prichard
-Q3838517,Luciano Anceschi,Italian literary critic and essayist,+1911-02-20T00:00:00Z,+1995-05-02T00:00:00Z,https://en.wikipedia.org/wiki/Luciano_Anceschi
 Q58586,Edmund Husserl,"German philosopher, known as the father of phenomenology (*1859 – †1938)",+1859-04-08T00:00:00Z,+1938-04-27T00:00:00Z,https://en.wikipedia.org/wiki/Edmund_Husserl
 Q3635215,Indra Sen,Indian psychologist,+1903-05-13T00:00:00Z,+1994-03-14T00:00:00Z,https://en.wikipedia.org/wiki/Indra_Sen
 Q19008,Arthur Balfour,"British Prime Minister, Conservative politician, and statesman (1848-1930)",+1848-07-25T00:00:00Z,+1930-03-19T00:00:00Z,https://en.wikipedia.org/wiki/Arthur_Balfour
@@ -237,7 +214,6 @@ Q184366,Thomas Henry Huxley,British biologist and comparative anatomist (1825–
 Q59180,Diogenes of Sinope,4th-century BC Greek Cynic philosopher,-0412-00-00T00:00:00Z,-0323-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Diogenes
 Q1963396,Najm al-Din Razi,Persian poet and philosopher,+1177-00-00T00:00:00Z,+1256-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Najm_al-Din_Razi
 Q84412,Wilhelm Reich,Austro-Hungarian-born Austrian-American psychoanalyst (1897-1957),+1897-03-24T00:00:00Z,+1957-11-03T00:00:00Z,https://en.wikipedia.org/wiki/Wilhelm_Reich
-Q327630,Wesley C. Salmon,American philosopher,+1925-01-01T00:00:00Z,+2001-04-22T00:00:00Z,https://en.wikipedia.org/wiki/Wesley_C._Salmon
 Q61151,Eduard Spranger,German psychologist (1882-1963),+1882-06-27T00:00:00Z,+1963-09-17T00:00:00Z,https://en.wikipedia.org/wiki/Eduard_Spranger
 Q555693,Timofey Granovsky,Russian historian (1813-1855),+1813-03-09T00:00:00Z,+1855-10-04T00:00:00Z,https://en.wikipedia.org/wiki/Timofey_Granovsky
 Q3557581,Victor Skumin,"Russian scientist, writer, philosopher",+1948-08-30T00:00:00Z,,https://en.wikipedia.org/wiki/Victor_Skumin
@@ -253,12 +229,10 @@ Q558275,Aryadeva,3rd century Sri Lankan philosopher and writer,+0200-01-01T00:00
 Q185832,Emmanuel Swedenborg,Swedish 18th century scientist and theologian,+1688-01-29T00:00:00Z,+1772-03-29T00:00:00Z,https://en.wikipedia.org/wiki/Emanuel_Swedenborg
 Q5749,Pierre-Joseph Proudhon,"French politician, philosopher, anarchist and socialist (1809–1865)",+1809-01-15T00:00:00Z,+1865-01-19T00:00:00Z,https://en.wikipedia.org/wiki/Pierre-Joseph_Proudhon
 Q314189,Lev Shestov,Russian existentialist philosopher (1866 – 1938),+1866-01-24T00:00:00Z,+1938-11-19T00:00:00Z,https://en.wikipedia.org/wiki/Lev_Shestov
-Q5525794,Gary R. Mar,American philosopher,+1952-01-01T00:00:00Z,,https://en.wikipedia.org/wiki/Gary_R._Mar
 Q101638,Mary Wollstonecraft,English writer and intellectual (1759–1797),+1759-04-27T00:00:00Z,+1797-09-10T00:00:00Z,https://en.wikipedia.org/wiki/Mary_Wollstonecraft
 Q76749,Edith Stein,"Jewish-German Catholic nun, theologian and philosopher (1891–1942)",+1891-10-12T00:00:00Z,+1942-08-09T00:00:00Z,https://en.wikipedia.org/wiki/Edith_Stein
 Q41590,Mircea Eliade,"Romanian-American historian, writer, philosopher and professor at the University of Chicago",+1907-03-09T00:00:00Z,+1986-04-22T00:00:00Z,https://en.wikipedia.org/wiki/Mircea_Eliade
 Q355201,Alvin Plantinga,American Christian philosopher,+1932-11-15T00:00:00Z,,https://en.wikipedia.org/wiki/Alvin_Plantinga
-Q335011,Thomas Merton,priest and author,+1915-01-31T00:00:00Z,+1968-12-10T00:00:00Z,https://en.wikipedia.org/wiki/Thomas_Merton
 Q295386,G. E. Moore,English philosopher (1873–1958),+1873-11-04T00:00:00Z,+1958-10-24T00:00:00Z,https://en.wikipedia.org/wiki/G._E._Moore
 Q373036,Claude Lefort,French philosopher,+1924-04-21T00:00:00Z,+2010-10-03T00:00:00Z,https://en.wikipedia.org/wiki/Claude_Lefort
 Q7060,Michel Onfray,French philosopher,+1959-01-01T00:00:00Z,,https://en.wikipedia.org/wiki/Michel_Onfray
@@ -277,7 +251,6 @@ Q44481,Pierre-Simon Laplace,French mathematician and astronomer (1749-1827),+174
 Q179126,John Ruskin,English writer and art critic (1819–1900),+1819-02-08T00:00:00Z,+1900-01-20T00:00:00Z,https://en.wikipedia.org/wiki/John_Ruskin
 Q3312923,Miguel Abensour,French philosopher specializing in political philosophy (1939-2017),+1939-02-13T00:00:00Z,+2017-04-22T00:00:00Z,https://en.wikipedia.org/wiki/Miguel_Abensour
 Q132524,Ayn Rand,Russian-born American writer and philosopher (1905–1982),+1905-02-02T00:00:00Z,+1982-03-06T00:00:00Z,https://en.wikipedia.org/wiki/Ayn_Rand
-Q2707309,Richard J. Bernstein,American philosopher,+1932-05-14T00:00:00Z,+2022-07-04T00:00:00Z,https://en.wikipedia.org/wiki/Richard_J._Bernstein
 Q180081,Cato the Elder,"Roman politician, soldier and writer (234–149 BC)",-0234-00-00T00:00:00Z,-0149-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Cato_the_Elder
 Q9381,Adam Smith,Scottish moral philosopher and political economist (1723-1790),+1723-06-05T00:00:00Z,+1790-07-17T00:00:00Z,https://en.wikipedia.org/wiki/Adam_Smith
 Q665984,Aristippus the Younger,ancient Greek philosopher,-0400-01-01T00:00:00Z,-0380-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Aristippus_the_Younger
@@ -288,14 +261,11 @@ Q78484,Rudolf Steiner,"Austrian social reformer, occultist and esotericist (1861
 Q3353450,Fakhr-al-Din Iraqi,Persian philosopher,+1213-06-10T00:00:00Z,+1289-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Fakhr_al-Din_Iraqi
 Q9397,Zhu Xi,"Chinese historian, Neoconfucian philosopher, poet, and politician during the Song dynasty (1130–1200)",+1130-10-18T00:00:00Z,+1200-04-23T00:00:00Z,https://en.wikipedia.org/wiki/Zhu_Xi
 Q11362,Avempace,Arab Andalusian polymath (c. 1085 – 1138),+1080-00-00T00:00:00Z,+1139-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Avempace
-Q454802,Ernesto Laclau,Argentine philosopher and political theorist (1935-2014),+1935-10-06T00:00:00Z,+2014-04-13T00:00:00Z,https://en.wikipedia.org/wiki/Ernesto_Laclau
 Q667385,Aristos of Ascalon,ancient Greek philosopher,-0050-00-00T00:00:00Z,-0020-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Aristus_of_Ascalon
 Q184980,Thomas Kuhn,"American historian, physicist and philosopher",+1922-07-18T00:00:00Z,+1996-06-17T00:00:00Z,https://en.wikipedia.org/wiki/Thomas_Kuhn
 Q229646,G. E. M. Anscombe,British analytic philosopher,+1919-03-18T00:00:00Z,+2001-01-05T00:00:00Z,https://en.wikipedia.org/wiki/G._E._M._Anscombe
-Q7039031,Nino Cocchiarella,American philosopher,+1933-01-01T00:00:00Z,,https://en.wikipedia.org/wiki/Nino_Cocchiarella
 Q172544,John Rawls,American political philosopher (1921–2002),+1921-02-21T00:00:00Z,+2002-11-24T00:00:00Z,https://en.wikipedia.org/wiki/John_Rawls
 Q4322534,Pavel Novgorodtsev,"Russian lawyer, philosopher, historian",+1866-02-16T00:00:00Z,+1924-04-23T00:00:00Z,https://en.wikipedia.org/wiki/Pavel_Novgorodtsev
-Q5720636,"Henry E. Kyburg, Jr.",American philosopher,+1928-10-09T00:00:00Z,+2007-10-30T00:00:00Z,https://en.wikipedia.org/wiki/Henry_E._Kyburg_Jr.
 Q157309,Simone Weil,"French philosopher, Christian mystic, writer and social activist",+1909-02-03T00:00:00Z,+1943-08-24T00:00:00Z,https://en.wikipedia.org/wiki/Simone_Weil
 Q8011,Avicenna,"Persian polymath, physician and philosopher (c.980–1037)",+0980-00-00T00:00:00Z,+1037-06-18T00:00:00Z,https://en.wikipedia.org/wiki/Avicenna
 Q152388,Theodor W. Adorno,"German philosopher, sociologist and theorist (1903–1969)",+1903-09-11T00:00:00Z,+1969-08-06T00:00:00Z,https://en.wikipedia.org/wiki/Theodor_W._Adorno
@@ -303,10 +273,8 @@ Q495259,Yi Ik,Korean philosopher (1681-1763),+1681-10-18T00:00:00Z,+1763-12-17T0
 Q21062238,Curtis Yarvin,American computer scientist and political theorist,+1973-06-25T00:00:00Z,,https://en.wikipedia.org/wiki/Curtis_Yarvin
 Q43347,Rumi,Sufi und Afghanischer Poet,+1207-09-30T00:00:00Z,+1273-12-17T00:00:00Z,https://en.wikipedia.org/wiki/Rumi
 Q12718,Auguste Comte,French philosopher and pioneer of positivism (1798-1857),+1798-01-19T00:00:00Z,+1857-09-05T00:00:00Z,https://en.wikipedia.org/wiki/Auguste_Comte
-Q16105913,Melvin Fitting,logician,+1942-01-24T00:00:00Z,,https://en.wikipedia.org/wiki/Melvin_Fitting
 Q5879,Johann Wolfgang von Goethe,"German writer, artist, natural scientist and politician (1749–1832)",+1749-08-28T00:00:00Z,+1832-03-22T00:00:00Z,https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe
 Q1322939,John Peckham,Archbishop of Canterbury,+1227-00-00T00:00:00Z,+1292-12-08T00:00:00Z,https://en.wikipedia.org/wiki/John_Peckham
-Q111637,Leon Henkin,American mathematician,+1921-04-19T00:00:00Z,+2006-11-01T00:00:00Z,https://en.wikipedia.org/wiki/Leon_Henkin
 Q132157,Zeno of Elea,Greek philosopher (c. 495 – c. 430 BC),-0490-00-00T00:00:00Z,-0425-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Zeno_of_Elea
 Q333922,William Whewell,English philosopher and historian of science (1794–1866),+1794-05-24T00:00:00Z,+1866-03-06T00:00:00Z,https://en.wikipedia.org/wiki/William_Whewell
 Q42063,Xuanzang,7th-century Chinese Buddhist monk and scholar,+0602-01-01T00:00:00Z,+0664-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Xuanzang
@@ -320,13 +288,11 @@ Q80612,Anaximenes of Miletus,Greek Ionian Pre-Socratic philosopher (c.586–c.52
 Q8027,Martin Luther King Jr.,American Baptist minister and civil rights leader (1929–1968),+1929-01-15T00:00:00Z,+1968-04-04T00:00:00Z,https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.
 Q312551,Kabir,15th-century Indian mystic poet and saint,+1398-00-00T00:00:00Z,+1518-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Kabir
 Q131805,John Dewey,"American philosopher, psychologist, and educational reformer (1859–1952)",+1859-10-20T00:00:00Z,+1952-06-01T00:00:00Z,https://en.wikipedia.org/wiki/John_Dewey
-Q1699663,John Corcoran,American logician,+1937-01-01T00:00:00Z,+2021-01-08T00:00:00Z,https://en.wikipedia.org/wiki/John_Corcoran_(logician)
 Q779523,William Ernest Hocking,American philosopher (1873-1966),+1873-08-10T00:00:00Z,+1966-06-12T00:00:00Z,https://en.wikipedia.org/wiki/William_Ernest_Hocking
 Q9358,Friedrich Nietzsche,German philosopher (1844–1900),+1844-10-15T00:00:00Z,+1900-08-25T00:00:00Z,https://en.wikipedia.org/wiki/Friedrich_Nietzsche
 Q205162,Isaiah Berlin,"Russo-British Jewish social and political theorist, philosopher and historian of ideas (1909-1997)",+1909-06-06T00:00:00Z,+1997-11-05T00:00:00Z,https://en.wikipedia.org/wiki/Isaiah_Berlin
 Q123382,Frithjof Schuon,"Swiss philosopher, poet and painter (1907-1998)",+1907-06-18T00:00:00Z,+1998-05-05T00:00:00Z,https://en.wikipedia.org/wiki/Frithjof_Schuon
 Q1234536,Colotes,ancient Greek philosopher,-0320-00-00T00:00:00Z,,https://en.wikipedia.org/wiki/Colotes
-Q26849480,Rineke Verbrugge,university teacher,+1965-03-12T00:00:00Z,,https://en.wikipedia.org/wiki/Rineke_Verbrugge
 Q381211,Gennadius Scholarius,Patriarch of Constantinople,+1400-01-01T00:00:00Z,+1473-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Gennadius_Scholarius
 Q2044035,Thomas Traherne,English poet,+1636-10-10T00:00:00Z,+1674-10-10T00:00:00Z,https://en.wikipedia.org/wiki/Thomas_Traherne
 Q44461,Richard Dawkins,"English ethologist, evolutionary biologist and author",+1941-03-26T00:00:00Z,,https://en.wikipedia.org/wiki/Richard_Dawkins
@@ -347,26 +313,23 @@ Q1283657,Aimoin,French monk and chronicler (c.960-c.1010),+0960-00-00T00:00:00Z,
 Q34670,Albert Camus,"French philosopher, author, and journalist",+1913-11-07T00:00:00Z,+1960-01-04T00:00:00Z,https://en.wikipedia.org/wiki/Albert_Camus
 Q243187,Photios I of Constantinople,9th Century Ecumenical Patriarch of Constantinople,+0827-00-00T00:00:00Z,+0896-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Photios_I_of_Constantinople
 Q37621,Thomas Hobbes,English philosopher (1588–1679),+1588-04-05T00:00:00Z,+1679-12-04T00:00:00Z,https://en.wikipedia.org/wiki/Thomas_Hobbes
-Q6793653,Mauricio Suárez,Spanish philosopher,+1968-10-05T00:00:00Z,,https://en.wikipedia.org/wiki/Mauricio_Suarez
 Q925716,Olympiodorus the Elder,Neoplatonist philosopher,+0500-01-01T00:00:00Z,+0600-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Olympiodorus_the_Elder
 Q365695,Moses of Chorene,5th-century Armenian historian,+0410-00-00T00:00:00Z,+0490-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Movses_Khorenatsi
 Q486291,Yi Hwang,Korean Confucian scholar (1502 -1571),+1501-01-01T00:00:00Z,+1570-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Yi_Hwang
 Q220313,Gemistus Pletho,Greek philosopher,+1355-01-01T00:00:00Z,+1452-06-26T00:00:00Z,https://en.wikipedia.org/wiki/Gemistos_Plethon
 Q2617709,Alexinus,ancient Greek philosopher,,-0265-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Alexinus
 Q55597400,Jean Dullaert,Renaissance philosopher,+1471-01-01T00:00:00Z,+1513-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Jan_Dullaert
-Q3625041,Aelius Antipater,Greek sophist and Roman governor,+0150-00-00T00:00:00Z,+0300-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Aelius_Antipater
+Q3625041,Aelius Antipater,Greek sophist and Roman governor,+200-00-00T00:00:00Z,+0268-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Aelius_Antipater
 Q448,Denis Diderot,French Enlightenment philosopher writer and encyclopædist (1713–1784),+1713-10-05T00:00:00Z,+1784-07-31T00:00:00Z,https://en.wikipedia.org/wiki/Denis_Diderot
 Q312546,William Stanley Jevons,English economist and logician,+1835-09-01T00:00:00Z,+1882-08-13T00:00:00Z,https://en.wikipedia.org/wiki/William_Stanley_Jevons
 Q46830,Robert Hooke,"English natural philosopher, architect and polymath",+1635-07-18T00:00:00Z,+1703-03-03T00:00:00Z,https://en.wikipedia.org/wiki/Robert_Hooke
 Q47667,Hu Shih,"Chinese philosopher, essayist and diplomate",+1891-12-17T00:00:00Z,+1962-02-24T00:00:00Z,https://en.wikipedia.org/wiki/Hu_Shih
-Q36303,Thales,ancient Greek philosopher and mathematician,-0650-00-00T00:00:00Z,-0548-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Thales_of_Miletus
+Q36303,Thales,ancient Greek philosopher and mathematician,-0626-00-00T00:00:00Z,-0548-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Thales_of_Miletus
 Q302835,Nasir al-Din al-Tusi,Persian astronomer (1201-1274),+1201-00-00T00:00:00Z,+1273-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Nasir_al-Din_al-Tusi
 Q34943,Ptolemy,"2nd-century Roman mathematician, astronomer, geographer",+0100-00-00T00:00:00Z,+0170-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Ptolemy
 Q524048,Gentile da Foligno,Italian physician,+1280-00-00T00:00:00Z,+1348-06-18T00:00:00Z,https://en.wikipedia.org/wiki/Gentile_da_Foligno
 Q179759,Al-Kindi,"Muslim Arab philosopher, mathematician and physician (c.801–873)",+0801-01-01T00:00:00Z,+0873-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Al-Kindi
-Q6175878,Jeffrey Bub,Physicist and philosopher of science,+1942-01-01T00:00:00Z,,https://en.wikipedia.org/wiki/Jeffrey_Bub
 Q5264,Hippocrates,Greek physician ( c. 460 – c. 370 BC),-0460-00-00T00:00:00Z,-0370-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Hippocrates
-Q7412735,Samuel T. Francis,American journalist and writer (1947–2005),+1947-04-29T00:00:00Z,+2005-02-15T00:00:00Z,https://en.wikipedia.org/wiki/Sam_Francis_(writer)
 Q868,Aristotle,Classical Greek philosopher and polymath (384-322 BC),-0384-00-00T00:00:00Z,-0322-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Aristotle
 Q672145,Al Sayed Musa al-Sadr,Lebanese politician (1928-),+1928-04-15T00:00:00Z,+1978-08-31T00:00:00Z,https://en.wikipedia.org/wiki/Musa_al-Sadr
 Q307,Galileo Galilei,Italian polymath,+1564-02-15T00:00:00Z,+1642-01-08T00:00:00Z,https://en.wikipedia.org/wiki/Galileo_Galilei
@@ -396,7 +359,6 @@ Q817484,Benjamin Fondane,Romanian-French writer,+1898-11-14T00:00:00Z,+1944-10-0
 Q16388668,Hovhannes Erznkatsi,Armenian writer,+1230-00-00T00:00:00Z,+1293-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Hovhannes_Erznkatsi
 Q306514,Abbie Hoffman,American activist (1936–1989),+1936-11-30T00:00:00Z,+1989-04-12T00:00:00Z,https://en.wikipedia.org/wiki/Abbie_Hoffman
 Q561367,Lucius Aelius Stilo Praeconinus,Roman philologist (c. 154 – 74 BC),-0154-01-01T00:00:00Z,-0074-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Lucius_Aelius_Stilo_Praeconinus
-Q2493557,Vladimir Pashuto,Russian historian,+1918-04-19T00:00:00Z,+1983-06-10T00:00:00Z,https://en.wikipedia.org/wiki/Vladimir_Pashuto
 Q184226,Gilles Deleuze,French philosopher (1925–1995),+1925-01-18T00:00:00Z,+1995-11-04T00:00:00Z,https://en.wikipedia.org/wiki/Gilles_Deleuze
 Q619,Nicolaus Copernicus,Polish mathematician and astronomer (1473–1543),+1473-02-19T00:00:00Z,+1543-05-24T00:00:00Z,https://en.wikipedia.org/wiki/Nicolaus_Copernicus
 Q42458,Anaximander,pre-Socratic Greek philosopher,-0610-01-01T00:00:00Z,-0547-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Anaximander
@@ -405,7 +367,6 @@ Q75814,Wilhelm Wundt,"German physician, physiologist, philosopher and professor 
 Q189506,Aristippus,"Greek philosopher, founder of Cyrenaicism (c.435–c.356 BCE)",-0434-00-00T00:00:00Z,-0355-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Aristippus
 Q171677,Roger Bacon,medieval philosopher and theologian,+1220-00-00T00:00:00Z,+1292-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Roger_Bacon
 Q449538,Alexander Zinoviev,Russian writer,+1922-10-29T00:00:00Z,+2006-05-10T00:00:00Z,https://en.wikipedia.org/wiki/Alexander_Zinoviev
-Q1063699,Charles Beitz,American political theorist,+1949-07-20T00:00:00Z,,https://en.wikipedia.org/wiki/Charles_Beitz
 Q695534,Tyrannion of Amisus,ancient Greek grammarian,,-0026-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Tyrannion_of_Amisus
 Q4604,Confucius,Chinese philosopher and politician (551–479 BCE),-0552-10-09T00:00:00Z,-0479-03-09T00:00:00Z,https://en.wikipedia.org/wiki/Confucius
 Q1244262,David of Dinant,Pantheistic philosopher,+1160-01-01T00:00:00Z,+1217-01-01T00:00:00Z,https://en.wikipedia.org/wiki/David_of_Dinant
@@ -415,7 +376,6 @@ Q9061,Karl Marx,German-born philosopher (1818–1883),+1818-05-05T00:00:00Z,+188
 Q355245,Henry George,American political economist and journalist (1839–1897),+1839-09-02T00:00:00Z,+1897-10-29T00:00:00Z,https://en.wikipedia.org/wiki/Henry_George
 Q4069325,Aristoteles of Mytilene,2nd century Greek Peripatetic philosopher,,,https://en.wikipedia.org/wiki/Aristotle_of_Mytilene
 Q9387,Max Weber,"German sociologist, philosopher, and political economist (1864–1920)",+1864-04-21T00:00:00Z,+1920-06-14T00:00:00Z,https://en.wikipedia.org/wiki/Max_Weber
-Q332905,J. Barkley Rosser,American logician,+1907-12-06T00:00:00Z,+1989-09-05T00:00:00Z,https://en.wikipedia.org/wiki/J._Barkley_Rosser
 Q9554,Martin Luther,"German priest, theologian and author (1483–1546)",+1483-11-10T00:00:00Z,+1546-02-18T00:00:00Z,https://en.wikipedia.org/wiki/Martin_Luther
 Q9391,Ludwig Wittgenstein,Austrian-British philosopher (1889–1951),+1889-04-26T00:00:00Z,+1951-04-29T00:00:00Z,https://en.wikipedia.org/wiki/Ludwig_Wittgenstein
 Q47154,Lucretius,1st-century BC Roman poet and philosopher,-0094-00-00T00:00:00Z,-0055-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Lucretius
@@ -423,18 +383,15 @@ Q295012,John Searle,American philosopher,+1932-07-31T00:00:00Z,,https://en.wikip
 Q2939300,Carlos Astrada,Argentine philosopher (1894-1970),+1894-02-26T00:00:00Z,+1970-12-23T00:00:00Z,https://en.wikipedia.org/wiki/Carlos_Astrada
 Q212639,Maurice Merleau-Ponty,French phenomenological philosopher,+1908-03-14T00:00:00Z,+1961-05-03T00:00:00Z,https://en.wikipedia.org/wiki/Maurice_Merleau-Ponty
 Q1430,Marcus Aurelius,Roman emperor from 161 to 180 and Stoic philosopher,+0121-04-26T00:00:00Z,+0180-03-17T00:00:00Z,https://en.wikipedia.org/wiki/Marcus_Aurelius
-Q7609232,Stephen Francis Barker,American philosopher of mathematics (1927-2019),+1927-01-11T00:00:00Z,+2019-12-16T00:00:00Z,https://en.wikipedia.org/wiki/Stephen_F._Barker
 Q13230,Ferdinand de Saussure,Swiss linguist (1857-1913),+1857-11-26T00:00:00Z,+1913-02-22T00:00:00Z,https://en.wikipedia.org/wiki/Ferdinand_de_Saussure
 Q311160,Hussein-Ali Montazeri,"Iranian Islamic theologian, Islamic democracy activist, writer and human rights activist (1922-2009)",+1922-09-22T00:00:00Z,+2009-12-20T00:00:00Z,https://en.wikipedia.org/wiki/Hussein-Ali_Montazeri
 Q2287807,Simone Simoni,Italian philosopher,+1532-01-01T00:00:00Z,+1602-04-02T00:00:00Z,https://en.wikipedia.org/wiki/Simone_Simoni
 Q83331,Louis de Broglie,Nobel laureate credited to pioneer the discovery of wave character of matter,+1892-08-15T00:00:00Z,+1987-03-19T00:00:00Z,https://en.wikipedia.org/wiki/Louis_de_Broglie
-Q3482420,Shmuel Trigano,French sociologist,+1948-01-01T00:00:00Z,,https://en.wikipedia.org/wiki/Shmuel_Trigano
 Q144535,Herbert Spencer,English philosopher and political theorist (1820–1903),+1820-04-27T00:00:00Z,+1903-12-08T00:00:00Z,https://en.wikipedia.org/wiki/Herbert_Spencer
 Q165792,Edmund Burke,"Anglo-Irish statesman, political theorist and conservative philosopher (1729–1797)",+1729-01-12T00:00:00Z,+1797-07-09T00:00:00Z,https://en.wikipedia.org/wiki/Edmund_Burke
-Q8778,Galen,"Greek physician, surgeon and philosopher (129-c.216)",+0200-00-00T00:00:00Z,+0300-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Galen
+Q8778,Galen,"Greek physician, surgeon and philosopher (129-c.216)",+0129-00-00T00:00:00Z,+0216-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Galen
 Q309854,Joseph de Maistre,"Savoyard philosopher, writer, lawyer, and diplomat (1753-1821)",+1753-04-01T00:00:00Z,+1821-02-26T00:00:00Z,https://en.wikipedia.org/wiki/Joseph_de_Maistre
 Q60030,Herbert Marcuse,"German philosopher, sociologist, and political theorist (1898–1979)",+1898-07-19T00:00:00Z,+1979-07-29T00:00:00Z,https://en.wikipedia.org/wiki/Herbert_Marcuse
-Q569063,Roberto Mangabeira Unger,Brazilian philosopher and politician,+1947-03-24T00:00:00Z,,https://en.wikipedia.org/wiki/Roberto_Mangabeira_Unger
 Q10261,Pythagoras,Greek philosopher (c. 570 – c. 495 BC),-0550-00-00T00:00:00Z,-0490-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Pythagoras
 Q160640,Raymond Aron,"French philosopher, sociologist, journalist, and political scientist (1905–1983)",+1905-03-14T00:00:00Z,+1983-10-17T00:00:00Z,https://en.wikipedia.org/wiki/Raymond_Aron
 Q435300,Francesco Patrizi,Venetian philosopher and scientist (1529-1597),+1529-04-25T00:00:00Z,+1597-02-06T00:00:00Z,https://en.wikipedia.org/wiki/Franciscus_Patricius
@@ -471,10 +428,9 @@ Q179266,Jiddu Krishnamurti,"Indian spiritual philosopher, mystic, speaker and wr
 Q6527,Jean-Jacques Rousseau,"Genevan philosopher, writer, and composer (1712–1778)",+1712-06-28T00:00:00Z,+1778-07-02T00:00:00Z,https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau
 Q1393417,Ali ibn Sahl Rabban al-Tabari,Persian scholar and physician,+0838-01-01T00:00:00Z,+0870-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Ali_ibn_Sahl_Rabban_al-Tabari
 Q178709,Giambattista Vico,"Italian philosopher, rhetorician, historian and jurist",+1668-06-23T00:00:00Z,+1744-01-23T00:00:00Z,https://en.wikipedia.org/wiki/Giambattista_Vico
-Q1957878,Ephrem Mtsire,"11th century Georgian monk, philosopher and philologist",+1001-00-00T00:00:00Z,+1101-01-18T00:00:00Z,https://en.wikipedia.org/wiki/Ephrem_Mtsire
+Q1957878,Ephrem Mtsire,"11th century Georgian monk, philosopher and philologist",+1025-00-00T00:00:00Z,+1101-01-18T00:00:00Z,https://en.wikipedia.org/wiki/Ephrem_Mtsire
 Q154959,Hugo Grotius,Dutch jurist and scholar (1583-1645),+1583-04-10T00:00:00Z,+1645-08-28T00:00:00Z,https://en.wikipedia.org/wiki/Hugo_Grotius
 Q1189157,Nausiphanes,ancient Greek philosopher,-0400-00-00T00:00:00Z,-0370-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Nausiphanes
-Q160456,Angela Davis,"American political activist, scholar, and author",+1944-01-26T00:00:00Z,,https://en.wikipedia.org/wiki/Angela_Davis
 Q154332,Alcuin,"8th century English scholar, clergyman, poet, and teacher",+0724-00-00T00:00:00Z,+0804-05-19T00:00:00Z,https://en.wikipedia.org/wiki/Alcuin
 Q248578,Chrysanthius,ancient Greek philosopher,+0310-01-01T00:00:00Z,+0390-01-01T00:00:00Z,https://en.wikipedia.org/wiki/Chrysanthius
 Q370389,Louis Marin,French philosopher,+1931-05-22T00:00:00Z,+1992-10-29T00:00:00Z,https://en.wikipedia.org/wiki/Louis_Marin_(philosopher)
@@ -494,7 +450,6 @@ Q326459,Dmitry Merezhkovsky,"Russian novelist, poet, religious thinker, and lite
 Q5638786,Hagnon of Tarsus,ancient Greek rhetorician and philosopher,,,https://en.wikipedia.org/wiki/Hagnon_of_Tarsus
 Q160362,Theophrastus,Greek philosopher (c.371-c.287 BC),-0371-00-00T00:00:00Z,-0287-00-00T00:00:00Z,https://en.wikipedia.org/wiki/Theophrastus
 Q242616,Patricia Churchland,Canadian philosopher,+1943-07-16T00:00:00Z,,https://en.wikipedia.org/wiki/Patricia_Churchland
-Q4734342,Alon Harel,Israeli academic,+1957-01-01T00:00:00Z,,https://en.wikipedia.org/wiki/Alon_Harel
 Q17303834,Ibn al-Khammar,"East Syriac philosopher, physician, and translator (942-after 1017)",+0942-11-01T00:00:00Z,,https://en.wikipedia.org/wiki/Ibn_al-Khammar
 Q400887,Ahmad ibn Zayn al-Din al-Ahsa'i,Founder of Shaykhí school of Twelver Shiism (1753–1826),+1753-05-00T00:00:00Z,+1826-06-27T00:00:00Z,https://en.wikipedia.org/wiki/Shaykh_Ahmad
 Q160270,David Ricardo,"British political economist, broker and politician (1772-1823)",+1772-04-18T00:00:00Z,+1823-09-11T00:00:00Z,https://en.wikipedia.org/wiki/David_Ricardo
