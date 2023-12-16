@@ -14,11 +14,17 @@ const DetailContainer = styled.div`
 const GraphWrapper = styled.div`
   flex: 1;
   display: flex;
+  flex-direction: column; // Change to column layout
   justify-content: center;
   align-items: center;
   max-width: 50%;
-  // max-height:100%;
-  height:100%;
+  height: 100%;
+`;
+
+const GraphDescription = styled.div`
+  text-align: center;
+  font-size: 12px; // Adjust the font size as needed
+  margin-bottom: 10px; // Space between the text and the graph
 `;
 
 const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) => {
@@ -327,11 +333,11 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
 
   return (
     <DetailContainer className={className}>
-      중심 철학자와 유사할수록 노드 사이의 거리가 가깝습니다.
         <DetailFacts philosopherDetails={philosopherDetails} />
-        
         <GraphWrapper>
-            
+            <GraphDescription>
+              AI 분석 결과 위키피디아 문서가 중심 철학자와 유사할수록 가까이 위치합니다.
+            </GraphDescription>
             <svg ref={d3Container} />
         </GraphWrapper>
     </DetailContainer>
