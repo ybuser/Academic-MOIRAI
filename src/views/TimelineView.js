@@ -428,16 +428,22 @@ const TimelineView = (props) => {
     }
   }
 
-  // Function to handle search input changes
   const handleSearchChange = (event) => {
-    const query = event.target.value;
+    const query = event.target.value.toLowerCase();
     setSearchQuery(query);
-
+  
     if (query.length > 0) {
-      const results = data.filter(philosopher =>
-        philosopher.name.toLowerCase().includes(query.toLowerCase())
-      );
-      setSearchResults(results);
+      const sortedResults = data
+        .filter(philosopher => philosopher.name.toLowerCase().includes(query))
+        .sort((a, b) => {
+          const aStartsWith = a.name.toLowerCase().startsWith(query);
+          const bStartsWith = b.name.toLowerCase().startsWith(query);
+          if (aStartsWith && !bStartsWith) return -1;
+          if (!aStartsWith && bStartsWith) return 1;
+          return a.name.localeCompare(b.name); // Additional sorting can be done here if needed
+        });
+  
+      setSearchResults(sortedResults);
     } else {
       setSearchResults([]);
     }

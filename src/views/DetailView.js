@@ -327,8 +327,11 @@ const DetailView = ({setSelectedPhilosopher, selectedPhilosopher, className}) =>
 
   return (
     <DetailContainer className={className}>
+      중심 철학자와 유사할수록 노드 사이의 거리가 가깝습니다.
         <DetailFacts philosopherDetails={philosopherDetails} />
+        
         <GraphWrapper>
+            
             <svg ref={d3Container} />
         </GraphWrapper>
     </DetailContainer>
