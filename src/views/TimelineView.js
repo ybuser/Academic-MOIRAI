@@ -59,7 +59,8 @@ const TimelineView = (props) => {
     backgroundColor: 'white',
     padding: '5px',
     borderRadius: '5px',
-    border: '1px solid #ddd'
+    border: '1px solid #ddd',
+    top: '3px'
   };
 
   const computeBarYPosition = (data, direction = "center") => {
