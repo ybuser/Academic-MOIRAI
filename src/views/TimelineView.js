@@ -15,7 +15,6 @@ const TimelineView = (props) => {
   const [desiredVisiblePercentage, setDesiredVisiblePercentage] = useState(80); // Initial value set to 100%
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
-  const [nodeCount, setNodeCount] = useState(0);
 
   let data = props.data;
   let relationships = props.relationships; 
@@ -483,26 +482,6 @@ const TimelineView = (props) => {
     backgroundColor: '#f0f0f0' // Color change on hover
   };
 
-  const handleSliderMouseMove = (event) => {
-    const tooltip = document.getElementById('slider-tooltip');
-    const slider = event.target;
-    const sliderRect = slider.getBoundingClientRect();
-  
-    const tooltipX = event.clientX - sliderRect.left;
-    tooltip.style.left = tooltipX + 'px';
-    tooltip.style.visibility = 'visible';
-  
-    const newValue = 100 - slider.value;
-    const newCount = props.data.filter(node => node.priority >= newValue / 100).length;
-    setNodeCount(newCount);
-    tooltip.textContent = 'Nodes: ' + newCount; 
-  };
-
-  const handleSliderMouseOut = () => {
-    const tooltip = document.getElementById('slider-tooltip');
-    tooltip.style.visibility = 'hidden';
-  };
-
   return (
     <div style={{chartHeight}}>
       <div style={{ textAlign: 'left', position: 'sticky', top: 0, backgroundColor: 'white', zIndex: 100, fontSize: '11px', display: 'flex', alignItems: 'center' }}>
@@ -522,20 +501,13 @@ const TimelineView = (props) => {
           -
         </Button>
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          {/* <div id="slider-tooltip" style={{ 
-            position: 'absolute', 
-            bottom: '20px', 
-            visibility: 'hidden', 
-          }}>Nodes: {nodeCount}</div> */}
-          <span style={{ marginLeft: '20x', marginRight: '10px' }}>Show less</span>
+          <span style={{ marginLeft: '20px', marginRight: '10px' }}>Show less</span>
           <input
             type="range"
             min="10"
             max="100"
             value={desiredVisiblePercentage}
             onChange={(e) => setDesiredVisiblePercentage(e.target.value)}
-            // onMouseMove ={handleSliderMouseMove}
-            // onMouseOut={handleSliderMouseOut}
             style={{ /* Styles for the scrollbar */ }}
           />
           <span style={{ /* "Show more" 레이블 스타일 */ marginLeft: '10px' }}>Show more</span>
