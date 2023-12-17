@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Academic-MOIRAI/static/css/main.78fe251e.css",
+    "main.js": "/Academic-MOIRAI/static/js/main.3972dd12.js",
+    "index.html": "/Academic-MOIRAI/index.html",
+    "main.78fe251e.css.map": "/Academic-MOIRAI/static/css/main.78fe251e.css.map",
+    "main.3972dd12.js.map": "/Academic-MOIRAI/static/js/main.3972dd12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78fe251e.css",
+    "static/js/main.3972dd12.js"
+  ]
+}
